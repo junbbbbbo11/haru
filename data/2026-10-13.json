@@ -4,7 +4,7 @@
   "date": "2026-10-13",
   "weekday": "화요일",
   "vol": 1,
-  "generated_at": "2026-10-13T22:12:54+09:00",
+  "generated_at": "2026-10-13T22:26:26+09:00",
   "edit_mode": "fallback",
   "indicators": [
     {
@@ -22,23 +22,23 @@
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1341.7,
-      "change": -1.3,
-      "change_pct": -0.1,
+      "value": 1340.8,
+      "change": -2.2,
+      "change_pct": -0.16,
       "direction": "down",
-      "display": "1,341.7원",
-      "change_display": "▼ 0.10%"
+      "display": "1,340.8원",
+      "change_display": "▼ 0.16%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 112613000.0,
-      "change": 1750000.0,
-      "change_pct": 1.58,
+      "value": 112895000.0,
+      "change": 2032000.0,
+      "change_pct": 1.83,
       "direction": "up",
-      "display": "11,261만원",
-      "change_display": "▲ 1.58%"
+      "display": "11,290만원",
+      "change_display": "▲ 1.83%"
     }
   ],
   "weather": {
@@ -52,7 +52,7 @@
   "cover_stories": [
     {
       "keyword": "상속",
-      "headline": "30년 상속세 공제 기준 그대로, 현실화 필요…임광현 청장 \"재경부 협의할 것\" - 머니투데이",
+      "headline": "30년 상속세 공제 기준 그대로, 현실화 필요…임광현 청장 \"재경부 협의할 것\"",
       "summary": "",
       "source": "머니투데이",
       "link": "https://www.mt.co.kr/economy/2026/10/13/2026101315582246807"
@@ -100,19 +100,19 @@
       "name": "국제",
       "items": [
         {
+          "headline": "북중 신압록강대교 개통 임박?…북측 관문에 대형 국기 걸려",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795986",
+          "original_title": "북중 신압록강대교 개통 임박?…북측 관문에 대형 국기 걸려",
+          "coverage": 5
+        },
+        {
           "headline": "인도 Z세대 '바퀴벌레당' 지도부, 시위 금지 장소 침입 후 연행돼",
           "summary": "",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795619",
           "original_title": "인도 Z세대 '바퀴벌레당' 지도부, 시위 금지 장소 침입 후 연행돼",
-          "coverage": 5
-        },
-        {
-          "headline": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
-          "summary": "",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796057",
-          "original_title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
           "coverage": 5
         }
       ]
@@ -172,20 +172,20 @@
       "name": "뷰티",
       "items": [
         {
+          "headline": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
+          "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
+          "coverage": 7
+        },
+        {
           "headline": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
           "summary": "",
           "source": "인더스트리뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TdmRadnBFLU8wTVRiVFNXOWNHbWxNNldzOGtoVGxlaEJ0Z0FUUDFvLWUwaGFIcHJEb2c0T28xaVoxZkpEUlRqZ2ZCZWh5S1Zvamh5NE5rSFVyR0I1eVFHbW53VEVSbWduRlB3akNPLUxEUQ?oc=5",
           "original_title": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
           "coverage": 7
-        },
-        {
-          "headline": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
-          "summary": "",
-          "source": "장업신문",
-          "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
-          "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
-          "coverage": 6
         }
       ]
     },
@@ -222,11 +222,11 @@
       "name": "스포츠",
       "items": [
         {
-          "headline": "한화, 11승 아시아쿼터 투수 왕옌청과 30만 달러 재계약",
+          "headline": "'88 올림픽의 유산' 서울올림픽레거시포럼 2026 개막",
           "summary": "",
-          "source": "뉴시스",
-          "link": "https://www.newsis.com/view/NISX20261013_0003823795",
-          "original_title": "한화, 11승 아시아쿼터 투수 왕옌청과 30만 달러 재계약",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795697",
+          "original_title": "'88 올림픽의 유산' 서울올림픽레거시포럼 2026 개막",
           "coverage": 5
         }
       ]
