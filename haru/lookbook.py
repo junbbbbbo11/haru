@@ -96,7 +96,10 @@ def _hf_space(prompt: str, cfg: dict, seed: int) -> bytes:
     space = cfg.get("hf_space", "black-forest-labs/FLUX.1-schnell")
     if space not in _hf_clients:
         token = os.environ.get("HF_TOKEN", "").strip() or None
-        _hf_clients[space] = Client(space, hf_token=token, verbose=False)
+        try:
+            _hf_clients[space] = Client(space, token=token, verbose=False)
+        except TypeError:
+            _hf_clients[space] = Client(space, hf_token=token, verbose=False)
     result = _hf_clients[space].predict(
         prompt=prompt, seed=seed, randomize_seed=False, width=832, height=1040,
         num_inference_steps=int(cfg.get("hf_steps", 4)), api_name="/infer",

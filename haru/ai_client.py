@@ -52,7 +52,7 @@ class OpenAICompatibleClient:
     def __init__(self, name: str, model: str, api_key: str, base_url: str | None = None,
                  reasoning_effort: str | None = None, timeout: int = 120,
                  max_workers: int = 5, prompt_candidates: int = 25, snippet_chars: int = 200,
-                 json_mode: bool = True, min_interval: float = 0.0):
+                 json_mode: bool = True, min_interval: float = 0.0, max_tokens: int | None = None):
         from openai import OpenAI
 
         self.name = name
@@ -64,6 +64,7 @@ class OpenAICompatibleClient:
         self.prompt_candidates = prompt_candidates
         self.snippet_chars = snippet_chars
         self.json_mode = json_mode
+        self.max_tokens = max_tokens
         self.min_interval = min_interval          # 요청 사이 최소 간격(초) — 무료 등급 속도 제한
         self._last_call = 0.0
         self._gate = threading.Lock()
@@ -78,20 +79,26 @@ class OpenAICompatibleClient:
             extra["reasoning_effort"] = self.reasoning_effort
         if self.json_mode:
             extra["response_format"] = {"type": "json_object"}
+        if self.max_tokens:
+            extra["max_tokens"] = self.max_tokens
         with self._gate:  # 간격 제한이 있으면 한 번에 하나씩, 정해진 간격을 두고 보낸다
-            wait = self._last_call + self.min_interval - time.monotonic()
-            if wait > 0:
-                time.sleep(wait)
-            try:
-                resp = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
-                    **extra,
-                )
-            except Exception as e:
-                raise AICallError(f"{self.name} 호출 실패: {e}") from e
-            finally:
-                self._last_call = time.monotonic()
+            for empty_try in range(3):  # 무료 등급은 가끔 빈 응답을 준다 → 간격을 두고 다시
+                wait = self._last_call + self.min_interval - time.monotonic()
+                if wait > 0:
+                    time.sleep(wait)
+                try:
+                    resp = self.client.chat.completions.create(
+                        model=self.model,
+                        messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+                        **extra,
+                    )
+                except Exception as e:
+                    raise AICallError(f"{self.name} 호출 실패: {e}") from e
+                finally:
+                    self._last_call = time.monotonic()
+                if getattr(resp, "choices", None) and (resp.choices[0].message.content or "").strip():
+                    break
+                log.info("    (빈 응답 → 다시 요청 %d)", empty_try + 1)
 
         if getattr(resp, "usage", None):
             with self._lock:
@@ -144,7 +151,8 @@ def make_client(ai_cfg: dict):
         log.info("AI: Pollinations 무료 (%s) — 15초 간격으로 차례대로 호출", model)
         return OpenAICompatibleClient("Pollinations", model, "none", base_url=POLLINATIONS_URL,
                                       timeout=timeout, max_workers=1, prompt_candidates=15, snippet_chars=90,
-                                      json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 16)))
+                                      json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 16)),
+                                      max_tokens=3000)
 
     log.warning("알 수 없는 AI provider '%s' → 원문 헤드라인으로 발행", provider)
     return None

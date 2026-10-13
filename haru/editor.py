@@ -24,7 +24,9 @@ SYSTEM = """너는 한국의 고급 매거진 '하루 한 장'의 뉴스 에디�
 - 정치적으로 중립. 특정 정당·인물·진영을 평가하는 형용사를 넣지 않고, 사실과 각 측의 입장만 전한다.
 
 [사실]
-- 주어진 제목과 요약문에 있는 사실만 쓴다. 숫자·이름·날짜를 지어내거나 추측하지 않는다.
+- 주어진 제목과 요약문에 있는 사실만 쓴다. 숫자·이름·날짜·국적·직함을 지어내거나 추측하지 않는다.
+- 숫자는 원문에 적힌 그대로 쓴다(단위를 바꾸거나 계산하지 않는다). 원문에 없는 수치는 쓰지 않는다.
+- 확실하지 않은 내용은 빼고, 짧더라도 정확하게 쓴다.
 - 기사 문장을 그대로 베끼지 말고 반드시 너의 새 문장으로 다시 쓴다.
 - 한국어 맞춤법과 띄어쓰기를 정확히 지킨다. 단어 사이를 붙여 쓰지 않는다.
 
@@ -56,6 +58,13 @@ def _copied(text: str, originals: list[str]) -> bool:
     return any(t[i : i + COPY_WINDOW] in src for i in range(len(t) - COPY_WINDOW + 1))
 
 
+_NUM = re.compile(r"\d[\d,.]*\d|\d")
+
+
+def _numbers(text: str) -> set[str]:
+    return {n.replace(",", "").rstrip(".") for n in _NUM.findall(text or "")}
+
+
 def _check_text(headline, summary, originals: list[str]) -> str | None:
     """문제가 있으면 이유를, 없으면 None."""
     if not isinstance(headline, str) or not isinstance(summary, str):
@@ -69,6 +78,10 @@ def _check_text(headline, summary, originals: list[str]) -> str | None:
         return "headline에 띄어쓰기가 없음 — 단어 사이를 띄어 써야 함"
     if len(s) >= 20 and s.count(" ") < 3:
         return "summary에 띄어쓰기가 거의 없음 — 맞춤법대로 띄어 써야 함"
+    src_nums = _numbers(" ".join(o for o in originals if o))
+    bad = sorted(n for n in _numbers(h + " " + s) if n not in src_nums)
+    if bad:
+        return f"원문에 없는 숫자 {', '.join(bad)} — 숫자는 원문 그대로만 써야 함"
     if any(_norm(h) == _norm(o) for o in originals):
         return "headline이 원문 제목과 똑같음 — 새로 써야 함"
     if _copied(s, originals):
@@ -308,17 +321,17 @@ def edit_all(client, raw: dict, fallback: dict, n: int, today, weekday: str) -> 
         results = list(pool.map(do_section, [s for s in raw.get("sections", []) if s["candidates"]]))
 
     # 섹션끼리, 그리고 커버와 겹치는 이슈 정리
-    used = [_bigrams(t) for t in cover_titles]
+    used = [_bigrams(t) for t in cover_titles] + [_bigrams(c["headline"]) for c in covers]
     sections = []
     for sec, items, ok in results:
         total_parts += 1
         ai_parts += ok
         kept = []
         for it in items:
-            g = _bigrams(it.get("original_title", it["headline"]))
-            if any(_similar(g, u) for u in used):
+            grams = [_bigrams(it.get("original_title", it["headline"])), _bigrams(it["headline"])]
+            if any(_similar(g, u) for g in grams for u in used):
                 continue
-            used.append(g)
+            used.extend(grams)
             kept.append(it)
         if kept:
             sections.append({"id": sec["id"], "name": sec["name"], "items": kept})
