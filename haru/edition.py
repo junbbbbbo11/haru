@@ -6,7 +6,7 @@ AI 편집이 없거나 실패하면 build_fallback()이 원문 헤드라인으�
 import json
 import logging
 
-from .collect import _bigrams, _similar
+from .collect import _bigrams, _is_korean, _similar
 from .config import DATA_DIR, RAW_DIR, WEEKDAYS
 
 log = logging.getLogger("haru.edition")
@@ -52,7 +52,9 @@ def build_fallback(raw: dict, items_per_section: int = 2) -> dict:
         return True
 
     covers = []
-    for t in raw.get("trends", []):
+    # 한글 검색어(국내 이슈)를 먼저, 영어·외국어 검색어는 뒤로
+    trends = sorted(raw.get("trends", []), key=lambda t: not _is_korean(t["keyword"]))
+    for t in trends:
         if len(covers) >= 3:
             break
         if t["news"] and fresh(t["news"][0]["title"]):

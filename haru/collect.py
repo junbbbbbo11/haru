@@ -52,6 +52,14 @@ def _split_google_title(title: str, source_title: str) -> tuple[str, str]:
     return title.strip(), source or "구글 뉴스"
 
 
+def _strip_source(title: str, source: str) -> str:
+    """제목 끝에 붙은 ' - 매체명' / ' | 매체명' 을 떼어낸다."""
+    for sep in (" - ", " | ", " : "):
+        if source and title.endswith(sep + source):
+            return title[: -len(sep + source)].strip()
+    return title
+
+
 _NOISE = re.compile(r"\[[^\]]*\]|\([^)]*\)|【[^】]*】|<[^>]*>")
 
 
@@ -100,6 +108,8 @@ def fetch_feed(name: str, url: str, hours: int, limit: int, timeout: int) -> lis
             title, source = _split_google_title(title, src.get("title", ""))
             # 구글 뉴스는 같은 사건의 관련 기사를 <li>로 묶어 준다 → 화제성 지표
             related = max(1, entry.get("summary", "").count("<li>"))
+        else:
+            title = _strip_source(title, name)
         if not title or not entry.get("link"):
             continue
 
@@ -251,7 +261,7 @@ def collect_trends(sources: dict, cfg: dict) -> list[dict]:
                 fields = {_local(c.tag): _clean(c.text or "") for c in child}
                 if fields.get("news_item_title") and fields.get("news_item_url"):
                     news.append({
-                        "title": fields["news_item_title"],
+                        "title": _strip_source(fields["news_item_title"], fields.get("news_item_source", "")),
                         "source": fields.get("news_item_source", ""),
                         "link": fields["news_item_url"],
                     })
