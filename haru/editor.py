@@ -87,10 +87,10 @@ def _ask(client, user: str, validate):
     raise ValueError(last_err)
 
 
-def _cand_line(i, c) -> str:
+def _cand_line(i, c, snippet_chars: int = 200) -> str:
     line = f"[{i}] (보도 매체 {c.get('coverage', 1)}곳) {c['title']} — {c['source']}"
     if c.get("snippet"):
-        line += f"\n    요약문: {c['snippet']}"
+        line += f"\n    요약문: {c['snippet'][:snippet_chars]}"
     others = [a["title"] for a in c.get("also", [])[:2]]
     if others:
         line += "\n    다른 매체 제목: " + " / ".join(others)
@@ -167,11 +167,12 @@ JSON 형식:
 def edit_section(client, sec: dict, n: int, cover_titles: list[str]) -> list[dict]:
     covered = [_bigrams(t) for t in cover_titles]
     cands = [c for c in sec["candidates"] if not any(_similar(_bigrams(c["title"]), g) for g in covered)]
+    cands = cands[: getattr(client, "prompt_candidates", 25)]
     if not cands:
         return []
 
     user = f"[섹션] {sec['name']}\n\n최근 24시간 '{sec['name']}' 기사 후보다. '보도 매체'는 이 사건을 다룬 매체 수(화제성)다.\n\n"
-    user += "\n".join(_cand_line(i, c) for i, c in enumerate(cands))
+    user += "\n".join(_cand_line(i, c, getattr(client, "snippet_chars", 200)) for i, c in enumerate(cands))
     user += f"""
 
 화제성과 중요도가 가장 높은 이슈를 최대 {n}개 골라 헤드라인과 요약을 새로 써라.
@@ -297,7 +298,7 @@ def edit_all(client, raw: dict, fallback: dict, n: int, today, weekday: str) -> 
             log.warning("  ✗ [%s] AI 실패 → 원문 헤드라인: %s", sec["name"], e)
             return sec, fb_sections.get(sec["id"], {}).get("items", []), False
 
-    with ThreadPoolExecutor(max_workers=5) as pool:
+    with ThreadPoolExecutor(max_workers=getattr(client, "max_workers", 5)) as pool:
         fortune_future = pool.submit(edit_fortune, client, today.isoformat(), weekday)
         results = list(pool.map(do_section, [s for s in raw.get("sections", []) if s["candidates"]]))
 

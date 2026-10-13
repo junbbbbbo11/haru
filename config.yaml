@@ -15,9 +15,12 @@ email:
 
 ai:
   enabled: true
-  provider: openai           # 나중에 다른 AI를 붙이면 여기서 바꿉니다
-  model: gpt-5-mini          # 더 좋게: gpt-5 / 더 싸게: gpt-5-nano
-  reasoning_effort: low      # gpt-5 계열 전용: minimal / low / medium / high
+  # auto   = OPENAI_API_KEY 를 등록했으면 OpenAI(유료), 아니면 GitHub Models(무료, 키 등록 필요 없음)
+  # github = 항상 GitHub Models(무료) / openai = 항상 OpenAI(유료)
+  provider: auto
+  github_model: openai/gpt-4.1-mini   # GitHub Models 무료 모델. 예: openai/gpt-4o-mini
+  openai_model: gpt-5-mini            # OpenAI 유료 API를 쓸 때의 모델
+  reasoning_effort: low               # gpt-5 계열 전용: minimal / low / medium / high
   timeout_seconds: 120
 
 ootd:
