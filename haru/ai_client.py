@@ -56,7 +56,8 @@ class OpenAICompatibleClient:
     def __init__(self, name: str, model: str, api_key: str, base_url: str | None = None,
                  reasoning_effort: str | None = None, timeout: int = 120,
                  max_workers: int = 5, prompt_candidates: int = 25, snippet_chars: int = 200,
-                 json_mode: bool = True, min_interval: float = 0.0, max_tokens: int | None = None):
+                 json_mode: bool = True, min_interval: float = 0.0, max_tokens: int | None = None,
+                 system_prefix: str = "", empty_backoff: float = 0.0):
         from openai import OpenAI
 
         self.name = name
@@ -69,6 +70,8 @@ class OpenAICompatibleClient:
         self.snippet_chars = snippet_chars
         self.json_mode = json_mode
         self.max_tokens = max_tokens
+        self.system_prefix = system_prefix        # 예: gpt-oss 계열은 "Reasoning: low" 로 생각을 짧게
+        self.empty_backoff = empty_backoff        # 빈 응답(속도 제한)일 때 추가로 쉬는 시간(초)
         self.deadline: float | None = None        # time.monotonic() 기준 마감 시각 (run.py가 정함)
         self.min_interval = min_interval          # 요청 사이 최소 간격(초) — 무료 등급 속도 제한
         self._last_call = 0.0
@@ -96,7 +99,8 @@ class OpenAICompatibleClient:
                 try:
                     resp = self.client.chat.completions.create(
                         model=self.model,
-                        messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+                        messages=[{"role": "system", "content": self.system_prefix + system},
+                                  {"role": "user", "content": user}],
                         **extra,
                     )
                 except Exception as e:
@@ -105,7 +109,8 @@ class OpenAICompatibleClient:
                     self._last_call = time.monotonic()
                 if getattr(resp, "choices", None) and (resp.choices[0].message.content or "").strip():
                     break
-                log.info("    (빈 응답 → 다시 요청 %d)", empty_try + 1)
+                log.info("    (빈 응답 → 잠시 쉬고 다시 요청 %d)", empty_try + 1)
+                self._last_call += self.empty_backoff
 
         if getattr(resp, "usage", None):
             with self._lock:
@@ -156,10 +161,11 @@ def make_client(ai_cfg: dict):
     if provider == "pollinations":
         model = ai_cfg.get("pollinations_model") or "openai"
         log.info("AI: Pollinations 무료 (%s) — 15초 간격으로 차례대로 호출", model)
+        # 무료 모델(gpt-oss)은 추론형이라 'Reasoning: low' 로 생각을 짧게 하고, 질문도 짧게 줄인다
         return OpenAICompatibleClient("Pollinations", model, "none", base_url=POLLINATIONS_URL,
-                                      timeout=timeout, max_workers=1, prompt_candidates=15, snippet_chars=90,
-                                      json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 16)),
-                                      max_tokens=3000)
+                                      timeout=timeout, max_workers=1, prompt_candidates=10, snippet_chars=60,
+                                      json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 18)),
+                                      system_prefix="Reasoning: low\n", empty_backoff=30)
 
     log.warning("알 수 없는 AI provider '%s' → 원문 헤드라인으로 발행", provider)
     return None
