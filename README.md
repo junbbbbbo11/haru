@@ -9,14 +9,15 @@
   운세는 내 띠를 한 번 누르면 다음부터 그것만 크게, 휴대폰 공유 버튼, 다크모드
 - **홈 화면 앱**: 휴대폰 홈 화면에 추가하면 "한" 아이콘으로 앱처럼 열립니다 (항상 최신호)
 - **인스타그램 카드뉴스**: 매일 1080×1350 카드 7~8장 + 캡션이 자동으로 만들어집니다 → `주소/cards/`
-- **비용**: GitHub는 무료, OpenAI는 한 달에 대략 1~2달러
+- **비용: 0원.** 가입·카드 등록·API 키 없이 동작합니다 (AI 요약 = Pollinations 무료, 착샷 = Hugging Face 무료)
+- **지금 발행 중인 주소**: https://junbbbbbo11.github.io/haru/
 
 ---
 
 ## 목차
 1. [처음 설정하기 (딱 한 번, 약 20분)](#1-처음-설정하기)
 2. [이메일로 매일 링크 받기 (선택)](#2-이메일로-매일-링크-받기-선택)
-   · [OOTD 착샷 켜기 (무료, 약 5분)](#1-7-ootd-착샷-켜기-무료)
+   · [(선택) 착샷을 더 안정적으로](#1-7-선택-착샷을-더-안정적으로--cloudflare-무료-계정)
 3. [뉴스 소스 추가/삭제하기](#3-뉴스-소스-추가삭제하기)
 4. [발행 시간 바꾸기](#4-발행-시간-바꾸기)
 5. [그 밖의 설정 바꾸기](#5-그-밖의-설정-바꾸기)
@@ -28,19 +29,17 @@
 
 ## 1. 처음 설정하기
 
-### 1-1. OpenAI API 키 발급 (요약을 써 줄 AI)
+### 1-1. AI는 무료로 자동 설정됩니다 (할 일 없음)
 
-1. https://platform.openai.com 에 접속해 로그인합니다. (ChatGPT 계정으로 로그인해도 되지만, **ChatGPT 유료 구독과 API 요금은 별개**입니다)
-2. 오른쪽 위 톱니바퀴(Settings) → 왼쪽 메뉴 **Billing** → **Add payment details** 에서 카드를 등록하고, **크레딧을 충전**합니다. 최소 금액 5달러면 몇 달은 씁니다.
-3. 같은 Billing 화면의 **Usage limits** 에서 월 한도를 `5` 달러 정도로 걸어 두면 안심입니다.
-4. 왼쪽 메뉴 **API keys** → **+ Create new secret key** → 이름은 `haru` → **Create secret key**
-5. `sk-...` 로 시작하는 키가 나오면 **Copy** 를 눌러 메모장에 잠깐 붙여 둡니다.
-   ⚠️ 이 창을 닫으면 다시 볼 수 없습니다. 그리고 이 키는 **절대 코드나 파일에 적지 마세요.** (아래 1-4에서 GitHub 금고에 넣습니다)
+- **AI 요약·커버 선정·OOTD 추천**: Pollinations 무료 텍스트 API — 가입·키 없이 동작합니다.
+  무료 등급은 15초에 한 번만 부를 수 있어서, 발행에 5~15분쯤 걸립니다 (아침 06:40 시작 → 07시 전후 완성).
+- **OOTD 착샷**: Hugging Face 공개 Space(FLUX) — 가입·키 없이 동작합니다.
+- 무료 서비스라 가끔 실패할 수 있습니다. 그래도 발행은 멈추지 않고, 실패한 부분만 원문 헤드라인·일러스트로 나옵니다.
+- AI가 원문에 없는 숫자를 쓰면 자동으로 걸러 다시 쓰게 합니다 (무료 모델의 사실 오류 방지).
 
-> 💰 **예상 비용**: 기본 모델 `gpt-5-mini` 기준으로 하루에 AI를 12번 부릅니다 (커버스토리 1 + 섹션 9 + 운세 1 + OOTD 1(여성·남성 함께)).
-> 하루 약 4만 토큰 입력 + 1.7만 토큰 출력 ≈ **하루 4~5센트, 한 달 1~2달러(약 1,500~3,000원)** 정도입니다.
-> 실제 사용량은 매일 실행 로그 마지막 부분 `AI 사용량: 호출 12회, 입력 ..토큰` 에 찍히고,
-> OpenAI 사이트의 **Usage** 메뉴에서도 볼 수 있습니다. 가격은 OpenAI 사정에 따라 바뀔 수 있습니다.
+> 💡 **(선택) 더 좋게 만들고 싶다면**
+> - 유료 OpenAI(월 1~2달러, 더 정확·빠름): https://platform.openai.com → API keys 에서 키를 만들어 Secrets에 `OPENAI_API_KEY` 로 등록하면 자동으로 OpenAI를 씁니다.
+> - 착샷을 더 안정적으로(무료): 아래 1-7의 Cloudflare 무료 계정.
 
 ### 1-2. GitHub 저장소 만들기
 
@@ -78,13 +77,16 @@
 **방법 B — GitHub Desktop 프로그램** (앞으로 자주 고칠 거라면 편함)
 https://desktop.github.com 설치 → **File → Add local repository** 로 이 폴더 선택 → "create a repository" 안내에 따라 만들고 → **Publish repository** (이때 **Keep this code private 체크 해제**).
 
-### 1-4. API 키를 GitHub 금고(Secrets)에 넣기
+### 1-4. (선택) API 키를 GitHub 금고(Secrets)에 넣기
+
+키가 없어도 무료로 동작합니다. 유료 OpenAI나 Cloudflare를 쓰고 싶을 때만 하세요.
+
 
 1. 저장소 화면 위쪽 탭 **Settings** (톱니바퀴)
 2. 왼쪽 메뉴 **Secrets and variables** → **Actions**
 3. 초록 버튼 **New repository secret**
 4. **Name**: `OPENAI_API_KEY` (글자 그대로, 대문자)
-   **Secret**: 1-1에서 복사한 `sk-...` 키 붙여넣기
+   **Secret**: OpenAI에서 발급받은 `sk-...` 키 붙여넣기
 5. **Add secret**
 
 ### 1-5. GitHub Pages 켜기
@@ -106,9 +108,9 @@ https://desktop.github.com 설치 → **File → Add local repository** 로 이 
 
 이제 **매일 아침 06:40(한국 시간)쯤 자동으로 발행**됩니다.
 
-### 1-7. OOTD 착샷 켜기 (무료)
+### 1-7. (선택) 착샷을 더 안정적으로 — Cloudflare 무료 계정
 
-이 단계를 건너뛰면 OOTD는 옷 일러스트로 나옵니다. 착샷을 보려면 Cloudflare 무료 계정이 필요합니다.
+건너뛰어도 착샷은 Hugging Face 무료 Space로 만들어집니다. 다만 공개 Space는 사람이 몰리면 실패할 때가 있어서, Cloudflare 키를 넣어 두면 Cloudflare를 먼저 쓰고 실패할 때만 Hugging Face로 넘어갑니다.
 (이미지 AI **FLUX.1 schnell** 을 무료 한도 안에서 씁니다. 하루 2장(여성·남성)은 무료 한도의 몇 %도 안 됩니다. 카드 등록 필요 없음)
 
 1. https://dash.cloudflare.com/sign-up 에서 이메일로 가입하고 메일 인증을 합니다.
@@ -238,7 +240,9 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
 | `site.title` | 매거진 제호 |
 | `site.url` | 직접 산 도메인을 쓸 때만 적습니다. 비우면 GitHub 주소 자동 |
 | `ai.model` | `gpt-5-mini`(기본·가성비) / `gpt-5`(더 잘 씀, 약 5배 비쌈) / `gpt-5-nano`(가장 쌈) |
-| `ai.enabled` | `false` 면 AI 없이 원문 헤드라인으로만 발행 (비용 0원) |
+| `ai.provider` | `auto`(기본: OpenAI 키가 있으면 OpenAI, 없으면 무료 Pollinations) / `pollinations` / `openai` |
+| `ai.enabled` | `false` 면 AI 없이 원문 헤드라인으로만 발행 |
+| `lookbook.providers` | 착샷 이미지 AI 시도 순서. 기본 `[cloudflare, hf_space]` (cloudflare 는 키가 있을 때만) |
 | `collect.items_per_section` | 섹션마다 최대 몇 개 (1~2) |
 | `collect.max_total_items` | 섹션 기사 전체 상한. 기본 13개 ≈ 3분 분량 |
 | `ootd.enabled` | 오늘의 OOTD 켜기/끄기 |
@@ -264,6 +268,7 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
 
 | 증상 | 원인과 해결 |
 |---|---|
+| 일부 섹션만 원문 헤드라인 | 무료 AI가 그 섹션에서 빈 응답을 주거나 검증(숫자·띄어쓰기·베끼기)에 걸린 것. 다음 날 보통 괜찮아집니다 |
 | 페이지 상단에 "AI 편집 없이 원문 헤드라인으로 발행" | 로그에서 `OpenAI 호출 실패` 를 찾아보세요. `401` = 키가 틀림(1-4 다시), `429`/`insufficient_quota` = 크레딧 부족(1-1의 Billing에서 충전) |
 | 지표에 "데이터 준비 중" | 야후 금융/업비트가 잠깐 응답하지 않은 것. 다음 날 보통 자동으로 돌아옵니다 |
 | 어떤 섹션이 통째로 없음 | 그 섹션의 소스가 모두 실패했거나 최근 24시간 기사가 없는 날. 로그의 `[섹션이름]` 줄 확인 |
@@ -325,7 +330,7 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
   │     · 코스피(^KS11)·원/달러(KRW=X): 야후 금융 / 비트코인: 업비트 공개 시세
   │     · 오늘 날씨(최고·최저기온, 강수확률): Open-Meteo 무료 API (키 필요 없음)
   │
-  ├─ 3. AI 편집 (haru/editor.py → haru/ai_client.py)
+  ├─ 3. AI 편집 (haru/editor.py → haru/ai_client.py, 기본 Pollinations 무료)
   │     · 커버스토리 3개: 트렌드 중 같은 주제는 합치고 서로 다른 이슈 3개
   │     · 섹션마다 화제성·중요도 높은 1~2개를 고르고 헤드라인·요약을 새로 작성
   │     · AI는 '후보 번호'만 고르고, 매체명·링크는 수집 데이터에서 그대로 → 링크를 지어낼 수 없음
@@ -336,7 +341,7 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
   │     · 오늘의 OOTD (haru/ootd.py): 날씨 + 오늘의 패션 기사를 보고 여성·남성 한 벌씩 추천
   │       → 페이지에선 사진 대신 직접 그린 옷 실루엣에 추천 색을 입혀 '플랫레이'로
   │       → AI가 안 되는 날은 기온대별 기본 코디 8벌 중 하나 (비 오면 우산 추가)
-  │     · 착샷 (haru/lookbook.py): 추천 코디를 영어 프롬프트로 바꿔 Cloudflare FLUX로 생성
+  │     · 착샷 (haru/lookbook.py): 추천 코디를 영어 프롬프트로 바꿔 FLUX로 생성 (Cloudflare → Hugging Face 순서)
   │       → 얼굴 검출로 턱 아래만 남기고 4:5로 잘라 data/looks/날짜-women.jpg, -men.jpg 로 저장
   │       → 실패한 쪽은 일러스트로 대체
   │

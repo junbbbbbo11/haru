@@ -64,6 +64,10 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
     edited, mode = fallback, "fallback"
     client = make_client(cfg.get("ai", {})) if use_ai else None
     if client:
+        # 무료 AI는 느리고 가끔 응답이 없어서, 정해진 시간이 지나면 남은 부분은 원문 헤드라인으로 마무리
+        budget = float(cfg.get("ai", {}).get("time_budget_minutes", 12)) * 60
+        client.deadline = time.monotonic() + budget
+    if client:
         try:
             edited, mode = editor.edit_all(client, raw, fallback, n_items, today,
                                            edition.WEEKDAYS[today.weekday()])

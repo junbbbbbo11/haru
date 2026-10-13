@@ -29,6 +29,10 @@ class AICallError(AIError):
     """AI 서버 호출 자체가 실패 (키 오류, 잔액 부족, 네트워크 등 — 다시 해도 소용없음)."""
 
 
+class AITimeBudgetExceeded(AIError):
+    """오늘 AI 편집에 쓸 시간을 다 씀 — 남은 부분은 원문 헤드라인으로."""
+
+
 def _parse_json(text: str) -> dict:
     try:
         data = json.loads(text)
@@ -65,6 +69,7 @@ class OpenAICompatibleClient:
         self.snippet_chars = snippet_chars
         self.json_mode = json_mode
         self.max_tokens = max_tokens
+        self.deadline: float | None = None        # time.monotonic() 기준 마감 시각 (run.py가 정함)
         self.min_interval = min_interval          # 요청 사이 최소 간격(초) — 무료 등급 속도 제한
         self._last_call = 0.0
         self._gate = threading.Lock()
@@ -84,6 +89,8 @@ class OpenAICompatibleClient:
         with self._gate:  # 간격 제한이 있으면 한 번에 하나씩, 정해진 간격을 두고 보낸다
             for empty_try in range(3):  # 무료 등급은 가끔 빈 응답을 준다 → 간격을 두고 다시
                 wait = self._last_call + self.min_interval - time.monotonic()
+                if self.deadline and time.monotonic() + max(wait, 0) > self.deadline:
+                    raise AITimeBudgetExceeded("AI 편집 시간 상한 도달")
                 if wait > 0:
                     time.sleep(wait)
                 try:

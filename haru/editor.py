@@ -10,7 +10,7 @@ import random
 import re
 from concurrent.futures import ThreadPoolExecutor
 
-from .ai_client import AICallError
+from .ai_client import AICallError, AITimeBudgetExceeded
 from .collect import _bigrams, _similar
 from .config import load_yaml
 
@@ -97,8 +97,8 @@ def _ask(client, user: str, validate):
         try:
             data = client.complete_json(SYSTEM, prompt)
             return validate(data)
-        except AICallError:
-            raise  # 서버 호출 자체가 안 되면 다시 해도 소용없다
+        except (AICallError, AITimeBudgetExceeded):
+            raise  # 서버 호출 자체가 안 되거나 시간이 다 되면 다시 해도 소용없다
         except Exception as e:
             last_err = str(e)
             log.warning("    AI 응답 문제(%d회차): %s", attempt + 1, last_err)
