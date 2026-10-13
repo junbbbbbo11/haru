@@ -4,8 +4,8 @@
   "date": "2026-10-13",
   "weekday": "화요일",
   "vol": 1,
-  "generated_at": "2026-10-13T23:24:06+09:00",
-  "edit_mode": "fallback",
+  "generated_at": "2026-10-13T23:43:07+09:00",
+  "edit_mode": "partial",
   "indicators": [
     {
       "id": "kospi",
@@ -22,23 +22,23 @@
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1341.0,
-      "change": -2.0,
-      "change_pct": -0.15,
+      "value": 1342.3,
+      "change": -0.7,
+      "change_pct": -0.05,
       "direction": "down",
-      "display": "1,341.0원",
-      "change_display": "▼ 0.15%"
+      "display": "1,342.3원",
+      "change_display": "▼ 0.05%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 113037000.0,
-      "change": 2174000.0,
-      "change_pct": 1.96,
+      "value": 113145000.0,
+      "change": 2282000.0,
+      "change_pct": 2.06,
       "direction": "up",
-      "display": "11,304만원",
-      "change_display": "▲ 1.96%"
+      "display": "11,314만원",
+      "change_display": "▲ 2.06%"
     }
   ],
   "weather": {
@@ -78,19 +78,19 @@
       "name": "국내",
       "items": [
         {
-          "headline": "이 대통령 “굴종적·사대적 태도 지양”",
-          "summary": "",
+          "headline": "이 재명 대통령 굴종·사대적 태도 지양 강조",
+          "summary": "이재명 대통령은 국가 간 이견을 인정하면서도 굴종·사대적 태도를 지양해야 한다고 밝혔다.",
           "source": "경향신문",
           "link": "https://www.khan.co.kr/article/202610132208005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
           "original_title": "이 대통령 “굴종적·사대적 태도 지양”",
           "coverage": 5
         },
         {
-          "headline": "전국 경찰서장 242명중 118명 교체…‘향피제’ 전면 적용",
-          "summary": "",
-          "source": "동아일보",
-          "link": "https://www.donga.com/news/Society/article/all/20261013/134835495/1",
-          "original_title": "전국 경찰서장 242명중 118명 교체…‘향피제’ 전면 적용",
+          "headline": "제주 렌터카 안에서 40대 아버지·4세 딸 숨진",
+          "summary": "제주에서 40대 아버지와 4세 딸이 렌터카에서 숨진 채 발견되었다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610132302001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "“경찰에 ‘안전 확인’ 수차례 요청했지만 결국”···제주서 40대 아버지·네 살 딸 숨진 채 발견",
           "coverage": 5
         }
       ]
@@ -136,19 +136,19 @@
       "name": "테크",
       "items": [
         {
-          "headline": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
-          "summary": "",
-          "source": "뉴스케이프",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
-          "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
-          "coverage": 10
-        },
-        {
-          "headline": "KT, 구글 AI에 커피·생활 혜택 더했다 … 구독 상품 8종 출시",
-          "summary": "",
+          "headline": "KT·구글 AI 커피·생활 혜택 구독 8종 출시",
+          "summary": "KT는 구글 AI와 협력해 커피·생활 혜택이 포함된 구독상품 8종을 출시했다.",
           "source": "워크투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jal9qc0IxS1RfTVVVekFvTm1RUk1DYk1za1E3cjZER2laSTg2endMQnBKelFEUEVKY3hMRGJQanNBZ19qWXZrV0JwcU9fQlpDWGtMMWgxQkZYQU5lZVpYNExfc2RqN1pEY0xYcw?oc=5",
           "original_title": "KT, 구글 AI에 커피·생활 혜택 더했다 … 구독 상품 8종 출시",
+          "coverage": 10
+        },
+        {
+          "headline": "삼성전자 KES2026 AI 가전·모바일 선보여",
+          "summary": "삼성전자는 KES2026에서 AI 기능이 강화된 가전·모바일 제품을 전시하며 일상에 AI를 확대했다.",
+          "source": "뉴스케이프",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
+          "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
           "coverage": 9
         }
       ]
@@ -172,20 +172,20 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
-          "summary": "",
-          "source": "장업신문",
-          "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
-          "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
-          "coverage": 7
-        },
-        {
           "headline": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
           "summary": "",
           "source": "인더스트리뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TdmRadnBFLU8wTVRiVFNXOWNHbWxNNldzOGtoVGxlaEJ0Z0FUUDFvLWUwaGFIcHJEb2c0T28xaVoxZkpEUlRqZ2ZCZWh5S1Zvamh5NE5rSFVyR0I1eVFHbW53VEVSbWduRlB3akNPLUxEUQ?oc=5",
           "original_title": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
           "coverage": 7
+        },
+        {
+          "headline": "에코디엠랩, ‘2026 K-뷰티엑스포 코리아’ 참가",
+          "summary": "",
+          "source": "주간신문씨엠엔",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKb18zWXBDR1lSNFdqX2wwZlhHSU5iZWYtRVZESHZBWnd6enYzRDdZanEyT05QOUZ2REg1Ym9WYkIySFp5YXRzY1ZXZ0ZxOTFpS0xxZEtGS2tXQzVpUzI0Ry1tYVVmV3Z6bEFN?oc=5",
+          "original_title": "에코디엠랩, ‘2026 K-뷰티엑스포 코리아’ 참가",
+          "coverage": 6
         }
       ]
     },
@@ -194,11 +194,11 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "만보 걷기가 불안을 자극한 날",
+          "headline": "19만 명 추적 입증… ‘야식’ 먹는 습관, 간 망가뜨린다",
           "summary": "",
-          "source": "OhmyNews",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mSkgtSzcwZWliZF9ZVmtEeGtMVmNiMmpDbjk3WVBId0pkdUNVRlYyZVkwcFR0SERWNm1aLWF4WXJ5N2FEdXVET215MEE5SXdFSmdMMkI4XzQ3OEpmT1Y0MmhfOEdad0JxV1BfZ21Ec1JudEt3T1k0?oc=5",
-          "original_title": "만보 걷기가 불안을 자극한 날",
+          "source": "헬스조선",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93dDV4aWZoanpRZHNNeHpaZ29iQWdoYS1EenJjamQ4RFhJMW16U2QwdXZGd3g3QlpZN21KMnRBcnNqdFJzVWtZdjU5MUxPdTNpTXZLc3YxOVRWWGpZT2NBaWxMNkt0Nl85MzZpZzV2ZkpWbEZ3Tmgzbld1TFdhRGc?oc=5",
+          "original_title": "19만 명 추적 입증… ‘야식’ 먹는 습관, 간 망가뜨린다",
           "coverage": 5
         }
       ]
@@ -213,7 +213,7 @@
           "source": "M포스트",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IZ0VFRUVHYkZLeHZCRHhPR0pZS2NZWXc4N18zUHF4MUYzZXlhb0dxY0ZUZkczN29relZmTEt0VDJEdGR5cEZxRFRoMXFoX1FZT29BUWRFbThqVkFvdng2bTRKVTVUd1pfYnd4Q0QwUUU?oc=5",
           "original_title": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
-          "coverage": 6
+          "coverage": 7
         }
       ]
     },
@@ -222,11 +222,11 @@
       "name": "스포츠",
       "items": [
         {
-          "headline": "한화, 11승 아시아쿼터 투수 왕옌청과 30만 달러 재계약",
+          "headline": "LG 박해민, 프로야구 선수협 제14대 회장 선출",
           "summary": "",
           "source": "뉴시스",
-          "link": "https://www.newsis.com/view/NISX20261013_0003823795",
-          "original_title": "한화, 11승 아시아쿼터 투수 왕옌청과 30만 달러 재계약",
+          "link": "https://www.newsis.com/view/NISX20261013_0003823985",
+          "original_title": "LG 박해민, 프로야구 선수협 제14대 회장 선출",
           "coverage": 5
         }
       ]
