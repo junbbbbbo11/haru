@@ -4,7 +4,7 @@
   "date": "2026-10-13",
   "weekday": "화요일",
   "vol": 1,
-  "generated_at": "2026-10-13T22:43:03+09:00",
+  "generated_at": "2026-10-13T23:01:18+09:00",
   "edit_mode": "partial",
   "indicators": [
     {
@@ -22,57 +22,57 @@
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1340.4,
-      "change": -2.5,
-      "change_pct": -0.19,
+      "value": 1342.9,
+      "change": -0.1,
+      "change_pct": -0.0,
       "direction": "down",
-      "display": "1,340.4원",
-      "change_display": "▼ 0.19%"
+      "display": "1,342.9원",
+      "change_display": "▼ 0.00%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 112727000.0,
-      "change": 1864000.0,
-      "change_pct": 1.68,
+      "value": 112620000.0,
+      "change": 1757000.0,
+      "change_pct": 1.58,
       "direction": "up",
-      "display": "11,273만원",
-      "change_display": "▲ 1.68%"
+      "display": "11,262만원",
+      "change_display": "▲ 1.58%"
     }
   ],
   "weather": {
     "city": "서울",
     "t_max": 20,
-    "t_min": 15,
+    "t_min": 14,
     "rain_pct": 100,
     "sky": "비",
-    "display": "서울 15~20°C · 비 · 강수 100%"
+    "display": "서울 14~20°C · 비 · 강수 100%"
   },
   "cover_stories": [
     {
-      "kicker": "세금",
-      "headline": "상속세 최고세율 50%→40% 가업승계 부담 완화",
-      "summary": "국회가 상속세 최고세율을 50%에서 40%로 감축하고 가업승계 부담 완화를 목표로 세 가지 법안을 제안했다.",
+      "kicker": "상속세",
+      "headline": "상속세 최고세율 40% 가업승계 법안 국회 발의",
+      "summary": "국회가 가업승계 부담 완화를 위해 상속세 최고세율을 50%에서 40%로 인하하는 법안을 발의했다.",
       "source": "조세일보",
       "link": "https://m.joseilbo.com/news/view.htm?newsid=577156",
       "original_title": "상속세 최고세율 50%→40%?…‘가업승계 부담 완화 3법’ 국회 발의"
     },
     {
-      "kicker": "축구",
-      "headline": "손흥민 비난 폭발, 축구협회 ‘도 넘었다’",
-      "summary": "한국 축구협회가 손흥민에 대한 비난이 과열되자 ‘도 넘었다’는 입장을 밝혔다.",
+      "kicker": "대표팀",
+      "headline": "통계와 비난, 축구협회 ‘손흥민 질투’ 주장 ‘도 넘었다’",
+      "summary": "대표팀 관련 논란에서 축구협회는 손흥민과 이강인 간 질투 논란에 대해 ‘도 넘었다’는 입장을 밝혔다.",
       "source": "KBS 뉴스",
       "link": "https://news.kbs.co.kr/news/view.do?ncd=8684581",
       "original_title": "“손흥민 질투하냐” 빗발치는 비난에…축구협회 “도 넘었다” [지금뉴스]"
     },
     {
-      "kicker": "해킹",
-      "headline": "새마을금고 해킹, 400명 고객 정보 유출",
-      "summary": "해킹 공격으로 새마을금고의 400여 고객 계좌번호 및 주소가 외부에 유출된 사실이 확인되었다.",
-      "source": "MBC 뉴스",
-      "link": "https://imnews.imbc.com/news/2026/econo/article/6857636_36932.html",
-      "original_title": "새마을금고, 해킹 공격으로 고객 4백여 명 계좌번호·주소 등 정보 유출"
+      "kicker": "보안",
+      "headline": "OK저축은행 해킹 공격, 183명 고객 정보 유출 가능성",
+      "summary": "OK저축은행이 해킹 공격 정황을 포착해 183명의 고객정보가 유출될 가능성을 경고했다.",
+      "source": "KBS 뉴스",
+      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684721",
+      "original_title": "OK저축은행 “해킹 공격 정황 포착…183명 고객 정보 유출 가능성”"
     }
   ],
   "sections": [
@@ -81,19 +81,19 @@
       "name": "국내",
       "items": [
         {
-          "headline": "이 대통령 “굴종적·사대적 태도 지양”",
-          "summary": "",
-          "source": "경향신문",
-          "link": "https://www.khan.co.kr/article/202610132208005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "original_title": "이 대통령 “굴종적·사대적 태도 지양”",
+          "headline": "20대 남성 장모 살해·아내 납치 구속",
+          "summary": "20대 남성이 장모를 살해하고 아내를 납치해 도주, 13일 구속돼 수사가 진행 중이다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261013119552004",
+          "original_title": "장모 살해·아내 납치 20대 구속…\"도망·증거인멸 염려\"(종합2보)",
           "coverage": 5
         },
         {
-          "headline": "전자발찌 찬 50대, 대낮 복합건물서 ‘무차별 흉기 난동’",
-          "summary": "",
-          "source": "경향신문",
-          "link": "https://www.khan.co.kr/article/202610132158015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "original_title": "전자발찌 찬 50대, 대낮 복합건물서 ‘무차별 흉기 난동’",
+          "headline": "나주 부부 살인피의자 신상 공개",
+          "summary": "나주에서 60대 부부를 살해한 피의자의 신상정보가 14일 공개된다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261013183900054",
+          "original_title": "경찰, '나주 부부' 결박·살해 피의자 신상정보 공개 결정",
           "coverage": 5
         }
       ]
@@ -103,19 +103,19 @@
       "name": "국제",
       "items": [
         {
-          "headline": "인도 Z세대 '바퀴벌레당' 지도부, 시위 금지 장소 침입 후 연행돼",
-          "summary": "",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795619",
-          "original_title": "인도 Z세대 '바퀴벌레당' 지도부, 시위 금지 장소 침입 후 연행돼",
-          "coverage": 5
-        },
-        {
-          "headline": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
-          "summary": "",
+          "headline": "젤렌스키, ‘에너지 휴전’ 언급에도 러공격 지속",
+          "summary": "트럼프가 ‘에너지 휴전’으로 언급하자 젤렌스키는 러시아의 공격이 계속되고 있다고 밝혀 우크라이나는 대응을 지속했다.",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796057",
           "original_title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
+          "coverage": 5
+        },
+        {
+          "headline": "트럼프, 아시아 방문 중 김정은 만남 가능성 언급",
+          "summary": "트럼프는 12일 미국 아시아 방문 중 김정은 북한 국무위원장을 만날 가능성을 언급했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261013/134830389/1",
+          "original_title": "트럼프 “내달 아시아 방문때 김정은 만날 수도”",
           "coverage": 5
         }
       ]
@@ -125,11 +125,11 @@
       "name": "경제·금융",
       "items": [
         {
-          "headline": "새마을금고 고객정보 유출",
-          "summary": "새마을금고가 해킹 공격을 받아 약 40만 명이 포함된 고객 정보가 유출됐다. 피해 발생 시 전액 보상을 약속했다.",
-          "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261013155952002",
-          "original_title": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
+          "headline": "홍라희 관장, 이재용 회장에 삼성전자 지분 2.6조원 규모 증여",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261013/134835307/1",
+          "original_title": "홍라희 관장, 이재용 회장에 삼성전자 지분 2.6조원 규모 증여",
           "coverage": 5
         }
       ]
@@ -139,16 +139,16 @@
       "name": "테크",
       "items": [
         {
-          "headline": "삼성전자, KES 2026서 AI 가전·모바일 총출동",
-          "summary": "삼성전자는 KES 2026에서 AI가 적용된 가전과 모바일 기기를 공개해 일상에서의 AI 경험 확대를 예고했다",
+          "headline": "삼성전자 KES 2026 AI 가전·모바일 전시",
+          "summary": "삼성전자는 KES 2026에서 AI가 일상에 융합된 가전·모바일 신제품을 전시했다",
           "source": "뉴스케이프",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
           "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
           "coverage": 9
         },
         {
-          "headline": "KT, 구글과 AI 구독상품 8종 출시",
-          "summary": "KT는 구글 AI 기반의 커피·생활 혜택이 포함된 8종 AI 구독 서비스를 선보이며 구독 시장 공략을 확대하고 있다",
+          "headline": "KT·구글 AI 구독 상품 8종 출시",
+          "summary": "KT는 구글과 협력해 AI 구독 상품 8종을 출시하고 커피·생활 혜택을 결합했다",
           "source": "핀포인트뉴스",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GbFFIcXFROUJ6UFNVaXRMeEh5LTk3dW1RNERsT2RFUlZFQXVBR3Bjal9ycnE3cTRISE8zbXBqcTVvWUdQQmJCbzV2VFpTWXc0Ti1CYVBfT1VrWHdleEdkTGNDbGNRWUIwVEFubUVTM21yOGVrUVNV0gF3QVVfeXFMTUZsUUhxcVE5QnpQU1VpdEx4SHktOTd1bVE0RGxPZEVSVkVBdUFHcGNqX3JycTdxNEhITzNtcGpxNW9ZR1BCYkJvNXZUWlNZdzROLUJhUF9PVWtYd2V4R2RMY0NsY1FZQjBUQW5tRVMzbXI4ZWtRU1U?oc=5",
           "original_title": "KT, 구글과 손잡고 AI 구독 상품 8종 출시…커피·생활 혜택 결합",
@@ -161,11 +161,11 @@
       "name": "패션",
       "items": [
         {
-          "headline": "아이잗바바, 'HER SIGNATURE'로 여성 5인의 삶과 태도 조명",
+          "headline": "의정부 청소년 보훈패션, 서울패션위크 이어 성수동 무대 진출",
           "summary": "",
-          "source": "한국섬유신문",
-          "link": "http://www.ktnews.com/news/articleView.html?idxno=149308",
-          "original_title": "아이잗바바, 'HER SIGNATURE'로 여성 5인의 삶과 태도 조명",
+          "source": "포커스경제",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WdVdtVGozaEMzVzZPYnVTTnQzZ19CV3Z6R21HZEdKdWo5NDJNYnNhOERGMk42RGZqOUtxVDIzank0dVc2Q2dUaTcxTWplMFVQVi1ENTFiV3VWSW8weHRxam0xcjdiV2hDbHRVNnFn0gFwQVVfeXFMTXlHV1BITUxuQWlWekFxNVRZU2ktaHZPTmF4TGN0b0c3QW9DeGxWS2lteUt3ak9aNWU5aXRSaEZhelVoLTd3VTQtRnBvTGtubXA1dXhsTG5PNElqNnhkNV9oYzhWT096Y2ZyNHdWYnBhMw?oc=5",
+          "original_title": "의정부 청소년 보훈패션, 서울패션위크 이어 성수동 무대 진출",
           "coverage": 3
         }
       ]
@@ -175,16 +175,16 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "SIP, 2026 K-뷰티엑스포 참가",
-          "summary": "화장품 용기·패키징 전문기업 SIP가 10월 15일부터 17일까지 일산 킨텍스에서 2026 K-뷰티엑스포에 참가한다.",
+          "headline": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
+          "summary": "",
           "source": "장업신문",
           "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
           "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
           "coverage": 7
         },
         {
-          "headline": "웅진휴캄·코스맥스 MOU 체결",
-          "summary": "웅진휴캄이 코스맥스와 화장품 R&D·생산·마케팅 협력을 강화하기 위해 전략적 MOU를 체결했다.",
+          "headline": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
+          "summary": "",
           "source": "인더스트리뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TdmRadnBFLU8wTVRiVFNXOWNHbWxNNldzOGtoVGxlaEJ0Z0FUUDFvLWUwaGFIcHJEb2c0T28xaVoxZkpEUlRqZ2ZCZWh5S1Zvamh5NE5rSFVyR0I1eVFHbW53VEVSbWduRlB3akNPLUxEUQ?oc=5",
           "original_title": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
@@ -197,11 +197,11 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "담배 끊어도 당뇨 합병증 위험 감소까지 8년 필요",
-          "summary": "흡연을 중단한 사람의 당뇨 합병증 위험은 금연 후 최소 8년이 지나야 현격히 감소한다.",
-          "source": "하이닥",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12Mm13a3dCN2VXRFhPSmNXeGFMSnVfM2hkclNYSUYzMHE4Q2g1aG5mS2xsaDM1S3NOWmlRazBYaU12b29OVm9XZVVpM2Y5ZF9FMVVvS3I4Y1g5M1IwSVgzNkVYMDctRWFuTmc?oc=5",
-          "original_title": "\"담배 끊어도 8년은 지나야?\"… 당뇨병 합병증 위험, 금연 기간 길수록 감소",
+          "headline": "만보 걷기가 불안을 자극한 날",
+          "summary": "",
+          "source": "OhmyNews",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mSkgtSzcwZWliZF9ZVmtEeGtMVmNiMmpDbjk3WVBId0pkdUNVRlYyZVkwcFR0SERWNm1aLWF4WXJ5N2FEdXVET215MEE5SXdFSmdMMkI4XzQ3OEpmT1Y0MmhfOEdad0JxV1BfZ21Ec1JudEt3T1k0?oc=5",
+          "original_title": "만보 걷기가 불안을 자극한 날",
           "coverage": 5
         }
       ]
@@ -211,12 +211,12 @@
       "name": "문화",
       "items": [
         {
-          "headline": "타렉 아투이 전시, 테이트 모던 개막",
-          "summary": "한국 현대미술가 타렉 아투이가 테이트 모던에서 ‘Hold’ 전시를 개시해 국내외 이목을 집중시키고 있다.",
+          "headline": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
+          "summary": "",
           "source": "M포스트",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IZ0VFRUVHYkZLeHZCRHhPR0pZS2NZWXc4N18zUHF4MUYzZXlhb0dxY0ZUZkczN29relZmTEt0VDJEdGR5cEZxRFRoMXFoX1FZT29BUWRFbThqVkFvdng2bTRKVTVUd1pfYnd4Q0QwUUU?oc=5",
           "original_title": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
-          "coverage": 7
+          "coverage": 6
         }
       ]
     },
@@ -279,17 +279,19 @@
             "en": "black long umbrella"
           }
         ],
-        "tip": "아침저녁 쌀쌀할 땐 벗기 쉬운 가디건이 정답이다. 단추를 반쯤 풀어 여유 있게. 비 소식이 있으니 우산도 함께."
+        "tip": "아침저녁 쌀쌀할 땐 벗기 쉬운 가디건이 정답이다. 단추를 반쯤 풀어 여유 있게. 비 소식이 있으니 우산도 함께.",
+        "photo": "looks/2026-10-13-daily.jpg",
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A person with a slim build wearing oatmeal knit cardigan, white crew-neck t-shirt, indigo straight-leg jeans, grey suede sneakers, and holding a black long umbrella lowered at the side. Standing on a quiet Seoul city sidewalk, rainy day, wet pavement reflections. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
       }
     ],
     "trend": null,
     "weather": {
       "city": "서울",
       "t_max": 20,
-      "t_min": 15,
+      "t_min": 14,
       "rain_pct": 100,
       "sky": "비",
-      "display": "서울 15~20°C · 비 · 강수 100%"
+      "display": "서울 14~20°C · 비 · 강수 100%"
     },
     "by": "rule",
     "default": "women"
