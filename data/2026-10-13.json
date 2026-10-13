@@ -4,8 +4,8 @@
   "date": "2026-10-13",
   "weekday": "화요일",
   "vol": 1,
-  "generated_at": "2026-10-13T22:35:41+09:00",
-  "edit_mode": "fallback",
+  "generated_at": "2026-10-13T22:43:03+09:00",
+  "edit_mode": "partial",
   "indicators": [
     {
       "id": "kospi",
@@ -22,23 +22,23 @@
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1340.7,
-      "change": -2.3,
-      "change_pct": -0.17,
+      "value": 1340.4,
+      "change": -2.5,
+      "change_pct": -0.19,
       "direction": "down",
-      "display": "1,340.7원",
-      "change_display": "▼ 0.17%"
+      "display": "1,340.4원",
+      "change_display": "▼ 0.19%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 112681000.0,
-      "change": 1818000.0,
-      "change_pct": 1.64,
+      "value": 112727000.0,
+      "change": 1864000.0,
+      "change_pct": 1.68,
       "direction": "up",
-      "display": "11,268만원",
-      "change_display": "▲ 1.64%"
+      "display": "11,273만원",
+      "change_display": "▲ 1.68%"
     }
   ],
   "weather": {
@@ -51,25 +51,28 @@
   },
   "cover_stories": [
     {
-      "keyword": "상속",
-      "headline": "30년 상속세 공제 기준 그대로, 현실화 필요…임광현 청장 \"재경부 협의할 것\"",
-      "summary": "",
-      "source": "머니투데이",
-      "link": "https://www.mt.co.kr/economy/2026/10/13/2026101315582246807"
+      "kicker": "세금",
+      "headline": "상속세 최고세율 50%→40% 가업승계 부담 완화",
+      "summary": "국회가 상속세 최고세율을 50%에서 40%로 감축하고 가업승계 부담 완화를 목표로 세 가지 법안을 제안했다.",
+      "source": "조세일보",
+      "link": "https://m.joseilbo.com/news/view.htm?newsid=577156",
+      "original_title": "상속세 최고세율 50%→40%?…‘가업승계 부담 완화 3법’ 국회 발의"
     },
     {
-      "keyword": "대한민국 축구 국가대표팀",
-      "headline": "“손흥민 질투하냐” 빗발치는 비난에…축구협회 “도 넘었다” [지금뉴스]",
-      "summary": "",
+      "kicker": "축구",
+      "headline": "손흥민 비난 폭발, 축구협회 ‘도 넘었다’",
+      "summary": "한국 축구협회가 손흥민에 대한 비난이 과열되자 ‘도 넘었다’는 입장을 밝혔다.",
       "source": "KBS 뉴스",
-      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684581"
+      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684581",
+      "original_title": "“손흥민 질투하냐” 빗발치는 비난에…축구협회 “도 넘었다” [지금뉴스]"
     },
     {
-      "keyword": "새마을 금고",
-      "headline": "새마을금고, 해킹 공격으로 고객 4백여 명 계좌번호·주소 등 정보 유출",
-      "summary": "",
+      "kicker": "해킹",
+      "headline": "새마을금고 해킹, 400명 고객 정보 유출",
+      "summary": "해킹 공격으로 새마을금고의 400여 고객 계좌번호 및 주소가 외부에 유출된 사실이 확인되었다.",
       "source": "MBC 뉴스",
-      "link": "https://imnews.imbc.com/news/2026/econo/article/6857636_36932.html"
+      "link": "https://imnews.imbc.com/news/2026/econo/article/6857636_36932.html",
+      "original_title": "새마을금고, 해킹 공격으로 고객 4백여 명 계좌번호·주소 등 정보 유출"
     }
   ],
   "sections": [
@@ -86,11 +89,11 @@
           "coverage": 5
         },
         {
-          "headline": "이 대통령, '부캉이' 친수공원 찾아 시민과 인사하고 셀카",
+          "headline": "전자발찌 찬 50대, 대낮 복합건물서 ‘무차별 흉기 난동’",
           "summary": "",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795984",
-          "original_title": "이 대통령, '부캉이' 친수공원 찾아 시민과 인사하고 셀카",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610132158015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "전자발찌 찬 50대, 대낮 복합건물서 ‘무차별 흉기 난동’",
           "coverage": 5
         }
       ]
@@ -122,11 +125,11 @@
       "name": "경제·금융",
       "items": [
         {
-          "headline": "2금융권으로 번지는 해킹…새마을금고·OK저축은행 고객 정보 유출",
-          "summary": "",
-          "source": "동아일보",
-          "link": "https://www.donga.com/news/Economy/article/all/20261013/134835813/1",
-          "original_title": "2금융권으로 번지는 해킹…새마을금고·OK저축은행 고객 정보 유출",
+          "headline": "새마을금고 고객정보 유출",
+          "summary": "새마을금고가 해킹 공격을 받아 약 40만 명이 포함된 고객 정보가 유출됐다. 피해 발생 시 전액 보상을 약속했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261013155952002",
+          "original_title": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
           "coverage": 5
         }
       ]
@@ -136,16 +139,16 @@
       "name": "테크",
       "items": [
         {
-          "headline": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
-          "summary": "",
+          "headline": "삼성전자, KES 2026서 AI 가전·모바일 총출동",
+          "summary": "삼성전자는 KES 2026에서 AI가 적용된 가전과 모바일 기기를 공개해 일상에서의 AI 경험 확대를 예고했다",
           "source": "뉴스케이프",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
           "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
           "coverage": 9
         },
         {
-          "headline": "KT, 구글과 손잡고 AI 구독 상품 8종 출시…커피·생활 혜택 결합",
-          "summary": "",
+          "headline": "KT, 구글과 AI 구독상품 8종 출시",
+          "summary": "KT는 구글 AI 기반의 커피·생활 혜택이 포함된 8종 AI 구독 서비스를 선보이며 구독 시장 공략을 확대하고 있다",
           "source": "핀포인트뉴스",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GbFFIcXFROUJ6UFNVaXRMeEh5LTk3dW1RNERsT2RFUlZFQXVBR3Bjal9ycnE3cTRISE8zbXBqcTVvWUdQQmJCbzV2VFpTWXc0Ti1CYVBfT1VrWHdleEdkTGNDbGNRWUIwVEFubUVTM21yOGVrUVNV0gF3QVVfeXFMTUZsUUhxcVE5QnpQU1VpdEx4SHktOTd1bVE0RGxPZEVSVkVBdUFHcGNqX3JycTdxNEhITzNtcGpxNW9ZR1BCYkJvNXZUWlNZdzROLUJhUF9PVWtYd2V4R2RMY0NsY1FZQjBUQW5tRVMzbXI4ZWtRU1U?oc=5",
           "original_title": "KT, 구글과 손잡고 AI 구독 상품 8종 출시…커피·생활 혜택 결합",
@@ -172,16 +175,16 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
-          "summary": "",
+          "headline": "SIP, 2026 K-뷰티엑스포 참가",
+          "summary": "화장품 용기·패키징 전문기업 SIP가 10월 15일부터 17일까지 일산 킨텍스에서 2026 K-뷰티엑스포에 참가한다.",
           "source": "장업신문",
           "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
           "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
           "coverage": 7
         },
         {
-          "headline": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
-          "summary": "",
+          "headline": "웅진휴캄·코스맥스 MOU 체결",
+          "summary": "웅진휴캄이 코스맥스와 화장품 R&D·생산·마케팅 협력을 강화하기 위해 전략적 MOU를 체결했다.",
           "source": "인더스트리뉴스",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TdmRadnBFLU8wTVRiVFNXOWNHbWxNNldzOGtoVGxlaEJ0Z0FUUDFvLWUwaGFIcHJEb2c0T28xaVoxZkpEUlRqZ2ZCZWh5S1Zvamh5NE5rSFVyR0I1eVFHbW53VEVSbWduRlB3akNPLUxEUQ?oc=5",
           "original_title": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
@@ -194,11 +197,11 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "만보 걷기가 불안을 자극한 날",
-          "summary": "",
-          "source": "OhmyNews",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mSkgtSzcwZWliZF9ZVmtEeGtMVmNiMmpDbjk3WVBId0pkdUNVRlYyZVkwcFR0SERWNm1aLWF4WXJ5N2FEdXVET215MEE5SXdFSmdMMkI4XzQ3OEpmT1Y0MmhfOEdad0JxV1BfZ21Ec1JudEt3T1k0?oc=5",
-          "original_title": "만보 걷기가 불안을 자극한 날",
+          "headline": "담배 끊어도 당뇨 합병증 위험 감소까지 8년 필요",
+          "summary": "흡연을 중단한 사람의 당뇨 합병증 위험은 금연 후 최소 8년이 지나야 현격히 감소한다.",
+          "source": "하이닥",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12Mm13a3dCN2VXRFhPSmNXeGFMSnVfM2hkclNYSUYzMHE4Q2g1aG5mS2xsaDM1S3NOWmlRazBYaU12b29OVm9XZVVpM2Y5ZF9FMVVvS3I4Y1g5M1IwSVgzNkVYMDctRWFuTmc?oc=5",
+          "original_title": "\"담배 끊어도 8년은 지나야?\"… 당뇨병 합병증 위험, 금연 기간 길수록 감소",
           "coverage": 5
         }
       ]
@@ -208,8 +211,8 @@
       "name": "문화",
       "items": [
         {
-          "headline": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
-          "summary": "",
+          "headline": "타렉 아투이 전시, 테이트 모던 개막",
+          "summary": "한국 현대미술가 타렉 아투이가 테이트 모던에서 ‘Hold’ 전시를 개시해 국내외 이목을 집중시키고 있다.",
           "source": "M포스트",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IZ0VFRUVHYkZLeHZCRHhPR0pZS2NZWXc4N18zUHF4MUYzZXlhb0dxY0ZUZkczN29relZmTEt0VDJEdGR5cEZxRFRoMXFoX1FZT29BUWRFbThqVkFvdng2bTRKVTVUd1pfYnd4Q0QwUUU?oc=5",
           "original_title": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
