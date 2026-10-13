@@ -78,6 +78,10 @@ def _check_text(headline, summary, originals: list[str]) -> str | None:
         return "headline에 띄어쓰기가 없음 — 단어 사이를 띄어 써야 함"
     if len(s) >= 20 and s.count(" ") < 3:
         return "summary에 띄어쓰기가 거의 없음 — 맞춤법대로 띄어 써야 함"
+    src_grams = _bigrams(" ".join(o for o in originals if o))
+    h_grams = _bigrams(h)
+    if h_grams and len(h_grams & src_grams) / len(h_grams) < 0.25:
+        return "headline이 고른 기사 내용과 관련이 없어 보임 — 고른 번호의 기사로 써야 함"
     src_nums = _numbers(" ".join(o for o in originals if o))
     bad = sorted(n for n in _numbers(h + " " + s) if n not in src_nums)
     if bad:
@@ -124,9 +128,11 @@ def _originals(c) -> list[str]:
 def edit_covers(client, raw: dict) -> list[dict]:
     pool: dict[str, dict] = {}
     lines = ["[구글 트렌드 인기 검색어와 관련 기사]"]
-    for i, t in enumerate(raw.get("trends", [])):
+    small = getattr(client, "prompt_candidates", 25) <= 10
+    n_trends, n_news, n_tops = (6, 3, 6) if small else (10, 6, 10)
+    for i, t in enumerate(raw.get("trends", [])[:n_trends]):
         lines.append(f"\n검색어 '{t['keyword']}' (검색량 {t['traffic']})")
-        for j, n in enumerate(t["news"]):
+        for j, n in enumerate(t["news"][:n_news]):
             nid = f"T{i}-{j}"
             pool[nid] = {**n, "keyword": t["keyword"]}
             lines.append(f"  [{nid}] {n['title']} — {n['source']}")
@@ -135,7 +141,7 @@ def edit_covers(client, raw: dict) -> list[dict]:
     tops = sorted(
         (c for s in raw.get("sections", []) for c in s["candidates"]),
         key=lambda c: -c.get("coverage", 1),
-    )[:10]
+    )[:n_tops]
     lines.append("\n[여러 매체가 많이 보도한 기사]")
     for k, c in enumerate(tops):
         nid = f"H{k}"

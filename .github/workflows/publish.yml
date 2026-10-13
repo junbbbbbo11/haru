@@ -41,12 +41,14 @@ jobs:
       - name: 저장소 가져오기
         uses: actions/checkout@v5
 
-      - name: 오늘 호가 이미 있는지 확인 (예약 실행일 때만)
+      - name: 오늘 아침 호가 이미 있는지 확인 (예약 실행일 때만)
         id: check
         run: |
           TODAY=$(date +%F)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/$TODAY.json" ]; then
-            echo "오늘($TODAY) 호는 이미 발행되었습니다. 건너뜁니다."
+          # 새벽 5시 이후에 만든 오늘 호가 있으면 건너뜀 (자정~새벽에 수동으로 만든 호는 아침 발행이 덮어씀)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/$TODAY.json" ] && \
+             python3 -c "import json,sys; h=int(json.load(open('data/$TODAY.json'))['generated_at'][11:13]); sys.exit(0 if h >= 5 else 1)"; then
+            echo "오늘($TODAY) 아침 호는 이미 발행되었습니다. 건너뜁니다."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
 
