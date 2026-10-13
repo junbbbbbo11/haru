@@ -1,0 +1,48 @@
+name: debug-models
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: probe pollinations settings
+        run: |
+          pip install -q openai requests
+          python - <<'EOF'
+          import time, json, requests
+          from openai import OpenAI
+          try:
+              print("MODELS", json.dumps([m.get("name") for m in requests.get("https://text.pollinations.ai/models", timeout=30).json()])[:600])
+          except Exception as e:
+              print("MODELS FAIL", e)
+          e = json.load(open("data/2026-10-13.json", encoding="utf-8"))
+          cands = "\n".join(f"[{i}] {it['headline']} — {it['source']}" for i, it in enumerate(
+              [it for s in e["sections"] for it in s["items"]][:15]))
+          user = ("[섹션] 국내\n후보:\n" + cands + "\n\n화제성과 중요도가 가장 높은 이슈를 최대 2개 골라 헤드라인(25자 내외)과 요약(80자 내외)을 새로 써라. "
+                  'JSON 형식: {"items":[{"id":0,"headline":"...","summary":"..."}]}')
+          msgs = [{"role": "system", "content": "너는 뉴스 에디터다. 맞춤법과 띄어쓰기를 지키고 JSON으로만 답하라."}, {"role": "user", "content": user}]
+          c = OpenAI(base_url="https://text.pollinations.ai/openai", api_key="none", timeout=120, max_retries=0)
+          variants = [
+              ("default", "openai", {}),
+              ("max3000", "openai", {"max_tokens": 3000}),
+              ("effort-minimal", "openai", {"reasoning_effort": "minimal"}),
+              ("effort-low", "openai", {"reasoning_effort": "low"}),
+              ("openai-fast", "openai-fast", {}),
+              ("openai-large", "openai-large", {}),
+          ]
+          for name, model, extra in variants:
+              t = time.time()
+              try:
+                  r = c.chat.completions.create(model=model, messages=msgs, **extra)
+                  txt = (r.choices[0].message.content or "") if getattr(r, "choices", None) else ""
+                  u = getattr(r, "usage", None)
+                  print(f"{name:15} OK {time.time()-t:5.1f}s model={getattr(r,'model','?')} out_tokens={getattr(u,'completion_tokens',None)} len={len(txt)} | {txt[:160]!r}")
+              except Exception as ex:
+                  print(f"{name:15} FAIL {type(ex).__name__}: {str(ex)[:200]}")
+              time.sleep(17)
+          EOF
