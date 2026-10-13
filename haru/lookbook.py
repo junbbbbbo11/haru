@@ -5,10 +5,11 @@
 3) 잘라낸 사진을 한 번 더 검사해서 얼굴이 남아 있으면 버리고 다시 생성한다.
    → 끝까지 안 되면 그 성별은 일러스트(플랫레이)로 표시.
 
-기본: Cloudflare Workers AI 무료 등급의 FLUX.1 [schnell] (하루 무료 한도 안에서 0원).
-필요한 환경변수(GitHub Secrets):
-  CLOUDFLARE_ACCOUNT_ID   Cloudflare 계정 ID
-  CLOUDFLARE_API_TOKEN    Workers AI 권한이 있는 API 토큰
+이미지 AI는 config.yaml 의 lookbook.providers 순서대로 시도한다 (전부 무료).
+  cloudflare : Cloudflare Workers AI 무료 등급 FLUX.1 [schnell] — 가장 안정적.
+               GitHub Secrets 에 CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN 이 있어야 함 (없으면 건너뜀)
+  hf_space   : Hugging Face 공개 Space 의 FLUX.1 [schnell] — 가입·키 없이 무료.
+               무료 사용량이 넉넉하지 않아 가끔 실패할 수 있음. (HF_TOKEN 을 등록하면 한도가 늘어남)
 
 다른 이미지 AI로 바꾸려면 _cloudflare() 와 같은 모양의 함수를 하나 더 만들어 PROVIDERS에 넣으면 된다.
 """
@@ -83,7 +84,30 @@ def _cloudflare(prompt: str, cfg: dict, seed: int) -> bytes:
     return base64.b64decode(img)
 
 
-PROVIDERS = {"cloudflare": _cloudflare}
+_hf_clients: dict = {}
+
+
+def _hf_space(prompt: str, cfg: dict, seed: int) -> bytes:
+    """Hugging Face 공개 Space (gradio) — 키 없이 호출. 세로(4:5) 이미지를 바로 받는다."""
+    try:
+        from gradio_client import Client
+    except ImportError as e:
+        raise NoKey("gradio_client 가 설치되지 않음") from e
+    space = cfg.get("hf_space", "black-forest-labs/FLUX.1-schnell")
+    if space not in _hf_clients:
+        token = os.environ.get("HF_TOKEN", "").strip() or None
+        _hf_clients[space] = Client(space, hf_token=token, verbose=False)
+    result = _hf_clients[space].predict(
+        prompt=prompt, seed=seed, randomize_seed=False, width=832, height=1040,
+        num_inference_steps=int(cfg.get("hf_steps", 4)), api_name="/infer",
+    )
+    out = result[0] if isinstance(result, (list, tuple)) else result
+    if isinstance(out, dict):
+        out = out.get("path") or out.get("url")
+    return Path(out).read_bytes()
+
+
+PROVIDERS = {"cloudflare": _cloudflare, "hf_space": _hf_space}
 
 
 # ── 얼굴 잘라내기 ──────────────────────────────────────────
@@ -146,25 +170,35 @@ def cleanup(today, keep_days: int) -> None:
             log.info("  오래된 착샷 삭제: %s", p.name)
 
 
-def _one(look: dict, weather, person: str, today, cfg: dict, provider) -> dict | None:
+def _one(look: dict, weather, person: str, today, cfg: dict, providers: list, dead: set) -> dict | None:
+    """providers 를 순서대로 시도. 키가 없는 provider 는 dead 에 넣어 다음부터 건너뛴다."""
     prompt = build_prompt(look, weather, person, cfg.get("framing", "street"))
     base_seed = int(today.strftime("%Y%m%d")) * 10 + (0 if look["id"] == "women" else 5)
     tries = int(cfg.get("max_tries", 3))
-    for attempt in range(tries):
-        try:
-            img = crop_below_face(provider(prompt, cfg, base_seed + attempt))
+    img, used = None, None
+    for name in providers:
+        if name in dead:
+            continue
+        for attempt in range(tries):
+            try:
+                img = crop_below_face(PROVIDERS[name](prompt, cfg, base_seed + attempt))
+                used = name
+                break
+            except NoKey as e:
+                log.info("  · 착샷 %s 건너뜀: %s", name, e)
+                dead.add(name)
+                break
+            except Exception as e:
+                log.warning("  ✗ [%s] %s 착샷 %d회차 실패: %s", look["label"], name, attempt + 1, str(e)[:200])
+        if img:
             break
-        except NoKey:
-            raise
-        except Exception as e:
-            log.warning("  ✗ [%s] 착샷 %d회차 실패: %s", look["label"], attempt + 1, e)
-    else:
+    if not img:
         log.warning("  → [%s] 착샷 대신 일러스트로 표시", look["label"])
         return None
     LOOKS_DIR.mkdir(parents=True, exist_ok=True)
     name = f"{today.isoformat()}-{look['id']}.jpg"
     (LOOKS_DIR / name).write_bytes(img)
-    log.info("  ✓ [%s] 착샷 생성: data/looks/%s (%d KB)", look["label"], name, len(img) // 1024)
+    log.info("  ✓ [%s] 착샷 생성(%s): data/looks/%s (%d KB)", look["label"], used, name, len(img) // 1024)
     return {"photo": f"looks/{name}", "photo_prompt": prompt}
 
 
@@ -172,9 +206,10 @@ def generate_all(ootd: dict, today, cfg: dict, look_cfgs: list[dict]) -> None:
     """ootd['looks'] 각각에 photo/photo_prompt 를 채운다 (실패한 성별은 그대로 둠)."""
     if not cfg.get("enabled", True) or not ootd.get("looks"):
         return
-    provider = PROVIDERS.get(cfg.get("provider", "cloudflare"))
-    if not provider:
-        log.warning("  ✗ 알 수 없는 착샷 provider '%s'", cfg.get("provider"))
+    providers = cfg.get("providers") or [cfg.get("provider", "cloudflare")]
+    providers = [p for p in providers if p in PROVIDERS]
+    if not providers:
+        log.warning("  ✗ 사용할 수 있는 착샷 provider 가 없음 (config.yaml lookbook.providers)")
         return
     try:
         import cv2  # noqa: F401  얼굴 검사를 못 하면 사진을 싣지 않는다
@@ -186,12 +221,12 @@ def generate_all(ootd: dict, today, cfg: dict, look_cfgs: list[dict]) -> None:
     persons.setdefault("daily", "a person with a slim build")  # 기본 코디(성별 구분 없음)
     for old in LOOKS_DIR.glob(f"{today.isoformat()}*") if LOOKS_DIR.exists() else []:
         old.unlink()
+    dead: set = set()
     for look in ootd["looks"]:
-        try:
-            shot = _one(look, ootd.get("weather"), persons.get(look["id"], "a person"), today, cfg, provider)
-        except NoKey as e:
-            log.warning("  ✗ 착샷 생성 안 함: %s", e)
-            return
+        if len(dead) == len(providers):
+            log.warning("  ✗ 착샷 생성 안 함: 쓸 수 있는 이미지 AI가 없음")
+            break
+        shot = _one(look, ootd.get("weather"), persons.get(look["id"], "a person"), today, cfg, providers, dead)
         if shot:
             look.update(shot)
     cleanup(today, int(cfg.get("keep_days", 90)))

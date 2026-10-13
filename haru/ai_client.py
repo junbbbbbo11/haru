@@ -1,7 +1,7 @@
 """AI 호출 모듈.
 
-기본은 GitHub Models (무료): GitHub Actions 안에서는 자동으로 주어지는 GITHUB_TOKEN 으로
-OpenAI 모델(gpt-4.1-mini 등)을 무료 한도 안에서 쓴다. 키를 따로 발급·등록할 필요가 없다.
+기본은 Pollinations 텍스트 API (무료, 가입·키 필요 없음). 무료 등급은 15초에 한 번만
+요청할 수 있어서 호출 간격을 자동으로 맞춘다 (하루 12번 호출 → 3~4분).
 OPENAI_API_KEY 를 등록하면 그때부터는 유료 OpenAI API를 쓴다 (provider: auto 일 때).
 
 다른 AI(Claude, Gemini 등)로 바꾸고 싶으면 이 파일에 같은 모양의 클래스를 하나 더 만들고
@@ -13,10 +13,12 @@ import logging
 import os
 import re
 import threading
+import time
 
 log = logging.getLogger("haru.ai")
 
 GITHUB_MODELS_URL = "https://models.github.ai/inference"
+POLLINATIONS_URL = "https://text.pollinations.ai/openai"
 
 
 class AIError(Exception):
@@ -49,7 +51,8 @@ class OpenAICompatibleClient:
 
     def __init__(self, name: str, model: str, api_key: str, base_url: str | None = None,
                  reasoning_effort: str | None = None, timeout: int = 120,
-                 max_workers: int = 5, prompt_candidates: int = 25, snippet_chars: int = 200):
+                 max_workers: int = 5, prompt_candidates: int = 25, snippet_chars: int = 200,
+                 json_mode: bool = True, min_interval: float = 0.0):
         from openai import OpenAI
 
         self.name = name
@@ -60,6 +63,10 @@ class OpenAICompatibleClient:
         self.max_workers = max_workers
         self.prompt_candidates = prompt_candidates
         self.snippet_chars = snippet_chars
+        self.json_mode = json_mode
+        self.min_interval = min_interval          # 요청 사이 최소 간격(초) — 무료 등급 속도 제한
+        self._last_call = 0.0
+        self._gate = threading.Lock()
         self._lock = threading.Lock()
         self.usage = {"calls": 0, "input_tokens": 0, "output_tokens": 0}
 
@@ -69,15 +76,22 @@ class OpenAICompatibleClient:
         bare = self.model.split("/")[-1]
         if self.reasoning_effort and bare.startswith(("gpt-5", "o")):
             extra["reasoning_effort"] = self.reasoning_effort
-        try:
-            resp = self.client.chat.completions.create(
-                model=self.model,
-                messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
-                response_format={"type": "json_object"},
-                **extra,
-            )
-        except Exception as e:
-            raise AICallError(f"{self.name} 호출 실패: {e}") from e
+        if self.json_mode:
+            extra["response_format"] = {"type": "json_object"}
+        with self._gate:  # 간격 제한이 있으면 한 번에 하나씩, 정해진 간격을 두고 보낸다
+            wait = self._last_call + self.min_interval - time.monotonic()
+            if wait > 0:
+                time.sleep(wait)
+            try:
+                resp = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+                    **extra,
+                )
+            except Exception as e:
+                raise AICallError(f"{self.name} 호출 실패: {e}") from e
+            finally:
+                self._last_call = time.monotonic()
 
         if getattr(resp, "usage", None):
             with self._lock:
@@ -103,7 +117,7 @@ def make_client(ai_cfg: dict):
     openai_key = os.environ.get("OPENAI_API_KEY", "").strip()
     gh_token = os.environ.get("GITHUB_TOKEN", "").strip()
     if provider == "auto":
-        provider = "openai" if openai_key else "github"
+        provider = "openai" if openai_key else "pollinations"
 
     timeout = ai_cfg.get("timeout_seconds", 120)
     if provider == "openai":
@@ -124,6 +138,13 @@ def make_client(ai_cfg: dict):
         # 무료 등급: 동시 요청 수와 요청당 입력 토큰(약 8천)이 작아서 후보 수·요약문 길이를 줄인다
         return OpenAICompatibleClient("GitHub Models", model, gh_token, base_url=GITHUB_MODELS_URL,
                                       timeout=timeout, max_workers=2, prompt_candidates=15, snippet_chars=90)
+
+    if provider == "pollinations":
+        model = ai_cfg.get("pollinations_model") or "openai"
+        log.info("AI: Pollinations 무료 (%s) — 15초 간격으로 차례대로 호출", model)
+        return OpenAICompatibleClient("Pollinations", model, "none", base_url=POLLINATIONS_URL,
+                                      timeout=timeout, max_workers=1, prompt_candidates=15, snippet_chars=90,
+                                      json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 16)))
 
     log.warning("알 수 없는 AI provider '%s' → 원문 헤드라인으로 발행", provider)
     return None

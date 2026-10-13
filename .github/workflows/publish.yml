@@ -23,7 +23,6 @@ permissions:
   contents: write     # data/*.json 을 저장소에 저장
   pages: write        # GitHub Pages 배포
   id-token: write
-  models: read        # GitHub Models (무료 AI) 호출
 
 concurrency:
   group: publish
@@ -32,7 +31,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -68,13 +67,13 @@ jobs:
       - name: 오늘 호 만들기
         if: steps.check.outputs.skip != 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       # 무료 AI(GitHub Models)용, 자동으로 주어짐
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}   # (선택) 등록하면 유료 OpenAI 사용
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}               # (선택) Hugging Face 무료 한도 늘리기
         run: python run.py ${{ inputs.no_ai && '--no-ai' || '' }}
 
       - name: 실행 기록(로그) 보관

@@ -26,6 +26,7 @@ SYSTEM = """너는 한국의 고급 매거진 '하루 한 장'의 뉴스 에디�
 [사실]
 - 주어진 제목과 요약문에 있는 사실만 쓴다. 숫자·이름·날짜를 지어내거나 추측하지 않는다.
 - 기사 문장을 그대로 베끼지 말고 반드시 너의 새 문장으로 다시 쓴다.
+- 한국어 맞춤법과 띄어쓰기를 정확히 지킨다. 단어 사이를 붙여 쓰지 않는다.
 
 [분량]
 - headline: 25자 내외(최대 32자). 마침표를 찍지 않는다. 따옴표는 꼭 필요할 때만.
@@ -64,6 +65,10 @@ def _check_text(headline, summary, originals: list[str]) -> str | None:
         return f"headline 길이 {len(h)}자 (목표 25자 내외)"
     if not (15 <= len(s) <= SUMMARY_MAX):
         return f"summary 길이 {len(s)}자 (목표 80자 내외)"
+    if len(h) >= 12 and " " not in h:
+        return "headline에 띄어쓰기가 없음 — 단어 사이를 띄어 써야 함"
+    if len(s) >= 20 and s.count(" ") < 3:
+        return "summary에 띄어쓰기가 거의 없음 — 맞춤법대로 띄어 써야 함"
     if any(_norm(h) == _norm(o) for o in originals):
         return "headline이 원문 제목과 똑같음 — 새로 써야 함"
     if _copied(s, originals):
