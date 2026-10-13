@@ -9,22 +9,27 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - name: probe hf space
+      - name: probe free text ai
         run: |
-          pip install -q gradio_client
+          pip install -q openai requests
           python - <<'EOF'
-          import time
-          from pathlib import Path
-          from gradio_client import Client
-          t = time.time()
-          try:
-              c = Client("black-forest-labs/FLUX.1-schnell", verbose=False)
-              r = c.predict(prompt="Fashion photo cropped at the neck, a woman wearing a beige trench coat, Seoul street, 35mm film",
-                            seed=1, randomize_seed=False, width=832, height=1040, num_inference_steps=4, api_name="/infer")
-              out = r[0] if isinstance(r, (list, tuple)) else r
-              if isinstance(out, dict): out = out.get("path")
-              b = Path(out).read_bytes()
-              print("HF OK", len(b), "bytes", b[:12], round(time.time() - t, 1), "s")
-          except Exception as e:
-              print("HF FAIL", type(e).__name__, str(e)[:400], round(time.time() - t, 1), "s")
+          import time, json, requests
+          from openai import OpenAI
+          msgs = [{"role": "system", "content": "너는 뉴스 에디터다. JSON으로만 답하라."},
+                  {"role": "user", "content": '다음 제목을 25자 내외로 새로 써라: "KIA 김도영, 시즌 최종전서 통산 100호포 폭발... 준PO 직행". 형식: {"headline": "..."}'}]
+          tests = [
+            ("pollinations-openai-compat", "https://text.pollinations.ai/openai", "openai"),
+            ("pollinations-gen", "https://gen.pollinations.ai/v1", "openai"),
+          ]
+          for name, base, model in tests:
+              for i in range(2):
+                  t = time.time()
+                  try:
+                      c = OpenAI(base_url=base, api_key="none", timeout=60, max_retries=0)
+                      r = c.chat.completions.create(model=model, messages=msgs)
+                      txt = r.choices[0].message.content if hasattr(r, "choices") else str(r)[:200]
+                      print(name, i, "OK", round(time.time()-t,1), "s |", (txt or "")[:200])
+                  except Exception as e:
+                      print(name, i, "FAIL", type(e).__name__, str(e)[:250])
+                  time.sleep(16)
           EOF
