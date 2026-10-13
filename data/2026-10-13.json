@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-13",
+  "weekday": "화요일",
+  "vol": 1,
+  "generated_at": "2026-10-13T22:12:54+09:00",
+  "edit_mode": "fallback",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 6035.35,
+      "change": -348.89,
+      "change_pct": -5.46,
+      "direction": "down",
+      "display": "6,035.35",
+      "change_display": "▼ 5.46%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1341.7,
+      "change": -1.3,
+      "change_pct": -0.1,
+      "direction": "down",
+      "display": "1,341.7원",
+      "change_display": "▼ 0.10%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 112613000.0,
+      "change": 1750000.0,
+      "change_pct": 1.58,
+      "direction": "up",
+      "display": "11,261만원",
+      "change_display": "▲ 1.58%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 20,
+    "t_min": 15,
+    "rain_pct": 100,
+    "sky": "비",
+    "display": "서울 15~20°C · 비 · 강수 100%"
+  },
+  "cover_stories": [
+    {
+      "keyword": "상속",
+      "headline": "30년 상속세 공제 기준 그대로, 현실화 필요…임광현 청장 \"재경부 협의할 것\" - 머니투데이",
+      "summary": "",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/economy/2026/10/13/2026101315582246807"
+    },
+    {
+      "keyword": "대한민국 축구 국가대표팀",
+      "headline": "“손흥민 질투하냐” 빗발치는 비난에…축구협회 “도 넘었다” [지금뉴스]",
+      "summary": "",
+      "source": "KBS 뉴스",
+      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684581"
+    },
+    {
+      "keyword": "보험계약",
+      "headline": "신한금융, 롯데손보 품고 ‘비은행’ 강화",
+      "summary": "",
+      "source": "경향신문",
+      "link": "https://www.khan.co.kr/article/202610132102015"
+    }
+  ],
+  "sections": [
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이 대통령 “굴종적·사대적 태도 지양”",
+          "summary": "",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610132208005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "이 대통령 “굴종적·사대적 태도 지양”",
+          "coverage": 5
+        },
+        {
+          "headline": "이 대통령, '부캉이' 친수공원 찾아 시민과 인사하고 셀카",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795984",
+          "original_title": "이 대통령, '부캉이' 친수공원 찾아 시민과 인사하고 셀카",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "인도 Z세대 '바퀴벌레당' 지도부, 시위 금지 장소 침입 후 연행돼",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795619",
+          "original_title": "인도 Z세대 '바퀴벌레당' 지도부, 시위 금지 장소 침입 후 연행돼",
+          "coverage": 5
+        },
+        {
+          "headline": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796057",
+          "original_title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261013155952002",
+          "original_title": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
+          "summary": "",
+          "source": "뉴스케이프",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
+          "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
+          "coverage": 9
+        },
+        {
+          "headline": "KT, 구글과 손잡고 AI 구독 상품 8종 출시…커피·생활 혜택 결합",
+          "summary": "",
+          "source": "핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GbFFIcXFROUJ6UFNVaXRMeEh5LTk3dW1RNERsT2RFUlZFQXVBR3Bjal9ycnE3cTRISE8zbXBqcTVvWUdQQmJCbzV2VFpTWXc0Ti1CYVBfT1VrWHdleEdkTGNDbGNRWUIwVEFubUVTM21yOGVrUVNV0gF3QVVfeXFMTUZsUUhxcVE5QnpQU1VpdEx4SHktOTd1bVE0RGxPZEVSVkVBdUFHcGNqX3JycTdxNEhITzNtcGpxNW9ZR1BCYkJvNXZUWlNZdzROLUJhUF9PVWtYd2V4R2RMY0NsY1FZQjBUQW5tRVMzbXI4ZWtRU1U?oc=5",
+          "original_title": "KT, 구글과 손잡고 AI 구독 상품 8종 출시…커피·생활 혜택 결합",
+          "coverage": 7
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "아이잗바바, 'HER SIGNATURE'로 여성 5인의 삶과 태도 조명",
+          "summary": "",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=149308",
+          "original_title": "아이잗바바, 'HER SIGNATURE'로 여성 5인의 삶과 태도 조명",
+          "coverage": 3
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
+          "summary": "",
+          "source": "인더스트리뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TdmRadnBFLU8wTVRiVFNXOWNHbWxNNldzOGtoVGxlaEJ0Z0FUUDFvLWUwaGFIcHJEb2c0T28xaVoxZkpEUlRqZ2ZCZWh5S1Zvamh5NE5rSFVyR0I1eVFHbW53VEVSbWduRlB3akNPLUxEUQ?oc=5",
+          "original_title": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
+          "coverage": 7
+        },
+        {
+          "headline": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
+          "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
+          "coverage": 6
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "만보 걷기가 불안을 자극한 날",
+          "summary": "",
+          "source": "OhmyNews",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mSkgtSzcwZWliZF9ZVmtEeGtMVmNiMmpDbjk3WVBId0pkdUNVRlYyZVkwcFR0SERWNm1aLWF4WXJ5N2FEdXVET215MEE5SXdFSmdMMkI4XzQ3OEpmT1Y0MmhfOEdad0JxV1BfZ21Ec1JudEt3T1k0?oc=5",
+          "original_title": "만보 걷기가 불안을 자극한 날",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
+          "summary": "",
+          "source": "M포스트",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IZ0VFRUVHYkZLeHZCRHhPR0pZS2NZWXc4N18zUHF4MUYzZXlhb0dxY0ZUZkczN29relZmTEt0VDJEdGR5cEZxRFRoMXFoX1FZT29BUWRFbThqVkFvdng2bTRKVTVUd1pfYnd4Q0QwUUU?oc=5",
+          "original_title": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
+          "coverage": 7
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "한화, 11승 아시아쿼터 투수 왕옌청과 30만 달러 재계약",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261013_0003823795",
+          "original_title": "한화, 11승 아시아쿼터 투수 왕옌청과 30만 달러 재계약",
+          "coverage": 5
+        }
+      ]
+    }
+  ],
+  "ootd": {
+    "looks": [
+      {
+        "id": "daily",
+        "label": "데일리",
+        "title": "가디건 한 겹의 온도",
+        "keyword": "소프트 레이어드",
+        "items": [
+          {
+            "category": "outer",
+            "name": "오트밀 니트 가디건",
+            "color": "오트밀",
+            "hex": "#D9CBB3",
+            "en": "oatmeal knit cardigan"
+          },
+          {
+            "category": "top",
+            "name": "화이트 크루넥 티",
+            "color": "화이트",
+            "hex": "#F4F2EC",
+            "en": "white crew-neck t-shirt"
+          },
+          {
+            "category": "bottom",
+            "name": "인디고 스트레이트 데님",
+            "color": "인디고",
+            "hex": "#2F4A6D",
+            "en": "indigo straight-leg jeans"
+          },
+          {
+            "category": "shoes",
+            "name": "그레이 스웨이드 스니커즈",
+            "color": "그레이",
+            "hex": "#9A9690",
+            "en": "grey suede sneakers"
+          },
+          {
+            "category": "umbrella",
+            "name": "블랙 장우산",
+            "color": "블랙",
+            "hex": "#222222",
+            "en": "black long umbrella"
+          }
+        ],
+        "tip": "아침저녁 쌀쌀할 땐 벗기 쉬운 가디건이 정답이다. 단추를 반쯤 풀어 여유 있게. 비 소식이 있으니 우산도 함께."
+      }
+    ],
+    "trend": null,
+    "weather": {
+      "city": "서울",
+      "t_max": 20,
+      "t_min": 15,
+      "rain_pct": 100,
+      "sky": "비",
+      "display": "서울 15~20°C · 비 · 강수 100%"
+    },
+    "by": "rule",
+    "default": "women"
+  },
+  "quote": {
+    "text": "사람을 괴롭히는 것은 일 그 자체가 아니라 그 일에 대한 생각이다.",
+    "author": "에픽테토스",
+    "work": "엥케이리디온"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "웃는 얼굴에 좋은 사람이 모여요"
+      },
+      {
+        "animal": "소",
+        "text": "작은 친절이 큰 웃음으로 돌아오는 날"
+      },
+      {
+        "animal": "호랑이",
+        "text": "생각보다 일이 술술 풀리는 날"
+      },
+      {
+        "animal": "토끼",
+        "text": "점심 메뉴 선택 운 최고"
+      },
+      {
+        "animal": "용",
+        "text": "오랜 친구와의 대화가 힘이 돼요"
+      },
+      {
+        "animal": "뱀",
+        "text": "좋아하는 노래가 하루의 BGM이 됩니다"
+      },
+      {
+        "animal": "말",
+        "text": "가까운 사람에게 고마움을 전해 보세요"
+      },
+      {
+        "animal": "양",
+        "text": "평소보다 감이 좋은 하루, 직감을 믿어요"
+      },
+      {
+        "animal": "원숭이",
+        "text": "미뤄둔 연락 하나가 반가운 소식이 돼요"
+      },
+      {
+        "animal": "닭",
+        "text": "오늘의 칭찬 한마디가 행운을 불러요"
+      },
+      {
+        "animal": "개",
+        "text": "따뜻한 차 한 잔이 행운의 열쇠"
+      },
+      {
+        "animal": "돼지",
+        "text": "가벼운 정리정돈이 기분을 바꿔줘요"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
