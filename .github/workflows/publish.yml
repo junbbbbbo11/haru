@@ -1,0 +1,124 @@
+# 하루 한 장 — 매일 아침 자동 발행
+#
+# GitHub cron은 UTC(영국 시간) 기준입니다. 한국 시간 = UTC + 9시간.
+#   "40 21 * * *"  →  매일 21:40 UTC  =  다음날 06:40 KST
+#   "10 22 * * *"  →  매일 22:10 UTC  =  다음날 07:10 KST (예비)
+# GitHub의 예약 실행은 붐비면 10~30분 늦어지거나 가끔 빠지기도 해서 예비 실행을 하나 더 둡니다.
+# 예약 실행은 오늘 호가 이미 발행됐으면 아무것도 하지 않습니다.
+
+name: 하루 한 장 발행
+
+on:
+  schedule:
+    - cron: "40 21 * * *"
+    - cron: "10 22 * * *"
+  workflow_dispatch:          # Actions 탭의 "Run workflow" 버튼 (언제든 수동 발행)
+    inputs:
+      no_ai:
+        description: "AI 없이 원문 헤드라인으로 발행"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write     # data/*.json 을 저장소에 저장
+  pages: write        # GitHub Pages 배포
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: Asia/Seoul
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v5
+
+      - name: 오늘 호가 이미 있는지 확인 (예약 실행일 때만)
+        id: check
+        run: |
+          TODAY=$(date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/$TODAY.json" ]; then
+            echo "오늘($TODAY) 호는 이미 발행되었습니다. 건너뜁니다."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 파이썬 준비
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 라이브러리 설치
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium   # 카드뉴스 촬영용 브라우저
+          sudo apt-get install -y -qq fonts-noto-cjk >/dev/null  # 한글 글꼴 (웹폰트가 안 받아질 때 대비)
+
+      - name: 오늘 호 만들기
+        if: steps.check.outputs.skip != 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python run.py ${{ inputs.no_ai && '--no-ai' || '' }}
+
+      - name: 실행 기록(로그) 보관
+        if: always() && steps.check.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: log-${{ github.run_id }}
+          path: logs/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: 카드뉴스 보관 (30일)
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cards-${{ github.run_id }}
+          path: site/cards/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: 오늘 호 데이터를 저장소에 저장
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git add -A data/looks 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "바뀐 데이터 없음"
+          else
+            git commit -m "📰 $(date +%F) 하루 한 장 발행"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Pages 설정
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/configure-pages@v5
+
+      - name: 웹페이지 올리기
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: GitHub Pages 배포
+        if: steps.check.outputs.skip != 'true'
+        id: deploy
+        uses: actions/deploy-pages@v4

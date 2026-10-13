@@ -1,0 +1,411 @@
+{% from "icons.html" import icon, garment %}
+{# ── 오늘의 OOTD (패션 섹션 바로 뒤에 들어간다) ── #}
+{% macro ootd_block(o, base) %}
+{% set looks = o.looks or [] %}
+{% set default_id = o.default if o.default in looks | map(attribute="id") | list else (looks[0].id if looks else "") %}
+<section class="ootd" id="ootd">
+  <div class="wrap">
+    <header class="ootd-head">
+      <div class="names">
+        <span class="eyebrow">Outfit of the Day</span>
+        <h2>오늘 뭐 입지</h2>
+      </div>
+      {% if o.weather %}<span class="weather">{{ o.weather.display }}</span>{% endif %}
+    </header>
+    {% if looks | length > 1 %}
+    <div class="look-tabs" role="tablist" aria-label="착샷 선택">
+      {% for l in looks %}<button type="button" role="tab" data-look="{{ l.id }}" aria-selected="{{ 'true' if l.id == default_id else 'false' }}">{{ l.label }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    {% for l in looks %}
+    <div class="look{% if l.photo %} look--photo{% endif %}" role="tabpanel" data-look="{{ l.id }}"{% if l.id != default_id %} hidden{% endif %}>
+      <div class="ootd-body">
+        {% if l.photo %}
+        <figure class="lookshot">
+          <img src="{{ base }}{{ l.photo }}" alt="{{ l.label }} 착샷 — {% for it in l['items'] %}{{ it.name }}{% if not loop.last %}, {% endif %}{% endfor %}" loading="lazy" width="820" height="1024">
+          <figcaption>AI로 생성한 이미지입니다</figcaption>
+        </figure>
+        {% endif %}
+        <div class="ootd-text">
+          <span class="kicker">{{ l.keyword }}</span>
+          <h3>{{ l.title }}</h3>
+          <p>{{ l.tip }}</p>
+          {% if l.photo %}
+          <ul class="pieces" aria-label="오늘의 아이템">
+            {% for it in l["items"] %}<li><i style="--sw: {{ it.hex }}"></i>{{ it.name }}</li>{% endfor %}
+          </ul>
+          {% else %}
+          <ul class="palette" aria-label="오늘의 컬러">
+            {% for it in l["items"] | unique(attribute="hex") %}<li style="--sw: {{ it.hex }}" title="{{ it.color }}"><span>{{ it.color }}</span></li>{% endfor %}
+          </ul>
+          {% endif %}
+          {% if o.trend %}
+          <a class="src" href="{{ o.trend.link }}" target="_blank" rel="noopener">참고한 트렌드 · {{ o.trend.source }} <span class="arrow">↗</span></a>
+          {% endif %}
+        </div>
+        {% if not l.photo %}
+        <ul class="flatlay">
+          {% for it in l["items"] %}
+          <li class="piece piece--{{ it.category }}">
+            {{ garment(it.category, it.hex) }}
+            <span class="piece-name">{{ it.name }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endmacro %}
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ e.title }} · {{ e.date | kdate }}</title>
+{% set lead = e.cover_stories[0] if e.cover_stories else None %}
+<meta name="description" content="{{ e.date | kdate }} {{ e.weekday }}, 오늘의 이슈를 한 장에.{% if lead %} {{ lead.headline }}{% endif %}">
+<meta property="og:title" content="{{ e.title }} · {{ e.date | kdate }} {{ e.weekday }}">
+<meta property="og:description" content="{% for c in e.cover_stories %}{{ c.headline }}{% if not loop.last %} / {% endif %}{% endfor %}">
+<meta property="og:type" content="article">
+{% if site_url %}<meta property="og:url" content="{{ site_url }}">{% endif %}
+<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ base }}icon-192.png">
+<link rel="apple-touch-icon" href="{{ base }}apple-touch-icon.png">
+<link rel="manifest" href="{{ base }}manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="하루 한 장">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<script>try{var t=localStorage.getItem("haru-theme");if(t)document.documentElement.dataset.theme=t}catch(_){}</script>
+<style>
+{% include "style.css" %}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-top">
+      <span class="eyebrow">Daily Edition</span>
+      <div class="mast-actions">
+        <button class="icon-btn" type="button" aria-label="오늘 호 공유하기" data-share>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
+        </button>
+        <button class="icon-btn" type="button" aria-label="밝은/어두운 화면 전환" onclick="toggleTheme()">
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </div>
+    </div>
+    <h1 class="mast-title">{{ e.title }}</h1>
+    <p class="mast-sub">오늘의 세상을 한 장에 담다</p>
+    <div class="mast-meta">
+      <span>{{ e.date | kdate }} {{ e.weekday }}</span>
+      <span>Vol. {{ e.vol }}</span>
+      <span>{{ e.reading_minutes }}분 읽기</span>
+    </div>
+    <div class="rule-thin"></div>
+    {% if e.edit_mode == "fallback" %}
+    <p class="notice">오늘은 AI 편집 없이 각 매체의 원문 헤드라인으로 발행되었습니다.</p>
+    {% endif %}
+  </div>
+</header>
+
+<nav class="tabs" aria-label="섹션 바로가기">
+  <ul>
+    {% if e.cover_stories %}<li><a href="#cover">커버</a></li>{% endif %}
+    {% set has_fashion = e.sections | selectattr("id", "equalto", "fashion") | list | length > 0 %}
+    {% for s in e.sections %}<li><a href="#{{ s.id }}">{{ s.name }}</a></li>{% if s.id == "fashion" and e.ootd %}<li><a href="#ootd">OOTD</a></li>{% endif %}{% endfor %}
+    {% if e.ootd and not has_fashion %}<li><a href="#ootd">OOTD</a></li>{% endif %}
+    {% if e.quote %}<li><a href="#quote">명언</a></li>{% endif %}
+    {% if e.fortune %}<li><a href="#fortune">운세</a></li>{% endif %}
+  </ul>
+</nav>
+
+<main>
+  {# ── 오늘의 지표 ── #}
+  <section class="ticker" id="ticker" aria-label="오늘의 지표">
+    <div class="wrap">
+      <div class="ticker-head">
+        <span class="eyebrow">Today's Numbers · 오늘의 지표</span>
+        <span class="note">전일 대비{% if e._spark %} · 최근 7일{% endif %}</span>
+      </div>
+      <div class="ticker-grid">
+        {% for t in e.indicators %}
+        <div class="tick">
+          <div class="tick-name">{{ t.name }}</div>
+          {% if t.ok %}
+          <div class="tick-val">{{ t.display }}</div>
+          <div class="tick-row">
+            <span class="tick-chg {{ t.direction }}">{{ t.change_display }}</span>
+            {% set sp = (e._spark or {}).get(t.id) %}
+            {% if sp %}<svg class="spark {{ t.direction }}" viewBox="0 0 60 18" preserveAspectRatio="none" role="img" aria-label="최근 {{ sp.n }}일 추이"><polyline points="{{ sp.points }}"/></svg>{% endif %}
+          </div>
+          {% else %}
+          <div class="tick-na">데이터 준비 중</div>
+          {% endif %}
+        </div>
+        {% else %}
+        <div class="tick"><div class="tick-na">데이터 준비 중</div></div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {# ── 커버스토리 ── #}
+  {% if e.cover_stories %}
+  <section class="cover" id="cover">
+    <div class="wrap">
+      <div class="cover-label">
+        <span class="eyebrow">Cover Story</span>
+        <h2>오늘 가장 많이 이야기하는 것들</h2>
+      </div>
+      {% for c in e.cover_stories %}
+      {% if loop.first %}
+      <article class="cover-main">
+        <span class="num" aria-hidden="true">01</span>
+        {% if c.kicker or c.keyword %}<span class="kicker">{{ c.kicker or c.keyword }}</span>{% endif %}
+        <h3><a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.headline }}</a></h3>
+        {% if c.summary %}<p>{{ c.summary }}</p>{% endif %}
+        <a class="src" href="{{ c.link }}" target="_blank" rel="noopener">{{ c.source }} · 원문 보기 <span class="arrow">↗</span></a>
+      </article>
+      <div class="cover-sub">
+      {% else %}
+        <article>
+          <span class="num">{{ "%02d" | format(loop.index) }}</span>
+          <div>
+            {% if c.kicker or c.keyword %}<span class="kicker">{{ c.kicker or c.keyword }}</span>{% endif %}
+            <h3><a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.headline }}</a></h3>
+            {% if c.summary %}<p>{{ c.summary }}</p>{% endif %}
+            <a class="src" href="{{ c.link }}" target="_blank" rel="noopener">{{ c.source }} · 원문 보기 <span class="arrow">↗</span></a>
+          </div>
+        </article>
+      {% endif %}
+      {% if loop.last %}</div>{% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {# ── 섹션별 뉴스 ── #}
+  {% for s in e.sections %}
+  {% set st = SECTION_STYLE.get(s.id, DEFAULT_STYLE) %}
+  <section class="sec sec--{{ st.layout }}" id="{{ s.id }}" style="--accent: {{ st.light }}; --accent-dark: {{ st.dark }};">
+    <div class="wrap">
+      <header class="sec-head">
+        {{ icon(s.id, 34) }}
+        <div class="names">
+          <span class="sec-en">{{ st.en }}</span>
+          <h2>{{ s.name }}</h2>
+        </div>
+        <span class="sec-no">No. {{ "%02d" | format(loop.index) }}</span>
+      </header>
+      <div class="items">
+        {% for it in s["items"] %}
+        <article class="item">
+          {% if (it.coverage or 1) >= 8 %}<span class="hot">많이 보도된 이슈</span>{% endif %}
+          <h3><a href="{{ it.link }}" target="_blank" rel="noopener">{{ it.headline }}</a></h3>
+          {% if it.summary %}<p>{{ it.summary }}</p>{% endif %}
+          <a class="src" href="{{ it.link }}" target="_blank" rel="noopener">{{ it.source }}{% if (it.coverage or 1) > 1 %} 외 {{ it.coverage - 1 }}곳 보도{% endif %} · 원문 보기 <span class="arrow">↗</span></a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% if s.id == "fashion" and e.ootd %}{{ ootd_block(e.ootd, base) }}{% endif %}
+  {% endfor %}
+  {% if e.ootd and not has_fashion %}{{ ootd_block(e.ootd, base) }}{% endif %}
+
+  {# ── 오늘의 명언 ── #}
+  {% if e.quote %}
+  <section class="quote" id="quote">
+    <div class="wrap">
+      <span class="eyebrow">Words of the Day · 오늘의 명언</span>
+      <div style="margin-top:22px">{{ icon("quote", 36) }}</div>
+      <blockquote>{{ e.quote.text }}</blockquote>
+      <cite>— {{ e.quote.author }}{% if e.quote.work %}, 『{{ e.quote.work }}』{% endif %}</cite>
+    </div>
+  </section>
+  {% endif %}
+
+  {# ── 오늘의 운세 ── #}
+  {% if e.fortune and e.fortune["items"] %}
+  <section class="fortune" id="fortune">
+    <div class="wrap">
+      <div class="fortune-head">
+        <h2>오늘의 운세</h2>
+        <span class="eyebrow">Just for Fun</span>
+      </div>
+      <div class="my-zodiac" hidden aria-live="polite"></div>
+      <p class="fortune-hint">내 띠를 누르면 다음부터 맨 위에 크게 보여드려요.</p>
+      <details class="fortune-all" open>
+        <summary>12띠 모두 보기</summary>
+        <div class="fortune-grid">
+          {% for z in e.fortune["items"] %}
+          <button type="button" class="zodiac" data-animal="{{ z.animal }}">
+            <span class="hanja" aria-hidden="true">{{ ZODIAC_HANJA.get(z.animal, "") }}</span>
+            <b>{{ z.animal }}띠</b>
+            <span class="z-text">{{ z.text }}</span>
+          </button>
+          {% endfor %}
+        </div>
+      </details>
+    </div>
+  </section>
+  {% endif %}
+  <section class="end">
+    <div class="wrap">
+      <span class="end-mark" aria-hidden="true">■</span>
+      <p class="end-title">오늘의 한 장은 여기까지.</p>
+      <p class="end-sub">내일 아침, 새로운 한 장으로 찾아옵니다.</p>
+      <button class="end-share" type="button" data-share>오늘 호 공유하기</button>
+    </div>
+  </section>
+</main>
+
+<button class="to-top" type="button" aria-label="맨 위로" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+<div class="toast" role="status" aria-live="polite" hidden></div>
+
+<footer class="foot">
+  <div class="wrap">
+    <nav class="foot-nav" aria-label="다른 호 보기">
+      {% if prev_date %}
+      <a class="prev" href="{{ base }}archive/{{ prev_date }}.html">← 어제 호</a>
+      {% else %}<span class="off">← 첫 호</span>{% endif %}
+      <a class="mid" href="{{ base }}archive/">지난 호 보기</a>
+      {% if next_date %}
+      <a class="next" href="{{ base }}archive/{{ next_date }}.html">다음 호 →</a>
+      {% elif not is_latest %}
+      <a class="next" href="{{ base }}index.html">최신호 →</a>
+      {% else %}<span class="off next">오늘 호</span>{% endif %}
+    </nav>
+    {% if show_cards %}<p class="foot-cards"><a href="{{ base }}cards/">오늘의 카드뉴스 보기 →</a></p>{% endif %}
+    <p class="foot-title">{{ e.title }}</p>
+    <p class="foot-note">
+      {% if e.edit_mode == "fallback" %}헤드라인은 각 매체의 원문 제목입니다.{% else %}헤드라인과 요약은 AI가 원문을 바탕으로 새로 작성했습니다.{% endif %}
+      모든 기사의 저작권은 각 언론사에 있으며, 자세한 내용은 원문 링크에서 확인하세요.<br>
+      지표는 발행 시점 기준이며 투자 판단의 근거가 아닙니다. 운세는 재미로만 봐 주세요.<br>
+      발행 {{ e.generated_at[:16].replace("T", " ") }} KST
+    </p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var tabs = document.querySelectorAll(".look-tabs [data-look]");
+  if (!tabs.length) return;
+  function show(id) {
+    var found = false;
+    document.querySelectorAll(".look[data-look]").forEach(function (p) { if (p.dataset.look === id) found = true; });
+    if (!found) return;
+    tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.look === id ? "true" : "false"); });
+    document.querySelectorAll(".look[data-look]").forEach(function (p) { p.hidden = p.dataset.look !== id; });
+  }
+  try { var saved = localStorage.getItem("haru-look"); if (saved) show(saved); } catch (_) {}
+  tabs.forEach(function (t) {
+    t.addEventListener("click", function () {
+      show(t.dataset.look);
+      try { localStorage.setItem("haru-look", t.dataset.look); } catch (_) {}
+    });
+  });
+})();
+// 읽기 진행 막대 + 맨 위로 버튼
+(function () {
+  var bar = document.querySelector(".progress i"), top = document.querySelector(".to-top"), ticking = false;
+  function update() {
+    var h = document.documentElement.scrollHeight - innerHeight;
+    if (bar) bar.style.transform = "scaleX(" + (h > 0 ? Math.min(1, scrollY / h) : 0) + ")";
+    if (top) top.hidden = scrollY < innerHeight * 1.5;
+    ticking = false;
+  }
+  addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  if (top) top.addEventListener("click", function () { scrollTo({ top: 0 }); });
+  update();
+})();
+// 공유하기 (휴대폰 공유창, 안 되면 링크 복사)
+(function () {
+  var toast = document.querySelector(".toast"), timer;
+  function say(msg) {
+    if (!toast) return;
+    toast.textContent = msg; toast.hidden = false;
+    clearTimeout(timer); timer = setTimeout(function () { toast.hidden = true; }, 2200);
+  }
+  var url = {{ (site_url if (site_url and is_latest) else "") | tojson }} || location.href;
+  var data = { title: document.title, text: {{ (e.cover_stories[0].headline if e.cover_stories else e.title) | tojson }}, url: url };
+  document.querySelectorAll("[data-share]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(function () { say("링크를 복사했어요"); }, function () { say(url); });
+      } else { say(url); }
+    });
+  });
+})();
+// 운세: 내 띠 고정
+(function () {
+  var box = document.querySelector(".my-zodiac");
+  if (!box) return;
+  var all = document.querySelector(".fortune-all"), hint = document.querySelector(".fortune-hint");
+  var buttons = document.querySelectorAll(".zodiac[data-animal]");
+  function render(animal) {
+    var b = null;
+    buttons.forEach(function (x) { if (x.dataset.animal === animal) b = x; });
+    if (!b) return;
+    buttons.forEach(function (x) { x.classList.toggle("mine", x === b); });
+    box.innerHTML = "";
+    var hanja = document.createElement("span"); hanja.className = "hanja"; hanja.textContent = b.querySelector(".hanja").textContent;
+    var name = document.createElement("span"); name.className = "eyebrow"; name.textContent = "내 띠 · " + animal + "띠";
+    var text = document.createElement("p"); text.textContent = b.querySelector(".z-text").textContent;
+    var change = document.createElement("button"); change.type = "button"; change.className = "z-change"; change.textContent = "띠 바꾸기";
+    change.addEventListener("click", function () { all.open = true; all.scrollIntoView({ block: "start" }); });
+    box.append(hanja, name, text, change);
+    box.hidden = false; all.open = false; if (hint) hint.hidden = true;
+  }
+  try { var saved = localStorage.getItem("haru-zodiac"); if (saved) render(saved); } catch (_) {}
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      render(b.dataset.animal);
+      try { localStorage.setItem("haru-zodiac", b.dataset.animal); } catch (_) {}
+      box.scrollIntoView({ block: "center" });
+    });
+  });
+})();
+function toggleTheme() {
+  var root = document.documentElement;
+  var dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("haru-theme", root.dataset.theme); } catch (_) {}
+}
+(function () {
+  var links = document.querySelectorAll(".tabs a");
+  if (!("IntersectionObserver" in window) || !links.length) return;
+  var byId = {};
+  links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      links.forEach(function (a) { a.classList.remove("on"); });
+      var a = byId[en.target.id];
+      if (a) {
+        a.classList.add("on");
+        var ul = a.closest("ul");
+        ul.scrollTo({ left: a.offsetLeft - ul.clientWidth / 2 + a.clientWidth / 2, behavior: "smooth" });
+      }
+    });
+  }, { rootMargin: "-45% 0px -50% 0px" });
+  Object.keys(byId).forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });
+})();
+</script>
+</body>
+</html>

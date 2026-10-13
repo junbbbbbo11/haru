@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────────────────────
+#  하루 한 장 — 기본 설정
+#  (API 키·비밀번호는 여기에 쓰지 마세요! GitHub Secrets에 넣습니다)
+# ─────────────────────────────────────────────────────────────
+
+site:
+  title: 하루 한 장               # 매거진 제호 (호수 Vol.은 발행된 호 수대로 자동 계산)
+  # 사이트 주소. 비워두면 GitHub에서 자동으로 https://아이디.github.io/저장소이름/ 으로 정해집니다.
+  url: ""
+
+email:
+  # true 로 바꾸면 발행 후 이메일로 오늘 호 링크를 보냅니다.
+  # (GitHub Secrets에 GMAIL_ADDRESS, GMAIL_APP_PASSWORD, MAIL_TO 를 등록해야 합니다)
+  enabled: false
+
+ai:
+  enabled: true
+  provider: openai           # 나중에 다른 AI를 붙이면 여기서 바꿉니다
+  model: gpt-5-mini          # 더 좋게: gpt-5 / 더 싸게: gpt-5-nano
+  reasoning_effort: low      # gpt-5 계열 전용: minimal / low / medium / high
+  timeout_seconds: 120
+
+ootd:
+  enabled: true
+  default: women             # 페이지를 처음 열었을 때 보여줄 쪽 (women / men). 고른 탭은 기기마다 기억됩니다
+  looks:                     # 탭 순서대로. style = 추천받을 스타일, person = 착샷 속 인물(영어)
+    - id: women
+      label: 여성
+      style: 여성 데일리룩
+      person: a woman in her 30s with a slim build
+    - id: men
+      label: 남성
+      style: 남성 데일리룩
+      person: a man in his 30s with an average build
+
+lookbook:                    # OOTD 착샷 (AI가 그린 얼굴 없는 실사 이미지)
+  enabled: true              # Cloudflare 키가 없으면 자동으로 일러스트로 표시됩니다
+  provider: cloudflare       # Cloudflare Workers AI 무료 등급
+  model: "@cf/black-forest-labs/flux-1-schnell"
+  framing: street            # street = 거리 스냅 / studio = 무지 배경 룩북. 어느 쪽이든 목 아래만 나옵니다
+  max_tries: 3               # 얼굴이 남는 등 실패하면 다시 생성하는 횟수 (성별마다)
+  steps: 8                   # 1~8, 높을수록 디테일↑ (무료 한도 안에서 충분)
+  keep_days: 90              # 이 날짜보다 오래된 착샷은 지워서 저장소 용량을 관리 (지난 호는 일러스트로 표시)
+
+cards:                       # 인스타그램 카드뉴스(1080×1350) — 사이트의 /cards/ 페이지에서 저장
+  enabled: true
+
+weather:                     # OOTD 추천에 쓰는 날씨 기준 지역
+  city: 서울
+  latitude: 37.5665
+  longitude: 126.978
+
+collect:
+  hours: 24                       # 최근 몇 시간 안의 기사만 쓸지
+  max_items_per_feed: 40          # 피드 하나에서 최대 몇 개까지 읽을지
+  max_candidates_per_section: 25  # 섹션마다 AI에게 넘길 후보 수
+  items_per_section: 2            # 섹션마다 실을 이슈 수 (1~2)
+  max_total_items: 13             # 섹션 기사 전체 상한 (3분 읽기 분량). 섹션마다 1개는 꼭 실림
+  timeout_seconds: 15             # 피드 하나 기다리는 최대 시간

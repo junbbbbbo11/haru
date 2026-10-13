@@ -1,0 +1,187 @@
+{% from "icons.html" import icon, garment %}
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&display=block">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+  :root { --paper: #f6f3ec; --paper-2: #efeae0; --ink: #141311; --ink-2: #3b3833; --muted: #77716a; --rule: #d8d1c4;
+          --up: #c8322b; --down: #2357b5;
+          --serif: "Noto Serif KR", serif; --sans: "Pretendard Variable", Pretendard, sans-serif; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #888; font-family: var(--sans); color: var(--ink); word-break: keep-all; -webkit-font-smoothing: antialiased; }
+  .card { width: 1080px; height: 1350px; background: var(--paper); position: relative; overflow: hidden;
+          display: flex; flex-direction: column; padding: 84px 88px 72px; margin-bottom: 20px; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; font-size: 22px; letter-spacing: .16em;
+         text-transform: uppercase; font-weight: 600; color: var(--muted); border-bottom: 2px solid currentColor; padding-bottom: 22px; }
+  .top b { font-family: var(--serif); font-size: 30px; letter-spacing: -.03em; text-transform: none; color: var(--ink); font-weight: 900; }
+  .foot { margin-top: auto; display: flex; justify-content: space-between; align-items: center; font-size: 22px; color: var(--muted);
+          letter-spacing: .04em; border-top: 1px solid var(--rule); padding-top: 24px; }
+  .kicker { display: inline-block; font-size: 26px; font-weight: 700; letter-spacing: .12em; padding: 8px 16px; border: 2px solid currentColor; }
+  .eyebrow { font-size: 24px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+
+  /* 1. 표지 */
+  .c-cover .title { font-family: var(--serif); font-weight: 900; font-size: 210px; line-height: 1; letter-spacing: -.06em; text-align: center; margin-top: 100px; }
+  .c-cover .sub { text-align: center; font-family: var(--serif); font-style: italic; font-size: 30px; color: var(--muted); margin-top: 22px; }
+  .c-cover .meta { margin: 50px 0 0; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: 18px 0;
+                   text-align: center; font-size: 28px; color: var(--ink-2); letter-spacing: .02em; }
+  .c-cover ol { list-style: none; margin-top: auto; border-top: 2px solid var(--ink); }
+  .c-cover .foot { margin-top: 40px; }
+  .c-cover .label { font-size: 22px; font-weight: 700; letter-spacing: .18em; color: var(--muted); margin: 0 0 6px; }
+  .c-cover li { display: grid; grid-template-columns: 70px 1fr; gap: 0 18px; padding: 26px 0; border-bottom: 1px solid var(--rule); }
+  .c-cover li .n { font-family: var(--serif); font-weight: 900; font-size: 44px; line-height: 1.1; }
+  .c-cover li .h { font-family: var(--serif); font-weight: 700; font-size: 44px; line-height: 1.32; letter-spacing: -.03em; }
+
+  /* 2~4. 커버스토리 */
+  .c-story { background: var(--ink); color: var(--paper); }
+  .c-story .top { color: rgba(246,243,236,.55); }
+  .c-story .top b { color: var(--paper); }
+  .c-story .num { position: absolute; right: -10px; top: 120px; font-family: var(--serif); font-weight: 900; font-size: 520px; line-height: 1;
+                  color: transparent; -webkit-text-stroke: 2px rgba(246,243,236,.22); }
+  .c-story .body { margin-top: auto; position: relative; }
+  .c-story h2 { font-family: var(--serif); font-weight: 900; font-size: 92px; line-height: 1.2; letter-spacing: -.04em; margin-top: 34px; }
+  .c-story p { font-size: 38px; line-height: 1.65; margin-top: 40px; color: rgba(246,243,236,.86); }
+  .c-story .src { font-size: 26px; margin-top: 40px; color: rgba(246,243,236,.6); letter-spacing: .02em; }
+  .c-story .foot { color: rgba(246,243,236,.55); border-color: rgba(246,243,236,.2); margin-top: 70px; }
+
+  /* 5. 섹션 브리핑 */
+  .c-brief h2 { font-family: var(--serif); font-weight: 900; font-size: 72px; letter-spacing: -.04em; margin: 50px 0 26px; }
+  .c-brief ul { list-style: none; }
+  .c-brief li { display: grid; grid-template-columns: 170px 1fr; gap: 0 20px; align-items: baseline; padding: 21px 0; border-bottom: 1px solid var(--rule); }
+  .c-brief li .s { font-size: 24px; font-weight: 700; letter-spacing: .04em; color: var(--c); }
+  .c-brief li .h { font-family: var(--serif); font-weight: 700; font-size: 33px; line-height: 1.36; letter-spacing: -.025em;
+                   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+  /* 6. OOTD */
+  .c-ootd { background: var(--paper-2); padding-bottom: 64px; }
+  .c-ootd .head { display: flex; justify-content: space-between; align-items: flex-end; margin: 40px 0 30px; }
+  .c-ootd .head h2 { font-family: var(--serif); font-weight: 900; font-size: 76px; letter-spacing: -.04em; line-height: 1.1; }
+  .c-ootd .weather { font-size: 24px; font-weight: 600; color: var(--ink-2); border: 2px solid var(--rule); background: var(--paper);
+                     border-radius: 999px; padding: 10px 22px; }
+  .c-ootd .grid { display: grid; grid-template-columns: 560px 1fr; gap: 44px; flex: 1; min-height: 0; }
+  .c-ootd .shot { width: 560px; height: 860px; object-fit: cover; display: block; }
+  .c-ootd .flat { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-content: start; width: 560px; }
+  .c-ootd .piece { --ink: #2a2723; background: #f3eee6; border: 1px solid #e2dacd; aspect-ratio: 3/4; display: grid; place-items: center; }
+  .c-ootd .piece svg { width: 78%; }
+  .c-ootd .label { display: inline-block; font-size: 24px; font-weight: 700; letter-spacing: .1em; color: #8a5a2b; margin-bottom: 14px; }
+  .c-ootd h3 { font-family: var(--serif); font-style: italic; font-weight: 700; font-size: 52px; line-height: 1.24; letter-spacing: -.03em; }
+  .c-ootd .tip { font-size: 27px; line-height: 1.6; color: var(--ink-2); margin-top: 20px; }
+  .c-ootd ul { list-style: none; margin-top: 28px; border-top: 1px solid var(--rule); }
+  .c-ootd ul li { display: flex; align-items: center; gap: 16px; font-size: 27px; padding: 14px 0; border-bottom: 1px solid var(--rule); color: var(--ink-2); }
+  .c-ootd ul i { width: 26px; height: 26px; border-radius: 50%; flex: none; box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
+  .c-ootd .ai { font-size: 20px; color: var(--muted); margin-top: 18px; }
+
+  /* 7. 마무리 */
+  .c-end .ticks { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 60px; border-bottom: 1px solid var(--rule); padding-bottom: 46px; }
+  .c-end .tick { padding: 0 26px; border-left: 1px solid var(--rule); }
+  .c-end .tick:first-child { padding-left: 0; border-left: 0; }
+  .c-end .tick .n { font-size: 24px; color: var(--muted); font-weight: 500; }
+  .c-end .tick .v { font-family: var(--serif); font-weight: 600; font-size: 46px; letter-spacing: -.02em; margin-top: 6px; white-space: nowrap; }
+  .c-end .tick .d { font-size: 26px; font-weight: 700; margin-top: 4px; }
+  .up { color: var(--up); } .down { color: var(--down); } .flat { color: var(--muted); }
+  .c-end blockquote { font-family: var(--serif); font-weight: 600; font-size: 62px; line-height: 1.5; letter-spacing: -.03em; text-align: center; margin-top: 110px; }
+  .c-end cite { display: block; text-align: center; font-style: normal; font-size: 28px; color: var(--muted); margin-top: 32px; }
+  .c-end .bye { margin-top: auto; text-align: center; }
+  .c-end .bye b { display: block; font-family: var(--serif); font-weight: 900; font-size: 52px; letter-spacing: -.04em; }
+  .c-end .bye span { display: block; font-size: 26px; color: var(--muted); margin-top: 12px; }
+</style>
+</head>
+<body>
+{% set total = cards | length %}
+{% for c in cards %}
+{% set page = loop.index %}
+
+{% if c.kind == "cover" %}
+<section class="card c-cover">
+  <div class="top"><span>Daily Edition</span><span>Vol. {{ e.vol }}</span></div>
+  <div class="title">{{ e.title }}</div>
+  <div class="sub">오늘의 세상을 한 장에 담다</div>
+  <div class="meta">{{ e.date | kdate }} {{ e.weekday }} · {{ e.reading_minutes }}분 읽기</div>
+  <ol>
+    <li style="display:block;border:0;padding:22px 0 0"><span class="label">COVER STORY · 오늘 가장 많이 이야기하는 것들</span></li>
+    {% for s in e.cover_stories %}<li><span class="n">{{ "%02d" | format(loop.index) }}</span><span class="h">{{ s.headline }}</span></li>{% endfor %}
+  </ol>
+  <div class="foot"><span>넘겨서 읽기 →</span><span>{{ page }} / {{ total }}</span></div>
+</section>
+
+{% elif c.kind == "story" %}
+{% set s = c.story %}
+<section class="card c-story">
+  <div class="top"><b>{{ e.title }}</b><span>Cover Story</span></div>
+  <span class="num">{{ "%02d" | format(c.n) }}</span>
+  <div class="body">
+    {% if s.kicker or s.keyword %}<span class="kicker">{{ s.kicker or s.keyword }}</span>{% endif %}
+    <h2>{{ s.headline }}</h2>
+    {% if s.summary %}<p>{{ s.summary }}</p>{% endif %}
+    <div class="src">출처 · {{ s.source }}</div>
+  </div>
+  <div class="foot"><span>{{ e.date | kdate }}</span><span>{{ page }} / {{ total }}</span></div>
+</section>
+
+{% elif c.kind == "brief" %}
+<section class="card c-brief">
+  <div class="top"><b>{{ e.title }}</b><span>Briefing</span></div>
+  <h2>오늘의 섹션 브리핑</h2>
+  <ul>
+    {% for sec in e.sections %}
+    {% set st = SECTION_STYLE.get(sec.id, DEFAULT_STYLE) %}
+    <li style="--c: {{ st.light }}"><span class="s">{{ sec.name }}</span><span class="h">{{ sec["items"][0].headline }}</span></li>
+    {% endfor %}
+  </ul>
+  <div class="foot"><span>자세한 내용은 오늘 호에서</span><span>{{ page }} / {{ total }}</span></div>
+</section>
+
+{% elif c.kind == "ootd" %}
+{% set l = c.look %}
+<section class="card c-ootd">
+  <div class="top"><b>{{ e.title }}</b><span>Outfit of the Day</span></div>
+  <div class="head">
+    <h2>오늘 뭐 입지</h2>
+    {% if e.ootd.weather %}<span class="weather">{{ e.ootd.weather.display }}</span>{% endif %}
+  </div>
+  <div class="grid">
+    {% if c.photo %}
+    <img class="shot" src="{{ c.photo }}" alt="">
+    {% else %}
+    <div class="flat">
+      {% for it in l["items"][:4] %}<div class="piece">{{ garment(it.category, it.hex) }}</div>{% endfor %}
+    </div>
+    {% endif %}
+    <div>
+      <span class="label">{{ l.label }} · {{ l.keyword }}</span>
+      <h3>{{ l.title }}</h3>
+      <p class="tip">{{ l.tip }}</p>
+      <ul>{% for it in l["items"] %}<li><i style="background: {{ it.hex }}"></i>{{ it.name }}</li>{% endfor %}</ul>
+      {% if c.photo %}<p class="ai">* AI로 생성한 이미지입니다</p>{% endif %}
+    </div>
+  </div>
+  <div class="foot"><span>{{ e.date | kdate }}</span><span>{{ page }} / {{ total }}</span></div>
+</section>
+
+{% elif c.kind == "end" %}
+<section class="card c-end">
+  <div class="top"><b>{{ e.title }}</b><span>Today's Numbers</span></div>
+  <div class="ticks">
+    {% for t in e.indicators %}
+    <div class="tick">
+      <div class="n">{{ t.name }}</div>
+      {% if t.ok %}<div class="v">{{ t.display }}</div><div class="d {{ t.direction }}">{{ t.change_display }}</div>
+      {% else %}<div class="v" style="font-size:30px;color:var(--muted)">준비 중</div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if e.quote %}
+  <blockquote>“{{ e.quote.text }}”</blockquote>
+  <cite>— {{ e.quote.author }}{% if e.quote.work %}, 『{{ e.quote.work }}』{% endif %}</cite>
+  {% endif %}
+  <div class="bye">
+    <b>오늘의 한 장은 여기까지.</b>
+    <span>{% if site_url %}{{ site_url | replace("https://", "") }}{% else %}내일 아침, 새로운 한 장으로{% endif %}</span>
+  </div>
+  <div class="foot"><span>{{ e.date | kdate }}</span><span>{{ page }} / {{ total }}</span></div>
+</section>
+{% endif %}
+{% endfor %}
+</body>
+</html>

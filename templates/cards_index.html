@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ e.title }} · 카드뉴스</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="192x192" href="../icon-192.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<script>try{var t=localStorage.getItem("haru-theme");if(t)document.documentElement.dataset.theme=t}catch(_){}</script>
+<style>
+{% include "style.css" %}
+.cards-page { padding-bottom: 72px; }
+.how { font-size: 14px; color: var(--ink-2); background: var(--paper-2); border: 1px solid var(--rule); padding: 14px 16px; margin: 24px 0; line-height: 1.7; }
+.how b { color: var(--ink); }
+.card-list { list-style: none; display: grid; gap: 14px; grid-template-columns: 1fr 1fr; }
+.card-list a { display: block; position: relative; }
+.card-list img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; background: var(--rule); box-shadow: 0 1px 0 var(--rule); }
+.card-list span { position: absolute; left: 8px; top: 8px; font-size: 11px; font-weight: 700; background: rgba(0,0,0,.55); color: #fff; padding: 2px 8px; border-radius: 999px; }
+.caption-box { margin-top: 36px; }
+.caption-box h2 { font-family: var(--serif); font-weight: 900; font-size: 24px; letter-spacing: -.03em; margin-bottom: 12px; }
+.caption-box textarea { width: 100%; min-height: 220px; font: inherit; font-size: 14px; line-height: 1.7; color: var(--ink); background: var(--paper);
+  border: 1px solid var(--rule); padding: 14px; resize: vertical; }
+.btn { margin-top: 12px; font: inherit; font-size: 14px; font-weight: 600; color: var(--paper); background: var(--ink); border: 0;
+  border-radius: 999px; padding: 11px 22px; cursor: pointer; }
+.empty { padding: 40px 0; color: var(--muted); text-align: center; }
+@media (min-width: 760px) { .card-list { grid-template-columns: repeat(4, 1fr); } }
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-top">
+      <a class="eyebrow" href="../index.html">← 오늘 호</a>
+      <span class="eyebrow">Card News</span>
+    </div>
+    <h1 class="mast-title" style="font-size:clamp(2.6rem,12vw,5.5rem)">카드뉴스</h1>
+    <div class="mast-meta"><span>{{ e.date | kdate }} {{ e.weekday }}</span><span>Vol. {{ e.vol }}</span><span>{{ files | length }}장</span></div>
+    <div class="rule-thin"></div>
+  </div>
+</header>
+<main class="wrap cards-page">
+  {% if files %}
+  <p class="how">
+    <b>인스타그램에 올리는 법</b><br>
+    ① 카드를 하나씩 눌러 크게 연 뒤 <b>길게 눌러 '사진에 저장'</b> (PC는 우클릭 → 다른 이름으로 저장)<br>
+    ② 인스타그램 <b>새 게시물 → 여러 장 선택</b>에서 01번부터 순서대로 고르기<br>
+    ③ 아래 캡션을 <b>복사</b>해서 붙여넣기
+  </p>
+  <ul class="card-list">
+    {% for f in files %}<li><a href="{{ f }}" target="_blank" rel="noopener"><img src="{{ f }}" alt="카드 {{ loop.index }}" loading="lazy" width="1080" height="1350"><span>{{ "%02d" | format(loop.index) }}</span></a></li>{% endfor %}
+  </ul>
+  <section class="caption-box">
+    <h2>캡션</h2>
+    <textarea id="caption" readonly>{{ caption }}</textarea>
+    <button class="btn" type="button" id="copy">캡션 복사</button>
+  </section>
+  {% else %}
+  <p class="empty">오늘은 카드뉴스를 만들지 못했어요. 내일 아침에 다시 확인해 주세요.</p>
+  {% endif %}
+</main>
+<div class="toast" role="status" aria-live="polite" hidden></div>
+<script>
+(function () {
+  var b = document.getElementById("copy"), t = document.querySelector(".toast"), ta = document.getElementById("caption");
+  if (!b) return;
+  b.addEventListener("click", function () {
+    function done() { t.textContent = "캡션을 복사했어요"; t.hidden = false; setTimeout(function () { t.hidden = true; }, 2000); }
+    if (navigator.clipboard) navigator.clipboard.writeText(ta.value).then(done, function () { ta.select(); document.execCommand("copy"); done(); });
+    else { ta.select(); document.execCommand("copy"); done(); }
+  });
+})();
+</script>
+</body>
+</html>

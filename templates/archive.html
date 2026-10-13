@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }} · 지난 호</title>
+<meta name="description" content="{{ title }} 지난 호 모아보기">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ base }}icon-192.png">
+<link rel="apple-touch-icon" href="{{ base }}apple-touch-icon.png">
+<link rel="manifest" href="{{ base }}manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="하루 한 장">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<script>try{var t=localStorage.getItem("haru-theme");if(t)document.documentElement.dataset.theme=t}catch(_){}</script>
+<style>
+{% include "style.css" %}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-top">
+      <a class="eyebrow" href="{{ base }}index.html">← 최신호</a>
+      <span class="eyebrow">Archive</span>
+    </div>
+    <h1 class="mast-title" style="font-size:clamp(2.8rem,13vw,6rem)">{{ title }}</h1>
+    <div class="mast-meta"><span>지난 호 보기</span><span>총 {{ editions | length }}호</span></div>
+    <div class="rule-thin"></div>
+  </div>
+</header>
+<main class="wrap" style="padding-bottom:64px">
+  {% set ns = namespace(month="") %}
+  {% for e in editions %}
+  {% set m = e.date[:7] %}
+  {% if m != ns.month %}
+  {% if ns.month %}</ul>{% endif %}
+  {% set ns.month = m %}
+  <p class="month">{{ m[:4] }}년 {{ m[5:7] | int }}월</p>
+  <ul class="arch-list">
+  {% endif %}
+    <li><a href="{{ e.date }}.html">
+      <span class="d">{{ e.date[5:7] | int }}.{{ e.date[8:10] }}<small>{{ e.weekday[:1] }} · Vol.{{ e.vol }}</small></span>
+      <span class="h">
+        {% if e.cover_stories %}{{ e.cover_stories[0].headline }}{% else %}{{ e.date | kdate }} 호{% endif %}
+        {% if e.cover_stories | length > 1 %}<small>{% for c in e.cover_stories[1:] %}{{ c.headline }}{% if not loop.last %} · {% endif %}{% endfor %}</small>{% endif %}
+      </span>
+    </a></li>
+  {% if loop.last %}</ul>{% endif %}
+  {% endfor %}
+</main>
+</body>
+</html>

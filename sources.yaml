@@ -1,0 +1,158 @@
+# ─────────────────────────────────────────────────────────────
+#  하루 한 장 — 뉴스 소스 목록
+#
+#  · 섹션마다 feeds(RSS 주소)와 search(구글 뉴스 검색어)를 적습니다.
+#  · 추가: "- name: ... / url: ..." 두 줄을 복사해서 붙여넣으세요.
+#  · 삭제: 해당 두 줄을 지우거나 맨 앞에 # 을 붙이세요(주석 처리).
+#  · search 에 적은 단어는 자동으로 "구글 뉴스 최근 24시간 검색" RSS로 바뀝니다.
+#  · 들여쓰기(스페이스)가 틀리면 오류가 나니 위아래 줄과 칸을 맞춰주세요.
+#
+#  ※ 2026-10-12에 전부 실제 접속해서 작동 확인한 주소입니다.
+#    (한국경제=접속 차단, 한겨레=날짜 정보 없음, 일부 전문지=주소 없음 → 제외)
+# ─────────────────────────────────────────────────────────────
+
+# 커버스토리용: 구글 트렌드 한국 실시간 인기 검색어
+trends:
+  url: https://trends.google.com/trending/rss?geo=KR
+  max_keywords: 10        # 상위 몇 개 검색어를 후보로 볼지
+  news_per_keyword: 6     # 검색어마다 관련 기사 몇 개를 붙일지
+
+sections:
+  - id: domestic
+    name: 국내
+    feeds:
+      - name: 구글 뉴스 · 국내
+        url: https://news.google.com/rss/headlines/section/topic/NATION?hl=ko&gl=KR&ceid=KR:ko
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/politics.xml
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/society.xml
+      - name: SBS 뉴스
+        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01
+      - name: 동아일보
+        url: https://rss.donga.com/total.xml
+      - name: 경향신문
+        url: https://www.khan.co.kr/rss/rssdata/total_news.xml
+    search: []
+
+  - id: world
+    name: 국제
+    feeds:
+      - name: 구글 뉴스 · 국제
+        url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/international.xml
+      - name: 동아일보
+        url: https://rss.donga.com/international.xml
+      - name: SBS 뉴스
+        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07
+      - name: 뉴시스
+        url: https://newsis.com/RSS/international.xml
+    search: []
+
+  - id: economy
+    name: 경제·금융
+    feeds:
+      - name: 구글 뉴스 · 경제
+        url: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/economy.xml
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/market.xml
+      - name: 매일경제
+        url: https://www.mk.co.kr/rss/30100041/
+      - name: 매일경제
+        url: https://www.mk.co.kr/rss/50200011/
+      - name: 동아일보
+        url: https://rss.donga.com/economy.xml
+      - name: 뉴시스
+        url: https://newsis.com/RSS/economy.xml
+    search: []
+
+  - id: tech
+    name: 테크
+    feeds:
+      - name: 구글 뉴스 · 과학/기술
+        url: https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko
+      - name: 전자신문
+        url: https://rss.etnews.com/Section901.xml
+      - name: ZDNet Korea
+        url: https://feeds.feedburner.com/zdkorea
+      - name: 블로터
+        url: https://www.bloter.net/rss/allArticle.xml
+    search:
+      - 인공지능 AI 서비스
+      - 스마트폰 신제품
+
+  - id: fashion
+    name: 패션
+    feeds:
+      - name: VOGUE Korea
+        url: https://www.vogue.co.kr/feed/
+      - name: W Korea
+        url: https://www.wkorea.com/feed/
+      - name: ELLE Korea
+        url: https://www.elle.co.kr/rss
+      - name: Harper's BAZAAR Korea
+        url: https://www.harpersbazaar.co.kr/rss
+      - name: GQ Korea
+        url: https://www.gqkorea.co.kr/feed/
+      - name: 한국섬유신문
+        url: https://www.ktnews.com/rss/allArticle.xml
+    search:
+      - 패션 브랜드
+      - 패션위크
+      - 패션 트렌드
+
+  - id: beauty
+    name: 뷰티
+    feeds:
+      - name: allure Korea
+        url: https://www.allurekorea.com/feed/
+      - name: 뷰티경제
+        url: https://www.thebk.co.kr/rss/allArticle.xml
+      - name: 장업신문
+        url: https://www.jangup.com/rss/allArticle.xml
+    search:
+      - 뷰티 화장품
+      - K뷰티
+
+  - id: lifestyle
+    name: 라이프스타일
+    feeds:
+      - name: 구글 뉴스 · 건강
+        url: https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko
+    search:
+      - 여행 트렌드
+      - 리빙 인테리어
+      - 맛집 디저트 팝업
+      - 웰니스
+
+  - id: culture
+    name: 문화
+    feeds:
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/culture.xml
+      - name: 동아일보
+        url: https://rss.donga.com/culture.xml
+      - name: 경향신문
+        url: https://www.khan.co.kr/rss/rssdata/culture_news.xml
+      - name: 뉴시스
+        url: https://newsis.com/RSS/culture.xml
+    search:
+      - 영화 개봉
+      - 미술 전시 개막
+      - 신간 소설
+
+  - id: sports
+    name: 스포츠
+    feeds:
+      - name: 구글 뉴스 · 스포츠
+        url: https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ko&gl=KR&ceid=KR:ko
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/sports.xml
+      - name: SBS 뉴스
+        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09
+      - name: 뉴시스
+        url: https://newsis.com/RSS/sports.xml
+    search: []
