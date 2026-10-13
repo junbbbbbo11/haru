@@ -1,0 +1,47 @@
+name: debug-models
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: probe real prompts
+        run: |
+          pip install -q openai requests feedparser pyyaml
+          python - <<'EOF'
+          import time, logging
+          from openai import OpenAI
+          from haru import collect, editor
+          from haru.config import load_sources, load_config
+          src = load_sources(); cfg = load_config()["collect"]
+          sec = next(s for s in src["sections"] if s["id"] == "economy")
+          one = collect.collect_sections({"sections": [sec]}, cfg)[0]
+          c = OpenAI(base_url="https://text.pollinations.ai/openai", api_key="none", timeout=150, max_retries=0)
+
+          def prompt(n, snip):
+              cands = one["candidates"][:n]
+              u = f"[섹션] 경제·금융\n\n후보:\n" + "\n".join(editor._cand_line(i, x, snip) for i, x in enumerate(cands))
+              u += '\n\n화제성과 중요도가 가장 높은 이슈를 최대 2개 골라 헤드라인과 요약을 새로 써라.\n\nJSON 형식:\n{"items":[{"id":0,"headline":"...","summary":"..."}]}'
+              return u
+          variants = [
+              ("full15", editor.SYSTEM, prompt(15, 90)),
+              ("full15+low", "Reasoning: low\n" + editor.SYSTEM, prompt(15, 90)),
+              ("small10+low", "Reasoning: low\n" + editor.SYSTEM, prompt(10, 0)),
+              ("small8+low", "Reasoning: low\n" + editor.SYSTEM, prompt(8, 0)),
+          ]
+          for name, sysm, user in variants:
+              t = time.time()
+              try:
+                  r = c.chat.completions.create(model="openai", messages=[{"role": "system", "content": sysm}, {"role": "user", "content": user}])
+                  txt = (r.choices[0].message.content or "") if getattr(r, "choices", None) else ""
+                  u = getattr(r, "usage", None)
+                  print(f"RES {name:12} {time.time()-t:5.1f}s in={getattr(u,'prompt_tokens',None)} out={getattr(u,'completion_tokens',None)} len={len(txt)} | {txt[:150]!r}")
+              except Exception as ex:
+                  print(f"RES {name:12} FAIL {type(ex).__name__}: {str(ex)[:200]}")
+              time.sleep(20)
+          EOF
