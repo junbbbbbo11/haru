@@ -4,8 +4,8 @@
   "date": "2026-10-13",
   "weekday": "화요일",
   "vol": 1,
-  "generated_at": "2026-10-13T23:01:18+09:00",
-  "edit_mode": "partial",
+  "generated_at": "2026-10-13T23:24:06+09:00",
+  "edit_mode": "fallback",
   "indicators": [
     {
       "id": "kospi",
@@ -22,23 +22,23 @@
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1342.9,
-      "change": -0.1,
-      "change_pct": -0.0,
+      "value": 1341.0,
+      "change": -2.0,
+      "change_pct": -0.15,
       "direction": "down",
-      "display": "1,342.9원",
-      "change_display": "▼ 0.00%"
+      "display": "1,341.0원",
+      "change_display": "▼ 0.15%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 112620000.0,
-      "change": 1757000.0,
-      "change_pct": 1.58,
+      "value": 113037000.0,
+      "change": 2174000.0,
+      "change_pct": 1.96,
       "direction": "up",
-      "display": "11,262만원",
-      "change_display": "▲ 1.58%"
+      "display": "11,304만원",
+      "change_display": "▲ 1.96%"
     }
   ],
   "weather": {
@@ -51,28 +51,25 @@
   },
   "cover_stories": [
     {
-      "kicker": "상속세",
-      "headline": "상속세 최고세율 40% 가업승계 법안 국회 발의",
-      "summary": "국회가 가업승계 부담 완화를 위해 상속세 최고세율을 50%에서 40%로 인하하는 법안을 발의했다.",
-      "source": "조세일보",
-      "link": "https://m.joseilbo.com/news/view.htm?newsid=577156",
-      "original_title": "상속세 최고세율 50%→40%?…‘가업승계 부담 완화 3법’ 국회 발의"
+      "keyword": "상속",
+      "headline": "30년 상속세 공제 기준 그대로, 현실화 필요…임광현 청장 \"재경부 협의할 것\"",
+      "summary": "",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/economy/2026/10/13/2026101315582246807"
     },
     {
-      "kicker": "대표팀",
-      "headline": "통계와 비난, 축구협회 ‘손흥민 질투’ 주장 ‘도 넘었다’",
-      "summary": "대표팀 관련 논란에서 축구협회는 손흥민과 이강인 간 질투 논란에 대해 ‘도 넘었다’는 입장을 밝혔다.",
+      "keyword": "저축은행",
+      "headline": "OK저축은행 “해킹 공격 정황 포착…183명 고객 정보 유출 가능성”",
+      "summary": "",
       "source": "KBS 뉴스",
-      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684581",
-      "original_title": "“손흥민 질투하냐” 빗발치는 비난에…축구협회 “도 넘었다” [지금뉴스]"
+      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684721"
     },
     {
-      "kicker": "보안",
-      "headline": "OK저축은행 해킹 공격, 183명 고객 정보 유출 가능성",
-      "summary": "OK저축은행이 해킹 공격 정황을 포착해 183명의 고객정보가 유출될 가능성을 경고했다.",
-      "source": "KBS 뉴스",
-      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684721",
-      "original_title": "OK저축은행 “해킹 공격 정황 포착…183명 고객 정보 유출 가능성”"
+      "keyword": "남지현",
+      "headline": "‘틈만나면,’ 남지현 “공부가 재밌었다”…퀴즈 프로그램 나갔다가 데뷔한 사연",
+      "summary": "",
+      "source": "YTN",
+      "link": "https://www.ytn.co.kr/_sn/0117_202610121625072271"
     }
   ],
   "sections": [
@@ -81,19 +78,19 @@
       "name": "국내",
       "items": [
         {
-          "headline": "20대 남성 장모 살해·아내 납치 구속",
-          "summary": "20대 남성이 장모를 살해하고 아내를 납치해 도주, 13일 구속돼 수사가 진행 중이다.",
-          "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261013119552004",
-          "original_title": "장모 살해·아내 납치 20대 구속…\"도망·증거인멸 염려\"(종합2보)",
+          "headline": "이 대통령 “굴종적·사대적 태도 지양”",
+          "summary": "",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610132208005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "이 대통령 “굴종적·사대적 태도 지양”",
           "coverage": 5
         },
         {
-          "headline": "나주 부부 살인피의자 신상 공개",
-          "summary": "나주에서 60대 부부를 살해한 피의자의 신상정보가 14일 공개된다.",
-          "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261013183900054",
-          "original_title": "경찰, '나주 부부' 결박·살해 피의자 신상정보 공개 결정",
+          "headline": "전국 경찰서장 242명중 118명 교체…‘향피제’ 전면 적용",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Society/article/all/20261013/134835495/1",
+          "original_title": "전국 경찰서장 242명중 118명 교체…‘향피제’ 전면 적용",
           "coverage": 5
         }
       ]
@@ -103,19 +100,19 @@
       "name": "국제",
       "items": [
         {
-          "headline": "젤렌스키, ‘에너지 휴전’ 언급에도 러공격 지속",
-          "summary": "트럼프가 ‘에너지 휴전’으로 언급하자 젤렌스키는 러시아의 공격이 계속되고 있다고 밝혀 우크라이나는 대응을 지속했다.",
+          "headline": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
+          "summary": "",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796057",
           "original_title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
           "coverage": 5
         },
         {
-          "headline": "트럼프, 아시아 방문 중 김정은 만남 가능성 언급",
-          "summary": "트럼프는 12일 미국 아시아 방문 중 김정은 북한 국무위원장을 만날 가능성을 언급했다.",
-          "source": "동아일보",
-          "link": "https://www.donga.com/news/Inter/article/all/20261013/134830389/1",
-          "original_title": "트럼프 “내달 아시아 방문때 김정은 만날 수도”",
+          "headline": "북중 신압록강대교 개통 임박?…북측 관문에 대형 국기 걸려",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795986",
+          "original_title": "북중 신압록강대교 개통 임박?…북측 관문에 대형 국기 걸려",
           "coverage": 5
         }
       ]
@@ -125,11 +122,11 @@
       "name": "경제·금융",
       "items": [
         {
-          "headline": "홍라희 관장, 이재용 회장에 삼성전자 지분 2.6조원 규모 증여",
+          "headline": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
           "summary": "",
-          "source": "동아일보",
-          "link": "https://www.donga.com/news/Economy/article/all/20261013/134835307/1",
-          "original_title": "홍라희 관장, 이재용 회장에 삼성전자 지분 2.6조원 규모 증여",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261013155952002",
+          "original_title": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
           "coverage": 5
         }
       ]
@@ -139,20 +136,20 @@
       "name": "테크",
       "items": [
         {
-          "headline": "삼성전자 KES 2026 AI 가전·모바일 전시",
-          "summary": "삼성전자는 KES 2026에서 AI가 일상에 융합된 가전·모바일 신제품을 전시했다",
+          "headline": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
+          "summary": "",
           "source": "뉴스케이프",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
           "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
-          "coverage": 9
+          "coverage": 10
         },
         {
-          "headline": "KT·구글 AI 구독 상품 8종 출시",
-          "summary": "KT는 구글과 협력해 AI 구독 상품 8종을 출시하고 커피·생활 혜택을 결합했다",
-          "source": "핀포인트뉴스",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GbFFIcXFROUJ6UFNVaXRMeEh5LTk3dW1RNERsT2RFUlZFQXVBR3Bjal9ycnE3cTRISE8zbXBqcTVvWUdQQmJCbzV2VFpTWXc0Ti1CYVBfT1VrWHdleEdkTGNDbGNRWUIwVEFubUVTM21yOGVrUVNV0gF3QVVfeXFMTUZsUUhxcVE5QnpQU1VpdEx4SHktOTd1bVE0RGxPZEVSVkVBdUFHcGNqX3JycTdxNEhITzNtcGpxNW9ZR1BCYkJvNXZUWlNZdzROLUJhUF9PVWtYd2V4R2RMY0NsY1FZQjBUQW5tRVMzbXI4ZWtRU1U?oc=5",
-          "original_title": "KT, 구글과 손잡고 AI 구독 상품 8종 출시…커피·생활 혜택 결합",
-          "coverage": 7
+          "headline": "KT, 구글 AI에 커피·생활 혜택 더했다 … 구독 상품 8종 출시",
+          "summary": "",
+          "source": "워크투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jal9qc0IxS1RfTVVVekFvTm1RUk1DYk1za1E3cjZER2laSTg2endMQnBKelFEUEVKY3hMRGJQanNBZ19qWXZrV0JwcU9fQlpDWGtMMWgxQkZYQU5lZVpYNExfc2RqN1pEY0xYcw?oc=5",
+          "original_title": "KT, 구글 AI에 커피·생활 혜택 더했다 … 구독 상품 8종 출시",
+          "coverage": 9
         }
       ]
     },
@@ -161,11 +158,11 @@
       "name": "패션",
       "items": [
         {
-          "headline": "의정부 청소년 보훈패션, 서울패션위크 이어 성수동 무대 진출",
+          "headline": "아이잗바바, 'HER SIGNATURE'로 여성 5인의 삶과 태도 조명",
           "summary": "",
-          "source": "포커스경제",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WdVdtVGozaEMzVzZPYnVTTnQzZ19CV3Z6R21HZEdKdWo5NDJNYnNhOERGMk42RGZqOUtxVDIzank0dVc2Q2dUaTcxTWplMFVQVi1ENTFiV3VWSW8weHRxam0xcjdiV2hDbHRVNnFn0gFwQVVfeXFMTXlHV1BITUxuQWlWekFxNVRZU2ktaHZPTmF4TGN0b0c3QW9DeGxWS2lteUt3ak9aNWU5aXRSaEZhelVoLTd3VTQtRnBvTGtubXA1dXhsTG5PNElqNnhkNV9oYzhWT096Y2ZyNHdWYnBhMw?oc=5",
-          "original_title": "의정부 청소년 보훈패션, 서울패션위크 이어 성수동 무대 진출",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=149308",
+          "original_title": "아이잗바바, 'HER SIGNATURE'로 여성 5인의 삶과 태도 조명",
           "coverage": 3
         }
       ]
