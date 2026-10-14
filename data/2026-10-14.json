@@ -4,41 +4,41 @@
   "date": "2026-10-14",
   "weekday": "수요일",
   "vol": 2,
-  "generated_at": "2026-10-14T00:02:58+09:00",
+  "generated_at": "2026-10-14T09:35:44+09:00",
   "edit_mode": "partial",
   "indicators": [
     {
       "id": "kospi",
       "name": "코스피",
       "ok": true,
-      "value": 6384.24,
-      "change": -241.69,
-      "change_pct": -3.65,
+      "value": 6157.83,
+      "change": -226.41,
+      "change_pct": -3.55,
       "direction": "down",
-      "display": "6,384.24",
-      "change_display": "▼ 3.65%"
+      "display": "6,157.83",
+      "change_display": "▼ 3.55%"
     },
     {
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1341.6,
-      "change": -1.4,
-      "change_pct": -0.1,
-      "direction": "down",
-      "display": "1,341.6원",
-      "change_display": "▼ 0.10%"
+      "value": 1340.3,
+      "change": 6.2,
+      "change_pct": 0.46,
+      "direction": "up",
+      "display": "1,340.3원",
+      "change_display": "▲ 0.46%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 112873000.0,
-      "change": 2010000.0,
-      "change_pct": 1.81,
+      "value": 112983000.0,
+      "change": 390000.0,
+      "change_pct": 0.35,
       "direction": "up",
-      "display": "11,287만원",
-      "change_display": "▲ 1.81%"
+      "display": "11,298만원",
+      "change_display": "▲ 0.35%"
     }
   ],
   "weather": {
@@ -46,33 +46,30 @@
     "t_max": 17,
     "t_min": 9,
     "rain_pct": 0,
-    "sky": "흐림",
-    "display": "서울 9~17°C · 흐림 · 강수 0%"
+    "sky": "구름 조금",
+    "display": "서울 9~17°C · 구름 조금 · 강수 0%"
   },
   "cover_stories": [
     {
-      "kicker": "금융",
-      "headline": "OK저축은행 해킹 위협 183명 고객 정보 유출",
-      "summary": "OK저축은행이 해킹 공격 정황을 포착해 183명의 고객 정보를 유출 가능성으로 조사 중이다.",
-      "source": "KBS 뉴스",
-      "link": "https://news.kbs.co.kr/news/view.do?ncd=8684721",
-      "original_title": "OK저축은행 “해킹 공격 정황 포착…183명 고객 정보 유출 가능성”"
-    },
-    {
-      "kicker": "AI",
-      "headline": "삼성전자 KES 2026 AI 일상 공개",
-      "summary": "삼성전자는 2026년 KES에서 AI를 활용한 일상 기능을 공개하며 가전·모바일 분야에서 AI 기술을 선보인다.",
-      "source": "뉴스케이프",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
-      "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에"
-    },
-    {
-      "kicker": "정치",
-      "headline": "대통령 ‘굴종적·사대적 태도 지양’",
-      "summary": "대통령은 공공기관과의 소통에서 굴종적·사대적 태도를 지양하고 국가 운영을 효율화하겠다고 밝혔다.",
+      "keyword": "생계",
+      "headline": "[단독]복지 담당 공무원이 보다 못해 나섰는데···생계급여 직권신청 5건 중 1건 ‘탈락’",
+      "summary": "",
       "source": "경향신문",
-      "link": "https://www.khan.co.kr/article/202610132208005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-      "original_title": "이 대통령 “굴종적·사대적 태도 지양”"
+      "link": "https://www.khan.co.kr/article/202610140600111"
+    },
+    {
+      "keyword": "김영철",
+      "headline": "“웃기는 건 남이 결정하지만” 비웃음 견디며 28년 버틴 김영철의 비밀",
+      "summary": "",
+      "source": "세계일보",
+      "link": "https://www.segye.com/newsView/20260714520749"
+    },
+    {
+      "keyword": "마이클 페이지",
+      "headline": "'MMA UFC 결별' 마이클 페이지, 미스피츠 복싱과 다년 계약 체결… 새로운 도약",
+      "summary": "",
+      "source": "FT스포츠",
+      "link": "https://www.ftimes.kr/news/articleView.html?idxno=40317"
     }
   ],
   "sections": [
@@ -81,19 +78,19 @@
       "name": "국내",
       "items": [
         {
-          "headline": "제주 40대 아버지·4세 딸 사망 현장",
-          "summary": "제주 차량 내부에서 40대 아버지와 4세 딸이 숨진 채 발견. 유족은 딸을 찾기 위해 실종신고를 했다.",
-          "source": "경향신문",
-          "link": "https://www.khan.co.kr/article/202610132302001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "original_title": "“경찰에 ‘안전 확인’ 수차례 요청했지만 결국”···제주서 40대 아버지·네 살 딸 숨진 채 발견",
+          "headline": "강경화 한·미 정보협력 논란",
+          "summary": "한미 정보 협력 문제를 제기한 미국 국무장관 마코 루비오와 조현 외교부 장관의 회담에서 강경화는 백악관과의 소통이 한계에 있다고 말했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261014/134837202/2",
+          "original_title": "강경화 “백악관과 소통에 한계” 韓美 이상기류 인정",
           "coverage": 5
         },
         {
-          "headline": "경찰서장 242명 중 118명 교체",
-          "summary": "경찰은 향피제를 전면 적용해 교체를 진행, 242명 중 118명을 새 인사로 교체했다. 지역 배치를 기준으로 이루어졌다.",
-          "source": "동아일보",
-          "link": "https://www.donga.com/news/Society/article/all/20261013/134835495/1",
-          "original_title": "전국 경찰서장 242명중 118명 교체…‘향피제’ 전면 적용",
+          "headline": "이형일·베선트 경제·금융 재확인",
+          "summary": "이형일 부총리와 미국 재무수장 스콧 베선트가 화상면담에서 한미 경제·금융 협력의 중요성을 재확인했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261013193951002",
+          "original_title": "이형일-베선트 화상면담…\"한미 경제·금융협력 중요성 재확인\"(종합)",
           "coverage": 5
         }
       ]
@@ -103,19 +100,11 @@
       "name": "국제",
       "items": [
         {
-          "headline": "신압록·대교 개통 임박",
-          "summary": "북한-중국 신압록강 대교 북측 관문에 대형 국기가 장식돼 개통이 임박했다.",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795986",
-          "original_title": "북중 신압록강대교 개통 임박?…북측 관문에 대형 국기 걸려",
-          "coverage": 5
-        },
-        {
-          "headline": "젤렌스키, 트럼프 휴전에 러 공격 계속",
-          "summary": "우크라이나 대통령 젤렌스키는 미국 대통령 트럼프의 ‘에너지 휴전’ 언급에도 러시아가 공격을 지속하고 있다고 밝혔다.",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796057",
-          "original_title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
+          "headline": "호르무즈 해협 선박 24건 피격",
+          "summary": "지난 2월 호르무즈 해협과 인근에서 이란 미사일·드론 공격을 받은 선박이 24건 발생했다",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261014_0003824759",
+          "original_title": "호르무즈 선박 피격 2주간 24척…전쟁 발발 후 최다",
           "coverage": 5
         }
       ]
@@ -125,19 +114,19 @@
       "name": "경제·금융",
       "items": [
         {
-          "headline": "새마을금고 고객정보 유출 400명대",
-          "summary": "새마을금고와 OK저축은행이 해킹 공격을 받아 400명대 고객정보가 유출되었고, 당국은 피해발생 시 전액을 보상하겠다고 밝혔다.",
-          "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261013155952002",
-          "original_title": "새마을금고 400명대 고객정보 유출…\"피해발생시 전액보상\"(종합2보)",
+          "headline": "미 은행 실적·반도체 약세, 뉴욕증시 혼조",
+          "summary": "미 대형 은행의 3분기 실적 발표와 반도체 부정세가 반영돼 뉴욕증시가 혼조를 보였다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261013_0003824712",
+          "original_title": "뉴욕증시, 은행 실적·반도체 약세 속 혼조 출발…다우 0.7%↑",
           "coverage": 5
         },
         {
-          "headline": "IMF 한국 1인당 GDP 4만달러 관측",
-          "summary": "국제통화기금이 올해 한국 경제 성장률 전망치를 3.3%로 상향하고 1인당 GDP가 4만 달러를 돌파할 것으로 관측했다.",
+          "headline": "백악관 대변인 알래스카 LNG 언급, 철강주 상승",
+          "summary": "백악관 신임 대변인이 알래스카 LNG 개발 사업을 언급하면서 철강주의 가격이 상승했다.",
           "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261013066052002",
-          "original_title": "IMF 올해 韓 1인GDP 4만불 돌파 관측…\"성장률은 3.3%·0.7%p↑\"(종합2보)",
+          "link": "https://www.yna.co.kr/view/AKR20261014038300008",
+          "original_title": "[특징주] 철강주, 백악관 대변인 알래스카 LNG 언급에 상승",
           "coverage": 5
         }
       ]
@@ -147,12 +136,20 @@
       "name": "테크",
       "items": [
         {
-          "headline": "KT·구글 AI 구독상품 8종 출시",
-          "summary": "KT와 구글이 커피·생활 혜택을 포함한 AI 구독상품 8종을 출시했다.",
+          "headline": "삼성, KES 2026에서 AI 가전·모바일 전시",
+          "summary": "삼성전자는 KES 2026에서 AI를 적용한 가전·모바일을 공개해 일상 AI 경험을 확대했다.",
+          "source": "뉴스케이프",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1TWtLTE9FbTFXS05mMG9IcmpiZGh6XzBuajJNRm8tN1dGZEJTTmZ3YnhpQnh0RUxoQnV0U2QyeE1ZR2R1YkxlVW5kYTFvY3NsekFEUEI3bHNubk5DaUNDTVJHcWxkeGNuYTY3MUJUNTTSAXBBVV95cUxQNU1rS0xPRW0xV0tOZjBvSHJqYmRoel8wbmoyTUZvLTdXRmRCU05md2J4aUJ4dEVMaEJ1dFNkMnhNWUdkdWJMZVVuZGExb2NzbHpBRFBCN2xzbm5OQ2lDQ01SR3FsZHhjbmE2NzFCVDU0?oc=5",
+          "original_title": "삼성전자, KES 2026서 AI 일상 공개…가전·모바일 한자리에",
+          "coverage": 10
+        },
+        {
+          "headline": "KT, 구글 AI와 8종 구독상품 출시",
+          "summary": "KT가 구글 AI와 협력해 커피·생활 혜택이 결합된 8종 구독 상품을 출시해 AI 구독 시장을 공략했다.",
           "source": "워크투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jal9qc0IxS1RfTVVVekFvTm1RUk1DYk1za1E3cjZER2laSTg2endMQnBKelFEUEVKY3hMRGJQanNBZ19qWXZrV0JwcU9fQlpDWGtMMWgxQkZYQU5lZVpYNExfc2RqN1pEY0xYcw?oc=5",
           "original_title": "KT, 구글 AI에 커피·생활 혜택 더했다 … 구독 상품 8종 출시",
-          "coverage": 10
+          "coverage": 6
         }
       ]
     },
@@ -161,12 +158,12 @@
       "name": "패션",
       "items": [
         {
-          "headline": "블랙야크, 쉬폰과 5년 독점 유통 계약",
-          "summary": "블랙야크가 일본기업 쉬폰과 5년간 독점 유통·라이선스 계약을 체결했다.",
-          "source": "한국섬유신문",
-          "link": "http://www.ktnews.com/news/articleView.html?idxno=149282",
-          "original_title": "블랙야크, 日 쉬폰과 5년 독점 유통·라이선스 계약…내년 2월부터 순차 출시",
-          "coverage": 2
+          "headline": "[유통갤러리] 신세계백화점, 센텀시티 남성관 새단장 오픈 外",
+          "summary": "",
+          "source": "뷰어스",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tbktrV2dETm1VN2ZLREx3d2lKV1pBTG1xYjZGNXRQdDRmMjY3UmhRSGU2U2RtVkhrV09KcFZ4Q0wwaEg5M2pSaEh1N3QzS2dwbFdSSUlyNGE?oc=5",
+          "original_title": "[유통갤러리] 신세계백화점, 센텀시티 남성관 새단장 오픈 外",
+          "coverage": 8
         }
       ]
     },
@@ -175,20 +172,12 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "SIP, 2026 K-뷰티엑스포 참가",
-          "summary": "화장품 용기·패키징 전문기업 SIP가 10월 15일부터 17일까지 일산 킨텍스에서 2026 K-뷰티엑스포 코리아에 참가해 글로벌 시장 공략을 목표로 한다.",
-          "source": "장업신문",
-          "link": "https://www.jangup.com/news/articleView.html?idxno=100132",
-          "original_title": "SIP, ‘2026 K-뷰티엑스포 코리아’ 참가…글로벌 화장품 패키징 시장 공략",
-          "coverage": 7
-        },
-        {
-          "headline": "웅진휴캄, 코스맥스와 MOU 체결",
-          "summary": "웅진휴캄이 코스맥스와 전략적 MOU를 체결해 화장품 R&D·생산·마케팅 협력을 강화할 방침이다.",
-          "source": "인더스트리뉴스",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TdmRadnBFLU8wTVRiVFNXOWNHbWxNNldzOGtoVGxlaEJ0Z0FUUDFvLWUwaGFIcHJEb2c0T28xaVoxZkpEUlRqZ2ZCZWh5S1Zvamh5NE5rSFVyR0I1eVFHbW53VEVSbWduRlB3akNPLUxEUQ?oc=5",
-          "original_title": "웅진휴캄-코스맥스, 전략적 MOU 체결…화장품 R&D·생산·마케팅 협력 강화",
-          "coverage": 7
+          "headline": "AI·의료관광으로 K‑뷰티 서비스 육성",
+          "summary": "정부가 AI 피부진단·의료관광 등 K‑뷰티 서비스를 지원해 전방위 성장 확대에 나섰다.",
+          "source": "서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wUnNfajBwODR3eUF6LXNPcWxLNURycGt2OU1mcXgzcWZzU2FQX05RUks3OV9sT0RkekFkR3ZLc3NySWhrZVh0MU14NU9TTUtTYmfSAVNBVV95cUxNNzdDc01iXy1LdGM4OWlmNlBOc3JHVVFuYzJnSC1HUWxUb3VKOTJSMTljNE1JRmNpOEEzZzRXVzBka0xvSWxIeVY0TlRfalBnMXFrOA?oc=5",
+          "original_title": "AI 피부진단·의료관광까지…정부, ‘K뷰티 서비스업’ 키운다",
+          "coverage": 4
         }
       ]
     },
@@ -197,11 +186,19 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "19만 명 추적 입증… ‘야식’ 먹는 습관, 간 망가뜨린다",
+          "headline": "동국대 WISE, 관광 아이디어 경진대회 최우수·우수상",
           "summary": "",
-          "source": "헬스조선",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93dDV4aWZoanpRZHNNeHpaZ29iQWdoYS1EenJjamQ4RFhJMW16U2QwdXZGd3g3QlpZN21KMnRBcnNqdFJzVWtZdjU5MUxPdTNpTXZLc3YxOVRWWGpZT2NBaWxMNkt0Nl85MzZpZzV2ZkpWbEZ3Tmgzbld1TFdhRGc?oc=5",
-          "original_title": "19만 명 추적 입증… ‘야식’ 먹는 습관, 간 망가뜨린다",
+          "source": "경북일보",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wWmhDRGQzaU5Wem1MV3ZhY0hEUGoyeHN1aFhhdUFMMElVRTVBVlFmS05EaXRKZS1zdXEtV0o2Zmh3VTByZ2dUMVVFVW5KUDRUZDg2SmJaMmV0Xzk3eU9MbWpzemc0WTVGWDVzUU14RQ?oc=5",
+          "original_title": "동국대 WISE, 관광 아이디어 경진대회 최우수·우수상",
+          "coverage": 4
+        },
+        {
+          "headline": "대장암 세포도 '겨울잠' 잔다?…항암치료에도 살아남는 이유",
+          "summary": "",
+          "source": "매경헬스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MemhmT0RremRLYmYzNmZqU09OeXRkZ0xPc0Fud0R4TW01d2hOSFlscVR2cHdob3RfYVJCUEpaQXVVeEtiWERkeTZLWUlUc1NUTm5VM0ViTXQxZlgweVhadXVpNHE5NW9fS0V6dQ?oc=5",
+          "original_title": "대장암 세포도 '겨울잠' 잔다?…항암치료에도 살아남는 이유",
           "coverage": 5
         }
       ]
@@ -211,12 +208,12 @@
       "name": "문화",
       "items": [
         {
-          "headline": "현대차·테이트 미술관, 타렉 아투이 전시 개막",
-          "summary": "현대자동차와 영국 테이트 모던이 협업한 타렉 아투이 개인전이 개막했다.",
+          "headline": "현대자동차, 테이트 모던서 타렉 아투이 전시 개막",
+          "summary": "현대자동차가 영국 테이트 모던에서 ‘타렉 아투이: 홀드’ 전시를 개막하였다.",
           "source": "M포스트",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IZ0VFRUVHYkZLeHZCRHhPR0pZS2NZWXc4N18zUHF4MUYzZXlhb0dxY0ZUZkczN29relZmTEt0VDJEdGR5cEZxRFRoMXFoX1FZT29BUWRFbThqVkFvdng2bTRKVTVUd1pfYnd4Q0QwUUU?oc=5",
           "original_title": "현대차, 英 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 展 개막",
-          "coverage": 7
+          "coverage": 4
         }
       ]
     },
@@ -225,11 +222,11 @@
       "name": "스포츠",
       "items": [
         {
-          "headline": "LG 박해민, 한국프로야구선수협회 회장 선출",
-          "summary": "LG 트윈스 베테랑 박해민이 한국프로야구선수협회 회장으로 선출되었다. 취임식은 12월 1일에 진행될 예정이다.",
-          "source": "뉴시스",
-          "link": "https://www.newsis.com/view/NISX20261013_0003823985",
-          "original_title": "LG 박해민, 프로야구 선수협 제14대 회장 선출",
+          "headline": "'이강인 킬러 패스' 아틀레티코, 맨유 꺾고 챔스리그 첫 승",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796380",
+          "original_title": "'이강인 킬러 패스' 아틀레티코, 맨유 꺾고 챔스리그 첫 승",
           "coverage": 5
         }
       ]
@@ -281,7 +278,7 @@
         ],
         "tip": "트렌치는 벨트를 뒤로 묶고 앞을 열어 두면 한층 가볍다. 니트 색으로 온기를 더하자.",
         "photo": "looks/2026-10-14-daily.jpg",
-        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A person with a slim build wearing beige trench coat, brown crew-neck knit sweater, black wide-leg slacks, burgundy leather loafers, tan leather shoulder bag. Standing on a quiet Seoul city sidewalk, overcast soft grey daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A person with a slim build wearing beige trench coat, brown crew-neck knit sweater, black wide-leg slacks, burgundy leather loafers, tan leather shoulder bag. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
       }
     ],
     "trend": null,
@@ -290,8 +287,8 @@
       "t_max": 17,
       "t_min": 9,
       "rain_pct": 0,
-      "sky": "흐림",
-      "display": "서울 9~17°C · 흐림 · 강수 0%"
+      "sky": "구름 조금",
+      "display": "서울 9~17°C · 구름 조금 · 강수 0%"
     },
     "by": "rule",
     "default": "women"
@@ -354,5 +351,5 @@
       }
     ]
   },
-  "reading_minutes": 3
+  "reading_minutes": 2
 }
