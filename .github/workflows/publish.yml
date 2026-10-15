@@ -99,15 +99,25 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git add -A data/looks 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "바뀐 데이터 없음"
-          else
-            git commit -m "📰 $(date +%F) 하루 한 장 발행"
-            git pull --rebase
-            git push
-          fi
+          TODAY=$(date +%F)
+          # 이번에 만든 오늘 호 파일을 따로 보관 → 최신 main 위에 얹어서 저장 (같은 날 재발행해도 충돌 없음)
+          mkdir -p /tmp/keep/looks
+          cp "data/$TODAY.json" /tmp/keep/ 2>/dev/null || true
+          cp data/looks/"$TODAY"-* /tmp/keep/looks/ 2>/dev/null || true
+          for i in 1 2 3 4; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            mkdir -p data/looks
+            cp "/tmp/keep/$TODAY.json" data/ 2>/dev/null || true
+            rm -f data/looks/"$TODAY"-*
+            cp /tmp/keep/looks/* data/looks/ 2>/dev/null || true
+            git add data/*.json
+            git add -A data/looks 2>/dev/null || true
+            if git diff --cached --quiet; then echo "바뀐 데이터 없음"; break; fi
+            git commit -q -m "📰 $TODAY 하루 한 장 발행"
+            if git push -q origin HEAD:main; then echo "저장 완료"; break; fi
+            echo "push 실패($i) → 다시 시도"; sleep 5
+          done
 
       - name: Pages 설정
         if: steps.check.outputs.skip != 'true'
