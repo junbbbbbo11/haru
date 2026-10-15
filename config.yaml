@@ -23,7 +23,7 @@ ai:
   openai_model: gpt-5-mini            # OpenAI 유료 API를 쓸 때의 모델
   reasoning_effort: low               # gpt-5 계열 전용
   timeout_seconds: 120
-  time_budget_minutes: 30             # AI 편집에 쓸 최대 시간. 넘으면 남은 섹션은 원문 헤드라인으로
+  time_budget_minutes: 50             # AI 편집에 쓸 최대 시간. 넘으면 남은 섹션은 원문 헤드라인으로
 
 ootd:
   enabled: true

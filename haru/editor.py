@@ -312,6 +312,9 @@ def edit_all(client, raw: dict, fallback: dict, n: int, today, weekday: str) -> 
     except Exception as e:
         log.warning("  커버스토리 AI 실패 → 원문 헤드라인: %s", e)
         covers = fallback["cover_stories"]
+        covers_ok = False
+    else:
+        covers_ok = True
 
     cover_titles = [c.get("original_title", c["headline"]) for c in covers]
     fb_sections = {s["id"]: s for s in fallback["sections"]}
@@ -329,6 +332,33 @@ def edit_all(client, raw: dict, fallback: dict, n: int, today, weekday: str) -> 
         fortune_future = pool.submit(edit_fortune, client, today.isoformat(), weekday)
         results = list(pool.map(do_section, [s for s in raw.get("sections", []) if s["candidates"]]))
 
+    # 2차 시도: 처음에 실패한 커버·섹션을 한 번 더 (무료 AI는 같은 질문도 두 번째에 되는 일이 많다).
+    # OOTD·운세에 쓸 시간 8분은 남겨 둔다.
+    deadline = getattr(client, "deadline", None)
+    if deadline:
+        client.deadline = deadline - 8 * 60
+    try:
+        if not covers_ok:
+            log.info("  ↻ 커버스토리 다시 시도")
+            try:
+                covers = edit_covers(client, raw)
+                covers_ok = True
+                ai_parts += 1
+                cover_titles = [c.get("original_title", c["headline"]) for c in covers]
+                log.info("  ✓ 커버스토리 (2차)")
+            except Exception as e:
+                log.warning("  ✗ 커버스토리 2차도 실패: %s", str(e)[:100])
+        redone = []
+        for sec, items, ok in results:
+            if ok:
+                redone.append((sec, items, ok))
+                continue
+            log.info("  ↻ [%s] 다시 시도", sec["name"])
+            redone.append(do_section(sec))
+        results = redone
+    finally:
+        client.deadline = deadline
+
     # 섹션끼리, 그리고 커버와 겹치는 이슈 정리
     used = [_bigrams(t) for t in cover_titles] + [_bigrams(c["headline"]) for c in covers]
     sections = []
@@ -345,7 +375,7 @@ def edit_all(client, raw: dict, fallback: dict, n: int, today, weekday: str) -> 
         if kept:
             sections.append({"id": sec["id"], "name": sec["name"], "items": kept})
 
-    total_parts += 1
+    total_parts += 1  # (커버 몫은 위에서 이미 셈)
     try:
         fortune = fortune_future.result()
         ai_parts += 1

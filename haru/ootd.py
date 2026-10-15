@@ -36,6 +36,36 @@ def _weather_line(w: dict | None, month: int) -> str:
     return f"{w['city']} 최저 {w['t_min']}°C, 최고 {w['t_max']}°C, {w['sky']}, 강수확률 {w['rain_pct']}%"
 
 
+# 사전에 있는 말로만 이름을 짓게 해서, 무료 AI가 지어내는 이상한 단어("콘피블 모자")를 걸러낸다
+_COLORS = ("블랙", "검정", "검은", "화이트", "흰", "아이보리", "크림", "베이지", "카멜", "브라운", "갈색", "탄", "그레이", "회색", "차콜",
+           "네이비", "남색", "블루", "파랑", "스카이", "하늘", "라이트블루", "인디고", "카키", "올리브", "그린", "초록", "민트", "레드", "빨강",
+           "버건디", "와인", "핑크", "오렌지", "옐로", "노랑", "머스터드", "퍼플", "보라", "라벤더", "샌드", "오트밀", "에크루", "베이지톤", "실버", "골드", "내추럴")
+_MATERIALS = ("울", "캐시미어", "니트", "코튼", "면", "린넨", "데님", "가죽", "레더", "스웨이드", "나일론", "폴리", "트위드", "벨벳", "플리스", "패딩",
+              "기모", "실크", "새틴", "저지", "캔버스", "러버", "방수")
+_SHADES = ("라이트", "다크", "딥", "페일", "연", "진", "소프트", "파스텔", "멀티", "투톤", "스트라이프", "체크", "도트")
+_GARMENT = {
+    "outer": ("코트", "재킷", "자켓", "블레이저", "점퍼", "패딩", "가디건", "조끼", "베스트", "바람막이", "집업", "트렌치", "파카", "무스탕", "야상", "블루종"),
+    "top": ("셔츠", "티셔츠", "티", "니트", "스웨터", "맨투맨", "후드", "블라우스", "폴로", "터틀넥", "크루넥", "카라", "헨리넥", "탑", "나시"),
+    "dress": ("원피스", "드레스"),
+    "bottom": ("팬츠", "바지", "슬랙스", "청바지", "데님", "진", "치노", "쇼츠", "반바지", "스커트", "치마", "조거", "카고", "레깅스"),
+    "shoes": ("로퍼", "스니커즈", "스니커", "부츠", "구두", "샌들", "슬리퍼", "운동화", "더비", "옥스퍼드", "힐", "플랫", "슈즈", "첼시", "뮬"),
+    "bag": ("백", "가방", "토트", "숄더", "크로스", "백팩", "클러치", "에코", "파우치", "메신저"),
+    "hat": ("모자", "비니", "캡", "햇", "버킷", "베레", "볼캡", "페도라"),
+    "scarf": ("머플러", "스카프", "목도리", "샬"),
+    "glasses": ("안경", "선글라스"),
+    "umbrella": ("우산", "양산"),
+}
+
+
+def _name_problem(cat: str, name: str) -> str | None:
+    if not any(g in name for g in _GARMENT.get(cat, ())):
+        return f"'{name}'은(는) {cat} 종류의 옷 이름이 아님 — 흔한 옷 이름(예: 코트, 셔츠, 슬랙스, 로퍼)을 넣어야 함"
+    first = name.split()[0]
+    if not any(first.startswith(c) for c in _COLORS + _MATERIALS + _SHADES):
+        return f"'{name}'은(는) 첫 단어가 색·소재가 아님 — 예: '카멜 울 코트', '블랙 가죽 로퍼', '데님 재킷'"
+    return None
+
+
 def _validate_look(d: dict, label: str) -> dict:
     title, keyword, tip = (str(d.get(k, "")).strip() for k in ("title", "keyword", "tip"))
     if len(title) >= 6 and " " not in title:
@@ -58,6 +88,9 @@ def _validate_look(d: dict, label: str) -> dict:
             raise ValueError(f"[{label}] 아이템 '{name}': name 길이 또는 hex 형식(#RRGGBB) 오류")
         if len(name) >= 6 and " " not in name:
             raise ValueError(f"[{label}] 아이템 이름 '{name}'에 띄어쓰기가 없음 — 예: '카멜 울 코트'")
+        problem = _name_problem(cat, name)
+        if problem:
+            raise ValueError(f"[{label}] {problem}")
         if re.search(r"[A-Za-z]{3,}", name):
             raise ValueError(f"[{label}] 아이템 이름 '{name}'에 영어가 섞임 — 이름(name)은 한국어로만")
         if not re.fullmatch(r"[A-Za-z0-9 ,.'/-]{4,60}", en):
