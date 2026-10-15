@@ -38,6 +38,10 @@ def _weather_line(w: dict | None, month: int) -> str:
 
 def _validate_look(d: dict, label: str) -> dict:
     title, keyword, tip = (str(d.get(k, "")).strip() for k in ("title", "keyword", "tip"))
+    if len(title) >= 6 and " " not in title:
+        raise ValueError(f"[{label}] title에 띄어쓰기가 없음 — 단어 사이를 띄어 써야 함")
+    if len(tip) >= 20 and tip.count(" ") < 3:
+        raise ValueError(f"[{label}] tip에 띄어쓰기가 거의 없음 — 맞춤법대로 띄어 써야 함")
     if not (4 <= len(title) <= 24):
         raise ValueError(f"[{label}] title 길이 {len(title)}자 (15자 내외)")
     if not (2 <= len(keyword) <= 12):
@@ -52,6 +56,10 @@ def _validate_look(d: dict, label: str) -> dict:
             continue
         if not (2 <= len(name) <= 16) or not _HEX.match(hx):
             raise ValueError(f"[{label}] 아이템 '{name}': name 길이 또는 hex 형식(#RRGGBB) 오류")
+        if len(name) >= 6 and " " not in name:
+            raise ValueError(f"[{label}] 아이템 이름 '{name}'에 띄어쓰기가 없음 — 예: '카멜 울 코트'")
+        if re.search(r"[A-Za-z]{3,}", name):
+            raise ValueError(f"[{label}] 아이템 이름 '{name}'에 영어가 섞임 — 이름(name)은 한국어로만")
         if not re.fullmatch(r"[A-Za-z0-9 ,.'/-]{4,60}", en):
             raise ValueError(f"[{label}] 아이템 '{name}': en(영어 설명)이 없거나 영어가 아님")
         seen.add(cat)
