@@ -13,6 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 from .ai_client import AICallError, AITimeBudgetExceeded
 from .collect import _bigrams, _similar
 from .config import load_yaml
+from .edition import sources_of
 
 log = logging.getLogger("haru.editor")
 
@@ -96,7 +97,7 @@ def _check_text(headline, summary, originals: list[str]) -> str | None:
 def _ask(client, user: str, validate):
     """AI에게 묻고 검증. 실패하면 이유를 알려주고 한 번 더."""
     last_err = None
-    for attempt in range(2):
+    for attempt in range(3):
         prompt = user if attempt == 0 else f"{user}\n\n[이전 응답의 문제] {last_err}\n규칙을 지켜 JSON으로 다시 답하라."
         try:
             data = client.complete_json(SYSTEM, prompt)
@@ -134,7 +135,7 @@ def edit_covers(client, raw: dict) -> list[dict]:
         lines.append(f"\n검색어 '{t['keyword']}' (검색량 {t['traffic']})")
         for j, n in enumerate(t["news"][:n_news]):
             nid = f"T{i}-{j}"
-            pool[nid] = {**n, "keyword": t["keyword"]}
+            pool[nid] = {**n, "keyword": t["keyword"], "_related": [x for x in t["news"] if x is not n]}
             lines.append(f"  [{nid}] {n['title']} — {n['source']}")
 
     # 트렌드가 부족한 날을 대비해, 여러 매체가 많이 보도한 기사도 후보로
@@ -178,6 +179,7 @@ JSON 형식:
                 "source": src["source"],
                 "link": src["link"],
                 "original_title": src["title"],
+                "sources": sources_of(src, src.get("_related")),
             })
         if len(out) < 3:
             raise ValueError(f"커버스토리가 {len(out)}개뿐 (3개 필요, news_id는 목록의 번호만)")
@@ -227,6 +229,7 @@ JSON 형식:
                 "link": c["link"],
                 "original_title": c["title"],
                 "coverage": c.get("coverage", 1),
+                "sources": sources_of(c),
             })
         if not out:
             raise ValueError("고른 기사가 없음 (id는 후보 번호만)")

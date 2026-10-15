@@ -1,4 +1,14 @@
 {% from "icons.html" import icon, garment %}
+{% macro source_list(srcs, coverage) %}
+{% if srcs and srcs | length > 1 %}
+<details class="srcs">
+  <summary>매체별 기사 {{ srcs | length }}건 보기{% if (coverage or 0) > srcs | length %} · 총 {{ coverage }}곳 보도{% endif %}</summary>
+  <ul>
+    {% for x in srcs %}<li><a href="{{ x.link }}" target="_blank" rel="noopener"><b>{{ x.name }}</b><span>{{ x.title }}</span></a></li>{% endfor %}
+  </ul>
+</details>
+{% endif %}
+{% endmacro %}
 {# ── 오늘의 OOTD (패션 섹션 바로 뒤에 들어간다) ── #}
 {% macro ootd_block(o, base) %}
 {% set looks = o.looks or [] %}
@@ -177,6 +187,7 @@
         <h3><a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.headline }}</a></h3>
         {% if c.summary %}<p>{{ c.summary }}</p>{% endif %}
         <a class="src" href="{{ c.link }}" target="_blank" rel="noopener">{{ c.source }} · 원문 보기 <span class="arrow">↗</span></a>
+        {{ source_list(c.sources, 0) }}
       </article>
       <div class="cover-sub">
       {% else %}
@@ -187,6 +198,7 @@
             <h3><a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.headline }}</a></h3>
             {% if c.summary %}<p>{{ c.summary }}</p>{% endif %}
             <a class="src" href="{{ c.link }}" target="_blank" rel="noopener">{{ c.source }} · 원문 보기 <span class="arrow">↗</span></a>
+        {{ source_list(c.sources, 0) }}
           </div>
         </article>
       {% endif %}
@@ -216,6 +228,7 @@
           <h3><a href="{{ it.link }}" target="_blank" rel="noopener">{{ it.headline }}</a></h3>
           {% if it.summary %}<p>{{ it.summary }}</p>{% endif %}
           <a class="src" href="{{ it.link }}" target="_blank" rel="noopener">{{ it.source }}{% if (it.coverage or 1) > 1 %} 외 {{ it.coverage - 1 }}곳 보도{% endif %} · 원문 보기 <span class="arrow">↗</span></a>
+          {{ source_list(it.sources, it.coverage) }}
         </article>
         {% endfor %}
       </div>

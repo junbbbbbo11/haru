@@ -228,6 +228,17 @@ def collect_sections(sources: dict, cfg: dict) -> list[dict]:
 
 # ── 구글 트렌드 ──────────────────────────────────────────────
 
+# 매일 검색량은 많지만 뉴스는 아닌 것들 — 커버스토리 후보에서 뺀다
+_ROUTINE = re.compile(r"운세|로또|복권|정답|퀴즈|캐시워크|토스\s*행운|날씨|\[포토\]|xsmb|xsmn|kqxs", re.I)
+
+
+def _is_routine(keyword: str, news: list[dict]) -> bool:
+    if _ROUTINE.search(keyword):
+        return True
+    head = news[0]["title"] if news else ""
+    return bool(_ROUTINE.search(head))
+
+
 def _local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
@@ -265,7 +276,9 @@ def collect_trends(sources: dict, cfg: dict) -> list[dict]:
                         "source": fields.get("news_item_source", ""),
                         "link": fields["news_item_url"],
                     })
-        if kw:
+        if kw and _is_routine(kw, news):
+            log.info("  · 트렌드 '%s' 제외 (운세·로또·퀴즈 정답 같은 반복성 검색어)", kw)
+        elif kw:
             trends.append({"keyword": kw, "traffic": traffic, "news": news})
         if len(trends) >= tcfg.get("max_keywords", 10):
             break

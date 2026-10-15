@@ -188,6 +188,23 @@ a { color: inherit; text-decoration: none; }
 .item p { margin-top: 10px; color: var(--ink-2); font-size: 15.5px; }
 .item .src { color: var(--c); }
 
+/* 보도한 매체 목록 (출처 확인) */
+.srcs { margin-top: 2px; }
+.srcs summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; min-height: 32px;
+  font-size: 12px; font-weight: 600; color: var(--muted); }
+.srcs summary::-webkit-details-marker { display: none; }
+.srcs summary::after { content: "+"; font-weight: 400; font-size: 14px; }
+.srcs[open] summary::after { content: "−"; }
+.srcs ul { list-style: none; margin: 6px 0 4px; border-left: 2px solid var(--rule); padding-left: 12px; }
+.srcs li a { display: grid; gap: 1px; padding: 7px 0; font-size: 13px; line-height: 1.45; }
+.srcs li a b { font-weight: 700; color: var(--ink); font-size: 12px; }
+.srcs li a span { color: var(--ink-2); }
+.srcs li a:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.cover-main .srcs summary, .cover-main .srcs li a b, .cover-main .srcs li a span { color: color-mix(in srgb, var(--invert-ink) 75%, transparent); }
+.cover-main .srcs ul { border-color: color-mix(in srgb, var(--invert-ink) 25%, transparent); }
+.sec--block .srcs summary, .sec--block .srcs li a b, .sec--block .srcs li a span { color: rgba(255,255,255,.85); }
+.sec--block .srcs ul { border-color: rgba(255,255,255,.35); }
+
 /* 레이아웃 1 · classic: 세로로 쌓고 앞에 굵은 색 띠 */
 .sec--classic .sec-head { border-top: 4px solid var(--c); padding-top: 14px; }
 

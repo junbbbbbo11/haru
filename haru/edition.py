@@ -5,6 +5,7 @@ AI 편집이 없거나 실패하면 build_fallback()이 원문 헤드라인으�
 """
 import json
 import logging
+import re
 
 from .collect import _bigrams, _is_korean, _similar
 from .config import DATA_DIR, RAW_DIR, WEEKDAYS
@@ -20,9 +21,29 @@ def volume_number(today) -> int:
 SCHEMA_VERSION = 1
 
 
+def sources_of(c: dict, related: list | None = None, limit: int = 6) -> list[dict]:
+    """대표 기사 + 같은 사건을 다룬 다른 매체 기사 → [{name, title, link}] (매체 중복 없이)."""
+    # related(같은 검색어의 다른 기사)는 제목이 실제로 비슷한 한글 기사만 — 다른 사건이 섞이지 않게
+    base = _bigrams(c.get("title", ""))
+    related = [r for r in (related or []) if _is_korean(r.get("title", "")) and base
+               and len(base & _bigrams(r.get("title", ""))) / len(base) >= 0.3]
+    out, seen = [], set()
+    for x in [c] + list(c.get("also", [])) + related:
+        name = x.get("source") or ""
+        if name.startswith("http"):  # 매체명 대신 주소가 온 경우 → 도메인만
+            name = re.sub(r"^https?://(www\.)?|/.*$", "", name)
+        if not x.get("link") or name in seen:
+            continue
+        seen.add(name)
+        out.append({"name": name, "title": x.get("title", ""), "link": x["link"]})
+        if len(out) >= limit:
+            break
+    return out
+
+
 def _item(c: dict) -> dict:
     return {"headline": c["title"], "summary": "", "source": c["source"], "link": c["link"],
-            "original_title": c["title"], "coverage": c.get("coverage", 1)}
+            "original_title": c["title"], "coverage": c.get("coverage", 1), "sources": sources_of(c)}
 
 
 def fit_reading_time(edited: dict, max_items: int) -> dict:
@@ -57,15 +78,30 @@ def build_fallback(raw: dict, items_per_section: int = 2) -> dict:
     for t in trends:
         if len(covers) >= 3:
             break
-        if t["news"] and fresh(t["news"][0]["title"]):
-            n = t["news"][0]
+        # 한국 매체 2곳 이상이 한글로 보도한 검색어만 (해외 기계번역·광고성 기사 거르기)
+        korean = [n for n in t["news"] if _is_korean(n["title"])]
+        if len({n["source"] for n in korean}) < 2:
+            continue
+        n = korean[0]
+        if fresh(n["title"]):
             covers.append({
                 "keyword": t["keyword"],
                 "headline": n["title"],
                 "summary": "",
                 "source": n["source"],
                 "link": n["link"],
+                "sources": sources_of(n, korean[1:]),
             })
+
+    # 트렌드로 3개가 안 차면, 여러 매체가 많이 보도한 섹션 기사로 채운다
+    tops = sorted((c for s in raw.get("sections", []) for c in s["candidates"]),
+                  key=lambda c: -c.get("coverage", 1))
+    for c in tops:
+        if len(covers) >= 3:
+            break
+        if fresh(c["title"]):
+            covers.append({"keyword": "", "headline": c["title"], "summary": "", "source": c["source"],
+                           "link": c["link"], "sources": sources_of(c)})
 
     sections = []
     for sec in raw.get("sections", []):

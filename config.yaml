@@ -19,15 +19,15 @@ ai:
   # pollinations = 항상 무료 / openai = 항상 유료 OpenAI
   provider: auto
   pollinations_model: openai          # Pollinations 무료 텍스트 모델
-  min_interval_seconds: 18            # 무료 등급은 15초에 1번 → 여유 있게 18초 간격으로 호출
+  min_interval_seconds: 20            # 무료 등급은 15초에 1번 → 여유 있게 20초 간격으로 호출
   openai_model: gpt-5-mini            # OpenAI 유료 API를 쓸 때의 모델
   reasoning_effort: low               # gpt-5 계열 전용
   timeout_seconds: 120
-  time_budget_minutes: 15             # AI 편집에 쓸 최대 시간. 넘으면 남은 섹션은 원문 헤드라인으로
+  time_budget_minutes: 30             # AI 편집에 쓸 최대 시간. 넘으면 남은 섹션은 원문 헤드라인으로
 
 ootd:
   enabled: true
-  default: women             # 페이지를 처음 열었을 때 보여줄 쪽 (women / men). 고른 탭은 기기마다 기억됩니다
+  default: men               # 페이지를 처음 열었을 때 보여줄 쪽 (women / men). 고른 탭은 기기마다 기억됩니다
   looks:                     # 탭 순서대로. style = 추천받을 스타일, person = 착샷 속 인물(영어)
     - id: women
       label: 여성

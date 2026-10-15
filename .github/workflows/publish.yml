@@ -1,17 +1,15 @@
 # 하루 한 장 — 매일 아침 자동 발행
 #
 # GitHub cron은 UTC(영국 시간) 기준입니다. 한국 시간 = UTC + 9시간.
-#   "40 21 * * *"  →  매일 21:40 UTC  =  다음날 06:40 KST
-#   "10 22 * * *"  →  매일 22:10 UTC  =  다음날 07:10 KST (예비)
-# GitHub의 예약 실행은 붐비면 10~30분 늦어지거나 가끔 빠지기도 해서 예비 실행을 하나 더 둡니다.
-# 예약 실행은 오늘 호가 이미 발행됐으면 아무것도 하지 않습니다.
+#   "*/20 20-23 * * *"  →  UTC 20:00~23:40 20분마다  =  한국 05:00~08:40 20분마다
+# GitHub의 예약 실행은 새 저장소일수록 몇 시간씩 늦거나 아예 빠지기도 해서, 아침 내내 여러 번 시도합니다.
+# 그날 아침 호(05시 이후 생성)가 이미 있으면 나머지 시도는 20초 만에 건너뜁니다.
 
 name: 하루 한 장 발행
 
 on:
   schedule:
-    - cron: "40 21 * * *"
-    - cron: "10 22 * * *"
+    - cron: "*/20 20-23 * * *"
   workflow_dispatch:          # Actions 탭의 "Run workflow" 버튼 (언제든 수동 발행)
     inputs:
       no_ai:
@@ -31,7 +29,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

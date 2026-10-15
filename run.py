@@ -65,7 +65,7 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
     client = make_client(cfg.get("ai", {})) if use_ai else None
     if client:
         # 무료 AI는 느리고 가끔 응답이 없어서, 정해진 시간이 지나면 남은 부분은 원문 헤드라인으로 마무리
-        budget = float(cfg.get("ai", {}).get("time_budget_minutes", 15)) * 60
+        budget = float(cfg.get("ai", {}).get("time_budget_minutes", 30)) * 60
         client.deadline = time.monotonic() + budget
     if client:
         try:
@@ -79,7 +79,7 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
         # AI 서버 자체가 안 되는 날(mode=fallback)은 다시 부르지 않는다
         edited["ootd"] = ootd.make_ootd(client if mode != "fallback" else None, editor._ask, raw, today,
                                         edition.WEEKDAYS[today.weekday()], ocfg)
-        edited["ootd"]["default"] = ocfg.get("default", "women")
+        edited["ootd"]["default"] = ocfg.get("default", "men")
         # 여성·남성 착샷 (실패한 쪽은 페이지에 일러스트로 표시)
         lookbook.generate_all(edited["ootd"], today, cfg.get("lookbook", {}), ootd.look_settings(ocfg))
     edition.fit_reading_time(edited, ccfg.get("max_total_items", 13))

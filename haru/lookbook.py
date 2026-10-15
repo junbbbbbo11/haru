@@ -221,7 +221,8 @@ def generate_all(ootd: dict, today, cfg: dict, look_cfgs: list[dict]) -> None:
         return
 
     persons = {l["id"]: l.get("person", "a person") for l in look_cfgs}
-    persons.setdefault("daily", "a person with a slim build")  # 기본 코디(성별 구분 없음)
+    # 기본 코디(AI 실패한 날, 성별 구분 없음)의 착샷은 남성으로
+    persons.setdefault("daily", persons.get("men", "a man in his 30s with an average build"))
     for old in LOOKS_DIR.glob(f"{today.isoformat()}*") if LOOKS_DIR.exists() else []:
         old.unlink()
     dead: set = set()
