@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-16",
+  "weekday": "금요일",
+  "vol": 4,
+  "generated_at": "2026-10-16T07:58:43+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 6008.81,
+      "change": -26.54,
+      "change_pct": -0.44,
+      "direction": "down",
+      "display": "6,008.81",
+      "change_display": "▼ 0.44%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1341.2,
+      "change": 0.8,
+      "change_pct": 0.06,
+      "direction": "up",
+      "display": "1,341.2원",
+      "change_display": "▲ 0.06%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 111253000.0,
+      "change": 915000.0,
+      "change_pct": 0.83,
+      "direction": "up",
+      "display": "11,125만원",
+      "change_display": "▲ 0.83%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 23,
+    "t_min": 14,
+    "rain_pct": 63,
+    "sky": "구름 조금",
+    "display": "서울 14~23°C · 구름 조금 · 강수 63%"
+  },
+  "cover_stories": [
+    {
+      "keyword": "신지",
+      "headline": "신지, 40㎏ 초반 몸매 유지…체크 원피스 소화",
+      "summary": "",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261015_0003827825",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "신지, 40㎏ 초반 몸매 유지…체크 원피스 소화",
+          "link": "https://www.newsis.com/view/NISX20261015_0003827825"
+        }
+      ]
+    },
+    {
+      "keyword": "서동주",
+      "headline": "서동주 “시험관 곧 4년 차…3년 전에 커피 끊었다면”",
+      "summary": "",
+      "source": "동아일보",
+      "link": "https://www.donga.com/news/Entertainment/article/all/20261015/134851952/1",
+      "sources": [
+        {
+          "name": "동아일보",
+          "title": "서동주 “시험관 곧 4년 차…3년 전에 커피 끊었다면”",
+          "link": "https://www.donga.com/news/Entertainment/article/all/20261015/134851952/1"
+        },
+        {
+          "name": "스타뉴스",
+          "title": "서동주, 시험관 시술 3년 차 심경 \"자책 多..안 하던 짓 7개월째\"[스타이슈]",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45dVZIZWhpWFdOdEgwMFVCSnhRVms2QlFhQlM4aVpKZnU4SFBidkozd2lEMVkxeFVldjItZTF2UjBvSU1wb1NpelByT3I3djlMOXd4V2pYS2x4Yko1OFNIY01uX1hBU0dVTTk4eVVkOVRTZlE?oc=5"
+        },
+        {
+          "name": "스포츠동아",
+          "title": "서동주, 3년째 시험관 시술에 자책…“커피 끊었으면 임신했을까”",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ibzh2Q2stZG92YjhwQ1RvSmtFRFNNNmFSX3IwOGVDeUNnRWl5aHVjZGMtcmNWYzdIQ2xjZ09KdEVxLWFGbzUzMkE3SUNTNkgxRF9XOUcxc2s4OUxkVjZnZkNNRllhODhTWDlEUlp3?oc=5"
+        }
+      ]
+    },
+    {
+      "keyword": "다우 존스 산업평균지수",
+      "headline": "뉴욕증시, 국채금리 하락에 3대 지수 반등…다우 1.08% 상승",
+      "summary": "",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/economy/int_economy/2026/10/16/JKSEXEPAKNETZBSWNIE64QIPDQ/",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "뉴욕증시, 국채금리 하락에 3대 지수 반등…다우 1.08% 상승",
+          "link": "https://www.chosun.com/economy/int_economy/2026/10/16/JKSEXEPAKNETZBSWNIE64QIPDQ/"
+        },
+        {
+          "name": "한국경제",
+          "title": "美 국채금리 하락에 3대 지수 반등…다우 1.08% 상승 [뉴욕증시 브리핑]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ueUtweTV4dWdkbE8wSEx1Y3gyRUFXV3g5cEg0OHZQLXVBTFdkR3FlS1kzOFY0cEdjSk8tWUZYQjFUWXo0UkphVmpKN0dOWXM2RXBONGRIaWxWUQ?oc=5"
+        },
+        {
+          "name": "톱스타뉴스",
+          "title": "미국증시, 다우 556P 급등·나스닥 강보합…국채금리 하락에 반전",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxODdrTDM2MlZLVnNnZTNpWE9QTDdOTDRuVmN2YmFIcmJNaGdrVjJqTXJCN2ZNQzlJY1pwQ3N6cE9MUkx4TWY2cHl1S1JvOXl1T29xZnQ4T0hmejBnZW56NUtJdkF0QkgzYWE2bF9uYzVhUQ?oc=5"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "\"전작권 전환 조건 변했다\"…\"골대 옮기면 영원히 못 해\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800172",
+          "original_title": "\"전작권 전환 조건 변했다\"…\"골대 옮기면 영원히 못 해\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"전작권 전환 조건 변했다\"…\"골대 옮기면 영원히 못 해\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800172"
+            },
+            {
+              "name": "한겨레",
+              "title": "전작권 전환 “새 기준” 밝힌 미국…국방부 “골대 옮기면 영원히 불가”",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TMXdBbTI3bkhxQjFmaE45Y1BDWmx3N2phSmZyTzljckU5d0tuT3BPSHZUWEhoS0NuNnBQYXk0Z05faFNNZkJWbWFhWUtEdXdXRzVoS3gtVzdfNW0weGd1YTVmNFoyQTlT?oc=5"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美 \"전작권전환에 새로운 기준\"…韓 \"골대옮기면 영원히 불가능\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261015081251504"
+            }
+          ]
+        },
+        {
+          "headline": "軍, 중동 청해부대 작전범위 확대 검토…해상초계기 투입도 고려",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261015182200504",
+          "original_title": "軍, 중동 청해부대 작전범위 확대 검토…해상초계기 투입도 고려",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "軍, 중동 청해부대 작전범위 확대 검토…해상초계기 투입도 고려",
+              "link": "https://www.yna.co.kr/view/AKR20261015182200504"
+            },
+            {
+              "name": "경향신문",
+              "title": "[단독] 정부, 청해부대 작전범위 오만만으로 확대·해상초계기 1대 파견 검토…호르무즈 파병엔 ‘선 긋기’",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1OE1DTUs1Rl9CbGdFYWdHeS1iU3VoN3hqTFliMkVYcTRhVHlqR3QtbTJJLUtjakNESjBoS3BNbUthTk8tSzNUd1ZuaXdORGtMblM3OVpOZ1ZDZ9IBX0FVX3lxTE9MQTJxMldnQVFlWW5pcnhhMDR3dnVHaWRDc1piZUo2VjZ0SGRpaXhrc3RaR2ZpRjZpT1FUZVlMZnhIM3RxTG5oM1dSM0R5TDJFRXBMZjhNZGJoaW9fbE40?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "후티, 예멘 대통령궁 미사일 공격",
+          "summary": "후티 반군이 예멘 아덴 대통령궁에 미사일을 투하해 사우디와의 충돌이 계속된다. 대통령과 각료는 무사했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800190",
+          "original_title": "후티, 예멘 대통령궁까지 미사일 공격…정상회의도 연기",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "후티, 예멘 대통령궁까지 미사일 공격…정상회의도 연기",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800190"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "후티, 예멘 아덴 대통령궁에 미사일 공격…\"총리·각료 무사\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261016000251079"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "후티, 예멘 아덴 대통령궁 미사일 공격…\"총리 무사\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYW5WOVNwZHdfOE1CVDRZb1NHRzJRbU5Da0pZUFJTM1pIcC0zcWpMVVdhSzQ2aE9RMHNfYjFuNUExZnd2TlVWT3JVTVhQd1Y4SjA3ZVJtcFJ6Ymt1d2JBOHpEeEJqeHM?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "러시아, 쿠릴열도 폭격훈련… 일 항의",
+          "summary": "러시아가 쿠릴 열도 이투루프섬에서 폭격 훈련을 통보해 일본이 강력히 항의하며 갈등이 고조된다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799202",
+          "original_title": "러 '쿠릴열도서 폭격훈련' 통보에 일 항의…갈등 고조",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "러 '쿠릴열도서 폭격훈련' 통보에 일 항의…갈등 고조",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799202"
+            },
+            {
+              "name": "서울신문",
+              "title": "러 “쿠릴열도서 폭격 훈련”… 日, 강력 항의",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44ZkNPQ0xQajhwb1JiWVBLZkhjMlJQRi1mTHpoZE1QeHhScVFvd3h4M2MzaWxrUXY1STJ1c0NGNkdNbnZNSjhoYjE0REhRdk5hZWczcmpCenlVLVFhbFZOQlRDd2Q0MW82bVh1eEtGb0ZTYmN1TENJ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "한국·일본 100억 달러 스왑 3년 연장",
+          "summary": "한국과 일본이 100억 달러 규모 통화스와프를 3년 연장했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261015/134850577/2",
+          "original_title": "韓-日, 100억 달러 통화스와프 3년 연장 합의",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "韓-日, 100억 달러 통화스와프 3년 연장 합의",
+              "link": "https://www.donga.com/news/Economy/article/all/20261015/134850577/2"
+            },
+            {
+              "name": "매일경제",
+              "title": "韓日통화스왑 3년 연장",
+              "link": "https://www.mk.co.kr/news/economy/12177043"
+            },
+            {
+              "name": "JTBC",
+              "title": "한일, 100억 달러 규모 통화스와프 연장 합의…\"금융협력 상징\"",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52WHB0MFlzQ0pfUWNuUEVWdG5ZZWF6MjZWRUZyclM4eF9vZkJTalFVTVlHOW5MdEg2ajN0NWVLamZHVTFXd01ZVGhxbTB4aVdYY09zcg?oc=5"
+            },
+            {
+              "name": "뉴시스",
+              "title": "한일 통화스와프 100억弗 3년 연장…8년 만에 복원 후 첫 연장",
+              "link": "https://www.newsis.com/view/NISX20261015_0003827893"
+            }
+          ]
+        },
+        {
+          "headline": "닛케이 지수 4.9% 급락, AI·반도체 영향",
+          "summary": "일본 도쿄증시가 AI·반도체 약세와 유가 상승으로 4.9% 하락했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261015063651073",
+          "original_title": "日닛케이지수, 4.9% 급락…AI·반도체 약세 등 여파(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "日닛케이지수, 4.9% 급락…AI·반도체 약세 등 여파(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261015063651073"
+            },
+            {
+              "name": "YTN",
+              "title": "닛케이지수, 4.9% 급락...AI·반도체 약세 등 여파",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81VXY3Vi1fRWVMeHE0a3lMNldFVUZJY3RXSEt5OFFpLXVWcWhhNmtsOWJVMzJ1X2hHYkRFandVMGktRDZ0WmlYeFZEZGQxSTdGRjF3VnhyRW9PdWVFWkE?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "카카오, AI 윤리 체계 발표",
+          "summary": "카카오는 AI 에이전트의 위험 관리를 위해 ‘SPIRIT·NORMA’ 윤리 원칙을 발표했다.",
+          "source": "인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1La1dTbml5eW13Z3ZsdlhQQUJGWFlyZGNIRV9ZeVlxSXpKWjdYWlhnT2gtUGgtMEFlQ1lLRE5IelRKLWt6Z2xFY1k2ZTFnRzNLTnJxOUs4Y1RVbC04dUl0V3dfd05sVWM?oc=5",
+          "original_title": "카카오, 자율 AI 에이전트 윤리 체계 구축…‘SPIRIT·NORMA’로 전 주기 위험 관리",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "인공지능신문",
+              "title": "카카오, 자율 AI 에이전트 윤리 체계 구축…‘SPIRIT·NORMA’로 전 주기 위험 관리",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1La1dTbml5eW13Z3ZsdlhQQUJGWFlyZGNIRV9ZeVlxSXpKWjdYWlhnT2gtUGgtMEFlQ1lLRE5IelRKLWt6Z2xFY1k2ZTFnRzNLTnJxOUs4Y1RVbC04dUl0V3dfd05sVWM?oc=5"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "카카오, 자율 AI 에이전트 윤리 원칙 공개…연내 서비스 적용",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ncnhnc3VHNW8xblB5Ynp0U3JRRzRQUmJ1bG9CWFAtQk45LUtRcC1iR1lwelcwZVdfNFUxdnF5akF1aEdSWVI3Ui1EcjVGRklWODMyeUJtdjF5OG5wa2h1R2Rmcjg?oc=5"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "\"AI 에이전트 확산 대응\"…카카오, 윤리 원칙·이행 가이드 공개",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0S1A4SkJ2WlpxNnRrbm1pdC1jWmJpcXFKYldKdFdTTW41S1kyVnhLdEt4eWJhT0lsSkRwbWtITGMteDJqSENFREs4Wk1LU0VuOUh5MHFB?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "칼라앤터치·효성, 기능성 원단 트렌드 공개",
+          "summary": "한세실업 자회사인 칼라앤터치가 효성티엔씨와 협업해 최신 기능성 원단·소재를 개발하고 트렌드를 공유했다.",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=149379",
+          "original_title": "칼라앤터치, 효성티앤씨와 기능성 원단·소재 트렌드 공유",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "칼라앤터치, 효성티앤씨와 기능성 원단·소재 트렌드 공유",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=149379"
+            },
+            {
+              "name": "컨슈머타임스",
+              "title": "칼라앤터치, 효성티앤씨와 글로벌 패션 트렌드 교육 진행",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZUWlLcW5GVm5SUEc2TFgtUFpMeGRLcTRHZXJ2OHIwS0xGWkJycVpreVZmcHF4U05kamdXdzMtcW1jZW45dXBUUFN4Mmg5QUhyd2gtUUE4Y2g5WEMtSjNkWU1fTFZET0M0VlE?oc=5"
+            },
+            {
+              "name": "주간한국",
+              "title": "한세실업 칼라앤터치, 효성티앤씨와 시즌 트렌드 공유",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxV1U4a1ljTUFQam1UUXJndGNydDNWQ215bzZPWmxiaEVQSFc2ZlA3VkxnUGZrdHB1SmNhSk1QNF9VQkM3QXN1VEJOMVVJTFg5elotZGdrcVlrNHdDd21OeTU1VW1XUThRc0dfUVczdDnSAXRBVV95cUxQOXBDZjFOMEQ4TGY3Rlo0UldBTkVhUXMwOHlfMG9yb1I5X2FHMDRzemF3Q1dGY1k1SmowNmFGX0hWX3BDZFhsYndvc29TV2NSd3pMMVpTazkyT2tpdkd0aWI1S3Bkd1pYbnJBVWc2dGNyMC1HYg?oc=5"
+            },
+            {
+              "name": "와이드경제",
+              "title": "칼라앤터치, 효성티앤씨와 손잡고 기능성 원단 트렌드 공유…미주 수주 확대 박차",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sRWVKQnFwbXJpT0d3T0h5Wm80c1lSR082TDlWY3JKWjF3VS0ycDlxNWkxYUJPSVQ2YWdlZlhPdUdKU2d5ZVNMT3g3QWhUaVhPbGpsS0h5M0V1cm1DWjNZRkQzQWVKcWhobFJVdw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "2026 K-뷰티엑스포 킨텍스 개막",
+          "summary": "10월 15일부터 17일까지 킨텍스에서 국내 최대 뷰티 산업 전시가 진행된다.",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100159",
+          "original_title": "킨텍스, ‘2026 K-뷰티엑스포 코리아‘ 15일 개막",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "킨텍스, ‘2026 K-뷰티엑스포 코리아‘ 15일 개막",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100159"
+            },
+            {
+              "name": "조선일보",
+              "title": "‘K-뷰티 엑스포 코리아’ 관람객 북적",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQmhkZFdwWXlMa1ZDUEp5UTJtendmSWh3X3Q4bGhHTExXeGVYQTZUbmtfN29qNk5mOEE0UmJwOXBlc3NlcTk5UXBteGwxWGpFeTBxMmlDT091THJZRXhfOGhXNkREdjFxM0d6ZzY2Y3Uwa05SQTdWem85NXpwQmlubzdmQUNVMjRQTDd0Q3Zn?oc=5"
+            },
+            {
+              "name": "디지틀조선일보",
+              "title": "글로벌 바이어 1만 명 몰린다…‘2026 K-뷰티엑스포 코리아’ 킨텍스서 개막",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjh3d1Z1TTdtMnRKTzBXT0c5cWhVcUd2ZU90MEQyOEpPNGhjU0Y3LXItLTRGX0pTQm9hc0VmblZzUC1SNklFWW5QRFN2R3dxYVBqRWlwXzlyQXBVUnBoYk9OSGZtMzlDbVp6QUh6LTBHMkxoNGJhZTFUc1NUZG03enBrS19XaE0?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "한화손보, 한남사옥서 5일간 웰니스 축제",
+          "summary": "",
+          "source": "한국금융경제신문",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nX1YzSmptdy1vVmhJLUdWTkhKTENHRmZqcEJCd3pKdUlIVFFJZV9ENEg1UlhMZGZucVFjX3hXOWZvN08zNUdWZFZXRV8tN2tBbnNKUWFUOXV3b2taV2pEY1MycExXTV9QdmljcktyQ2LSAXBBVV95cUxOZ19WM0pqbXctb1ZoSS1HVk5ISkxDR0ZmanBCQnd6SnVJSFRRSWVfRDRINVJYTGRmbnFRY194VzlmbzdPMzVHVmRWV0VfLTdrQW5zSlFhVDl1d29rWldqRGNTMnBMV01fUHZpY3JLckNi?oc=5",
+          "original_title": "한화손보, 한남사옥서 5일간 웰니스 축제",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "한국금융경제신문",
+              "title": "한화손보, 한남사옥서 5일간 웰니스 축제",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nX1YzSmptdy1vVmhJLUdWTkhKTENHRmZqcEJCd3pKdUlIVFFJZV9ENEg1UlhMZGZucVFjX3hXOWZvN08zNUdWZFZXRV8tN2tBbnNKUWFUOXV3b2taV2pEY1MycExXTV9QdmljcktyQ2LSAXBBVV95cUxOZ19WM0pqbXctb1ZoSS1HVk5ISkxDR0ZmanBCQnd6SnVJSFRRSWVfRDRINVJYTGRmbnFRY194VzlmbzdPMzVHVmRWV0VfLTdrQW5zSlFhVDl1d29rWldqRGNTMnBMV01fUHZpY3JLckNi?oc=5"
+            },
+            {
+              "name": "AP신문",
+              "title": "한화손보, 첫 웰니스 문화 프로젝트…사옥서 ‘크루즈 한남’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CbjlEazZoUTlMN0Z3WTVTVnZOTnVkNjQzbU5BTXRaTllUdE50dnVjaXBEQkFTdmpnSWNPQ2wyRFBkQ195bUdWLXdGWkhIZ3QtdUJ6SDhSdFQ4bVlVTElEYmVxUGVxM05BU0lLUtIBbEFVX3lxTE1CbjlEazZoUTlMN0Z3WTVTVnZOTnVkNjQzbU5BTXRaTllUdE50dnVjaXBEQkFTdmpnSWNPQ2wyRFBkQ195bUdWLXdGWkhIZ3QtdUJ6SDhSdFQ4bVlVTElEYmVxUGVxM05BU0lLUg?oc=5"
+            },
+            {
+              "name": "인더스트리뉴스",
+              "title": "한화손보, 한남동 사옥서 도심형 '웰니스 페스티벌' 개최",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PMldJajY0cGR0cXJBVWVrMHBGcWw3Y1JnZXI5SEJyVU9vampEVGZsejBiekZtMGlmQVc3bU5XbUFWV09Lczc3Z3NrWnBxVkZMTHI3dWVVU2xpSi1XTHk5NkxQdEJROEg3ZS1oYjFUenl1dw?oc=5"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "한화손보, 한남사옥서 웰니스 축제…운동·미식·휴식 한자리에",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90SmNCUDl1Sm91NExINEhoUV9LZGw1Wi1FaEN4ODZSaFJROVNYUmpUZzZnLTc0aXFXSWd4N0xKbG9Qbk5qTVNuV205TGFoVUlpVnNETjlRRHJ1T2JJ?oc=5"
+            },
+            {
+              "name": "이즈보험",
+              "title": "한화손보, 21~25일 한남동서 ‘웰니스 크루즈 한남’ 첫 개최",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzQ055bVIxczlNUEFpMUl0OEwyUGxraW1fVk9tQjF0MFdDeEdFSmZ3RHZmOFNLcWRTRlBOdEUtWThNaVhFS2x3MUdqamVmLVB6eHh0QUpiQ2JIcF9RWGhHaTkzNDRXU0NBTnc?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "아고다, 연말연시 가족여행 트렌드 공개",
+          "summary": "",
+          "source": "트래블데일리",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSEtXYkhtUFpRcmxTS19JWXRNMG9ETXZEWkNWOUhWY1NoMGRReGhydzI5aGYyWlRXRnBYbTdiVWhneHk1bEZDYngwaTktNDNRMGZaUmN3N29ZQV82a2Rva3VPYVZSd0tGaEo0b2xpblk?oc=5",
+          "original_title": "아고다, 연말연시 가족여행 트렌드 공개",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "트래블데일리",
+              "title": "아고다, 연말연시 가족여행 트렌드 공개",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSEtXYkhtUFpRcmxTS19JWXRNMG9ETXZEWkNWOUhWY1NoMGRReGhydzI5aGYyWlRXRnBYbTdiVWhneHk1bEZDYngwaTktNDNRMGZaUmN3N29ZQV82a2Rva3VPYVZSd0tGaEo0b2xpblk?oc=5"
+            },
+            {
+              "name": "로이슈",
+              "title": "아고다, 연말연시 가족여행 검색 트렌드 발표",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9udjgtbG5NZVNoNm5fU2FtZmR5WjBzRVNva0otVnloSWw2ampTSjlpQ2oyVmFBall2RXVZUHJUNkZXbTg4YWdVTXV1MDUwbGhLekVPeUMyZWU4Q2hiNl9tT0tXWDhWdHRueHZQMko2aEVlb2VtLWtmWmZR?oc=5"
+            },
+            {
+              "name": "뷰티트래블뉴스",
+              "title": "아고다, 연말연시 가족여행 인기 여행지 발표…해외는 푸꾸옥·후쿠오카, 국내는 제주도 1위",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHE4NmpGakdIcWdzeDZtM2hUUTBIRFYwaHlYNV9lajIzMVc4WjNCT0ZjMTlJaEtDTmUtTHZkUXE1dGNkU0tiRUxGWEU3c2NsZUZncTdtYk02VHRzWUZxWkJXNzlrLUM3VjhDcTdoLVEtMlZKUWFiWUNJQUptODRuRWt4eVpxQQ?oc=5"
+            },
+            {
+              "name": "위키트리",
+              "title": "아고다 “연말 가족여행, 해외 1위 푸꾸옥·국내 1위 제주”…검색 트렌드 공개",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByT2NlajUyakc0VWdZUFVDbWc2b1FjN1ZTR3RtRFNyTTVYdVZ1djhZaU90aVJ6ajhHeDhRVm96REpzUHBHOHYtLXFMMjhhMldqZFpWNXlR?oc=5"
+            },
+            {
+              "name": "스페셜타임스",
+              "title": "아고다, 연말연시 가족여행지로 푸꾸옥·후쿠오카·제주도 등 공개",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRUDJxVTRKTERva1BoS0ZaYm9OSTlSWC1ZTmJOcjFKTGJuM2NRWWNKN2dwbHpWZjQ0N2tzdGhZOVBiSGlRQ1Eybm5MVi1mLXVxOHJiWWo0QV9PeHJDdGlETzNJM2M2SEdWZGRwaXN4X0YwUQ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "CGV, 10주년 영화 7편 재상영작 선정",
+          "summary": "CGV가 개봉 10주년을 기념해 영화 7편을 관객 투표로 재상영작에 선정하고 있다.",
+          "source": "메가경제",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqd9IBckFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqdw?oc=5",
+          "original_title": "CGV, 개봉 10주년 영화 7편 재조명…관객 투표로 재상영작 선정",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "메가경제",
+              "title": "CGV, 개봉 10주년 영화 7편 재조명…관객 투표로 재상영작 선정",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqd9IBckFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqdw?oc=5"
+            },
+            {
+              "name": "문화저널21",
+              "title": "CGV, 개봉 10주년 영화 다시 극장으로",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbVRMeTd5YUtiTDh0aHdOVVVIcEMtajMtRFJ1Nm9TVFBOQU5KTVBVR3VGSjctbXF6WThpcTVPRHUyQm5RakI2b2NTR2g5bXowTGFvcEpIQ2diMERSWlFXZVdvbWtSNk0?oc=5"
+            },
+            {
+              "name": "메트로신문",
+              "title": "CGV, 개봉 10주년 영화 7편 재상영 투표…'COD-7' 진행",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JRjZOTXIwOE8tcVFLdnF2RFZpbFB4RUJMUFJvTVBmYVJzdHhxS2J3M0E0WDQ2WjM0TTFKS3JndzFGMUx3b1gwOU51WjZzaGJfWEw4QzF3S2NBbzZJTGVHag?oc=5"
+            },
+            {
+              "name": "CJ 뉴스룸",
+              "title": "“아니 벌써 10년 됐다고?”…CGV, 10월 ‘COD-7’ 개봉 10주년 영화 소환 – CJ 뉴스룸",
+              "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNOGo1NTFCcTRMNk5lQmtNM1lBVUJuS0Q0VXA2RUl2TV9hS2ItckltRWJFaGd4MjREUGdDZERzMk0zblBEaTdWWndOdy1YSnhfbGpnNXFsZURwSkpxUmNrdlg2UU9IazcxUURRNm83MzJvVnRSeVBydnRXQ0NjZjlmbnExZm94dllpUXFPd09QWExmanNYVzZvRU5zVzBhelB6V0hrQlFDY2hkbmd5ZGsxRk1renl1ZVdhdmptZ3psYVljSkhKdWhQanY3OWluaXIxaktiTUdRRmhiSHBFUlBOeVN4UEc2OU5aZEpveDY5T1BuNzFEbjQ1ZGJmYldndW9Z?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "최혜진, 상하이 대회 첫 날 8언더파 단독 선두",
+          "summary": "최혜진이 상하이 대회 첫날 8언더파를 기록하며 단독으로 선두에 섰다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799881",
+          "original_title": "최혜진, LPGA 상하이 대회 첫날 8언더파… 3타차 단독 선두",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "최혜진, LPGA 상하이 대회 첫날 8언더파… 3타차 단독 선두",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799881"
+            },
+            {
+              "name": "조선일보",
+              "title": "최혜진, 124번째 대회서 우승하나… 뷰익 상하이 첫날 3타 차 단독 선두",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaFgwdGJxUHZ0QU1obXFVdDdFcjVleUZVMENxZlEzd1EtTXdaX3VUWEhvdzB5TGM4NXpZUXNsYjhCenIwNjJvZlNCMHh4T0RmZ1dvMWtPa003Uk1NS0JJMmkzMGpSTFoyTXc3QjM5WllDbUN2NWZyX2pUdy0xYVhjWXlsWG9VOVZsXzBEeFM4UWhfaEZCNlZXR1VxdEs0Zw?oc=5"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'8언더파' 최혜진, LPGA 투어 뷰익 상하이 첫날 3타차 선두",
+              "link": "https://www.newsis.com/view/NISX20261015_0003828041"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "최혜진, LPGA 상하이 대회 첫날 64타 맹타… 3타차 단독 선두",
+              "link": "https://www.yna.co.kr/view/AKR20261015166100007"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ootd": {
+    "looks": [
+      {
+        "id": "daily",
+        "label": "데일리",
+        "title": "가디건 한 겹의 온도",
+        "keyword": "소프트 레이어드",
+        "items": [
+          {
+            "category": "outer",
+            "name": "오트밀 니트 가디건",
+            "color": "오트밀",
+            "hex": "#D9CBB3",
+            "en": "oatmeal knit cardigan"
+          },
+          {
+            "category": "top",
+            "name": "화이트 크루넥 티",
+            "color": "화이트",
+            "hex": "#F4F2EC",
+            "en": "white crew-neck t-shirt"
+          },
+          {
+            "category": "bottom",
+            "name": "인디고 스트레이트 데님",
+            "color": "인디고",
+            "hex": "#2F4A6D",
+            "en": "indigo straight-leg jeans"
+          },
+          {
+            "category": "shoes",
+            "name": "그레이 스웨이드 스니커즈",
+            "color": "그레이",
+            "hex": "#9A9690",
+            "en": "grey suede sneakers"
+          },
+          {
+            "category": "umbrella",
+            "name": "블랙 장우산",
+            "color": "블랙",
+            "hex": "#222222",
+            "en": "black long umbrella"
+          }
+        ],
+        "tip": "아침저녁 쌀쌀할 땐 벗기 쉬운 가디건이 정답이다. 단추를 반쯤 풀어 여유 있게. 비 소식이 있으니 우산도 함께.",
+        "photo": "looks/2026-10-16-daily.jpg",
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A man in his 30s with an average build wearing oatmeal knit cardigan, white crew-neck t-shirt, indigo straight-leg jeans, grey suede sneakers, and holding a black long umbrella lowered at the side. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+      }
+    ],
+    "trend": null,
+    "weather": {
+      "city": "서울",
+      "t_max": 23,
+      "t_min": 14,
+      "rain_pct": 63,
+      "sky": "구름 조금",
+      "display": "서울 14~23°C · 구름 조금 · 강수 63%"
+    },
+    "by": "rule",
+    "default": "men"
+  },
+  "quote": {
+    "text": "나는 무엇을 아는가?",
+    "author": "몽테뉴",
+    "work": "수상록"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "가벼운 정리정돈이 기분을 바꿔줘요"
+      },
+      {
+        "animal": "소",
+        "text": "가까운 사람에게 고마움을 전해 보세요"
+      },
+      {
+        "animal": "호랑이",
+        "text": "산책길에서 좋은 아이디어가 떠올라요"
+      },
+      {
+        "animal": "토끼",
+        "text": "웃는 얼굴에 좋은 사람이 모여요"
+      },
+      {
+        "animal": "용",
+        "text": "작은 목표 하나를 이루기 좋은 날"
+      },
+      {
+        "animal": "뱀",
+        "text": "작은 친절이 큰 웃음으로 돌아오는 날"
+      },
+      {
+        "animal": "말",
+        "text": "오늘의 칭찬 한마디가 행운을 불러요"
+      },
+      {
+        "animal": "양",
+        "text": "좋아하는 노래가 하루의 BGM이 됩니다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "미뤄둔 연락 하나가 반가운 소식이 돼요"
+      },
+      {
+        "animal": "닭",
+        "text": "오랜 친구와의 대화가 힘이 돼요"
+      },
+      {
+        "animal": "개",
+        "text": "점심 메뉴 선택 운 최고"
+      },
+      {
+        "animal": "돼지",
+        "text": "평소보다 감이 좋은 하루, 직감을 믿어요"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
