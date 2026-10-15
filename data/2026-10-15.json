@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-15",
+  "weekday": "목요일",
+  "vol": 3,
+  "generated_at": "2026-10-15T09:04:42+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 6035.35,
+      "change": -348.89,
+      "change_pct": -5.46,
+      "direction": "down",
+      "display": "6,035.35",
+      "change_display": "▼ 5.46%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1340.9,
+      "change": 0.6,
+      "change_pct": 0.04,
+      "direction": "up",
+      "display": "1,340.9원",
+      "change_display": "▲ 0.04%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 110584000.0,
+      "change": 246000.0,
+      "change_pct": 0.22,
+      "direction": "up",
+      "display": "11,058만원",
+      "change_display": "▲ 0.22%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 20,
+    "t_min": 11,
+    "rain_pct": 61,
+    "sky": "구름 조금",
+    "display": "서울 11~20°C · 구름 조금 · 강수 61%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "의대",
+      "headline": "D-30, 책상에 이것만 남겨라",
+      "summary": "수능 만점을 기록한 의대생이 학업 준비에 필요한 최소한의 서류를 남겼다.",
+      "source": "중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBONndacGFlZDFIMDlrR2dLWVN3bnhoQU1OMmFmRzdzMWNZcjYzdFc5Mjg1Y2d2dFdTN2xBSllqU1dCT3hSUkNKNEZWNm14SjNpN2RUeXlR?oc=5",
+      "original_title": "“D-30, 책상에 이것만 남겨라” 수능만점 의대생 반전 충고"
+    },
+    {
+      "kicker": "운세",
+      "headline": "2026년 10월 15일 띠별 운세",
+      "summary": "띠별로 개인의 재산과 건강, 사랑에 대한 유머와 예상이 담긴 운세가 예보되었다.",
+      "source": "YTN",
+      "link": "https://www.ytn.co.kr/_ln/0121_202610150000000001",
+      "original_title": "[오늘의 운세] 2026년 10월 15일 띠별 운세"
+    },
+    {
+      "kicker": "교통",
+      "headline": "제주 평화로 다중 추돌 12대 추정",
+      "summary": "제주 평화로에서 가장 큰 규모의 다중 교통사고가 발생해 12대가 추정된다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261014135000056",
+      "original_title": "제주 평화로에서 다중 추돌 교통사고…12대 추정"
+    }
+  ],
+  "sections": [
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "신임 비서실장에 임광현 국세청장…'깜짝 발탁' 배경은?",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798231",
+          "original_title": "신임 비서실장에 임광현 국세청장…'깜짝 발탁' 배경은?",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "젤렌스키, 트럼프 배신감 언급",
+          "summary": "젤렌스키가 트럼프가 다른 편을 고르면 고통과 배신감이 따른다고 밝혔다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261015/134844551/1",
+          "original_title": "젤렌스키 “트럼프가 다른 편 선택하면 고통…솔직히 배신감도”",
+          "coverage": 5
+        },
+        {
+          "headline": "국제유가, IEA 경고·중동 긴장에 급등",
+          "summary": "브렌트유 배럴당 106달러를 넘어선 가운데, IEA 공급 부족 경고와 중동 긴장으로 국제유가가 상승했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261015_0003826487",
+          "original_title": "국제유가, IEA 공급 경고·중동 긴장에 상승…브렌트유, 배럴당 106달러",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "AI 해킹으로 16곳 금융 10만건 유출",
+          "summary": "인공지능 활용한 해킹으로 국내 금융 16곳이 피해를 입었으며, 유출된 개인정보는 약 10만 건에 이른다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261014/134842971/2",
+          "original_title": "AI해킹, 금융사 16곳서 개인정보 10만건 유출",
+          "coverage": 5
+        },
+        {
+          "headline": "공정위 1호 사건 6개 품목 담합 조사",
+          "summary": "공정거래위원회 중점조사기획단이 김치, 두부, 즉석밥 등 6개 품목의 담합 의혹을 조사 중이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261014/134843085/2",
+          "original_title": "공정위 중점조사기획단 1호 사건은 ‘먹거리 담합 의혹’",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "ICT 수출, 첫 700억달러대…반도체가 '5분의 4' 채웠다",
+          "summary": "",
+          "source": "서울이코노미뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9remtCWXFSRXNKUmhIU2l1Zkx0Zlk4VnNNelVRbE9hQnFfckd4RFp6X1p3X3MzTHl0YkZ3bDdoOU5TUGxJdEl2Z2tUSC1HMlUxSktSS3BlTnRkUWlKdldRR2FtTEdfSFN2bnR3cF93?oc=5",
+          "original_title": "ICT 수출, 첫 700억달러대…반도체가 '5분의 4' 채웠다",
+          "coverage": 12
+        },
+        {
+          "headline": "포항시 공무원, 시민이 체감하는 AI 행정서비스 자체 개발 역량 키운다",
+          "summary": "",
+          "source": "더최고신문",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xVmp1bG8wdkxDQnNxVHJZUkxYOUl1alRhOGlySTJHYjZSWWdCdnBKNnZlVnZITlB6WlVHX3VMWFVRQk90c2lFVFZkS3ZYdFdvdi02WmVScGxydk82UV9UZ3hkQ19pbzVPVWdEUF9aMEnSAXBBVV95cUxNcVZqdWxvMHZMQ0JzcVRyWVJMWDlJdWpUYThpckkyR2I2UllnQnZwSjZ2ZVZ2SE5QelpVR191TFhVUUJPdHNpRVRWZEt2WHRXb3YtNlplUnBscnZPNlFfVGd4ZENfaW81T1VnRFBfWjBJ?oc=5",
+          "original_title": "포항시 공무원, 시민이 체감하는 AI 행정서비스 자체 개발 역량 키운다",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "롯데온 30주년 글로벌 패션 플랫폼 론칭",
+          "summary": "롯데온이 30주년을 맞아 글로벌 패션 플랫폼 '포이즌'을 론칭했다. 신규 입점사가 늘어나 국내 미발매 스니커즈를 조기에 선보이는 기능이 포함된다.",
+          "source": "직썰",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oRmNCdjUxN1ViZS1FN25MRFRPeldmSG5rYU92TEU0al9CV2owR0RhNy1PUVh2OGRPcUdhdTFjTE5KZWp3cHItM241RlowVmFxdGhlMU5nbzJVbGpHcWJ2WWxtMUZUTDRm0gFsQVVfeXFMT2Q3T2pHN0NYVFlSc0MxZzl6cFJBWjM2VVMwemg4R1hNYVJYTWRfMjRNRVlMdEpZQWE1M0EzNUlBNHlzTkl5RUJ0RnlzV2dqbEY3dGVnb242SFdOQzBVRVFhTVFHLXNQbUVpM21r?oc=5",
+          "original_title": "롯데온, 30주년 맞아 글로벌 패션 플랫폼 ‘포이즌’ 론칭",
+          "coverage": 4
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "정부 AI·융복합 K‑뷰티 전방위 지원",
+          "summary": "정부는 10월 14일 재정경제부 장관이 주재한 경제관계장관회의에서 AI·융복합 K‑뷰티 서비스 전방위 지원 방안을 발표했다.",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100136",
+          "original_title": "정부, ‘AI·융복합 K-뷰티 서비스’ 전방위 지원 나선다",
+          "coverage": 4
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "“이불 바꾸고 집 단장”…쿠팡, 25일까지 홈인테리어 할인 행사",
+          "summary": "",
+          "source": "키즈맘",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsOUVNUHhxWXhaUjcxdUd6Q2dTdGFjXzBwSklEV09rYU1PNzgzUUpocEhWTjhrbVhyaGktNXBqenBOa09rb1RVeXRHN3laVjBlWVl6QnJidGloMHFXcTdyQjJHNndrTlNm?oc=5",
+          "original_title": "“이불 바꾸고 집 단장”…쿠팡, 25일까지 홈인테리어 할인 행사",
+          "coverage": 10
+        },
+        {
+          "headline": "쿠팡 하반기 와우 리빙쇼, 미식 전문관 하우스 오브 테이스트 론칭",
+          "summary": "",
+          "source": "글로벌E",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yZ1phY0tOQkRPQUtiNVc3U05aM3ZXYm40WkJKY0M0Z3BiY05KVnh2Q09meUpqZERaNHNldkhQX1VZYjhuVUh2N1g1U2E5NzhXOFo0UFVPSVdRNUpLaUFtOUxRZld4ZURWVjRlRlc5c9IBb0FVX3lxTE0yZ1phY0tOQkRPQUtiNVc3U05aM3ZXYm40WkJKY0M0Z3BiY05KVnh2Q09meUpqZERaNHNldkhQX1VZYjhuVUh2N1g1U2E5NzhXOFo0UFVPSVdRNUpLaUFtOUxRZld4ZURWVjRlRlc5cw?oc=5",
+          "original_title": "쿠팡 하반기 와우 리빙쇼, 미식 전문관 하우스 오브 테이스트 론칭",
+          "coverage": 6
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "[나주시 소식] 나주공연예술제 16일 개막…금성관서 예술 한마당",
+          "summary": "",
+          "source": "뉴스프리존",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KU3RtYTZLSGh6aHFhZW5DTENoNTlsTTEtR1NzaktKaVUwZ2R0aEdyMFN2RUVndDYxY1ZsQ2xFTUVXZURsenk5aXVMb3BvWWhuTUxsbkdhOHQ2anM3dmZEcDZSdXR1TWJaS0g5VlBUQkZMVDlfU2lJ0gF3QVVfeXFMTUpTdG1hNktIaHpocWFlbkNMQ2g1OWxNMS1HU3NqS0ppVTBnZHRoR3IwU3ZFRWd0NjFjVmxDbEVNRVdlRGx6eTlpdUxvcG9ZaG5NTGxuR2E4dDZqczd2ZkRwNlJ1dHVNYlpLSDlWUFRCRkxUOV9TaUk?oc=5",
+          "original_title": "[나주시 소식] 나주공연예술제 16일 개막…금성관서 예술 한마당",
+          "coverage": 5
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "'타격 부진' 오타니, 6번 타자로 출전…로버츠 감독 \"본인도 동의\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798502",
+          "original_title": "'타격 부진' 오타니, 6번 타자로 출전…로버츠 감독 \"본인도 동의\"",
+          "coverage": 5
+        }
+      ]
+    }
+  ],
+  "ootd": {
+    "looks": [
+      {
+        "id": "daily",
+        "label": "데일리",
+        "title": "트렌치 위에 니트 한 겹",
+        "keyword": "클래식 가을",
+        "items": [
+          {
+            "category": "outer",
+            "name": "베이지 트렌치코트",
+            "color": "베이지",
+            "hex": "#C8AE85",
+            "en": "beige trench coat"
+          },
+          {
+            "category": "top",
+            "name": "브라운 크루넥 니트",
+            "color": "브라운",
+            "hex": "#7A5638",
+            "en": "brown crew-neck knit sweater"
+          },
+          {
+            "category": "bottom",
+            "name": "블랙 와이드 슬랙스",
+            "color": "블랙",
+            "hex": "#1F1F1F",
+            "en": "black wide-leg slacks"
+          },
+          {
+            "category": "shoes",
+            "name": "버건디 레더 로퍼",
+            "color": "버건디",
+            "hex": "#5E1F2B",
+            "en": "burgundy leather loafers"
+          },
+          {
+            "category": "bag",
+            "name": "탄 숄더백",
+            "color": "탄",
+            "hex": "#A97E55",
+            "en": "tan leather shoulder bag"
+          },
+          {
+            "category": "umbrella",
+            "name": "블랙 장우산",
+            "color": "블랙",
+            "hex": "#222222",
+            "en": "black long umbrella"
+          }
+        ],
+        "tip": "트렌치는 벨트를 뒤로 묶고 앞을 열어 두면 한층 가볍다. 니트 색으로 온기를 더하자. 비 소식이 있으니 우산도 함께.",
+        "photo": "looks/2026-10-15-daily.jpg",
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A person with a slim build wearing beige trench coat, brown crew-neck knit sweater, black wide-leg slacks, burgundy leather loafers, tan leather shoulder bag, and holding a black long umbrella lowered at the side. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+      }
+    ],
+    "trend": null,
+    "weather": {
+      "city": "서울",
+      "t_max": 20,
+      "t_min": 11,
+      "rain_pct": 61,
+      "sky": "구름 조금",
+      "display": "서울 11~20°C · 구름 조금 · 강수 61%"
+    },
+    "by": "rule",
+    "default": "women"
+  },
+  "quote": {
+    "text": "가장 좋은 복수는 그와 같은 사람이 되지 않는 것이다.",
+    "author": "마르쿠스 아우렐리우스",
+    "work": "명상록"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "평소보다 감이 좋은 하루, 직감을 믿어요"
+      },
+      {
+        "animal": "소",
+        "text": "오랜 친구와의 대화가 힘이 돼요"
+      },
+      {
+        "animal": "호랑이",
+        "text": "웃는 얼굴에 좋은 사람이 모여요"
+      },
+      {
+        "animal": "토끼",
+        "text": "작은 친절이 큰 웃음으로 돌아오는 날"
+      },
+      {
+        "animal": "용",
+        "text": "작은 목표 하나를 이루기 좋은 날"
+      },
+      {
+        "animal": "뱀",
+        "text": "따뜻한 차 한 잔이 행운의 열쇠"
+      },
+      {
+        "animal": "말",
+        "text": "가벼운 정리정돈이 기분을 바꿔줘요"
+      },
+      {
+        "animal": "양",
+        "text": "산책길에서 좋은 아이디어가 떠올라요"
+      },
+      {
+        "animal": "원숭이",
+        "text": "오늘의 칭찬 한마디가 행운을 불러요"
+      },
+      {
+        "animal": "닭",
+        "text": "생각보다 일이 술술 풀리는 날"
+      },
+      {
+        "animal": "개",
+        "text": "새로 시작한 일에 순풍이 부는 하루"
+      },
+      {
+        "animal": "돼지",
+        "text": "가까운 사람에게 고마움을 전해 보세요"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
