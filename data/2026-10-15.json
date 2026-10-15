@@ -4,41 +4,41 @@
   "date": "2026-10-15",
   "weekday": "목요일",
   "vol": 3,
-  "generated_at": "2026-10-15T09:53:48+09:00",
+  "generated_at": "2026-10-15T10:19:56+09:00",
   "edit_mode": "partial",
   "indicators": [
     {
       "id": "kospi",
       "name": "코스피",
       "ok": true,
-      "value": 5640.94,
-      "change": -367.87,
-      "change_pct": -6.12,
+      "value": 5594.68,
+      "change": -414.13,
+      "change_pct": -6.89,
       "direction": "down",
-      "display": "5,640.94",
-      "change_display": "▼ 6.12%"
+      "display": "5,594.68",
+      "change_display": "▼ 6.89%"
     },
     {
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1346.7,
-      "change": 6.4,
-      "change_pct": 0.48,
+      "value": 1349.6,
+      "change": 9.3,
+      "change_pct": 0.69,
       "direction": "up",
-      "display": "1,346.7원",
-      "change_display": "▲ 0.48%"
+      "display": "1,349.6원",
+      "change_display": "▲ 0.69%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 110499000.0,
-      "change": 161000.0,
-      "change_pct": 0.15,
+      "value": 110761000.0,
+      "change": 423000.0,
+      "change_pct": 0.38,
       "direction": "up",
-      "display": "11,050만원",
-      "change_display": "▲ 0.15%"
+      "display": "11,076만원",
+      "change_display": "▲ 0.38%"
     }
   ],
   "weather": {
@@ -51,20 +51,6 @@
   },
   "cover_stories": [
     {
-      "keyword": "브루어스 대 다저스",
-      "headline": "타율 .150, 우리가 알던 '엄친아' 맞나? '스리핏 좌절 대위기' 패닉 빠진 다저스, 결국 팽?…옛 스승 시선은 정반대, 왜?",
-      "summary": "",
-      "source": "조선일보",
-      "link": "https://www.chosun.com/sports/world-baseball/2026/10/14/GYZDGZJSGIZDMYZZMEZDGODBGQ/",
-      "sources": [
-        {
-          "name": "조선일보",
-          "title": "타율 .150, 우리가 알던 '엄친아' 맞나? '스리핏 좌절 대위기' 패닉 빠진 다저스, 결국 팽?…옛 스승 시선은 정반대, 왜?",
-          "link": "https://www.chosun.com/sports/world-baseball/2026/10/14/GYZDGZJSGIZDMYZZMEZDGODBGQ/"
-        }
-      ]
-    },
-    {
       "keyword": "솔비",
       "headline": "[단독] 가수 솔비♥배우 이규한, 연예계 스타 커플 탄생…내년 결혼",
       "summary": "",
@@ -75,30 +61,39 @@
           "name": "뉴스1",
           "title": "[단독] 가수 솔비♥배우 이규한, 연예계 스타 커플 탄생…내년 결혼",
           "link": "https://www.news1.kr/entertain/celebrity-topic/6320518"
+        },
+        {
+          "name": "KBS 뉴스",
+          "title": "가수 겸 화가 솔비·배우 이규한, 내년 4월 결혼",
+          "link": "https://news.kbs.co.kr/news/view.do?ncd=8686351"
         }
       ]
     },
     {
-      "keyword": "하이닉스",
-      "headline": "[특징주] 삼성전자·SK하이닉스, 美 3대 지수 모두 하락.. '급락'",
+      "keyword": "토스증권",
+      "headline": "[게시판] 토스증권, 앱에 '시장' 탭 신설…AI시황 요약 제공",
       "summary": "",
-      "source": "글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa2xQOTRYbXloVzdqTWhrSlQzUnVvUDJoM2VpWGpWcHNVcUJLSi03VlI0QnVib0NnaHNYeUkyTExKVmdmbi1kZ2ZVVFA0aVNJYWFKTXN2WjNIaUlNN3E0NUJlbklTV0dwVkhSckVYSE5jUDlOMUs1ajctRWdyRllwYzBpMW5EUFJR?oc=5",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261014049900008",
       "sources": [
         {
-          "name": "글로벌이코노믹",
-          "title": "[특징주] 삼성전자·SK하이닉스, 美 3대 지수 모두 하락.. '급락'",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa2xQOTRYbXloVzdqTWhrSlQzUnVvUDJoM2VpWGpWcHNVcUJLSi03VlI0QnVib0NnaHNYeUkyTExKVmdmbi1kZ2ZVVFA0aVNJYWFKTXN2WjNIaUlNN3E0NUJlbklTV0dwVkhSckVYSE5jUDlOMUs1ajctRWdyRllwYzBpMW5EUFJR?oc=5"
-        },
+          "name": "연합뉴스",
+          "title": "[게시판] 토스증권, 앱에 '시장' 탭 신설…AI시황 요약 제공",
+          "link": "https://www.yna.co.kr/view/AKR20261014049900008"
+        }
+      ]
+    },
+    {
+      "keyword": "하이닉스 주가",
+      "headline": "SK하이닉스 주가, 10월 15일 장중 1,278,000원 9.94% 하락",
+      "summary": "",
+      "source": "톱스타뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00T0JDSktENklYQTNIWGN1R3dwN2VKbEprNnN0bjhXbnllNFRjRDZ5QTA0WVZ2UmFNWGI2MklMQ2Z2Q0N0elBnbFdZNEdkNDVJTnhkX2NuQ1ZXUlMtazNSUXNSR2ZvaHhOWDhiQk1oenE0Zw?oc=5",
+      "sources": [
         {
-          "name": "조선비즈",
-          "title": "[특징주] 삼전닉스, 프리마켓에서 6~7% 급락 …SK하이닉스 시가총액 1000조 하회",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXBVcU5UNzJhejlkRXdFSTNjekNWd1NoWmVPTmw1QlpfSVVoSC1tWXZRVVhUdGdnZ05HNzVMUTZSeFcwYzZReTVsbUcwdWlqX1JLa1dKLXNkdFhPenpEbk9GRW5TRVhOQ2JIQzJtZVhnODI4cm00Z2d6YmdVSHZzUzB5M0VyNFMw0gGcAUFVX3lxTFB2NURJd1Q0WDZEd0xuVzNRMWRwS2V1Mk5LUFBoLUo5SW02UWJnRWtpU3pKZXNJYkpWODZfV04xMC1TUks3aTFJanl6dUNLREJUOUhLTDNBRExqNVU5Y0tXWVg0ZWhBWXZHeGNtSGl1cXMtLU1ybENPejZwMVhDRHc5bEpwUXBNYm1SQmV0b0Z4b1A3cVVkZXFWWjRDeA?oc=5"
-        },
-        {
-          "name": "문화일보",
-          "title": "[속보]SK하이닉스 8%↓ 미국발 충격에 급락…코스피 매도사이드카 발동",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrWmdJT0dkWmdEZW55aEtwOXdHSVAyOE1JeU5fMnFnbDI2UVF1U205dUtiN3VXY1M3SnJ6ck52Q1NyOE1HdHdPcVJlb082dkw3?oc=5"
+          "name": "톱스타뉴스",
+          "title": "SK하이닉스 주가, 10월 15일 장중 1,278,000원 9.94% 하락",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00T0JDSktENklYQTNIWGN1R3dwN2VKbEprNnN0bjhXbnllNFRjRDZ5QTA0WVZ2UmFNWGI2MklMQ2Z2Q0N0elBnbFdZNEdkNDVJTnhkX2NuQ1ZXUlMtazNSUXNSR2ZvaHhOWDhiQk1oenE0Zw?oc=5"
         }
       ]
     }
@@ -109,22 +104,52 @@
       "name": "국내",
       "items": [
         {
-          "headline": "임광현 국세청장, 비서실장 급발탁",
-          "summary": "이재명 대통령이 국세청장 임광현을 청와대 비서실장으로 급발탁했다. 배경과 역할에 대한 논란이 확대되고 있다.",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798231",
-          "original_title": "신임 비서실장에 임광현 국세청장…'깜짝 발탁' 배경은?",
+          "headline": "李, 임광현 신임 비서실장에 임명장 수여…강훈식엔 공로패",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261015/134845617/1",
+          "original_title": "李, 임광현 신임 비서실장에 임명장 수여…강훈식엔 공로패",
           "coverage": 5,
           "sources": [
+            {
+              "name": "동아일보",
+              "title": "李, 임광현 신임 비서실장에 임명장 수여…강훈식엔 공로패",
+              "link": "https://www.donga.com/news/Politics/article/all/20261015/134845617/1"
+            },
             {
               "name": "SBS 뉴스",
               "title": "신임 비서실장에 임광현 국세청장…'깜짝 발탁' 배경은?",
               "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798231"
+            }
+          ]
+        },
+        {
+          "headline": "김민석, '강훈식 서울시장 후보' 질문에 \"가능성 열려\"…\"쉴 시간 허용될지 모르겠다\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798603",
+          "original_title": "김민석, '강훈식 서울시장 후보' 질문에 \"가능성 열려\"…\"쉴 시간 허용될지 모르겠다\"",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김민석, '강훈식 서울시장 후보' 질문에 \"가능성 열려\"…\"쉴 시간 허용될지 모르겠다\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798603"
             },
             {
               "name": "동아일보",
-              "title": "靑 비서실장에 임광현… 현 국세청장 깜짝 발탁",
-              "link": "https://www.donga.com/news/Politics/article/all/20261015/134844162/2"
+              "title": "김민석, 강훈식 서울시장 출마설에 “무한한 가능성 열려있다”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261015/134845134/2"
+            },
+            {
+              "name": "경향신문",
+              "title": "김민석, ‘강훈식 서울시장 후보설’에 “역량 검증된 전국적 인물···가능성 열려 있어”",
+              "link": "https://www.khan.co.kr/article/202610150906001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김민석, '강훈식 서울시장 후보'질문에 \"가능성·미래 열려있다\"",
+              "link": "https://www.yna.co.kr/view/AKR20261015021500001"
             }
           ]
         }
@@ -135,8 +160,8 @@
       "name": "국제",
       "items": [
         {
-          "headline": "UAE 화물선 2척 호르무즈 침몰",
-          "summary": "13일 호르무즈 해협에서 UAE 화물선 2척이 공격을 받아 침몰했다.",
+          "headline": "UAE 화물선 2척 호르무즈에서 침몰",
+          "summary": "UAE 산인 화물선 2척이 13일 호르무즈 해협에서 공격받아 침몰했다",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798582",
           "original_title": "호르무즈서 피격된 UAE 화물선 2척 침몰…\"이란 공격 강화\"",
@@ -148,9 +173,9 @@
               "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798582"
             },
             {
-              "name": "연합뉴스TV",
-              "title": "호르무즈서 피격된 UAE 화물선 2척 침몰",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAydWRaVzJfTzRnZURRS01uTHAyR0lXS3pnamNTWVRPSWtqTDZsR2RjQU1BbEFybUk5REVqS0FYRlVUcmpXTFZ2X0dsMzZmRG5OeTg0UmJQRktVUFBTUGQ0eDdRbWttRUE?oc=5"
+              "name": "MBC 뉴스",
+              "title": "월스트리트저널 \"호르무즈서 피격된 UAE 화물선 2척 침몰\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ob3NxU2hxZWdfaFZJa2VMblc1SFpoUnUwWWJHdGQ3dnE1SEgzR2VlU250NGo1SmVvVzlyUmg1NXFIXzVaRjJHbFpMRHgyUFpKYUI2WGRiakNmRzFUTHN4NE5JZ1hxbkVySnotS3R2aDM2dEN40gF0QVVfeXFMT0czcWJMSG4tLXJWSzhzNGVIY3c0TjAyLVZNUWJjMGkxV1BGeFpKQWFrQ3JkS25PaXhUc2JuQUJXcnNGSW1KUE8zU1FDNldXVDl4Tm4xbE5LWU9uUGtrTThNM01TbW4tLW5UclhqZmlVWEVWYlI?oc=5"
             },
             {
               "name": "연합뉴스",
@@ -160,22 +185,22 @@
           ]
         },
         {
-          "headline": "후티, 사우디 아람코 공항 미사일·드론 공격",
-          "summary": "후티가 사우디 아람코·공항을 대상으로 미사일·드론 공격을 가해 1명이 부상했다.",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798116",
-          "original_title": "후티 \"사우디 석유시설·공항에 미사일·드론 공격\"…1명 부상",
+          "headline": "필라이, 트럼프 ICC 제재 ‘불법 간섭’ 지적",
+          "summary": "노벨평화상 수상자 나비 필라이가 14일 현지시간 트럼프 대통령의 국제형사재판소 제재를 불법 간섭이라며 비판했다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261015041900009",
+          "original_title": "노벨평화상 필라이, 트럼프 ICC 제재 비판…\"불법 간섭\"",
           "coverage": 5,
           "sources": [
             {
-              "name": "SBS 뉴스",
-              "title": "후티 \"사우디 석유시설·공항에 미사일·드론 공격\"…1명 부상",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798116"
+              "name": "연합뉴스",
+              "title": "노벨평화상 필라이, 트럼프 ICC 제재 비판…\"불법 간섭\"",
+              "link": "https://www.yna.co.kr/view/AKR20261015041900009"
             },
             {
-              "name": "MBC 뉴스",
-              "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격‥며칠간 계속\"",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYMXVJdWl2TUxteE1oTXdlekRJb215dThPcTBQN1RQNW9uV2Jib2V0T0lvUHBucE5jb0JkVGxrRFZ0cEVPMGUtaGZTYl9jYkp4Mm1FSnJndXNuVkdIdWxTMnhQY2dIdDBqSDdQTFpfN3hIdWxp0gF0QVVfeXFMUGhhMWw1VVk4WmJWSmgycmpKR3JHVnZLeF80b1JIa3FCaDUwNVdSaXFFNWtxcUxpaTI1T3Zpa1pJRjQxcW9zWnZReUg2R01PbUlDUE5nUm1sOVhtMXQ1RmtBdHdOd1B1WFJ5ZVBIZEV1ajJvUF8?oc=5"
+              "name": "연합뉴스TV",
+              "title": "노벨평화상 필라이 \"트럼프 ICC 제재는 불법 간섭\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZcTM4YlJJUTFoUXZ5ZGZydnpQUnVFSGtHeHhOQWo0VUU3Wm9oc2VQMlFvM2c4SnVwVFRfNHh5NThkWERpQ3NZLWZRaXZvMG9aRE5PLUNxWXVJUjVaUDE4c3FfREhTczA?oc=5"
             }
           ]
         }
@@ -186,8 +211,8 @@
       "name": "경제·금융",
       "items": [
         {
-          "headline": "AI 해킹으로 16 금융사 10만건 개인정보 유출",
-          "summary": "인공지능 활용해 고객 정보가 10만건 유출된 것으로 보이는 사건이 국내 16곳 금융에서 확인된 사실이다.",
+          "headline": "AI 해킹으로 16 금융사 10만건 유출",
+          "summary": "인공지능을 이용한 해킹으로 국내 금융 16곳에서 약 10만 건이 유출됐다.",
           "source": "동아일보",
           "link": "https://www.donga.com/news/Economy/article/all/20261014/134842971/2",
           "original_title": "AI해킹, 금융사 16곳서 개인정보 10만건 유출",
@@ -216,8 +241,8 @@
           ]
         },
         {
-          "headline": "SK·삼성·현대·두산, 미국 원전 설계기업에 4조원 투자",
-          "summary": "팀코리아가 웨스팅하우스에 4조원 규모 투자해 미국 원자력 사업 진출을 가속화한다.",
+          "headline": "SK·삼성·현대 등 4조원 원전 투자",
+          "summary": "SK·삼성·현대·두산 등으로 구성된 팀 코리아가 미국 원전 설계기업 웨스팅하우스에 4조원 규모를 투자했다.",
           "source": "매일경제",
           "link": "https://www.mk.co.kr/news/business/12176026",
           "original_title": "[단독] SK·삼성 ‘원전 동맹’…웨스팅하우스 4조지분 확보해 美진출",
@@ -242,8 +267,8 @@
       "name": "테크",
       "items": [
         {
-          "headline": "ICT 수출 751억 달러 역대 최대",
-          "summary": "한국 ICT 수출액이 9월 751억 달러를 기록, 반도체가 80%를 차지했다.",
+          "headline": "한국 ICT 수출 751억 달러 역대 최대",
+          "summary": "한국의 ICT 수출액이 751억 달러를 기록하며 역대 최상을 기록했다. 반도체가 전체 수출의 80%를 차지했다.",
           "source": "서울이코노미뉴스",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9remtCWXFSRXNKUmhIU2l1Zkx0Zlk4VnNNelVRbE9hQnFfckd4RFp6X1p3X3MzTHl0YkZ3bDdoOU5TUGxJdEl2Z2tUSC1HMlUxSktSS3BlTnRkUWlKdldRR2FtTEdfSFN2bnR3cF93?oc=5",
           "original_title": "ICT 수출, 첫 700억달러대…반도체가 '5분의 4' 채웠다",
@@ -262,7 +287,7 @@
             {
               "name": "아시아투데이",
               "title": "9월 ICT 수출 751억달러 ‘역대 최대’…반도체 80%, 중소·중견기업 몫은 9% 미만",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90VjNia3FLMjNhZkhZclpaZEpsbzlEWVpRUGZESzhlc3RRRWlDX0Y3WkRTWFZiWFlKZUtid0tzRmh0WWFFV2tkc1B1eEo4Xy1GOTdaZy1FXy02bDE5elliSVJFU0NOcURnNFR3ZW5n?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5REJBc1FkN01xcndDV0JKVnFzb2IySHcySWI2ZW01a3NrazhEN2piamhDcHhTYzl6SW9seTcxTS1qV1VtR0U1b3FkWkcxa1d2ZC0xQU5KUzZUYTF2dW8zX3NMM21RR2pDSGRIRA?oc=5"
             },
             {
               "name": "생생비즈플러스",
@@ -283,8 +308,8 @@
       "name": "패션",
       "items": [
         {
-          "headline": "신세계 하이퍼그라운드, 도쿄서 ' K-푸드 & 라이프스타일' 팝업 선봬",
-          "summary": "",
+          "headline": "신세계 하이퍼그라운드 시부야 K‑푸드 팝업 개최",
+          "summary": "신세계 하이퍼그라운드가 도쿄 시부야에서 K‑푸드·라이프스타일 팝업을 개최하였다",
           "source": "패션비즈",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uZ2FUNVlQNVlIVEhqWER3OUZzTTdMczlFN3VDMnBPZGVHQlA1VHlYTXBYMThSaWVPajZCVVU0UUhramdwUmlzMXFaRWJ6S1hJ?oc=5",
           "original_title": "신세계 하이퍼그라운드, 도쿄서 ' K-푸드 & 라이프스타일' 팝업 선봬",
@@ -316,41 +341,6 @@
               "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBSHhmT3g3TjNIRkRIRGVIRC00MUVPOU9PaW5zTWltNE5SR3c3LVJ5UFZwODlsSEk3Yk1JOHV1Rzl6SjBUNmRsSHVlYlY?oc=5"
             }
           ]
-        },
-        {
-          "headline": "신세계百, 일본 시부야서 K브랜드 팝업…식품·생활로 영역 확대",
-          "summary": "",
-          "source": "데일리한국",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01N3NHb3ZxV2ZaeVlMMk8xbWFrSThhQW8yNXhKNmJoOVNIYUZwSUZYTnlqcGdxMkJmRWdNd1FBSGVwLTFWckxuS2NYeV9VOEUzTlRJSjZhUzMzRHVaQ2tMeUtLS1ZPSzdnQVJQZ1gtUdIBc0FVX3lxTE5PLUJ5bm9neGtWSVZhay1RSjdRUkNaREFxcnFmNXQ4RktEb01EQXZtR2tGdHBPeDlLWEZnVDZrZjR6NFF2c0tIMllwQm1kLTV5OUY2Um8wYmFNRWNtTUVZNDBtN0E5Mzd5LUljTWJ6T29kOXc?oc=5",
-          "original_title": "신세계百, 일본 시부야서 K브랜드 팝업…식품·생활로 영역 확대",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "데일리한국",
-              "title": "신세계百, 일본 시부야서 K브랜드 팝업…식품·생활로 영역 확대",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01N3NHb3ZxV2ZaeVlMMk8xbWFrSThhQW8yNXhKNmJoOVNIYUZwSUZYTnlqcGdxMkJmRWdNd1FBSGVwLTFWckxuS2NYeV9VOEUzTlRJSjZhUzMzRHVaQ2tMeUtLS1ZPSzdnQVJQZ1gtUdIBc0FVX3lxTE5PLUJ5bm9neGtWSVZhay1RSjdRUkNaREFxcnFmNXQ4RktEb01EQXZtR2tGdHBPeDlLWEZnVDZrZjR6NFF2c0tIMllwQm1kLTV5OUY2Um8wYmFNRWNtTUVZNDBtN0E5Mzd5LUljTWJ6T29kOXc?oc=5"
-            },
-            {
-              "name": "팝콘뉴스",
-              "title": "신세계百, 도쿄 시부야서 K-브랜드 확장...식품·생활용품 첫선",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RRFFpOWt2cVBTRmpaTDY4X0FEVlEwSUpZdXFCa3VkYkJFM242VjQ0N1ZiNmQ5NXlhN1BSNlh1aGhEZEtuUFJNSnk3UThHYkxXb1ZkOTA2aVdIc2trcnFTWWtzX3ZIbkR6Z1NnSlB1anZkd9IBckFVX3lxTE5RRFFpOWt2cVBTRmpaTDY4X0FEVlEwSUpZdXFCa3VkYkJFM242VjQ0N1ZiNmQ5NXlhN1BSNlh1aGhEZEtuUFJNSnk3UThHYkxXb1ZkOTA2aVdIc2trcnFTWWtzX3ZIbkR6Z1NnSlB1anZkdw?oc=5"
-            },
-            {
-              "name": "아시아경제",
-              "title": "신세계百, 도쿄 시부야서 K-브랜드 팝업…식품·패션·뷰티 총출동",
-              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85NTMtd2pIUDVZTHhPRUtuUnEyQjFRYzlJX09GTW4wd2IwdWtBX1VudElVeF94b2V6ZVF0S3JOckstWjF0a2phYUJ2dGpvSUx4V0l1LXBqUnl4YUdEZ0JIeQ?oc=5"
-            },
-            {
-              "name": "라이센스뉴스",
-              "title": "신세계百, 도쿄 시부야서 K브랜드 팝업…식품·패션·뷰티 선보여",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4ySmJWUWZTcjBTWFNUZVlZSUxHTF9EZG9KRGpLanllN3BEbmgwVm5LOC01d2IzS0NScG8wR3lOV0NHRlZadUwwazZRa2hiZ1R5MzRkY0Z3MTBjV1g1a2FHUXdPU0hTWW1rYVZZ?oc=5"
-            },
-            {
-              "name": "디지털데일리",
-              "title": "호두과자·약과도 도쿄 한복판으로…신세계, 시부야서 K-브랜드 알린다",
-              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBbzQ3aUtBMlFfdkgxSG1Xd3ZBMG85dWFOVlFoanFNSzJzV3ZnOUtRU0stZ0xaVklyelRCZTh4cVJCdWlmYTFCTG43bEJTd0lWUUJPZGJRbmppTlhwcEQwd1VB?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -359,8 +349,8 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "정부 AI·융복합 K-뷰티 서비스 전방위 지원",
-          "summary": "정부는 부총리 주재 경제관계장관회의에서 AI·융복합 K-뷰티 서비스 전방위 지원 방안을 발표했다.",
+          "headline": "정부, AI·융복합 K-뷰티 지원 방안 발표",
+          "summary": "정부는 10월 14일 경제관계장관회의에서 AI·융복합 K‑뷰티 서비스 전방위 지원 방안을 발표했다.",
           "source": "장업신문",
           "link": "https://www.jangup.com/news/articleView.html?idxno=100136",
           "original_title": "정부, ‘AI·융복합 K-뷰티 서비스’ 전방위 지원 나선다",
@@ -395,8 +385,43 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "쿠팡 25일까지 하반기 홈인테리어 리빙쇼 진행",
-          "summary": "쿠팡이 25일까지 하반기 홈인테리어 와우 리빙쇼를 개최하며 가을맞이 집 꾸미기 수요를 공략한다.",
+          "headline": "한화손보, 한남동 사옥서 웰니스 축제…30여개 브랜드 참여",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11a3VvNUpJUFFQaXNOQ0NaMUxBZVp1OGM0SXMzLTUtYzJydVZLQjlsaHpSVWJveFJjQWx6MnJQVjVDU2QtSC13VjRZX1UxYVVQaFkzVWZvZzhXQTBXXzNkbNIBeEFVX3lxTFA4N2hfdk1PWDY3TVZmWlRVMWQ3eUJoMmRLRXBfOGl2ZzFfYy00T0NjRVBjOXdDTTQxQlFpZHZsMTFiVmh1Q0ZDaDNZUnpxS1JfaEVEVjRsYk5Cb0tzSHdQZHNMRUF1YlZ1bUpyTXZQS0VLUDc0U0JadA?oc=5",
+          "original_title": "한화손보, 한남동 사옥서 웰니스 축제…30여개 브랜드 참여",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "한화손보, 한남동 사옥서 웰니스 축제…30여개 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11a3VvNUpJUFFQaXNOQ0NaMUxBZVp1OGM0SXMzLTUtYzJydVZLQjlsaHpSVWJveFJjQWx6MnJQVjVDU2QtSC13VjRZX1UxYVVQaFkzVWZvZzhXQTBXXzNkbNIBeEFVX3lxTFA4N2hfdk1PWDY3TVZmWlRVMWQ3eUJoMmRLRXBfOGl2ZzFfYy00T0NjRVBjOXdDTTQxQlFpZHZsMTFiVmh1Q0ZDaDNZUnpxS1JfaEVEVjRsYk5Cb0tzSHdQZHNMRUF1YlZ1bUpyTXZQS0VLUDc0U0JadA?oc=5"
+            },
+            {
+              "name": "신아일보",
+              "title": "한화손보, 한남 사옥서 웰니스 축제…운동·미식·휴식 한자리에",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6ekJDTEhkTHhFaU5ZQ25EbHZVTkRCTlVYQkgzUkd3VTFzSVRUXzFYbDVnNHFhOG5mS1lNSGZabTRaSlpvQmJqc2ZUbFlPS2hpVG9ad0dCb2E0QWRyemZOWTJIUmdaTHRHb2JUWXpRRmM?oc=5"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "한화손보, 서울 한남서 웰니스 페스티벌… 30개 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPREhvUTJ5TGRpbFNkNTg4YWgxQVc2d29lMXBmYXJkVVEyVkNJbG92eWVFRFY3VjNteE1YdWtNSlVRTTROR0lpaS1IVFV2OXMwNjJoWmVxZjJiWGVTTTFjVWFxZmhmVHpkTW9wQV8xdDljbmFtWEJVcHFVQi15T2E0MHd4V20?oc=5"
+            },
+            {
+              "name": "이지경제",
+              "title": "한화손보, 한남동서 5일간 웰니스 축제…30여개 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QY0N2UXFvQms3R3FTX1JSUVNicllIcHc0WHZXbnhfRi1EQ3ZvQlFtcUtPMml6S3NKRlJWVGdFMTVNSEFhSDhQTGRNVV9kZXFOWDdFMHlZZF85dXQ0T3lzTGJld0xYZHdjekE0MG5R?oc=5"
+            },
+            {
+              "name": "헤럴드경제",
+              "title": "한화손보, 한남사옥서 무료 웰니스 축제…‘웰니스 크루즈 한남’ 연다",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RaEhtdDFMaUM4VnNuZkF3RzBHZ1JoMzdkMlN1MEUtNjZnRldGcmE5R053TmpnTnZod1YxXzFQR3dTV2JoLU9ITjBKb056a1pMb1RYd3hR?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "“이불 바꾸고 집 단장”…쿠팡, 25일까지 홈인테리어 할인 행사",
+          "summary": "",
           "source": "키즈맘",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsOUVNUHhxWXhaUjcxdUd6Q2dTdGFjXzBwSklEV09rYU1PNzgzUUpocEhWTjhrbVhyaGktNXBqenBOa09rb1RVeXRHN3laVjBlWVl6QnJidGloMHFXcTdyQjJHNndrTlNm?oc=5",
           "original_title": "“이불 바꾸고 집 단장”…쿠팡, 25일까지 홈인테리어 할인 행사",
@@ -428,41 +453,6 @@
               "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wNExuRllWTmhOLVNZREcwdUg3MF82X2FGbWthSU9vVzFiUVVPQXBMdHY4NE1qdXRVbXNxRkkxNU9zcHZ2YlRrM2g2TXIyQQ?oc=5"
             }
           ]
-        },
-        {
-          "headline": "한화손보 한남동서 5일간 웰니스 축제 열다",
-          "summary": "한화손보가 한남동서 5일간 웰니스 축제 웰니스 크루즈 한남을 열고 30여 개 브랜드가 참여했다.",
-          "source": "글로벌이코노믹",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPREhvUTJ5TGRpbFNkNTg4YWgxQVc2d29lMXBmYXJkVVEyVkNJbG92eWVFRFY3VjNteE1YdWtNSlVRTTROR0lpaS1IVFV2OXMwNjJoWmVxZjJiWGVTTTFjVWFxZmhmVHpkTW9wQV8xdDljbmFtWEJVcHFVQi15T2E0MHd4V20?oc=5",
-          "original_title": "한화손보, 서울 한남서 웰니스 페스티벌… 30개 브랜드 참여",
-          "coverage": 7,
-          "sources": [
-            {
-              "name": "글로벌이코노믹",
-              "title": "한화손보, 서울 한남서 웰니스 페스티벌… 30개 브랜드 참여",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPREhvUTJ5TGRpbFNkNTg4YWgxQVc2d29lMXBmYXJkVVEyVkNJbG92eWVFRFY3VjNteE1YdWtNSlVRTTROR0lpaS1IVFV2OXMwNjJoWmVxZjJiWGVTTTFjVWFxZmhmVHpkTW9wQV8xdDljbmFtWEJVcHFVQi15T2E0MHd4V20?oc=5"
-            },
-            {
-              "name": "이지경제",
-              "title": "한화손보, 한남동서 5일간 웰니스 축제…30여개 브랜드 참여",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QY0N2UXFvQms3R3FTX1JSUVNicllIcHc0WHZXbnhfRi1EQ3ZvQlFtcUtPMml6S3NKRlJWVGdFMTVNSEFhSDhQTGRNVV9kZXFOWDdFMHlZZF85dXQ0T3lzTGJld0xYZHdjekE0MG5R?oc=5"
-            },
-            {
-              "name": "전자신문",
-              "title": "한화손보, 웰니스 페스티벌 '웰니스 크루즈 한남' 개최",
-              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBMcWRCXy1zNlY3ZVFsdUNOZUR5VGswZTJJUnV1U0FoS0V5b0l4RVNHQURhZWxTN1BGWm8wWWFET2RKVFN6T1NaMlRvNzBnZw?oc=5"
-            },
-            {
-              "name": "스페셜타임스",
-              "title": "[축제] 영덕 웰니스페스타",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zV3VhNkdOYXd2WXBmY1A5ZzJqMVRVWDBMcS0wV21fQVl3WExjSTZXcTB3a2R0OUVMc3JmRTI0SUFXRjB2SzlNWkc1MEhUVDZvc2ZrM25wS2Mxd0RENkJFX0tIWWx6UzQ3d1VqQXNsVE1vUQ?oc=5"
-            },
-            {
-              "name": "뉴스1",
-              "title": "한화손보, '웰니스 크루즈 한남' 개최…운동·휴식 등 체험 프로그램 마련",
-              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5STE5lclFvUUtnSWxvdktFOXNSLTBjQS14VGU0Qk1aQXd2ZTNtblhDX0ZFOWgwYWIzUkNoQzZMUjFFRkFlR2dySHNad0RISlgxOVBHcjVCZ01yY3E1Mlc2UA?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -471,37 +461,22 @@
       "name": "문화",
       "items": [
         {
-          "headline": "함안예술제 16일 개막…공연·전시 등 15개 행사 마련",
-          "summary": "",
-          "source": "쿠키뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FMm5RUzhnTnpFenpKUzZTMjBBYXZvaGk4S2QtUXhlZU9wQ2FqX2dLcFRld19NcDlyQThweG1uSTJmWjdQRHdIWk5vTzFSUV9iN01qSFY5LVFVR0RhcEtwZHgzNA?oc=5",
-          "original_title": "함안예술제 16일 개막…공연·전시 등 15개 행사 마련",
-          "coverage": 5,
+          "headline": "암살자(들) 16일째 1위 308만 관객 돌파",
+          "summary": "박스오피스 1위인 ‘암살자(들)’이 308만 관객을 돌파하며 16일째 1위 방어를 이어간다",
+          "source": "BNT뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yS3hEeG1vaEtCN1I3MC1hLVF1aWlTNHVSb2dkT3djZk1mMjFvMjdQS2lvMDNzU0FocC02N1N2bFMxMWxYbUxKRmRmQ3JUR1JxRWNpZnZPOGJBLXd2UGJEcmNQRm4?oc=5",
+          "original_title": "‘암살자(들)’ 308만 돌파…16일째 1위",
+          "coverage": 2,
           "sources": [
             {
-              "name": "쿠키뉴스",
-              "title": "함안예술제 16일 개막…공연·전시 등 15개 행사 마련",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FMm5RUzhnTnpFenpKUzZTMjBBYXZvaGk4S2QtUXhlZU9wQ2FqX2dLcFRld19NcDlyQThweG1uSTJmWjdQRHdIWk5vTzFSUV9iN01qSFY5LVFVR0RhcEtwZHgzNA?oc=5"
+              "name": "BNT뉴스",
+              "title": "‘암살자(들)’ 308만 돌파…16일째 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yS3hEeG1vaEtCN1I3MC1hLVF1aWlTNHVSb2dkT3djZk1mMjFvMjdQS2lvMDNzU0FocC02N1N2bFMxMWxYbUxKRmRmQ3JUR1JxRWNpZnZPOGJBLXd2UGJEcmNQRm4?oc=5"
             },
             {
-              "name": "서울일보",
-              "title": "함안예술제 16일 개막…공연·전시·경연 등 15개 행사",
-              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XaTU1d3RITzhJako5YjBUVmVpNWRkNnpvMUUyYlpwZTNpZVp3d1AxSzNSSHhmSWZMMG5Kb0hWZnVGX2ZudlVXTHRYNkNlTG4yQk1ZcmhXQmJGeXB0bWN0OGo4TEwwQms2OGxxU9IBb0FVX3lxTE5oU3ZoWElxQVZZMVJPZlMzdkgzd1JhLWFEeG56M0txeXUxSk00LVRYcDgzdkc4Ty1xcWRsN3BnYjZCbWlPdHMtQTRjZVJGN1hzb1N4U19SclRqVVM5OGtLalhuN2ZoS1RHcGFOZ1d3bw?oc=5"
-            },
-            {
-              "name": "웹이코노미",
-              "title": "함안군, 제22회 함안예술제 16일 개막",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYV0RZN21YeGN0c1lIWF9LdW1KaUEyNC1FUHU5bWVoaUMtcGVUTmFSOS0zX0hqaXI1ZXN2VFlmc1NaZUNPTFZHTmVvQURxV1R6YTl6bGZybnpNMFJ1SHZBZEp5M1lBVGdrcUlQb3ZCVEhiUQ?oc=5"
-            },
-            {
-              "name": "경남뉴스투데이",
-              "title": "함안군, ‘제22회 함안예술제’ 오는 16일 개막",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QYkw1dWJEM3JqRUFsLUMwR0ZMR29HZUdZSnNOSnBFYUJ3d1BRTlV2Rm1kMDhpWGM0THpnNk1Lbk95VVppYjhqdmtVcWFGVko5dHo0QmlubjdQTkhLRGJ3S1BXMVZ3ZEZwM21rY29SOHdxQQ?oc=5"
-            },
-            {
-              "name": "브레이크뉴스",
-              "title": "함안예술제 16일 개막…공연·전시·경연 15개 행사",
-              "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9fTXA4RGd1d2ZGYXdqTElFMXViRTZ3VWlPVUZMSEd3WUE5SV9SN3E1X1Jhb3JMbXlOT1d5U3ppenhIVVJaMkVj?oc=5"
+              "name": "싱글리스트",
+              "title": "'암살자(들)' 308만 관객 돌파…16일 연속 한국영화 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QcUtJQkRHS19vUU5DZmpHYVRKVmJfNlFWdnB4SUt0emRCRjNPTG16Z1hVVi16WHBCdVRyRmY1OVpXS080UW81NXF2UVhBVUNnaG43cnk1WXBzdDJoR2RXakxpakJ6Zw?oc=5"
             }
           ]
         }
@@ -512,8 +487,8 @@
       "name": "스포츠",
       "items": [
         {
-          "headline": "오타니 6번 타자 선발 라인업 조정",
-          "summary": "다저스 오타니가 타격 부진으로 선발 라인업 제외 가능성이 제기됐고, 팀은 6번 타자로 출전하기로 했다. 로버츠 감독은 오타니의 판단을 이해했다고 전했다.",
+          "headline": "오타니 6번타자 출전 결정",
+          "summary": "다저스가 오타니를 6번타자에 넣어 타순을 조정했으며, 감독이 본인도 동의했다.",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798502",
           "original_title": "'타격 부진' 오타니, 6번 타자로 출전…로버츠 감독 \"본인도 동의\"",
@@ -530,9 +505,14 @@
               "link": "https://www.newsis.com/view/NISX20261015_0003826574"
             },
             {
+              "name": "KBS 뉴스",
+              "title": "‘홈런 실종’ 오타니, 6번 타순으로…로버츠 감독 “본인도 동의”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QRXoyUUp0SFJGUFpMOHVJT2JPQzFBeEFya3lTbVIyQ1BPV2dIVnZHWk1Ec0FKcHZmLWFTdW1lVHpwNEdhQUVZeXF0d0xIelZfRnl3Ml9CM3BnLUU?oc=5"
+            },
+            {
               "name": "연합뉴스",
               "title": "'홈런 실종' 오타니, 6번 타순으로…로버츠 감독 \"본인도 동의\"",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50alNpRGE4X2pNMUtUZmgyaHJNWkF3NnBKa1FiUXpVRlVyVk1JRFhybGJVWVdqSG1WYUdtOTdZZ1FtVEN1ZHlJOUJkNG1yUXo3aEc3YndoUklNcGfSAWBBVV95cUxObWw4S1VRelZqY0U0ekx6R1BhX3lRRXJtcGVsSGZVNXpwXzhVdjhQc2RpNk9mQnFSVDRTVUttN0JXYVQwMkU2WWljeXNab2pNOVQweUVBcVN5eE9XcWRab3o?oc=5"
+              "link": "https://www.yna.co.kr/view/AKR20261015021900007"
             }
           ]
         }
@@ -544,111 +524,115 @@
       {
         "id": "women",
         "label": "여성",
-        "title": "우산과카멜트렌치",
-        "keyword": "우비캐주얼",
+        "title": "코트+파스텔 드레스",
+        "keyword": "레트로 새시",
         "items": [
           {
             "category": "outer",
-            "name": "카멜트렌치코트",
+            "name": "카멜 가죽 코트",
             "color": "카멜",
-            "hex": "#C2B280",
-            "en": "camel trench coat"
+            "hex": "#C19A6B",
+            "en": "camel leather coat"
           },
           {
-            "category": "top",
-            "name": "흰가디건",
-            "color": "흰색",
-            "hex": "#FFFFFF",
-            "en": "white cardigan"
-          },
-          {
-            "category": "bottom",
-            "name": "직선청바지",
-            "color": "청색",
-            "hex": "#4A4F5A",
-            "en": "straight denim jeans"
+            "category": "dress",
+            "name": "베이지 미디 드레스",
+            "color": "베이지",
+            "hex": "#F5F5DC",
+            "en": "beige midi dress"
           },
           {
             "category": "shoes",
-            "name": "검가죽부츠",
-            "color": "검정",
-            "hex": "#000000",
-            "en": "black leather boots"
+            "name": "카키 로퍼",
+            "color": "카키",
+            "hex": "#8B7851",
+            "en": "khaki loafer"
           },
           {
-            "category": "bag",
-            "name": "베이지토트",
-            "color": "베이지",
-            "hex": "#F5F5DC",
-            "en": "beige tote bag"
+            "category": "hat",
+            "name": "콘피블 벨벳 모자",
+            "color": "벨벳",
+            "hex": "#7B1F1F",
+            "en": "velvet beanie"
+          },
+          {
+            "category": "scarf",
+            "name": "퍼프니트 스카프",
+            "color": "라벤더",
+            "hex": "#E6E6FA",
+            "en": "plaid sheer scarf"
           },
           {
             "category": "umbrella",
-            "name": "검실리콘우산",
-            "color": "검정",
-            "hex": "#000000",
-            "en": "black silicone umbrella"
+            "name": "투밴드 잉크우산",
+            "color": "블루",
+            "hex": "#00008B",
+            "en": "blue retractable umbrella"
           }
         ],
-        "tip": "카멜 트렌치를 매치하고 가죽 부츠를 착용하면 비오는 날도 시크하다.",
+        "tip": "캐주얼 색조를 가벼운 소재로 레이어링하며 우산을 완성한다.",
         "photo": "looks/2026-10-15-women.jpg",
-        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A woman in her 30s with a slim build wearing camel trench coat, white cardigan, straight denim jeans, black leather boots, beige tote bag, and holding a black silicone umbrella lowered at the side. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A woman in her 30s with a slim build wearing camel leather coat, beige midi dress, khaki loafer, velvet beanie, plaid sheer scarf, and holding a blue retractable umbrella lowered at the side. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
       },
       {
         "id": "men",
         "label": "남성",
-        "title": "고급재킷과비우산",
-        "keyword": "실용모던",
+        "title": "트렌디 재킷+청바지",
+        "keyword": "스포트 캐주얼",
         "items": [
           {
             "category": "outer",
-            "name": "진중한블루재킷",
-            "color": "네이비",
-            "hex": "#000080",
-            "en": "navy jacket"
+            "name": "그레이 히트 재킷",
+            "color": "그레이",
+            "hex": "#708090",
+            "en": "gray heated jacket"
           },
           {
             "category": "top",
-            "name": "검은크루넥",
-            "color": "검정",
-            "hex": "#000000",
-            "en": "black crewneck sweater"
+            "name": "화이트 셔츠",
+            "color": "화이트",
+            "hex": "#FFFFFF",
+            "en": "white button-down shirt"
           },
           {
             "category": "bottom",
-            "name": "그레이슬랙스",
-            "color": "그레이",
-            "hex": "#808080",
-            "en": "gray slacks"
+            "name": "블랙 슬림진",
+            "color": "블랙",
+            "hex": "#000000",
+            "en": "black slim jeans"
           },
           {
             "category": "shoes",
-            "name": "검가죽부츠",
-            "color": "검정",
-            "hex": "#000000",
-            "en": "black leather boots"
+            "name": "드레디 스니커",
+            "color": "네이비",
+            "hex": "#000080",
+            "en": "navy casual sneakers"
           },
           {
             "category": "bag",
-            "name": "다크베이지백",
-            "color": "베이지",
-            "hex": "#F5F5DC",
-            "en": "dark beige messenger bag"
+            "name": "그레이 캐노스 토프",
+            "color": "그레이",
+            "hex": "#808080",
+            "en": "gray canvas tote"
           },
           {
-            "category": "umbrella",
-            "name": "흰nylon우산",
-            "color": "흰색",
-            "hex": "#FFFFFF",
-            "en": "white nylon umbrella"
+            "category": "hat",
+            "name": "브라운 베레모",
+            "color": "브라운",
+            "hex": "#A52A2A",
+            "en": "brown beanie"
           }
         ],
-        "tip": "블루 재킷에 스웨터를 겹쳐 착용하면 온도를 조절하고 부츠는 방수 처리되어 비우산에 적합하다.",
+        "tip": "따뜻한 재킷과 청바지의 조합은 일교차를 헤워 주며, 비를 대비해 방수 신발을 착용한다.",
         "photo": "looks/2026-10-15-men.jpg",
-        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A man in his 30s with an average build wearing navy jacket, black crewneck sweater, gray slacks, black leather boots, dark beige messenger bag, and holding a white nylon umbrella lowered at the side. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A man in his 30s with an average build wearing gray heated jacket, white button-down shirt, black slim jeans, navy casual sneakers, gray canvas tote, brown beanie. Standing on a quiet Seoul city sidewalk, soft diffused daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
       }
     ],
-    "trend": null,
+    "trend": {
+      "title": "한세실업, 효성티앤씨와 최신 원단 트렌드 교육 전개",
+      "source": "ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uSEVaRGdIOEZ6aHlMSVBXczNCNzdIOEd0WHluMURvdldFLUhJSkxwTmhzalp6ZDNMRFQyQWJCRl9TRnJXcXNTcHQtQVpSUG9KR1J3cW9oT0ZlLTRnd1VSV25wUVZYeEZyWTdOaA?oc=5"
+    },
     "weather": {
       "city": "서울",
       "t_max": 20,
