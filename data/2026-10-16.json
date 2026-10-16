@@ -4,7 +4,7 @@
   "date": "2026-10-16",
   "weekday": "금요일",
   "vol": 4,
-  "generated_at": "2026-10-16T07:58:43+09:00",
+  "generated_at": "2026-10-16T09:10:32+09:00",
   "edit_mode": "partial",
   "indicators": [
     {
@@ -22,23 +22,23 @@
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1341.2,
-      "change": 0.8,
-      "change_pct": 0.06,
+      "value": 1340.3,
+      "change": 0.9,
+      "change_pct": 0.07,
       "direction": "up",
-      "display": "1,341.2원",
-      "change_display": "▲ 0.06%"
+      "display": "1,340.3원",
+      "change_display": "▲ 0.07%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 111253000.0,
-      "change": 915000.0,
-      "change_pct": 0.83,
+      "value": 111090000.0,
+      "change": 207000.0,
+      "change_pct": 0.19,
       "direction": "up",
-      "display": "11,125만원",
-      "change_display": "▲ 0.83%"
+      "display": "11,109만원",
+      "change_display": "▲ 0.19%"
     }
   ],
   "weather": {
@@ -51,64 +51,44 @@
   },
   "cover_stories": [
     {
-      "keyword": "신지",
-      "headline": "신지, 40㎏ 초반 몸매 유지…체크 원피스 소화",
+      "keyword": "양현석",
+      "headline": "양현석, 한밤중 기습 공지에 “이수만에 자극받았나”…누리꾼 ‘황당’",
       "summary": "",
-      "source": "뉴시스",
-      "link": "https://www.newsis.com/view/NISX20261015_0003827825",
+      "source": "스포츠경향",
+      "link": "https://sports.khan.co.kr/article/202610140749003",
       "sources": [
         {
-          "name": "뉴시스",
-          "title": "신지, 40㎏ 초반 몸매 유지…체크 원피스 소화",
-          "link": "https://www.newsis.com/view/NISX20261015_0003827825"
+          "name": "스포츠경향",
+          "title": "양현석, 한밤중 기습 공지에 “이수만에 자극받았나”…누리꾼 ‘황당’",
+          "link": "https://sports.khan.co.kr/article/202610140749003"
         }
       ]
     },
     {
-      "keyword": "서동주",
-      "headline": "서동주 “시험관 곧 4년 차…3년 전에 커피 끊었다면”",
+      "keyword": "부동산",
+      "headline": "'文정부 블랙리스트' 공방…이헌욱 부동산원장 \"국감 후 조사할 것\"",
       "summary": "",
-      "source": "동아일보",
-      "link": "https://www.donga.com/news/Entertainment/article/all/20261015/134851952/1",
+      "source": "머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UYmZva2RXU1NZM3pDUHFxWUN2V0lYTDhZTTVkWUxVNWREdERlamlhSUtmZGtIVmVYR0xVMzZGdXJkYjZjTGhlNnNyWGJDLWl1bEh0MVVLYnNJNHkwLUZWTFdIV3NlN0NEWUZZddIBckFVX3lxTFBUY0gwd0xTVnM3b1dPMkRyelFPX3VSeFkwRWJTckpVUllUTFJFSEtrNEZYdlQwaDVvOF9iMERuZ2NjWjBOWDUtOE5Qdk5yeUdYNzUyMW1ySVZRblVwOVZWa3lnc3pOY1E1Wmw5UkVFZEpyUQ?oc=5",
       "sources": [
         {
-          "name": "동아일보",
-          "title": "서동주 “시험관 곧 4년 차…3년 전에 커피 끊었다면”",
-          "link": "https://www.donga.com/news/Entertainment/article/all/20261015/134851952/1"
-        },
-        {
-          "name": "스타뉴스",
-          "title": "서동주, 시험관 시술 3년 차 심경 \"자책 多..안 하던 짓 7개월째\"[스타이슈]",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45dVZIZWhpWFdOdEgwMFVCSnhRVms2QlFhQlM4aVpKZnU4SFBidkozd2lEMVkxeFVldjItZTF2UjBvSU1wb1NpelByT3I3djlMOXd4V2pYS2x4Yko1OFNIY01uX1hBU0dVTTk4eVVkOVRTZlE?oc=5"
-        },
-        {
-          "name": "스포츠동아",
-          "title": "서동주, 3년째 시험관 시술에 자책…“커피 끊었으면 임신했을까”",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ibzh2Q2stZG92YjhwQ1RvSmtFRFNNNmFSX3IwOGVDeUNnRWl5aHVjZGMtcmNWYzdIQ2xjZ09KdEVxLWFGbzUzMkE3SUNTNkgxRF9XOUcxc2s4OUxkVjZnZkNNRllhODhTWDlEUlp3?oc=5"
+          "name": "머니투데이",
+          "title": "'文정부 블랙리스트' 공방…이헌욱 부동산원장 \"국감 후 조사할 것\"",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UYmZva2RXU1NZM3pDUHFxWUN2V0lYTDhZTTVkWUxVNWREdERlamlhSUtmZGtIVmVYR0xVMzZGdXJkYjZjTGhlNnNyWGJDLWl1bEh0MVVLYnNJNHkwLUZWTFdIV3NlN0NEWUZZddIBckFVX3lxTFBUY0gwd0xTVnM3b1dPMkRyelFPX3VSeFkwRWJTckpVUllUTFJFSEtrNEZYdlQwaDVvOF9iMERuZ2NjWjBOWDUtOE5Qdk5yeUdYNzUyMW1ySVZRblVwOVZWa3lnc3pOY1E1Wmw5UkVFZEpyUQ?oc=5"
         }
       ]
     },
     {
-      "keyword": "다우 존스 산업평균지수",
-      "headline": "뉴욕증시, 국채금리 하락에 3대 지수 반등…다우 1.08% 상승",
+      "keyword": "이영표",
+      "headline": "\"공격수가 수비를 안 해? 우리 때는 가만 안 뒀다\" 이영표, 김민재 '머리 처박고' 작심발언 진단...\"되게 메시지 있는 말\"",
       "summary": "",
-      "source": "조선일보",
-      "link": "https://www.chosun.com/economy/int_economy/2026/10/16/JKSEXEPAKNETZBSWNIE64QIPDQ/",
+      "source": "OSEN",
+      "link": "https://www.osen.co.kr/article/G1112892805",
       "sources": [
         {
-          "name": "조선일보",
-          "title": "뉴욕증시, 국채금리 하락에 3대 지수 반등…다우 1.08% 상승",
-          "link": "https://www.chosun.com/economy/int_economy/2026/10/16/JKSEXEPAKNETZBSWNIE64QIPDQ/"
-        },
-        {
-          "name": "한국경제",
-          "title": "美 국채금리 하락에 3대 지수 반등…다우 1.08% 상승 [뉴욕증시 브리핑]",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ueUtweTV4dWdkbE8wSEx1Y3gyRUFXV3g5cEg0OHZQLXVBTFdkR3FlS1kzOFY0cEdjSk8tWUZYQjFUWXo0UkphVmpKN0dOWXM2RXBONGRIaWxWUQ?oc=5"
-        },
-        {
-          "name": "톱스타뉴스",
-          "title": "미국증시, 다우 556P 급등·나스닥 강보합…국채금리 하락에 반전",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxODdrTDM2MlZLVnNnZTNpWE9QTDdOTDRuVmN2YmFIcmJNaGdrVjJqTXJCN2ZNQzlJY1pwQ3N6cE9MUkx4TWY2cHl1S1JvOXl1T29xZnQ4T0hmejBnZW56NUtJdkF0QkgzYWE2bF9uYzVhUQ?oc=5"
+          "name": "OSEN",
+          "title": "\"공격수가 수비를 안 해? 우리 때는 가만 안 뒀다\" 이영표, 김민재 '머리 처박고' 작심발언 진단...\"되게 메시지 있는 말\"",
+          "link": "https://www.osen.co.kr/article/G1112892805"
         }
       ]
     }
@@ -119,47 +99,42 @@
       "name": "국내",
       "items": [
         {
-          "headline": "\"전작권 전환 조건 변했다\"…\"골대 옮기면 영원히 못 해\"",
+          "headline": "미 전문가들 “우크라 북 포로 송환 공개는 이 대통령 대북·대러 전략 훼손”",
           "summary": "",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800172",
-          "original_title": "\"전작권 전환 조건 변했다\"…\"골대 옮기면 영원히 못 해\"",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610160751001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "미 전문가들 “우크라 북 포로 송환 공개는 이 대통령 대북·대러 전략 훼손”",
           "coverage": 5,
           "sources": [
             {
-              "name": "SBS 뉴스",
-              "title": "\"전작권 전환 조건 변했다\"…\"골대 옮기면 영원히 못 해\"",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800172"
+              "name": "경향신문",
+              "title": "미 전문가들 “우크라 북 포로 송환 공개는 이 대통령 대북·대러 전략 훼손”",
+              "link": "https://www.khan.co.kr/article/202610160751001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
             },
             {
-              "name": "한겨레",
-              "title": "전작권 전환 “새 기준” 밝힌 미국…국방부 “골대 옮기면 영원히 불가”",
-              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TMXdBbTI3bkhxQjFmaE45Y1BDWmx3N2phSmZyTzljckU5d0tuT3BPSHZUWEhoS0NuNnBQYXk0Z05faFNNZkJWbWFhWUtEdXdXRzVoS3gtVzdfNW0weGd1YTVmNFoyQTlT?oc=5"
-            },
-            {
-              "name": "연합뉴스",
-              "title": "美 \"전작권전환에 새로운 기준\"…韓 \"골대옮기면 영원히 불가능\"(종합)",
-              "link": "https://www.yna.co.kr/view/AKR20261015081251504"
+              "name": "MBC 뉴스",
+              "title": "\"우크라, 북한 포로송환 공개해 한국 대북·대러 접근법 훼손\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55WUpERUtib2Jmb2hOVDZuUDhDLVJ1NGtKejJjdk9fLUpCVDQyYWFYZkVSWVkwSkpsTEZtTldXeXItSk9qOF80bXdvaU5CRktXd19xQzZBbl8zRldyc3g3bkpyRXAtbVBvaHlJYXZzZDdUQ2dj0gF0QVVfeXFMTTNFTlA3SmtvcmY1OFpUZ2E2d252d3o4X0tQTUJiX2pSWmUydDU0RU1CcmZSZVdRY3hhNDdMMGhBZEtOWXl2RWNEVF9ERzFsc0dzV2MzRks4VXlqdUw0Tml1Y1dpNHBxUEpzSFlFczJCV0d0TXU?oc=5"
             }
           ]
         },
         {
-          "headline": "軍, 중동 청해부대 작전범위 확대 검토…해상초계기 투입도 고려",
+          "headline": "특검, 경남선관위 압수수색…투표자 수 허위입력 등 수사(종합)",
           "summary": "",
           "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261015182200504",
-          "original_title": "軍, 중동 청해부대 작전범위 확대 검토…해상초계기 투입도 고려",
+          "link": "https://www.yna.co.kr/view/AKR20261015082051052",
+          "original_title": "특검, 경남선관위 압수수색…투표자 수 허위입력 등 수사(종합)",
           "coverage": 5,
           "sources": [
             {
               "name": "연합뉴스",
-              "title": "軍, 중동 청해부대 작전범위 확대 검토…해상초계기 투입도 고려",
-              "link": "https://www.yna.co.kr/view/AKR20261015182200504"
+              "title": "특검, 경남선관위 압수수색…투표자 수 허위입력 등 수사(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261015082051052"
             },
             {
-              "name": "경향신문",
-              "title": "[단독] 정부, 청해부대 작전범위 오만만으로 확대·해상초계기 1대 파견 검토…호르무즈 파병엔 ‘선 긋기’",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1OE1DTUs1Rl9CbGdFYWdHeS1iU3VoN3hqTFliMkVYcTRhVHlqR3QtbTJJLUtjakNESjBoS3BNbUthTk8tSzNUd1ZuaXdORGtMblM3OVpOZ1ZDZ9IBX0FVX3lxTE9MQTJxMldnQVFlWW5pcnhhMDR3dnVHaWRDc1piZUo2VjZ0SGRpaXhrc3RaR2ZpRjZpT1FUZVlMZnhIM3RxTG5oM1dSM0R5TDJFRXBMZjhNZGJoaW9fbE40?oc=5"
+              "name": "연합뉴스TV",
+              "title": "선관위 특검 \"전국 30개 선관위서 투표자 수 허위 입력\"…중앙선관위 등 압수수색",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fVzRqYVVrU3JBRHktaUs4SWlPQWhLN1p5VmZZZExHb3lxR2VFaXBzcUV5MXNMTG4wUzltRE1faEJPb0oyNkREVDlGZnBYM2lTdmxTTVZrdXpCaEFfbTZVZ3pNN0VZb3c?oc=5"
             }
           ]
         }
@@ -170,8 +145,33 @@
       "name": "국제",
       "items": [
         {
-          "headline": "후티, 예멘 대통령궁 미사일 공격",
-          "summary": "후티 반군이 예멘 아덴 대통령궁에 미사일을 투하해 사우디와의 충돌이 계속된다. 대통령과 각료는 무사했다.",
+          "headline": "트럼프 '에너지 휴전' 붕괴…젤렌스키, 러 정유시설 공습 재개",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261016029900009",
+          "original_title": "트럼프 '에너지 휴전' 붕괴…젤렌스키, 러 정유시설 공습 재개",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 '에너지 휴전' 붕괴…젤렌스키, 러 정유시설 공습 재개",
+              "link": "https://www.yna.co.kr/view/AKR20261016029900009"
+            },
+            {
+              "name": "조선일보",
+              "title": "젤렌스키 \"트럼프에 배신감 느껴…러 정유시설 다시 공격\"",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUWZOeHBaUl81VFVaU0hnYklmcnpGTW1ocnN3a3VmMmFCS3Mxd2s1djVoNWkzY0tfQlZxWE9wTVlnd3dOYU9jRFpUdWRwYnJOSWFUcmUxQ2RfWVJjVGdWZzd5aUFyc1lER09SNjNTVnNkTUJ0dEpzRExKOXFyVGx6MVM5dlhNeHUyaVdCUFNxTE5nU01ESkdwMEVPYUxOZw?oc=5"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프에 맞서는 젤렌스키…\"러시아 정유시설 공격 재개\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799644"
+            }
+          ]
+        },
+        {
+          "headline": "후티, 예멘 대통령궁까지 미사일 공격…정상회의도 연기",
+          "summary": "",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008800190",
           "original_title": "후티, 예멘 대통령궁까지 미사일 공격…정상회의도 연기",
@@ -193,26 +193,6 @@
               "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DYW5WOVNwZHdfOE1CVDRZb1NHRzJRbU5Da0pZUFJTM1pIcC0zcWpMVVdhSzQ2aE9RMHNfYjFuNUExZnd2TlVWT3JVTVhQd1Y4SjA3ZVJtcFJ6Ymt1d2JBOHpEeEJqeHM?oc=5"
             }
           ]
-        },
-        {
-          "headline": "러시아, 쿠릴열도 폭격훈련… 일 항의",
-          "summary": "러시아가 쿠릴 열도 이투루프섬에서 폭격 훈련을 통보해 일본이 강력히 항의하며 갈등이 고조된다.",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799202",
-          "original_title": "러 '쿠릴열도서 폭격훈련' 통보에 일 항의…갈등 고조",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "SBS 뉴스",
-              "title": "러 '쿠릴열도서 폭격훈련' 통보에 일 항의…갈등 고조",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799202"
-            },
-            {
-              "name": "서울신문",
-              "title": "러 “쿠릴열도서 폭격 훈련”… 日, 강력 항의",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44ZkNPQ0xQajhwb1JiWVBLZkhjMlJQRi1mTHpoZE1QeHhScVFvd3h4M2MzaWxrUXY1STJ1c0NGNkdNbnZNSjhoYjE0REhRdk5hZWczcmpCenlVLVFhbFZOQlRDd2Q0MW82bVh1eEtGb0ZTYmN1TENJ?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -221,7 +201,7 @@
       "name": "경제·금융",
       "items": [
         {
-          "headline": "한국·일본 100억 달러 스왑 3년 연장",
+          "headline": "한국·일본 100억 달러 스와프 3년 연장",
           "summary": "한국과 일본이 100억 달러 규모 통화스와프를 3년 연장했다.",
           "source": "동아일보",
           "link": "https://www.donga.com/news/Economy/article/all/20261015/134850577/2",
@@ -242,31 +222,26 @@
               "name": "JTBC",
               "title": "한일, 100억 달러 규모 통화스와프 연장 합의…\"금융협력 상징\"",
               "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52WHB0MFlzQ0pfUWNuUEVWdG5ZZWF6MjZWRUZyclM4eF9vZkJTalFVTVlHOW5MdEg2ajN0NWVLamZHVTFXd01ZVGhxbTB4aVdYY09zcg?oc=5"
-            },
-            {
-              "name": "뉴시스",
-              "title": "한일 통화스와프 100억弗 3년 연장…8년 만에 복원 후 첫 연장",
-              "link": "https://www.newsis.com/view/NISX20261015_0003827893"
             }
           ]
         },
         {
-          "headline": "닛케이 지수 4.9% 급락, AI·반도체 영향",
-          "summary": "일본 도쿄증시가 AI·반도체 약세와 유가 상승으로 4.9% 하락했다.",
-          "source": "연합뉴스",
-          "link": "https://www.yna.co.kr/view/AKR20261015063651073",
-          "original_title": "日닛케이지수, 4.9% 급락…AI·반도체 약세 등 여파(종합)",
+          "headline": "코스피·코스닥, 일일 7%대 급락",
+          "summary": "인공지능 투자 논란이 가속화되어 코스피가 7%가 넘는 폭으로 급락했다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/stock/12176772",
+          "original_title": "[속보] 공포의 ‘검은 목요일’…코스피·코스닥 7%대 급락 마감",
           "coverage": 5,
           "sources": [
             {
-              "name": "연합뉴스",
-              "title": "日닛케이지수, 4.9% 급락…AI·반도체 약세 등 여파(종합)",
-              "link": "https://www.yna.co.kr/view/AKR20261015063651073"
+              "name": "매일경제",
+              "title": "[속보] 공포의 ‘검은 목요일’…코스피·코스닥 7%대 급락 마감",
+              "link": "https://www.mk.co.kr/news/stock/12176772"
             },
             {
-              "name": "YTN",
-              "title": "닛케이지수, 4.9% 급락...AI·반도체 약세 등 여파",
-              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81VXY3Vi1fRWVMeHE0a3lMNldFVUZJY3RXSEt5OFFpLXVWcWhhNmtsOWJVMzJ1X2hHYkRFandVMGktRDZ0WmlYeFZEZGQxSTdGRjF3VnhyRW9PdWVFWkE?oc=5"
+              "name": "한겨레",
+              "title": "‘검은 목요일’ 맞은 증시...코스피·코스닥, 7%대 동반 폭락",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NZmJ5SWQ0QnRzOFJDSGNmajZ6ZFhoc3o1eGwwZFlWUzdrdGRMUEprM1ItV09LZzFBZUNJdDhZYTJtTGE4YkVGOGR5bUFoUTdJb3JRa1lyVnRwenNaQ3BOMC1PSFpZd0ZaMy1hVDhJc0w2Zw?oc=5"
             }
           ]
         }
@@ -277,27 +252,37 @@
       "name": "테크",
       "items": [
         {
-          "headline": "카카오, AI 윤리 체계 발표",
-          "summary": "카카오는 AI 에이전트의 위험 관리를 위해 ‘SPIRIT·NORMA’ 윤리 원칙을 발표했다.",
-          "source": "인공지능신문",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1La1dTbml5eW13Z3ZsdlhQQUJGWFlyZGNIRV9ZeVlxSXpKWjdYWlhnT2gtUGgtMEFlQ1lLRE5IelRKLWt6Z2xFY1k2ZTFnRzNLTnJxOUs4Y1RVbC04dUl0V3dfd05sVWM?oc=5",
-          "original_title": "카카오, 자율 AI 에이전트 윤리 체계 구축…‘SPIRIT·NORMA’로 전 주기 위험 관리",
-          "coverage": 3,
+          "headline": "보스 ‘노이즈 캔슬링 유선 이어버드’ 출시",
+          "summary": "",
+          "source": "전파신문",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13T05OQkIxYV9aTDBLdDZIZGxkSG1WNkV2cGtOZlVLYWtVdkk5aXFCbi13UXBJZHhYeGhmQTBYeDBDaGlXUF9aSlp5QjBCTEhQSjlQQmx2T3JCanlvQ2lOTWxoaVNneDN5eXc?oc=5",
+          "original_title": "보스 ‘노이즈 캔슬링 유선 이어버드’ 출시",
+          "coverage": 5,
           "sources": [
             {
-              "name": "인공지능신문",
-              "title": "카카오, 자율 AI 에이전트 윤리 체계 구축…‘SPIRIT·NORMA’로 전 주기 위험 관리",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1La1dTbml5eW13Z3ZsdlhQQUJGWFlyZGNIRV9ZeVlxSXpKWjdYWlhnT2gtUGgtMEFlQ1lLRE5IelRKLWt6Z2xFY1k2ZTFnRzNLTnJxOUs4Y1RVbC04dUl0V3dfd05sVWM?oc=5"
+              "name": "전파신문",
+              "title": "보스 ‘노이즈 캔슬링 유선 이어버드’ 출시",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13T05OQkIxYV9aTDBLdDZIZGxkSG1WNkV2cGtOZlVLYWtVdkk5aXFCbi13UXBJZHhYeGhmQTBYeDBDaGlXUF9aSlp5QjBCTEhQSjlQQmx2T3JCanlvQ2lOTWxoaVNneDN5eXc?oc=5"
             },
             {
-              "name": "서울경제TV",
-              "title": "카카오, 자율 AI 에이전트 윤리 원칙 공개…연내 서비스 적용",
-              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ncnhnc3VHNW8xblB5Ynp0U3JRRzRQUmJ1bG9CWFAtQk45LUtRcC1iR1lwelcwZVdfNFUxdnF5akF1aEdSWVI3Ui1EcjVGRklWODMyeUJtdjF5OG5wa2h1R2Rmcjg?oc=5"
+              "name": "위키트리",
+              "title": "보스, 11년 만에 유선 노이즈 캔슬링 이어버드 출시…USB-C 연결로 충전·페어링 불필요",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Fa0g4a3R1Wk9zTmxxblkyc3FXLVNVYzRud1FtcXBWeXhra3NxbldvMndremY4T0xaTDdfU1U4QjBaTmRTeFh1V3lGYmt1OUdBR0pocjB3?oc=5"
             },
             {
-              "name": "지디넷코리아",
-              "title": "\"AI 에이전트 확산 대응\"…카카오, 윤리 원칙·이행 가이드 공개",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0S1A4SkJ2WlpxNnRrbm1pdC1jWmJpcXFKYldKdFdTTW41S1kyVnhLdEt4eWJhT0lsSkRwbWtITGMteDJqSENFREs4Wk1LU0VuOUh5MHFB?oc=5"
+              "name": "에이빙",
+              "title": "유선 이어폰 다시 꽂는 흐름… 보스, 충전 없는 노캔 '노이즈 캔슬링 유선 이어버드' 출시",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FZWZCOWNvd3BOeU9kM3FjYXVvUy14YURpdVBaYmFCaTFjcEY4SWNtRGpsaUd3aFYwbm1BZ0cxT3ZNbk15LXFBWEp6aWhaT0dXcXNjVUdOeHF4S2dyMTUzRFA1ZWdjblpRV2kw0gFrQVVfeXFMTkVlZkI5Y293cE55T2QzcWNhdW9TLXhhRGl1UFpiYUJpMWNwRjhJY21EamxpR3doVjBubUFnRzFPdk1uTXktcUFYSnppaFpPR1dxc2NVR054cXhLZ3IxNTNEUDVlZ2NuWlFXaTA?oc=5"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "보스, '노이즈 캔슬링 유선 이어버드'→세에라자드, 캠프파이어오디오·우푸스엑스 신상 출시",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10YjJJeU1INENFcExRSU9hUlZlb2ZfSkp6dzBCTjdtczNubHBjd1JLYk1uRGRjeTluRTMtcG5wLXcxR0pNeFdwRHZtNFNBbUc0ZnZRNUxtZnUtaUdramk5QzdFZzhnUQ?oc=5"
+            },
+            {
+              "name": "자유방송",
+              "title": "보스(BOSE), ‘노이즈 캔슬링 유선 이어버드’ 출시",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WSjlNemxnOVZBRUxoUFB0aHdDNVBBUmxiaWpobV9sQW5HNDVXb0lNdnF5WkxRbUJ1SG9oVTQ3b1Mza2pJNjZaR0lLUlBMOHBjOFlleEU2SWtjVkN4blZoQjNBZmR3QQ?oc=5"
             }
           ]
         }
@@ -308,12 +293,47 @@
       "name": "패션",
       "items": [
         {
-          "headline": "칼라앤터치·효성, 기능성 원단 트렌드 공개",
-          "summary": "한세실업 자회사인 칼라앤터치가 효성티엔씨와 협업해 최신 기능성 원단·소재를 개발하고 트렌드를 공유했다.",
+          "headline": "방탄소년단 뷔, 패션위크 52억 미디어 가치 창출…참석 없이도",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5T2E3WFB2RFZCQS11b1lNblpQbUVtU0JrczR5Q2FldUd4NHMtc3BaeU42WVJPdjFta3RabWNNNFJsU0RnREoxQkM3bWYwQ18tRU5KWFZKWEhzZzVfaEdKTNIBeEFVX3lxTFBFWGJHTkF2R1Z1eVRTUDVBYjI2dGs4LV84N0tvYms4OEJMS0pUbUl6eXF6bHZmTjFVNmNiMWZJZTNNWEdIb0QtWUMxeUJoUDFiVW51UFZvdmtUNVdNVjVnYW5TZS1hU1BGQ3NfbTRvZTdvRHI0U3F5TA?oc=5",
+          "original_title": "방탄소년단 뷔, 패션위크 52억 미디어 가치 창출…참석 없이도",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "방탄소년단 뷔, 패션위크 52억 미디어 가치 창출…참석 없이도",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5T2E3WFB2RFZCQS11b1lNblpQbUVtU0JrczR5Q2FldUd4NHMtc3BaeU42WVJPdjFta3RabWNNNFJsU0RnREoxQkM3bWYwQ18tRU5KWFZKWEhzZzVfaEdKTNIBeEFVX3lxTFBFWGJHTkF2R1Z1eVRTUDVBYjI2dGs4LV84N0tvYms4OEJMS0pUbUl6eXF6bHZmTjFVNmNiMWZJZTNNWEdIb0QtWUMxeUJoUDFiVW51UFZvdmtUNVdNVjVnYW5TZS1hU1BGQ3NfbTRvZTdvRHI0U3F5TA?oc=5"
+            },
+            {
+              "name": "스포츠경향",
+              "title": "방탄소년단 뷔, 52억을 움직이는 남자",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLRlMzQ05pdmtPU19hRXJIUHNMQnlOT1d4Z0dEYmhCTGl1STNrVFlRY2E3TXBiRkJEOGpQbC1pX2tXbDZxd2w2UHFiX0NVd1FGc0FNWURxT3JINWI4QVHSAWNBVV95cUxPYWU5WWN2ekhVckdxWXlPeTEyX1BZMFY4RkVEMW8yRVBnU1FQT1RhYXRLanpKck1uOHNNNGdEUTRSaGN5WFdJaDlNSk41RFFmZDlYcHNRWkgwSThWVWxVdjlubVU?oc=5"
+            },
+            {
+              "name": "뷰티트래블뉴스",
+              "title": "방탄소년단 뷔, 파리 패션위크 불참에도 52억 원 미디어 가치…글로벌 영향력 입증",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDQyelF3MkM0V3NwQmp3NjdTQkJfWmNZTDFpbkRCTEx5Q1dsS1NEdnR1X2tDZENUZG5ydmlEWExJbHNMYnJ3M2pKZ1M3UUNEVkRuQ2xJWlJXMFVtREswc3J4TnpHV0JZMnFGc2ZUY3Z3T3hjNmNZQk9hY3Qwb085bDZ4cGN6TVU?oc=5"
+            },
+            {
+              "name": "마이데일리",
+              "title": "방탄소년단 뷔, 패션위크 불참에도 `52억 원` 브랜드 가치 창출",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpSUFsUEZXUnVYR1hnNC0tNkVzVHZ2ejJuWGlKNWNLeEtvcld1NUZ3OUdnVFJxcUh2Zm9JMDFJR1BJdHFpeHJObHY1bmhqX0xQWXNqXzdHRDlqaWxkRDF5ZnJ5cFc2UQ?oc=5"
+            },
+            {
+              "name": "매일경제",
+              "title": "BTS 뷔, 파리 패션위크 불참에도 52억 미디어 가치",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zeC04VGU1c0ZhdHdaVkxXdXoyWVN6TGlwSmNjYU5hQ0VXZEdlaDlFZzVyVDFDSm1aY0JvajZsODRncDBaazJuMndsZDhDSnNualhn?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "칼라앤터치, 효성티앤씨와 기능성 원단·소재 트렌드 공유",
+          "summary": "",
           "source": "한국섬유신문",
           "link": "http://www.ktnews.com/news/articleView.html?idxno=149379",
           "original_title": "칼라앤터치, 효성티앤씨와 기능성 원단·소재 트렌드 공유",
-          "coverage": 7,
+          "coverage": 6,
           "sources": [
             {
               "name": "한국섬유신문",
@@ -344,8 +364,8 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "2026 K-뷰티엑스포 킨텍스 개막",
-          "summary": "10월 15일부터 17일까지 킨텍스에서 국내 최대 뷰티 산업 전시가 진행된다.",
+          "headline": "킨텍스, ‘2026 K-뷰티엑스포 코리아‘ 15일 개막",
+          "summary": "",
           "source": "장업신문",
           "link": "https://www.jangup.com/news/articleView.html?idxno=100159",
           "original_title": "킨텍스, ‘2026 K-뷰티엑스포 코리아‘ 15일 개막",
@@ -375,12 +395,12 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "한화손보, 한남사옥서 5일간 웰니스 축제",
-          "summary": "",
+          "headline": "한화손보 한남 사옥 웰니스 축제 열려",
+          "summary": "한화손보가 한남 사옥에서 5일간 웰니스 축제를 개최했다.",
           "source": "한국금융경제신문",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nX1YzSmptdy1vVmhJLUdWTkhKTENHRmZqcEJCd3pKdUlIVFFJZV9ENEg1UlhMZGZucVFjX3hXOWZvN08zNUdWZFZXRV8tN2tBbnNKUWFUOXV3b2taV2pEY1MycExXTV9QdmljcktyQ2LSAXBBVV95cUxOZ19WM0pqbXctb1ZoSS1HVk5ISkxDR0ZmanBCQnd6SnVJSFRRSWVfRDRINVJYTGRmbnFRY194VzlmbzdPMzVHVmRWV0VfLTdrQW5zSlFhVDl1d29rWldqRGNTMnBMV01fUHZpY3JLckNi?oc=5",
           "original_title": "한화손보, 한남사옥서 5일간 웰니스 축제",
-          "coverage": 12,
+          "coverage": 9,
           "sources": [
             {
               "name": "한국금융경제신문",
@@ -408,41 +428,6 @@
               "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzQ055bVIxczlNUEFpMUl0OEwyUGxraW1fVk9tQjF0MFdDeEdFSmZ3RHZmOFNLcWRTRlBOdEUtWThNaVhFS2x3MUdqamVmLVB6eHh0QUpiQ2JIcF9RWGhHaTkzNDRXU0NBTnc?oc=5"
             }
           ]
-        },
-        {
-          "headline": "아고다, 연말연시 가족여행 트렌드 공개",
-          "summary": "",
-          "source": "트래블데일리",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSEtXYkhtUFpRcmxTS19JWXRNMG9ETXZEWkNWOUhWY1NoMGRReGhydzI5aGYyWlRXRnBYbTdiVWhneHk1bEZDYngwaTktNDNRMGZaUmN3N29ZQV82a2Rva3VPYVZSd0tGaEo0b2xpblk?oc=5",
-          "original_title": "아고다, 연말연시 가족여행 트렌드 공개",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "트래블데일리",
-              "title": "아고다, 연말연시 가족여행 트렌드 공개",
-              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSEtXYkhtUFpRcmxTS19JWXRNMG9ETXZEWkNWOUhWY1NoMGRReGhydzI5aGYyWlRXRnBYbTdiVWhneHk1bEZDYngwaTktNDNRMGZaUmN3N29ZQV82a2Rva3VPYVZSd0tGaEo0b2xpblk?oc=5"
-            },
-            {
-              "name": "로이슈",
-              "title": "아고다, 연말연시 가족여행 검색 트렌드 발표",
-              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9udjgtbG5NZVNoNm5fU2FtZmR5WjBzRVNva0otVnloSWw2ampTSjlpQ2oyVmFBall2RXVZUHJUNkZXbTg4YWdVTXV1MDUwbGhLekVPeUMyZWU4Q2hiNl9tT0tXWDhWdHRueHZQMko2aEVlb2VtLWtmWmZR?oc=5"
-            },
-            {
-              "name": "뷰티트래블뉴스",
-              "title": "아고다, 연말연시 가족여행 인기 여행지 발표…해외는 푸꾸옥·후쿠오카, 국내는 제주도 1위",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHE4NmpGakdIcWdzeDZtM2hUUTBIRFYwaHlYNV9lajIzMVc4WjNCT0ZjMTlJaEtDTmUtTHZkUXE1dGNkU0tiRUxGWEU3c2NsZUZncTdtYk02VHRzWUZxWkJXNzlrLUM3VjhDcTdoLVEtMlZKUWFiWUNJQUptODRuRWt4eVpxQQ?oc=5"
-            },
-            {
-              "name": "위키트리",
-              "title": "아고다 “연말 가족여행, 해외 1위 푸꾸옥·국내 1위 제주”…검색 트렌드 공개",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByT2NlajUyakc0VWdZUFVDbWc2b1FjN1ZTR3RtRFNyTTVYdVZ1djhZaU90aVJ6ajhHeDhRVm96REpzUHBHOHYtLXFMMjhhMldqZFpWNXlR?oc=5"
-            },
-            {
-              "name": "스페셜타임스",
-              "title": "아고다, 연말연시 가족여행지로 푸꾸옥·후쿠오카·제주도 등 공개",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRUDJxVTRKTERva1BoS0ZaYm9OSTlSWC1ZTmJOcjFKTGJuM2NRWWNKN2dwbHpWZjQ0N2tzdGhZOVBiSGlRQ1Eybm5MVi1mLXVxOHJiWWo0QV9PeHJDdGlETzNJM2M2SEdWZGRwaXN4X0YwUQ?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -451,32 +436,32 @@
       "name": "문화",
       "items": [
         {
-          "headline": "CGV, 10주년 영화 7편 재상영작 선정",
-          "summary": "CGV가 개봉 10주년을 기념해 영화 7편을 관객 투표로 재상영작에 선정하고 있다.",
-          "source": "메가경제",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqd9IBckFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqdw?oc=5",
-          "original_title": "CGV, 개봉 10주년 영화 7편 재조명…관객 투표로 재상영작 선정",
+          "headline": "국중박 전시 친일파 글씨 소장품 사실 확인",
+          "summary": "국립중앙박물관 전시 중 철거된 친일파 글씨가 유홍준 관장 소장품임이 국회의원 질의로 드러났다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Culture/article/all/20261016/134851355/2",
+          "original_title": "국중박 전시 나온 친일파 글씨, 유홍준 “옥션서 구입한 내 소장품”",
           "coverage": 4,
           "sources": [
             {
-              "name": "메가경제",
-              "title": "CGV, 개봉 10주년 영화 7편 재조명…관객 투표로 재상영작 선정",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqd9IBckFVX3lxTE5qVnU5U3Z5QmQ2M2ptSm1qTldaTTR3QkF6MVE2QzJGZjdpa0diZ2d2YzJZVWFCWVhJc2JGMGhPUloxNVktT09xbWRfNHlraGl2RDdYNXNvcFNUdHFmOExIUHBuMjQ3aFBVdzQ0cDZqU0hqdw?oc=5"
+              "name": "동아일보",
+              "title": "국중박 전시 나온 친일파 글씨, 유홍준 “옥션서 구입한 내 소장품”",
+              "link": "https://www.donga.com/news/Culture/article/all/20261016/134851355/2"
             },
             {
-              "name": "문화저널21",
-              "title": "CGV, 개봉 10주년 영화 다시 극장으로",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbVRMeTd5YUtiTDh0aHdOVVVIcEMtajMtRFJ1Nm9TVFBOQU5KTVBVR3VGSjctbXF6WThpcTVPRHUyQm5RakI2b2NTR2g5bXowTGFvcEpIQ2diMERSWlFXZVdvbWtSNk0?oc=5"
+              "name": "경향신문",
+              "title": "국중박 전시 나온 친일파 글씨 “유홍준 관장 소장품”",
+              "link": "https://www.khan.co.kr/article/202610152025001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news"
             },
             {
-              "name": "메트로신문",
-              "title": "CGV, 개봉 10주년 영화 7편 재상영 투표…'COD-7' 진행",
-              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JRjZOTXIwOE8tcVFLdnF2RFZpbFB4RUJMUFJvTVBmYVJzdHhxS2J3M0E0WDQ2WjM0TTFKS3JndzFGMUx3b1gwOU51WjZzaGJfWEw4QzF3S2NBbzZJTGVHag?oc=5"
+              "name": "연합뉴스",
+              "title": "국중박 전시서 철거한 '친일파' 글씨…\"유홍준 관장 소장품\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261015010651001"
             },
             {
-              "name": "CJ 뉴스룸",
-              "title": "“아니 벌써 10년 됐다고?”…CGV, 10월 ‘COD-7’ 개봉 10주년 영화 소환 – CJ 뉴스룸",
-              "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNOGo1NTFCcTRMNk5lQmtNM1lBVUJuS0Q0VXA2RUl2TV9hS2ItckltRWJFaGd4MjREUGdDZERzMk0zblBEaTdWWndOdy1YSnhfbGpnNXFsZURwSkpxUmNrdlg2UU9IazcxUURRNm83MzJvVnRSeVBydnRXQ0NjZjlmbnExZm94dllpUXFPd09QWExmanNYVzZvRU5zVzBhelB6V0hrQlFDY2hkbmd5ZGsxRk1renl1ZVdhdmptZ3psYVljSkhKdWhQanY3OWluaXIxaktiTUdRRmhiSHBFUlBOeVN4UEc2OU5aZEpveDY5T1BuNzFEbjQ1ZGJmYldndW9Z?oc=5"
+              "name": "뉴시스",
+              "title": "국중박 전시 논란 친일파 글씨, 알고보니 유홍준 소장품",
+              "link": "https://www.newsis.com/view/NISX20261015_0003826701"
             }
           ]
         }
@@ -487,8 +472,8 @@
       "name": "스포츠",
       "items": [
         {
-          "headline": "최혜진, 상하이 대회 첫 날 8언더파 단독 선두",
-          "summary": "최혜진이 상하이 대회 첫날 8언더파를 기록하며 단독으로 선두에 섰다.",
+          "headline": "최혜진, LPGA 상하이 대회 첫날 8언더파… 3타차 단독 선두",
+          "summary": "",
           "source": "SBS 뉴스",
           "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799881",
           "original_title": "최혜진, LPGA 상하이 대회 첫날 8언더파… 3타차 단독 선두",
