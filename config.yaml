@@ -15,9 +15,12 @@ email:
 
 ai:
   enabled: true
-  # auto         = OPENAI_API_KEY 를 등록했으면 OpenAI(유료), 아니면 Pollinations(무료, 키 필요 없음)
-  # pollinations = 항상 무료 / openai = 항상 유료 OpenAI
+  # auto = 쓸 수 있는 것을 우선순위대로 이어서 사용 (앞의 것이 실패하면 자동으로 다음 것):
+  #        OpenAI(키 등록 시, 유료) → Cloudflare(키 등록 시, 무료) → Pollinations(항상, 무료·느림)
+  # 하나만 쓰려면: cloudflare / pollinations / openai
   provider: auto
+  cloudflare_model: "@cf/openai/gpt-oss-120b"            # Cloudflare 무료 한도 안에서 쓰는 모델
+  cloudflare_model_backup: "@cf/meta/llama-3.3-70b-instruct-fp8-fast"   # 위 모델이 실패할 때 (비우면 사용 안 함)
   pollinations_model: openai          # Pollinations 무료 텍스트 모델
   min_interval_seconds: 20            # 무료 등급은 15초에 1번 → 여유 있게 20초 간격으로 호출
   openai_model: gpt-5-mini            # OpenAI 유료 API를 쓸 때의 모델

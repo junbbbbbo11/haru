@@ -1,8 +1,9 @@
 """AI 호출 모듈.
 
-기본은 Pollinations 텍스트 API (무료, 가입·키 필요 없음). 무료 등급은 15초에 한 번만
-요청할 수 있어서 호출 간격을 자동으로 맞춘다 (하루 12번 호출 → 3~4분).
-OPENAI_API_KEY 를 등록하면 그때부터는 유료 OpenAI API를 쓴다 (provider: auto 일 때).
+provider: auto 일 때 쓸 수 있는 것을 우선순위대로 이어 붙인다 (앞의 것이 실패하면 자동으로 다음 것):
+  1) OPENAI_API_KEY 가 있으면 OpenAI (유료)
+  2) CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN 이 있으면 Cloudflare Workers AI (무료 한도 안에서 0원, 빠르고 안정적)
+  3) 항상 마지막 보루로 Pollinations (무료, 가입·키 필요 없음, 15초에 한 번만 호출 가능해서 느림)
 
 다른 AI(Claude, Gemini 등)로 바꾸고 싶으면 이 파일에 같은 모양의 클래스를 하나 더 만들고
 make_client()에서 config.yaml의 ai.provider 값에 따라 골라 주면 된다.
@@ -19,6 +20,7 @@ log = logging.getLogger("haru.ai")
 
 GITHUB_MODELS_URL = "https://models.github.ai/inference"
 POLLINATIONS_URL = "https://text.pollinations.ai/openai"
+CLOUDFLARE_URL = "https://api.cloudflare.com/client/v4/accounts/{account}/ai/v1"
 
 
 class AIError(Exception):
@@ -97,14 +99,29 @@ class OpenAICompatibleClient:
                 if wait > 0:
                     time.sleep(wait)
                 try:
-                    resp = self.client.chat.completions.create(
-                        model=self.model,
-                        messages=[{"role": "system", "content": self.system_prefix + system},
-                                  {"role": "user", "content": user}],
-                        **extra,
-                    )
+                    try:
+                        resp = self.client.chat.completions.create(
+                            model=self.model,
+                            messages=[{"role": "system", "content": self.system_prefix + system},
+                                      {"role": "user", "content": user}],
+                            **extra,
+                        )
+                    except Exception as e:
+                        # JSON 모드(response_format)를 지원하지 않는 모델이면, 끄고 한 번 더 (프롬프트가 이미 JSON을 요구함)
+                        if "response_format" in extra and getattr(e, "status_code", None) in (400, 422):
+                            log.info("    (%s: JSON 모드 미지원 → 끄고 다시)", self.name)
+                            self.json_mode = False
+                            extra.pop("response_format", None)
+                            resp = self.client.chat.completions.create(
+                                model=self.model,
+                                messages=[{"role": "system", "content": self.system_prefix + system},
+                                          {"role": "user", "content": user}],
+                                **extra,
+                            )
+                        else:
+                            raise
                 except Exception as e:
-                    raise AICallError(f"{self.name} 호출 실패: {e}") from e
+                    raise AICallError(f"{self.name} 호출 실패: {str(e)[:300]}") from e
                 finally:
                     self._last_call = time.monotonic()
                 if getattr(resp, "choices", None) and (resp.choices[0].message.content or "").strip():
@@ -126,6 +143,88 @@ class OpenAICompatibleClient:
 OpenAIClient = OpenAICompatibleClient
 
 
+class ChainClient:
+    """여러 AI를 우선순위대로 이어 붙인다. 호출 자체가 실패하면(키 오류·한도 초과·서버 오류) 다음 AI로 넘어간다.
+    AI가 답은 줬는데 형식이 틀린 경우(AIError)는 그대로 올려 보내서, 편집 쪽의 '이유를 알려주고 다시' 로직이 처리한다."""
+
+    def __init__(self, clients: list):
+        self.clients = clients
+        self._fails = [0] * len(clients)
+        self._dead: set[int] = set()
+        head = clients[0]
+        self.max_workers = head.max_workers
+        self.prompt_candidates = head.prompt_candidates
+        self.snippet_chars = head.snippet_chars
+        self.name = " → ".join(c.name for c in clients)
+
+    @property
+    def deadline(self):
+        return self.clients[0].deadline
+
+    @deadline.setter
+    def deadline(self, value):
+        for c in self.clients:
+            c.deadline = value
+
+    @property
+    def usage(self) -> dict:
+        total = {"calls": 0, "input_tokens": 0, "output_tokens": 0}
+        for c in self.clients:
+            for k in total:
+                total[k] += c.usage.get(k, 0)
+        return total
+
+    def usage_by_provider(self) -> str:
+        return ", ".join(f"{c.name} {c.usage['calls']}회" for c in self.clients if c.usage["calls"])
+
+    def complete_json(self, system: str, user: str) -> dict:
+        last = None
+        for i, c in enumerate(self.clients):
+            if i in self._dead:
+                continue
+            try:
+                out = c.complete_json(system, user)
+                self._fails[i] = 0
+                return out
+            except AITimeBudgetExceeded:
+                raise
+            except AICallError as e:
+                last = e
+                self._fails[i] += 1
+                fatal = any(k in str(e) for k in ("401", "403", "Unauthorized", "authentication", "Invalid", "insufficient", "quota", "4006", "429"))
+                if fatal or self._fails[i] >= 3:
+                    self._dead.add(i)
+                    log.warning("    ✗ %s 사용 중단(%s) → 다음 AI로", c.name, str(e)[:120])
+                else:
+                    log.warning("    ✗ %s 호출 실패 → 이번 요청은 다음 AI로: %s", c.name, str(e)[:120])
+        raise AICallError(f"모든 AI 호출 실패: {last}")
+
+
+def _openai(ai_cfg: dict, key: str, timeout: int):
+    model = ai_cfg.get("openai_model") or "gpt-5-mini"
+    log.info("AI: OpenAI API (%s)", model)
+    return OpenAICompatibleClient("OpenAI", model, key,
+                                  reasoning_effort=ai_cfg.get("reasoning_effort"), timeout=timeout)
+
+
+def _cloudflare(ai_cfg: dict, account: str, token: str, timeout: int, model: str | None = None):
+    model = model or ai_cfg.get("cloudflare_model") or "@cf/openai/gpt-oss-120b"
+    log.info("AI: Cloudflare Workers AI 무료 (%s)", model)
+    return OpenAICompatibleClient("Cloudflare", model, token, base_url=CLOUDFLARE_URL.format(account=account),
+                                  timeout=timeout, max_workers=3, prompt_candidates=25, snippet_chars=200,
+                                  system_prefix="Reasoning: low\n")
+
+
+def _pollinations(ai_cfg: dict, timeout: int):
+    model = ai_cfg.get("pollinations_model") or "openai"
+    log.info("AI: Pollinations 무료 (%s) — 18초 간격으로 차례대로 호출", model)
+    # 무료 모델(gpt-oss)은 추론형이라 'Reasoning: low' 로 생각을 짧게 하고, 질문도 짧게 줄인다
+    return OpenAICompatibleClient("Pollinations", model, "none", base_url=POLLINATIONS_URL,
+                                  timeout=timeout, max_workers=1, prompt_candidates=10, snippet_chars=60,
+                                  json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 18)),
+                                  system_prefix="Reasoning: low\n", empty_backoff=30)
+
+
 def make_client(ai_cfg: dict):
     """설정과 환경변수를 보고 AI 클라이언트를 만든다. 쓸 수 없으면 None."""
     if not ai_cfg.get("enabled", True):
@@ -134,38 +233,34 @@ def make_client(ai_cfg: dict):
 
     provider = ai_cfg.get("provider", "auto")
     openai_key = os.environ.get("OPENAI_API_KEY", "").strip()
-    gh_token = os.environ.get("GITHUB_TOKEN", "").strip()
-    if provider == "auto":
-        provider = "openai" if openai_key else "pollinations"
-
+    cf_account = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "").strip()
+    cf_token = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
     timeout = ai_cfg.get("timeout_seconds", 120)
+
+    if provider == "auto":
+        chain = []
+        if openai_key:
+            chain.append(_openai(ai_cfg, openai_key, timeout))
+        if cf_account and cf_token:
+            chain.append(_cloudflare(ai_cfg, cf_account, cf_token, timeout))
+            second = ai_cfg.get("cloudflare_model_backup")
+            if second:
+                chain.append(_cloudflare(ai_cfg, cf_account, cf_token, timeout, second))
+        chain.append(_pollinations(ai_cfg, timeout))
+        return chain[0] if len(chain) == 1 else ChainClient(chain)
+
     if provider == "openai":
         if not openai_key:
             log.warning("OPENAI_API_KEY 환경변수가 없음 → 원문 헤드라인으로 발행")
             return None
-        model = ai_cfg.get("openai_model") or "gpt-5-mini"
-        log.info("AI: OpenAI API (%s)", model)
-        return OpenAICompatibleClient("OpenAI", model, openai_key,
-                                      reasoning_effort=ai_cfg.get("reasoning_effort"), timeout=timeout)
-
-    if provider == "github":
-        if not gh_token:
-            log.warning("GITHUB_TOKEN 이 없음(내 컴퓨터에서 실행 중?) → 원문 헤드라인으로 발행")
+        return _openai(ai_cfg, openai_key, timeout)
+    if provider == "cloudflare":
+        if not (cf_account and cf_token):
+            log.warning("CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN 이 없음 → 원문 헤드라인으로 발행")
             return None
-        model = ai_cfg.get("github_model") or "openai/gpt-4.1-mini"
-        log.info("AI: GitHub Models 무료 (%s)", model)
-        # 무료 등급: 동시 요청 수와 요청당 입력 토큰(약 8천)이 작아서 후보 수·요약문 길이를 줄인다
-        return OpenAICompatibleClient("GitHub Models", model, gh_token, base_url=GITHUB_MODELS_URL,
-                                      timeout=timeout, max_workers=2, prompt_candidates=15, snippet_chars=90)
-
+        return _cloudflare(ai_cfg, cf_account, cf_token, timeout)
     if provider == "pollinations":
-        model = ai_cfg.get("pollinations_model") or "openai"
-        log.info("AI: Pollinations 무료 (%s) — 15초 간격으로 차례대로 호출", model)
-        # 무료 모델(gpt-oss)은 추론형이라 'Reasoning: low' 로 생각을 짧게 하고, 질문도 짧게 줄인다
-        return OpenAICompatibleClient("Pollinations", model, "none", base_url=POLLINATIONS_URL,
-                                      timeout=timeout, max_workers=1, prompt_candidates=10, snippet_chars=60,
-                                      json_mode=False, min_interval=float(ai_cfg.get("min_interval_seconds", 18)),
-                                      system_prefix="Reasoning: low\n", empty_backoff=30)
+        return _pollinations(ai_cfg, timeout)
 
     log.warning("알 수 없는 AI provider '%s' → 원문 헤드라인으로 발행", provider)
     return None

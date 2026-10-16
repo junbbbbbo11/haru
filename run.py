@@ -87,6 +87,8 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
         u = client.usage
         log.info("AI 사용량: 호출 %d회, 입력 %s토큰, 출력 %s토큰",
                  u["calls"], f"{u['input_tokens']:,}", f"{u['output_tokens']:,}")
+        if hasattr(client, "usage_by_provider"):
+            log.info("AI별 호출: %s", client.usage_by_provider() or "없음")
     edited["quote"] = editor.pick_quote(today)
 
     result = edition.assemble(today, now, cfg.get("site", {}), raw, edited, mode)
