@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-17",
+  "weekday": "토요일",
+  "vol": 5,
+  "generated_at": "2026-10-17T07:42:54+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5554.22,
+      "change": -454.59,
+      "change_pct": -7.57,
+      "direction": "down",
+      "display": "5,554.22",
+      "change_display": "▼ 7.57%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1334.2,
+      "change": -6.8,
+      "change_pct": -0.5,
+      "direction": "down",
+      "display": "1,334.2원",
+      "change_display": "▼ 0.50%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 110416000.0,
+      "change": -467000.0,
+      "change_pct": -0.42,
+      "direction": "down",
+      "display": "11,042만원",
+      "change_display": "▼ 0.42%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 24,
+    "t_min": 13,
+    "rain_pct": 0,
+    "sky": "흐림",
+    "display": "서울 13~24°C · 흐림 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "두산",
+      "headline": "두산, 에너지 자회사 부회장 승진",
+      "summary": "두산 대표 김민철과 에너지 자회사 대표 박상현이 부회장으로 승진해 에너지 자회사는 송용진을 COO로 임명했다.",
+      "source": "비즈니스포스트",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449591",
+      "original_title": "두산 대표 김민철과 두산에너빌리티 대표 박상현 각각 부회장으로 승진",
+      "sources": [
+        {
+          "name": "비즈니스포스트",
+          "title": "두산 대표 김민철과 두산에너빌리티 대표 박상현 각각 부회장으로 승진",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449591"
+        },
+        {
+          "name": "전기신문",
+          "title": "두산에너빌리티, 박상현 부회장 승진·송용진 COO 선임",
+          "link": "https://www.electimes.com/news/articleView.html?idxno=373545"
+        },
+        {
+          "name": "SBS Biz",
+          "title": "두산에너빌리티 '재무통' 박상현 부회장으로…송용진 COO 선임",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HOHp1eDB4eDRYczhjS1V3SmVyb1RoX0tVdXZqNG1zMjBEajJrR0ZEeDJXY3RmT0N6THlCQXNtUXBiY0pfNk9vV2c2RGxfTXRQWGZR0gFYQVVfeXFMUDdtV0o5U1JRbjZBZ0lsQ3FyYXBsNHAyZ2YyNUNjcmJzdGliMmRhcWJQd0lYR25BcFA0eXBaU2Z1TFF4Q0VGcnpBUThUSHlrVnl2X3lUaFhDLQ?oc=5"
+        },
+        {
+          "name": "연합뉴스",
+          "title": "두산 김민철·에너빌 박상현, 부회장 승진…에너빌 COO 송용진",
+          "link": "https://www.yna.co.kr/view/AKR20261016140700003"
+        }
+      ]
+    },
+    {
+      "kicker": "이탈주민",
+      "headline": "노인복지단체, 이탈주민 물품 기부",
+      "summary": "한국노인복지진흥회·엠에스엠글로벌이 북한이탈주민 자립 지원을 위해 1천만원 상당 물품을 기부했다.",
+      "source": "파이낸스투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93N29qUXlCbkJHVWxRMjJHaXBpYWNRUVZMai0xX2pWeUljNGtzVzY3R0VfU09wUVl2Y3l5TFJOTGl1WTNENEdOLUdWWDdWX1RvdVQzdDFGdE04WG5EM3VOb19JU1JWMjFiS2I5QQ?oc=5",
+      "original_title": "한국노인복지진흥회·엠에스엠글로벌, 북한이탈주민 자립 지원 위해 1천만원 상당 물품 기부",
+      "sources": [
+        {
+          "name": "파이낸스투데이",
+          "title": "한국노인복지진흥회·엠에스엠글로벌, 북한이탈주민 자립 지원 위해 1천만원 상당 물품 기부",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93N29qUXlCbkJHVWxRMjJHaXBpYWNRUVZMai0xX2pWeUljNGtzVzY3R0VfU09wUVl2Y3l5TFJOTGl1WTNENEdOLUdWWDdWX1RvdVQzdDFGdE04WG5EM3VOb19JU1JWMjFiS2I5QQ?oc=5"
+        }
+      ]
+    },
+    {
+      "kicker": "나스닥",
+      "headline": "KODEX 나스닥100 ETF 순자산 10조원 돌파",
+      "summary": "투자운용사 KODEX가 보유한 미국 나스닥100 인덱스 연계 ETF의 순자산이 10조원을 넘어섰다.",
+      "source": "Investing.com 한국어",
+      "link": "https://kr.investing.com/news/stock-market-news/article-2129082",
+      "original_title": "[운용 & Now] KODEX 미국나스닥100, 순자산 10조원 돌파 등 By EBN",
+      "sources": [
+        {
+          "name": "Investing.com 한국어",
+          "title": "[운용 & Now] KODEX 미국나스닥100, 순자산 10조원 돌파 등 By EBN",
+          "link": "https://kr.investing.com/news/stock-market-news/article-2129082"
+        },
+        {
+          "name": "MTN 머니투데이방송",
+          "title": "삼성운용 '미국나스닥100' ETF 순자산 10조원 달성",
+          "link": "https://news.mtn.co.kr/article/2026101510434987856"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "교제폭력 신고 2번 했는데···실종 50대 여성, 스토킹 남성 차량서 발견",
+          "summary": "",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610162232001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "교제폭력 신고 2번 했는데···실종 50대 여성, 스토킹 남성 차량서 발견",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "교제폭력 신고 2번 했는데···실종 50대 여성, 스토킹 남성 차량서 발견",
+              "link": "https://www.khan.co.kr/article/202610162232001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+            },
+            {
+              "name": "한겨레",
+              "title": "공주 실종 50대 여성 숨진 채 발견…스토킹 신고 남성 차량서",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLdUpSenNoelNlRDFhR2pHUlhkMVoxa1NmYlhKMUlnS3R1TC1UVmsyYnQyOWwzUlRPNGNrb2JPS1RvbHo5QklGdG5TaGMwWnVXUGljTHliVC1MX29RYUI0SUh4RU9zYXV1?oc=5"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "50대 여성, 스토킹·교제폭력 신고됐던 남성 차량서 숨진채 발견",
+              "link": "https://www.yna.co.kr/view/AKR20261016166800063"
+            }
+          ]
+        },
+        {
+          "headline": "'재정 빨대' 질문에 손사래…이 대통령 \"천금 준들 아깝겠나\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801809",
+          "original_title": "'재정 빨대' 질문에 손사래…이 대통령 \"천금 준들 아깝겠나\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'재정 빨대' 질문에 손사래…이 대통령 \"천금 준들 아깝겠나\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801809"
+            },
+            {
+              "name": "조선일보",
+              "title": "추미애 ‘재정 빨대’ 논란 속...李대통령 “소방관에 천금을 준들 아깝겠나”",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeTM2X0xNS09hZTRxOW9VOFhYNGota2ItV1ZTOVNVcDRFWndsTDZzN3JnZkNTaDlPZXE4SmdOWkRzTnVndWt6ZXloYUowekF3SnVZTUoxMm1vRlN6ZWNXM2QwUW5CbEZqRktCQzhrSFgzaUlXUnpWNWNSR3Z4dUtsRTNRQnVuQVNr?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프 \"우크라 스타실드 제한, 내 지시 아냐\"(종합)",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261017_0003829818",
+          "original_title": "트럼프 \"우크라 스타실드 제한, 내 지시 아냐\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "트럼프 \"우크라 스타실드 제한, 내 지시 아냐\"(종합)",
+              "link": "https://www.newsis.com/view/NISX20261017_0003829818"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프, 우크라 스타실드 장애에 \"내가 지시한 일 아냐\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801802"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프, 우크라 스타실드 장애에 \"내가 한일 아냐…누군지 몰라\"",
+              "link": "https://www.yna.co.kr/view/AKR20261017004700071"
+            }
+          ]
+        },
+        {
+          "headline": "후티 반군, 예멘 3대 도시 타이즈 포위 압박",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801789",
+          "original_title": "후티 반군, 예멘 3대 도시 타이즈 포위 압박",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "후티 반군, 예멘 3대 도시 타이즈 포위 압박",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801789"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "후티 반군, ‘예멘 3대 도시’ 타이즈 포위 압박…주민들 공포",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OWnN0MUQ0VmFIZlc4dWFINkJYanBtbjZFVHI5LTlQRnpFc2tmVzBpRU1rYmx6Nk1FYV9KZDhXRUZkQnlLZno2SlhVZS1RLWplUExTOFpXenprSTQ?oc=5"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "후티 반군, 예멘 3대 도시 타이즈 포위 압박…주민들 공포",
+              "link": "https://www.yna.co.kr/view/AKR20261017003500079"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "한미 재무-통화 첫 2+2 면담… 경제 현안-금융 협력 등 논의",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261016/134857710/2",
+          "original_title": "한미 재무-통화 첫 2+2 면담… 경제 현안-금융 협력 등 논의",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "한미 재무-통화 첫 2+2 면담… 경제 현안-금융 협력 등 논의",
+              "link": "https://www.donga.com/news/Economy/article/all/20261016/134857710/2"
+            },
+            {
+              "name": "매일경제",
+              "title": "[포토] 한미 재무·통화당국 첫 '2+2 회동'",
+              "link": "https://www.mk.co.kr/news/economy/12178211"
+            },
+            {
+              "name": "YTN",
+              "title": "한·미 재무·통화당국 첫 2+2 면담 \"경제·금융 협력 방안 논의\"",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UR3puV0JfTGxmeFQ2SFhGejJQM21ubkdJcG1fQlAtX1lsRUVTNy1DUXItZ3FoRTRENngwZGpxSjFKWXlTSEd0OFhZdWlHbEUxMXlWRG91OFdUbV8xaUE?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261016/134857519/1",
+          "original_title": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
+              "link": "https://www.donga.com/news/Economy/article/all/20261016/134857519/1"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "CJ그룹, 다우키움그룹과 중앙일보 인수전 참여 가능성",
+              "link": "https://www.yna.co.kr/view/AKR20261016170000030"
+            },
+            {
+              "name": "매일경제",
+              "title": "CJ, 다우키움과 손잡고 중앙일보 인수전 참여",
+              "link": "https://www.mk.co.kr/news/stock/12178091"
+            },
+            {
+              "name": "미디어오늘",
+              "title": "결국 CJ도 중앙일보 인수 참여, 다우키움그룹과 컨소시엄 구성 진행",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwR3NRemRnNURHQjdZQ3psRGx5QnBWZEF4WnNISy02QW9nQ1U4aFIyWUVRalo3WGtZNWtSWENOR0pmay1fY1Z0bTBMeU9IM3NGVFFrZXpaX091ck42WnFjb1ExTVZDeUF3M012UmZLa0Y?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "벨킨, 아이폰 듀오용 강화유리와 25W 충전기 공개",
+          "summary": "벨킨이 아이폰 듀오용 '타이탄 스마트실드' 강화유리와 25W 차량 충전기 4종을 출시했다.",
+          "source": "CNET Korea",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTQ245QTZJUVJXYXdIczh6QV80Z2psWkZMRkJBTGVaN1BLTE1rRGtyS2FyeVdZZC10ZVA0bUdqeURyOWhmY3h6elgyUjZodVppck1lT2xDNjUwQQ?oc=5",
+          "original_title": "벨킨, 아이폰 듀오용 강화유리와 25W 차량용 충전기 4종 선봬",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "CNET Korea",
+              "title": "벨킨, 아이폰 듀오용 강화유리와 25W 차량용 충전기 4종 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTQ245QTZJUVJXYXdIczh6QV80Z2psWkZMRkJBTGVaN1BLTE1rRGtyS2FyeVdZZC10ZVA0bUdqeURyOWhmY3h6elgyUjZodVppck1lT2xDNjUwQQ?oc=5"
+            },
+            {
+              "name": "에이빙",
+              "title": "가을 야외·차량 이동 늘자… 벨킨, 아이폰 듀오용 '타이탄 스마트실드'와 25W 차량 충전기 4종 출시",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxQ0c3NldpUlZvRkFZNWJtbTRrb2RZOGszR21wcUJySjhxYmhRUGVBY3ZDbE5XMWtabU9EaTB1SlBpUm9yU21SS1c5amRPREJmY1BZUXR2Z2xXVTBjYjhkMFhRc0IxN1ROVnh30gFrQVVfeXFMUHFDRzc2V2lSVm9GQVk1Ym1tNGtvZFk4azNHbXBxQnJKOHFiaFFQZUFjdkNsTlcxa1ptT0RpMHVKUGlSb3JTbVJLVzlqZE9EQmZjUFlRdHZnbFdVMGNiOGQwWFFzQjE3VE5WeHc?oc=5"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "[신제품] 벨킨 ‘타이탄 스마트실드’ 아이폰 듀오용 강화유리 필름",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2R2FzYl9saENGSHBrMFBYR2hiZ2dPaDhuV0NUWnNlUS1BWlJSZGlaVGpRYVdTV1pFN1QycXhidVZjczRScUpHelhXeHBva3ZRRTJfUG1JMDVmYUY3N1Yxd2FFdXNVRG5LWUpjSlVWVEpEUFU3?oc=5"
+            },
+            {
+              "name": "한국경제",
+              "title": "벨킨, 타이탄 스마트실드’ 아이폰 듀오용 강화유리 필름과 25W 울트라차지 차량용 충전기 4종 출시",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fa1NCdEdzdFZOLTJTMGwxTzk4U2EwZFJEV0s0OHJoemNCNk9jREVzRjFGT3BRNlNuUDRGbTVrUjIxRHp5TnlvNy1vWi1NbmV5RVRPdG5uRV9CUQ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "BTS 뷔, 패션위크 불참에도 52억원 미디어 가치 창출",
+          "summary": "방탄소년단 뷔가 패션위크에 참석하지 않아도 미디어 가치 52억원을 창출해 압도적 영향력을 입증했다.",
+          "source": "조선비즈",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFpOZXA3MGMzTTlFWTJzRXc1emlFVlkzbHlKY01Yc2pOa1hXSzFQZm5Xd2k1U2JMSVNSOTdoN0NxY3BySGZEc2QtN3lSMkJmdWRqSXlHSTRBVlFoMGgzYmlScXJvSVNyN1RyN1dDcW9JSzZBc0JtdWVLNUpBMkpiajVNZEtwNC1aVnk4blZQb3RhcEx6V3JQSGhKNkdCb3VvZHR2Tno4a9IBpwFBVV95cUxOWFpOZXA3MGMzTTlFWTJzRXc1emlFVlkzbHlKY01Yc2pOa1hXSzFQZm5Xd2k1U2JMSVNSOTdoN0NxY3BySGZEc2QtN3lSMkJmdWRqSXlHSTRBVlFoMGgzYmlScXJvSVNyN1RyN1dDcW9JSzZBc0JtdWVLNUpBMkpiajVNZEtwNC1aVnk4blZQb3RhcEx6V3JQSGhKNkdCb3VvZHR2Tno4aw?oc=5",
+          "original_title": "방탄소년단 뷔, 패션위크 불참에도 52억원 미디어 가치 창출 ‘압도적 영향력’",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "조선비즈",
+              "title": "방탄소년단 뷔, 패션위크 불참에도 52억원 미디어 가치 창출 ‘압도적 영향력’",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFpOZXA3MGMzTTlFWTJzRXc1emlFVlkzbHlKY01Yc2pOa1hXSzFQZm5Xd2k1U2JMSVNSOTdoN0NxY3BySGZEc2QtN3lSMkJmdWRqSXlHSTRBVlFoMGgzYmlScXJvSVNyN1RyN1dDcW9JSzZBc0JtdWVLNUpBMkpiajVNZEtwNC1aVnk4blZQb3RhcEx6V3JQSGhKNkdCb3VvZHR2Tno4a9IBpwFBVV95cUxOWFpOZXA3MGMzTTlFWTJzRXc1emlFVlkzbHlKY01Yc2pOa1hXSzFQZm5Xd2k1U2JMSVNSOTdoN0NxY3BySGZEc2QtN3lSMkJmdWRqSXlHSTRBVlFoMGgzYmlScXJvSVNyN1RyN1dDcW9JSzZBc0JtdWVLNUpBMkpiajVNZEtwNC1aVnk4blZQb3RhcEx6V3JQSGhKNkdCb3VvZHR2Tno4aw?oc=5"
+            },
+            {
+              "name": "EPN엔피나우",
+              "title": "방탄소년단 뷔, '패션위크 불참에도 셀린느 미디어 가치 1위'…52억 영향력 입증",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mVUdxVW5NaGxtUEhBZ1ItQmF1Y0Q4OXhpTUZpemtDVDJxdWs4ZmI2VzlzN2hyT0FHaDdqZDVhbnJ4bG94el9Ra0gxeWZRZUZMd0stSWVkcUtNTmNJV1FacXNjQ2xldEJMb1JSedIBbEFVX3lxTE5mVUdxVW5NaGxtUEhBZ1ItQmF1Y0Q4OXhpTUZpemtDVDJxdWs4ZmI2VzlzN2hyT0FHaDdqZDVhbnJ4bG94el9Ra0gxeWZRZUZMd0stSWVkcUtNTmNJV1FacXNjQ2xldEJMb1JSeQ?oc=5"
+            },
+            {
+              "name": "미디어펜",
+              "title": "BTS 뷔, 패션위크 참석 없이도 52억 미디어 가치 창출",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xdVV4bWVBZWViaFhuTTBCRlRWcUJXMk9yMnVVV2l3OFJ4WHdZWG8yTVNJRGlzc3psMU9KcDhPbndhSnhIZFIxOFV4bkhfalpIV25Id9IBWEFVX3lxTFBsbXUxSGtISmlHN0RQbVR2TUM0WnNyLUlTZmNGMEllSUtQb3lXcmZkbDhQbXY3NUZGNnR0bjkwQlY1UUVZNERGbFR4bGdkcVlzcDJUMjJObGM?oc=5"
+            },
+            {
+              "name": "Billboard Korea",
+              "title": "BTS 뷔, 패션위크 참석 없이도 미디어 가치 약 52억원 창출",
+              "link": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxOVU96cW9EcmNQT0NWODlnR1JnVkVnbjdoRzJXQkpyWGtwWEJPNHc4bEdPMUh3eWgyeDlGLWtZU0Ixd2R0SzVKM1R5YnpRdEU5MC02Z2FEZkZYdDMxc25SdUdzQV9rS0pVcE5oeEN2akJyTko2aFpFTWJ0TFRIR1U1akNJSDhGVVdCc1ZqbjNRR2RfcW1EaXdJV0tGSEJYZ1FMUS0yYnRXWHh1SEl3Z2kxeWk1U05xNjhNclFwazB3UUMtc0JBdjRkZHZvaFllVEp0bEpseXJ2bEd1SENLbk13OWllLVV6YmIycG1WSURSdWVhTThrazlGdVY0cVBJTE5WX3FOQTRHUlFPYlZmREdNY0doZ25rQ0ZYcC1KX1hyekFHdDVwczZwNTlmZVFhNWpMd0xucGl0SFFsVDJaNWlDajJRZ0Y1YlpxaFZzTU5wR1F0YmdzRGEyMklOUVBuNDVNUk5OWkxPSzczOGpxeElvWWtYRDRzT0JHU3Nqank3eG5ZNWdHYXVSTGxxT256TVhybDkyZTUzcDYtbkxiVVF1bFdjNks2cG9qRUl6Qm9oaU1obDJXV2UwVDdOb2pMbXdHYlNLeGJYNWM2NnIzV1E4d1ZsX2hqY3pTZGFOU1BHZ3YtcVJueEVtbzNfYTZiQjFjV0l1SWFMWjhyY2VGMGVv?oc=5"
+            },
+            {
+              "name": "세계일보",
+              "title": "BTS 뷔, 패션쇼 안 가고도 미디어 가치 52억…셀린느 전체의 23%",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TZXViNWlxWW1DcUtrTDJSX1h1QmFkWExQLUowc2Mxa2dWc05NWkJJUUVKSG9FUEpPWVRWcndyRjR1M1g2VUdZVWRUNnVORm8xSHJMS2ZGMWfSAVRBVV95cUxOaHBrUmxWZVNOLXNQM2t3OVl1clJDS3lCUDZNbE5BcG1TUXMzbDZURWtLY0xTSWVsOThsc01nYWo1NGtuOFpQOEFoLU5kODQwckJmaHM?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "‘K-뷰티 엑스포 코리아 2026’에서 만난 ‘유니크(unique)’ 7대 화장품 기업의 매력은?",
+          "summary": "",
+          "source": "코스인코리아닷컴",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53cW5rMFRVdXM3RmJuUHhtUXRBNUN4THZzNG1GbXZwcjFkYlRfR3ZOZ2RxSTdQdnNuZjY5U0xQcjZXYkdLOUJBczI1RUE4TGdjQVJ5V2NPaVhoQjh2Tmo0U1YxZw?oc=5",
+          "original_title": "‘K-뷰티 엑스포 코리아 2026’에서 만난 ‘유니크(unique)’ 7대 화장품 기업의 매력은?",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "코스인코리아닷컴",
+              "title": "‘K-뷰티 엑스포 코리아 2026’에서 만난 ‘유니크(unique)’ 7대 화장품 기업의 매력은?",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53cW5rMFRVdXM3RmJuUHhtUXRBNUN4THZzNG1GbXZwcjFkYlRfR3ZOZ2RxSTdQdnNuZjY5U0xQcjZXYkdLOUJBczI1RUE4TGdjQVJ5V2NPaVhoQjh2Tmo0U1YxZw?oc=5"
+            },
+            {
+              "name": "주간신문씨엠엔",
+              "title": "역대 최대 ‘2026 K-뷰티엑스포 코리아’ 성황",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1WmRCeWVZV3BXS2MyRE5BM3lKQVRRRTdjYlViRkhaYkJmb3FKY3FzVDl5UnNrMGt6enJ5TVJFcE1helhEdWI5OXVENWlfcUVXWHZ1LUdDRTBwVUNlWFZVVUtiRmxsaFpvaF9KenBGODRlQV94Ty1N?oc=5"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "에스와이 코스메틱스 ‘L.ASY’, K-뷰티 엑스포 코리아 2026 참가",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DSW5Tcl9SVm9pVS1fTkx1OVRzS0ZlTWZtaTFKM05SVVBLQWtZTi0wWGE4Z1l4NEkyVEs5RGJpRTFXNUlKSG5jUXJMQ1MzbEpIdjJiVVhpOG9oc3RoeGk0cnpRVTc?oc=5"
+            },
+            {
+              "name": "뷰어스",
+              "title": "에스와이 코스메틱스, ‘K-뷰티 엑스포 코리아’ 참가…해외 바이어 상담 진행",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBISWFsdE9KcnI2ZmVNOHFSaEQ5ekl0TEgwOXY4T1NsdE1MQ2RzX2hPSnNVemxpV1Z3WEZranlfLXBSN3d1RDlKbURSOXMyYXRHdVNhRWpqYzU?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "용인산업진흥원, K-뷰티 수출 화장품 인증 대응 나섰다",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZVDRGdG5IUzBfdldEa0tiMncxWUJ4WHhoUDRXbFRLQV9JVjNiMXZpOGwyOFFDN0M4WkdxSkhwQVFkdExfc0ppZzJGSXRiM2NkVTVBUnFUMl9hbVRwbWFfedIBeEFVX3lxTE9KdHVkOU5VOXFDb2ttajk1VFJLQnlEa25EMEprZXY2WURqYWt3Vm95TGpZNWUxMEhseVVBNUtoWTJYcXNxRGJPM01UYTdRQWNpQUJXMGxRcGFJVWxBSFRSTUFwOWFlQ25HNW9memVGOXRjcHlicUNCNQ?oc=5",
+          "original_title": "용인산업진흥원, K-뷰티 수출 화장품 인증 대응 나섰다",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "용인산업진흥원, K-뷰티 수출 화장품 인증 대응 나섰다",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZVDRGdG5IUzBfdldEa0tiMncxWUJ4WHhoUDRXbFRLQV9JVjNiMXZpOGwyOFFDN0M4WkdxSkhwQVFkdExfc0ppZzJGSXRiM2NkVTVBUnFUMl9hbVRwbWFfedIBeEFVX3lxTE9KdHVkOU5VOXFDb2ttajk1VFJLQnlEa25EMEprZXY2WURqYWt3Vm95TGpZNWUxMEhseVVBNUtoWTJYcXNxRGJPM01UYTdRQWNpQUJXMGxRcGFJVWxBSFRSTUFwOWFlQ25HNW9memVGOXRjcHlicUNCNQ?oc=5"
+            },
+            {
+              "name": "경기타임스 e",
+              "title": "“K-뷰티 수출 발목 잡는 인증 장벽 넘는다”… 용인시산업진흥원, 화장품 인증 대응 설명회",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XdVpBRDZ3MVFBcjZFekhoUVhpeU5MQ1ozS3QyNDhuRXVESDE3eGd1bkwxbm1EQWgzRHNBX2ZFZ2t1cWt3Y2c0eV9JT1NnT2R0enRHS0pOWVlqdEtUYzh4V08wV2FLdjY5cFRHbA?oc=5"
+            },
+            {
+              "name": "내외뉴스통신",
+              "title": "용인시산업진흥원, K-뷰티 해외 화장품 인증 대응 설명회 개최",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzYUY4a2R5TC0wREZsQklwMXV3a3BQV1BUcHNQTmsyU1Rid2RDT05zdEdOcjVXZFJnX0YxS3pHVGN5RFhqSDB1dFV6ZUlubHRSdFJHRWJKTXpmdW9NaDFDcDB3bVR2TG9OUTJkTHhB0gFwQVVfeXFMT3lORXB6clVTR2pqLWxpaTU4Zk80cWU5Z0tsTkk3TFdEazRkVk5RUHF6OE9Gci02LS16Y2MzVVZpVDdXSlRlenVIeVJrODducURqRXFhRDlueFdraHYzZ1RPUWQxM2VweFNTMWtCOUxmZg?oc=5"
+            },
+            {
+              "name": "www.skedaily.com",
+              "title": "용인시산업진흥원, K-뷰티 수출기업 해외 인증 대응 역량 강화",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kcUVjUzd4YTdsaVlVUm0zWHFobXc4ZkVBNGRSN19nTmgxSFlFM2JBWWFQWGpndVdyTXBWbmstdkVXR2VtOE8zcFpmc1JfY1pTemVVUmNtbm1jWW1OQUpKdG1iV1kwckNhRXc?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "중년의 과자·냉동식품 섭취가 뇌혈관 손상 위험",
+          "summary": "연합뉴스TV에 따르면, 과자와 냉동식품을 많이 섭취하는 중년층이 무증상 뇌혈관 손상의 위험이 있다는 연구 결과가 제시됐다.",
+          "source": "연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CWE1feDhnZnZZTlROVzd1LUxhcmFyVVBCSGFURzFBcHlZUVF3MlNNTUw4UmI3bHNYRlV6M2R6M1p0MVhHeVh1MW00a0w3WXFHREN0N2s4a0tyaVdwNUpnLU43SVNwM3M?oc=5",
+          "original_title": "\"과자·냉동 식품 많이 먹는 중년, 무증상 뇌혈관 손상 위험\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스TV",
+              "title": "\"과자·냉동 식품 많이 먹는 중년, 무증상 뇌혈관 손상 위험\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CWE1feDhnZnZZTlROVzd1LUxhcmFyVVBCSGFURzFBcHlZUVF3MlNNTUw4UmI3bHNYRlV6M2R6M1p0MVhHeVh1MW00a0w3WXFHREN0N2s4a0tyaVdwNUpnLU43SVNwM3M?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "암살자 313만 관객 돌파 18일 연속 1위",
+          "summary": "암살자(들) 관객 313만을 돌파해 18일 연속 한국영화 1위에 올랐다.",
+          "source": "www.bntnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9icFVESnBXa0p3aVBaaDBWZUJLblJsUko4VWtWUGFqdWhHd2hoeHFKSk5nOHhiY0VtMlpOblJTQWQtWjFCSWJDUWVJQU4tOGlXOWpKU3pxREpQUTdHSElHb1ZmX3g?oc=5",
+          "original_title": "‘암살자(들)’ 313만 돌파…18일 연속 1위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "www.bntnews.co.kr",
+              "title": "‘암살자(들)’ 313만 돌파…18일 연속 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9icFVESnBXa0p3aVBaaDBWZUJLblJsUko4VWtWUGFqdWhHd2hoeHFKSk5nOHhiY0VtMlpOblJTQWQtWjFCSWJDUWVJQU4tOGlXOWpKU3pxREpQUTdHSElHb1ZmX3g?oc=5"
+            },
+            {
+              "name": "한국가요예술방송원",
+              "title": "“310만 관객 돌파”…유해진·박해일·이민호 ‘암살자(들)’, 17일 연속 한국영화 1위",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jVUF4dkxlWWU0UTB1RDd4TktvRENBeUZrQ0YxTDVxM0xFaTZxaUtCdURaRjB5UEZtTGxrWnc0a2lsb1FtUE1rV2RCb09aX1VFckZ1WHJmVDJIcERZYWhFdGhZdw?oc=5"
+            },
+            {
+              "name": "이투데이",
+              "title": "'암살자(들)' 17일 연속 한국영화 1위⋯310만 관객 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaEZFZnd0bDN4ZW1NTVZOQVZmQmU5RGM4bVQyMERqMzQ0QVJEaG0yQkFTaFhYOVNzZExwLWxrVk50R3dLdnBnQV9DQ1NSSEtCUDN6Yw?oc=5"
+            },
+            {
+              "name": "iMBC 연예",
+              "title": "'암살자(들)', 17일 연속 韓영화 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qSXlGNDBsZU9XLWk2RlNLSDhGQUhFc05PM3d1amdndm5qeXptVjVLSkd2SWNBMTZnX2VXVGkzUTR5ZUpJN2pxcWc5dExpT2J1QVc0Zw?oc=5"
+            },
+            {
+              "name": "조선일보",
+              "title": "'암살자(들)', 17일째 한국영화 박스오피스 1위..흔들림 없는 흥행 증명 [공식]",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPekpyV2dQUzJRcDJkM3lTWUgzTkJjZE9EN0VRMHZ1YnVLRVB3TUo5dmgwTWhyTkhjWktBYTJRN0RqMEtsRmJSbDM2d0RRR3dXQjREYkQ2dnhvYTRXRnRUWVF5VzZXaXVMMDJfbUdoVnN0aGd3NjRrMkR3eGVBX0RRWUpNQ1NHc0hOYVE?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "[전국체전] AG 펜싱 2관왕 오상욱, 남자 사브르 개인전 2연패(종합)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261016152651007",
+          "original_title": "[전국체전] AG 펜싱 2관왕 오상욱, 남자 사브르 개인전 2연패(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[전국체전] AG 펜싱 2관왕 오상욱, 남자 사브르 개인전 2연패(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261016152651007"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "[전국체전] 'AG 2관왕' 오상욱, 남자 사브르 개인전 금메달",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1dVNIcV9yaEhaSFpnbksteTBRUXZWUGVPREotbkNINm5wQ2k4Nm9DNXE4SVNRZm01YWxGSzhPbHBWVG9ZMVl6b1RxamkyVXd6N19LdURNclM3SWFS?oc=5"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'아시안게임 2관왕' 오상욱, 전국체전 남자 사브르 개인전 2연패",
+              "link": "https://www.newsis.com/view/NISX20261016_0003829636"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "'AG 2관왕' 오상욱, 사브르 개인전 2연패·통산 7번째 우승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801524"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ootd": {
+    "looks": [
+      {
+        "id": "daily",
+        "label": "데일리",
+        "title": "가디건 한 겹의 온도",
+        "keyword": "소프트 레이어드",
+        "items": [
+          {
+            "category": "outer",
+            "name": "오트밀 니트 가디건",
+            "color": "오트밀",
+            "hex": "#D9CBB3",
+            "en": "oatmeal knit cardigan"
+          },
+          {
+            "category": "top",
+            "name": "화이트 크루넥 티",
+            "color": "화이트",
+            "hex": "#F4F2EC",
+            "en": "white crew-neck t-shirt"
+          },
+          {
+            "category": "bottom",
+            "name": "인디고 스트레이트 데님",
+            "color": "인디고",
+            "hex": "#2F4A6D",
+            "en": "indigo straight-leg jeans"
+          },
+          {
+            "category": "shoes",
+            "name": "그레이 스웨이드 스니커즈",
+            "color": "그레이",
+            "hex": "#9A9690",
+            "en": "grey suede sneakers"
+          }
+        ],
+        "tip": "아침저녁 쌀쌀할 땐 벗기 쉬운 가디건이 정답이다. 단추를 반쯤 풀어 여유 있게.",
+        "photo": "looks/2026-10-17-daily.jpg",
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A man in his 30s with an average build wearing oatmeal knit cardigan, white crew-neck t-shirt, indigo straight-leg jeans, grey suede sneakers. Standing on a quiet Seoul city sidewalk, overcast soft grey daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+      }
+    ],
+    "trend": null,
+    "weather": {
+      "city": "서울",
+      "t_max": 24,
+      "t_min": 13,
+      "rain_pct": 0,
+      "sky": "흐림",
+      "display": "서울 13~24°C · 흐림 · 강수 0%"
+    },
+    "by": "rule",
+    "default": "men"
+  },
+  "quote": {
+    "text": "인간은 생각하는 갈대다.",
+    "author": "파스칼",
+    "work": "팡세"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "오늘은 작은 기회가 나타난다"
+      },
+      {
+        "animal": "소",
+        "text": "배려가 빛나는 순간이 찾아온다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "새로운 아이디어가 심장을 뛰게 할까"
+      },
+      {
+        "animal": "토끼",
+        "text": "카페에서 여유를 찾는 날"
+      },
+      {
+        "animal": "용",
+        "text": "용기 있게 한 걸음을 나서세요"
+      },
+      {
+        "animal": "뱀",
+        "text": "세상은 늘 긴장감보다 화합을 요구해"
+      },
+      {
+        "animal": "말",
+        "text": "마음의 소리가 곧 길을 안내합니다"
+      },
+      {
+        "animal": "양",
+        "text": "꿈을 꾸는 시간을 충분히 가져보세요"
+      },
+      {
+        "animal": "원숭이",
+        "text": "학습이 즐거워질 때, 분명 보람이 있겠지"
+      },
+      {
+        "animal": "닭",
+        "text": "으뜸 솜씨로 하루를 마무리하면 마음에 평화"
+      },
+      {
+        "animal": "개",
+        "text": "함께 있으면 든든한 기운이 이어집니다"
+      },
+      {
+        "animal": "돼지",
+        "text": "소소한 즐거움이 오늘을 빛낸다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
