@@ -19,8 +19,11 @@ ai:
   #        OpenAI(키 등록 시, 유료) → Cloudflare(키 등록 시, 무료) → Pollinations(항상, 무료·느림)
   # 하나만 쓰려면: cloudflare / pollinations / openai
   provider: auto
-  cloudflare_model: "@cf/openai/gpt-oss-120b"            # Cloudflare 무료 한도 안에서 쓰는 모델
-  cloudflare_model_backup: "@cf/meta/llama-3.3-70b-instruct-fp8-fast"   # 위 모델이 실패할 때 (비우면 사용 안 함)
+  # Cloudflare 무료 한도는 하루 10,000 neurons(한국 시간 오전 9시 초기화). 큰 모델(gpt-oss-120b, llama-70b)은
+  # 하루치를 한 번에 써 버려서, 작은 gpt-oss-20b 를 씁니다. 한도가 소진되면 자동으로 Pollinations 로 넘어갑니다.
+  cloudflare_model: "@cf/openai/gpt-oss-20b"
+  cloudflare_model_backup: ""                            # 비워 둠(백업 모델도 같은 한도를 나눠 쓰므로)
+  cloudflare_max_tokens: 1800                            # 답변 길이 상한 (생각이 길어져 한도를 낭비하는 것 방지)
   pollinations_model: openai          # Pollinations 무료 텍스트 모델
   min_interval_seconds: 20            # 무료 등급은 15초에 1번 → 여유 있게 20초 간격으로 호출
   openai_model: gpt-5-mini            # OpenAI 유료 API를 쓸 때의 모델
