@@ -70,7 +70,7 @@ def _cloudflare(prompt: str, cfg: dict, seed: int) -> bytes:
     r = requests.post(
         f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{model}",
         headers={"Authorization": f"Bearer {token}"},
-        json={"prompt": prompt, "steps": int(cfg.get("steps", 8)), "seed": seed},
+        json={"prompt": prompt, "steps": int(cfg.get("steps", 8))},   # 이 모델은 seed 를 받지 않음(400)
         timeout=int(cfg.get("timeout_seconds", 90)),
     )
     if r.status_code in (401, 403):
