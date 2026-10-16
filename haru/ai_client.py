@@ -208,11 +208,12 @@ def _openai(ai_cfg: dict, key: str, timeout: int):
 
 
 def _cloudflare(ai_cfg: dict, account: str, token: str, timeout: int, model: str | None = None):
-    model = model or ai_cfg.get("cloudflare_model") or "@cf/openai/gpt-oss-120b"
+    model = model or ai_cfg.get("cloudflare_model") or "@cf/openai/gpt-oss-20b"
     log.info("AI: Cloudflare Workers AI 무료 (%s)", model)
     return OpenAICompatibleClient("Cloudflare", model, token, base_url=CLOUDFLARE_URL.format(account=account),
-                                  timeout=timeout, max_workers=3, prompt_candidates=25, snippet_chars=200,
-                                  system_prefix="Reasoning: low\n")
+                                  timeout=timeout, max_workers=2, prompt_candidates=20, snippet_chars=150,
+                                  system_prefix="Reasoning: low\n",
+                                  max_tokens=int(ai_cfg.get("cloudflare_max_tokens") or 1800))
 
 
 def _pollinations(ai_cfg: dict, timeout: int):

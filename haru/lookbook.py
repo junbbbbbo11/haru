@@ -75,6 +75,8 @@ def _cloudflare(prompt: str, cfg: dict, seed: int) -> bytes:
     )
     if r.status_code in (401, 403):
         raise NoKey(f"Cloudflare 인증 실패({r.status_code}) — 토큰을 확인하세요")
+    if r.status_code == 429:
+        raise NoKey("Cloudflare 무료 하루 사용량을 다 씀(429) — 오늘은 다음 이미지 AI로")
     if r.status_code != 200:
         raise RuntimeError(f"Cloudflare 응답 {r.status_code}: {r.text[:200]}")
     data = r.json()
