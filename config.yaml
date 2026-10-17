@@ -31,29 +31,8 @@ ai:
   timeout_seconds: 120
   time_budget_minutes: 50             # AI 편집에 쓸 최대 시간. 넘으면 남은 섹션은 원문 헤드라인으로
 
-ootd:
-  enabled: true
-  default: men               # 페이지를 처음 열었을 때 보여줄 쪽 (women / men). 고른 탭은 기기마다 기억됩니다
-  looks:                     # 탭 순서대로. style = 추천받을 스타일, person = 착샷 속 인물(영어)
-    - id: women
-      label: 여성
-      style: 여성 데일리룩
-      person: a woman in her 30s with a slim build
-    - id: men
-      label: 남성
-      style: 남성 데일리룩
-      person: a man in his 30s with an average build
-
-lookbook:                    # OOTD 착샷 (AI가 그린 얼굴 없는 실사 이미지)
-  enabled: true              # 이미지 AI가 모두 실패하면 자동으로 일러스트로 표시됩니다
-  # 위에서부터 차례로 시도 (전부 무료). cloudflare 는 키를 등록했을 때만, hf_space 는 키 없이 동작
-  providers: [cloudflare, hf_space]
-  hf_space: black-forest-labs/FLUX.1-schnell
-  model: "@cf/black-forest-labs/flux-1-schnell"
-  framing: street            # street = 거리 스냅 / studio = 무지 배경 룩북. 어느 쪽이든 목 아래만 나옵니다
-  max_tries: 3               # 얼굴이 남는 등 실패하면 다시 생성하는 횟수 (성별마다)
-  steps: 8                   # 1~8, 높을수록 디테일↑ (무료 한도 안에서 충분)
-  keep_days: 90              # 이 날짜보다 오래된 착샷은 지워서 저장소 용량을 관리 (지난 호는 일러스트로 표시)
+series:                      # 이번 호의 스타일 시리즈 — 패션 매거진 최신 기사에서 한 시리즈(예: 아메카지룩)를 소개
+  enabled: true              # 매거진 목록은 sources.yaml 의 style_series 에 있습니다
 
 cards:                       # 인스타그램 카드뉴스(1080×1350) — 사이트의 /cards/ 페이지에서 저장
   enabled: true

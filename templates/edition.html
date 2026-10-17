@@ -10,62 +10,46 @@
 {% endif %}
 {% endmacro %}
 {# ── 오늘의 OOTD (패션 섹션 바로 뒤에 들어간다) ── #}
-{% macro ootd_block(o, base) %}
-{% set looks = o.looks or [] %}
-{% set default_id = o.default if o.default in looks | map(attribute="id") | list else (looks[0].id if looks else "") %}
-<section class="ootd" id="ootd">
+{# ── 이번 호의 스타일 시리즈 (패션 섹션 바로 뒤) ── #}
+{% macro series_block(sr, base) %}
+<section class="series" id="series">
   <div class="wrap">
     <header class="ootd-head">
       <div class="names">
-        <span class="eyebrow">Outfit of the Day</span>
-        <h2>오늘 뭐 입지</h2>
+        <span class="eyebrow">Style Series</span>
+        <h2>이번 호의 스타일</h2>
       </div>
-      {% if o.weather %}<span class="weather">{{ o.weather.display }}</span>{% endif %}
+      {% if sr.weather %}<span class="weather">{{ sr.weather.display }}</span>{% endif %}
     </header>
-    {% if looks | length > 1 %}
-    <div class="look-tabs" role="tablist" aria-label="착샷 선택">
-      {% for l in looks %}<button type="button" role="tab" data-look="{{ l.id }}" aria-selected="{{ 'true' if l.id == default_id else 'false' }}">{{ l.label }}</button>{% endfor %}
-    </div>
-    {% endif %}
-    {% for l in looks %}
-    <div class="look{% if l.photo %} look--photo{% endif %}" role="tabpanel" data-look="{{ l.id }}"{% if l.id != default_id %} hidden{% endif %}>
-      <div class="ootd-body">
-        {% if l.photo %}
-        <figure class="lookshot">
-          <img src="{{ base }}{{ l.photo }}" alt="{{ l.label }} 착샷 — {% for it in l['items'] %}{{ it.name }}{% if not loop.last %}, {% endif %}{% endfor %}" loading="lazy" width="820" height="1024">
-          <figcaption>AI로 생성한 이미지입니다</figcaption>
-        </figure>
+    <div class="series-body">
+      <div class="series-text">
+        <span class="kicker">매거진 최신호에서</span>
+        <h3>{{ sr.title }}</h3>
+        {% if sr.tagline %}<p class="series-tag">{{ sr.tagline }}</p>{% endif %}
+        {% if sr.description %}<p>{{ sr.description }}</p>{% endif %}
+        {% if sr.tips %}
+        <ol class="series-tips" aria-label="입는 법">
+          {% for t in sr.tips %}<li>{{ t }}</li>{% endfor %}
+        </ol>
         {% endif %}
-        <div class="ootd-text">
-          <span class="kicker">{{ l.keyword }}</span>
-          <h3>{{ l.title }}</h3>
-          <p>{{ l.tip }}</p>
-          {% if l.photo %}
-          <ul class="pieces" aria-label="오늘의 아이템">
-            {% for it in l["items"] %}<li><i style="--sw: {{ it.hex }}"></i>{{ it.name }}</li>{% endfor %}
-          </ul>
-          {% else %}
-          <ul class="palette" aria-label="오늘의 컬러">
-            {% for it in l["items"] | unique(attribute="hex") %}<li style="--sw: {{ it.hex }}" title="{{ it.color }}"><span>{{ it.color }}</span></li>{% endfor %}
-          </ul>
-          {% endif %}
-          {% if o.trend %}
-          <a class="src" href="{{ o.trend.link }}" target="_blank" rel="noopener">참고한 트렌드 · {{ o.trend.source }} <span class="arrow">↗</span></a>
-          {% endif %}
-        </div>
-        {% if not l.photo %}
-        <ul class="flatlay">
-          {% for it in l["items"] %}
-          <li class="piece piece--{{ it.category }}">
-            {{ garment(it.category, it.hex) }}
-            <span class="piece-name">{{ it.name }}</span>
-          </li>
-          {% endfor %}
+        {% if sr.weather_tip %}<p class="series-today"><b>오늘은</b> {{ sr.weather_tip }}</p>{% endif %}
+        {% if sr.articles %}
+        <ul class="series-src" aria-label="원문 기사">
+          {% for a in sr.articles %}<li><a href="{{ a.link }}" target="_blank" rel="noopener"><b>{{ a.source }}</b><span>{{ a.title }}</span><i aria-hidden="true">↗</i></a></li>{% endfor %}
         </ul>
         {% endif %}
       </div>
+      {% if sr["items"] %}
+      <ul class="flatlay">
+        {% for it in sr["items"] %}
+        <li class="piece piece--{{ it.category }}">
+          {{ garment(it.category, it.hex) }}
+          <span class="piece-name">{{ it.name }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
-    {% endfor %}
   </div>
 </section>
 {% endmacro %}
@@ -134,8 +118,8 @@
   <ul>
     {% if e.cover_stories %}<li><a href="#cover">커버</a></li>{% endif %}
     {% set has_fashion = e.sections | selectattr("id", "equalto", "fashion") | list | length > 0 %}
-    {% for s in e.sections %}<li><a href="#{{ s.id }}">{{ s.name }}</a></li>{% if s.id == "fashion" and e.ootd %}<li><a href="#ootd">OOTD</a></li>{% endif %}{% endfor %}
-    {% if e.ootd and not has_fashion %}<li><a href="#ootd">OOTD</a></li>{% endif %}
+    {% for s in e.sections %}<li><a href="#{{ s.id }}">{{ s.name }}</a></li>{% if s.id == "fashion" and e.series %}<li><a href="#series">스타일</a></li>{% endif %}{% endfor %}
+    {% if e.series and not has_fashion %}<li><a href="#series">스타일</a></li>{% endif %}
     {% if e.quote %}<li><a href="#quote">명언</a></li>{% endif %}
     {% if e.fortune %}<li><a href="#fortune">운세</a></li>{% endif %}
   </ul>
@@ -234,9 +218,9 @@
       </div>
     </div>
   </section>
-  {% if s.id == "fashion" and e.ootd %}{{ ootd_block(e.ootd, base) }}{% endif %}
+  {% if s.id == "fashion" and e.series %}{{ series_block(e.series, base) }}{% endif %}
   {% endfor %}
-  {% if e.ootd and not has_fashion %}{{ ootd_block(e.ootd, base) }}{% endif %}
+  {% if e.series and not has_fashion %}{{ series_block(e.series, base) }}{% endif %}
 
   {# ── 오늘의 명언 ── #}
   {% if e.quote %}
@@ -315,24 +299,6 @@
 </footer>
 
 <script>
-(function () {
-  var tabs = document.querySelectorAll(".look-tabs [data-look]");
-  if (!tabs.length) return;
-  function show(id) {
-    var found = false;
-    document.querySelectorAll(".look[data-look]").forEach(function (p) { if (p.dataset.look === id) found = true; });
-    if (!found) return;
-    tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.look === id ? "true" : "false"); });
-    document.querySelectorAll(".look[data-look]").forEach(function (p) { p.hidden = p.dataset.look !== id; });
-  }
-  try { var saved = localStorage.getItem("haru-look"); if (saved) show(saved); } catch (_) {}
-  tabs.forEach(function (t) {
-    t.addEventListener("click", function () {
-      show(t.dataset.look);
-      try { localStorage.setItem("haru-look", t.dataset.look); } catch (_) {}
-    });
-  });
-})();
 // 읽기 진행 막대 + 맨 위로 버튼
 (function () {
   var bar = document.querySelector(".progress i"), top = document.querySelector(".to-top"), ticking = false;

@@ -13,7 +13,7 @@ import os
 import sys
 import time
 
-from haru import cards, collect, edition, editor, indicators, lookbook, ootd, render, weather
+from haru import cards, collect, edition, editor, indicators, render, series, weather
 from haru.ai_client import make_client
 from haru.config import load_config, load_sources, now_kst
 from haru.log import setup_logging
@@ -46,6 +46,7 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
     raw = {"date": today.isoformat(), "collected_at": now.isoformat(timespec="seconds")}
     raw["trends"] = collect.collect_trends(sources, ccfg)
     raw["sections"] = collect.collect_sections(sources, ccfg)
+    raw["magazines"] = series.collect_magazines(sources, ccfg) if cfg.get("series", {}).get("enabled", True) else []
 
     # 2) 지표
     log.info("── 2. 오늘의 지표")
@@ -74,14 +75,11 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
         except Exception:
             log.exception("AI 편집 전체 실패 → 원문 헤드라인으로 발행")
             edited, mode = fallback, "fallback"
-    ocfg = cfg.get("ootd", {})
-    if ocfg.get("enabled", True):
+    if cfg.get("series", {}).get("enabled", True):
         # AI 서버 자체가 안 되는 날(mode=fallback)은 다시 부르지 않는다
-        edited["ootd"] = ootd.make_ootd(client if mode != "fallback" else None, editor._ask, raw, today,
-                                        edition.WEEKDAYS[today.weekday()], ocfg)
-        edited["ootd"]["default"] = ocfg.get("default", "men")
-        # 여성·남성 착샷 (실패한 쪽은 페이지에 일러스트로 표시)
-        lookbook.generate_all(edited["ootd"], today, cfg.get("lookbook", {}), ootd.look_settings(ocfg))
+        edited["series"] = series.make_series(client if mode != "fallback" else None, editor._ask,
+                                              raw.get("magazines", []), raw.get("weather"), today,
+                                              edition.WEEKDAYS[today.weekday()])
     edition.fit_reading_time(edited, ccfg.get("max_total_items", 13))
     if client:
         u = client.usage

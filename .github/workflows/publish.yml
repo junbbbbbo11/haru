@@ -73,7 +73,6 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}               # (선택) Hugging Face 무료 한도 늘리기
         run: python run.py ${{ inputs.no_ai && '--no-ai' || '' }}
 
       - name: 실행 기록(로그) 보관
@@ -101,18 +100,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           TODAY=$(date +%F)
           # 이번에 만든 오늘 호 파일을 따로 보관 → 최신 main 위에 얹어서 저장 (같은 날 재발행해도 충돌 없음)
-          mkdir -p /tmp/keep/looks
+          mkdir -p /tmp/keep
           cp "data/$TODAY.json" /tmp/keep/ 2>/dev/null || true
-          cp data/looks/"$TODAY"-* /tmp/keep/looks/ 2>/dev/null || true
           for i in 1 2 3 4; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            mkdir -p data/looks
             cp "/tmp/keep/$TODAY.json" data/ 2>/dev/null || true
-            rm -f data/looks/"$TODAY"-*
-            cp /tmp/keep/looks/* data/looks/ 2>/dev/null || true
             git add data/*.json
-            git add -A data/looks 2>/dev/null || true
             if git diff --cached --quiet; then echo "바뀐 데이터 없음"; break; fi
             git commit -q -m "📰 $TODAY 하루 한 장 발행"
             if git push -q origin HEAD:main; then echo "저장 완료"; break; fi

@@ -53,24 +53,20 @@
   .c-brief li .h { font-family: var(--serif); font-weight: 700; font-size: 33px; line-height: 1.36; letter-spacing: -.025em;
                    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
-  /* 6. OOTD */
-  .c-ootd { background: var(--paper-2); padding-bottom: 64px; }
-  .c-ootd .head { display: flex; justify-content: space-between; align-items: flex-end; margin: 40px 0 30px; }
-  .c-ootd .head h2 { font-family: var(--serif); font-weight: 900; font-size: 76px; letter-spacing: -.04em; line-height: 1.1; }
-  .c-ootd .weather { font-size: 24px; font-weight: 600; color: var(--ink-2); border: 2px solid var(--rule); background: var(--paper);
-                     border-radius: 999px; padding: 10px 22px; }
-  .c-ootd .grid { display: grid; grid-template-columns: 560px 1fr; gap: 44px; flex: 1; min-height: 0; }
-  .c-ootd .shot { width: 560px; height: 860px; object-fit: cover; display: block; }
-  .c-ootd .flat { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-content: start; width: 560px; }
-  .c-ootd .piece { --ink: #2a2723; background: #f3eee6; border: 1px solid #e2dacd; aspect-ratio: 3/4; display: grid; place-items: center; }
-  .c-ootd .piece svg { width: 78%; }
-  .c-ootd .label { display: inline-block; font-size: 24px; font-weight: 700; letter-spacing: .1em; color: #8a5a2b; margin-bottom: 14px; }
-  .c-ootd h3 { font-family: var(--serif); font-style: italic; font-weight: 700; font-size: 52px; line-height: 1.24; letter-spacing: -.03em; }
-  .c-ootd .tip { font-size: 27px; line-height: 1.6; color: var(--ink-2); margin-top: 20px; }
-  .c-ootd ul { list-style: none; margin-top: 28px; border-top: 1px solid var(--rule); }
-  .c-ootd ul li { display: flex; align-items: center; gap: 16px; font-size: 27px; padding: 14px 0; border-bottom: 1px solid var(--rule); color: var(--ink-2); }
-  .c-ootd ul i { width: 26px; height: 26px; border-radius: 50%; flex: none; box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
-  .c-ootd .ai { font-size: 20px; color: var(--muted); margin-top: 18px; }
+  /* 6. 스타일 시리즈 */
+  .c-series { background: var(--paper-2); }
+  .c-series .label { font-size: 24px; font-weight: 700; letter-spacing: .14em; color: #8a5a2b; margin-top: 44px; }
+  .c-series h2 { font-family: var(--serif); font-style: italic; font-weight: 900; font-size: 128px; line-height: 1.08; letter-spacing: -.05em; margin-top: 10px; }
+  .c-series .tag { font-family: var(--serif); font-size: 34px; font-weight: 600; color: #8a5a2b; margin-top: 12px; }
+  .c-series .desc { font-size: 29px; line-height: 1.6; color: var(--ink-2); margin-top: 26px; }
+  .c-series .flat { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 34px; }
+  .c-series .piece { --ink: #2a2723; background: #f3eee6; border: 1px solid #e2dacd; aspect-ratio: 3/4; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 14px 6px 12px; }
+  .c-series .piece svg { width: 74%; }
+  .c-series .piece span { font-size: 21px; color: #3b3833; text-align: center; line-height: 1.3; font-weight: 500; }
+  .c-series ol { list-style: none; counter-reset: t; margin-top: 30px; border-top: 2px solid var(--ink); }
+  .c-series ol li { counter-increment: t; display: grid; grid-template-columns: 54px 1fr; font-size: 27px; line-height: 1.5; padding: 15px 0; border-bottom: 1px solid var(--rule); color: var(--ink-2); }
+  .c-series ol li::before { content: counter(t, decimal-leading-zero); font-family: var(--serif); font-weight: 900; color: #8a5a2b; }
+  .c-series .from { font-size: 22px; color: var(--muted); margin-top: 22px; letter-spacing: .02em; }
 
   /* 7. 마무리 */
   .c-end .ticks { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 60px; border-bottom: 1px solid var(--rule); padding-bottom: 46px; }
@@ -132,30 +128,21 @@
   <div class="foot"><span>자세한 내용은 오늘 호에서</span><span>{{ page }} / {{ total }}</span></div>
 </section>
 
-{% elif c.kind == "ootd" %}
-{% set l = c.look %}
-<section class="card c-ootd">
-  <div class="top"><b>{{ e.title }}</b><span>Outfit of the Day</span></div>
-  <div class="head">
-    <h2>오늘 뭐 입지</h2>
-    {% if e.ootd.weather %}<span class="weather">{{ e.ootd.weather.display }}</span>{% endif %}
+{% elif c.kind == "series" %}
+{% set sr = c.series %}
+<section class="card c-series">
+  <div class="top"><b>{{ e.title }}</b><span>Style Series</span></div>
+  <div class="label">STYLE SERIES · 매거진 최신호에서</div>
+  <h2>{{ sr.title }}</h2>
+  {% if sr.tagline %}<div class="tag">{{ sr.tagline }}</div>{% endif %}
+  {% if sr.description %}<p class="desc">{{ sr.description }}</p>{% endif %}
+  {% if sr["items"] %}
+  <div class="flat">
+    {% for it in sr["items"][:4] %}<div class="piece">{{ garment(it.category, it.hex) }}<span>{{ it.name }}</span></div>{% endfor %}
   </div>
-  <div class="grid">
-    {% if c.photo %}
-    <img class="shot" src="{{ c.photo }}" alt="">
-    {% else %}
-    <div class="flat">
-      {% for it in l["items"][:4] %}<div class="piece">{{ garment(it.category, it.hex) }}</div>{% endfor %}
-    </div>
-    {% endif %}
-    <div>
-      <span class="label">{{ l.label }} · {{ l.keyword }}</span>
-      <h3>{{ l.title }}</h3>
-      <p class="tip">{{ l.tip }}</p>
-      <ul>{% for it in l["items"] %}<li><i style="background: {{ it.hex }}"></i>{{ it.name }}</li>{% endfor %}</ul>
-      {% if c.photo %}<p class="ai">* AI로 생성한 이미지입니다</p>{% endif %}
-    </div>
-  </div>
+  {% endif %}
+  {% if sr.tips %}<ol>{% for t in sr.tips[:3] %}<li>{{ t }}</li>{% endfor %}</ol>{% endif %}
+  {% if sr.articles %}<div class="from">출처 · {{ sr.articles | map(attribute='source') | unique | join(', ') }}</div>{% endif %}
   <div class="foot"><span>{{ e.date | kdate }}</span><span>{{ page }} / {{ total }}</span></div>
 </section>
 

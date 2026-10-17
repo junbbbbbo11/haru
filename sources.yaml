@@ -17,6 +17,21 @@ trends:
   max_keywords: 10        # 상위 몇 개 검색어를 후보로 볼지
   news_per_keyword: 6     # 검색어마다 관련 기사 몇 개를 붙일지
 
+# 이번 호의 스타일 시리즈 후보: 패션 매거진 최신 기사 (사진은 쓰지 않고, 소개 글은 AI가 새로 쓰며, 원문 링크를 겁니다)
+style_series:
+  max_age_days: 7        # 최근 며칠 안의 기사까지 후보로
+  feeds:
+    - name: VOGUE Korea
+      url: https://www.vogue.co.kr/feed/
+    - name: W Korea
+      url: https://www.wkorea.com/feed/
+    - name: ELLE Korea
+      url: https://www.elle.co.kr/rss
+    - name: Harper's BAZAAR Korea
+      url: https://www.harpersbazaar.co.kr/rss
+    - name: GQ Korea
+      url: https://www.gqkorea.co.kr/feed/
+
 # 섹션은 아래에 적힌 순서대로 수집·편집되고, 페이지에도 이 순서로 나옵니다.
 # (순서를 바꾸려면 섹션 블록을 통째로 위아래로 옮기세요. 시간이 모자란 날은 위쪽 섹션부터 AI 요약을 받습니다.)
 sections:

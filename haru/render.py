@@ -122,15 +122,6 @@ def build_site(site_url: str = "", cards: bool = False) -> Path:
     page = env.get_template("edition.html")
     dates = [e["date"] for e in editions]
 
-    # 착샷 이미지 복사. 파일이 지워진(오래된) 호는 일러스트로 보이게 photo 정보를 뺀다
-    looks = DATA_DIR / "looks"
-    if looks.exists():
-        shutil.copytree(looks, SITE_DIR / "looks")
-    for e in editions:
-        for look in (e.get("ootd") or {}).get("looks", []):
-            if look.get("photo") and not (DATA_DIR / look["photo"]).exists():
-                look.pop("photo")
-
     # 지표 7일 추이(미니 그래프): 그 호까지의 최근 7개 호 값으로 그린다
     for i, e in enumerate(editions):
         e["_spark"] = _sparklines(editions[max(0, i - 6): i + 1])

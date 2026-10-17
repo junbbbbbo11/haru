@@ -120,10 +120,10 @@ def reading_minutes(edition: dict) -> int:
     for s in edition.get("sections", []):
         for it in s["items"]:
             chars += len(it["headline"]) + len(it.get("summary", ""))
-    looks = (edition.get("ootd") or {}).get("looks") or []
-    if looks:  # 독자는 한 쪽만 읽는다
-        o = looks[0]
-        chars += len(o["title"]) + len(o["tip"]) + sum(len(i["name"]) for i in o["items"])
+    sr = edition.get("series") or {}
+    if sr:
+        chars += len(sr.get("title", "")) + len(sr.get("description", "")) + sum(len(t) for t in sr.get("tips", []))
+        chars += sum(len(i["name"]) for i in sr.get("items", []))
     if edition.get("quote"):
         chars += len(edition["quote"]["text"]) + 10
     for z in (edition.get("fortune") or {}).get("items", []):
@@ -144,7 +144,7 @@ def assemble(today, generated_at, site_cfg: dict, raw: dict, edited: dict, mode:
         "weather": raw.get("weather"),
         "cover_stories": edited.get("cover_stories", []),
         "sections": edited.get("sections", []),
-        "ootd": edited.get("ootd"),
+        "series": edited.get("series"),
         "quote": edited.get("quote"),
         "fortune": edited.get("fortune"),
     }

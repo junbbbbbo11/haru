@@ -3,13 +3,13 @@
 매일 아침 7시 전에 자동으로 뉴스를 모으고 AI가 요약해서, 패션 매거진처럼 디자인된 한 페이지를 발행하는 개인 뉴스 사이트입니다.
 
 - **주소 하나로 항상 최신호**: `https://내아이디.github.io/저장소이름/`
-- **오늘의 OOTD**: 그날 날씨와 패션 뉴스를 보고 AI가 **여성·남성 한 벌씩** 추천하고, 그 옷을 입은 **목 아래 실사 착샷**을 AI로 생성 (무료). 페이지에서 여성 | 남성 탭으로 골라 봅니다
+- **이번 호의 스타일**: 패션 매거진(VOGUE·W·ELLE·BAZAAR·GQ Korea) 최신 기사에서 **한 시리즈**(예: 아메카지룩)를 골라, AI가 소개 글·입는 법 3가지·핵심 아이템 일러스트를 새로 쓰고 **원문 기사 링크**를 겁니다. 매거진 사진은 쓰지 않습니다 (저작권). AI 생성 이미지도 쓰지 않습니다
 - **지난 호**: 페이지 맨 아래 "어제 호 / 지난 호 보기"
 - **아침에 훑기 좋게**: 상단 읽기 진행 막대, 섹션 바로가기 탭, 기사마다 "OO 외 N곳 보도"(화제성), 지표 7일 추이 그래프,
   운세는 내 띠를 한 번 누르면 다음부터 그것만 크게, 휴대폰 공유 버튼, 다크모드
 - **홈 화면 앱**: 휴대폰 홈 화면에 추가하면 "한" 아이콘으로 앱처럼 열립니다 (항상 최신호)
 - **인스타그램 카드뉴스**: 매일 1080×1350 카드 7~8장 + 캡션이 자동으로 만들어집니다 → `주소/cards/`
-- **비용: 0원.** 가입·카드 등록·API 키 없이 동작합니다 (AI 요약 = Pollinations 무료, 착샷 = Hugging Face 무료)
+- **비용: 0원.** 가입·카드 등록·API 키 없이 동작합니다 (글을 쓰는 AI = Cloudflare/Pollinations 무료)
 - **출처 확인**: 기사마다 "OO 외 N곳 보도" 아래 **매체별 기사 보기**를 누르면, 같은 사건을 다룬 매체들의 원문 링크가 펼쳐집니다
 - **지금 발행 중인 주소**: https://junbbbbbo11.github.io/haru/
 
@@ -18,7 +18,7 @@
 ## 목차
 1. [처음 설정하기 (딱 한 번, 약 20분)](#1-처음-설정하기)
 2. [이메일로 매일 링크 받기 (선택)](#2-이메일로-매일-링크-받기-선택)
-   · [(선택) 착샷을 더 안정적으로](#1-7-선택-착샷을-더-안정적으로--cloudflare-무료-계정)
+   · [(선택) 글을 더 안정적으로 — Cloudflare 무료 계정](#1-7-선택-글을-더-안정적으로--cloudflare-무료-계정)
 3. [뉴스 소스 추가/삭제하기](#3-뉴스-소스-추가삭제하기)
 4. [발행 시간 바꾸기](#4-발행-시간-바꾸기)
 5. [그 밖의 설정 바꾸기](#5-그-밖의-설정-바꾸기)
@@ -32,15 +32,16 @@
 
 ### 1-1. AI는 무료로 자동 설정됩니다 (할 일 없음)
 
-- **AI 요약·커버 선정·OOTD 추천**: Pollinations 무료 텍스트 API — 가입·키 없이 동작합니다.
-  무료 등급은 15초에 한 번만 부를 수 있어서, 발행에 15~30분쯤 걸립니다 (시간은 중요하지 않게, 품질 우선으로 천천히).
-- **OOTD 착샷**: Hugging Face 공개 Space(FLUX) — 가입·키 없이 동작합니다.
-- 무료 서비스라 가끔 실패할 수 있습니다. 그래도 발행은 멈추지 않고, 실패한 부분만 원문 헤드라인·일러스트로 나옵니다.
-- AI가 원문에 없는 숫자를 쓰면 자동으로 걸러 다시 쓰게 합니다 (무료 모델의 사실 오류 방지).
+- **AI 요약·커버 선정·스타일 시리즈·운세**를 쓰는 AI는 쓸 수 있는 것을 순서대로 이어서 씁니다 (앞의 것이 실패하면 자동으로 다음 것):
+  1. **OpenAI** — 키(`OPENAI_API_KEY`)를 등록했을 때만, 유료
+  2. **Cloudflare Workers AI** — 키 2개를 등록했을 때만, **무료** (빠르고 안정적. 아래 1-7)
+  3. **Pollinations** — 항상 마지막 보루, **무료**, 가입·키 없음. 15초에 한 번만 부를 수 있어서 느립니다 (발행 30분쯤)
+- 무료 서비스라 가끔 실패할 수 있습니다. 그래도 발행은 멈추지 않고, 실패한 부분만 원문 헤드라인으로 나옵니다.
+- AI가 원문에 없는 숫자를 쓰거나, 기사와 상관없는 내용을 쓰거나, 띄어쓰기가 틀리면 자동으로 걸러 다시 쓰게 합니다.
 
 > 💡 **(선택) 더 좋게 만들고 싶다면**
-> - 유료 OpenAI(월 1~2달러, 더 정확·빠름): https://platform.openai.com → API keys 에서 키를 만들어 Secrets에 `OPENAI_API_KEY` 로 등록하면 자동으로 OpenAI를 씁니다.
-> - 착샷을 더 안정적으로(무료): 아래 1-7의 Cloudflare 무료 계정.
+> - 글을 더 빠르고 안정적으로(무료): 아래 1-7의 Cloudflare 무료 계정.
+> - 유료 OpenAI(월 1~2달러, 더 정확·빠름): https://platform.openai.com → API keys 에서 키를 만들어 Secrets에 `OPENAI_API_KEY` 로 등록하면 가장 먼저 OpenAI를 씁니다.
 
 ### 1-2. GitHub 저장소 만들기
 
@@ -109,30 +110,24 @@ https://desktop.github.com 설치 → **File → Add local repository** 로 이 
 
 이제 **매일 아침(한국 시간 05:00~09:00 사이) 자동으로 발행**됩니다.
 
-### 1-7. (선택) 착샷을 더 안정적으로 — Cloudflare 무료 계정
+### 1-7. (선택) 글을 더 안정적으로 — Cloudflare 무료 계정
 
-건너뛰어도 착샷은 Hugging Face 무료 Space로 만들어집니다. 다만 공개 Space는 사람이 몰리면 실패할 때가 있어서, Cloudflare 키를 넣어 두면 Cloudflare를 먼저 쓰고 실패할 때만 Hugging Face로 넘어갑니다.
-(이미지 AI **FLUX.1 schnell** 을 무료 한도 안에서 씁니다. 하루 2장(여성·남성)은 무료 한도의 몇 %도 안 됩니다. 카드 등록 필요 없음)
+건너뛰어도 Pollinations 무료 AI로 발행됩니다. 다만 느리고 가끔 빈 답을 줍니다. Cloudflare 키를 넣어 두면 Cloudflare를 먼저 쓰고, 실패하거나 하루 한도가 다 되면 Pollinations 로 넘어갑니다.
+(무료 한도는 하루 10,000 neurons 이고 **한국 시간 오전 9시에 초기화**됩니다. 하루 한 번 발행은 한도의 30% 안팎만 씁니다. 카드 등록 필요 없음)
 
-1. https://dash.cloudflare.com/sign-up 에서 이메일로 가입하고 메일 인증을 합니다.
-2. 로그인 후 왼쪽 메뉴에서 **AI** → **Workers AI** 를 엽니다.
-3. **Use REST API** 를 누르면 두 가지가 나옵니다.
-   - **Account ID**: 옆의 복사 버튼으로 복사해 메모장에 붙여 둡니다.
-   - **Create a Workers AI API Token** → 권한이 미리 채워진 화면에서 아래로 내려 **Create API Token** → 나온 토큰을 **Copy** (이 창을 닫으면 다시 볼 수 없습니다)
+1. https://dash.cloudflare.com/sign-up 에서 이메일로 가입하고 메일 인증을 합니다. (이 앱 안의 브라우저는 봇 확인에 막힐 수 있으니 평소 쓰는 Chrome/Edge로)
+2. 로그인하면 주소창이 `dash.cloudflare.com/` 뒤에 **32자리 영문+숫자**가 붙은 주소로 바뀝니다. 그 32자리가 **Account ID** 입니다.
+3. 왼쪽 메뉴 **AI → Workers AI → Use REST API → Create a Workers AI API Token** → 아래로 내려 **Create API Token** → 나온 토큰을 **Copy** (이 창을 닫으면 다시 볼 수 없습니다)
 4. GitHub 저장소 **Settings → Secrets and variables → Actions → New repository secret** 으로 두 개를 추가합니다.
 
    | Name | Secret 값 |
    |---|---|
-   | `CLOUDFLARE_ACCOUNT_ID` | 3번의 Account ID |
+   | `CLOUDFLARE_ACCOUNT_ID` | 2번의 Account ID |
    | `CLOUDFLARE_API_TOKEN` | 3번의 토큰 |
 
-5. Actions에서 **Run workflow** 로 수동 실행 → 로그에 `✓ [여성] 착샷 생성`, `✓ [남성] 착샷 생성` 이 나오면 성공입니다.
+5. Actions에서 **Run workflow** 로 수동 실행 → 로그에 `AI별 호출: Cloudflare N회` 가 나오면 성공입니다.
 
-> 📸 착샷은 **목 아래만** 나옵니다. AI에게 목 아래 구도로 주문하고, 그래도 얼굴이 그려지면
-> 얼굴 검출(OpenCV YuNet)로 찾아서 **턱 아래로 자동으로 잘라냅니다.** 잘라낸 사진에 얼굴이 또 보이거나
-> 얼굴이 너무 커서 자를 수 없으면 버리고 다시 생성합니다(최대 3번, 그래도 안 되면 그날은 일러스트).
-> 이미지에는 "AI로 생성한 이미지" 표시가 붙습니다.
-> 옷은 AI가 사실적으로 그린 것이며 특정 브랜드 상품이 아닙니다. 가끔 손이나 소품이 어색하게 나오는 날이 있을 수 있습니다.
+> ⚠️ 하루 한도를 넘기면 그날은 자동으로 Pollinations 로 넘어갑니다. 한도 초기화(오전 9시) 전에 시험 발행을 여러 번 하면 다음 날 아침 발행이 느려질 수 있습니다.
 
 ---
 
@@ -170,7 +165,7 @@ https://desktop.github.com 설치 → **File → Add local repository** 로 이 
 | 01 | 표지 — 제호, 날짜, 커버스토리 3줄 |
 | 02~04 | 커버스토리 한 장씩 (헤드라인 + 요약 + 출처) |
 | 05 | 섹션 브리핑 — 9개 섹션 한 줄씩 |
-| 06~07 | 오늘의 OOTD — 여성 / 남성 착샷 (착샷이 없는 날은 일러스트 1장) |
+| 06 | 이번 호의 스타일 — 시리즈 이름, 소개, 핵심 아이템 일러스트, 입는 법, 출처 |
 | 마지막 | 오늘의 지표 + 명언 + 마무리 |
 
 **올리는 법**: 카드뉴스 페이지에서 카드를 눌러 크게 열고 길게 눌러 **사진에 저장** → 인스타그램 **새 게시물 → 여러 장 선택** 에서 01번부터 순서대로 → 페이지 아래 **캡션 복사** 해서 붙여넣기.
@@ -242,17 +237,10 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
 | `ai.model` | `gpt-5-mini`(기본·가성비) / `gpt-5`(더 잘 씀, 약 5배 비쌈) / `gpt-5-nano`(가장 쌈) |
 | `ai.provider` | `auto`(기본: OpenAI 키가 있으면 OpenAI, 없으면 무료 Pollinations) / `pollinations` / `openai` |
 | `ai.enabled` | `false` 면 AI 없이 원문 헤드라인으로만 발행 |
-| `lookbook.providers` | 착샷 이미지 AI 시도 순서. 기본 `[cloudflare, hf_space]` (cloudflare 는 키가 있을 때만) |
 | `collect.items_per_section` | 섹션마다 최대 몇 개 (1~2) |
 | `collect.max_total_items` | 섹션 기사 전체 상한. 기본 13개 ≈ 3분 분량 |
-| `ootd.enabled` | 오늘의 OOTD 켜기/끄기 |
-| `weather.city` 등 | OOTD에 쓰는 날씨 지역. 다른 도시는 위도·경도도 함께 바꿉니다 (예: 부산 35.18 / 129.08) |
-| `lookbook.enabled` | 착샷 켜기/끄기 (끄면 일러스트) |
-| `lookbook.framing` | `street` = 거리 스냅(기본) / `studio` = 무지 배경 룩북. 어느 쪽이든 목 아래만 |
-| `ootd.default` | 처음 열었을 때 보일 탭 (`women` / `men`). 한 번 누른 탭은 그 기기에서 기억됩니다 |
-| `ootd.looks` 의 `style` | 추천받을 스타일. 예: `여성 오피스룩`, `남성 미니멀 캐주얼` |
-| `ootd.looks` 의 `person` | 착샷 속 인물을 영어로. 예: `a woman in her 30s, 165cm, slim build` / `a man in his 20s, tall, athletic build` |
-| `lookbook.keep_days` | 이 일수보다 오래된 착샷은 지워서 저장소 용량 관리 (기본 90일. 지난 호는 일러스트로 보임) |
+| `series.enabled` | 이번 호의 스타일 시리즈 켜기/끄기. 매거진 목록과 최근 며칠까지 볼지는 `sources.yaml` 의 `style_series` |
+| `weather.city` 등 | 스타일 시리즈의 '오늘은…' 한 줄에 쓰는 날씨 지역. 다른 도시는 위도·경도도 함께 바꿉니다 (예: 부산 35.18 / 129.08) |
 | `email.enabled` | 이메일 발송 켜기/끄기 |
 
 디자인은 `templates/` 폴더(`edition.html` 은 페이지 구조, `style.css` 는 색·글꼴·여백)를 고치면 됩니다.
@@ -274,7 +262,7 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
 | 어떤 섹션이 통째로 없음 | 그 섹션의 소스가 모두 실패했거나 최근 24시간 기사가 없는 날. 로그의 `[섹션이름]` 줄 확인 |
 | 아침에 새 호가 안 올라옴 | Actions 탭에서 그날 실행이 있는지 확인. 없으면 **Run workflow** 로 수동 발행. GitHub가 가끔 예약 실행을 건너뜁니다 (그래서 예비 실행이 있습니다) |
 | Actions가 빨간 ❌ (배포 단계) | 1-5의 Pages Source가 **GitHub Actions** 인지 확인 |
-| OOTD가 사진 대신 일러스트로 나옴 | 로그의 `착샷` 줄 확인. `CLOUDFLARE_... 이 없음` = 1-7의 Secrets 미등록, `응답 401/403` = 토큰이 틀림(다시 발급), `응답 429` = 무료 한도 초과(다음 날 복구) |
+| 스타일 시리즈가 매거진 기사 소개로만 나옴 | 그날 AI가 실패한 것(검증에 걸림 등). 지어내지 않고 매거진 최신 패션 기사 한 건을 그대로 소개합니다 |
 | 이메일이 안 옴 | 로그의 `이메일` 줄 확인. `Username and Password not accepted` = 앱 비밀번호 다시 발급 |
 
 > GitHub는 저장소에 60일 동안 아무 변화가 없으면 예약 실행을 멈추는데,
@@ -296,7 +284,7 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
    ```bash
    python run.py --no-ai
    ```
-   AI와 착샷까지 써 보려면 키를 **그 터미널 창에서만** 임시로 넣고 실행합니다 (파일에 저장하지 않음):
+   AI까지 써 보려면 키를 **그 터미널 창에서만** 임시로 넣고 실행합니다 (파일에 저장하지 않음):
    ```bash
    $env:OPENAI_API_KEY="sk-여기에키"; $env:CLOUDFLARE_ACCOUNT_ID="계정ID"; $env:CLOUDFLARE_API_TOKEN="토큰"; python run.py --no-email
    ```
@@ -338,12 +326,10 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
   │       → 위반이면 이유를 알려주고 한 번 더 → 그래도 안 되면 그 섹션만 원문 헤드라인
   │     · AI 서버 자체가 안 되면(키 오류·잔액 부족) 즉시 전체를 원문 헤드라인으로
   │     · 띠별 운세도 AI가, 명언은 quotes.yaml 에서 (출처를 지어내지 않도록)
-  │     · 오늘의 OOTD (haru/ootd.py): 날씨 + 오늘의 패션 기사를 보고 여성·남성 한 벌씩 추천
-  │       → 페이지에선 사진 대신 직접 그린 옷 실루엣에 추천 색을 입혀 '플랫레이'로
-  │       → AI가 안 되는 날은 기온대별 기본 코디 8벌 중 하나 (비 오면 우산 추가)
-  │     · 착샷 (haru/lookbook.py): 추천 코디를 영어 프롬프트로 바꿔 FLUX로 생성 (Cloudflare → Hugging Face 순서)
-  │       → 얼굴 검출로 턱 아래만 남기고 4:5로 잘라 data/looks/날짜-women.jpg, -men.jpg 로 저장
-  │       → 실패한 쪽은 일러스트로 대체
+  │     · 이번 호의 스타일 (haru/series.py): 패션 매거진 5곳의 최신 기사에서 한 시리즈를 골라 소개
+  │       → 기사에 근거 없는 유행·이상한 아이템 이름·최근 소개한 시리즈는 검증에서 걸러냄
+  │       → 핵심 아이템은 직접 그린 일러스트(templates/icons.html), 원문 기사 링크를 함께
+  │       → AI가 안 되는 날은 매거진 최신 패션 기사 한 건을 그대로 소개
   │
   ├─ 4. data/YYYY-MM-DD.json 저장  ← 모든 결과물의 원본 데이터
   │
@@ -370,7 +356,7 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
 ├── templates/           디자인 (HTML·CSS·아이콘, cards.html = 카드뉴스, static/ = 홈 화면 아이콘)
 ├── tools/make_icons.py  홈 화면 아이콘을 다시 만들 때만 실행
 ├── .github/workflows/   자동 실행 설정
-├── data/                날짜별 호 데이터 + looks/ 착샷 (자동 생성·저장소에 쌓임)
+├── data/                날짜별 호 데이터 (자동 생성·저장소에 쌓임)
 ├── site/                완성된 웹페이지 (자동 생성·저장소에는 안 올라감)
 └── logs/                실행 기록 (자동 생성·저장소에는 안 올라감)
 ```
@@ -402,14 +388,11 @@ GitHub 웹에서 `sources.yaml` → 연필 ✏️ 로 바로 고칠 수 있습�
   ],
   "quote":   { "text": "...", "author": "세네카", "work": "인생의 짧음에 관하여" },
   "weather": { "city": "서울", "t_min": 17, "t_max": 25, "rain_pct": 74, "sky": "이슬비", "display": "..." },
-  "ootd": { "by": "ai", "default": "women",      // by: ai | rule(기본 코디)
-            "trend": { "title": "참고한 패션 기사", "source": "...", "link": "..." },
-            "looks": [
-              { "id": "women", "label": "여성", "title": "비 오는 날의 트렌치", "keyword": "레이니 클래식", "tip": "...",
-                "items": [ { "category": "outer", "name": "샌드 트렌치코트", "color": "샌드", "hex": "#C9B08A",
-                             "en": "sand beige trench coat" } ],
-                "photo": "looks/2026-10-13-women.jpg", "photo_prompt": "Fashion photo cropped at the neck ..." },
-              { "id": "men", "label": "남성", "...": "같은 형식" } ] },
+  "series": { "by": "ai",                       // ai | rule(AI 실패 시 매거진 기사 소개)
+              "title": "아메카지룩", "tagline": "...", "description": "...",
+              "items": [ { "category": "outer", "name": "네이비 데님 재킷", "color": "네이비", "hex": "#2F4A6D" } ],
+              "tips": ["...", "...", "..."], "weather_tip": "...",
+              "articles": [ { "title": "원문 기사 제목", "source": "ELLE Korea", "link": "https://..." } ] },
   "fortune": { "type": "zodiac", "items": [ { "animal": "쥐", "text": "..." } ] }
 }
 ```
