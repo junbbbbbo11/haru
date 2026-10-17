@@ -4,233 +4,106 @@
   "date": "2026-10-17",
   "weekday": "토요일",
   "vol": 5,
-  "generated_at": "2026-10-17T07:42:54+09:00",
+  "generated_at": "2026-10-17T15:03:42+09:00",
   "edit_mode": "partial",
   "indicators": [
     {
       "id": "kospi",
       "name": "코스피",
       "ok": true,
-      "value": 5554.22,
-      "change": -454.59,
-      "change_pct": -7.57,
-      "direction": "down",
-      "display": "5,554.22",
-      "change_display": "▼ 7.57%"
+      "value": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
+      "direction": "up",
+      "display": "5,668.05",
+      "change_display": "▲ 2.05%"
     },
     {
       "id": "usdkrw",
       "name": "원/달러",
       "ok": true,
-      "value": 1334.2,
-      "change": -6.8,
-      "change_pct": -0.5,
+      "value": 1329.6,
+      "change": -11.3,
+      "change_pct": -0.85,
       "direction": "down",
-      "display": "1,334.2원",
-      "change_display": "▼ 0.50%"
+      "display": "1,329.6원",
+      "change_display": "▼ 0.85%"
     },
     {
       "id": "btc",
       "name": "비트코인",
       "ok": true,
-      "value": 110416000.0,
-      "change": -467000.0,
-      "change_pct": -0.42,
+      "value": 109997000.0,
+      "change": -279000.0,
+      "change_pct": -0.25,
       "direction": "down",
-      "display": "11,042만원",
-      "change_display": "▼ 0.42%"
+      "display": "11,000만원",
+      "change_display": "▼ 0.25%"
     }
   ],
   "weather": {
     "city": "서울",
     "t_max": 24,
-    "t_min": 13,
+    "t_min": 12,
     "rain_pct": 0,
     "sky": "흐림",
-    "display": "서울 13~24°C · 흐림 · 강수 0%"
+    "display": "서울 12~24°C · 흐림 · 강수 0%"
   },
   "cover_stories": [
     {
-      "kicker": "두산",
-      "headline": "두산, 에너지 자회사 부회장 승진",
-      "summary": "두산 대표 김민철과 에너지 자회사 대표 박상현이 부회장으로 승진해 에너지 자회사는 송용진을 COO로 임명했다.",
-      "source": "비즈니스포스트",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449591",
-      "original_title": "두산 대표 김민철과 두산에너빌리티 대표 박상현 각각 부회장으로 승진",
+      "kicker": "가을야구",
+      "headline": "KIA 박재현 준플레이오프 1차전 긴장 풀다",
+      "summary": "박재현이 준플레이오프 1차전에서 긴장을 풀며 경기 준비를 마무리했다.",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92VzJlTk9JeXNKVmZYeFd0QzZrazB6cWVBZ1VVRHo0Um5MbnpXbGk4d2VEdTE2Vmx3enI4TEFwTWZQdVh1YjFWdnZ1VWFuTzR1VlZQUUpRTlVMOGthU2pnYQ?oc=5",
+      "original_title": "준PO 1차전, 긴장 푸는 KIA 박재현",
       "sources": [
         {
-          "name": "비즈니스포스트",
-          "title": "두산 대표 김민철과 두산에너빌리티 대표 박상현 각각 부회장으로 승진",
-          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449591"
-        },
-        {
-          "name": "전기신문",
-          "title": "두산에너빌리티, 박상현 부회장 승진·송용진 COO 선임",
-          "link": "https://www.electimes.com/news/articleView.html?idxno=373545"
-        },
-        {
-          "name": "SBS Biz",
-          "title": "두산에너빌리티 '재무통' 박상현 부회장으로…송용진 COO 선임",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HOHp1eDB4eDRYczhjS1V3SmVyb1RoX0tVdXZqNG1zMjBEajJrR0ZEeDJXY3RmT0N6THlCQXNtUXBiY0pfNk9vV2c2RGxfTXRQWGZR0gFYQVVfeXFMUDdtV0o5U1JRbjZBZ0lsQ3FyYXBsNHAyZ2YyNUNjcmJzdGliMmRhcWJQd0lYR25BcFA0eXBaU2Z1TFF4Q0VGcnpBUThUSHlrVnl2X3lUaFhDLQ?oc=5"
-        },
-        {
-          "name": "연합뉴스",
-          "title": "두산 김민철·에너빌 박상현, 부회장 승진…에너빌 COO 송용진",
-          "link": "https://www.yna.co.kr/view/AKR20261016140700003"
+          "name": "뉴시스",
+          "title": "준PO 1차전, 긴장 푸는 KIA 박재현",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92VzJlTk9JeXNKVmZYeFd0QzZrazB6cWVBZ1VVRHo0Um5MbnpXbGk4d2VEdTE2Vmx3enI4TEFwTWZQdVh1YjFWdnZ1VWFuTzR1VlZQUUpRTlVMOGthU2pnYQ?oc=5"
         }
       ]
     },
     {
-      "kicker": "이탈주민",
-      "headline": "노인복지단체, 이탈주민 물품 기부",
-      "summary": "한국노인복지진흥회·엠에스엠글로벌이 북한이탈주민 자립 지원을 위해 1천만원 상당 물품을 기부했다.",
-      "source": "파이낸스투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93N29qUXlCbkJHVWxRMjJHaXBpYWNRUVZMai0xX2pWeUljNGtzVzY3R0VfU09wUVl2Y3l5TFJOTGl1WTNENEdOLUdWWDdWX1RvdVQzdDFGdE04WG5EM3VOb19JU1JWMjFiS2I5QQ?oc=5",
-      "original_title": "한국노인복지진흥회·엠에스엠글로벌, 북한이탈주민 자립 지원 위해 1천만원 상당 물품 기부",
+      "kicker": "티빙",
+      "headline": "티빙 보안 유출 3954만 계정 논란",
+      "summary": "티빙이 3954만 계정 유출 이후 보상판촉 논란이 제기됐다.",
+      "source": "로이슈",
+      "link": "https://www.lawissue.co.kr/view.php?ud=2026101417103019979817d053b9_12",
+      "original_title": "티빙, 3954만 계정 유출 뒤 ‘보상판촉’ 논란…과징금 감경·보안투자 공백 도마",
       "sources": [
         {
-          "name": "파이낸스투데이",
-          "title": "한국노인복지진흥회·엠에스엠글로벌, 북한이탈주민 자립 지원 위해 1천만원 상당 물품 기부",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93N29qUXlCbkJHVWxRMjJHaXBpYWNRUVZMai0xX2pWeUljNGtzVzY3R0VfU09wUVl2Y3l5TFJOTGl1WTNENEdOLUdWWDdWX1RvdVQzdDFGdE04WG5EM3VOb19JU1JWMjFiS2I5QQ?oc=5"
+          "name": "로이슈",
+          "title": "티빙, 3954만 계정 유출 뒤 ‘보상판촉’ 논란…과징금 감경·보안투자 공백 도마",
+          "link": "https://www.lawissue.co.kr/view.php?ud=2026101417103019979817d053b9_12"
         }
       ]
     },
     {
-      "kicker": "나스닥",
-      "headline": "KODEX 나스닥100 ETF 순자산 10조원 돌파",
-      "summary": "투자운용사 KODEX가 보유한 미국 나스닥100 인덱스 연계 ETF의 순자산이 10조원을 넘어섰다.",
-      "source": "Investing.com 한국어",
-      "link": "https://kr.investing.com/news/stock-market-news/article-2129082",
-      "original_title": "[운용 & Now] KODEX 미국나스닥100, 순자산 10조원 돌파 등 By EBN",
+      "kicker": "소아응급실",
+      "headline": "아주대 소아응급실 과수대 진입 사망 사건",
+      "summary": "아주대 소아응급실에서 아이가 사망 후 과수대에 진입한 사건이 발생했다.",
+      "source": "중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvWV81bVVOeDA1ZXpIUmMtaWluc01pMzZQb2dwV2syOFRTWUc1OUJuMW96dm5ENV9vNmE0R3ZkRW5nOUZpZ19TYWtrNHEyNnNvbFo2R2R3?oc=5",
+      "original_title": "“아이 사망 10분 만에 과수대 진입”…아주대 소아응급실 그날",
       "sources": [
         {
-          "name": "Investing.com 한국어",
-          "title": "[운용 & Now] KODEX 미국나스닥100, 순자산 10조원 돌파 등 By EBN",
-          "link": "https://kr.investing.com/news/stock-market-news/article-2129082"
-        },
-        {
-          "name": "MTN 머니투데이방송",
-          "title": "삼성운용 '미국나스닥100' ETF 순자산 10조원 달성",
-          "link": "https://news.mtn.co.kr/article/2026101510434987856"
+          "name": "중앙일보",
+          "title": "“아이 사망 10분 만에 과수대 진입”…아주대 소아응급실 그날",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvWV81bVVOeDA1ZXpIUmMtaWluc01pMzZQb2dwV2syOFRTWUc1OUJuMW96dm5ENV9vNmE0R3ZkRW5nOUZpZ19TYWtrNHEyNnNvbFo2R2R3?oc=5"
         }
       ]
     }
   ],
   "sections": [
     {
-      "id": "domestic",
-      "name": "국내",
-      "items": [
-        {
-          "headline": "교제폭력 신고 2번 했는데···실종 50대 여성, 스토킹 남성 차량서 발견",
-          "summary": "",
-          "source": "경향신문",
-          "link": "https://www.khan.co.kr/article/202610162232001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "original_title": "교제폭력 신고 2번 했는데···실종 50대 여성, 스토킹 남성 차량서 발견",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "경향신문",
-              "title": "교제폭력 신고 2번 했는데···실종 50대 여성, 스토킹 남성 차량서 발견",
-              "link": "https://www.khan.co.kr/article/202610162232001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
-            },
-            {
-              "name": "한겨레",
-              "title": "공주 실종 50대 여성 숨진 채 발견…스토킹 신고 남성 차량서",
-              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLdUpSenNoelNlRDFhR2pHUlhkMVoxa1NmYlhKMUlnS3R1TC1UVmsyYnQyOWwzUlRPNGNrb2JPS1RvbHo5QklGdG5TaGMwWnVXUGljTHliVC1MX29RYUI0SUh4RU9zYXV1?oc=5"
-            },
-            {
-              "name": "연합뉴스",
-              "title": "50대 여성, 스토킹·교제폭력 신고됐던 남성 차량서 숨진채 발견",
-              "link": "https://www.yna.co.kr/view/AKR20261016166800063"
-            }
-          ]
-        },
-        {
-          "headline": "'재정 빨대' 질문에 손사래…이 대통령 \"천금 준들 아깝겠나\"",
-          "summary": "",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801809",
-          "original_title": "'재정 빨대' 질문에 손사래…이 대통령 \"천금 준들 아깝겠나\"",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "SBS 뉴스",
-              "title": "'재정 빨대' 질문에 손사래…이 대통령 \"천금 준들 아깝겠나\"",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801809"
-            },
-            {
-              "name": "조선일보",
-              "title": "추미애 ‘재정 빨대’ 논란 속...李대통령 “소방관에 천금을 준들 아깝겠나”",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeTM2X0xNS09hZTRxOW9VOFhYNGota2ItV1ZTOVNVcDRFWndsTDZzN3JnZkNTaDlPZXE4SmdOWkRzTnVndWt6ZXloYUowekF3SnVZTUoxMm1vRlN6ZWNXM2QwUW5CbEZqRktCQzhrSFgzaUlXUnpWNWNSR3Z4dUtsRTNRQnVuQVNr?oc=5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "world",
-      "name": "국제",
-      "items": [
-        {
-          "headline": "트럼프 \"우크라 스타실드 제한, 내 지시 아냐\"(종합)",
-          "summary": "",
-          "source": "뉴시스",
-          "link": "https://www.newsis.com/view/NISX20261017_0003829818",
-          "original_title": "트럼프 \"우크라 스타실드 제한, 내 지시 아냐\"(종합)",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "뉴시스",
-              "title": "트럼프 \"우크라 스타실드 제한, 내 지시 아냐\"(종합)",
-              "link": "https://www.newsis.com/view/NISX20261017_0003829818"
-            },
-            {
-              "name": "SBS 뉴스",
-              "title": "트럼프, 우크라 스타실드 장애에 \"내가 지시한 일 아냐\"",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801802"
-            },
-            {
-              "name": "연합뉴스",
-              "title": "트럼프, 우크라 스타실드 장애에 \"내가 한일 아냐…누군지 몰라\"",
-              "link": "https://www.yna.co.kr/view/AKR20261017004700071"
-            }
-          ]
-        },
-        {
-          "headline": "후티 반군, 예멘 3대 도시 타이즈 포위 압박",
-          "summary": "",
-          "source": "SBS 뉴스",
-          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801789",
-          "original_title": "후티 반군, 예멘 3대 도시 타이즈 포위 압박",
-          "coverage": 5,
-          "sources": [
-            {
-              "name": "SBS 뉴스",
-              "title": "후티 반군, 예멘 3대 도시 타이즈 포위 압박",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801789"
-            },
-            {
-              "name": "KBS 뉴스",
-              "title": "후티 반군, ‘예멘 3대 도시’ 타이즈 포위 압박…주민들 공포",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OWnN0MUQ0VmFIZlc4dWFINkJYanBtbjZFVHI5LTlQRnpFc2tmVzBpRU1rYmx6Nk1FYV9KZDhXRUZkQnlLZno2SlhVZS1RLWplUExTOFpXenprSTQ?oc=5"
-            },
-            {
-              "name": "연합뉴스",
-              "title": "후티 반군, 예멘 3대 도시 타이즈 포위 압박…주민들 공포",
-              "link": "https://www.yna.co.kr/view/AKR20261017003500079"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "economy",
       "name": "경제·금융",
       "items": [
         {
-          "headline": "한미 재무-통화 첫 2+2 면담… 경제 현안-금융 협력 등 논의",
-          "summary": "",
+          "headline": "한미 재무·통화 2+2 회담 첫 개최",
+          "summary": "한국·미국 재무·통화 당국이 4자 회담을 열어 경제·금융 협력 방안을 논의했다.",
           "source": "동아일보",
           "link": "https://www.donga.com/news/Economy/article/all/20261016/134857710/2",
           "original_title": "한미 재무-통화 첫 2+2 면담… 경제 현안-금융 협력 등 논의",
@@ -247,75 +120,29 @@
               "link": "https://www.mk.co.kr/news/economy/12178211"
             },
             {
-              "name": "YTN",
-              "title": "한·미 재무·통화당국 첫 2+2 면담 \"경제·금융 협력 방안 논의\"",
-              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UR3puV0JfTGxmeFQ2SFhGejJQM21ubkdJcG1fQlAtX1lsRUVTNy1DUXItZ3FoRTRENngwZGpxSjFKWXlTSEd0OFhZdWlHbEUxMXlWRG91OFdUbV8xaUE?oc=5"
+              "name": "연합뉴스TV",
+              "title": "한미 재무·통화당국 첫 2+2 면담…\"경제·금융 협력 논의\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GSWZBSUZ3aFZXZ3JZUWVDblVWbXRWR1B6SjNOZGhZSXF2WlRjUmFFUWpucF9zR2NxRmNPNm04amVJZ09odHlLTHRpYTQ3Qm12ZnMxbzZmVEZkV0RlM0VnTFZnSDNNY2M?oc=5"
             }
           ]
         },
         {
-          "headline": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
-          "summary": "",
-          "source": "동아일보",
-          "link": "https://www.donga.com/news/Economy/article/all/20261016/134857519/1",
-          "original_title": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
+          "headline": "한국, 9월 러시아 LNG 수입 32만6000t",
+          "summary": "9월 러시아산 LNG 수입량이 32만6000t으로 2021년 11월 이후 최고치를 기록했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261016_0003829785",
+          "original_title": "韓, 9월 러시아산 LNG 32.6만t 수입…2021년 11월來 최대",
           "coverage": 5,
           "sources": [
             {
-              "name": "동아일보",
-              "title": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
-              "link": "https://www.donga.com/news/Economy/article/all/20261016/134857519/1"
+              "name": "뉴시스",
+              "title": "韓, 9월 러시아산 LNG 32.6만t 수입…2021년 11월來 최대",
+              "link": "https://www.newsis.com/view/NISX20261016_0003829785"
             },
             {
-              "name": "연합뉴스",
-              "title": "CJ그룹, 다우키움그룹과 중앙일보 인수전 참여 가능성",
-              "link": "https://www.yna.co.kr/view/AKR20261016170000030"
-            },
-            {
-              "name": "매일경제",
-              "title": "CJ, 다우키움과 손잡고 중앙일보 인수전 참여",
-              "link": "https://www.mk.co.kr/news/stock/12178091"
-            },
-            {
-              "name": "미디어오늘",
-              "title": "결국 CJ도 중앙일보 인수 참여, 다우키움그룹과 컨소시엄 구성 진행",
-              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwR3NRemRnNURHQjdZQ3psRGx5QnBWZEF4WnNISy02QW9nQ1U4aFIyWUVRalo3WGtZNWtSWENOR0pmay1fY1Z0bTBMeU9IM3NGVFFrZXpaX091ck42WnFjb1ExTVZDeUF3M012UmZLa0Y?oc=5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tech",
-      "name": "테크",
-      "items": [
-        {
-          "headline": "벨킨, 아이폰 듀오용 강화유리와 25W 충전기 공개",
-          "summary": "벨킨이 아이폰 듀오용 '타이탄 스마트실드' 강화유리와 25W 차량 충전기 4종을 출시했다.",
-          "source": "CNET Korea",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTQ245QTZJUVJXYXdIczh6QV80Z2psWkZMRkJBTGVaN1BLTE1rRGtyS2FyeVdZZC10ZVA0bUdqeURyOWhmY3h6elgyUjZodVppck1lT2xDNjUwQQ?oc=5",
-          "original_title": "벨킨, 아이폰 듀오용 강화유리와 25W 차량용 충전기 4종 선봬",
-          "coverage": 4,
-          "sources": [
-            {
-              "name": "CNET Korea",
-              "title": "벨킨, 아이폰 듀오용 강화유리와 25W 차량용 충전기 4종 선봬",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTQ245QTZJUVJXYXdIczh6QV80Z2psWkZMRkJBTGVaN1BLTE1rRGtyS2FyeVdZZC10ZVA0bUdqeURyOWhmY3h6elgyUjZodVppck1lT2xDNjUwQQ?oc=5"
-            },
-            {
-              "name": "에이빙",
-              "title": "가을 야외·차량 이동 늘자… 벨킨, 아이폰 듀오용 '타이탄 스마트실드'와 25W 차량 충전기 4종 출시",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxQ0c3NldpUlZvRkFZNWJtbTRrb2RZOGszR21wcUJySjhxYmhRUGVBY3ZDbE5XMWtabU9EaTB1SlBpUm9yU21SS1c5amRPREJmY1BZUXR2Z2xXVTBjYjhkMFhRc0IxN1ROVnh30gFrQVVfeXFMUHFDRzc2V2lSVm9GQVk1Ym1tNGtvZFk4azNHbXBxQnJKOHFiaFFQZUFjdkNsTlcxa1ptT0RpMHVKUGlSb3JTbVJLVzlqZE9EQmZjUFlRdHZnbFdVMGNiOGQwWFFzQjE3VE5WeHc?oc=5"
-            },
-            {
-              "name": "파이낸셜포스트",
-              "title": "[신제품] 벨킨 ‘타이탄 스마트실드’ 아이폰 듀오용 강화유리 필름",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2R2FzYl9saENGSHBrMFBYR2hiZ2dPaDhuV0NUWnNlUS1BWlJSZGlaVGpRYVdTV1pFN1QycXhidVZjczRScUpHelhXeHBva3ZRRTJfUG1JMDVmYUY3N1Yxd2FFdXNVRG5LWUpjSlVWVEpEUFU3?oc=5"
-            },
-            {
-              "name": "한국경제",
-              "title": "벨킨, 타이탄 스마트실드’ 아이폰 듀오용 강화유리 필름과 25W 울트라차지 차량용 충전기 4종 출시",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fa1NCdEdzdFZOLTJTMGwxTzk4U2EwZFJEV0s0OHJoemNCNk9jREVzRjFGT3BRNlNuUDRGbTVrUjIxRHp5TnlvNy1vWi1NbmV5RVRPdG5uRV9CUQ?oc=5"
+              "name": "연합뉴스TV",
+              "title": "러 매체 \"韓 9월 러시아산 LNG 수입, 약 5년만에 최대\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00TDVfempxZGhlRUx6R2hzb0RfM0xOejlKcXpiVDJzRmMyY2Q0amVzSlUzZUIxR2NtekJHZFFMMEtYYndqcWVrVURuN3RULVU2cHR5S2liUmkwMC15dmNmeGxKYWx6WDA?oc=5"
             }
           ]
         }
@@ -326,13 +153,18 @@
       "name": "패션",
       "items": [
         {
-          "headline": "BTS 뷔, 패션위크 불참에도 52억원 미디어 가치 창출",
-          "summary": "방탄소년단 뷔가 패션위크에 참석하지 않아도 미디어 가치 52억원을 창출해 압도적 영향력을 입증했다.",
-          "source": "조선비즈",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFpOZXA3MGMzTTlFWTJzRXc1emlFVlkzbHlKY01Yc2pOa1hXSzFQZm5Xd2k1U2JMSVNSOTdoN0NxY3BySGZEc2QtN3lSMkJmdWRqSXlHSTRBVlFoMGgzYmlScXJvSVNyN1RyN1dDcW9JSzZBc0JtdWVLNUpBMkpiajVNZEtwNC1aVnk4blZQb3RhcEx6V3JQSGhKNkdCb3VvZHR2Tno4a9IBpwFBVV95cUxOWFpOZXA3MGMzTTlFWTJzRXc1emlFVlkzbHlKY01Yc2pOa1hXSzFQZm5Xd2k1U2JMSVNSOTdoN0NxY3BySGZEc2QtN3lSMkJmdWRqSXlHSTRBVlFoMGgzYmlScXJvSVNyN1RyN1dDcW9JSzZBc0JtdWVLNUpBMkpiajVNZEtwNC1aVnk4blZQb3RhcEx6V3JQSGhKNkdCb3VvZHR2Tno4aw?oc=5",
+          "headline": "방탄소년단 뷔, 패션위크 불참에도 52억원 미디어 가치",
+          "summary": "방탄소년단 뷔가 패션위크에 불참했음에도 52억원의 미디어 가치를 창출했다.",
+          "source": "조선일보",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa1V0LUpHdEwtWDFESTBERzI4cE9JNGhNX0VGT0JkMUtLaUZKeHJFNE9YU3JrMDN5VGQzQ0VOSVlOVjB3MG1WOG5HXzRtZUJ6Q194QWd0U3dIRy1XVk4tZTlUU1c3RVdMUkVyNlRDdmlyOXUwM2hzNkdSdXBHQjlyWWlmRERZQU1wTWc?oc=5",
           "original_title": "방탄소년단 뷔, 패션위크 불참에도 52억원 미디어 가치 창출 ‘압도적 영향력’",
-          "coverage": 12,
+          "coverage": 5,
           "sources": [
+            {
+              "name": "조선일보",
+              "title": "방탄소년단 뷔, 패션위크 불참에도 52억원 미디어 가치 창출 ‘압도적 영향력’",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa1V0LUpHdEwtWDFESTBERzI4cE9JNGhNX0VGT0JkMUtLaUZKeHJFNE9YU3JrMDN5VGQzQ0VOSVlOVjB3MG1WOG5HXzRtZUJ6Q194QWd0U3dIRy1XVk4tZTlUU1c3RVdMUkVyNlRDdmlyOXUwM2hzNkdSdXBHQjlyWWlmRERZQU1wTWc?oc=5"
+            },
             {
               "name": "조선비즈",
               "title": "방탄소년단 뷔, 패션위크 불참에도 52억원 미디어 가치 창출 ‘압도적 영향력’",
@@ -352,11 +184,6 @@
               "name": "Billboard Korea",
               "title": "BTS 뷔, 패션위크 참석 없이도 미디어 가치 약 52억원 창출",
               "link": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxOVU96cW9EcmNQT0NWODlnR1JnVkVnbjdoRzJXQkpyWGtwWEJPNHc4bEdPMUh3eWgyeDlGLWtZU0Ixd2R0SzVKM1R5YnpRdEU5MC02Z2FEZkZYdDMxc25SdUdzQV9rS0pVcE5oeEN2akJyTko2aFpFTWJ0TFRIR1U1akNJSDhGVVdCc1ZqbjNRR2RfcW1EaXdJV0tGSEJYZ1FMUS0yYnRXWHh1SEl3Z2kxeWk1U05xNjhNclFwazB3UUMtc0JBdjRkZHZvaFllVEp0bEpseXJ2bEd1SENLbk13OWllLVV6YmIycG1WSURSdWVhTThrazlGdVY0cVBJTE5WX3FOQTRHUlFPYlZmREdNY0doZ25rQ0ZYcC1KX1hyekFHdDVwczZwNTlmZVFhNWpMd0xucGl0SFFsVDJaNWlDajJRZ0Y1YlpxaFZzTU5wR1F0YmdzRGEyMklOUVBuNDVNUk5OWkxPSzczOGpxeElvWWtYRDRzT0JHU3Nqank3eG5ZNWdHYXVSTGxxT256TVhybDkyZTUzcDYtbkxiVVF1bFdjNks2cG9qRUl6Qm9oaU1obDJXV2UwVDdOb2pMbXdHYlNLeGJYNWM2NnIzV1E4d1ZsX2hqY3pTZGFOU1BHZ3YtcVJueEVtbzNfYTZiQjFjV0l1SWFMWjhyY2VGMGVv?oc=5"
-            },
-            {
-              "name": "세계일보",
-              "title": "BTS 뷔, 패션쇼 안 가고도 미디어 가치 52억…셀린느 전체의 23%",
-              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TZXViNWlxWW1DcUtrTDJSX1h1QmFkWExQLUowc2Mxa2dWc05NWkJJUUVKSG9FUEpPWVRWcndyRjR1M1g2VUdZVWRUNnVORm8xSHJMS2ZGMWfSAVRBVV95cUxOaHBrUmxWZVNOLXNQM2t3OVl1clJDS3lCUDZNbE5BcG1TUXMzbDZURWtLY0xTSWVsOThsc01nYWo1NGtuOFpQOEFoLU5kODQwckJmaHM?oc=5"
             }
           ]
         }
@@ -367,22 +194,22 @@
       "name": "뷰티",
       "items": [
         {
-          "headline": "‘K-뷰티 엑스포 코리아 2026’에서 만난 ‘유니크(unique)’ 7대 화장품 기업의 매력은?",
-          "summary": "",
+          "headline": "유니즈랩, 스피큘 카테고리 제안",
+          "summary": "유니즈랩이 천연 스피큘에 6종 활성성분과 멜팅볼 제형을 결합해 K-뷰티 엑스포 코리아 2026에서 스피큘 카테고리를 제안했다.",
           "source": "코스인코리아닷컴",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53cW5rMFRVdXM3RmJuUHhtUXRBNUN4THZzNG1GbXZwcjFkYlRfR3ZOZ2RxSTdQdnNuZjY5U0xQcjZXYkdLOUJBczI1RUE4TGdjQVJ5V2NPaVhoQjh2Tmo0U1YxZw?oc=5",
-          "original_title": "‘K-뷰티 엑스포 코리아 2026’에서 만난 ‘유니크(unique)’ 7대 화장품 기업의 매력은?",
-          "coverage": 8,
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3dmpxNk9hcUF5MW1EM0JTRmU1VFdjbzFPRUZKZUVMNDBGdldUYjJSSmxoOVFteWVha0NoeTlIcmNJdGZkRE8xNmJ1aThYTDNOVlE3b0dxZlZoRldGdkpuMGRzaW5mQQ?oc=5",
+          "original_title": "‘K-뷰티 엑스포 코리아 2026’ 참가, 유니즈랩... 천연 스피큘 + 6종 활성성분 + 멜팅볼 제형 결합한 ‘스피큘 카테고리’ 제안",
+          "coverage": 4,
           "sources": [
             {
               "name": "코스인코리아닷컴",
-              "title": "‘K-뷰티 엑스포 코리아 2026’에서 만난 ‘유니크(unique)’ 7대 화장품 기업의 매력은?",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53cW5rMFRVdXM3RmJuUHhtUXRBNUN4THZzNG1GbXZwcjFkYlRfR3ZOZ2RxSTdQdnNuZjY5U0xQcjZXYkdLOUJBczI1RUE4TGdjQVJ5V2NPaVhoQjh2Tmo0U1YxZw?oc=5"
+              "title": "‘K-뷰티 엑스포 코리아 2026’ 참가, 유니즈랩... 천연 스피큘 + 6종 활성성분 + 멜팅볼 제형 결합한 ‘스피큘 카테고리’ 제안",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3dmpxNk9hcUF5MW1EM0JTRmU1VFdjbzFPRUZKZUVMNDBGdldUYjJSSmxoOVFteWVha0NoeTlIcmNJdGZkRE8xNmJ1aThYTDNOVlE3b0dxZlZoRldGdkpuMGRzaW5mQQ?oc=5"
             },
             {
               "name": "주간신문씨엠엔",
               "title": "역대 최대 ‘2026 K-뷰티엑스포 코리아’ 성황",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1WmRCeWVZV3BXS2MyRE5BM3lKQVRRRTdjYlViRkhaYkJmb3FKY3FzVDl5UnNrMGt6enJ5TVJFcE1helhEdWI5OXVENWlfcUVXWHZ1LUdDRTBwVUNlWFZVVUtiRmxsaFpvaF9KenBGODRlQV94Ty1N?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAySGNQR0lSUjZCN0t6YTRHZ3JXQ2JpZTgtTDlnUVhwVnlveV9ZMlhZMEE1TjlRM1hPc2NtWXItMGNWV19UTUctWEF6TF9sdTBPRFJUcFFhb0JFYldGa1ZxVHp0ODF0N2xTdWhn?oc=5"
             },
             {
               "name": "서울경제TV",
@@ -395,36 +222,6 @@
               "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBISWFsdE9KcnI2ZmVNOHFSaEQ5ekl0TEgwOXY4T1NsdE1MQ2RzX2hPSnNVemxpV1Z3WEZranlfLXBSN3d1RDlKbURSOXMyYXRHdVNhRWpqYzU?oc=5"
             }
           ]
-        },
-        {
-          "headline": "용인산업진흥원, K-뷰티 수출 화장품 인증 대응 나섰다",
-          "summary": "",
-          "source": "뉴시스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZVDRGdG5IUzBfdldEa0tiMncxWUJ4WHhoUDRXbFRLQV9JVjNiMXZpOGwyOFFDN0M4WkdxSkhwQVFkdExfc0ppZzJGSXRiM2NkVTVBUnFUMl9hbVRwbWFfedIBeEFVX3lxTE9KdHVkOU5VOXFDb2ttajk1VFJLQnlEa25EMEprZXY2WURqYWt3Vm95TGpZNWUxMEhseVVBNUtoWTJYcXNxRGJPM01UYTdRQWNpQUJXMGxRcGFJVWxBSFRSTUFwOWFlQ25HNW9memVGOXRjcHlicUNCNQ?oc=5",
-          "original_title": "용인산업진흥원, K-뷰티 수출 화장품 인증 대응 나섰다",
-          "coverage": 6,
-          "sources": [
-            {
-              "name": "뉴시스",
-              "title": "용인산업진흥원, K-뷰티 수출 화장품 인증 대응 나섰다",
-              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZVDRGdG5IUzBfdldEa0tiMncxWUJ4WHhoUDRXbFRLQV9JVjNiMXZpOGwyOFFDN0M4WkdxSkhwQVFkdExfc0ppZzJGSXRiM2NkVTVBUnFUMl9hbVRwbWFfedIBeEFVX3lxTE9KdHVkOU5VOXFDb2ttajk1VFJLQnlEa25EMEprZXY2WURqYWt3Vm95TGpZNWUxMEhseVVBNUtoWTJYcXNxRGJPM01UYTdRQWNpQUJXMGxRcGFJVWxBSFRSTUFwOWFlQ25HNW9memVGOXRjcHlicUNCNQ?oc=5"
-            },
-            {
-              "name": "경기타임스 e",
-              "title": "“K-뷰티 수출 발목 잡는 인증 장벽 넘는다”… 용인시산업진흥원, 화장품 인증 대응 설명회",
-              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XdVpBRDZ3MVFBcjZFekhoUVhpeU5MQ1ozS3QyNDhuRXVESDE3eGd1bkwxbm1EQWgzRHNBX2ZFZ2t1cWt3Y2c0eV9JT1NnT2R0enRHS0pOWVlqdEtUYzh4V08wV2FLdjY5cFRHbA?oc=5"
-            },
-            {
-              "name": "내외뉴스통신",
-              "title": "용인시산업진흥원, K-뷰티 해외 화장품 인증 대응 설명회 개최",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzYUY4a2R5TC0wREZsQklwMXV3a3BQV1BUcHNQTmsyU1Rid2RDT05zdEdOcjVXZFJnX0YxS3pHVGN5RFhqSDB1dFV6ZUlubHRSdFJHRWJKTXpmdW9NaDFDcDB3bVR2TG9OUTJkTHhB0gFwQVVfeXFMT3lORXB6clVTR2pqLWxpaTU4Zk80cWU5Z0tsTkk3TFdEazRkVk5RUHF6OE9Gci02LS16Y2MzVVZpVDdXSlRlenVIeVJrODducURqRXFhRDlueFdraHYzZ1RPUWQxM2VweFNTMWtCOUxmZg?oc=5"
-            },
-            {
-              "name": "www.skedaily.com",
-              "title": "용인시산업진흥원, K-뷰티 수출기업 해외 인증 대응 역량 강화",
-              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kcUVjUzd4YTdsaVlVUm0zWHFobXc4ZkVBNGRSN19nTmgxSFlFM2JBWWFQWGpndVdyTXBWbmstdkVXR2VtOE8zcFpmc1JfY1pTemVVUmNtbm1jWW1OQUpKdG1iV1kwckNhRXc?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -433,17 +230,140 @@
       "name": "라이프스타일",
       "items": [
         {
-          "headline": "중년의 과자·냉동식품 섭취가 뇌혈관 손상 위험",
-          "summary": "연합뉴스TV에 따르면, 과자와 냉동식품을 많이 섭취하는 중년층이 무증상 뇌혈관 손상의 위험이 있다는 연구 결과가 제시됐다.",
-          "source": "연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CWE1feDhnZnZZTlROVzd1LUxhcmFyVVBCSGFURzFBcHlZUVF3MlNNTUw4UmI3bHNYRlV6M2R6M1p0MVhHeVh1MW00a0w3WXFHREN0N2s4a0tyaVdwNUpnLU43SVNwM3M?oc=5",
-          "original_title": "\"과자·냉동 식품 많이 먹는 중년, 무증상 뇌혈관 손상 위험\"",
+          "headline": "초가공식품 과다 섭취 시 뇌혈관 손상 위험 40% 상승",
+          "summary": "초가공식품 과다 섭취 시 뇌혈관 손상 위험이 40% 상승한다. 세계일보가 보도했다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xaVI4OHd2R1FXZkdwRHp0MGNST3F2MEFaem9RYUd0N3NnY2dOWWVITDEzb19Ma3JncURMYVh6M1BZZ2k0elJpOWhleDFNTnowcEdod1RSNmU3S0pwcjM1RUQ4dWJtelpMQTRj0gFUQVVfeXFMUEZxUnhQMWNfRHVFUFpuN2E1V0ZDanptY3JObVozQzNmLVUyUmpWN2pjaWk3eVZ2RDlmY0p5T183MW5oV1dEam5pVEtvUzZUMXFWdDR0?oc=5",
+          "original_title": "초가공식품 많이 먹으면 뇌혈관 손상 위험 40% 높아",
           "coverage": 5,
           "sources": [
             {
+              "name": "세계일보",
+              "title": "초가공식품 많이 먹으면 뇌혈관 손상 위험 40% 높아",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xaVI4OHd2R1FXZkdwRHp0MGNST3F2MEFaem9RYUd0N3NnY2dOWWVITDEzb19Ma3JncURMYVh6M1BZZ2k0elJpOWhleDFNTnowcEdod1RSNmU3S0pwcjM1RUQ4dWJtelpMQTRj0gFUQVVfeXFMUEZxUnhQMWNfRHVFUFpuN2E1V0ZDanptY3JObVozQzNmLVUyUmpWN2pjaWk3eVZ2RDlmY0p5T183MW5oV1dEam5pVEtvUzZUMXFWdDR0?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "임신 중 우울증 치료, 아기 뇌 발달에 영향 가능성",
+          "summary": "임신 중 우울증을 적극 치료해야 아기 뇌 발달에 영향을 줄 수 있다. 연합뉴스가 보도했다.",
+          "source": "연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWSHlsUWg3RDE2b0hQSTBORndDTnhoRUdJNXNCWlJUeFR1SXJRZ1JTSndabDJxUUZESDdJNkVJR2JRRWptbjZKbE1Ycm1KMnZFTENGaHZhQm8taEXSAWBBVV95cUxPN2RFcWo2c2xCb1N3QTlHd1g1eTJTR2NxaU5pWHZsWG9FNTNERWE1dnlSdUZIREp2NURUOHRrNHlVWERsX3RZczJwY1dmSlpZYVBiTnpENFdEZFNGYmdQT2o?oc=5",
+          "original_title": "[건강포커스] \"임신 중 우울증 적극 치료해야…아기 뇌 발달에 영향 가능성\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[건강포커스] \"임신 중 우울증 적극 치료해야…아기 뇌 발달에 영향 가능성\"",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWSHlsUWg3RDE2b0hQSTBORndDTnhoRUdJNXNCWlJUeFR1SXJRZ1JTSndabDJxUUZESDdJNkVJR2JRRWptbjZKbE1Ycm1KMnZFTENGaHZhQm8taEXSAWBBVV95cUxPN2RFcWo2c2xCb1N3QTlHd1g1eTJTR2NxaU5pWHZsWG9FNTNERWE1dnlSdUZIREp2NURUOHRrNHlVWERsX3RZczJwY1dmSlpZYVBiTnpENFdEZFNGYmdQT2o?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "국회 과방위 국정감사 파행 이진숙 제척 논란",
+          "summary": "국회 과방위 국정감사에서 이진숙 의원 제척 논란으로 절차가 파행됐다. 민주당은 이해충돌을 주장하고 국민의힘은 질의권 침해를 주장했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801814",
+          "original_title": "'이진숙 제척' 놓고 충돌…과방위 국감 파행",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'이진숙 제척' 놓고 충돌…과방위 국감 파행",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801814"
+            },
+            {
+              "name": "경향신문",
+              "title": "국힘 과방위원들, 한준호 국감 제척안 제출···이진숙 제척 ‘맞불’",
+              "link": "https://www.khan.co.kr/article/202610162259001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "과방위 국감, 이진숙·한준호 제척 공방 끝 파행(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261016141251001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "후티 반군, 아덴 이틀 연속 타격",
+          "summary": "트럭 이동 중인 후티 반군이 예멘 아덴을 이틀 연속 타격했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801810",
+          "original_title": "후티 반군, 예멘 임시 수도 아덴 이틀 연속 타격",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "후티 반군, 예멘 임시 수도 아덴 이틀 연속 타격",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801810"
+            },
+            {
               "name": "연합뉴스TV",
-              "title": "\"과자·냉동 식품 많이 먹는 중년, 무증상 뇌혈관 손상 위험\"",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CWE1feDhnZnZZTlROVzd1LUxhcmFyVVBCSGFURzFBcHlZUVF3MlNNTUw4UmI3bHNYRlV6M2R6M1p0MVhHeVh1MW00a0w3WXFHREN0N2s4a0tyaVdwNUpnLU43SVNwM3M?oc=5"
+              "title": "후티, 예멘 임시수도 아덴 이틀 연속 타격…\"공항에 발사체\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyZllmakFLa2Q1X29UcnBVM1VENjFaalpDaU5DRlhkeWhwYUNmTE55V1dwN212ZGItUndCTmVQN0RmcWJBQXNHM3lRTkdKdXZ3YmNBYW9MckVoaU1HOTRuMEhRRTUtS3M?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "우크라 키이우, 대규모 정전 발생",
+          "summary": "키이우 시내에서 대규모 정전이 발생해 에너지 시설 타격 여파가 보였다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801743",
+          "original_title": "우크라 키이우에 대규모 정전…에너지시설 타격 여파",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "우크라 키이우에 대규모 정전…에너지시설 타격 여파",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008801743"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "우크라 키이우에 대규모 정전…에너지시설 타격 여파",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xWk0wRVRhQTQwZGJfWmplRTVSR0N5eGFOLVVoaWJvOTFBaVZNdVZ5TkpfYkh3Mk9fQXkzUjBJNXd4bFJoem5IN3hrN2ctMTdIUEY2NnQzNjVkbGfSAWBBVV95cUxNQUlxdlp0UHBQc0V2Vk9LXzc0QmVtOER2ZmdtNmJhSllVSDF3S045bUFLYTRETWpQWDBKRG5hcXFzNDM1OHJDZ0s3dHNXOUItM2F1SXNod2xFcmhIUlpsY2Y?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "KT AI 매장음악 서비스 ‘래디오비즈’ 출시",
+          "summary": "KT가 AI 기반 매장음악 서비스 ‘래디오비즈’를 월 9,900원에 출시하며 매장 홍보와 고객 관리를 제공한다.",
+          "source": "나눔경제뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54bzVKYUl2YkdKSWk1Vm84c1dYNnZsZUhtUWJIbEVsYTJjZDJfY2hzY01RNktoc0h6WHZsdGIyYXp3SFRNeEdCU2hxRXNXbk0wQVJBSklNY2R4aHprQkwwclE3MVh0Q0lXRzNWdQ?oc=5",
+          "original_title": "KT, AI 매장음악 서비스 ‘래디오비즈’ 출시…월 9,900원에 매장 홍보·고객 관리까지",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "나눔경제뉴스",
+              "title": "KT, AI 매장음악 서비스 ‘래디오비즈’ 출시…월 9,900원에 매장 홍보·고객 관리까지",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54bzVKYUl2YkdKSWk1Vm84c1dYNnZsZUhtUWJIbEVsYTJjZDJfY2hzY01RNktoc0h6WHZsdGIyYXp3SFRNeEdCU2hxRXNXbk0wQVJBSklNY2R4aHprQkwwclE3MVh0Q0lXRzNWdQ?oc=5"
+            },
+            {
+              "name": "더구루",
+              "title": "[통신리뷰] KT, AI 매장음악 서비스 '래디오비즈' 출시(10월2주차)",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vWDRTSm5kZXV3NVJPWF9senZaYjc1Z0ZWUXE0Smc2ei1ITERPUk1DeWk0TFNDT2dpZHo2Szg2SWlybi1WQjJpdjdsdEVJVzJLdF9BaFJPcW5nd0h4TE5SYTA3SQ?oc=5"
+            },
+            {
+              "name": "매일일보",
+              "title": "KT, 날씨·시간 맞춰 음악 트는 AI 매장 서비스 출시",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2dVducHJGMnM1LXJSMVV2dThxVVJHLU5kc0xaSm12RnlySnVQU1lTQmVjTUJxZkJKWXQtcC1OY1RZTzl3MFREcGpDdHVsV1hFcnRJVWhrUEo4bGhIUGlZQmRQNEw?oc=5"
             }
           ]
         }
@@ -454,37 +374,37 @@
       "name": "문화",
       "items": [
         {
-          "headline": "암살자 313만 관객 돌파 18일 연속 1위",
-          "summary": "암살자(들) 관객 313만을 돌파해 18일 연속 한국영화 1위에 올랐다.",
-          "source": "www.bntnews.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9icFVESnBXa0p3aVBaaDBWZUJLblJsUko4VWtWUGFqdWhHd2hoeHFKSk5nOHhiY0VtMlpOblJTQWQtWjFCSWJDUWVJQU4tOGlXOWpKU3pxREpQUTdHSElHb1ZmX3g?oc=5",
-          "original_title": "‘암살자(들)’ 313만 돌파…18일 연속 1위",
-          "coverage": 5,
+          "headline": "괴산와유아트센터 개관, 첫 전시와 4회 괴산미술협회전 개막",
+          "summary": "괴산와유아트센터가 개관하며 첫 전시와 제4회 괴산미술협회전이 동시에 개막했다.",
+          "source": "뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qdnhtMzVXcTJ3SjFvS3VnNm1ySUFlZGp6X18xY3Z3Rzh3bTNORHRsa0VPcG5RazI2bGNYUGNpTFd6T2RsaDVxMWxKcTZaS0JVU1pUZm9JSk5WdlhmcVUw?oc=5",
+          "original_title": "괴산와유아트센터 개관 후 첫 전시, 4회 괴산미술협회전 개막",
+          "coverage": 6,
           "sources": [
             {
-              "name": "www.bntnews.co.kr",
-              "title": "‘암살자(들)’ 313만 돌파…18일 연속 1위",
-              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9icFVESnBXa0p3aVBaaDBWZUJLblJsUko4VWtWUGFqdWhHd2hoeHFKSk5nOHhiY0VtMlpOblJTQWQtWjFCSWJDUWVJQU4tOGlXOWpKU3pxREpQUTdHSElHb1ZmX3g?oc=5"
+              "name": "뉴스1",
+              "title": "괴산와유아트센터 개관 후 첫 전시, 4회 괴산미술협회전 개막",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qdnhtMzVXcTJ3SjFvS3VnNm1ySUFlZGp6X18xY3Z3Rzh3bTNORHRsa0VPcG5RazI2bGNYUGNpTFd6T2RsaDVxMWxKcTZaS0JVU1pUZm9JSk5WdlhmcVUw?oc=5"
             },
             {
-              "name": "한국가요예술방송원",
-              "title": "“310만 관객 돌파”…유해진·박해일·이민호 ‘암살자(들)’, 17일 연속 한국영화 1위",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jVUF4dkxlWWU0UTB1RDd4TktvRENBeUZrQ0YxTDVxM0xFaTZxaUtCdURaRjB5UEZtTGxrWnc0a2lsb1FtUE1rV2RCb09aX1VFckZ1WHJmVDJIcERZYWhFdGhZdw?oc=5"
+              "name": "충청리뷰",
+              "title": "제4회 괴산미술협회전 개막",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pRHIwcUo1aW1DLXY1dEdycDJNQUVEU3hEeVpRSUZBN3lGVklqNmxDZEN4WHZfTGlCenRObWl2TTg0c2tQNHdndlhEbTF2by1lX3pibEZUWHhpQWljLTJjZTFKd1QxcHlPTDVLVktFZVZzQdIBckFVX3lxTE1pRHIwcUo1aW1DLXY1dEdycDJNQUVEU3hEeVpRSUZBN3lGVklqNmxDZEN4WHZfTGlCenRObWl2TTg0c2tQNHdndlhEbTF2by1lX3pibEZUWHhpQWljLTJjZTFKd1QxcHlPTDVLVktFZVZzQQ?oc=5"
             },
             {
-              "name": "이투데이",
-              "title": "'암살자(들)' 17일 연속 한국영화 1위⋯310만 관객 돌파",
-              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaEZFZnd0bDN4ZW1NTVZOQVZmQmU5RGM4bVQyMERqMzQ0QVJEaG0yQkFTaFhYOVNzZExwLWxrVk50R3dLdnBnQV9DQ1NSSEtCUDN6Yw?oc=5"
+              "name": "내외뉴스통신",
+              "title": "‘제4회 괴산미술협회 정기전’ 개막...괴산와유아트센터서 첫 전시",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iLWxyV1hGTzBkOTYyR1FFNFIxTzRkd3JXZWNtU3hnb1dTcjBYbThFNHhJRkk1elVtVkRzRENGcndhZ2VsMk5EQ1VHdE9XWXFNQUlEaVpSSDRlb0dITFUtSXNVWTBjZ0gydEhsRXRB0gFwQVVfeXFMTUlZRFZIUENKUlVFR2tWd2hpeG5zSFVBTDE4UmhWLXF6Qzd6RWNmSzhWZE5WUTlJbWdFb3ZFaENDeHZHb1p4S3JmbUVSOUpyVk1jUl9aZlQ4eHlHem9wcXBMMGxpM3NEZFdwdm03TGt0bA?oc=5"
             },
             {
-              "name": "iMBC 연예",
-              "title": "'암살자(들)', 17일 연속 韓영화 박스오피스 1위",
-              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qSXlGNDBsZU9XLWk2RlNLSDhGQUhFc05PM3d1amdndm5qeXptVjVLSkd2SWNBMTZnX2VXVGkzUTR5ZUpJN2pxcWc5dExpT2J1QVc0Zw?oc=5"
+              "name": "웹이코노미",
+              "title": "괴산와유아트센터 첫 전시, 제4회 괴산미술협회전 개막",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMdEdsWHU3UFl6ZjJESEprdnFkeTIxenpJdnhaV3FDQnBjQVZkdHhNLWlWdEw5VjNmSTFjTk5OTHZBZHV2c3lqWHlPSkV6M1I1cmJCOFc4b0ZmMnlpODhXcnVsWV8yNW1JdUN2QzlGS1F3QQ?oc=5"
             },
             {
-              "name": "조선일보",
-              "title": "'암살자(들)', 17일째 한국영화 박스오피스 1위..흔들림 없는 흥행 증명 [공식]",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPekpyV2dQUzJRcDJkM3lTWUgzTkJjZE9EN0VRMHZ1YnVLRVB3TUo5dmgwTWhyTkhjWktBYTJRN0RqMEtsRmJSbDM2d0RRR3dXQjREYkQ2dnhvYTRXRnRUWVF5VzZXaXVMMDJfbUdoVnN0aGd3NjRrMkR3eGVBX0RRWUpNQ1NHc0hOYVE?oc=5"
+              "name": "중도일보",
+              "title": "괴산미술협회 정기전, 와유아트센터서 개막",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3dG0zSklKRnREOGxENHk2LUlDTkREd3NLcXlGUkViN0E3c1BKUW5iUWlnNzZDRWdEUW5oR0VEcm15YkZ6RGlVRHZVeGstdlBQOFdUaGxzWVdJMndLU2I1dGlOeXZVRGdISTlzaw?oc=5"
             }
           ]
         }
@@ -494,6 +414,36 @@
       "id": "sports",
       "name": "스포츠",
       "items": [
+        {
+          "headline": "장애인아시안게임 대표팀, 나고야 선수촌 입촌…본격 일정 시작",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802150",
+          "original_title": "장애인아시안게임 대표팀, 나고야 선수촌 입촌…본격 일정 시작",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "장애인아시안게임 대표팀, 나고야 선수촌 입촌…본격 일정 시작",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802150"
+            },
+            {
+              "name": "뉴시스",
+              "title": "한국 장애인대표팀, 나고야 장애인아시안게임 선수촌 입촌",
+              "link": "https://www.newsis.com/view/NISX20261017_0003829968"
+            },
+            {
+              "name": "연합뉴스 한민족센터",
+              "title": "장애인대표팀, 나고야 장애인아시안게임 선수촌 입촌…준비 끝",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oRnZpYVdJblc3Rl9RRzk0STVqeWJOWkh6bHNuMG5iYU1QTWpCSkZYN0REVHp4SExFamxDNnVyNS1aNGdSS19NYmFuTG1MTWhwdmZDalBNcmlwSHk5b3Mwam9teExKVUZuQXRZMVVKYUxpVk5S?oc=5"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "장애인대표팀, 나고야 장애인아시안게임 선수촌 입촌…준비 끝",
+              "link": "https://www.yna.co.kr/view/AKR20261017029500007"
+            }
+          ]
+        },
         {
           "headline": "[전국체전] AG 펜싱 2관왕 오상욱, 남자 사브르 개인전 2연패(종합)",
           "summary": "",
@@ -530,55 +480,126 @@
   "ootd": {
     "looks": [
       {
-        "id": "daily",
-        "label": "데일리",
-        "title": "가디건 한 겹의 온도",
-        "keyword": "소프트 레이어드",
+        "id": "women",
+        "label": "여성",
+        "title": "트렌치와 니트",
+        "keyword": "소프트 캐주얼",
         "items": [
           {
             "category": "outer",
-            "name": "오트밀 니트 가디건",
-            "color": "오트밀",
-            "hex": "#D9CBB3",
-            "en": "oatmeal knit cardigan"
+            "name": "카멜 트렌치코트",
+            "color": "카멜",
+            "hex": "#C19A6B",
+            "en": "camel trench coat"
           },
           {
             "category": "top",
-            "name": "화이트 크루넥 티",
-            "color": "화이트",
-            "hex": "#F4F2EC",
-            "en": "white crew-neck t-shirt"
+            "name": "크림 컬러 니트",
+            "color": "크림",
+            "hex": "#FFFDD0",
+            "en": "cream knit sweater"
           },
           {
             "category": "bottom",
-            "name": "인디고 스트레이트 데님",
-            "color": "인디고",
-            "hex": "#2F4A6D",
-            "en": "indigo straight-leg jeans"
+            "name": "블루진 스키니",
+            "color": "블루",
+            "hex": "#1E3A5F",
+            "en": "blue skinny jeans"
           },
           {
             "category": "shoes",
-            "name": "그레이 스웨이드 스니커즈",
-            "color": "그레이",
-            "hex": "#9A9690",
-            "en": "grey suede sneakers"
+            "name": "블랙 로퍼",
+            "color": "블랙",
+            "hex": "#000000",
+            "en": "black leather loafers"
+          },
+          {
+            "category": "bag",
+            "name": "베이지 토트백",
+            "color": "베이지",
+            "hex": "#F5DEB3",
+            "en": "beige tote bag"
+          },
+          {
+            "category": "scarf",
+            "name": "카멜 스카프",
+            "color": "카멜",
+            "hex": "#C19A6B",
+            "en": "camel scarf"
           }
         ],
-        "tip": "아침저녁 쌀쌀할 땐 벗기 쉬운 가디건이 정답이다. 단추를 반쯤 풀어 여유 있게.",
-        "photo": "looks/2026-10-17-daily.jpg",
-        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A man in his 30s with an average build wearing oatmeal knit cardigan, white crew-neck t-shirt, indigo straight-leg jeans, grey suede sneakers. Standing on a quiet Seoul city sidewalk, overcast soft grey daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+        "tip": "트렌치와 니트의 두 겹으로 온도 차를 조절하고, 베이지 토트백으로 실용성을 더한다.",
+        "photo": "looks/2026-10-17-women.jpg",
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A woman in her 30s with a slim build wearing camel trench coat, cream knit sweater, blue skinny jeans, black leather loafers, beige tote bag, camel scarf. Standing on a quiet Seoul city sidewalk, overcast soft grey daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
+      },
+      {
+        "id": "men",
+        "label": "남성",
+        "title": "블루 와이셔츠와 트렌치",
+        "keyword": "지중해 라이트",
+        "items": [
+          {
+            "category": "outer",
+            "name": "네이비 트렌치코트",
+            "color": "네이비",
+            "hex": "#000080",
+            "en": "navy trench coat"
+          },
+          {
+            "category": "top",
+            "name": "화이트 셔츠",
+            "color": "화이트",
+            "hex": "#FFFFFF",
+            "en": "white button-down shirt"
+          },
+          {
+            "category": "bottom",
+            "name": "그레이 슬랙스",
+            "color": "그레이",
+            "hex": "#A9A9A9",
+            "en": "gray tailored slacks"
+          },
+          {
+            "category": "shoes",
+            "name": "브라운 로퍼",
+            "color": "브라운",
+            "hex": "#8B4513",
+            "en": "brown leather loafers"
+          },
+          {
+            "category": "bag",
+            "name": "그레이 백팩",
+            "color": "그레이",
+            "hex": "#808080",
+            "en": "gray backpack"
+          },
+          {
+            "category": "hat",
+            "name": "베이지 베레모",
+            "color": "베이지",
+            "hex": "#F5DEB3",
+            "en": "beige beret"
+          }
+        ],
+        "tip": "트렌치코트와 와이셔츠를 겹쳐 입어 일교차를 완화하고, 베이지 베레모로 포인트를 준다.",
+        "photo": "looks/2026-10-17-men.jpg",
+        "photo_prompt": "Fashion photo cropped at the neck: the frame starts at the base of the neck, the head and face are completely outside the top of the frame. Visible from the collarbones down to the shoes. A man in his 30s with an average build wearing navy trench coat, white button-down shirt, gray tailored slacks, brown leather loafers, gray backpack, beige beret. Standing on a quiet Seoul city sidewalk, overcast soft grey daylight. Street style snap shot on 35mm film. Fashion magazine editorial, realistic fabric texture and natural wrinkles, natural colors. No face, no head, no text, no logos, no watermark."
       }
     ],
-    "trend": null,
+    "trend": {
+      "title": "더일마, 한남동에 신규 플래그십 스토어 오픈",
+      "source": "한국섬유신문",
+      "link": "http://www.ktnews.com/news/articleView.html?idxno=149400"
+    },
     "weather": {
       "city": "서울",
       "t_max": 24,
-      "t_min": 13,
+      "t_min": 12,
       "rain_pct": 0,
       "sky": "흐림",
-      "display": "서울 13~24°C · 흐림 · 강수 0%"
+      "display": "서울 12~24°C · 흐림 · 강수 0%"
     },
-    "by": "rule",
+    "by": "ai",
     "default": "men"
   },
   "quote": {
@@ -591,51 +612,51 @@
     "items": [
       {
         "animal": "쥐",
-        "text": "오늘은 작은 기회가 나타난다"
+        "text": "새로운 아이디어가 번쩍 떠오르네"
       },
       {
         "animal": "소",
-        "text": "배려가 빛나는 순간이 찾아온다"
+        "text": "친구와의 작은 모임이 즐거워질 거야"
       },
       {
         "animal": "호랑이",
-        "text": "새로운 아이디어가 심장을 뛰게 할까"
+        "text": "힘찬 발걸음이 오늘을 이끈다"
       },
       {
         "animal": "토끼",
-        "text": "카페에서 여유를 찾는 날"
+        "text": "하루의 작은 사과가 큰 기쁨을 주네"
       },
       {
         "animal": "용",
-        "text": "용기 있게 한 걸음을 나서세요"
+        "text": "창의력이 꽃피는 순간이 찾아온다"
       },
       {
         "animal": "뱀",
-        "text": "세상은 늘 긴장감보다 화합을 요구해"
+        "text": "조용한 집중이 큰 성과를 낼 수 있다"
       },
       {
         "animal": "말",
-        "text": "마음의 소리가 곧 길을 안내합니다"
+        "text": "새로운 길이 열려, 도전해보자"
       },
       {
         "animal": "양",
-        "text": "꿈을 꾸는 시간을 충분히 가져보세요"
+        "text": "따뜻한 웃음이 주변을 밝힌다"
       },
       {
         "animal": "원숭이",
-        "text": "학습이 즐거워질 때, 분명 보람이 있겠지"
+        "text": "유머 감각이 빛나는 순간이야"
       },
       {
         "animal": "닭",
-        "text": "으뜸 솜씨로 하루를 마무리하면 마음에 평화"
+        "text": "새벽의 맑은 공기가 기분을 상쾌하게 한다"
       },
       {
         "animal": "개",
-        "text": "함께 있으면 든든한 기운이 이어집니다"
+        "text": "소중한 사람과의 대화가 풍성해질 거야"
       },
       {
         "animal": "돼지",
-        "text": "소소한 즐거움이 오늘을 빛낸다"
+        "text": "달콤한 계획이 실행에 옮겨질 것이다"
       }
     ]
   },
