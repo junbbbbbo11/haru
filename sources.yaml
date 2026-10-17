@@ -17,39 +17,9 @@ trends:
   max_keywords: 10        # 상위 몇 개 검색어를 후보로 볼지
   news_per_keyword: 6     # 검색어마다 관련 기사 몇 개를 붙일지
 
+# 섹션은 아래에 적힌 순서대로 수집·편집되고, 페이지에도 이 순서로 나옵니다.
+# (순서를 바꾸려면 섹션 블록을 통째로 위아래로 옮기세요. 시간이 모자란 날은 위쪽 섹션부터 AI 요약을 받습니다.)
 sections:
-  - id: domestic
-    name: 국내
-    feeds:
-      - name: 구글 뉴스 · 국내
-        url: https://news.google.com/rss/headlines/section/topic/NATION?hl=ko&gl=KR&ceid=KR:ko
-      - name: 연합뉴스
-        url: https://www.yna.co.kr/rss/politics.xml
-      - name: 연합뉴스
-        url: https://www.yna.co.kr/rss/society.xml
-      - name: SBS 뉴스
-        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01
-      - name: 동아일보
-        url: https://rss.donga.com/total.xml
-      - name: 경향신문
-        url: https://www.khan.co.kr/rss/rssdata/total_news.xml
-    search: []
-
-  - id: world
-    name: 국제
-    feeds:
-      - name: 구글 뉴스 · 국제
-        url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko
-      - name: 연합뉴스
-        url: https://www.yna.co.kr/rss/international.xml
-      - name: 동아일보
-        url: https://rss.donga.com/international.xml
-      - name: SBS 뉴스
-        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07
-      - name: 뉴시스
-        url: https://newsis.com/RSS/international.xml
-    search: []
-
   - id: economy
     name: 경제·금융
     feeds:
@@ -68,21 +38,6 @@ sections:
       - name: 뉴시스
         url: https://newsis.com/RSS/economy.xml
     search: []
-
-  - id: tech
-    name: 테크
-    feeds:
-      - name: 구글 뉴스 · 과학/기술
-        url: https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko
-      - name: 전자신문
-        url: https://rss.etnews.com/Section901.xml
-      - name: ZDNet Korea
-        url: https://feeds.feedburner.com/zdkorea
-      - name: 블로터
-        url: https://www.bloter.net/rss/allArticle.xml
-    search:
-      - 인공지능 AI 서비스
-      - 스마트폰 신제품
 
   - id: fashion
     name: 패션
@@ -127,6 +82,53 @@ sections:
       - 리빙 인테리어
       - 맛집 디저트 팝업
       - 웰니스
+
+  - id: domestic
+    name: 국내
+    feeds:
+      - name: 구글 뉴스 · 국내
+        url: https://news.google.com/rss/headlines/section/topic/NATION?hl=ko&gl=KR&ceid=KR:ko
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/politics.xml
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/society.xml
+      - name: SBS 뉴스
+        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01
+      - name: 동아일보
+        url: https://rss.donga.com/total.xml
+      - name: 경향신문
+        url: https://www.khan.co.kr/rss/rssdata/total_news.xml
+    search: []
+
+  - id: world
+    name: 국제
+    feeds:
+      - name: 구글 뉴스 · 국제
+        url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=ko&gl=KR&ceid=KR:ko
+      - name: 연합뉴스
+        url: https://www.yna.co.kr/rss/international.xml
+      - name: 동아일보
+        url: https://rss.donga.com/international.xml
+      - name: SBS 뉴스
+        url: https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07
+      - name: 뉴시스
+        url: https://newsis.com/RSS/international.xml
+    search: []
+
+  - id: tech
+    name: 테크
+    feeds:
+      - name: 구글 뉴스 · 과학/기술
+        url: https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ko&gl=KR&ceid=KR:ko
+      - name: 전자신문
+        url: https://rss.etnews.com/Section901.xml
+      - name: ZDNet Korea
+        url: https://feeds.feedburner.com/zdkorea
+      - name: 블로터
+        url: https://www.bloter.net/rss/allArticle.xml
+    search:
+      - 인공지능 AI 서비스
+      - 스마트폰 신제품
 
   - id: culture
     name: 문화

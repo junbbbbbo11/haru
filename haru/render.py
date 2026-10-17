@@ -17,17 +17,17 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .config import DATA_DIR, ROOT, WEEKDAYS
+from .config import DATA_DIR, ROOT, WEEKDAYS, load_sources
 
 log = logging.getLogger("haru.render")
 SITE_DIR = ROOT / "site"
 
 # 섹션별 포인트 컬러(라이트/다크), 영문 라벨, 지면 레이아웃
 SECTION_STYLE = {
-    "domestic":  {"en": "Nation",    "light": "#1f3a5f", "dark": "#93b4dc", "layout": "classic"},
+    "domestic":  {"en": "Nation",    "light": "#1f3a5f", "dark": "#93b4dc", "layout": "pull"},
     "world":     {"en": "World",     "light": "#2d5b4e", "dark": "#86c2ae", "layout": "split"},
     "economy":   {"en": "Money",     "light": "#8a6a12", "dark": "#e0c26e", "layout": "tint"},
-    "tech":      {"en": "Tech",      "light": "#3b39c9", "dark": "#a9a7ff", "layout": "pull"},
+    "tech":      {"en": "Tech",      "light": "#3b39c9", "dark": "#a9a7ff", "layout": "classic"},
     "fashion":   {"en": "Fashion",   "light": "#a8123a", "dark": "#ff8aa5", "layout": "block"},
     "beauty":    {"en": "Beauty",    "light": "#b8506f", "dark": "#f2a7bf", "layout": "tint"},
     "lifestyle": {"en": "Living",    "light": "#5f7330", "dark": "#bcd27e", "layout": "classic"},
@@ -58,14 +58,28 @@ def _env() -> Environment:
     return env
 
 
+def section_order() -> list[str]:
+    """sources.yaml 에 적힌 섹션 순서 (페이지 표시 순서의 기준)."""
+    try:
+        return [s["id"] for s in load_sources().get("sections", [])]
+    except Exception:
+        log.exception("sources.yaml 읽기 실패 → 저장된 순서 그대로 표시")
+        return []
+
+
 def load_editions() -> list[dict]:
     editions = []
+    order = {sid: i for i, sid in enumerate(section_order())}
     for p in sorted(DATA_DIR.glob("????-??-??.json")):
         try:
             with open(p, encoding="utf-8") as f:
-                editions.append(json.load(f))
+                e = json.load(f)
         except Exception:
             log.exception("%s 읽기 실패 → 건너뜀", p.name)
+            continue
+        # 지난 호도 현재 순서로 보여 준다 (목록에 없는 섹션은 맨 뒤, 원래 순서 유지)
+        e["sections"] = sorted(e.get("sections", []), key=lambda sec: order.get(sec["id"], 999))
+        editions.append(e)
     return editions
 
 
