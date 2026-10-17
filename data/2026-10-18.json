@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-18",
+  "weekday": "일요일",
+  "vol": 6,
+  "generated_at": "2026-10-18T07:06:28+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
+      "direction": "up",
+      "display": "5,668.05",
+      "change_display": "▲ 2.05%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1329.6,
+      "change": -11.3,
+      "change_pct": -0.85,
+      "direction": "down",
+      "display": "1,329.6원",
+      "change_display": "▼ 0.85%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 110057000.0,
+      "change": -219000.0,
+      "change_pct": -0.2,
+      "direction": "down",
+      "display": "11,006만원",
+      "change_display": "▼ 0.20%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 22,
+    "t_min": 14,
+    "rain_pct": 100,
+    "sky": "비",
+    "display": "서울 14~22°C · 비 · 강수 100%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "태풍",
+      "headline": "30호 태풍 ‘참피’, 북상 서쪽 조정",
+      "summary": "30호 태풍 ‘참피’가 북상 중 관련 관측은 경로를 서쪽으로 조정해 22일 오키나와 남남서쪽 진입으로 예상한다.",
+      "source": "톱스타뉴스",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249891",
+      "original_title": "제30호 태풍 참피 경로 서쪽 조정…22일 오키나와 남남서쪽",
+      "sources": [
+        {
+          "name": "톱스타뉴스",
+          "title": "제30호 태풍 참피 경로 서쪽 조정…22일 오키나와 남남서쪽",
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249891"
+        },
+        {
+          "name": "연합뉴스TV",
+          "title": "30호 태풍 ’참피’ 북상 중…“경로 유동적“",
+          "link": "https://www.yonhapnewstv.co.kr/news/MYH20261016045146uca"
+        },
+        {
+          "name": "매일신문",
+          "title": "30호 태풍 참피, 하루 만에 대만 쪽으로 틀어…예상경로 또 변동, `강도 4` 전망은 유지",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PRTN2SWJrVTZUdkhJZXd5V19UNmZ0RDJXRnVxRmFTcjFka0dSYXUtRjhzVnJaamhnbXNnWVI2a0ZLVEFCZmpTLUJvTVgxbGF0TE01d2cyM3lLYldDaUNQRGpR?oc=5"
+        }
+      ]
+    },
+    {
+      "kicker": "축구",
+      "headline": "김민재, 아스널 이적설 제기",
+      "summary": "바이에른 뮌헨에서 아스널로의 이적설이 제기돼 양 팀 관계자들이 입장을 밝혔으며 선수 이동 가능성을 논의하고 있다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261017_0003829958",
+      "original_title": "축구 국가대표 수비수 김민재, 'EPL 챔피언' 아스널 이적설",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "축구 국가대표 수비수 김민재, 'EPL 챔피언' 아스널 이적설",
+          "link": "https://www.newsis.com/view/NISX20261017_0003829958"
+        },
+        {
+          "name": "뉴스핌",
+          "title": "'국가대표 수비수' 김민재, 獨 바이에른 뮌헨→英 아스널 이적설",
+          "link": "https://www.newspim.com/news/view/20261017000083"
+        }
+      ]
+    },
+    {
+      "kicker": "주택",
+      "headline": "상생임대, 전세금 인상 우려",
+      "summary": "상생임대 정책이 적용돼도 전세금이 오르지 않는 상황이 지속되며, 정부가 추가 조치를 검토할 가능성이 제기되고 있다.",
+      "source": "한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yTHZ3Wm5sZ2pGNkROSGxOTER1dVQxQUxpRGV0LVZhak1sdDljSWVUZ1BwMmpNcVl2NHpKR200dkFKOWNnaHJfdEtEOUwzbWxoeVBfWm43bW5NQQ?oc=5",
+      "original_title": "상생임대 믿고 전세금 안 올렸는데, 이제는 집을 팔라고요? [김용우의 각개전투]",
+      "sources": [
+        {
+          "name": "한국경제",
+          "title": "상생임대 믿고 전세금 안 올렸는데, 이제는 집을 팔라고요? [김용우의 각개전투]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yTHZ3Wm5sZ2pGNkROSGxOTER1dVQxQUxpRGV0LVZhak1sdDljSWVUZ1BwMmpNcVl2NHpKR200dkFKOWNnaHJfdEtEOUwzbWxoeVBfWm43bW5NQQ?oc=5"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "금통위 기준금리 3.00% 금리 인상 11월 시점",
+          "summary": "한국은행 금융통화위원회가 현재 3.00% 기준금리를 유지하며 금리 인상을 11월에 시행할 가능성을 전망했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261017017500002",
+          "original_title": "\"10월 넘기고 11월에\"…전문가들, 금리 인상 '숨고르기' 전망",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "\"10월 넘기고 11월에\"…전문가들, 금리 인상 '숨고르기' 전망",
+              "link": "https://www.yna.co.kr/view/AKR20261017017500002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "세븐틴 정한·조슈아 명품·뷰티 브랜드 앰배서더 발탁",
+          "summary": "세븐틴의 정한·조슈아가 명품·뷰티 브랜드의 앰배서더로 발탁됐다. 해당 브랜드는 글로벌 광고계에서 영향력을 보여준다.",
+          "source": "뉴스엔",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCOVdNZjlxV3NXZ3RpRDllOEw3V09jbm9rN0UtT3NHT0g3b0ZQMlhLSDVRUHVyMzc1NEFfYl9scHY3djRlWHp0aGtHTFpFSnh5Q1FTZW8xY0gzQjlKX2VOUlczcnAwT0Ut?oc=5",
+          "original_title": "세븐틴 정한X조슈아, 명품·뷰티 브랜드 러브콜…글로벌 광고계 존재감",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "뉴스엔",
+              "title": "세븐틴 정한X조슈아, 명품·뷰티 브랜드 러브콜…글로벌 광고계 존재감",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCOVdNZjlxV3NXZ3RpRDllOEw3V09jbm9rN0UtT3NHT0g3b0ZQMlhLSDVRUHVyMzc1NEFfYl9scHY3djRlWHp0aGtHTFpFSnh5Q1FTZW8xY0gzQjlKX2VOUlczcnAwT0Ut?oc=5"
+            },
+            {
+              "name": "BNT뉴스",
+              "title": "세븐틴 정한X조슈아, 뷰티·패션 브랜드 앰배서더 발탁",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwc21JV3VHVjM3d2hZanAycWd1YU1wM196dWJ6cENpMmtTOFNQNlVsQ2hYN2k1VktwRzVCZTgzU3BOOTA5c21UZTZqekdSUTk3YnFIWFNIaHBLZGlnQVJRUjBfRTQ?oc=5"
+            },
+            {
+              "name": "톱스타뉴스",
+              "title": "세븐틴 정한·조슈아, 명품·뷰티 잇단 발탁…광고계 접수",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04NWZZX0pQNHdOSVhIOGN4bEF1RkNfNDNQbkdOUl82NEpuNm1BdmdHdFRDXzZ5dFQ3QmJPX1FTMGF0Sl8tRmRaaU9DMlFPNjJpdG5RUk41WVFUa0tIWVVhaHQzMWFEMm9iWGtNdEtJYTFtdw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "[3신] ‘2026년 제5회 K-Beauty 수출 규제 대응 컨퍼런스’... 베라 교수 ”유해성·노출·생물학적 기전 통합체계 필요“",
+          "summary": "",
+          "source": "코스인코리아닷컴",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01em5jTVdXcUVVSHRnNy1JWFg3aHJKblpwbThUTlMySk01RnZNbGNVMTBUOWs5WVEtNmFnZVdtbmYyVVAtQVNZenRMRk5NUEdlZ3ZkemRzX0wxMUhEUENMaVVQdw?oc=5",
+          "original_title": "[3신] ‘2026년 제5회 K-Beauty 수출 규제 대응 컨퍼런스’... 베라 교수 ”유해성·노출·생물학적 기전 통합체계 필요“",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "코스인코리아닷컴",
+              "title": "[3신] ‘2026년 제5회 K-Beauty 수출 규제 대응 컨퍼런스’... 베라 교수 ”유해성·노출·생물학적 기전 통합체계 필요“",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01em5jTVdXcUVVSHRnNy1JWFg3aHJKblpwbThUTlMySk01RnZNbGNVMTBUOWs5WVEtNmFnZVdtbmYyVVAtQVNZenRMRk5NUEdlZ3ZkemRzX0wxMUhEUENMaVVQdw?oc=5"
+            },
+            {
+              "name": "뷰티경제",
+              "title": "AI Is Finding Overseas Buyers for K-Beauty Brands and Writing the Sales Emails",
+              "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312261"
+            },
+            {
+              "name": "브런치",
+              "title": "K-beauty Expo 2026",
+              "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzcGhGLUtHMmxUaFlWUEozZDJKSzZiOXlfZDNIRm9WeEd4UmNmblFiOTlYMTlnNzBET0hqMHRfQ0tQanMxUWc?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "“여보, 아이 과자 뺏어 먹지마”…중년, 초가공식품서 손떼야 하는 이유",
+          "summary": "",
+          "source": "농민신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbWFnNEw3cnhHOUgtX09iV2JBc2lYN2NwS3VMRVFRbEpSc3VLMVBicEdZT2ctakhKT2duTS14WlJsZFFFRENrbl9BVUZkZTFaRDdaNlhiV3ZVZw?oc=5",
+          "original_title": "“여보, 아이 과자 뺏어 먹지마”…중년, 초가공식품서 손떼야 하는 이유",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "농민신문",
+              "title": "“여보, 아이 과자 뺏어 먹지마”…중년, 초가공식품서 손떼야 하는 이유",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbWFnNEw3cnhHOUgtX09iV2JBc2lYN2NwS3VMRVFRbEpSc3VLMVBicEdZT2ctakhKT2duTS14WlJsZFFFRENrbl9BVUZkZTFaRDdaNlhiV3ZVZw?oc=5"
+            }
+          ]
+        },
+        {
+          "headline": "“살만 좀 찌겠지”하며 실컷 먹었는데…간까지 무너뜨리는 ‘올빼미 식습관’",
+          "summary": "",
+          "source": "매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vUXgwaHQ0bGFrSkF3OUlwSmhXTXc5T0t5WURPTkdQV1F3UWJSQ29yUzkzdjJqXzBRSlAxSmhGcEktOEFFNnZ1YW00cVFzZw?oc=5",
+          "original_title": "“살만 좀 찌겠지”하며 실컷 먹었는데…간까지 무너뜨리는 ‘올빼미 식습관’",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "“살만 좀 찌겠지”하며 실컷 먹었는데…간까지 무너뜨리는 ‘올빼미 식습관’",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vUXgwaHQ0bGFrSkF3OUlwSmhXTXc5T0t5WURPTkdQV1F3UWJSQ29yUzkzdjJqXzBRSlAxSmhGcEktOEFFNnZ1YW00cVFzZw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "조국혁신당, 부천 화재 소방공무원 순직 애도…“처우 개선 노력”",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261017/134859209/1",
+          "original_title": "조국혁신당, 부천 화재 소방공무원 순직 애도…“처우 개선 노력”",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "조국혁신당, 부천 화재 소방공무원 순직 애도…“처우 개선 노력”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261017/134859209/1"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "여야, 부천 화재 소방관 순직 애도…'소방 처우 개선'도 약속(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261017024851001"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "민주, 부천 화재 순직 소방관 애도…\"처우 개선 지원 힘쓸 것\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802126"
+            },
+            {
+              "name": "경향신문",
+              "title": "이대통령, 부천 화재 순직 소방관 애도…“희생 잊지 않겠다”",
+              "link": "https://www.khan.co.kr/article/202610171039001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+            }
+          ]
+        },
+        {
+          "headline": "李대통령 \"희생 영원히 기억할 것\"…부천 화재 순직 소방관 조문(종합)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261017045451001",
+          "original_title": "李대통령 \"희생 영원히 기억할 것\"…부천 화재 순직 소방관 조문(종합)",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "李대통령 \"희생 영원히 기억할 것\"…부천 화재 순직 소방관 조문(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261017045451001"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령, 부천 화재 순직 소방관 빈소 조문···“희생 영원히 기억할 것”",
+              "link": "https://www.khan.co.kr/article/202610171937001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+            },
+            {
+              "name": "동아일보",
+              "title": "[속보]李, 부천 순직 소방관 조문…“님의 희생을 영원히 기억”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261017/134859140/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "벨라루스, 북한에 대사관 개설",
+          "summary": "벨라루스 외무부가 17일 북한과 미얀마에 대사관을 개설했다고 발표했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261017/134859129/1",
+          "original_title": "‘친러’ 벨라루스, 주북대사관 개설…“北과 호혜적 관계 발전”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "‘친러’ 벨라루스, 주북대사관 개설…“北과 호혜적 관계 발전”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261017/134859129/1"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "벨라루스, 주북한대사관 개설 공식 발표…\"호혜적 관계 발전 주력\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FN3VCOXR1emFOQ0RHd2Y4RUl6R25VekFKZmxWRm1saUNQNm84ak9YVGdNYzhQUzNXOVpVakp6Um1BQU1EQVBZRjFEbDNLQXVfUDg3YmxZc3lhNlgyN2FlUHN2WWhQOUk?oc=5"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'친러' 벨라루스, 주북대사관 개설…\"北과 호혜적 관계 발전\"",
+              "link": "https://www.newsis.com/view/NISX20261017_0003830073"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "벨라루스, 주북한대사관 개설…\"호혜적 관계 발전 주력\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802292"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "벨라루스, 주북한대사관 개설…\"호혜적 관계 발전 주력\"",
+              "link": "https://www.yna.co.kr/view/AKR20261017040600009"
+            }
+          ]
+        },
+        {
+          "headline": "젤렌스키, 미국·러시아·우크라 회담 가능성 언급",
+          "summary": "젤렌스키 대통령은 미국이 러시아와 우크라이나 간 3자 정상회담을 제안 중이며, 회담 장소를 검토하고 있다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261017/134859241/1",
+          "original_title": "젤렌스키 “미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "젤렌스키 “미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261017/134859241/1"
+            },
+            {
+              "name": "뉴시스",
+              "title": "젤렌스키 \"미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것\"",
+              "link": "https://www.newsis.com/view/NISX20261017_0003830149"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "젤렌스키 \"G20 정상회의 기간에 미·러와 3자 회담 희망\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802410"
+            },
+            {
+              "name": "조선비즈",
+              "title": "젤렌스키 “G20 정상회의 중, 미·러 3자 회담 열릴 수도”",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2EzaHFNTEtSa2k3aDh5OTRCM01Ma1pUVnpsc2pzdDJPVmVUWm1SZ3c3NUFETllULWlFSmE4T2xSZkswUEt2ajNMeF91SVUzN293OHl6Mi1iazMtTnBTUnA0a3hHSTI5eW5zZl8xU05LUS03ZUdiVmVPWU5tdEotb1B6ZjJKZ21OYWc5VktSOWkwcTNRMUhCRXlfano4d9IBsgFBVV95cUxOVWZNdURidFVyUkFPeVZhNWgyVWxiWTJTOWhJXzIwWjBpWE1vbWVVUHlyd1NHcHh4ZDRRZkJtVHhDaVlqMkMtdnJiay10bEI2cDZhOXNXVkk3bUJMTHR4cTJQcTh4MHA3bldQVlVzV0FGamI3WXgyNTl1T1JjeFY1a1dfZ3JpYnBhOTJkY3V6RVNDN3BjVWp3UmJzbzFDQ2pMMnBBckpLVFdFRk96MEI4dDd3?oc=5"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
+              "link": "https://www.yna.co.kr/view/AKR20261017047700079"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "\"눈 깜빡이면 충전\"…배터리 없는 스마트 안경 등장",
+          "summary": "",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261017095126",
+          "original_title": "\"눈 깜빡이면 충전\"…배터리 없는 스마트 안경 등장",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "\"눈 깜빡이면 충전\"…배터리 없는 스마트 안경 등장",
+              "link": "https://zdnet.co.kr/view/?no=20261017095126"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "\"눈 깜빡이면 충전\"…배터리 없는 스마트 안경 등장",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OTEFoeVBRTWJPX2tUZ2UyOHd2MkZpZm91OVl0QUpRb0pGWlBsOHJUWE5fRnViNkxSU21nV1dhWkt1M2QtVjlaSXlueWZpVUF6NVRqNzhB?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "영화 ‘암살자(들)’, 313만 관객 돌파…한국영화 18일 연속 1위",
+          "summary": "",
+          "source": "K스피릿",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LMzMtZnhFQlJYRXRVRTc1bjdueExqTjB5SERYMlBiQjRkM1JlZ0FzTEVBclk2Ykk2TlNBN1NTV0doUDVfdmJSS0I2c1RuSHZEcFhmZVloZUJ1a25VNTA2V011WEZOSWd3b3NhU29ZONIBc0FVX3lxTE84MWE1a2tzSWZxVF9vbm53ZElycGdPU1pmMHpSWl9DZkhoRDFjQ2J2LTIxVDBxcm95WEsxN3R4LXFlb2hoSmFkMHdkemxhb2hIejMwWk42NnV1cDNzR1FyV1d0TDUzSnhtaTRpTGxCcUxDc1E?oc=5",
+          "original_title": "영화 ‘암살자(들)’, 313만 관객 돌파…한국영화 18일 연속 1위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "K스피릿",
+              "title": "영화 ‘암살자(들)’, 313만 관객 돌파…한국영화 18일 연속 1위",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LMzMtZnhFQlJYRXRVRTc1bjdueExqTjB5SERYMlBiQjRkM1JlZ0FzTEVBclk2Ykk2TlNBN1NTV0doUDVfdmJSS0I2c1RuSHZEcFhmZVloZUJ1a25VNTA2V011WEZOSWd3b3NhU29ZONIBc0FVX3lxTE84MWE1a2tzSWZxVF9vbm53ZElycGdPU1pmMHpSWl9DZkhoRDFjQ2J2LTIxVDBxcm95WEsxN3R4LXFlb2hoSmFkMHdkemxhb2hIejMwWk42NnV1cDNzR1FyV1d0TDUzSnhtaTRpTGxCcUxDc1E?oc=5"
+            },
+            {
+              "name": "BNT뉴스",
+              "title": "‘암살자(들)’ 18일 연속 한국영화 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15WjI4NElzdUFBYUl6YXo5eWZFMnBQVFJoX0FDOEdLYklYLVFxQ0JXMHFIeTZmbC1tQzRaaG5XZlNKRDloS0l6OFVIQmJCRldtd1NiUzY2QXZKMXBENHNWOGRDUXE?oc=5"
+            },
+            {
+              "name": "스포츠월드",
+              "title": "‘암살자(들)’ 18일째 한국영화 1위…개봉 4주차에도 버티는 이유",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmLXZKbWc2bnFVMWVGdVMzSW9YZEhXY1ozUTVYX0N6WEd3aHc2amNVTXBGTjBkdWp2b0tqUEk0ejYxLTJLQXlzSzNtR3hvVWwzMl9ibnBxYVdSbE5FQ3Z6T01n?oc=5"
+            },
+            {
+              "name": "MBC",
+              "title": "‘암살자(들)’ 18일 연속 한국영화 1위…꺾이지 않는 흥행 파워",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcUItd054Nm5BdkFDbEJCUS1qV19FemFraWpWcFlfeXlhYnR6b1dmVF9yX25DQ3I4UE1YV0xIejJPQlg3d1ZWaDdRaTFfbTA2UUtxOFFkN1dpRjlpcnR1NFVkUQ?oc=5"
+            },
+            {
+              "name": "한국사회복지저널",
+              "title": "‘암살자(들)’ 18일 연속 한국영화 1위…누적 관객 313만명",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92bnRBUzhCeldaVnVhai0xYVpJOUZzZ3dSeHdTTm1tUWdBaVoycDB0SUdaMGUtLTNSclVRNlh1QnFNVW9LakU0Qy1teWd0MnNFYlZKbHdLckFWdUZFVFRTZHpmV1RPVlRBZ044?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "GS칼텍스·K도로공사, V리그 여자부 결전",
+          "summary": "2026 여수에서 GS칼텍스와 한국도로공사는 V리그 여자부 챔피언결정전에서 경쟁했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802381",
+          "original_title": "한국도로공사, 챔프전 내줬던 GS칼텍스와 컵대회 맞대결",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "한국도로공사, 챔프전 내줬던 GS칼텍스와 컵대회 맞대결",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802381"
+            },
+            {
+              "name": "뉴시스",
+              "title": "여자배구 GS칼텍스, 컵대회 결승행…한국도로공사와 격돌(종합)",
+              "link": "https://www.newsis.com/view/NISX20261017_0003830048"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "[프로배구] GS칼텍스, 도로공사와 컵대회 결승 격돌...지난 시즌 챔프전 리매치",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QY1RvN25xdlU0VHpLZ0FiWnFOaUx5TzBsWlViNkg2cFBwekFqYVp2NGtLa05ON2NVVk9pMHNoSzB3OWJKald3T2U0UlRibGh1YkxQYXJnbEtGb01r?oc=5"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "GS칼텍스-도로공사 컵대회 결승 진출…'챔프전 리턴매치'(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261017036651007"
+            }
+          ]
+        },
+        {
+          "headline": "삼성 프로농구, DB상대로 개막 5연승 달렸다",
+          "summary": "이번 시즌 최하위였던 삼성은 DB를 제압하며 프로농구 개막 5연승을 기록했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802317",
+          "original_title": "'우승 후보'도 꺾었다…삼성, 개막 5연승 질주",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'우승 후보'도 꺾었다…삼성, 개막 5연승 질주",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802317"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "프로농구 삼성, 파죽의 개막 5연승…'우승후보 1순위' DB도 제압(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261017037351007"
+            },
+            {
+              "name": "동아일보",
+              "title": "프로농구 삼성, ‘우승 후보’ DB까지 제압…개막 5연승",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0ySE1uTU9waUdxSkZwbWJ4T1l3QkVPN1BmRUZYZ0prSmZTQkhnUWQ2QV9QemdFSTNWcHlZeC1SR0ljX01xYzFXQUVVZFg1XzVReXotOEdCaXRValNISTFwNXRZejF0amlYdWVPc2w2dERSeThL0gFmQVVfeXFMT1I0dTVySllfRmJCTVluN1BNSVpCT1gzak1lR1BDcEdOUEQ4dTBnR3JSaWt0ZGpGQ3B2N29UWVlHVXEwUDlnVXc1aS1vdFNxbFJfT0JDdkRlYzJIbldXdUFRRFF5TTNn?oc=5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "유행 안타는 기본 롱 부츠, 신상처럼 스타일링하기",
+    "tagline": "W Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 22,
+      "t_min": 14,
+      "rain_pct": 100,
+      "sky": "비",
+      "display": "서울 14~22°C · 비 · 강수 100%"
+    },
+    "articles": [
+      {
+        "title": "유행 안타는 기본 롱 부츠, 신상처럼 스타일링하기",
+        "source": "W Korea",
+        "link": "https://www.wkorea.com/2026/10/17/%ec%9c%a0%ed%96%89-%ec%95%88%ed%83%80%eb%8a%94-%ea%b8%b0%eb%b3%b8-%eb%a1%b1-%eb%b6%80%ec%b8%a0-%ec%8b%a0%ec%83%81%ec%b2%98%eb%9f%bc-%ec%8a%a4%ed%83%80%ec%9d%bc%eb%a7%81%ed%95%98%ea%b8%b0/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "나는 생각한다, 그러므로 나는 존재한다.",
+    "author": "데카르트",
+    "work": "방법서설"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 바람을 불러올 준비가 되어 있다"
+      },
+      {
+        "animal": "소",
+        "text": "안정적인 하루가 당신을 감싸고 있다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전정신이 가득해 오늘도 최선을 다한다"
+      },
+      {
+        "animal": "토끼",
+        "text": "편안한 분위기 속에서 작은 기쁨을 나눈다"
+      },
+      {
+        "animal": "용",
+        "text": "배우고 배울 수 있는 기회가 눈앞에 있다"
+      },
+      {
+        "animal": "뱀",
+        "text": "신중한 선택이 하루를 더 풍요롭게 만든다"
+      },
+      {
+        "animal": "말",
+        "text": "활기찬 에너지가 주변에 활력을 준다"
+      },
+      {
+        "animal": "양",
+        "text": "협력으로 일에 높은 만족을 느낀다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 대화를 부드럽게 한다"
+      },
+      {
+        "animal": "닭",
+        "text": "책임감이 웃음을 이끄는 열쇠가 된다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 깊어져 관계가 한층 단단해진다"
+      },
+      {
+        "animal": "돼지",
+        "text": "감사와 배려가 인연을 더욱 풍성하게 만든다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
