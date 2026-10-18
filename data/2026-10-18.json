@@ -61,17 +61,21 @@
         {
           "name": "톱스타뉴스",
           "title": "제30호 태풍 참피 경로 서쪽 조정…22일 오키나와 남남서쪽",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249891"
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249891",
+          "image": "https://cdn.topstarnews.net/news/photo/202610/16249891_2058317_5321_crop.jpg"
         },
         {
           "name": "연합뉴스TV",
           "title": "30호 태풍 ’참피’ 북상 중…“경로 유동적“",
-          "link": "https://www.yonhapnewstv.co.kr/news/MYH20261016045146uca"
+          "link": "https://www.yonhapnewstv.co.kr/news/MYH20261016045146uca",
+          "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261015/MYH20261016045146uca.jpg"
         },
         {
           "name": "매일신문",
           "title": "30호 태풍 참피, 하루 만에 대만 쪽으로 틀어…예상경로 또 변동, `강도 4` 전망은 유지",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PRTN2SWJrVTZUdkhJZXd5V19UNmZ0RDJXRnVxRmFTcjFka0dSYXUtRjhzVnJaamhnbXNnWVI2a0ZLVEFCZmpTLUJvTVgxbGF0TE01d2cyM3lLYldDaUNQRGpR?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PRTN2SWJrVTZUdkhJZXd5V19UNmZ0RDJXRnVxRmFTcjFka0dSYXUtRjhzVnJaamhnbXNnWVI2a0ZLVEFCZmpTLUJvTVgxbGF0TE01d2cyM3lLYldDaUNQRGpR?oc=5",
+          "image": "https://www.imaeil.com/photos/2026/10/17/2026101714544293629_l.png",
+          "url": "https://www.imaeil.com/page/view/2026101714545985497"
         }
       ]
     },
@@ -86,12 +90,14 @@
         {
           "name": "뉴시스",
           "title": "축구 국가대표 수비수 김민재, 'EPL 챔피언' 아스널 이적설",
-          "link": "https://www.newsis.com/view/NISX20261017_0003829958"
+          "link": "https://www.newsis.com/view/NISX20261017_0003829958",
+          "image": "https://img1.newsis.com/2026/09/03/NISI20260903_0001544279_web.jpg"
         },
         {
           "name": "뉴스핌",
           "title": "'국가대표 수비수' 김민재, 獨 바이에른 뮌헨→英 아스널 이적설",
-          "link": "https://www.newspim.com/news/view/20261017000083"
+          "link": "https://www.newspim.com/news/view/20261017000083",
+          "image": "https://img.newspim.com/news/2026/08/23/2608230826015360_357_tc.jpg"
         }
       ]
     },
@@ -106,7 +112,8 @@
         {
           "name": "한국경제",
           "title": "상생임대 믿고 전세금 안 올렸는데, 이제는 집을 팔라고요? [김용우의 각개전투]",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yTHZ3Wm5sZ2pGNkROSGxOTER1dVQxQUxpRGV0LVZhak1sdDljSWVUZ1BwMmpNcVl2NHpKR200dkFKOWNnaHJfdEtEOUwzbWxoeVBfWm43bW5NQQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yTHZ3Wm5sZ2pGNkROSGxOTER1dVQxQUxpRGV0LVZhak1sdDljSWVUZ1BwMmpNcVl2NHpKR200dkFKOWNnaHJfdEtEOUwzbWxoeVBfWm43bW5NQQ?oc=5",
+          "url": "https://www.hankyung.com/article/202610166762i"
         }
       ]
     }
@@ -127,7 +134,8 @@
             {
               "name": "연합뉴스",
               "title": "\"10월 넘기고 11월에\"…전문가들, 금리 인상 '숨고르기' 전망",
-              "link": "https://www.yna.co.kr/view/AKR20261017017500002"
+              "link": "https://www.yna.co.kr/view/AKR20261017017500002",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/08/27/PYH2026082710400001300_P4.jpg"
             }
           ]
         }
@@ -148,17 +156,22 @@
             {
               "name": "뉴스엔",
               "title": "세븐틴 정한X조슈아, 명품·뷰티 브랜드 러브콜…글로벌 광고계 존재감",
-              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCOVdNZjlxV3NXZ3RpRDllOEw3V09jbm9rN0UtT3NHT0g3b0ZQMlhLSDVRUHVyMzc1NEFfYl9scHY3djRlWHp0aGtHTFpFSnh5Q1FTZW8xY0gzQjlKX2VOUlczcnAwT0Ut?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCOVdNZjlxV3NXZ3RpRDllOEw3V09jbm9rN0UtT3NHT0g3b0ZQMlhLSDVRUHVyMzc1NEFfYl9scHY3djRlWHp0aGtHTFpFSnh5Q1FTZW8xY0gzQjlKX2VOUlczcnAwT0Ut?oc=5",
+              "url": "https://m.newsen.com/news_view.php?uid=202610171133362410"
             },
             {
               "name": "BNT뉴스",
               "title": "세븐틴 정한X조슈아, 뷰티·패션 브랜드 앰배서더 발탁",
-              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwc21JV3VHVjM3d2hZanAycWd1YU1wM196dWJ6cENpMmtTOFNQNlVsQ2hYN2k1VktwRzVCZTgzU3BOOTA5c21UZTZqekdSUTk3YnFIWFNIaHBLZGlnQVJRUjBfRTQ?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwc21JV3VHVjM3d2hZanAycWd1YU1wM196dWJ6cENpMmtTOFNQNlVsQ2hYN2k1VktwRzVCZTgzU3BOOTA5c21UZTZqekdSUTk3YnFIWFNIaHBLZGlnQVJRUjBfRTQ?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/17/bnt202610170144.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202610170091"
             },
             {
               "name": "톱스타뉴스",
               "title": "세븐틴 정한·조슈아, 명품·뷰티 잇단 발탁…광고계 접수",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04NWZZX0pQNHdOSVhIOGN4bEF1RkNfNDNQbkdOUl82NEpuNm1BdmdHdFRDXzZ5dFQ3QmJPX1FTMGF0Sl8tRmRaaU9DMlFPNjJpdG5RUk41WVFUa0tIWVVhaHQzMWFEMm9iWGtNdEtJYTFtdw?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04NWZZX0pQNHdOSVhIOGN4bEF1RkNfNDNQbkdOUl82NEpuNm1BdmdHdFRDXzZ5dFQ3QmJPX1FTMGF0Sl8tRmRaaU9DMlFPNjJpdG5RUk41WVFUa0tIWVVhaHQzMWFEMm9iWGtNdEtJYTFtdw?oc=5",
+              "image": "https://cdn.topstarnews.net/news/photo/202610/16249597_2057978_1130_crop.jpg",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249597"
             }
           ]
         }
@@ -179,17 +192,21 @@
             {
               "name": "코스인코리아닷컴",
               "title": "[3신] ‘2026년 제5회 K-Beauty 수출 규제 대응 컨퍼런스’... 베라 교수 ”유해성·노출·생물학적 기전 통합체계 필요“",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01em5jTVdXcUVVSHRnNy1JWFg3aHJKblpwbThUTlMySk01RnZNbGNVMTBUOWs5WVEtNmFnZVdtbmYyVVAtQVNZenRMRk5NUEdlZ3ZkemRzX0wxMUhEUENMaVVQdw?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01em5jTVdXcUVVSHRnNy1JWFg3aHJKblpwbThUTlMySk01RnZNbGNVMTBUOWs5WVEtNmFnZVdtbmYyVVAtQVNZenRMRk5NUEdlZ3ZkemRzX0wxMUhEUENMaVVQdw?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261042/art_17922172040207_643cbf.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58528"
             },
             {
               "name": "뷰티경제",
               "title": "AI Is Finding Overseas Buyers for K-Beauty Brands and Writing the Sales Emails",
-              "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312261"
+              "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312261",
+              "image": "https://cdn.thebk.co.kr/news/photo/202610/312261_82759_220.png"
             },
             {
               "name": "브런치",
               "title": "K-beauty Expo 2026",
-              "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzcGhGLUtHMmxUaFlWUEozZDJKSzZiOXlfZDNIRm9WeEd4UmNmblFiOTlYMTlnNzBET0hqMHRfQ0tQanMxUWc?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzcGhGLUtHMmxUaFlWUEozZDJKSzZiOXlfZDNIRm9WeEd4UmNmblFiOTlYMTlnNzBET0hqMHRfQ0tQanMxUWc?oc=5",
+              "url": "https://brunch.co.kr/@@1QMm/718"
             }
           ]
         }
@@ -210,7 +227,9 @@
             {
               "name": "농민신문",
               "title": "“여보, 아이 과자 뺏어 먹지마”…중년, 초가공식품서 손떼야 하는 이유",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbWFnNEw3cnhHOUgtX09iV2JBc2lYN2NwS3VMRVFRbEpSc3VLMVBicEdZT2ctakhKT2duTS14WlJsZFFFRENrbl9BVUZkZTFaRDdaNlhiV3ZVZw?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbWFnNEw3cnhHOUgtX09iV2JBc2lYN2NwS3VMRVFRbEpSc3VLMVBicEdZT2ctakhKT2duTS14WlJsZFFFRENrbl9BVUZkZTFaRDdaNlhiV3ZVZw?oc=5",
+              "image": "https://www.nongmin.com/-/raw/srv-nongmin/data2/content/image/2026/10/16/.cache/512/20261016500133.jpg",
+              "url": "https://www.nongmin.com/article/20261016500141"
             }
           ]
         },
@@ -225,7 +244,9 @@
             {
               "name": "매일경제",
               "title": "“살만 좀 찌겠지”하며 실컷 먹었는데…간까지 무너뜨리는 ‘올빼미 식습관’",
-              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vUXgwaHQ0bGFrSkF3OUlwSmhXTXc5T0t5WURPTkdQV1F3UWJSQ29yUzkzdjJqXzBRSlAxSmhGcEktOEFFNnZ1YW00cVFzZw?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vUXgwaHQ0bGFrSkF3OUlwSmhXTXc5T0t5WURPTkdQV1F3UWJSQ29yUzkzdjJqXzBRSlAxSmhGcEktOEFFNnZ1YW00cVFzZw?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/17/news-p.v1.20261016.29caa197d2d643cb83f2ee4896761c24_R.jpg",
+              "url": "https://www.mk.co.kr/news/it/12178397"
             }
           ]
         }
@@ -246,22 +267,26 @@
             {
               "name": "동아일보",
               "title": "조국혁신당, 부천 화재 소방공무원 순직 애도…“처우 개선 노력”",
-              "link": "https://www.donga.com/news/Politics/article/all/20261017/134859209/1"
+              "link": "https://www.donga.com/news/Politics/article/all/20261017/134859209/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/17/134859210.1.jpg"
             },
             {
               "name": "연합뉴스",
               "title": "여야, 부천 화재 소방관 순직 애도…'소방 처우 개선'도 약속(종합)",
-              "link": "https://www.yna.co.kr/view/AKR20261017024851001"
+              "link": "https://www.yna.co.kr/view/AKR20261017024851001",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101509760001300_P4.jpg"
             },
             {
               "name": "SBS 뉴스",
               "title": "민주, 부천 화재 순직 소방관 애도…\"처우 개선 지원 힘쓸 것\"",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802126"
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802126",
+              "image": "https://img.sbs.co.kr/newimg/news/20261015/202231639_1280.jpg"
             },
             {
               "name": "경향신문",
               "title": "이대통령, 부천 화재 순직 소방관 애도…“희생 잊지 않겠다”",
-              "link": "https://www.khan.co.kr/article/202610171039001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+              "link": "https://www.khan.co.kr/article/202610171039001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/17/news-p.v1.20261017.3a1d4aec801746cb8248c9e60e017b5f_P1.jpg"
             }
           ]
         },
@@ -276,12 +301,14 @@
             {
               "name": "연합뉴스",
               "title": "李대통령 \"희생 영원히 기억할 것\"…부천 화재 순직 소방관 조문(종합)",
-              "link": "https://www.yna.co.kr/view/AKR20261017045451001"
+              "link": "https://www.yna.co.kr/view/AKR20261017045451001",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/10/17/PYH2026101705820001300_P4.jpg"
             },
             {
               "name": "경향신문",
               "title": "이 대통령, 부천 화재 순직 소방관 빈소 조문···“희생 영원히 기억할 것”",
-              "link": "https://www.khan.co.kr/article/202610171937001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news"
+              "link": "https://www.khan.co.kr/article/202610171937001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/17/rcv.YNA.20261017.PYH2026101706210001300_P1.jpg"
             },
             {
               "name": "동아일보",
@@ -307,27 +334,33 @@
             {
               "name": "동아일보",
               "title": "‘친러’ 벨라루스, 주북대사관 개설…“北과 호혜적 관계 발전”",
-              "link": "https://www.donga.com/news/Inter/article/all/20261017/134859129/1"
+              "link": "https://www.donga.com/news/Inter/article/all/20261017/134859129/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/17/134859130.1.jpg"
             },
             {
               "name": "연합뉴스TV",
               "title": "벨라루스, 주북한대사관 개설 공식 발표…\"호혜적 관계 발전 주력\"",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FN3VCOXR1emFOQ0RHd2Y4RUl6R25VekFKZmxWRm1saUNQNm84ak9YVGdNYzhQUzNXOVpVakp6Um1BQU1EQVBZRjFEbDNLQXVfUDg3YmxZc3lhNlgyN2FlUHN2WWhQOUk?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FN3VCOXR1emFOQ0RHd2Y4RUl6R25VekFKZmxWRm1saUNQNm84ak9YVGdNYzhQUzNXOVpVakp6Um1BQU1EQVBZRjFEbDNLQXVfUDg3YmxZc3lhNlgyN2FlUHN2WWhQOUk?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261017/AKR20261017191331Qwb_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261017191331Qwb"
             },
             {
               "name": "뉴시스",
               "title": "'친러' 벨라루스, 주북대사관 개설…\"北과 호혜적 관계 발전\"",
-              "link": "https://www.newsis.com/view/NISX20261017_0003830073"
+              "link": "https://www.newsis.com/view/NISX20261017_0003830073",
+              "image": "https://img1.newsis.com/2026/03/27/NISI20260327_0021224721_web.jpg"
             },
             {
               "name": "SBS 뉴스",
               "title": "벨라루스, 주북한대사관 개설…\"호혜적 관계 발전 주력\"",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802292"
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802292",
+              "image": "https://img.sbs.co.kr/newimg/news/20260326/202168961_1280.jpg"
             },
             {
               "name": "연합뉴스",
               "title": "벨라루스, 주북한대사관 개설…\"호혜적 관계 발전 주력\"",
-              "link": "https://www.yna.co.kr/view/AKR20261017040600009"
+              "link": "https://www.yna.co.kr/view/AKR20261017040600009",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/03/27/PYH2026032708870004200_P4.jpg"
             }
           ]
         },
@@ -342,27 +375,33 @@
             {
               "name": "동아일보",
               "title": "젤렌스키 “미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것”",
-              "link": "https://www.donga.com/news/Inter/article/all/20261017/134859241/1"
+              "link": "https://www.donga.com/news/Inter/article/all/20261017/134859241/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/17/134859242.1.jpg"
             },
             {
               "name": "뉴시스",
               "title": "젤렌스키 \"미·러·우크라 정상회담, G20 기간 열릴 수도…스타실드 제한은 계획된 것\"",
-              "link": "https://www.newsis.com/view/NISX20261017_0003830149"
+              "link": "https://www.newsis.com/view/NISX20261017_0003830149",
+              "image": "https://img1.newsis.com/2026/10/16/NISI20261016_0001669292_web.jpg"
             },
             {
               "name": "SBS 뉴스",
               "title": "젤렌스키 \"G20 정상회의 기간에 미·러와 3자 회담 희망\"",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802410"
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802410",
+              "image": "https://img.sbs.co.kr/newimg/news/20261017/202232371_1280.jpg"
             },
             {
               "name": "조선비즈",
               "title": "젤렌스키 “G20 정상회의 중, 미·러 3자 회담 열릴 수도”",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2EzaHFNTEtSa2k3aDh5OTRCM01Ma1pUVnpsc2pzdDJPVmVUWm1SZ3c3NUFETllULWlFSmE4T2xSZkswUEt2ajNMeF91SVUzN293OHl6Mi1iazMtTnBTUnA0a3hHSTI5eW5zZl8xU05LUS03ZUdiVmVPWU5tdEotb1B6ZjJKZ21OYWc5VktSOWkwcTNRMUhCRXlfano4d9IBsgFBVV95cUxOVWZNdURidFVyUkFPeVZhNWgyVWxiWTJTOWhJXzIwWjBpWE1vbWVVUHlyd1NHcHh4ZDRRZkJtVHhDaVlqMkMtdnJiay10bEI2cDZhOXNXVkk3bUJMTHR4cTJQcTh4MHA3bldQVlVzV0FGamI3WXgyNTl1T1JjeFY1a1dfZ3JpYnBhOTJkY3V6RVNDN3BjVWp3UmJzbzFDQ2pMMnBBckpLVFdFRk96MEI4dDd3?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2EzaHFNTEtSa2k3aDh5OTRCM01Ma1pUVnpsc2pzdDJPVmVUWm1SZ3c3NUFETllULWlFSmE4T2xSZkswUEt2ajNMeF91SVUzN293OHl6Mi1iazMtTnBTUnA0a3hHSTI5eW5zZl8xU05LUS03ZUdiVmVPWU5tdEotb1B6ZjJKZ21OYWc5VktSOWkwcTNRMUhCRXlfano4d9IBsgFBVV95cUxOVWZNdURidFVyUkFPeVZhNWgyVWxiWTJTOWhJXzIwWjBpWE1vbWVVUHlyd1NHcHh4ZDRRZkJtVHhDaVlqMkMtdnJiay10bEI2cDZhOXNXVkk3bUJMTHR4cTJQcTh4MHA3bldQVlVzV0FGamI3WXgyNTl1T1JjeFY1a1dfZ3JpYnBhOTJkY3V6RVNDN3BjVWp3UmJzbzFDQ2pMMnBBckpLVFdFRk96MEI4dDd3?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/YSHKX62JQZIQ5FQPCIVBF3RDAA.jpg?auth=fae91ab875d5276a192e51b5a452f6fa3f8e341c0ba822c57686f2f1f1677f87&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/international/international_general/2026/10/17/SEGNKG4HA5A57JZISVFRVKKKTY/"
             },
             {
               "name": "연합뉴스",
               "title": "젤렌스키 \"G20 정상회의 기간에 美·러와 3자 회담 희망\"",
-              "link": "https://www.yna.co.kr/view/AKR20261017047700079"
+              "link": "https://www.yna.co.kr/view/AKR20261017047700079",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017047700079_01_i_P4.jpg"
             }
           ]
         }
@@ -383,12 +422,15 @@
             {
               "name": "ZDNet Korea",
               "title": "\"눈 깜빡이면 충전\"…배터리 없는 스마트 안경 등장",
-              "link": "https://zdnet.co.kr/view/?no=20261017095126"
+              "link": "https://zdnet.co.kr/view/?no=20261017095126",
+              "image": "https://image.zdnet.co.kr/2026/10/17/75a25daf4c169b7d0dabda37eeaa02e5.jpg"
             },
             {
               "name": "지디넷코리아",
               "title": "\"눈 깜빡이면 충전\"…배터리 없는 스마트 안경 등장",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OTEFoeVBRTWJPX2tUZ2UyOHd2MkZpZm91OVl0QUpRb0pGWlBsOHJUWE5fRnViNkxSU21nV1dhWkt1M2QtVjlaSXlueWZpVUF6NVRqNzhB?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OTEFoeVBRTWJPX2tUZ2UyOHd2MkZpZm91OVl0QUpRb0pGWlBsOHJUWE5fRnViNkxSU21nV1dhWkt1M2QtVjlaSXlueWZpVUF6NVRqNzhB?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/10/17/75a25daf4c169b7d0dabda37eeaa02e5.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261017095126"
             }
           ]
         }
@@ -409,27 +451,37 @@
             {
               "name": "K스피릿",
               "title": "영화 ‘암살자(들)’, 313만 관객 돌파…한국영화 18일 연속 1위",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LMzMtZnhFQlJYRXRVRTc1bjdueExqTjB5SERYMlBiQjRkM1JlZ0FzTEVBclk2Ykk2TlNBN1NTV0doUDVfdmJSS0I2c1RuSHZEcFhmZVloZUJ1a25VNTA2V011WEZOSWd3b3NhU29ZONIBc0FVX3lxTE84MWE1a2tzSWZxVF9vbm53ZElycGdPU1pmMHpSWl9DZkhoRDFjQ2J2LTIxVDBxcm95WEsxN3R4LXFlb2hoSmFkMHdkemxhb2hIejMwWk42NnV1cDNzR1FyV1d0TDUzSnhtaTRpTGxCcUxDc1E?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LMzMtZnhFQlJYRXRVRTc1bjdueExqTjB5SERYMlBiQjRkM1JlZ0FzTEVBclk2Ykk2TlNBN1NTV0doUDVfdmJSS0I2c1RuSHZEcFhmZVloZUJ1a25VNTA2V011WEZOSWd3b3NhU29ZONIBc0FVX3lxTE84MWE1a2tzSWZxVF9vbm53ZElycGdPU1pmMHpSWl9DZkhoRDFjQ2J2LTIxVDBxcm95WEsxN3R4LXFlb2hoSmFkMHdkemxhb2hIejMwWk42NnV1cDNzR1FyV1d0TDUzSnhtaTRpTGxCcUxDc1E?oc=5",
+              "image": "https://cdn.ikoreanspirit.com/news/photo/202610/87770_112978_4321.jpg",
+              "url": "http://www.ikoreanspirit.com/news/articleView.html?idxno=87770"
             },
             {
               "name": "BNT뉴스",
               "title": "‘암살자(들)’ 18일 연속 한국영화 박스오피스 1위",
-              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15WjI4NElzdUFBYUl6YXo5eWZFMnBQVFJoX0FDOEdLYklYLVFxQ0JXMHFIeTZmbC1tQzRaaG5XZlNKRDloS0l6OFVIQmJCRldtd1NiUzY2QXZKMXBENHNWOGRDUXE?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15WjI4NElzdUFBYUl6YXo5eWZFMnBQVFJoX0FDOEdLYklYLVFxQ0JXMHFIeTZmbC1tQzRaaG5XZlNKRDloS0l6OFVIQmJCRldtd1NiUzY2QXZKMXBENHNWOGRDUXE?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/17/bnt202610170236.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202610170128"
             },
             {
               "name": "스포츠월드",
               "title": "‘암살자(들)’ 18일째 한국영화 1위…개봉 4주차에도 버티는 이유",
-              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmLXZKbWc2bnFVMWVGdVMzSW9YZEhXY1ozUTVYX0N6WEd3aHc2amNVTXBGTjBkdWp2b0tqUEk0ejYxLTJLQXlzSzNtR3hvVWwzMl9ibnBxYVdSbE5FQ3Z6T01n?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmLXZKbWc2bnFVMWVGdVMzSW9YZEhXY1ozUTVYX0N6WEd3aHc2amNVTXBGTjBkdWp2b0tqUEk0ejYxLTJLQXlzSzNtR3hvVWwzMl9ibnBxYVdSbE5FQ3Z6T01n?oc=5",
+              "image": "https://www.sportsworldi.com/content/image/2026/10/17/20261017508990.jpg",
+              "url": "https://www.sportsworldi.com/newsView/20261017508991"
             },
             {
               "name": "MBC",
               "title": "‘암살자(들)’ 18일 연속 한국영화 1위…꺾이지 않는 흥행 파워",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcUItd054Nm5BdkFDbEJCUS1qV19FemFraWpWcFlfeXlhYnR6b1dmVF9yX25DQ3I4UE1YV0xIejJPQlg3d1ZWaDdRaTFfbTA2UUtxOFFkN1dpRjlpcnR1NFVkUQ?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcUItd054Nm5BdkFDbEJCUS1qV19FemFraWpWcFlfeXlhYnR6b1dmVF9yX25DQ3I4UE1YV0xIejJPQlg3d1ZWaDdRaTFfbTA2UUtxOFFkN1dpRjlpcnR1NFVkUQ?oc=5",
+              "image": "https://img.imbc.com/commons/2018/image/enews/meta_enter.jpg",
+              "url": "https://www.imbc.com/broad/enews/view.html?idx=521545"
             },
             {
               "name": "한국사회복지저널",
               "title": "‘암살자(들)’ 18일 연속 한국영화 1위…누적 관객 313만명",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92bnRBUzhCeldaVnVhai0xYVpJOUZzZ3dSeHdTTm1tUWdBaVoycDB0SUdaMGUtLTNSclVRNlh1QnFNVW9LakU0Qy1teWd0MnNFYlZKbHdLckFWdUZFVFRTZHpmV1RPVlRBZ044?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92bnRBUzhCeldaVnVhai0xYVpJOUZzZ3dSeHdTTm1tUWdBaVoycDB0SUdaMGUtLTNSclVRNlh1QnFNVW9LakU0Qy1teWd0MnNFYlZKbHdLckFWdUZFVFRTZHpmV1RPVlRBZ044?oc=5",
+              "image": "https://cdn.ksw-news.com/news/thumbnail/202610/3048396_3039574_5857_v150.jpg",
+              "url": "http://www.ksw-news.com/news/articleView.html?idxno=3048396"
             }
           ]
         }
@@ -450,22 +502,27 @@
             {
               "name": "SBS 뉴스",
               "title": "한국도로공사, 챔프전 내줬던 GS칼텍스와 컵대회 맞대결",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802381"
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802381",
+              "image": "https://img.sbs.co.kr/newimg/news/20261017/202232364_1280.jpg"
             },
             {
               "name": "뉴시스",
               "title": "여자배구 GS칼텍스, 컵대회 결승행…한국도로공사와 격돌(종합)",
-              "link": "https://www.newsis.com/view/NISX20261017_0003830048"
+              "link": "https://www.newsis.com/view/NISX20261017_0003830048",
+              "image": "https://img1.newsis.com/2026/10/17/NISI20261017_0002266126_web.jpg"
             },
             {
               "name": "뉴스핌",
               "title": "[프로배구] GS칼텍스, 도로공사와 컵대회 결승 격돌...지난 시즌 챔프전 리매치",
-              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QY1RvN25xdlU0VHpLZ0FiWnFOaUx5TzBsWlViNkg2cFBwekFqYVp2NGtLa05ON2NVVk9pMHNoSzB3OWJKald3T2U0UlRibGh1YkxQYXJnbEtGb01r?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QY1RvN25xdlU0VHpLZ0FiWnFOaUx5TzBsWlViNkg2cFBwekFqYVp2NGtLa05ON2NVVk9pMHNoSzB3OWJKald3T2U0UlRibGh1YkxQYXJnbEtGb01r?oc=5",
+              "image": "https://img.newspim.com/news/2026/10/17/2610171836160580_543_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261017000156"
             },
             {
               "name": "연합뉴스",
               "title": "GS칼텍스-도로공사 컵대회 결승 진출…'챔프전 리턴매치'(종합)",
-              "link": "https://www.yna.co.kr/view/AKR20261017036651007"
+              "link": "https://www.yna.co.kr/view/AKR20261017036651007",
+              "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017036651007_01_i_P4.jpg"
             }
           ]
         },
@@ -480,17 +537,21 @@
             {
               "name": "SBS 뉴스",
               "title": "'우승 후보'도 꺾었다…삼성, 개막 5연승 질주",
-              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802317"
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802317",
+              "image": "https://img.sbs.co.kr/newimg/news/20261017/202232353_1280.jpg"
             },
             {
               "name": "연합뉴스",
               "title": "프로농구 삼성, 파죽의 개막 5연승…'우승후보 1순위' DB도 제압(종합)",
-              "link": "https://www.yna.co.kr/view/AKR20261017037351007"
+              "link": "https://www.yna.co.kr/view/AKR20261017037351007",
+              "image": "https://img3.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017037351007_02_i_P4.jpg"
             },
             {
               "name": "동아일보",
               "title": "프로농구 삼성, ‘우승 후보’ DB까지 제압…개막 5연승",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0ySE1uTU9waUdxSkZwbWJ4T1l3QkVPN1BmRUZYZ0prSmZTQkhnUWQ2QV9QemdFSTNWcHlZeC1SR0ljX01xYzFXQUVVZFg1XzVReXotOEdCaXRValNISTFwNXRZejF0amlYdWVPc2w2dERSeThL0gFmQVVfeXFMT1I0dTVySllfRmJCTVluN1BNSVpCT1gzak1lR1BDcEdOUEQ4dTBnR3JSaWt0ZGpGQ3B2N29UWVlHVXEwUDlnVXc1aS1vdFNxbFJfT0JDdkRlYzJIbldXdUFRRFF5TTNn?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0ySE1uTU9waUdxSkZwbWJ4T1l3QkVPN1BmRUZYZ0prSmZTQkhnUWQ2QV9QemdFSTNWcHlZeC1SR0ljX01xYzFXQUVVZFg1XzVReXotOEdCaXRValNISTFwNXRZejF0amlYdWVPc2w2dERSeThL0gFmQVVfeXFMT1I0dTVySllfRmJCTVluN1BNSVpCT1gzak1lR1BDcEdOUEQ4dTBnR3JSaWt0ZGpGQ3B2N29UWVlHVXEwUDlnVXc1aS1vdFNxbFJfT0JDdkRlYzJIbldXdUFRRFF5TTNn?oc=5",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/17/134859015.1.jpg",
+              "url": "https://www.donga.com/news/Sports/article/all/20261017/134859014/1"
             }
           ]
         }
@@ -517,7 +578,9 @@
       {
         "title": "유행 안타는 기본 롱 부츠, 신상처럼 스타일링하기",
         "source": "W Korea",
-        "link": "https://www.wkorea.com/2026/10/17/%ec%9c%a0%ed%96%89-%ec%95%88%ed%83%80%eb%8a%94-%ea%b8%b0%eb%b3%b8-%eb%a1%b1-%eb%b6%80%ec%b8%a0-%ec%8b%a0%ec%83%81%ec%b2%98%eb%9f%bc-%ec%8a%a4%ed%83%80%ec%9d%bc%eb%a7%81%ed%95%98%ea%b8%b0/"
+        "link": "https://www.wkorea.com/2026/10/17/%ec%9c%a0%ed%96%89-%ec%95%88%ed%83%80%eb%8a%94-%ea%b8%b0%eb%b3%b8-%eb%a1%b1-%eb%b6%80%ec%b8%a0-%ec%8b%a0%ec%83%81%ec%b2%98%eb%9f%bc-%ec%8a%a4%ed%83%80%ec%9d%bc%eb%a7%81%ed%95%98%ea%b8%b0/",
+        "image": "https://www.wkorea.com/wp_data/w/2026/10/style_6ad33ca69fc0d-scaled-1920x1080.jpg?x=1708&y=1636&ver=1.1.91",
+        "url": "https://www.wkorea.com/2026/10/17/%EC%9C%A0%ED%96%89-%EC%95%88%ED%83%80%EB%8A%94-%EA%B8%B0%EB%B3%B8-%EB%A1%B1-%EB%B6%80%EC%B8%A0-%EC%8B%A0%EC%83%81%EC%B2%98%EB%9F%BC-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81%ED%95%98%EA%B8%B0/"
       }
     ]
   },
