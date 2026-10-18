@@ -1,11 +1,22 @@
 {% from "icons.html" import icon, garment %}
-{% macro source_list(srcs, coverage) %}
-{% if srcs and srcs | length > 1 %}
-<details class="srcs">
-  <summary>매체별 기사 {{ srcs | length }}건 보기{% if (coverage or 0) > srcs | length %} · 총 {{ coverage }}곳 보도{% endif %}</summary>
-  <ul>
-    {% for x in srcs %}<li><a href="{{ x.link }}" target="_blank" rel="noopener"><b>{{ x.name }}</b><span>{{ x.title }}</span></a></li>{% endfor %}
-  </ul>
+{# 기사 미리보기(접이식): 매체별로 사진 한 장 + 주요내용 + 원문 링크. 닫혀 있는 동안은 사진을 불러오지 않는다. #}
+{% macro peek_list(srcs, coverage, label="기사 미리보기") %}
+{% if srcs %}
+<details class="peeks">
+  <summary>{{ label }} · {{ srcs | length }}건{% if (coverage or 0) > srcs | length %} (총 {{ coverage }}곳 보도){% endif %}</summary>
+  <div class="peek-grid">
+    {% for x in srcs %}
+    <article class="peek">
+      {% if x.image %}<img class="peek-img" src="{{ x.image }}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">{% endif %}
+      <div class="peek-body">
+        <b>{{ x.name }}</b>
+        <span class="peek-title">{{ x.title }}</span>
+        {% if x.note %}<p class="peek-note">{{ x.note }}</p>{% endif %}
+        <a class="peek-link" href="{{ x.url or x.link }}" target="_blank" rel="noopener">원문 보기 <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
 </details>
 {% endif %}
 {% endmacro %}
@@ -33,11 +44,7 @@
         </ol>
         {% endif %}
         {% if sr.weather_tip %}<p class="series-today"><b>오늘은</b> {{ sr.weather_tip }}</p>{% endif %}
-        {% if sr.articles %}
-        <ul class="series-src" aria-label="원문 기사">
-          {% for a in sr.articles %}<li><a href="{{ a.link }}" target="_blank" rel="noopener"><b>{{ a.source }}</b><span>{{ a.title }}</span><i aria-hidden="true">↗</i></a></li>{% endfor %}
-        </ul>
-        {% endif %}
+        {{ peek_list(sr.articles, 0, "원문 기사 보기") }}
       </div>
       {% if sr["items"] %}
       <ul class="flatlay">
@@ -168,10 +175,10 @@
       <article class="cover-main">
         <span class="num" aria-hidden="true">01</span>
         {% if c.kicker or c.keyword %}<span class="kicker">{{ c.kicker or c.keyword }}</span>{% endif %}
-        <h3><a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.headline }}</a></h3>
+        <h3>{{ c.headline }}</h3>
         {% if c.summary %}<p>{{ c.summary }}</p>{% endif %}
-        <a class="src" href="{{ c.link }}" target="_blank" rel="noopener">{{ c.source }} · 원문 보기 <span class="arrow">↗</span></a>
-        {{ source_list(c.sources, 0) }}
+        <p class="item-src">{{ c.source }}</p>
+        {{ peek_list(c.sources, 0) }}
       </article>
       <div class="cover-sub">
       {% else %}
@@ -179,10 +186,10 @@
           <span class="num">{{ "%02d" | format(loop.index) }}</span>
           <div>
             {% if c.kicker or c.keyword %}<span class="kicker">{{ c.kicker or c.keyword }}</span>{% endif %}
-            <h3><a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.headline }}</a></h3>
+            <h3>{{ c.headline }}</h3>
             {% if c.summary %}<p>{{ c.summary }}</p>{% endif %}
-            <a class="src" href="{{ c.link }}" target="_blank" rel="noopener">{{ c.source }} · 원문 보기 <span class="arrow">↗</span></a>
-        {{ source_list(c.sources, 0) }}
+            <p class="item-src">{{ c.source }}</p>
+        {{ peek_list(c.sources, 0) }}
           </div>
         </article>
       {% endif %}
@@ -209,10 +216,10 @@
         {% for it in s["items"] %}
         <article class="item">
           {% if (it.coverage or 1) >= 8 %}<span class="hot">많이 보도된 이슈</span>{% endif %}
-          <h3><a href="{{ it.link }}" target="_blank" rel="noopener">{{ it.headline }}</a></h3>
+          <h3>{{ it.headline }}</h3>
           {% if it.summary %}<p>{{ it.summary }}</p>{% endif %}
-          <a class="src" href="{{ it.link }}" target="_blank" rel="noopener">{{ it.source }}{% if (it.coverage or 1) > 1 %} 외 {{ it.coverage - 1 }}곳 보도{% endif %} · 원문 보기 <span class="arrow">↗</span></a>
-          {{ source_list(it.sources, it.coverage) }}
+          <p class="item-src">{{ it.source }}{% if (it.coverage or 1) > 1 %} 외 {{ it.coverage - 1 }}곳 보도{% endif %}</p>
+          {{ peek_list(it.sources, it.coverage) }}
         </article>
         {% endfor %}
       </div>

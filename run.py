@@ -13,7 +13,7 @@ import os
 import sys
 import time
 
-from haru import cards, collect, edition, editor, indicators, render, series, weather
+from haru import cards, collect, edition, editor, indicators, preview, render, series, weather
 from haru.ai_client import make_client
 from haru.config import load_config, load_sources, now_kst
 from haru.log import setup_logging
@@ -32,6 +32,24 @@ def site_url(cfg: dict) -> str:
             return f"https://{owner}.github.io/"
         return f"https://{owner}.github.io/{name}/"
     return ""
+
+
+def preview_targets(e: dict) -> list[dict]:
+    """미리보기 카드로 보여 줄 모든 기사(커버·섹션 기사의 매체별 목록, 스타일 시리즈 기사)."""
+    out = [x for c in e.get("cover_stories", []) for x in c.get("sources", [])]
+    out += [x for s in e.get("sections", []) for it in s["items"] for x in it.get("sources", [])]
+    out += (e.get("series") or {}).get("articles", [])
+    return out
+
+
+def attach_previews(e: dict, cfg: dict, log: logging.Logger) -> None:
+    if not cfg.get("preview", {}).get("images", True):
+        return
+    log.info("── 미리보기 사진 찾기")
+    try:
+        preview.attach_images(preview_targets(e))
+    except Exception:
+        log.exception("미리보기 사진 실패 → 사진 없이 발행")
 
 
 def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
@@ -90,6 +108,7 @@ def make_edition(cfg: dict, log: logging.Logger, use_ai: bool) -> dict:
     edited["quote"] = editor.pick_quote(today)
 
     result = edition.assemble(today, now, cfg.get("site", {}), raw, edited, mode)
+    attach_previews(result, cfg, log)
     edition.save_json(result, edition.edition_path(today))
     log.info("오늘 호 저장: data/%s.json (커버 %d개, 섹션 %d개, 편집=%s, %d분 읽기)",
              today, len(result["cover_stories"]), len(result["sections"]), mode, result["reading_minutes"])
@@ -101,6 +120,7 @@ def main() -> int:
     ap.add_argument("--no-ai", action="store_true", help="AI 편집 없이 원문 헤드라인으로")
     ap.add_argument("--no-email", action="store_true", help="이메일 보내지 않기")
     ap.add_argument("--render-only", action="store_true", help="수집 없이 웹페이지만 다시 만들기")
+    ap.add_argument("--refresh-previews", action="store_true", help="(--render-only 와 함께) 최신 호의 미리보기 사진을 다시 찾기")
     args = ap.parse_args()
 
     log = setup_logging()
@@ -112,6 +132,14 @@ def main() -> int:
     result = None
     if not args.render_only:
         result = make_edition(cfg, log, use_ai=not args.no_ai)
+
+    if args.render_only and args.refresh_previews:
+        latest = render.load_editions()[-1]
+        raw_latest = edition.DATA_DIR / f"{latest['date']}.json"
+        import json as _json
+        e = _json.load(open(raw_latest, encoding="utf-8"))
+        attach_previews(e, cfg, log)
+        edition.save_json(e, raw_latest)
 
     # 4) 웹페이지
     log.info("── 4. 웹페이지 렌더링")

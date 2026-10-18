@@ -105,9 +105,10 @@ def edit_series(client, ask, magazines: list[dict], weather: dict | None, today,
 - tips: 입는 법 3가지. 각 30~60자, '~한다/~좋다' 체.
 - weather_tip: 오늘 날씨({wline})에 맞춰 이 스타일을 응용하는 한 줄, 40자 내외.
 - article_ids: 근거가 된 기사 번호 1~3개 (위 목록의 번호).
+- article_notes: article_ids 와 같은 순서로, 각 기사가 다루는 핵심을 한 줄로(30~70자). 기사 제목·요약문을 그대로 베끼지 말고 새 문장으로.
 
 JSON 형식:
-{{"title":"...","tagline":"...","description":"...","items":[{{"category":"outer","name":"...","color":"...","hex":"#2F4A6D"}}],"tips":["...","...","..."],"weather_tip":"...","article_ids":[0]}}"""
+{{"title":"...","tagline":"...","description":"...","items":[{{"category":"outer","name":"...","color":"...","hex":"#2F4A6D"}}],"tips":["...","...","..."],"weather_tip":"...","article_ids":[0],"article_notes":["..."]}}"""
 
     def validate(d):
         title = str(d.get("title", "")).strip()
@@ -175,13 +176,20 @@ JSON 형식:
         if not (4 <= len(items) <= 6):
             raise ValueError(f"아이템이 {len(items)}개 (4~6개)")
 
+        notes = [str(n).strip() for n in d.get("article_notes", [])]
+        for k, n in enumerate(notes[:len(arts)]):
+            p = _check_prose(n, originals, 12, 110, "article_notes")
+            if p:
+                raise ValueError(p)
         return {
             "by": "ai", "title": title, "tagline": tagline,
             "description": d["description"].strip(),
             "items": order_items(items), "tips": [t[:100] for t in tips[:3]],
             "weather_tip": d["weather_tip"].strip(),
             "weather": weather,
-            "articles": [{"title": a["title"], "source": a["source"], "link": a["link"]} for a in arts],
+            "articles": [{"title": a["title"], "name": a["source"], "link": a["link"],
+                          **({"note": notes[k]} if k < len(notes) and notes[k] else {})}
+                         for k, a in enumerate(arts)],
         }
 
     return ask(client, user, validate)
@@ -201,7 +209,7 @@ def fallback_series(magazines: list[dict], weather: dict | None, recent_links: s
     pick = next((m for m in fashion if m["link"] not in recent_links), fashion[0])
     return {"by": "rule", "title": pick["title"], "tagline": f"{pick['source']} 최신 기사", "description": "",
             "items": [], "tips": [], "weather_tip": "", "weather": weather,
-            "articles": [{"title": pick["title"], "source": pick["source"], "link": pick["link"]}]}
+            "articles": [{"title": pick["title"], "name": pick["source"], "link": pick["link"]}]}
 
 
 def make_series(client, ask, magazines: list[dict], weather: dict | None, today, weekday: str) -> dict | None:
@@ -213,7 +221,7 @@ def make_series(client, ask, magazines: list[dict], weather: dict | None, today,
         try:
             log.info("  스타일 시리즈 선정…")
             s = edit_series(client, ask, magazines, weather, today, weekday, recent_titles)
-            log.info("  ✓ 스타일 시리즈: %s (%s)", s["title"], ", ".join(a["source"] for a in s["articles"]))
+            log.info("  ✓ 스타일 시리즈: %s (%s)", s["title"], ", ".join(a["name"] for a in s["articles"]))
             return s
         except Exception as e:
             log.warning("  ✗ 스타일 시리즈 AI 실패 → 매거진 최신 기사 소개로 대체: %s", str(e)[:150])

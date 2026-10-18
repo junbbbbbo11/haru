@@ -78,6 +78,8 @@ def load_editions() -> list[dict]:
             log.exception("%s 읽기 실패 → 건너뜀", p.name)
             continue
         # 지난 호도 현재 순서로 보여 준다 (목록에 없는 섹션은 맨 뒤, 원래 순서 유지)
+        for art in (e.get("series") or {}).get("articles", []):   # 예전 호 호환: source → name
+            art.setdefault("name", art.get("source", ""))
         e["sections"] = sorted(e.get("sections", []), key=lambda sec: order.get(sec["id"], 999))
         editions.append(e)
     return editions

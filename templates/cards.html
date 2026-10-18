@@ -142,7 +142,7 @@
   </div>
   {% endif %}
   {% if sr.tips %}<ol>{% for t in sr.tips[:3] %}<li>{{ t }}</li>{% endfor %}</ol>{% endif %}
-  {% if sr.articles %}<div class="from">출처 · {{ sr.articles | map(attribute='source') | unique | join(', ') }}</div>{% endif %}
+  {% if sr.articles %}<div class="from">출처 · {{ sr.articles | map(attribute='name') | unique | join(', ') }}</div>{% endif %}
   <div class="foot"><span>{{ e.date | kdate }}</span><span>{{ page }} / {{ total }}</span></div>
 </section>
 

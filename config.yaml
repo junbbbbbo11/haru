@@ -31,6 +31,9 @@ ai:
   timeout_seconds: 120
   time_budget_minutes: 50             # AI 편집에 쓸 최대 시간. 넘으면 남은 섹션은 원문 헤드라인으로
 
+preview:                     # 기사 미리보기(접이식) — 대표 사진은 언론사 서버의 주소만 연결하고 파일은 저장하지 않습니다
+  images: true               # false 로 바꾸면 사진 없이 제목·원문 링크만 보여 줍니다
+
 series:                      # 이번 호의 스타일 시리즈 — 패션 매거진 최신 기사에서 한 시리즈(예: 아메카지룩)를 소개
   enabled: true              # 매거진 목록은 sources.yaml 의 style_series 에 있습니다
 

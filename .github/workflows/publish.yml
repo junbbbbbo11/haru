@@ -16,6 +16,10 @@ on:
         description: "AI 없이 원문 헤드라인으로 발행"
         type: boolean
         default: false
+      refresh_only:
+        description: "새로 만들지 않고, 이미 발행된 최신 호에 미리보기 사진만 다시 붙여 배포 (AI·수집 안 함)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write     # data/*.json 을 저장소에 저장
@@ -73,7 +77,7 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: python run.py ${{ inputs.no_ai && '--no-ai' || '' }}
+        run: python run.py ${{ inputs.no_ai && '--no-ai' || '' }} ${{ inputs.refresh_only && '--render-only --refresh-previews' || '' }}
 
       - name: 실행 기록(로그) 보관
         if: always() && steps.check.outputs.skip != 'true'
