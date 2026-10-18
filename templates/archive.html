@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{{ title }} · 지난 호</title>
 <meta name="description" content="{{ title }} 지난 호 모아보기">
+<meta property="og:title" content="{{ title }} · 지난 호">
+<meta property="og:type" content="website">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:site_name" content="하루 한 장">
+<meta property="og:locale" content="ko_KR">
+{% if site_url %}<meta property="og:image" content="{{ site_url }}icon-512.png">{% endif %}
+<meta name="twitter:card" content="summary">
 <link rel="icon" type="image/png" sizes="192x192" href="{{ base }}icon-192.png">
 <link rel="apple-touch-icon" href="{{ base }}apple-touch-icon.png">
 <link rel="manifest" href="{{ base }}manifest.webmanifest">

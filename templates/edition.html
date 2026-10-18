@@ -71,6 +71,11 @@
 <meta property="og:title" content="{{ e.title }} · {{ e.date | kdate }} {{ e.weekday }}">
 <meta property="og:description" content="{% for c in e.cover_stories %}{{ c.headline }}{% if not loop.last %} / {% endif %}{% endfor %}">
 <meta property="og:type" content="article">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:site_name" content="하루 한 장">
+<meta property="og:locale" content="ko_KR">
+{% if site_url %}<meta property="og:image" content="{{ site_url }}icon-512.png">{% endif %}
+<meta name="twitter:card" content="summary">
 {% if site_url %}<meta property="og:url" content="{{ site_url }}">{% endif %}
 <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
