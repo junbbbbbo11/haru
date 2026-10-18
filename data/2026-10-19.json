@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-19",
+  "weekday": "월요일",
+  "vol": 7,
+  "generated_at": "2026-10-19T07:19:54+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
+      "direction": "up",
+      "display": "5,668.05",
+      "change_display": "▲ 2.05%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1334.7,
+      "change": -6.3,
+      "change_pct": -0.47,
+      "direction": "down",
+      "display": "1,334.7원",
+      "change_display": "▼ 0.47%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 110399000.0,
+      "change": 262000.0,
+      "change_pct": 0.24,
+      "direction": "up",
+      "display": "11,040만원",
+      "change_display": "▲ 0.24%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 18,
+    "t_min": 10,
+    "rain_pct": 2,
+    "sky": "구름 조금",
+    "display": "서울 10~18°C · 구름 조금 · 강수 2%"
+  },
+  "cover_stories": [
+    {
+      "keyword": "신세계 백화점 강남점",
+      "headline": "신세계백화점 강남점 출차 지연…\"5시간째 제자리, 지옥 같아\"",
+      "summary": "",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261018060200004",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "신세계백화점 강남점 출차 지연…\"5시간째 제자리, 지옥 같아\"",
+          "link": "https://www.yna.co.kr/view/AKR20261018060200004",
+          "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018060200004_01_i_P4.jpg"
+        },
+        {
+          "name": "연합뉴스TV",
+          "title": "신세계백화점 강남점 출차 대란…장시간 발 묶여",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iZDhjaXk0R0g5elJnUm9BRlhYZWMtWThsX1VCdTE0TGJCdnZkNlJOVXVDS05rQnFFSFFzRHdEZHZ6Y1RHbVlrdkM5Ri1SY0xXeHdodlhob21JYXotS1hBR2pnaEp3QWc?oc=5",
+          "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261018/MYH20261019051200iHf.jpg",
+          "url": "https://www.yonhapnewstv.co.kr/news/MYH20261019051200iHf"
+        },
+        {
+          "name": "이데일리",
+          "title": "\"5시간째 갇혀...지옥 같아\" 신세계 강남점 아수라장",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRHJjQUVVbE9fWVBuYko3VnhnTW1xVFROd3R5VGxCU3R3cUVXYTlPbE1DUTI2RVo1dS1YLVcyZjVBVXhlcXhNTmxrNUFWUGJ2SDUxbFhlZmZyblNNZk1wS0stSGs1M0pORHFPd2tGNXpQWEVUdDBHS2R1R01NTDNvRQ?oc=5",
+          "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26101900044.jpg",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01558006645614560&mediaCodeNo=257"
+        }
+      ]
+    },
+    {
+      "keyword": "후티",
+      "headline": "UAE, 후티 공세 막으려 예멘 재개입…사우디와 갈등 완화 신호",
+      "summary": "",
+      "source": "SBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWZXFHNG9jbndwakoxV1hMQnlJRTMtanM3c3QybmNEdnloVzFTTGZTRkZxaUs5NVJBc19uczNjeEpkeEhtNWZiRy1sWlpaS0V4OUJROVlZRjlpOUVqZTE1aEFBUldFWGdGb2c?oc=5",
+      "sources": [
+        {
+          "name": "SBS 뉴스",
+          "title": "UAE, 후티 공세 막으려 예멘 재개입…사우디와 갈등 완화 신호",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWZXFHNG9jbndwakoxV1hMQnlJRTMtanM3c3QybmNEdnloVzFTTGZTRkZxaUs5NVJBc19uczNjeEpkeEhtNWZiRy1sWlpaS0V4OUJROVlZRjlpOUVqZTE1aEFBUldFWGdGb2c?oc=5",
+          "image": "https://img.sbs.co.kr/newimg/news/20260929/202226808_1280.jpg",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802771"
+        }
+      ]
+    },
+    {
+      "keyword": "기사",
+      "headline": "[기사수첩] 49년",
+      "summary": "",
+      "source": "투데이에너지",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zYXAzbGtST01Mam5DR0NDbUo3aHkzSnpXa3dFQW8ya2lYTXloQV96NC1wUGY4YU5QU3ZjSUZFUGdLMTl0cHdSLWxfcEhDZWF4VDBRSnJEcXJZQ1V6LXdXM3VfeVBGY19HNWZrTg?oc=5",
+      "sources": [
+        {
+          "name": "투데이에너지",
+          "title": "[기사수첩] 49년",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zYXAzbGtST01Mam5DR0NDbUo3aHkzSnpXa3dFQW8ya2lYTXloQV96NC1wUGY4YU5QU3ZjSUZFUGdLMTl0cHdSLWxfcEhDZWF4VDBRSnJEcXJZQ1V6LXdXM3VfeVBGY19HNWZrTg?oc=5",
+          "image": "https://cdn.todayenergy.kr/news/thumbnail/202610/304317_177082_424_v150.jpg",
+          "url": "http://www.todayenergy.kr/news/articleView.html?idxno=304317"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "한국 잠재성장률 2년 연속 반등 전망",
+          "summary": "반도체 호황에 힘입어 한국 잠재성장률이 40년 만에 2년 연속 반등할 전망이며, 1인당 GDP가 4만 달러를 넘어설 것으로 예상된다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261018/134862524/2",
+          "original_title": "韓잠재성장률, 40년만에 2년연속 반등 전망",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "韓잠재성장률, 40년만에 2년연속 반등 전망",
+              "link": "https://www.donga.com/news/Economy/article/all/20261018/134862524/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/18/134863763.1.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "IMF, 韓 잠재성장률 2년 연속 상승 전망",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWDFTQ25GUDRpX1pYQVBYekJxYnFiMHVDTlNtUzhoREI2RDV6OERtRW43ZlRtRTA0UVU5bnltZElGZmg4dnNmdGhFUEFkaFc5RUpaYkoyd3JqOWNPYUhBclVfWUllZm9pQktiYWVrT3JHd1c5RDFjWGQ4UVFnWXVqY0RMUU4yLUpsTkxFWGd3?oc=5",
+              "image": "https://www.chosun.com/pf/resources/images/thumb_meta.png?d=2402",
+              "url": "https://www.chosun.com/economy/economy_general/2026/10/19/DM4PPBVJSVH5RLDEVFKWJEUNII/"
+            },
+            {
+              "name": "뉴시스",
+              "title": "韓 잠재성장률 40년 만에 2년 연속 반등 전망…올해 2.14%·내년 2.20%",
+              "link": "https://www.newsis.com/view/NISX20261018_0003830352",
+              "image": "https://img1.newsis.com/2026/10/01/NISI20261001_0021469676_web.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "“살림은 엉망인데, 한국 경제 체력 살아난다?”…잠재성장률 40년만에 반전",
+              "link": "https://www.mk.co.kr/news/economy/12178679",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/18/news-p.v1.20261018.c944b4dc7be745d59e1217862459fd7b_R.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "IMF 총재, 한국 재정·통화 조합 적절",
+          "summary": "IMF 총재는 한국의 재정·통화 정책이 적절한 조합을 이루었다고 평가했다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12178739",
+          "original_title": "IMF 총재 “한국 여유재원 적립·완만한 통화긴축 조합 적절”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "IMF 총재 “한국 여유재원 적립·완만한 통화긴축 조합 적절”",
+              "link": "https://www.mk.co.kr/news/economy/12178739",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/18/news-p.v1.20261018.f73782407d174823b0130bbdcd9e626d_R.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "IMF 총재 \"한국의 재정·통화 정책조합 적절\"",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SVUFRNF9VazRwS05iR0w3emU5Z2NJNmpXY1JLMVlZdEVVcldyNjNJM0FYNWtKc2lMU0ppYUpla2g2OWZkdXkxVUtPSDJibFBXblFScGpqcEppNTV3aFE?oc=5",
+              "url": "https://www.ytn.co.kr/_ln/0102_202610181315331621"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "IMF 총재 \"미래대응기금 등 韓재정·통화 정책조합 접근법 적절\"",
+              "link": "https://www.yna.co.kr/view/AKR20261018011600002",
+              "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018011600002_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "신세계百 멘즈·우먼스 위크 개최",
+          "summary": "신세계百이 가을·겨울 패션 행사를 멘즈·우먼스 위크로 연다. 팝업과 할인 이벤트가 포함된다.",
+          "source": "싱글리스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FT2FkVVRFaUF1LVpIMnVWZUxOd2o1VjJwVVpzNGRETEVmY1FDaFFRZVN1aEtjUXNPVWNuNDJsWTBXdmRZdEJDMnQyNXlTSHVaVHRhSnIzc01YR3JtVVVfTWx2d3ZUUQ?oc=5",
+          "original_title": "신세계百, ‘멘즈·우먼스 위크’ 개최...패션 팝업부터 할인",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "싱글리스트",
+              "title": "신세계百, ‘멘즈·우먼스 위크’ 개최...패션 팝업부터 할인",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FT2FkVVRFaUF1LVpIMnVWZUxOd2o1VjJwVVpzNGRETEVmY1FDaFFRZVN1aEtjUXNPVWNuNDJsWTBXdmRZdEJDMnQyNXlTSHVaVHRhSnIzc01YR3JtVVVfTWx2d3ZUUQ?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202610/774364_1184171_5214_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=774364"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "신세계百, 25일까지 가을·겨울 패션행사 '멘즈·우먼스 위크'",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QVFRxZWxCX2JtZnNpRlFpejdzbkJPQW9aTVdIYUN0V1JrOUVic3ZsdVAxck1hSTFtRmZxa255SU9hWi1sUzF3RlFPZ1dSOHF1SEpBYVo5Sjh5X3PSAWBBVV95cUxNVGdhZERNaXM4dF85Vko5ZURvVlJHcThtV1FkNnA0NmNWSlZVUDc0OVZETjA4T2E3enRKcVRnUkxBbHZoSGpjMW1FeWRCQWZEMzhCX3E5WVdLdmhoMmttTVc?oc=5",
+              "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018046000030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261018046000030"
+            },
+            {
+              "name": "뉴스1",
+              "title": "신세계百, 가을·겨울 패션 행사 '멘즈·우먼스 위크' 연다",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NSjc2N1NpTnVsNG1kTUUwZnBOMXFGVmM4VDJGcjB6eHluQUpMUXFFWklKbHhKbTUyQ1VFcTQzZ2dTUU91dkVUX3AySl9MVW9wVVJ0eldhZkpXdXRqeEFn?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6323722"
+            },
+            {
+              "name": "한국면세뉴스",
+              "title": "신세계백화점, 가을∙겨울 패션 행사…250여 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wcHduR0piWk9OZnRPc2dQY0EwSktrbmYxdlgwdzJTYmRqZGZNTjRSTmNNOVJ3X2lzY1g2NHhGMUJzeHYySEJ3WFREbHk0d3dDcnFLSG9GVk1rZmlQZnFFOTZYSVNpaldoMlE?oc=5",
+              "image": "https://www.kdfnews.com/news/thumbnail/202610/189462_241633_349_v150.jpg",
+              "url": "https://www.kdfnews.com/news/articleView.html?idxno=189462"
+            },
+            {
+              "name": "천지일보",
+              "title": "신세계百, 가을·겨울 패션 행사… 최대 10% 상품권 혜택",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qNE9Gb0ctYTlITW1PYnBCRHdpWkRPbUtkSzhjeE9yNkpUM1pfVFFYOEdnZENsVlZaZHdGSkxtMGVYZ296ZGtBbHB6MDVRb2hQUm1oMWpUR0NjS0VoU0VtYWtUdEpWTmpET2c?oc=5",
+              "image": "https://cdn.newscj.com/news/thumbnail/202610/3441179_3562830_5817_v150.jpg",
+              "url": "https://www.newscj.com/news/articleView.html?idxno=3441179"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "이소영 장관, 한국콜마 세종공장 방문 K뷰티 경쟁력 논의",
+          "summary": "이소영 장관이 한국콜마 세종공장을 방문해 K뷰티 제조 경쟁력 강화 방안을 논의했다.",
+          "source": "직썰",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRHpQWHZNN2ZxT2wxOVVLTFBmQjUyVUxkeUlScWdFMHgyMUZsMjlMQjM0T1BQMFg1N3g2bF9nQmNrX1FDdWVHcmhPbWc1M1BIUThERVZTYV9zQmhtQzV2VTExVjFUWTB0Nm9SU9IBbEFVX3lxTE5kRHpQWHZNN2ZxT2wxOVVLTFBmQjUyVUxkeUlScWdFMHgyMUZsMjlMQjM0T1BQMFg1N3g2bF9nQmNrX1FDdWVHcmhPbWc1M1BIUThERVZTYV9zQmhtQzV2VTExVjFUWTB0Nm9SUw?oc=5",
+          "original_title": "이소영 중기부 장관, 한국콜마 세종공장 방문···K뷰티 경쟁력 강화 논의",
+          "coverage": 30,
+          "sources": [
+            {
+              "name": "직썰",
+              "title": "이소영 중기부 장관, 한국콜마 세종공장 방문···K뷰티 경쟁력 강화 논의",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kRHpQWHZNN2ZxT2wxOVVLTFBmQjUyVUxkeUlScWdFMHgyMUZsMjlMQjM0T1BQMFg1N3g2bF9nQmNrX1FDdWVHcmhPbWc1M1BIUThERVZTYV9zQmhtQzV2VTExVjFUWTB0Nm9SU9IBbEFVX3lxTE5kRHpQWHZNN2ZxT2wxOVVLTFBmQjUyVUxkeUlScWdFMHgyMUZsMjlMQjM0T1BQMFg1N3g2bF9nQmNrX1FDdWVHcmhPbWc1M1BIUThERVZTYV9zQmhtQzV2VTExVjFUWTB0Nm9SUw?oc=5",
+              "url": "https://www.ziksir.com/news/articleViewAmp.html?idxno=149758"
+            },
+            {
+              "name": "THE K BEAUTY SCIENCE",
+              "title": "이소영 중기부 장관, 한국콜마 세종공장 방문",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zSlhYc00xS2NGZ3RlWkdndUgzWWlXOEM5b2lGcUVtM2hQaDlTRURsMVp6UkVWV3N6YnczaTRIaTBjOG1OdGxreDN4b1RlZFNlMkdNRExMcEo5VUpPaVVJYWdRX2h4YVJHVXc?oc=5",
+              "image": "https://cdn.thekbs.co.kr/news/photo/202610/15229_23280_013.jpg",
+              "url": "https://www.thekbs.co.kr/news/articleView.html?idxno=15229"
+            },
+            {
+              "name": "코스인코리아닷컴",
+              "title": "한국콜마, 이소영 중기부 장관 첫 민간기업 현장서 K뷰티 제조 경쟁력 소개",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOWTVEeVlvb05JSjRVNnlDa3V2OHFEeWVpdHZQbDhVYzBrYTZId3FVU1JSbDZVaFlJQmdSSlBDZHNHZXBDbXlabnRkdUpUNWNOS2RWaEFmamFNNV9QWXlxRUVkRQ?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261042/art_17923286098095_8ca7f5.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58533"
+            },
+            {
+              "name": "중소기업신문",
+              "title": "이소영 장관, 한국콜마서 K뷰티 수출 해법 찾다",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xNFJqM3RZZ1RJaUhrM0tkWjFRYmM5a3hZRmIyMGcxNlNJUUtUWE5RdWJzc2tmYndHWm4xSElfZVdSb0RmOFZsNW1kb2gzVWNvRkMwcVZmZ0s1Zk44R2gyZHZqT0VvN29tWWc2MQ?oc=5",
+              "image": "https://cdn.smedaily.co.kr/news/thumbnail/202610/364813_299851_5611_v150.jpg",
+              "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=364813"
+            },
+            {
+              "name": "리버티코리아포스트",
+              "title": "이소영 장관 한국콜마 세종공장 방문... K뷰티 성장·수출 견인 확인",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFZm9zWmU2ZGRyUC1hcS1SV3BkRWZzaDBYOVFMTXoyM1IwblY0SjRFTm1YdkgxVHBFZDlTNkc3X0I5MFNEbmprZE53WTdBNk1vYmJYQ0JpV2dkVDAxRXpuWkNEWUXSAWdBVV95cUxOOVNFZWl2MDVQYkh3N1JCcUNmQUN6TDExRzhvRTRnY2lHXzFHTG1WMFYwTmlWTXlTY01ZaFFZUk15MWFobTJRNEdzRFlhUDkyNEtodlZKejY5WTR0Umk4aDNqVVVZdTBN?oc=5",
+              "image": "https://cdn.lkp.news/news/thumbnail/202610/85097_100936_5821_v150.jpg",
+              "url": "https://www.lkp.news/news/articleView.html?idxno=85097"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "당뇨병약이 뇌경색 회복에 기여",
+          "summary": "당뇨병 치료제와 혈전제거술이 병합된 경우 뇌경색 환자의 회복에 도움을 주는 것으로 나타났다",
+          "source": "사이언스타임즈",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdmNtUUlpRmh6X3IwOEFhanBtTnNBa2wzQjhlMmtXXzVrWWJ1V0hEWVdKMlFaZk9YRzFXaXdGcDFjbHNYb05pLTBkLUZXQmhGdnhhdjhwaTl3V1Ffb2drU3hMb1FLX1ItQVZJU2kxTlBPLVZWWVJaZG0teWpGcVJyanlvNFIwVXZvQms3ZHByNA?oc=5",
+          "original_title": "\"당뇨병약, 혈전제거술 받은 뇌경색 환자 회복에 기여\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "사이언스타임즈",
+              "title": "\"당뇨병약, 혈전제거술 받은 뇌경색 환자 회복에 기여\"",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdmNtUUlpRmh6X3IwOEFhanBtTnNBa2wzQjhlMmtXXzVrWWJ1V0hEWVdKMlFaZk9YRzFXaXdGcDFjbHNYb05pLTBkLUZXQmhGdnhhdjhwaTl3V1Ffb2drU3hMb1FLX1ItQVZJU2kxTlBPLVZWWVJaZG0teWpGcVJyanlvNFIwVXZvQms3ZHByNA?oc=5",
+              "url": "https://www.sciencetimes.co.kr/nscvrg/view/menu/251?searchCategory=223&nscvrgSn=262541"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "인천 남동구 40대 남성 테이저 건 체포",
+          "summary": "인천 남동구에서 40대 남성이 알몸으로 돌아다니다가 경찰에게 모래를 뿌려 테이저 건을 맞고 체포됐다. 검찰은 공연음란·공무집행방해 혐의로 조사 중이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Society/article/all/20261019/134864028/2",
+          "original_title": "인천 구월동서 40대男 알몸 배회…테이저건 쏴 체포",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "인천 구월동서 40대男 알몸 배회…테이저건 쏴 체포",
+              "link": "https://www.donga.com/news/Society/article/all/20261019/134864028/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/19/134864027.3.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "나체로 주택가 배회한 40대…경찰, 테이저건 쏴 체포",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3c2VBMFpxOHVna2llcThWRS1NUEpkMU1aY2pQSHczSGZ1VVV4bG0zcmFUQ01YeW9qU29CUWdzWnhGektQQWc2MElFenZZdnJMcnFtNkdOZ1I3Z0XSAWBBVV95cUxPVWR4RFk2ZWQwR0JmQ0lNNHJpX3FVZUxtSHFKNlRTYjdwR1RHSUJmZkFIb2U0eTlpN1dGWm5xcTU2WU05Wnk3Q3p6Y1FOTzYwSWRBMUk2R2lpem5GeTZuSXQ?oc=5",
+              "image": "https://img5.yna.co.kr/photo/cms/2018/06/25/11/C0A8CA3C0000016435643C5100024E7B_P4.jpeg",
+              "url": "https://www.yna.co.kr/view/AKR20261018025200065"
+            }
+          ]
+        },
+        {
+          "headline": "선거용품 입찰 비리 업체 탈세 정황 포착",
+          "summary": "선거관리위원회 특별검사팀은 입찰 비리 의혹이 있는 업체의 탈세 정황을 추가로 포착하고 국세청에 세무조사를 요청했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261018039300004",
+          "original_title": "선관위특검 \"입찰비리 업체, 탈세 정황도 포착\"…세무조사 요청",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "선관위특검 \"입찰비리 업체, 탈세 정황도 포착\"…세무조사 요청",
+              "link": "https://www.yna.co.kr/view/AKR20261018039300004",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101515320001300_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "선관위 특검, 유착 업체 '탈세 정황 포착'‥신속 세무조사 요청",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAySGxPMm5USjRBTFZDRkJjRVZBcG5pVGwwZHVucWFmN3FyaGtyT3VzTC1vMXFqT1lIeThrM2VnNXZaZ0lGOU0tZGg4am1jdjN6elFHTXdJNDllS25IUlc5M09CbWJNVl9BZmM4YUhIaDE0QlpnaE400gF3QVVfeXFMTmNnQmRlX0VYUGh4M1drcXROSEFkRUZta2ZtOVBYOVlPT0M2YXo1WUJfNzJPbnZibExydko1WUF6WTNCUkVPMWV1SWJTX3F4dXhEMTR6b1hxNHRMX1h6RERFaHBnNTVCZWoxcmhIXy1GeWg1TjV4ZTA?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/10/18/jse_20261018_20.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6858786_36918.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프, 네타냐후 총리 지지 선언",
+          "summary": "미국 대통령 트럼프가 이스라엘 총선 9일 앞에 네타냐후 총리에 공개 지지를 표명했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803359",
+          "original_title": "\"네타냐후, 위대한 전사\" 공개 지지…중동은 '격랑'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"네타냐후, 위대한 전사\" 공개 지지…중동은 '격랑'",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803359",
+              "image": "https://img.sbs.co.kr/newimg/news/20261019/202232526_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "트럼프, 이스라엘 총선 9일 앞두고 네타냐후 지지…\"위대한 전사\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12WXFRNlRsU1RsTncxWTFSa1pOT1FreHN3dXktUzJ2U0ZQU1gtZmNfZkNHc0RzUkpoYnphMjZUSDI0VnFoS0pqVmtEblZWMGEyeGN2UWlCSUFuVFdlSG5xM0pISTVhcE0?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261018/AKR20261019012446Gqx_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261019012446Gqx"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프, 이스라엘 총선 9일 앞 네타냐후 지지…\"위대한 전사\"",
+              "link": "https://www.yna.co.kr/view/AKR20261019001300071",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019001300071_01_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "사우디군 헬기 추락, 2명 사망",
+          "summary": "AH‑6 헬기가 사우디아라비아와 예멘 친이란 반군 간 무력 충돌 중 18일 추락해 2명이 사망했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803326",
+          "original_title": "사우디군 헬기 추락 2명 숨져…예멘 북부선 수십 명 사상",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "사우디군 헬기 추락 2명 숨져…예멘 북부선 수십 명 사상",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803326",
+              "image": "https://img.sbs.co.kr/newimg/news/20261019/202232512_1280.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "사우디군 헬기 추락 2명 숨져…예멘 북부선 수십명 사상",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1udnZ1b1dNdGJMdG1PemYwVl9senhTRFl6X1pSRi1HaDlOT2p0bnJ0Wm1malZmMDg0cTVyLXk4emdwakV2OFJSRkhoLWJBNlJBaUhlbDd4aW5sd0E?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/10/19/20261019_5dmNYh.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8688562"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "사우디군 헬기 추락 2명 숨져…예멘 북부선 수십명 사상(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261018045751108",
+              "image": "https://img8.yna.co.kr/etc/inner/KR/2026/10/18/AKR20261018045751108_02_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "339조원 국부펀드 AI 보안 논란",
+          "summary": "339조원 규모 국부펀드가 AI 보안 이슈를 겪으며 내부 문서 처리에 중국산 모델을 활용했다.",
+          "source": "핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03LUpaaDBYNGpaeXdYTVZMYWg0enN0SFZSWmQ4Tkg3NzQ2T2VzZjByX1FYanAyZHlMMmJWZDdPcDczVWtkUTVrVU9fazd3bTh4STFUOERYbzRlQ0xWaUR5ZUxLaEE4U3dSVGRVYXZjNkVac03SAXdBVV95cUxPQWl5WkY0NnYyT3UzM0RDdXZtZHBteWVQY2UtQzVFRG9KaHZhb0x4NFlEZmZvZUJaYmJpb0h3TEc4ejFyWmpoRW45OGo2Sjd6VEpEOU5vR3RoYl9lQWEzXzhndTkwNXVrSHpNWjJDY3l2MnlzQ0E0NA?oc=5",
+          "original_title": "339조원 국부펀드 AI 보안 논란…내부 문서 처리에 중국산 모델 활용",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "핀포인트뉴스",
+              "title": "339조원 국부펀드 AI 보안 논란…내부 문서 처리에 중국산 모델 활용",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03LUpaaDBYNGpaeXdYTVZMYWg0enN0SFZSWmQ4Tkg3NzQ2T2VzZjByX1FYanAyZHlMMmJWZDdPcDczVWtkUTVrVU9fazd3bTh4STFUOERYbzRlQ0xWaUR5ZUxLaEE4U3dSVGRVYXZjNkVac03SAXdBVV95cUxPQWl5WkY0NnYyT3UzM0RDdXZtZHBteWVQY2UtQzVFRG9KaHZhb0x4NFlEZmZvZUJaYmJpb0h3TEc4ejFyWmpoRW45OGo2Sjd6VEpEOU5vR3RoYl9lQWEzXzhndTkwNXVrSHpNWjJDY3l2MnlzQ0E0NA?oc=5",
+              "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/496266_481736_450_v150.jpg",
+              "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496266"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "암살자들 19일 연속 한국영화 1위·319만 관객 돌파",
+          "summary": "암살자(들)이 19일 연속 한국영화 박스오피스 1위를 기록하며 누적 관객 319만 명을 돌파했다.",
+          "source": "조이뉴스24",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KZkxIZTA0aWE1YjBNaVhxZFlEZmMyOVp4Z2I0elRTMzc1OWxybEdUMVhlV1RtZ0tqVjQtdE1wV0lPQXdMN0kwc0kzOFQ5Y1E?oc=5",
+          "original_title": "'암살자(들)', 올해 韓 흥행 TOP4 등극⋯19일 연속 韓영화 1위",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "조이뉴스24",
+              "title": "'암살자(들)', 올해 韓 흥행 TOP4 등극⋯19일 연속 韓영화 1위",
+              "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KZkxIZTA0aWE1YjBNaVhxZFlEZmMyOVp4Z2I0elRTMzc1OWxybEdUMVhlV1RtZ0tqVjQtdE1wV0lPQXdMN0kwc0kzOFQ5Y1E?oc=5",
+              "image": "https://image.inews24.com/v1/7eaa95dbc8a9ec.jpg",
+              "url": "https://www.joynews24.com/view/2016198"
+            },
+            {
+              "name": "조선일보",
+              "title": "319만 돌파 '암살자들', 19일 연속 韓영화 1위..5주차 장기 흥행 레이스",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVURNWHRsSEtMOGY2eGxGMWotZnYtZkxCVGxYVnUwWnBDdjEwTkc1UkNocnVQWGZmdFRKZ0F4RmZZcW0zNzhVVHBFdmNYejF6U0plMHVrYzEyRWhoVjMwS19oYnYyUWJGbkNXMm1nM2t5VVgxYVVrOU1tS3RXYXhMX1pxUDZKd2JHYlE?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/GM3DENDBG4YTOMJXMY2DEMLGGA.jpg?auth=91979e00180645da8947322d28314f8ad8ba19e8653479a28c7e9f4e80438162&width=530&height=278&smart=true",
+              "url": "https://www.chosun.com/entertainments/movie/2026/10/18/GE2TOZJWGQ2DMMZUMQ3WMZDCMI/"
+            },
+            {
+              "name": "조선비즈",
+              "title": "319만 돌파 '암살자들', 19일 연속 韓영화 1위..5주차 장기 흥행 레이스",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa2Zid24tblJjbmZSWWhWMGRibUtDaG1jLS1UdjNIMHJPa2FuT0h2eVRHUFk4X3pCMEp2czk0ZEdwTVVHZ2VrQllMeVg5MmEyOFJNbkpoZDdXekd0cXgxMVdFNnF6Wk9GMHByeHhVQ3V6Uk1QaE9id3plTk96anlxUk9lY1pZb0NHaGJDcHNTdGoySzVlVXJqcEhZZWfSAZwBQVVfeXFMTmtmYnduLW5SY25mUlloVjBkYm1LQ2htYy0tVHYzSDByT2thbk9IdnlUR1BZOF96QjBKdnM5NGRHcE1VR2dla0JZTHlYOTJhMjhSTW5KaGQ3V3pHdHF4MTFXRTZxelpPRjBwcnh4VUN1elJNUGhPYnd6ZU5Pemp5cVJPZWNaWW9DR2hiQ3BzU3RqMks1ZVVyanBIWWVn?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/GU3TAY3DMQ2TMZBVMZRTMNRWGM.jpg?auth=937e867598103e08a1b4262cdf8e8770db7a5d83673a137a50b5eaef1bcda6c5&width=572&height=300&smart=true",
+              "url": "https://biz.chosun.com/entertainment/movie/2026/10/18/MNRDEM3BMQZWIZBYG5SDONRVGE/?outputType=amp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "아이치·나고야 장애인아시안게임 개회",
+          "summary": "18일 나고야 미즈호공원에서 개회식이 열리고 한국 선수단이 입장했다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803212",
+          "original_title": "아이치·나고야 장애인 아시안게임 개막…일주일간 열전 돌입",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "아이치·나고야 장애인 아시안게임 개막…일주일간 열전 돌입",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803212",
+              "image": "https://img.sbs.co.kr/newimg/news/20261018/202232495_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "아이치·나고야 장애인아시안게임 개막…한국 종합 6위 도전",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wWGRtU09QYUZaTVJQUUNFRDhuREFPLTdEY3Nhc1h6NFBoM0czMjBDVzhiUEx4UlJmU0RNQ2Z5NEp6X0VLa2JBakptdk8yaFpOSE1wRGZUdHE0bi1xUVE2bWVCMmFRQmc?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261018/AKR202610182136106D6_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202610182136106D6"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "태극기 든 장민호·윤지유…아시아 장애인 스포츠 축제 막 올라",
+              "link": "https://www.yna.co.kr/view/AKR20261018051000007",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/10/18/PYH2026101808980001300_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "아시아 장애인 스포츠 축제 막 올랐다…7일간의 열전 돌입",
+              "link": "https://www.newsis.com/view/NISX20261018_0003830610",
+              "image": "https://img1.newsis.com/2026/10/14/NISI20261014_0021489179_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "안세영, 덴마크 오픈 우승",
+          "summary": "안세영이 승률 98.4%를 기록하며 덴마크 오픈에서 시즌 9번째 우승을 차지했다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261018062251007",
+          "original_title": "'승률 98.4％' 안세영, 야마구치 꺾고 시즌 9번째 우승 트로피(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "'승률 98.4％' 안세영, 야마구치 꺾고 시즌 9번째 우승 트로피(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261018062251007",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/09/29/PYH2026092927650001300_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "안세영, 야마구치 꺾고 시즌 9번째 우승 트로피",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOY2d2T0JiNnFrT0RCNkNYQjVQNnQ1bWIxMl8yUEpaTFdpSmpUSmFKM1NCTnhBM0I4Q2wyR0t2Vk9QbDJBbHZ1aU9Ma1hOUlBubF83dUdiaDhvdVgzckJOT0hMNXRhRVU?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261018/MYH20261019065511urk.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/MYH20261019065511urk"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "파워 숄더",
+    "tagline": "오버사이즈를 넘어 강조된 어깨 라인",
+    "description": "파워 숄더는 어깨를 한껏 강조하는 디자인으로, 과거 오버사이즈를 넘어 새로이 부각된다. 오늘날 아우터와 상의에 적용해 구조감을 주며, 세련된 실루엣을 완성한다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "네이비 파워 숄더 재킷",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "top",
+        "name": "흰색 파워 숄더 블라우스",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bottom",
+        "name": "회색 슬림 팬츠",
+        "color": "회색",
+        "hex": "#808080"
+      },
+      {
+        "category": "shoes",
+        "name": "검정 파워 숄더 로퍼",
+        "color": "검정",
+        "hex": "#000000"
+      },
+      {
+        "category": "bag",
+        "name": "베이지 파워 숄더 토트",
+        "color": "베이지",
+        "hex": "#F5F5DC"
+      }
+    ],
+    "tips": [
+      "오버사이즈 베이스에 파워 숄더를 매치해 균형 잡힌 실루엣을 만든다.",
+      "하이웨이스트 팬츠와 조합해 어깨 라인을 부각한다.",
+      "베이직 블레이저 위에 파워 숄더 재킷을 레이어링해 구조감을 더한다."
+    ],
+    "weather_tip": "서울 10~18°C·구름 조금·강수 2%에 파워 숄더 재킷을 두꺼운 니트에 레이어링하면 따뜻함을 유지한다.",
+    "weather": {
+      "city": "서울",
+      "t_max": 18,
+      "t_min": 10,
+      "rain_pct": 2,
+      "sky": "구름 조금",
+      "display": "서울 10~18°C · 구름 조금 · 강수 2%"
+    },
+    "articles": [
+      {
+        "title": "부담스러웠던 트렌드, 파워 숄더가 돌아왔습니다",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/10/19/%eb%b6%80%eb%8b%b4%ec%8a%a4%eb%9f%ac%ec%9b%a0%eb%8d%98-%ed%8a%b8%eb%a0%8c%eb%93%9c-%ed%8c%8c%ec%9b%8c-%ec%88%84%eb%8d%94%ea%b0%80-%eb%8f%8c%ec%95%84%ec%99%94%ec%8a%b5%eb%8b%88%eb%8b%a4/",
+        "note": "파워 숄더는 오버사이즈를 넘어 어깨를 강조해 멋을 찾는 트렌드이다",
+        "image": "https://www.wkorea.com/wp_data/w/2026/10/style_6ad4db7375d8a-1920x1080.jpg?x=1170&y=704&ver=1.1.91",
+        "url": "https://www.wkorea.com/2026/10/19/%EB%B6%80%EB%8B%B4%EC%8A%A4%EB%9F%AC%EC%9B%A0%EB%8D%98-%ED%8A%B8%EB%A0%8C%EB%93%9C-%ED%8C%8C%EC%9B%8C-%EC%88%84%EB%8D%94%EA%B0%80-%EB%8F%8C%EC%95%84%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "그래도 우리는 우리의 밭을 가꾸어야 합니다.",
+    "author": "볼테르",
+    "work": "캉디드"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "쥐는 오늘 새로운 아이디어가 번쩍"
+      },
+      {
+        "animal": "소",
+        "text": "소는 협업이 빛나는 날"
+      },
+      {
+        "animal": "호랑이",
+        "text": "호랑이는 리더십이 돋보인다"
+      },
+      {
+        "animal": "토끼",
+        "text": "토끼는 휴식보다 창의력이 우선"
+      },
+      {
+        "animal": "용",
+        "text": "용은 열정이 불꽃처럼 타오른다"
+      },
+      {
+        "animal": "뱀",
+        "text": "뱀은 유연한 생각으로 문제를 풀어"
+      },
+      {
+        "animal": "말",
+        "text": "말은 새로운 길을 개척한다"
+      },
+      {
+        "animal": "양",
+        "text": "양은 차분함으로 팀을 안정시킨다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "원숭이는 기발한 아이디어를 제공"
+      },
+      {
+        "animal": "닭",
+        "text": "닭은 일과를 체계적으로 정리한다"
+      },
+      {
+        "animal": "개",
+        "text": "개는 충성심으로 동료를 지지한다"
+      },
+      {
+        "animal": "돼지",
+        "text": "돼지는 재정적으로 안정을 찾는다"
+      }
+    ]
+  },
+  "reading_minutes": 3
+}
