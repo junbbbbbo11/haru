@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-20",
+  "weekday": "화요일",
+  "vol": 8,
+  "generated_at": "2026-10-20T08:30:23+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
+      "direction": "up",
+      "display": "5,668.05",
+      "change_display": "▲ 2.05%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1330.8,
+      "change": -2.6,
+      "change_pct": -0.2,
+      "direction": "down",
+      "display": "1,330.8원",
+      "change_display": "▼ 0.20%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 110330000.0,
+      "change": -195000.0,
+      "change_pct": -0.18,
+      "direction": "down",
+      "display": "11,033만원",
+      "change_display": "▼ 0.18%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 20,
+    "t_min": 10,
+    "rain_pct": 12,
+    "sky": "이슬비",
+    "display": "서울 10~20°C · 이슬비 · 강수 12%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "삼성",
+      "headline": "삼성전자 주가 5배, 영업익 9배 성장…",
+      "summary": "삼성전자는 4년간 이재용 회장 취임 이후 주가가 5배, 영업이익이 9배 성장했다. 조단위 M&A를 통해 성장 동력 확보를 강조한다.",
+      "source": "아시아투데이",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261020010006223",
+      "original_title": "[이재용號 4년] 취임 후 삼성전자 주가 5배, 영업익 9배…조단위 M&A 승부에 문화보국 실천",
+      "sources": [
+        {
+          "name": "아시아투데이",
+          "title": "[이재용號 4년] 취임 후 삼성전자 주가 5배, 영업익 9배…조단위 M&A 승부에 문화보국 실천",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261020010006223",
+          "image": "https://img.asiatoday.co.kr/file/2026y/10m/20d/20261020010006223_1792401029_1.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "다해",
+      "headline": "만삭 이다해, 2시간만에 매출 200억",
+      "summary": "다해는 중국에서 만삭 상태로 라이브커머스를 진행해 2시간 만에 매출 200억 원을 기록했다. 성과가 대중의 관심을 끌었다.",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/entertainment/2026/10/19/2026101913585312046",
+      "original_title": "'만삭' 이다해, 중국서 일냈다…2시간 만에 매출 200억 \"차원이 달라\"",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "'만삭' 이다해, 중국서 일냈다…2시간 만에 매출 200억 \"차원이 달라\"",
+          "link": "https://www.mt.co.kr/entertainment/2026/10/19/2026101913585312046",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1642,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026101913585312046_1.jpg"
+        },
+        {
+          "name": "아시아경제",
+          "title": "\"2시간 만에 200억\"…이다해 출연한 中 광군제 라이브커머스 '대박'",
+          "link": "https://www.asiae.co.kr/article/2026102008105864202",
+          "image": "https://cphoto.asiae.co.kr/listimglink/1/2026102008072466628_1792451244.png"
+        },
+        {
+          "name": "스포츠경향",
+          "title": "‘세븐♥’ 이다해, 건물주인 이유 있었네… 中 라이브서 2시간만 ‘200억 매출’ 눈길",
+          "link": "https://sports.khan.co.kr/article/202610181807003",
+          "image": "https://images.khan.co.kr/article/2026/10/18/news-p.v1.20261018.f8ce452c509d43369257317fb1723e1e_P1.jpg"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "title": "이다해, 만삭의 몸으로 중국서 '200억 완판'…단 2시간 만에 터진 대박",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVdlo0bG5uZi1yS0lwRmIzTHRpT3dXQ0hCLURfbVNiT3daS3oxWURPVVRXZkkzQ0k2OHppcWNvOU8xc1hTMzNNZmIwdWlva01BLUVsZXVvNXJoUQ?oc=5",
+          "image": "https://image.fnnews.com/resource/media/image/2026/10/19/202610191603138253_e.jpg",
+          "url": "https://www.fnnews.com/news/202610191602525335"
+        }
+      ]
+    },
+    {
+      "kicker": "손담비",
+      "headline": "손담비 21kg 감량, 3가지 비법 공개",
+      "summary": "손담비는 출산 후 21kg을 감량하며 몸매를 되찾았다. 3가지 습관을 공개했다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261019_0003832364",
+      "original_title": "'21㎏ 감량' 손담비, 몸매 되찾은 3가지 비법 공개",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "'21㎏ 감량' 손담비, 몸매 되찾은 3가지 비법 공개",
+          "link": "https://www.newsis.com/view/NISX20261019_0003832364",
+          "image": "https://img1.newsis.com/2026/10/19/NISI20261019_0002267861_web.jpg"
+        },
+        {
+          "name": "Chosunbiz",
+          "title": "‘21kg 감량’ 손담비, 출산 후 체형 되찾은 3가지 습관 공개 “꾸준히 움직이기” - 조선비즈",
+          "link": "https://biz.chosun.com/entertainment/enter_general/2026/10/19/GU3TCNJRG44DMOBWMUZGGNLFGA/",
+          "image": "https://biz.chosun.com/resizer/v2/MQZTCOLCHFQTANLCMRTGIM3EGU.jpg?auth=9b2e54e4ddff2c0cab428e8c44af80c789e49cb8a059ebca53f8f53f47e3f654&width=639&height=335&smart=true"
+        },
+        {
+          "name": "뉴스엔",
+          "title": "‘이규혁♥’ 뼈말라 손담비 “제가 출산하고 몸매 찾은 습관은요” 3가지 일상 강조",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sSWxubDlESVpsdW5jQUNTWjkzX0FsS215eGtWeURyV3JLTTJ5X1NweGJwNUNHUzA1UmducUcxNFJnb2lZdHMyU2M2aHNWZjJGMlhwTF9Ibnl4WGJ0TzVkeUQ1N3RJSTJh?oc=5",
+          "url": "https://m.newsen.com/news_view.php?uid=202610191313342110"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "다우-CJ 컨소시엄, 중앙일보 인수 우선협상대상",
+          "summary": "다우키움그룹·CJ그룹 컨소시엄이 PwC삼일회계법인에 의해 중앙일보 인수 우선협상대상자로 선정되었다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261020/134871160/2",
+          "original_title": "중앙일보 경영권 매각 우선협상대상에 다우-CJ컨소시엄",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "중앙일보 경영권 매각 우선협상대상에 다우-CJ컨소시엄",
+              "link": "https://www.donga.com/news/Economy/article/all/20261020/134871160/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/19/134871141.1.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "'다우키움·CJ 컨소시엄' 중앙일보 품는다",
+              "link": "https://www.mk.co.kr/news/stock/12180105",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/20/20261020_01170122000001_S00.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "중앙일보 인수 우선협상대상자에 다우키움·CJ 컨소시엄 선정",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tNWplTUh2NUNQbkhyMVRjWnR1elZtLXI4NENRTEp5TEd5ejhpVU9pMjkzaEVXS1BuRFF5STU0cjhEdzZSc2RpWnhaSVlDblV1dVF0RmJUUWpkLThMQklfbkZycmtYbGc?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261019/AKR20261019230535Ri0_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261019230535Ri0"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "중앙일보 인수 우협에 다우키움·CJ 컨소시엄 선정(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261019144551008",
+              "image": "https://img7.yna.co.kr/photo/cms/2026/06/19/08/PCM20260619000108990_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "이형일, 올해 성장률 3.4~3.6% 전망",
+          "summary": "이형일 부총리·재정경제부 장관이 올해 한국 경제 성장률이 3.4~3.6%에 달할 것으로 전망했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261019/134869905/2",
+          "original_title": "이형일 “올해 성장률 3.4~3.6% 가능”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "이형일 “올해 성장률 3.4~3.6% 가능”",
+              "link": "https://www.donga.com/news/Economy/article/all/20261019/134869905/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/19/134869173.4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "이형일 \"올 경제성장률 최대 3.6% 가능\"",
+              "link": "https://www.mk.co.kr/news/economy/12179838",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/20/20261020_01110110000008_L00.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "이형일 \"올해 성장률 3.4∼3.6% 전망…잠재성장률 반등 임박\"",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JaUc2M0JSZmpIdWgzcGFTWXBHMklHazlTNTNfZ01fRnRiUHRfNktfREJWR2ZHbXFUSUl3S2hBRkdxVlpRVk5OVnlLaTFEa3F0N2RhV1l3T0lZYUHSAWBBVV95cUxPX1hYUTZvWEhpa3Z3eW1NcVFERVcxX2V0akg3aC1PRUg4ay1BNTNHT0V2YUg3MkVMMHI5RXQ5cWZlandoODRlLUdnYm5uR2RNNEdjcTd0cUlxSGJWaFRDUmc?oc=5",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/10/17/AKR20261017047900002_02_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261017047900002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "신세계백화점 가을·겨울 패션 할인 행사",
+          "summary": "신세계백화점은 250여 개 브랜드가 참여한 가을·겨울 패션 할인 행사를 개최했다.",
+          "source": "비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53VFBPVFpoSm5GWmNXemZHRl9KX1BTckVWX1BfeFV6dW9wUk1fR2Zhak9IbG8yNEpiUWdfSjk5al9rYkJxYjdsRW9RQks2bW80RlJtOFUyX0xJU0J4eG1iU0plQ045Smh0R1dNcFRNM0lOazQ?oc=5",
+          "original_title": "신세계백화점 가을·겨울 패션 할인 행사 개최, 250여 개 패션 브랜드 참여",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "비즈니스포스트",
+              "title": "신세계백화점 가을·겨울 패션 할인 행사 개최, 250여 개 패션 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53VFBPVFpoSm5GWmNXemZHRl9KX1BTckVWX1BfeFV6dW9wUk1fR2Zhak9IbG8yNEpiUWdfSjk5al9rYkJxYjdsRW9RQks2bW80RlJtOFUyX0xJU0J4eG1iU0plQ045Smh0R1dNcFRNM0lOazQ?oc=5",
+              "url": "https://www.businesspost.co.kr/BP?command=article_view&num=449679"
+            },
+            {
+              "name": "라이센스뉴스",
+              "title": "신세계百, 남녀 패션 행사 진행…250여 개 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ibERXUWFmRzhoYzBjOWVUZEZfZWc3dnQzWlRaU2F4VEE4Y1QwTjUxNnhIRnl0ZTI4aFJ1QXJpR0lTTkVsc2FMQk5BTzhvbXNKX2xOM1cxVGhYYkpoTlVTZHp5MHk0MVV5SnpB?oc=5",
+              "image": "https://cdn.lcnews.co.kr/news/photo/202610/209856_212833_624.jpg",
+              "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=209856"
+            },
+            {
+              "name": "팍스경제TV",
+              "title": "신세계백화점, 가을·겨울 패션 행사…250여 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pS3E3WDY5YUc0RjlCTDdMQmgtLW92amFlczFRbG5DcERfWWJ2cFVQRmpranlUS3oyWGtsalBYZTR4YUNoNlB4OXBFNmFzR0lQNHZXNkJ5Sl93MUcwYS1rNXFLd3c2bXM?oc=5",
+              "image": "https://www.paxetv.com/news/thumbnail/202610/284442_260056_858_v150.jpg",
+              "url": "http://www.paxetv.com/news/articleView.html?idxno=284442"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "2026 오송 화장품엑스포 개막",
+          "summary": "2026년 22일 오송에서 화장품엑스포가 개막했다.",
+          "source": "THE K BEAUTY SCIENCE",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11R0JrbXFMWktpM2pQbGlVcVZwaUlWZ2twTnBPOEowMV9LdE5fXy1WMGRGcEhOVXZyQWxZOGl5Ym9UU3FxTWNUWXEzRGZhOG9ZeGwzX1E1UVZWdURBQ21qWHJQOUZqZU1kbWc?oc=5",
+          "original_title": "2026 오송화장품뷰티엑스포, 22일 개막",
+          "coverage": 16,
+          "sources": [
+            {
+              "name": "THE K BEAUTY SCIENCE",
+              "title": "2026 오송화장품뷰티엑스포, 22일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11R0JrbXFMWktpM2pQbGlVcVZwaUlWZ2twTnBPOEowMV9LdE5fXy1WMGRGcEhOVXZyQWxZOGl5Ym9UU3FxTWNUWXEzRGZhOG9ZeGwzX1E1UVZWdURBQ21qWHJQOUZqZU1kbWc?oc=5",
+              "image": "https://cdn.thekbs.co.kr/news/photo/202610/15237_23294_546.jpg",
+              "url": "https://www.thekbs.co.kr/news/articleView.html?idxno=15237"
+            },
+            {
+              "name": "세계일보",
+              "title": "‘K뷰티 세계로’… 오송 화장품엑스포 22일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfVUJXM0J2R0dfejEwRWFxV3Q3MFhBYmFBTWszWmNCWDl1R2pjbGMxc3RnWEh3cTVHMjFfQWl2QjhRdHJpNVdNcEl1aE5Fd2hhM0NvcdIBVEFVX3lxTFBfVUJXM0J2R0dfejEwRWFxV3Q3MFhBYmFBTWszWmNCWDl1R2pjbGMxc3RnWEh3cTVHMjFfQWl2QjhRdHJpNVdNcEl1aE5Fd2hhM0NvcQ?oc=5",
+              "url": "https://m.segye.com/ampView/20261019523421"
+            },
+            {
+              "name": "충청타임즈",
+              "title": "`K-뷰티 비즈니스 장' 오송화장품엑스포 22일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92dFZFcTFwTmpSeU1fSzRoSVpiRmUyR2N5ZVhjZzhMcjE4ekU2dTlXWHFoMU1udUkzQzhTc0xLaVhFMTZKbkxNZkNQWnAwalk0WjZ3SGtIeXN3OWd5VkpxRzhHelNiYmtt?oc=5",
+              "image": "https://www.cctimes.kr/news/thumbnail/202610/932801_416219_4148_v150.jpg",
+              "url": "https://www.cctimes.kr/news/articleView.html?idxno=932801"
+            },
+            {
+              "name": "중부일보",
+              "title": "[화보] 2026 K-뷰티엑스포 코리아",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YN2JMaTBxRGM2QXcyd3hjV2dZNEo3cG93eXNjZWo0eDNGdG9hUENPemIydkNvRGNsZE1nUS1zVl9JZkxpZTJXeEFvVk96dmJYOVZJRmQwUUdmZ3lBdGhtdWtvcm1LUUYzemJKbkJFRQ?oc=5",
+              "image": "https://cdn.joongboo.com/news/photo/202610/363739810_2519436_2602.jpg",
+              "url": "https://www.joongboo.com/news/articleView.html?idxno=363739810"
+            },
+            {
+              "name": "노컷뉴스",
+              "title": "D-3 카운트다운…오송화장품뷰티엑스포 손님맞이 준비 완료",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pVEFoTHhocVdGOURWakN1V3VuZDVYbTNBazlOZGdQSm90cnV2Vi1UbDJDdjgtY2dhNzVHTjNsYk9QMXFVV1cxdUM0d2w3ZjhwR2c?oc=5",
+              "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/10/19/202610191036381573_0.jpg",
+              "url": "https://www.nocutnews.co.kr/news/6593655"
+            }
+          ]
+        },
+        {
+          "headline": "코스맥스 회장, K-뷰티 성장 비결 발표",
+          "summary": "코스맥스 이경수 회장은 미국 뉴욕에서 K-뷰티의 성장 비결을 창의력과 속도라고 밝혔다.",
+          "source": "뷰티경제",
+          "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312331",
+          "original_title": "이경수 코스맥스 회장 \"K-뷰티 성장 비결은 창의력과 스피드\"",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "뷰티경제",
+              "title": "이경수 코스맥스 회장 \"K-뷰티 성장 비결은 창의력과 스피드\"",
+              "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312331",
+              "image": "https://cdn.thebk.co.kr/news/photo/202610/312331_82825_2344.png"
+            },
+            {
+              "name": "데일리안",
+              "title": "이경수 코스맥스 회장 \"K뷰티 성공 비결은 창의력과 속도\"",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tcDV0OUZHMExMTGNpUWxMWHR2djI5VkF0Y3BYQi1OMDRXMkFpWDVjaWZKNTN0U0JtRlEzMEpnWHRfWXZMUU45cnI1YzhselYtQ3Nn?oc=5",
+              "image": "https://cdnimage.dailian.co.kr/news/202610/news_1792396591631_1703300_m_1.jpg",
+              "url": "https://m.dailian.co.kr/news/view/1703300"
+            },
+            {
+              "name": "공공뉴스",
+              "title": "이경수 코스맥스 회장, 뉴욕서 K-뷰티 승부수",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KSlpJNmd3R2FjdVBUQVdxNkdyWUpDaExtWWxfY1hqU2V4N3ByVC1RZkoyS1B3M2N5Z1BFaFRWZlJ2RElTcE12emVWTXZMbWFsckVvVzlnRndUOXJMMDduTnB1aEh3QkpVLWZ1MUR30gFuQVVfeXFMTUpKWkk2Z3dHYWN1UFRBV3E2R3JZSkNoTG1ZbF9jWGpTZXg3cHJULVFmSjJLUHczY3lnUEVoVFZmUnZESVNwTXZ6ZVZNdkxtYWxyRW9XOWdGd1Q5ckwwN25OcHVoSHdCSlUtZnUxRHc?oc=5",
+              "url": "http://www.00news.co.kr/news/articleViewAmp.html?idxno=107250"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "이경수 코스맥스 회장이 꼽은 K뷰티 돌풍의 비결…“속도·다양성”",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1bFYtT3Y5OHRUZTFBb2J2c0I0SFdhLXlQaXF0YlJrSmJsMTVWQk45LWQxamdQbEVGamw1ZGRudjd3aDBzMm5wcWE4NmQycGNDZ0t6ajBycTVITUVMSTV4VDdzM2RnMGc5WVdJaFVB?oc=5",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261019010006026"
+            },
+            {
+              "name": "디지털데일리",
+              "title": "이경수 코스맥스 회장 \"K뷰티 글로벌 위상 뒤엔 기술력과 다양성\"",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12NDA2MEVuQy15Rjl0M1ZwQmJOcVU5Wi1icTJmU252ZkdabEhUT3NHMi1BUHU2VjhMZHJJV2NONEVERk5XanUybUtMZm9PamRDM29hZUNkaGMybW5ERVJPaWRDcDg?oc=5",
+              "image": "https://www.ddaily.co.kr/photos/2026/10/19/2026101916012766393_l.png",
+              "url": "https://www.ddaily.co.kr/page/view/2026101916033746887"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "파파고, ‘트렌드’ 서비스 도입",
+          "summary": "네이버 파파고가 ‘트렌드’ 서비스를 도입해 외국인 관광객을 위한 한국 여행 길잡이 역할을 확대했다.",
+          "source": "더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Qb3d3RERSVnRTVVNjaTB0S25lZXdMdU9hWEpYQWdSd0VqTjViWGVTTW1LbzNVRVhYcTJqekVpaDdjandERWx5Mk13SVBpQTZnOVlxcmV5ZlZiQdIBVEFVX3lxTE9lNUxOT3lwc3dIdi0wRDYwS2tLVDdrRTNSRHRhWk9ubTYydTZzbXRtYkw0MmU0ODhzWWExM3hqWjRBXzY5RG94RUxfREZpSWNZT1VrVA?oc=5",
+          "original_title": "여행 길잡이 된 파파고, 상품·장소 추천 서비스 '트렌드' 출시",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "더팩트",
+              "title": "여행 길잡이 된 파파고, 상품·장소 추천 서비스 '트렌드' 출시",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Qb3d3RERSVnRTVVNjaTB0S25lZXdMdU9hWEpYQWdSd0VqTjViWGVTTW1LbzNVRVhYcTJqekVpaDdjandERWx5Mk13SVBpQTZnOVlxcmV5ZlZiQdIBVEFVX3lxTE9lNUxOT3lwc3dIdi0wRDYwS2tLVDdrRTNSRHRhWk9ubTYydTZzbXRtYkw0MmU0ODhzWWExM3hqWjRBXzY5RG94RUxfREZpSWNZT1VrVA?oc=5",
+              "image": "https://img.tf.co.kr/article/home/2026/10/19/202614231792394242.png",
+              "url": "https://news.tf.co.kr/read/economy/2378037.htm"
+            },
+            {
+              "name": "인더뉴스",
+              "title": "네이버, 파파고에 ‘트렌드’ 서비스 도입…한국 여행 길잡이 된 AI",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54bndwRUpOVzFwZ0dDUW93VVcxa2VaOFQ4MUhxRnA4bmxTeXh4NFdMUDFJY0hob3ZIdmJpczRxZ0JlVGZxTEhoQ0pwSVk4bmE4VkpRdld2MlNiUjJVNTVxc0VUSVY?oc=5",
+              "image": "https://www.inthenews.co.kr/data/photos/20261043/art_17923869147615_bcaab0.jpg",
+              "url": "https://www.inthenews.co.kr/news/article.html?no=93224"
+            },
+            {
+              "name": "워크투데이",
+              "title": "네이버 파파고, 외국인 관광객 위한 ‘한국 여행 길잡이’로 진화",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90dmVzRVpDaUtWd3MxN242RHRuTjJQVHpZczdWc1MzU0FWLTN0Z1RKbXkxYW82QktsREI5ZVlWVzdfRzhNdDI4cnZmdHozZjRBYWQtREhKa3BmaEYxYkJqalV1MlJpTE40bnFINA?oc=5",
+              "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=90613"
+            },
+            {
+              "name": "CWN",
+              "title": "한국 여행 준비도 AI로…네이버 파파고, 외국인용 쇼핑·관광 정보 한곳에",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BNEduak5vbFF1emZSZmg5TWNYbjZvcUFIamxLTFB3S3pnN0tOeEk4ODJtejdiQmU4V2p1MGZXX3JHeS1qdHlEWlE2Tl82Q0F6ekR5aDRoYW43c1Q5T2d2dVpR?oc=5",
+              "image": "https://cdn.cwn.kr/news/photo/202610/59652_60052_4757.jpg",
+              "url": "https://www.cwn.kr/news/articleView.html?idxno=59652"
+            },
+            {
+              "name": "테크M",
+              "title": "번역 넘어 '여행 길잡이'로...네이버 파파고, 외국인 전용 서비스 '트렌드' 출시",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VMU1KaFZLTFlENVhrT25hcjhOZjhLMzRXd01ZYWZOR0k3alJRZzI3NmNVOEdGZEJINXNJMElTRnNoYkdoOVcyMThEUHZNTUxTZkNRbFJfQTRPY2ItYmRLSWpiSV9SQdIBakFVX3lxTE9jMmhCZ2w0ZjNTUW1FcEI4a2h6WkI4VEJ1OXFRNW5pU2pSVmphck5PeHAwZWlCcFlpYm9iOEhUeXB2WV80NThGMGVnRlp5RGpvb00wVW1uTWczelhDRnR4enhabi1vWEJVQ1E?oc=5",
+              "image": "https://cdn.techm.kr/news/thumbnail/202610/156233_223057_3624_v150.jpg",
+              "url": "https://www.techm.kr/news/articleView.html?idxno=156233"
+            }
+          ]
+        },
+        {
+          "headline": "경기관광공사 웰니스 페스타 개최",
+          "summary": "경기관광공사와 여기어때가 공동으로 ‘경기 웰니스 관광 페스타’를 개최해 경기 지역의 웰니스 관광을 홍보했다.",
+          "source": "이뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GTW11UEJNZ3lScVBvRVItV0pWNVRabmE3RGtYSXJiVmtDYTNlSjBBcy1kc3NaU256Y3VPR2d3ZjRNWjdtbFdBRkwtYXprTEMxckI1cjdYUTk2MlhleXNFS3ByTDlsdlUxbjBhTlZDdXZaTnhD0gF0QVVfeXFMT0ZNbXVQQk1neVJxUG9FUi1XSlY1VFpuYTdEa1hJcmJWa0NhM2VKMEFzLWRzc1pTbnpjdU9HZ3dmNE1aN21sV0FGTC1hemtMQzFyQjVyN1hROTYyWGV5c0VLcHJMOWx2VTFuMGFOVkN1dlpOeEM?oc=5",
+          "original_title": "경기관광공사, ‘경기 웰니스 관광 페스타’ 진행",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "이뉴스투데이",
+              "title": "경기관광공사, ‘경기 웰니스 관광 페스타’ 진행",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GTW11UEJNZ3lScVBvRVItV0pWNVRabmE3RGtYSXJiVmtDYTNlSjBBcy1kc3NaU256Y3VPR2d3ZjRNWjdtbFdBRkwtYXprTEMxckI1cjdYUTk2MlhleXNFS3ByTDlsdlUxbjBhTlZDdXZaTnhD0gF0QVVfeXFMT0ZNbXVQQk1neVJxUG9FUi1XSlY1VFpuYTdEa1hJcmJWa0NhM2VKMEFzLWRzc1pTbnpjdU9HZ3dmNE1aN21sV0FGTC1hemtMQzFyQjVyN1hROTYyWGV5c0VLcHJMOWx2VTFuMGFOVkN1dlpOeEM?oc=5",
+              "url": "http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno=2481988"
+            },
+            {
+              "name": "경기일보",
+              "title": "경기도-경기관광공사, 여기어때와 ‘경기 웰니스 관광 페스타’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqcWxrLVl1ZlF3aHB5ejcxWGZIRm1SLUN0UWZlRmdoSVVvZUpQSlVISXRBNnF4QmhzTTdaWXl2ZnZQVEtCMmwydlRvZzAxOVZpZWtQQXlYZ2ZfRVE?oc=5",
+              "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/19/.cache/512/20261019580385.png?v=20261020084735",
+              "url": "https://www.kyeonggi.com/article/20261019580384"
+            },
+            {
+              "name": "경인종합일보",
+              "title": "경기관광공사, 여기어때와 함께 경기 웰니스 관광 페스타 개최",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnc3dZdUVSWm51dU9rN1VSRDZqeE9lU0lSdWVQTHVCZ0R2OVFub1R2TjB5WDRPQlhaTkYyc21TeFVHTTNzZVNSSERDTERNVG5pbnk3YkN3QTVuZS1rd0F0RkVoVE1oajMtTXJzUDdB?oc=5",
+              "image": "https://cdn.jonghapnews.com/news/thumbnail/202610/494195_414546_0824_v150.jpg",
+              "url": "http://www.jonghapnews.com/news/articleView.html?idxno=494195"
+            },
+            {
+              "name": "매일경제",
+              "title": "경기관광공사, ‘경기 웰니스 관광 페스타’ 개최…‘여기어때’와 11월말까지 진행",
+              "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBVSnFxdjBhdkRDWHhGcjJlUGpNTVoyeFdoU3dyYVhHb1BLa1JSWXlzWXdMc1A0amt1SXZaRmVubnc1dTB0X1E?oc=5",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg",
+              "url": "https://m.mk.co.kr/amp/12179692"
+            },
+            {
+              "name": "디지털데일리",
+              "title": "여기어때, 가을 시즌 겨냥…\"경기 웰니스 관광 페스타 연다\"",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GMzd2VGVwaEpaMFI1YjdlT09XN2pXcVgxM2EteWNzMmo1ak16SnJweGtJcEtTV3VsV004Smk5TEd6ejQ5U1NOMG9mdERmREhqeTlBeWtoeWgwRlRubGMxWEhRaDI?oc=5",
+              "image": "https://www.ddaily.co.kr/photos/2026/10/19/2026101914345730252_l.jpg",
+              "url": "https://www.ddaily.co.kr/page/view/2026101914352026972"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김여정 \"남부 국경 살벌…대남 확성기 재개 검토\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008805236",
+          "original_title": "김여정 \"남부 국경 살벌…대남 확성기 재개 검토\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김여정 \"남부 국경 살벌…대남 확성기 재개 검토\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008805236",
+              "image": "https://img.sbs.co.kr/newimg/news/20261020/202232893_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "北 김여정 또 적반하장 “대남 확성기 재개 검토”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261020/134871096/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/19/134870013.3.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "김여정 “남부 국경 상황 불안정…대남 확성기 방송 재개 검토”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yYTlWcHBJNzdDd2U1UXoxcmRidm80QWhvWlN4My1XOTRfSHl2UVZ2MWhjMW9VT1RUVS11cVlTMjZfNXhHMWFxTi1xWTJkZ0F2dWZXRGotVzRiU1V2Q19GUmo0SG9HSlFoc3hpVzRTVm9UbzFI?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/640/360/imgdb/original/2026/1019/20261019503079.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1283119.html"
+            },
+            {
+              "name": "경향신문",
+              "title": "김여정 또 도발 “대남 확성기 재개 검토”",
+              "link": "https://www.khan.co.kr/article/202610192138005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/19/l_2026102001000582700054421.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "李 “전작권 반드시 조기 환수”… 북핵엔 “최후 방어 무기”",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261020/134871098/2",
+          "original_title": "李 “전작권 반드시 조기 환수”… 북핵엔 “최후 방어 무기”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "李 “전작권 반드시 조기 환수”… 북핵엔 “최후 방어 무기”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261020/134871098/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/20/134870861.4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령 “전작권 반드시 조기 환수해야”",
+              "link": "https://www.khan.co.kr/article/202610192158025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/19/l_2026102001000581300054631.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "이 대통령 \"전작권 반드시 신속히 환수…한미 협의도 반환 방향 진행\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDa25MdkxkZVFTaDZlRjQwMTZRdUNwUi11dmxqXzZjZzR4c25YTHp2c1lJR19LRWlOMENCdmdJcDNoVWM4b215ck91cXIwRDBVcGhxM3EtOUpPbFFKQlFMWk1EWGFmU00?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261019/AKR20261019180915Oko_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261019180915Oko"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령 \"전작권 맡겨놓고 방치할 상황아냐…반드시 신속히 환수\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008804928",
+              "image": "https://img.sbs.co.kr/newimg/news/20261019/202232767_1280.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "미 공화당 후보들에게 \"트럼프\"는 금기어",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261020_0003832487",
+          "original_title": "미 공화당 후보들에게 \"트럼프\"는 금기어",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "미 공화당 후보들에게 \"트럼프\"는 금기어",
+              "link": "https://www.newsis.com/view/NISX20261020_0003832487",
+              "image": "https://img1.newsis.com/2026/10/18/NISI20261018_0002266468_web.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "트럼프 '러시아 경유 카드' 역풍‥공화당 후보들 잇따라 거리두기",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtVXlmbHZubUhxZVYweTFCOTlaSlZmZ3d4M3hNSXI4OEFCOVhqaWdLdm4wZFlTV3BVODRLa3ZEdXhlckh5NW1SaFByU3NZNzRTWGdTOTNuYk5mNVVzd0tXUnpyaFFXZmQxclVfWXFiTEZrcEZx0gF0QVVfeXFMTUlIVzJOOGFlUkVianQwVUgwd1RVMmdjM3M3UWZydUptNjN4a2N1bHEzNUpiSllrR2E2U1o3YllyYWcxa0tmQmE5RTZGOFFjS2xlTGZWMjA2VTNOS0xGVlJtT1NkaVRBbFRDRE51MVkyY3h3SE4?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/10/19/yh_20261019-18.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6859083_36925.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "지방정부 AI 가이드 발간",
+          "summary": "지역정보개발원은 지방정부의 AI 활용을 돕기 위해 AI 서비스 가이드를 발간했다.",
+          "source": "데일리한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZGltVlVXLWY0LVl0eDhuaUEyUEk4RkZ3TEtTdUpidnpmcGNQLURKanpGS1BqbXVvMFMxY1RiR0V4YjB4VHJvdi1SMk5SX0xEMmJ3UVpzTkZQS3pVX2YwcnZNZWozT013ZVgtWUNkTdIBc0FVX3lxTFAxRkp6cWdYWEk1NlNHdGFWcnU4Tjk4UDdmWGsxM0dOWTdSZ1NHdjBtRjE5ZmpoenBMLWdldU5aWVFZVjF4cWdYYXpKWWxNbVJkZUhuSFYwNnc1ckNTcE5GWnUyNHdTTk1oRVhyMHZfVFlKVlE?oc=5",
+          "original_title": "지역정보개발원, 지방정부 AX 지원 위한 ‘AI 서비스 가이드’ 발간",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "데일리한국",
+              "title": "지역정보개발원, 지방정부 AX 지원 위한 ‘AI 서비스 가이드’ 발간",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZGltVlVXLWY0LVl0eDhuaUEyUEk4RkZ3TEtTdUpidnpmcGNQLURKanpGS1BqbXVvMFMxY1RiR0V4YjB4VHJvdi1SMk5SX0xEMmJ3UVpzTkZQS3pVX2YwcnZNZWozT013ZVgtWUNkTdIBc0FVX3lxTFAxRkp6cWdYWEk1NlNHdGFWcnU4Tjk4UDdmWGsxM0dOWTdSZ1NHdjBtRjE5ZmpoenBMLWdldU5aWVFZVjF4cWdYYXpKWWxNbVJkZUhuSFYwNnc1ckNTcE5GWnUyNHdTTk1oRVhyMHZfVFlKVlE?oc=5",
+              "image": "https://cdn.daily.hankooki.com/news/thumbnail/202610/1416286_1595405_389_v150.jpg",
+              "url": "https://daily.hankooki.com/news/articleView.html?idxno=1416286"
+            },
+            {
+              "name": "디지털데일리",
+              "title": "지방정부 AX 길잡이 나왔다…KLID, 5대 공공분야 AI 서비스 가이드 발간",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtZFkxbUtHSzFtT1R5R1ZOYko3eC1obTc4aDVWZGN4dFloTlB6Si1weDZaemtDXzZnd3dUZUhNNmthV2VzMndTWThybGptU0g2d3FHYl9pdDhPTmRDWUNHS2tWaC0?oc=5",
+              "image": "https://www.ddaily.co.kr/photos/2026/09/17/2026091711080613109_l.jpg",
+              "url": "https://www.ddaily.co.kr/page/view/2026101912291014132"
+            },
+            {
+              "name": "뉴시스",
+              "title": "지역정보개발원, 'AI 서비스 가이드' 배포",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmSktGdmpmcUU4NGdOWmpIQkY2LXB5eDdSYklfMWlkREZMWWduXzAxZmQ1WG9TZWxvdFlQYXVqZEJaWnRHVDlORWF2WWdFQ3k3M3Ztc1o3bXJqT25WUkRGV1VIWEVNOVRRZTJtOFo3eEp3Z2o0eG95UdIBeEFVX3lxTFBmSktGdmpmcUU4NGdOWmpIQkY2LXB5eDdSYklfMWlkREZMWWduXzAxZmQ1WG9TZWxvdFlQYXVqZEJaWnRHVDlORWF2WWdFQ3k3M3Ztc1o3bXJqT25WUkRGV1VIWEVNOVRRZTJtOFo3eEp3Z2o0eG95UQ?oc=5",
+              "image": "https://img1.newsis.com/2026/10/19/NISI20261019_0002267053_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261019_0003831259"
+            },
+            {
+              "name": "주간한국",
+              "title": "한국지역정개발원, 지방정부 'AI 서비스 가이드' 배포",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wOU9vdEVNYkNGSzdJRXE4cTdxUEJGT0Yxc0VOZlRvZlFvMkhFTHppX1gxaWFKZ00tV01OaXNjSVBIZlJaMnRRVlVjUjZrRWdtZ01GT3FWRWI2RXZvQ0htZXNyREpncGs3cVpvOER5c0Z1QmxI0gF0QVVfeXFMT3A5T290RU1iQ0ZLN0lFcThxN3FQQkZPRjFzRU5mVG9mUW8ySEVMemlfWDFpYUpnTS1XTU5pc2NJUEhmUloydFFWVWNSNmtFZ21nTUZPcVZFYjZFdm9DSG1lc3JESmdwazdxWm84RHlzRnVCbEg?oc=5",
+              "url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7189497"
+            },
+            {
+              "name": "핀포인트뉴스",
+              "title": "지역정보개발원, 지방정부 5대 분야별 AI 활용방안 제시",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PbkVnWU96ZTFNXzd6NHhTZ2QyRUFrOG1VOEY0aGduVldjS3VDUl9UY2NEcHNJUjV2eEZCOGlQNzhLemJHN04tQXN3Y3d4RnYwa2dRTnlUR1NoWHg2U1JUSGdCbGlyRGI5X29za0trOEpKekNLWlhr0gF3QVVfeXFMT09uRWdZT3plMU1fN3o0eFNnZDJFQWs4bVU4RjRoZ25WV2NLdUNSX1RjY0Rwc0lSNXZ4RkI4aVA3OEt6Ykc3Ti1Bc3djd3hGdjBrZ1FOeVRHU2hYeDZTUlRIZ0JsaXJEYjlfb3NrS2s4Skp6Q0taWGs?oc=5",
+              "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=496361"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "대우건설 스튜디오 푸르지오 첫 영화 투자",
+          "summary": "대우건설 자회사 스튜디오 푸르지오가 첫 영화에 투자해 21일 개봉한다.",
+          "source": "코리아리포트",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhOWx2LXU2LUZIOWRHM1ZOZ1NEWGJwdUpGTXd3MTN5T1hZcjRFMDBJNVAtYjE4aTc1aGxnUXEwOUszTjkwaTVOdUhGajlQTG1DM3JUSnJCRDRqdFdUTmlycVg4anVSYldNNmg0TXg4c2M?oc=5",
+          "original_title": "대우건설 자회사 스튜디오 푸르지오 첫 투자 영화, 21일 개봉",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "코리아리포트",
+              "title": "대우건설 자회사 스튜디오 푸르지오 첫 투자 영화, 21일 개봉",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhOWx2LXU2LUZIOWRHM1ZOZ1NEWGJwdUpGTXd3MTN5T1hZcjRFMDBJNVAtYjE4aTc1aGxnUXEwOUszTjkwaTVOdUhGajlQTG1DM3JUSnJCRDRqdFdUTmlycVg4anVSYldNNmg0TXg4c2M?oc=5",
+              "image": "https://cdn.koreareport.co.kr/news/photo/202610/53761_56837_814.jpg",
+              "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=53761"
+            },
+            {
+              "name": "서울경제",
+              "title": "대우건설 자회사 스튜디오 푸르지오, 첫 투자 영화 21일 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15dFhlQ2UxWTB0emtxRWZHUU01RWMxMlVsYjItdTgwMVhuTXFqamhpVFZNVVNnemhob1BwZ293MlhTSHMwc0txQzJ2eXpzbGxqaWfSAVNBVV95cUxQbG93bHFyd0FDLVJyaVFHaDZEOXNmNTZNUFVWNkF4SkdSQWtubjk2Q3hFcjQ1aWRxMk1ET2I3TWg1OXpiWkQwN0M3Q0s1TTlSOUJ0QQ?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/10/19/news-p.v1.20261019.3af8f099ea634b168afbc0280e2c130c_Z1.png",
+              "url": "https://www.sedaily.com/article/20103313"
+            },
+            {
+              "name": "한국NGO신문",
+              "title": "대우건설 자회사 '스튜디오 푸르지오', 21일 영화 '여전히 찬란하게' 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZZjRva1cxbWtBS3diRmNhMlFLbUZWbTBDb01zSksyWFBCb0ZFdkNTUk5TeWlUaTNkSnNCUklsX2lQN2lGQWNpS2hNRVE5UzY5bFNLRlNKMks5Nnk2bERKX0hQNUIta3Zz?oc=5",
+              "image": "https://cdn.ngonews.kr/news/photo/202610/240882_245857_1258.jpg",
+              "url": "https://www.ngonews.kr/news/articleView.html?idxno=240882"
+            },
+            {
+              "name": "퍼블릭타임스",
+              "title": "스튜디오 푸르지오, 첫 투자 작품 영화 ‘여전히 찬란하게’ 21일 개봉한다",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uU0tDVFduRGpzYTRGbWlHa2k0S3htamhFNkNReW1VdXBZbk1sMEdENU5waXJsN01aYnNlMFR5WmRucDJwUFpuYzBjVHBtSFNkSVhxTnRNSVNKcEVXeThicHVVcFhwb2QyQ1HSAW5BVV95cUxQNkpiRTR3Wmt2eEJnY3RyUDd2eUdGSUM5UnllOGs5NUFuZm9UNlVoU3gzXy0zQVEwdjdsMTdCaXlCWTkwZGljZXZReWxYM3lqd1paZGlVNDR5b01IdFE0OUJOTWptZkVHZU5VRmNIZw?oc=5",
+              "image": "https://cdn.public25.com/news/photo/202610/56726_56224_1839.jpg",
+              "url": "https://www.public25.com/news/articleView.html?idxno=56726"
+            },
+            {
+              "name": "FETV",
+              "title": "대우건설, 영화 투자 첫발…김혜자 주연 '여전히 찬란하게' 21일 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EZmpiel9YdHpldnkxUzc5eGdhUi1YeXJYYndEYzJrUGViVU9fYWtjWmRBTDEwZFg4VVFpRjllbnI5WUtjcE5ZOTkza0ktSHZkMVFFWkxiSGNXQTg5dFNRLUVRTHN2bFZy?oc=5",
+              "image": "https://cdn.fetv.co.kr/news/photo/202610/311999_311737_2923.jpg",
+              "url": "https://www.fetv.co.kr/news/articleView.html?idxno=311999"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "현대캐피탈, KOVO 컵 남자부 첫 승",
+          "summary": "현대캐피탈 프로배구팀이 2년 만에 정상 전력으로 복귀해 컵대회 첫 경기에서 승리했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008805107",
+          "original_title": "현대캐피탈·한전·대한항공, KOVO 컵대회 남자부 첫판 승리",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "현대캐피탈·한전·대한항공, KOVO 컵대회 남자부 첫판 승리",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008805107",
+              "image": "https://img.sbs.co.kr/newimg/news/20261019/202232864_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "남자배구 현대캐피탈·대한항공·한전, 컵대회 첫 승(종합)",
+              "link": "https://www.newsis.com/view/NISX20261019_0003832422",
+              "image": "https://img1.newsis.com/2026/10/19/NISI20261019_0002267532_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "현대캐피탈·한전·대한항공, KOVO 컵대회 남자부 첫판 승리(종합2보)",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DbDA3SHlGc0FYNjREU1ZtckI4bzVsRUppbnpfV1Jhejd5QXdRWG5kNldTT29WdHVvNFcwbktSTExHdXVORmxGa0xXd2w3YzZibkQzcU9EbW1lYU3SAWBBVV95cUxPcl91U2xHdFgwMnRzTlBDRVJFNU9neXpKQkxzWDFsUGI4ZFhlMDdna2hleUVzbzk5OVN1ckxQcWstSFFXMHk1YWZ6eGpJQXBCcjRMYzBrblRhTEJRV3ViZzg?oc=5",
+              "image": "https://img7.yna.co.kr/etc/inner/KR/2026/10/19/AKR20261019132052007_02_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261019132052007"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "여자친구 행사에 남자가 입어야 할 착장, 빅토리아 시크릿 쇼로 알아보자",
+    "tagline": "GQ Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 20,
+      "t_min": 10,
+      "rain_pct": 12,
+      "sky": "이슬비",
+      "display": "서울 10~20°C · 이슬비 · 강수 12%"
+    },
+    "articles": [
+      {
+        "title": "여자친구 행사에 남자가 입어야 할 착장, 빅토리아 시크릿 쇼로 알아보자",
+        "name": "GQ Korea",
+        "link": "https://www.gqkorea.co.kr/2026/10/20/%ec%97%ac%ec%9e%90%ec%b9%9c%ea%b5%ac-%ed%96%89%ec%82%ac%ec%97%90-%eb%82%a8%ec%9e%90%ea%b0%80-%ec%9e%85%ec%96%b4%ec%95%bc-%ed%95%a0-%ec%b0%a9%ec%9e%a5-%eb%b9%85%ed%86%a0%eb%a6%ac%ec%95%84-%ec%8b%9c/",
+        "image": "https://www.gqkorea.co.kr/wp_data/gq/2026/10/style_6ad6691e605ed.jpg",
+        "url": "https://www.gqkorea.co.kr/2026/10/20/%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC-%ED%96%89%EC%82%AC%EC%97%90-%EB%82%A8%EC%9E%90%EA%B0%80-%EC%9E%85%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%B0%A9%EC%9E%A5-%EB%B9%85%ED%86%A0%EB%A6%AC%EC%95%84-%EC%8B%9C/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "감히 알려고 하라. 너 자신의 지성을 사용할 용기를 가져라.",
+    "author": "칸트",
+    "work": "계몽이란 무엇인가"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 솟아날 시기"
+      },
+      {
+        "animal": "소",
+        "text": "친구와 스스로를 격려해 보세요"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 필요한 순간, 용기를"
+      },
+      {
+        "animal": "토끼",
+        "text": "웃음이 가득한 하루가 될 것"
+      },
+      {
+        "animal": "용",
+        "text": "내면의 조화가 빛을 발한다"
+      },
+      {
+        "animal": "뱀",
+        "text": "계획을 세우면 정리가 쉬워져"
+      },
+      {
+        "animal": "말",
+        "text": "마음의 여유가 대화를 열어준다"
+      },
+      {
+        "animal": "양",
+        "text": "새로운 관계가 꽃피우는 날"
+      },
+      {
+        "animal": "원숭이",
+        "text": "창의력이 높아져 기회를 잡는다"
+      },
+      {
+        "animal": "닭",
+        "text": "일상 속 작은 성취를 즐겨라"
+      },
+      {
+        "animal": "개",
+        "text": "기분 좋은 소리가 마음을 채워준다"
+      },
+      {
+        "animal": "돼지",
+        "text": "감사함이 풍성한 하루를 만들어"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
