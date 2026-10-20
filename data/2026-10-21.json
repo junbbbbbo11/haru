@@ -1,0 +1,735 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-21",
+  "weekday": "수요일",
+  "vol": 9,
+  "generated_at": "2026-10-21T08:05:09+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5768.01,
+      "change": 99.96,
+      "change_pct": 1.76,
+      "direction": "up",
+      "display": "5,768.01",
+      "change_display": "▲ 1.76%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1326.2,
+      "change": -3.8,
+      "change_pct": -0.29,
+      "direction": "down",
+      "display": "1,326.2원",
+      "change_display": "▼ 0.29%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 110577000.0,
+      "change": 378000.0,
+      "change_pct": 0.34,
+      "direction": "up",
+      "display": "11,058만원",
+      "change_display": "▲ 0.34%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 15,
+    "t_min": 8,
+    "rain_pct": 45,
+    "sky": "흐림",
+    "display": "서울 8~15°C · 흐림 · 강수 45%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "연애",
+      "headline": "강신일·오수미 집 공개",
+      "summary": "강신일이 오수미와 함께 집을 공개했다. 서장훈은 \"너무 좋다\"라고 평가하며 두 사람의 화려한 연애를 칭찬했다.",
+      "source": "동아일보",
+      "link": "https://www.donga.com/news/Entertainment/article/all/20261021/134879210/1",
+      "original_title": "강신일♥오수미 집 공개…서장훈 “너무 좋다”",
+      "sources": [
+        {
+          "name": "동아일보",
+          "title": "강신일♥오수미 집 공개…서장훈 “너무 좋다”",
+          "link": "https://www.donga.com/news/Entertainment/article/all/20261021/134879210/1",
+          "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879211.1.jpg"
+        },
+        {
+          "name": "티브이데일리",
+          "title": "‘동상이몽2’ 강신일 “오수미에 꽂혀서 매달렸다” [TV나우]",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RRjNaem4zR3p0TkM2a3RsazQ5ZEpWSjhHanFvRDZ6clJONEpjMkZUX3NEVmo1Rnl0UFBETm53MmdxMWpFSkZzWW83RHRxSHFncUppQWprcE1ncTZQSmJzMFBMUEJadWRUY2Mw?oc=5",
+          "image": "https://www.tvdaily.co.kr/upimages/gisaimg/202610/201806270.jpg",
+          "url": "http://m.tvdaily.co.kr/article.php?aid=17925054571806270019"
+        }
+      ]
+    },
+    {
+      "kicker": "전쟁",
+      "headline": "후티, 예멘·사우디 공격",
+      "summary": "후티가 예멘·사우디를 공격해 정부군 훈련소에서 53명 사망, 리야드 공항이 폐쇄되었다.",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/international/international_general/2026/10/20/SHPUFFWYHNAVNIBNFMLDVGIBJI/",
+      "original_title": "후티, 예멘·사우디 잇따라 공격… 정부군 훈련소서 53명 사망, 리야드 공항 폐쇄",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "후티, 예멘·사우디 잇따라 공격… 정부군 훈련소서 53명 사망, 리야드 공항 폐쇄",
+          "link": "https://www.chosun.com/international/international_general/2026/10/20/SHPUFFWYHNAVNIBNFMLDVGIBJI/",
+          "image": "https://www.chosun.com/resizer/v2/2UQSYQ7KLVNVDMZWHBRP2UIZHU.jpg?auth=c9378fe70b4557cc211edd0500f343efb0247f28597fe0d1ac4aae36822c2488&width=1200&height=630&smart=true"
+        }
+      ]
+    },
+    {
+      "kicker": "축제",
+      "headline": "제17회 아트광주 개막",
+      "summary": "호남 최대 미술축제가 22일 개막했다. 거장 명작부터 신진 작가까지 한자리에 전시된다.",
+      "source": "브레이크뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE95XzJ3bjZUTlBLbXdRUEVGU0l2RW5KMjROVE5CUnFuZUhhY2RTTFZrMnlnZnFoblJGbmpxUjVPcjJuRzBTamg4?oc=5",
+      "original_title": "호남 최대 미술축제 ‘제17회 아트광주’ 22일 개막… 거장 명작부터 신진 작가까지 한자리에",
+      "sources": [
+        {
+          "name": "브레이크뉴스",
+          "title": "호남 최대 미술축제 ‘제17회 아트광주’ 22일 개막… 거장 명작부터 신진 작가까지 한자리에",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE95XzJ3bjZUTlBLbXdRUEVGU0l2RW5KMjROVE5CUnFuZUhhY2RTTFZrMnlnZnFoblJGbmpxUjVPcjJuRzBTamg4?oc=5",
+          "image": "https://honam.breaknews.com/imgdata/honam_breaknews_com/202610/202610212811135.jpg",
+          "url": "http://www.breaknews.com/1244460"
+        },
+        {
+          "name": "스트레이트뉴스",
+          "title": "호남 최대 미술축제 '아트광주' 22일 개막...거장 명작·지역 신진작가 한자리에",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByaU5oR3NNcEcxTTVtT2lOMzZtVFFnc0pFQURyeFktWlZNckJkeEs0UEg1d2pxdWM3VXIwRkN0OFIwWWVjQUpnOGw0OEwxS2RyY2pLdDZyMjg0cy1qYjg0VDNxVjlBWHQtSjFkdmZDeHN4N3PSAXdBVV95cUxNTGtXRTM4QUZCdVpILXJtenRrM28tUGQ1UG5KLUVnUG96RUhVS1ZfOE02Ujk1RmI4Z0V2RU5DUGhyUXlHU2c5NzBFb3JwendpQ0VaTXppZHFMQnROUnBCdDBjWGtZZ1Z3SmZuNzJFTnQxNnRzUVUyTQ?oc=5",
+          "image": "https://cdn.straightnews.co.kr/news/thumbnail/202610/313565_225929_2944_v150.jpg",
+          "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=313565"
+        },
+        {
+          "name": "남도일보",
+          "title": "호남 최대 미술 축제 ‘아트광주’ 22일 개막",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1abHNrS0ZkUklJVUdpdXZjVzlicVRZSVhSXzNrdjlfSGdMcHIyQmxhS0VfeEhJNFJjOThQb2g0N3JlTldjUFFmZU12bFhmNWwyOV8xcmxHbXpsTk5JUTJTa0VCS2k1djhmbkQwU9IBcEFVX3lxTFBNRGxsM2dISzZSTkJSX2lNYmMwNUR1a1ZfR0JXOXBOc3otRG9wV1VVRVRqaXd4bm1NTWZXM2dCZGU5S0djcUNjc2I4SDdYc1ZLSzZ0MkdWcWx2NnY4R2xxLS1scEFXeHp0U3JOWWVHeWo?oc=5",
+          "image": "https://cdn.namdonews.com/news/photo/202610/926698_632882_1816.jpg",
+          "url": "https://www.namdonews.com/news/articleView.html?idxno=926698"
+        },
+        {
+          "name": "서울신문",
+          "title": "거장부터 신진까지…호남 최대 미술축제 ‘광주국제아트페어’ 22일 개막",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QMVZYdTNXWDhJMGtidjFubWhKWFhEaWpqdUFjVHJVUTl4Tlc4Vk9NeXhxY1paZ0doRVFHb2Y0WW9VVmo0a0k3OVpmUDh3U1huczEtcko1elZlSlo5YkhhenNLTHA4aFFxZkppdlZiR3RudGI2Ymc4TnBn?oc=5",
+          "image": "https://img.seoul.co.kr//img/upload/2026/10/20/SSC_20261020132515_O2.jpg",
+          "url": "https://www.seoul.co.kr/news/life/exhibition/2026/10/20/20261020500126"
+        },
+        {
+          "name": "헤럴드경제",
+          "title": "광주국제아트페어 22일 개막",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95NEhoalNIUEVmOVE2M09jdHRqUmxGSlJrcm1maWExTlM1Wm5zSEh0WDlSOTdvRmIyY0NVbFhRWS1BbVFnazlhMmJmUHcwTVBMalltbFFn?oc=5",
+          "image": "https://wimg.heraldcorp.com/news/cms/2026/10/20/news-p.v1.20261020.a8832a65d7ec4f0ea76982a4afc03128_P1.jpg",
+          "url": "https://biz.heraldcorp.com/article/10908575"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "황기연 수출입은행장, KAI 지분 매각 계획 없음",
+          "summary": "황기연 수출입은행장은 한화그룹 지분 확대로 인한 KAI 민영화 논란에 대해 현재 지분 매각 계획이 없다고 했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261020088152002",
+          "original_title": "수은 행장 \"KAI 지분 매각 계획 없어\"…KAI 대표 \"독과점 문제\"(종합2보)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "수은 행장 \"KAI 지분 매각 계획 없어\"…KAI 대표 \"독과점 문제\"(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261020088152002",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102010450001300_P4.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "수출입은행장 \"현재로선 KAI 지분 매각 계획 없다\"(종합)",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnSE5ScXRhYXM1UmU0TzVIbXhZdUZTdTJuZ2tPRU84N3JMLUJyRHlJcFN3NGFGQzhHNDRjRFhNSGlUZGtxSk8tZFZlN3VHTXJhanZneWZ3RkF1YWhiRHh1czI0cUVabDhZd2dBa3UwVzk?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202610/4440198_350629_212_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440198"
+            }
+          ]
+        },
+        {
+          "headline": "정부, 코인 과세 앞두고 의견 수렴",
+          "summary": "재경부는 가상자산 과세 관련 업계와 전문가 의견을 수렴하며, 내년 1월 가상자산 과세를 앞두고 과세 원칙과 시장 변화를 고려하겠다고 밝혔다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12180632",
+          "original_title": "정부, 코인 과세 앞두고 의견수렴 나서…“과세원칙·시장변화 고려”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "정부, 코인 과세 앞두고 의견수렴 나서…“과세원칙·시장변화 고려”",
+              "link": "https://www.mk.co.kr/news/economy/12180632",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/20/rcv.YNA.20261020.PYH2026102013740001300_R.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "정부, 코인 과세 앞두고 의견수렴...업계 \"준비기간 고려해달라\"",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SRXlxTExBdEFzTGxUX0h5R0U2SGJCcWF3dHFXMTluWmJDQWdjZ19nTm1FSXREYVFZdG9LaGtoWWZsNFBoQ2lkQWxualotZElrTlpkNnNLSlhGc3pHN3c?oc=5",
+              "image": "https://image.ytn.co.kr/general/jpg/2026/1020/202610201600181408_t.jpg",
+              "url": "https://www.ytn.co.kr/_ln/0102_202610201600181408"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "코타로 타니야마, 부산패션위크에서 문학·음악 결합 컬렉션 공개",
+          "summary": "코타로 타니야마가 2026 부산패션위크에서 문학·음악을 결합한 컬렉션을 공개했다",
+          "source": "어패럴뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mT0hZcXM5Ymt3WjUtMG5SNkV6aVBtaDc0dUtveUoyZW1Ia1haWVhoUTJ3VEdpS1pSaGFyRjZKWUlLTkQyLW1iNU1oTXlmMWIwWUFwR0pVLTJkdlhuRmh3elNKYVluWUdEOGZhckdXcWhybDA?oc=5",
+          "original_title": "코타로 타니야마, '2026 부산패션위크'서 문학·음악 결합한 컬렉션 공개",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "어패럴뉴스",
+              "title": "코타로 타니야마, '2026 부산패션위크'서 문학·음악 결합한 컬렉션 공개",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mT0hZcXM5Ymt3WjUtMG5SNkV6aVBtaDc0dUtveUoyZW1Ia1haWVhoUTJ3VEdpS1pSaGFyRjZKWUlLTkQyLW1iNU1oTXlmMWIwWUFwR0pVLTJkdlhuRmh3elNKYVluWUdEOGZhckdXcWhybDA?oc=5",
+              "url": "https://m.apparelnews.co.kr/news/news_view/?idx=228377?cat=CAT11F"
+            },
+            {
+              "name": "피플게이트",
+              "title": "일본 디자이너 브랜드 코타로 타니야마, 2026 부산패션위크 참가",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPckNkQUR3N1BTU2dCQk5aRXZsMVZWOHJvakd6dUgyRWxzLVByd05wWXpUa3RWelctbnRtdXZkQjdVeGpzMzhrcG5NT281Qk8wbzBLbExNLXdRalgxdkZOUEVBRGl2ck4xYmszb0gyaUx3ZElGVDV1akJRdXlXb2JxS1E0Z09QelNZc25YWUVWdVlJZ1lHLTZj?oc=5",
+              "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitevYrFRSqMekOJmq91S-9b5-vTxsMLJ67SsWcABeV-p_5KW5lccxkt1_mZYmfy89NK0xCD9icDbOMbXVoB7U98ZJ42RGXXtNgOWAObHa55ExNgJVM6ClEG9quMV-KVRSmv-1BrkbpQVD2_weYWGzlNGK9Tec-8r5vvgmapVO9k_XghJBlLim1iW_fAmo/w1200-h630-p-k-no-nu/KOTARO%20TANIYAMA-%EF%BB%BF%EC%BD%94%ED%83%80%EB%A1%9C%20%ED%83%80%EB%8B%88%EC%95%BC%EB%A7%88-%EB%B6%80%EC%82%B0%ED%8C%A8%EC%85%98%EC%9C%84%ED%81%AC-%EF%BB%BF%EB%B6%80%EC%82%B0%EC%84%AC%EC%9C%A0%ED%8C%A8%EC%85%98%EC%82%B0%EC%97%85%EC%97%B0%ED%95%A9%ED%9A%8C.png",
+              "url": "https://www.peoplegate.co.kr/2026/10/news-kotaro-taniyama-busan-fashion-week-2026-katie.html"
+            },
+            {
+              "name": "로이슈",
+              "title": "코타로 타니야마, 부산패션위크서 문학·음악 결합한 컬렉션 공개… 한국 시장 공략 확대",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45dlZPeFEzOEE4SE1vU2JBNEdTVDljZDJyWTZ5bEpWOTZxRXllU3cxc29pQkFPaXprQm9Pam5xZXAyRHA0bnlIMUVXNUpWQlNJQUFxQWlLUDdDNndTZjFHRFlGNEZSVkJjVEhKem16czdkQ3VNbkphRw?oc=5",
+              "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026102017232806600007f28b58b8182231124171.jpg&nmt=12",
+              "url": "https://www.lawissue.co.kr/view.php?ud=2026102017215592607f28b58b8_12"
+            },
+            {
+              "name": "뉴스아이이에스",
+              "title": "코타로 타니야마, 부산패션위크서 문학·음악 결합한 컬렉션 선보인다",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fOEdLbjl5YkNoR2t6OVpGTHJMY0NPeGxCNUpCVWgxRUpLUEFfalluMG1FNVI0V3dlSS01R0VwVEw4YXpTVFhQTXhYa2txS3VudnB3a2t0U0NORGdCWHlsUG9IZjN5dXIyMHMxNXF30gFyQVVfeXFMT0dPcWMwTkt2cUVDY1dHVnZkenhxOUU2WXd2amtKdEZ5OWhCYUYtb1lQZHB0MU1wQ0d5eW9CUEY5Z3hQTjc3SV9ka2NfVmVYOTFPVW5Rdl9kS3BKYW9OdjNsQ2htSjJ2cG1mZ056Qno4dFZR?oc=5",
+              "image": "https://cdn.newsiesports.com/news/thumbnail/202610/46928_64368_1639_v150.jpg",
+              "url": "http://www.newsiesports.com/news/articleView.html?idxno=46928"
+            },
+            {
+              "name": "비욘드포스트",
+              "title": "코타로 타니야마, 부산패션위크서 문학·음악 결합한 컬렉션 공개",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51dThhZDlRdDdTcEpIbjVyeXRJMGRRZEhhbEdhMEVVNWlUZDluTXROc0kzRUNHNWp2bjUwRzJPNlI5c0plZDVYRTJYZWNfSTBnR3V6MnpsRll2NEo4STZCQkNqSVNDNFlWRFZMbFFta1pjbm5IWk8tWFBIdjM?oc=5",
+              "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026102015133506809046a9e4dd7f220867377.jpg&nmt=30",
+              "url": "https://www.beyondpost.co.kr/view.php?ud=20261020151310740746a9e4dd7f_30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "인천 남동구 22개 뷰티기업, K-뷰티 엑스포 참가",
+          "summary": "인천 남동구에서 22개 뷰티기업이 K-뷰티 엑스포에 참가했고 이병래 구청장이 현장을 방문했다.",
+          "source": "베타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hajVqSnkzaXRrc1pkcFNjZ1ZWVTBOalp6R0ZxV3lIQ09Yb0dZOWp3RjlseXYzbWpFTTZkRnRuN0pRaG9oNTFZOUFzSHhvWXdhbWd4MEhIZzdQeE9SeXV1WWFOUGg?oc=5",
+          "original_title": "인천 남동구 뷰티기업 22곳, K-뷰티 엑스포 참가…이병래 구청장 현장 방문",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "베타뉴스",
+              "title": "인천 남동구 뷰티기업 22곳, K-뷰티 엑스포 참가…이병래 구청장 현장 방문",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hajVqSnkzaXRrc1pkcFNjZ1ZWVTBOalp6R0ZxV3lIQ09Yb0dZOWp3RjlseXYzbWpFTTZkRnRuN0pRaG9oNTFZOUFzSHhvWXdhbWd4MEhIZzdQeE9SeXV1WWFOUGg?oc=5",
+              "image": "https://www.betanews.net/data/beta/image/2026/10/20/beta20261020000146.png",
+              "url": "https://www.betanews.net/article/view/beta202610200152"
+            },
+            {
+              "name": "애드뉴스인천",
+              "title": "남동구 뷰티기업 22곳, K-뷰티 엑스포 참가",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xNXJONDhsUE92NEQ3NXFrSlRoS3dHNi05NGhicU5ydzM0UkZPd2tEamVFbkNPNFQ4SnMxLUxUZW5RSTVrTjBnY1V5RDc0RHpmZ0h1eGxEOHotUXlkSUFmX3VoOU92RzY4OThr?oc=5",
+              "image": "https://cdn.addnewsin.com/news/photo/202610/62961_17501_4630.png",
+              "url": "https://www.addnewsin.com/news/articleView.html?idxno=62961"
+            },
+            {
+              "name": "일간경기",
+              "title": "남동구, K-뷰티 엑스포서 기업 판로 확대 모색",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BZjZSdlpBUEpQRzU1ZzNLSXljZXctT1JyeFpjcVUtQ2tsaUFXU2xMRjFZSVdQSUtfbVlGQmhWR3RDOFI4VGc0bjhZZnFoU0xma0c4Slp6WDU0RjU4UkZRSzRxTHJXQlhy?oc=5",
+              "image": "https://cdn.1gan.co.kr/news/thumbnail/202610/411410_407566_371_v150.jpg",
+              "url": "https://www.1gan.co.kr/news/articleView.html?idxno=411410"
+            },
+            {
+              "name": "여성종합뉴스",
+              "title": "천 남동구, K-뷰티 엑스포 참가기업 현장 방문…화장품 산업 판로 확대 지원 추진",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41UlZaR3JTejZ6cDA4RVhOSExzZ252SlZDNjhWNHhOa29QTmVpaU5xbThsaXFzUFgxNldnXzdSU2lUcEpPM0VLd3dXazNYbHdBN3NxbTQ2c1VvLTZqcHd0VnNUaUtMckRncnhxQlJzaw?oc=5",
+              "image": "https://womannews.net/wys2/file_attach/2026/10/20/1792474752_44581.png",
+              "url": "https://womannews.net/detail.php?number=457493&thread=22r04r03"
+            },
+            {
+              "name": "데일리스포츠한국",
+              "title": "인천시 남동구, ‘2026 K-뷰티 엑스포’ 참관… 관내 기업 격려 및 판로 확대 모색",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85d2UtWGZqMnRZUF85QTIzaHJUdjA3WC1OUkNzOHMzX3JOMDFNeFdwVTlzdUxBUGp0NFhjdkIwSFFoOElOdWJ2WDB0dS1UUTNmc2xPM0JJekZhcXQxSnJqUGlJU0lwb2FaU2FRcjQtTWdDSVhlbXJDQlBNNW1YU2fSAX9BVV95cUxPOXdlLVhmajJ0WVBfOUEyM2hyVHYwN1gtTlJDczhzM19yTjAxTXhXcFU5c3VMQVBqdDRYY3ZCMEhRaDhJTnVidlgwdHUtVFEzZnNsTzNCSXpGYXF0MUpyalBpSVNJcG9hWlNhUXI0LU1nQ0lYZW1yQ0JQTTVtWFNn?oc=5",
+              "image": "https://cdn.dailysportshankook.co.kr/news/photo/202610/434633_450648_655.png",
+              "url": "https://www.dailysportshankook.co.kr/news/articleViewAmp.html?idxno=434633"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "호텔스닷컴 1박 여행 트렌드·한입여행 예측",
+          "summary": "호텔스닷컴이 1박 여행이 인기를 끌고, 내년에는 한입여행이 주목될 것이라고 분석했다.",
+          "source": "스포츠경향",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jSHNZNkJqT2dEY1hMMDR1NUpUZWNMSHV2QVVOTlBjcC0zUVAxU1VaTDZjTjgyb1hNRHdDZnRHS3BPTnJMS0YtUGd4RWZxa0VOSG9OUmNwRUowZ0hfc1HSAWNBVV95cUxNMGVsekhrT3dRV2JRSUhrOXlFYnVQcE5HZkJUUnhhbU5xYURidnlMRS1Ka0s3aVpPMm44cVdDeXIxc3VSTExCNl9xWWduZEgzWU9JcXFCM19xTDZ3Y0Z5d1JtUjA?oc=5",
+          "original_title": "‘여행 한방, 1박 여행’ 트렌드, 내년엔 ‘한입여행’으로 ‘와사삭’…호텔스닷컴 분석",
+          "coverage": 20,
+          "sources": [
+            {
+              "name": "스포츠경향",
+              "title": "‘여행 한방, 1박 여행’ 트렌드, 내년엔 ‘한입여행’으로 ‘와사삭’…호텔스닷컴 분석",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jSHNZNkJqT2dEY1hMMDR1NUpUZWNMSHV2QVVOTlBjcC0zUVAxU1VaTDZjTjgyb1hNRHdDZnRHS3BPTnJMS0YtUGd4RWZxa0VOSG9OUmNwRUowZ0hfc1HSAWNBVV95cUxNMGVsekhrT3dRV2JRSUhrOXlFYnVQcE5HZkJUUnhhbU5xYURidnlMRS1Ka0s3aVpPMm44cVdDeXIxc3VSTExCNl9xWWduZEgzWU9JcXFCM19xTDZ3Y0Z5d1JtUjA?oc=5",
+              "image": "https://images.khan.co.kr/article/2026/10/21/news-p.v1.20261021.8393eb8d89384409a21cc01e65f9436b_P1.jpg",
+              "url": "https://sports.khan.co.kr/article/202610210515003"
+            },
+            {
+              "name": "트래블데일리",
+              "title": "호텔스닷컴, 내년 여행 트렌드 전망 발표",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42ZHlRaVNuYTN0UlI2ajN4VFJNVDV2Q1k4akZnYlRFckRUZjR0eE1rcW9OYzM4Mm5BaGZCOWlnbVFmTXN2ajR6NldwZkpuMGZKeU5nWlA5dXJoMnM1cGZrOTI5a1VqTURKOUU5TFhHQjA?oc=5",
+              "image": "https://cdn.traveldaily.co.kr/news/photo/202610/72402_74809_1659.jpg",
+              "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72402"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "[포토]호텔스닷컴, ‘언팩 ’27’서 내년 여행 트렌드 공개",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBISDRnTWJQRzJjX2tNWjA3Z05QMkJRVnpVdGJQVmhWOFhseXZIang3QW1vcEZON3g2ejQwdVBhdHUzM3RYa2p2NXFta2xxZENuc0ctZjdGbC1jRy1qRVk1RGdCZXh5T0p1VFVTUzRR?oc=5",
+              "image": "https://img.asiatoday.co.kr/file/2026y/10m/20d/2026102001001312100067601.jpg",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261020010006760"
+            },
+            {
+              "name": "디스커버리뉴스(DISCOVERYNEWS)",
+              "title": "[현장] 호텔스닷컴, 2027년 글로벌 및 한국 여행 트렌드 ‘Unpack ’27’ 발표",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5NcHZQZXhoRklZM0Nob1cxbDRnUTNUNTYzOHpNY1UzSFZmNFZCUGVPV2xJNTN6VFRDSURRM0NySVgxUTlLWjdoelJIaG9SN19oMWpfTUJORTdsNHF1NnVJM0tOcjJPSUQxVm56RGp2Y3Q2UQ?oc=5",
+              "image": "https://cdn.discoverynews.kr/news/thumbnail/202610/1104512_1148636_153_v150.jpg",
+              "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1104512"
+            },
+            {
+              "name": "아트코리아방송",
+              "title": "[AK현장] 호텔스닷컴 '언팩 '27' 발표 ... 한국인 여행은 '짧게, 취향대로' (종합)",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSWVBTDNLaGNqdkMzS3U0M25rVFpNMWRYS0Q4VnRyV0w0NFVkc0RNaVlpRU1kb0hXdUdteXV3d0paRVFzMWtFeGdfLXI5YkFkMWdiSGVveVZYbDdJT3pIcGx0Vmx4ZEJxMUN0MWxB?oc=5",
+              "image": "https://cdn.artkoreatv.com/news/thumbnail/202610/105147_336844_5238_v150.jpg",
+              "url": "https://www.artkoreatv.com/news/articleView.html?idxno=105147"
+            }
+          ]
+        },
+        {
+          "headline": "서귀포시 가을 숲에서 웰니스 힐링 행사 개최",
+          "summary": "서귀포시가 30일부터 가을 숲에서 웰니스 힐링 행사를 개최한다.",
+          "source": "뉴스라이트",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GcE9MWTBUdi1EUkc1TmtFVHJkdFJRYkZ2VkstYUY0T0JBWmt6Zjh2LXNDWTRIXzVzNGs3ejdHNXIwWFBTTmVVbVFIM1hmRF9zSVpLeHR5T290MW9lVmo4?oc=5",
+          "original_title": "서귀포시, ‘웰니스 가을 숲 힐링’ 개최",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "뉴스라이트",
+              "title": "서귀포시, ‘웰니스 가을 숲 힐링’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GcE9MWTBUdi1EUkc1TmtFVHJkdFJRYkZ2VkstYUY0T0JBWmt6Zjh2LXNDWTRIXzVzNGs3ejdHNXIwWFBTTmVVbVFIM1hmRF9zSVpLeHR5T290MW9lVmo4?oc=5",
+              "image": "https://www.newsgg.net/data/photos/portnews/202610/20261020201124-80634.jpg",
+              "url": "https://www.newsgg.net/news/article.html?no=472136"
+            },
+            {
+              "name": "제주일보",
+              "title": "서귀포시, 30일부터 ‘웰니스 가을 숲 힐링’ 행사 개최",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QX2RKbUt3bUVrclo3dllGNk1RMVhfWUlPNllOODRvcXpTMzNDQWhtVlU0VTZrSzVGT05GUFF4RGZ3S1pMMzJQUUNiYkpfM1JOdEU5Y3ZwaW1QY0hVVHU1OTJoQzJQUVlNVVlPTA?oc=5",
+              "image": "https://www.jejunews.com/news/photo/202610/2228371_258640_152.jpg",
+              "url": "https://www.jejunews.com/news/articleView.html?idxno=2228371"
+            },
+            {
+              "name": "제주투데이",
+              "title": "서귀포의 가을 숲에서 만나는 쉼과 회복 … ‘웰니스 가을 숲 힐링’",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mTnRiQkZDUFc5bjltWmlWNGw3dF9mVjJOVEYwUURKR005TFlQbERHS1UxUnpXdjRLRmZ2SE1GMThFT0R1TzFDMmhhNGt4cnNYU0lyMGlDQnItNlZLakxoUmMwaTNSUHNhZWFOemhB?oc=5",
+              "image": "https://cdn.ijejutoday.com/news/photo/202610/403453_404769_4843.jpg",
+              "url": "https://www.ijejutoday.com/news/articleView.html?idxno=403453"
+            },
+            {
+              "name": "한라일보",
+              "title": "서귀포시 감성 충만 '웰니스 가을 숲 힐링' 개최",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wSi0weFhCNFJjWnBBd0FENTdtYk4xSGxxcUFGenBSZ1B5NDNTU3JOdVo5UFFNU0t4WWgyZ2RZNDBfNzJ0QVdPcWNpNF92TzlPNFBMc3ZiSC1hdzB2aGNLSEhtLTJfUQ?oc=5",
+              "image": "https://www.ihalla.com/upimages/gisaimg/202610/20_791807.jpg",
+              "url": "http://www.ihalla.com/read.php3?aid=1792470517791807048"
+            },
+            {
+              "name": "제주뉴스",
+              "title": "서귀포 가을 숲에서 걷고 쉬고 음악 즐긴다…30일부터 '웰니스 가을 숲 힐링'",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PcXhZNDd2WEhXcTc1SS05MjBuSVp3UGFwTUxhZGNvWkthdGdLaVYzeHhYY0QzVzRqUXBmQTRGOHE0TDJ2UDkyMUFQbjNFMi0zcGM2ZFczdnZzNFFXc0U1amZwRlZyQ1FyOXfSAW5BVV95cUxPNzNnbWx5NURfZENjdDJjNGd1Sm1XZGNIdGNFbldDekJOM0J1Ml9kOHZxWG91b2ZEd3h1a2REdmRYMS1IaTFLc01WSmRBeEpaOW95alNONVlRUU9aS01DN29kdVdDZFJkTzNSTXpVUQ?oc=5",
+              "image": "https://cdn.jejunews.biz/news/thumbnail/202610/106516_79535_027_v150.jpg",
+              "url": "http://www.jejunews.biz/news/articleView.html?idxno=106516"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "우크라이나 대사관 인력 절반 철수",
+          "summary": "우크라이나 정부와 갈등 중인 우리 정부가 우크라이나 대사관 인력 절반을 철수하기로 결정했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008807121",
+          "original_title": "우크라이나 공관원 절반 철수…\"전향적 조치 없어\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "우크라이나 공관원 절반 철수…\"전향적 조치 없어\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008807121",
+              "image": "https://img.sbs.co.kr/newimg/news/20261021/202233295_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "정부, 우크라 대사 소환 이어 공관원 절반 철수",
+              "link": "https://www.donga.com/news/Politics/article/all/20261021/134878517/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879288.1.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "정부, 주우크라 대사 소환 이어…공관원 절반 철수 결정",
+              "link": "https://www.khan.co.kr/article/202610202142015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/spko/company/Khan_CI_180212.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "인천 계양지구 3기 신도시 입주 현장",
+          "summary": "이재명 대통령이 인천 계양지구 3기 신도시 입주 현장을 둘러보며 부동산 정책 성패를 공급 전격전으로 강조했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008807119",
+          "original_title": "\"3기 신도시 공급에 부동산 성패\"…'전격전' 주문",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"3기 신도시 공급에 부동산 성패\"…'전격전' 주문",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008807119",
+              "image": "https://img.sbs.co.kr/newimg/news/20261021/202233283_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "李, ‘3기 신도시’ 인천 계양지구 찾아 “신속 공급이 부동산 정책 성패 갈라”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261021/134878515/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134876402.4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "미국 민주당, 머스크 조사 예고",
+          "summary": "미국 민주당은 하원 탈환을 조건으로 일론 머스크의 전방위 조사를 예고했다. 정부 효율부와 테슬라·스페이스X의 계약을 살펴볼 계획이다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261021_0003834151",
+          "original_title": "美민주, 하원 탈환시 머스크 책임 추궁…전방위 조사 준비",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "美민주, 하원 탈환시 머스크 책임 추궁…전방위 조사 준비",
+              "link": "https://www.newsis.com/view/NISX20261021_0003834151",
+              "image": "https://img1.newsis.com/2026/10/21/NISI20261021_0002269058_web.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "美 민주 \"하원 탈환시 머스크 정조준\"…전방위 조사 예고",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wSndjSE9MUElPbTktLXVnYW5rOGV4RFQwd2xrb2o3dDlfVmFZR1lUM0o0ZEQxT1hqbERudGR5QkZqdGdiMGRZWVhzQ0V1eUJQUzhtcWU3QXU1UnJWeWdjclp3TDZTajA?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261020/AKR20261021034224Y6O_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261021034224Y6O"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美민주 \"하원 탈환시 머스크 정조준\"…전방위 조사 예고",
+              "link": "https://www.yna.co.kr/view/AKR20261021003400091",
+              "image": "https://img0.yna.co.kr/photo/etc/af/2026/10/18/PAF20261018148601009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "트럼프, 중간선거에 1억 달러 추가",
+          "summary": "트럼프 대통령은 중간선거에 1억 달러를 추가로 사용하겠다고 SNS에 밝혔다. 총 4억 달러를 지출하거나 지출할 예정이라고 언급했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261021/134879366/1",
+          "original_title": "트럼프, 중간선거에 1억 달러 더 풀어 4억 달러 집행",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "트럼프, 중간선거에 1억 달러 더 풀어 4억 달러 집행",
+              "link": "https://www.donga.com/news/Inter/article/all/20261021/134879366/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/21/134879367.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "트럼프, 중간선거에 1억 달러 더 풀어 4억 달러 집행",
+              "link": "https://www.newsis.com/view/NISX20261021_0003834143",
+              "image": "https://img1.newsis.com/2026/10/20/NISI20261020_0001677995_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프, 중간선거 2주앞 자금전…\"선거일까지 4억달러 풀 것\"",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0aUxqQ2FuNzdwbnRmMWMzWEYyeGFrSkNoMGdoMFNpa0tDemNPdGRrVTFwcFN1UHVvWnpYczVSRFZ5N29ScHdvejhGcm82QmdfTm5JaHhheEVaSTDSAWBBVV95cUxPTEZUUHdrc3hqLS1qbmpIbElVdlpVRVllRXg1ckNzRGVVaU9XdkJxOWJOdXJxSVhXM3pTSVNSbjVRM1gwVGZnd3lMUjJhU1BTeVhoeHhWbjFKT2JLSHhoLWI?oc=5",
+              "image": "https://img4.yna.co.kr/photo/ap/2026/10/20/PAP20261020137501009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261021003100071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "KT·아크릴, 의료AI 공동 개발",
+          "summary": "KT와 아크릴이 병원 맞춤형 AI 서비스를 공동 개발하며 의료 데이터 활용을 확대했다.",
+          "source": "핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IbVJVQXo1YmVhMUdRS0NvZVgtZF9fbEhjVVY3djNRbHJpNUk2U05yQ3NCcG42RWR4RU1reFkwSktDanBxamVyUnVvR19qN25hVWI3MGZPTV9XVjVTTFNmdVg3NU1qVUpIM0N6WjRpVlJuSlHSAXdBVV95cUxNVFlzU1JEcGZCZm16eWF4RXNDaXJtcEpqUWJDdDgyMExqZTd4M1BmMFczWEctNjdrMlVuR3k1cGJ3WWh1MzVvT3FHNVpGem1Gb1RONnhlbV9BangyYVh0WTUweGdJR1JXd1ZLcXdPd1NScXlHN256OA?oc=5",
+          "original_title": "KT, 아크릴과 맞손…의료 데이터 활용·AI 서비스 공동 개발",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "핀포인트뉴스",
+              "title": "KT, 아크릴과 맞손…의료 데이터 활용·AI 서비스 공동 개발",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IbVJVQXo1YmVhMUdRS0NvZVgtZF9fbEhjVVY3djNRbHJpNUk2U05yQ3NCcG42RWR4RU1reFkwSktDanBxamVyUnVvR19qN25hVWI3MGZPTV9XVjVTTFNmdVg3NU1qVUpIM0N6WjRpVlJuSlHSAXdBVV95cUxNVFlzU1JEcGZCZm16eWF4RXNDaXJtcEpqUWJDdDgyMExqZTd4M1BmMFczWEctNjdrMlVuR3k1cGJ3WWh1MzVvT3FHNVpGem1Gb1RONnhlbV9BangyYVh0WTUweGdJR1JXd1ZLcXdPd1NScXlHN256OA?oc=5",
+              "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202610/496915_482349_3357_v150.jpg",
+              "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496915"
+            },
+            {
+              "name": "IT조선",
+              "title": "KT·아크릴, 의료 AI 사업 확대",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91d2FGWlp6T0ZJbjd6LXN6WkNnUTNaWVZvdFBBbUxRX3UxV2tPS2FjeTllbkNvakRCaDZOSUlzQnhFY1BhRy10Ykxvb1lxUkZNNVhFREg5WGpWclRHR21uU25OU0ZsRHJGdDdLMTFXTEIxYjlE0gF0QVVfeXFMT3V3YUZaWnpPRkluN3otc3paQ2dRM1pZVm90UEFtTFFfdTFXa09LYWN5OWVuQ29qREJoNk5JSXNCeEVjUGFHLXRiTG9vWXFSRk01WEVESDlYalZyVEdHbW5Tbk5TRmxEckZ0N0sxMVdMQjFiOUQ?oc=5",
+              "url": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092172357"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "KT, 아크릴과 의료 AI 사업 확대...병원 맞춤형 AX 공동 추진",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sOWxCZ0R0c2ZSeGlJcjFmRnhnWUNIU3JWSk1XMWdScXNnQnN2dHpGVGhoaFlDUTBQa3QyX2hwcXBGT0xsSjl5MElVOTFjSzkyaE1aLXBCaDd3TTAt?oc=5",
+              "image": "https://img.newspim.com/news/2026/10/20/2610200859286470_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261020000230"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "KT·아크릴, 의료 AI 사업 협력…데이터 표준화부터 서비스까지",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQZ3R5S0pmQ3N1TEhGRGFMVEhYTnB6M0JvQUgwbGNvQjdaazNzVDVvek1HeDRQdTBhNE5xRDB0SlB0MjJhTGNyUEdGOXdMZ3JuVGRlaWxLaXltd2djeEt6Ny1raGs?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/10/20/sentv20261020000031.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202610200032"
+            },
+            {
+              "name": "아시아경제",
+              "title": "KT-아크릴, 의료 AX 사업 추진…데이터 표준화·AI 서비스 실증",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNd0ZwYnVvUjdNbjdaU21Xc0d0WVhldi1ZNVNxVWlhYWhLRE96enRZMkZTSjFmS2xsbTY1Mk9CTFh0cW1RYjRMcmVaZTlwSy1mM0UtTGhIS2pVY0VNWG4yVg?oc=5",
+              "image": "https://cphoto.asiae.co.kr/listimglink/1/2026102009031266842_1792454592.jpg",
+              "url": "https://www.asiae.co.kr/article/2026102009092186691"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "최종면접 개봉 예정작 예매율 1위",
+          "summary": "최종면접이 개봉 예정으로 예매율이 1위를 기록했다.",
+          "source": "www.bntnews.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLU3ZmTkhRamwxNDI5TXFEYTdMRHhZMk9sUkxNYUZ4WTZwX1RwTW5NSEs1aW5tZXdSMHE2VTVRWU42WE02VDJ4OU5OVVdIOTZEdHpzUFliYzZwSE9heVAwYllKd0w?oc=5",
+          "original_title": "‘최종면접’ 개봉 예정작 예매율 1위",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "www.bntnews.co.kr",
+              "title": "‘최종면접’ 개봉 예정작 예매율 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLU3ZmTkhRamwxNDI5TXFEYTdMRHhZMk9sUkxNYUZ4WTZwX1RwTW5NSEs1aW5tZXdSMHE2VTVRWU42WE02VDJ4OU5OVVdIOTZEdHpzUFliYzZwSE9heVAwYllKd0w?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/21/bnt202610210082.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202610210042"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "‘최종면접’ 개봉 예정작 예매율 1위…한국영화 예매율 2위",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tMlJXeDY1Tl9vTmUtaEcxdjNxRmR6LV9ic1ByWWhMTjh5TEFnVTFlbjdwX0phamxwaHBLWlNUc2dCSUZfeGxkR2k2LWhVd0NQTWt1VTV3QmgyaXAyd3NCR0duY25udw?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202610/775023_1185072_3854_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=775023"
+            },
+            {
+              "name": "Queen 이코노미퀸",
+              "title": "연상호 신작 '실낙원', 한국 영화 예매율 1위·전체 2위…흥행 기대감",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83NDgtUER1M3B5Z3lERWg3UXRIcGlBTkV2a1FSYm5BWW5MelhXYmVQdUNzMjdrb3hkT1BoWE5Sb1Ezc0lFVlBESkl6Nk9wYzN4aFV1dTZoLXVtMkRrTjg2SGZQRWRLOVJP?oc=5",
+              "url": "http://www.queen.co.kr/news/articleView.html?idxno=464988"
+            },
+            {
+              "name": "한국사회복지저널",
+              "title": "연상호 신작 '실낙원', 한국영화 예매율 1위…21일 개봉",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUQ0NsSmRLeEJOWXZXT2p3SnBQVTIxaDAzbm8zQ25YXzFpcFhTT0xPY05RenJ6ZFUyT1JNdTRhQkhfRTJjZVdwTGxVQ1B3aUNQbWt1WGo1dGdSaFd6Sk5udXNXS25hR3E4RDQw?oc=5",
+              "image": "https://cdn.ksw-news.com/news/thumbnail/202610/3049639_3040539_5437_v150.jpg",
+              "url": "http://www.ksw-news.com/news/articleView.html?idxno=3049639"
+            },
+            {
+              "name": "경북도민일보",
+              "title": "연상호표 심리 스릴러 '실낙원' 韓 영화 예매율 1위",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CbU1WUXdycEtaMEREbWJFdlhNYWFMOUEzTlR4OHVEVEVZWmh1RjRmTTRKOWdPajhESWg0SGJhTV9RbmRhUDA0NzhFMUJ4MVFvVWVidVBLNjA3bkhpeFRBcU1fRENuQ0tRX3c?oc=5",
+              "image": "https://cdn.hidomin.com/news/photo/202610/725616_428450_4815.jpg",
+              "url": "https://www.hidomin.com/news/articleView.html?idxno=725616"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "김도영 '초대형 만루포'…승기 잡은 KIA",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008806866",
+          "original_title": "김도영 '초대형 만루포'…승기 잡은 KIA",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김도영 '초대형 만루포'…승기 잡은 KIA",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008806866",
+              "image": "https://img.sbs.co.kr/newimg/news/20261020/202233237_1280.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "역대 PS 최장 비거리 타이, 김도영 145m 초대형 만루포",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwbWlTb19mOGpSTUtIcHhQZURtY1hfdjZYVlI5MFBWcjgyX2dIRlphZ3hpd0ZaN3FMeXU0SFVRZXo4ZmozNXcyb042NDA2Y0ZIMG5acjVoUU5ZQ29FOWZNcTluVTBrdw?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/10/21/20261021_o6DOmd.png",
+              "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8690885"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "역대 PS 최장 비거리 타이 '145ｍ'…KIA 김도영 초대형 만루포",
+              "link": "https://www.yna.co.kr/view/AKR20261020167800007",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102023850001300_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "가을 지배하는 KIA 김도영, 145m 대형 만루포…PS 최장거리 타이[준PO]",
+              "link": "https://www.newsis.com/view/NISX20261020_0003834029",
+              "image": "https://img1.newsis.com/2026/10/17/NISI20261017_0021492668_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "이제 가죽 재킷도 헐렁해집니다",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 15,
+      "t_min": 8,
+      "rain_pct": 45,
+      "sky": "흐림",
+      "display": "서울 8~15°C · 흐림 · 강수 45%"
+    },
+    "articles": [
+      {
+        "title": "이제 가죽 재킷도 헐렁해집니다",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/10/20/%ec%9d%b4%ec%a0%9c-%ea%b0%80%ec%a3%bd-%ec%9e%ac%ed%82%b7%eb%8f%84-%ed%97%90%eb%a0%81%ed%95%b4%ec%a7%91%eb%8b%88%eb%8b%a4/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6ad73fbd58941-scaled-1920x1080.jpg?x=1588&y=1123&ver=1.1.62",
+        "url": "https://www.vogue.co.kr/2026/10/20/%EC%9D%B4%EC%A0%9C-%EA%B0%80%EC%A3%BD-%EC%9E%AC%ED%82%B7%EB%8F%84-%ED%97%90%EB%A0%81%ED%95%B4%EC%A7%91%EB%8B%88%EB%8B%A4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "서두르지 말되, 쉬지도 말라.",
+    "author": "괴테",
+    "work": ""
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "빠른 발걸음으로 오늘도 도약"
+      },
+      {
+        "animal": "소",
+        "text": "힘이 넘치는 하루, 견고한 발판"
+      },
+      {
+        "animal": "호랑이",
+        "text": "용감한 발자국, 새로운 도전"
+      },
+      {
+        "animal": "토끼",
+        "text": "상큼한 웃음, 가벼운 마음"
+      },
+      {
+        "animal": "용",
+        "text": "불꽃 같은 열정, 오늘도 빛나"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택, 부드러운 흐름"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 길, 달리며 웃음"
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 온기, 차분한 하루"
+      },
+      {
+        "animal": "원숭이",
+        "text": "재치 넘치는 순간, 즐거움 가득"
+      },
+      {
+        "animal": "닭",
+        "text": "새벽을 깨우는 에너지, 활력"
+      },
+      {
+        "animal": "개",
+        "text": "충실한 동반자, 오늘도 함께"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍부한 행복, 부드러운 웃음"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
