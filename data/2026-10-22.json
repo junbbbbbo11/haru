@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-22",
+  "weekday": "목요일",
+  "vol": 10,
+  "generated_at": "2026-10-22T08:08:54+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5552.74,
+      "change": -215.27,
+      "change_pct": -3.73,
+      "direction": "down",
+      "display": "5,552.74",
+      "change_display": "▼ 3.73%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1326.3,
+      "change": 2.4,
+      "change_pct": 0.18,
+      "direction": "up",
+      "display": "1,326.3원",
+      "change_display": "▲ 0.18%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 112115000.0,
+      "change": 1738000.0,
+      "change_pct": 1.57,
+      "direction": "up",
+      "display": "11,212만원",
+      "change_display": "▲ 1.57%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 14,
+    "t_min": 4,
+    "rain_pct": 0,
+    "sky": "맑음",
+    "display": "서울 4~14°C · 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "국방",
+      "headline": "KAI, KT‑1 넘어 KF‑21로 글로벌 수출 확대",
+      "summary": "KAI는 KT‑1을 넘어 KF‑21을 통해 해외 수출을 확대하고 있다.",
+      "source": "서울신문",
+      "link": "https://www.seoul.co.kr/news/economy/industry/2026/10/22/20261022037001",
+      "original_title": "국산 항공기 수출 선구자 KAI… KT-1 넘어 KF-21로 글로벌 영토 확장",
+      "sources": [
+        {
+          "name": "서울신문",
+          "title": "국산 항공기 수출 선구자 KAI… KT-1 넘어 KF-21로 글로벌 영토 확장",
+          "link": "https://www.seoul.co.kr/news/economy/industry/2026/10/22/20261022037001",
+          "image": "https://img.seoul.co.kr//img/upload/2026/10/22/SSC_20261022004954_O2.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "연예",
+      "headline": "박위, 침묵 중 영상 삭제와 추락사고 회고도 내리다",
+      "summary": "박위가 침묵 중에 삭제된 영상을 다시 올리고 추락 사고 회고를 발표했다.",
+      "source": "스포츠경향",
+      "link": "https://sports.khan.co.kr/article/202610201005003",
+      "original_title": "[단독] 박위 침묵 속 영상 또 삭제···추락사고 회고도 내렸다",
+      "sources": [
+        {
+          "name": "스포츠경향",
+          "title": "[단독] 박위 침묵 속 영상 또 삭제···추락사고 회고도 내렸다",
+          "link": "https://sports.khan.co.kr/article/202610201005003",
+          "image": "https://images.khan.co.kr/article/2026/10/20/news-p.v1.20261020.cd63c9877c7248a39526c89a566a2c0d_P1.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "산업",
+      "headline": "삼성전기, 엔비디아와 AI 반도체 공급 계약 체결",
+      "summary": "삼성전기가 엔비디아와 AI 반도체 기판 공급 계약을 체결했다.",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/stock/12182179",
+      "original_title": "삼성전기, 엔비디아와 AI 반도체 깐부 됐다…AI 기판 장기 공급",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "삼성전기, 엔비디아와 AI 반도체 깐부 됐다…AI 기판 장기 공급",
+          "link": "https://www.mk.co.kr/news/stock/12182179",
+          "image": "https://pimg.mk.co.kr/news/cms/202610/21/news-p.v1.20261021.f20ab678906c44f0a35da770109cfadc_R.jpg"
+        },
+        {
+          "name": "연합뉴스",
+          "title": "삼성전기, 엔비디아 핵심 공급사 됐다…AI 기판 장기 공급",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wSzRIM2dockdEbWlELUIxVERtcEloa0MtQTE0amlnT1drMXFJZWxpNFdLdVdqdElUQkNrUnFYZGpjNEZ3UzNvNUtXOEdNeFBKcHNSRFdsajFETGPSAWBBVV95cUxNdFhnX3RKSjRzX3J5RGFrVHduYnR3Sll2YzlSZzNvSWNydWVxdmxyT0xRdmpqMEIyelhQaWZaWGpVblppUmJhcFE0VmpIZERwY3RDelR6b2QzcWg1N2xpWXc?oc=5",
+          "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/21/AKR20261021170900003_03_i_P4.jpg",
+          "url": "https://www.yna.co.kr/view/AKR20261021170900003"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "SK하이닉스 40조원 자사주 매입 완료",
+          "summary": "SK하이닉스가 21일 자사주 매입을 40조원 규모로 종료했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261021146600003",
+          "original_title": "SK하이닉스, 40조원 규모 자사주 매입 완료",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "SK하이닉스, 40조원 규모 자사주 매입 완료",
+              "link": "https://www.yna.co.kr/view/AKR20261021146600003",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/10/15/PYH2026101502530001300_P4.jpg"
+            },
+            {
+              "name": "머니투데이",
+              "title": "SK하이닉스, 40조 규모 자사주 매입 완료…계획보다 한 달 당겨",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KQUNWOWx3YlI4V0dUN0ZpdndHR1BYZ19mUlRrUVRnalBueXRYY3kzR1QwS05OamI0WS1FZHJvYnVnT2Z4dDdUOGxCX044Yjl6Q1pIM001Unk5ZVVKWWVHQWdPRmZnZFR50gFuQVVfeXFMT1hRUXA4aVQzamhmMFNYSDh0ZWRHLTNseThLWVlSLTJRZGRERWZtYzk5N0RzVk92Rkp1YnFscEtpZ00wV2prRWU0dHZtVkRXREJvMEtHaG5TOV91WTUzVHFmRjA0VmRZRnRtT21jZnc?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026102118031616786_1.jpg",
+              "url": "https://www.mt.co.kr/stock/2026/10/21/2026102118031616786"
+            }
+          ]
+        },
+        {
+          "headline": "삼성바이오 3분기 영업이익 6,401억 원",
+          "summary": "삼성바이오가 3분기 영업이익 6,401억 원을 기록했다.",
+          "source": "연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zcU9SU1dwWHdhRUNEVVllWHhSVDRxYjVwTi1PaUxuTS1vYUR3VnZMZjhjcFd3azgyTzBkbGRWN2N5eGtlSUhHbjAzaEpFelgxSlkyb3VZZFI2STdpc1NISGZaWFU0WVk?oc=5",
+          "original_title": "삼성바이오 3분기 영업이익 6,401억 원…매출 18.5%↑",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스TV",
+              "title": "삼성바이오 3분기 영업이익 6,401억 원…매출 18.5%↑",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zcU9SU1dwWHdhRUNEVVllWHhSVDRxYjVwTi1PaUxuTS1vYUR3VnZMZjhjcFd3azgyTzBkbGRWN2N5eGtlSUhHbjAzaEpFelgxSlkyb3VZZFI2STdpc1NISGZaWFU0WVk?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261021/AKR202610211948243rI_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202610211948243rI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "29CM·오르와 협업 140억 거래액 돌파",
+          "summary": "29CM가 여성 브랜드 오르와 단독 협업으로 140억 원 거래액을 기록했다.",
+          "source": "비즈트리뷴",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44VEdTOUNaR1hHZEtENEkwU3J3RjQ1NTZncHZqRHJiaUg2VHEzMW9uU25RUXltMHFaXzZDLXZkS1F6U0tGQWI2amtMa0h6NHg3bW5uX3psOTFxUHpkZV92dGFtTjdHcFcxLV8zYVNNWQ?oc=5",
+          "original_title": "29CM, 오르와 두차례 협업에 거래액 16억 돌파…여성패션 단독 협업 140억 넘어",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "비즈트리뷴",
+              "title": "29CM, 오르와 두차례 협업에 거래액 16억 돌파…여성패션 단독 협업 140억 넘어",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44VEdTOUNaR1hHZEtENEkwU3J3RjQ1NTZncHZqRHJiaUg2VHEzMW9uU25RUXltMHFaXzZDLXZkS1F6U0tGQWI2amtMa0h6NHg3bW5uX3psOTFxUHpkZV92dGFtTjdHcFcxLV8zYVNNWQ?oc=5",
+              "image": "https://www.biztribune.co.kr/news/thumbnail/202610/361018_266894_1657_v150.jpg",
+              "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=361018"
+            },
+            {
+              "name": "한국금융신문",
+              "title": "29CM, 여성 브랜드 단독 협업 통했다…9개월간 거래액 140억 돌파",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01MXhENmFUQzl3QjAtMDRoSjdNbmhCWDFXal9XOF84bmFNU0RJOEV5U0Z6dzRkTzhSWlgxRV8yNkNYQjhjdVRBbGdFMU5NOXRxZ3k2RWFFTHZYc1luWUlKbFpMQXY0LV9oQ0wwTTRONGt5SFdVQUNEVmVFWTA?oc=5",
+              "image": "https://cfnimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261021140746057830b5b890e35c211234195153.jpg&nmt=18",
+              "url": "https://www.fntimes.com/html/view.php?ud=202610211406333232b5b890e35c_18"
+            },
+            {
+              "name": "테크M",
+              "title": "29CM, 브랜드 협업상품 거래액 140억 돌파…'취향 큐레이션' 전략 통했다",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aOTZpU20ybEk1N2psN0w3ZWE4YVRBc05HRGtSbFBTUnlndWgzaVNINGMxVVVXbG0tT2tsbVBnLVhPRlJNaWR1LWhJR3pXNkUtZF9lV3JLQTdwVkdHbEZJbEV6ZTR2Zm96N3fSAWpBVV95cUxOWjk2aVNtMmxJNTdqbDdMN2VhOGFUQXNOR0RrUmxQU1J5Z3VoM2lTSDRjMVVVV2xtLU9rbG1QZy1YT0ZSTWlkdS1oSUd6VzZFLWRfZVdyS0E3cFZHR2xGSWxFemU0dmZvejd3?oc=5",
+              "url": "https://www.techm.kr/news/articleViewAmp.html?idxno=156332"
+            },
+            {
+              "name": "이코노미스트",
+              "title": "“단독 협업이 효자”…29CM, 1~9월 여성 패션 거래액 140억 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55VmQxU2tySXhWTWRmQ3RxendWMllUUUZNMUdCLWNUQkgybEtPaXlBSHdUazNpNUQ3d19VWDlQNGd1ZGp4czNNRjQ2M1BiYlRBNF83ZHltS1REWnQwdFZ0SFhB?oc=5",
+              "image": "https://economist.co.kr/data/ecn/image/2026/10/21/ecn20261021000018.800x.0.jpg",
+              "url": "https://economist.co.kr/article/view/ecn202610210014"
+            },
+            {
+              "name": "뉴시스",
+              "title": "\"여기서만 살 수 있대\" 29CM 단독 상품 통했다…거래액 140억 돌파",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XM2tINGg1RXZNNnhrZVZyV1NWQWRfYWdNODhlaW93VWd1U2hIb0tQc3BDRnV3NlItSWdETFdIeG9QY1VCY0NhMzFBM0JmZHVOaUxXSFAtRG1MMTg4QlFVMWRvUElVSTB2MFFEdF9tUmoyNmF5WFdwWdIBeEFVX3lxTE9XM2tINGg1RXZNNnhrZVZyV1NWQWRfYWdNODhlaW93VWd1U2hIb0tQc3BDRnV3NlItSWdETFdIeG9QY1VCY0NhMzFBM0JmZHVOaUxXSFAtRG1MMTg4QlFVMWRvUElVSTB2MFFEdF9tUmoyNmF5WFdwWQ?oc=5",
+              "image": "https://img1.newsis.com/2026/10/21/NISI20261021_0002269139_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261021_0003834270"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "APAR, 디바이스·화장품 병용 효과 국제학술지 게재",
+          "summary": "APAR가 뷰티 디바이스와 화장품을 병용한 효과를 국제학술지에 게재했다.",
+          "source": "코스인코리아닷컴",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VNTRRZ2RnQlhia1d2YXVvNENYSzd1LUV5dDNjLTZCX2Q0bGRlcmxzN1g3RHlaek9fZzZZSk5IV25DdFQxc1g4dlp0RlJZX1RlNk9NaHdWLWEzcUxsYVByOEVuTQ?oc=5",
+          "original_title": "에이피알, 홈 뷰티 디바이스·화장품 병용 효과 입증 국제학술지 게재",
+          "coverage": 15,
+          "sources": [
+            {
+              "name": "코스인코리아닷컴",
+              "title": "에이피알, 홈 뷰티 디바이스·화장품 병용 효과 입증 국제학술지 게재",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VNTRRZ2RnQlhia1d2YXVvNENYSzd1LUV5dDNjLTZCX2Q0bGRlcmxzN1g3RHlaek9fZzZZSk5IV25DdFQxc1g4dlp0RlJZX1RlNk9NaHdWLWEzcUxsYVByOEVuTQ?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261043/art_17925810622558_228d85.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58562"
+            },
+            {
+              "name": "코스모닝",
+              "title": "에이피알, 뷰티 디바이스와 화장품 병용 효과 연구",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jSmV0R3RYYkJSZ1lNZE1ydzB3VDk5MGVMaDU1Ui1iLWtsd0ZDRWVDYVZnRjFqRDdBLVpxTmV2b0xuMEctVW94bGt2bUV5blp4X3EzVm1RNDVGUDdmdjF6V2ZPVQ?oc=5",
+              "image": "https://www.cosmorning.com/data/photos/20261043/art_17925768574774_5ab105.jpg",
+              "url": "https://www.cosmorning.com/news/article.html?no=53752"
+            },
+            {
+              "name": "뉴스저널리즘",
+              "title": "에이피알, 뷰티 디바이스·화장품 병용 효과 연구…국제학술지 게재",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqNTI2WUFiQzlTcHd2M2JRYV9RVlpQRmVjRGg5MHpPdU9Qd3N6ZUR2M2tNSlEtZlFYLWMtQ2lfUjRzWktRQWtPVjNNTFI5VEtFNVF0NFJ2TkRyOEFaQ1ZkNlgzVm5wXzU5NDdj?oc=5",
+              "image": "https://cdn.ngetnews.com/news/thumbnail/202610/554912_122817_5517_v150.jpg",
+              "url": "https://www.ngetnews.com/news/articleView.html?idxno=554912"
+            },
+            {
+              "name": "서울파이낸스",
+              "title": "[뷰티브리핑] 에이피알, 홈 뷰티 디바이스와 화장품 병용 효과 연구 국제학술지 게재 외",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pZUtDR3JSWGczaE1GRGwtandxSXUzT0RlU2xRN29SSF9QOTJOU3BkOWJkcmxzMjZueTJOb09JU2tqT2IxaGVORWt6bWdxWGo2bUFYb0JYZHZLUExlcTAxZC1EZDh1QzhuX0E?oc=5",
+              "image": "https://cdn.seoulfn.com/news/photo/202610/640659_444134_4935.jpg",
+              "url": "https://www.seoulfn.com/news/articleView.html?idxno=640659"
+            },
+            {
+              "name": "인사이트코리아",
+              "title": "에이피알, 뷰티 디바이스·화장품 병용 연구 국제학술지 게재",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVanBOdTRiWWRwSFZUOUxndnhvcmFCdFh1UERsRFdteFRUM3JON1FnQ1d1OFJtNEZMVklocmNaWE5haDlwNnVPRlpXZjU1RGExZ2dsYWNCY3pXY3J0V2cyeTlhUnhLRmtBcmZlNUwzdkwwS2fSAXdBVV95cUxQTUV0ODRRcUk5cDRJS21yWlpxellhWC1zNTRLV3lwU1FUTHdFR2hNVkNtUG43N3dmSTBic09wMUxMYy11Yk9hbWtoR0dTQllEWjBoWUw3TzR3aGpGUjlHaWFraEU3bFoyUzQ1Rl9aUnYxcWcwVjJ6Zw?oc=5",
+              "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202610/256937_269298_268_v150.jpg",
+              "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=256937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "세라젬·데이터브릭스, AI 웰니스 홈 가속",
+          "summary": "세라젬이 데이터브릭스와 손잡고 AI 웰니스 홈 구축을 가속한다.",
+          "source": "코리아리포트",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53dWFxd2VscXpIM29aa29meTVVcWxUdTFLWmhHdFJ5RmZjZi1xZWdMWjhablJnVjRiVlk1RXJFanl1WEswVzA0X3hXNWNWVjJ3RzhNT2ttRzNlc3gzU0w4aHdPbEtSaHlZUHQwbGFEVTc?oc=5",
+          "original_title": "세라젬, 데이터브릭스와 손잡고 ‘AI 웰니스 홈’ 속도",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "코리아리포트",
+              "title": "세라젬, 데이터브릭스와 손잡고 ‘AI 웰니스 홈’ 속도",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53dWFxd2VscXpIM29aa29meTVVcWxUdTFLWmhHdFJ5RmZjZi1xZWdMWjhablJnVjRiVlk1RXJFanl1WEswVzA0X3hXNWNWVjJ3RzhNT2ttRzNlc3gzU0w4aHdPbEtSaHlZUHQwbGFEVTc?oc=5",
+              "image": "https://cdn.koreareport.co.kr/news/photo/202610/53838_56927_523.jpg",
+              "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=53838"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "세라젬, 데이터·AI 기업 데이터브릭스와 맞손…'AI 웰니스 홈' 가속",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YWTdMek95ZW5mUnljdW50aXlkNkwwWTUyRVFZeUN2Z09SM2dmbS1mdXpyOFlvUkVPSFNZc1VnMy1Ud1dfNUhieDRibHBvVTQ3Z0o3bjRn?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/10/21/f6be69cf1e406683a1e54b7da89b84ba.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261021144345"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "세라젬, 데이터브릭스와 협력…AI 웰니스 홈 구축 추진",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52M0JURXlYV05KZ2hmUEFtTFM0X213WnBsb1ZlUzlFY01XbmFDc0JFMExTTV9wNHVJVXpVNXhSTGdaRWw2SHdmMGhHQmw1S2lxZVBsLWxwc2FfV19DczN2S2dnZEQ?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/10/21/sentv20261021000109.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202610210110"
+            },
+            {
+              "name": "조선비즈",
+              "title": "세라젬, 데이터브릭스와 협력…‘AI 웰니스 홈’ 구현 속도",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXFkM0RxU0E5b19lRFVzSUk2YWVQY1RVbDlLeFFvSXk2eUhBdm44VGFIN05vRGRkdWNPSF9HTGFrV19hY3BIblFVQ0phMTFfS3YzekJBZTh1ektBOUZoRGUxdlBIdUVKR1F0QlZWVnF0UWhGZW1yZzBvTmRpQVh6dUlGVEJ5SzdDRmowMUIzWnTSAaQBQVVfeXFMT0Y2dXMtckotdmw5cFh5TkROS29wYl96SVpLR01tNG1naUNzWlNVMlpWejFicHdJTkhjTjZEeng0WU1mVGtuWkpnQW93SXZOMWVPRVR3eFdzdEM4WFhiM0puSmdzRWtJbU52TS1uVlFpODhGalhnRnBuWVQ2bVJaa1JZdlVSMDVaTFFaSVlSZXF5a0VlemQ3Uk93VURpc25xZFBobWY?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/FPFAUO3RNZGELNTR3VNBY7ESQA.jpg?auth=4abaaca16dae98509876d6847f12c0b3215f7b9c01ef12f596f2a345b7252f34&width=1000&height=525&smart=true",
+              "url": "https://biz.chosun.com/industry/business-venture/2026/10/21/3WHEOQ7RVNGDTIR2H3YPU4K23M/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김여정, 국경선 새 대응수단 임무대기 선언",
+          "summary": "김여정 노동당 총무부장은 군사분계선에서 한국군의 경고사격에 반발하며 모든 국경선에 새로운 대응수단이 임무대기 중이라고 밝혔다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008809357",
+          "original_title": "북한 김여정 \"모든 국경선에 새 대응 수단 대기\"…대남 확성기도 거듭 경고",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "북한 김여정 \"모든 국경선에 새 대응 수단 대기\"…대남 확성기도 거듭 경고",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008809357",
+              "image": "https://img.sbs.co.kr/newimg/news/20261022/202233670_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "[속보] 김여정 “전 국경선서 새 대응수단 임무대기…확성기도 대기”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sdzZDOXBMaXVpZTE1Sk9IQWpKclp5N2lueU5HQUwxSEF4RXhHYTZTcndkSzhvTGVlR3IxLVFKQnBFb3hFTTlTY0RIbks3dFpiUmF0c1ZyWlFRdmRVZTljU3VNSlBQeTV1VDNJaWdqSDItR1dD?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/750/500/imgdb/original/2026/1009/8417915125416467.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1283571.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김여정 \"국경선 새 대응수단 임무대기…확성기도 수일 내 대기\"",
+              "link": "https://www.yna.co.kr/view/AKR20261022011451504",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/10/21/PYH2026102120290004200_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "[속보] 김여정 “전 국경선 새 대응수단 임무대기, 확성기도 수일내 대기”",
+              "link": "https://www.khan.co.kr/article/202610220635001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/22/news-p.v1.20261022.1b2466f87367402584d9061b98c64366_P1.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 김여정 “전국경선 새 대응수단 임무대기…확성기도 수일내 대기”",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lVS1qUHUyVTYxdUEzN0dHd3BKM1VvdlFSWEw0R0xTQTZ3WS1TUkR0VWZVZl9YUVpXdDgwdm5DVVJHaWJMTFl4UmYyOGtYeUxFYzJiRmFn?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/22/news-p.v1.20261022.10633beffac64b32b5539516665545bb_R.png",
+              "url": "https://www.mk.co.kr/news/politics/12182389"
+            }
+          ]
+        },
+        {
+          "headline": "국민의힘, 우크라 공관원 추가 철수 결정",
+          "summary": "국민의힘은 이재명 정부가 북한군 포로 송환 논란과 관련해 주(駐)우크라 대사 소환에 이어 공관원 추가 철수를 결정했다고 밝혔다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261021057651001",
+          "original_title": "국힘, '우크라 공관원 추가 철수' 李대통령에 \"감정적 대응\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "국힘, '우크라 공관원 추가 철수' 李대통령에 \"감정적 대응\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261021057651001",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/10/19/PYH2026101918320001300_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "국힘, '우크라 공관원 추가 철수' 결정에 \"대통령, 감정적 대응\"",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxV0tmSVhiSGNCRVFLRnNNU2FnSzJpWGoyTURJYWhQVDhLVmRrU1BqRlJkOUFZRXhGdXgyODgyNXJaRm4yaF9Ic0JGYlktZks1aExzZWtwWlRock1KZS1JTTVaVGF5UTdKc3k1Y2E5ajRBTGxBakk5ddIBeEFVX3lxTE1DU2hIT1JROGJQTUUzd01TWDVJTXV5OHZjSkI5MmZYMmZjaDl6WUxRdFpjUWZjTTRsUVhJbkM3ZS1NUFJwNHRHT1phMVBSaWlja0tfek1CNzM5dzNPdG5JZkhUMDRFVDJwMW1vZ25mc1Qxa1B3TkJ6LQ?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/10/21/hye_20261021_31.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6859557_36911.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "폐암 수술 레오 14세 교황, '추가 치료 불필요' 판정",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261022015900009",
+          "original_title": "폐암 수술 레오 14세 교황, '추가 치료 불필요' 판정",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "폐암 수술 레오 14세 교황, '추가 치료 불필요' 판정",
+              "link": "https://www.yna.co.kr/view/AKR20261022015900009",
+              "image": "https://img7.yna.co.kr/photo/reuters/2026/10/21/PRU20261021274701009_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "교황, 폐암 수술 뒤 ’추가 치료 불필요’ 판정",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IdWZudVZIdjdxRXdqaHJDY0c1UFc1U2JicC1rSFZtdURvQmE3Y3JETE5VZWs3cXdRXzVOZDZlZnJLQmxqNDlYZWJPdndLdzB0OGhncE1heHY5SjZNZW5FTTRxTFZUbkU?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261021/AKR20261022074241XaT_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261022074241XaT"
+            }
+          ]
+        },
+        {
+          "headline": "이집트 대통령 \"사우디 방어 지원하겠지만 예멘 공격은 안 해\"",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261022003100079",
+          "original_title": "이집트 대통령 \"사우디 방어 지원하겠지만 예멘 공격은 안 해\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "이집트 대통령 \"사우디 방어 지원하겠지만 예멘 공격은 안 해\"",
+              "link": "https://www.yna.co.kr/view/AKR20261022003100079",
+              "image": "https://img7.yna.co.kr/photo/etc/up/2026/09/16/PUP20260916007901009_P4.jpg"
+            },
+            {
+              "name": "뉴스1",
+              "title": "이집트 대통령 \"사우디 영토 방어하겠지만 예멘 공격은 배제\"",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrSTNxQUJjM2RjQXpHc29nMzFvZjJieGVIU0pUbmFXSmtGQnVyUXBlNzU0akFRdFgyUWo1eUxDUE9xTGRwaDhubEVESlpPX0JxUjhpQ3Y1WnhSY2c3SkVhWmtn?oc=5",
+              "url": "https://www.news1.kr/world/middleeast-africa/6327900"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "인텔, 미국 오하이오·애리조나 공장 증설 진전",
+          "summary": "인텔이 오하이오와 애리조나 공장 증설 사업에서 진전을 보였으며, 애리조나 공장 완공 작업이 마무리 단계에 진입했다고 밝혔다.",
+          "source": "블로터",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=676340",
+          "original_title": "인텔 \"美 반도체 공장 증설 진전\"…AI 칩 수요 증가 신호",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "블로터",
+              "title": "인텔 \"美 반도체 공장 증설 진전\"…AI 칩 수요 증가 신호",
+              "link": "https://www.bloter.net/news/articleView.html?idxno=676340",
+              "image": "https://cdn.bloter.net/news/thumbnail/202610/676340_290396_1717_v150.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "국립중앙박물관장 유홍준 사퇴",
+          "summary": "유홍준 관장은 전시 유물이 개인 소유였음을 숨겨 논란이 일자 사퇴했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Culture/article/all/20261022/134886051/2",
+          "original_title": "‘셀프 출품’ 유홍준 국립중앙박물관장 사퇴",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "‘셀프 출품’ 유홍준 국립중앙박물관장 사퇴",
+              "link": "https://www.donga.com/news/Culture/article/all/20261022/134886051/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/22/134886050.3.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "[속보]국립중앙박물관 유홍준 관장, 사의 표명",
+              "link": "https://www.newsis.com/view/NISX20261021_0003834679",
+              "image": "https://img1.newsis.com/2020/12/11/NISI20201211_0000654239_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "삼성 썬더스 KCC 제압 6연승 기록",
+          "summary": "2025-2026 프로농구 개막 6경기 연속 승리로 삼성 썬더스가 KCC를 제압했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008809069",
+          "original_title": "프로농구 삼성, 챔피언 KCC도 제압…구단 최다 개막 6연승 타이",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "프로농구 삼성, 챔피언 KCC도 제압…구단 최다 개막 6연승 타이",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008809069",
+              "image": "https://img.sbs.co.kr/newimg/news/20261021/202233647_1280.jpg"
+            },
+            {
+              "name": "뉴스1",
+              "title": "프로농구 삼성, '디펜딩 챔피언' KCC까지 제압…23시즌 만에 개막 6연승",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hYVNEdWUtVmhnRW5tUzA2OFp1d2VkUHN3YkgwbjZxUnZCUE9QbzRVLUV6eEhLN0FWV3VfbGpfX1pFUFFzUnQ5U3BhZGVVY3JSS0YxMmltOUltUQ?oc=5",
+              "url": "https://www.news1.kr/sports/basketball/6327839"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "프로농구 삼성, 챔피언 KCC도 제압…구단 최다 개막 6연승 타이",
+              "link": "https://www.yna.co.kr/view/AKR20261021173100007",
+              "image": "https://img6.yna.co.kr/photo/yna/YH/2026/01/22/PYH2026012221440001300_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "프로농구 삼성, KCC 97-86 격파…23년 만에 개막 6연승 달성",
+              "link": "https://www.newsis.com/view/NISX20261021_0003835749",
+              "image": "https://img1.newsis.com/2026/10/21/NISI20261021_0021498957_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "한국 여자축구 아시안게임 동메달·FIFA 랭킹 17위",
+          "summary": "2026 아시안게임에서 동메달을 획득한 한국 여자축구가 FIFA 랭킹에서 17위에 올랐다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261021_0003834943",
+          "original_title": "'아시안게임 동메달' 한국 여자축구, FIFA 랭킹 17위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'아시안게임 동메달' 한국 여자축구, FIFA 랭킹 17위",
+              "link": "https://www.newsis.com/view/NISX20261021_0003834943",
+              "image": "https://img1.newsis.com/2026/10/02/NISI20261002_0021472867_web.jpg"
+            },
+            {
+              "name": "경기일보",
+              "title": "‘AG 동메달’ 한국 여자축구 FIFA 랭킹 17위 ‘2계단 상승’",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MYjNBckxoYmllSWx6M3hEZmZISkJBb3UySmhYelNoOXFMMWFYYkFhMkc0WXZWTGZHTXkzWGJ0ZUx6SGotLTdjcWd5WVJIaThtWnE5UldpX2xEZVk?oc=5",
+              "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/21/.cache/512/20261021580470.jpg?v=20261022082318",
+              "url": "https://www.kyeonggi.com/article/20261021580469"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "한국 여자축구, FIFA 랭킹 17위…40개월 만에 최고",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008808089",
+              "image": "https://img.sbs.co.kr/newimg/news/20261021/202233443_1280.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "이불 밖이 서늘해졌다면 파자마를 바꿀 때입니다",
+    "tagline": "ELLE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 14,
+      "t_min": 4,
+      "rain_pct": 0,
+      "sky": "맑음",
+      "display": "서울 4~14°C · 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "이불 밖이 서늘해졌다면 파자마를 바꿀 때입니다",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1911684",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/10/21/322e1f4b-8656-4e35-a7fb-a14435e1262d.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "오늘 할 수 있는 일을 내일로 미루지 마라.",
+    "author": "벤저민 프랭클린",
+    "work": ""
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "쥐, 아이디어가 솟아난다"
+      },
+      {
+        "animal": "소",
+        "text": "소, 한 줄기 햇살이 비친다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "호랑이, 용감한 발걸음이 이어진다"
+      },
+      {
+        "animal": "토끼",
+        "text": "토끼, 달콤한 순간이 찾아온다"
+      },
+      {
+        "animal": "용",
+        "text": "용, 도전이 불꽃처럼 타오른다"
+      },
+      {
+        "animal": "뱀",
+        "text": "뱀, 유연한 움직임이 빛난다"
+      },
+      {
+        "animal": "말",
+        "text": "말, 자유로운 길을 묵직히 걸어간다"
+      },
+      {
+        "animal": "양",
+        "text": "양, 부드러운 마음이 화합을 이끈다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "원숭이, 재치가 빛나는 하루를 만든다"
+      },
+      {
+        "animal": "닭",
+        "text": "닭, 아침의 여유가 새벽을 밝혀준다"
+      },
+      {
+        "animal": "개",
+        "text": "개, 충성심이 보람을 안겨준다"
+      },
+      {
+        "animal": "돼지",
+        "text": "돼지, 풍요로운 웃음이 가득하다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
