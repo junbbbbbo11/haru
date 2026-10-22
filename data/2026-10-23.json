@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-23",
+  "weekday": "금요일",
+  "vol": 11,
+  "generated_at": "2026-10-23T08:21:20+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5735.66,
+      "change": 182.92,
+      "change_pct": 3.29,
+      "direction": "up",
+      "display": "5,735.66",
+      "change_display": "▲ 3.29%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1325.2,
+      "change": -0.4,
+      "change_pct": -0.03,
+      "direction": "down",
+      "display": "1,325.2원",
+      "change_display": "▼ 0.03%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 108930000.0,
+      "change": -3047000.0,
+      "change_pct": -2.72,
+      "direction": "down",
+      "display": "10,893만원",
+      "change_display": "▼ 2.72%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 19,
+    "t_min": 7,
+    "rain_pct": 3,
+    "sky": "흐림",
+    "display": "서울 7~19°C · 흐림 · 강수 3%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "연금",
+      "headline": "국민연금 구조 개편 논의",
+      "summary": "국민연금의 낡은 구조와 사각지대가 논의된다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261021128200530",
+      "original_title": "결혼이 가른 55세 친구의 엇갈린 노후…국민연금의 낡은 구조",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "결혼이 가른 55세 친구의 엇갈린 노후…국민연금의 낡은 구조",
+          "link": "https://www.yna.co.kr/view/AKR20261021128200530",
+          "image": "https://img6.yna.co.kr/photo/cms/2020/09/02/81/PCM20200902000081990_P4.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "반도체",
+      "headline": "SK하이닉스 상장 중단 결정",
+      "summary": "SK하이닉스가 솔리다임 상장 전격 중단을 발표했다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261023018251003",
+      "original_title": "SK하이닉스, 솔리다임 상장 전격중단…\"시장여건 고려\"(종합)",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "SK하이닉스, 솔리다임 상장 전격중단…\"시장여건 고려\"(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261023018251003",
+          "image": "https://img4.yna.co.kr/photo/cms/2026/10/18/01/PCM20261018000001990_P4.jpg"
+        },
+        {
+          "name": "인베스트조선",
+          "title": "SK하이닉스, 솔리다임 프리IPO·IPO 검토 '중단' 결정",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUk1ZmtvdjFoNUZrbU9SdXRGMmxuZjhJMGtiaEs2RWg0aC0xM1hGN25fZUJqRmctUmI0OTM3QnowZ180ZnNidzl4U1lRVUloUzhhbzh1eVpIcjRpTGd5eG9YVGZraDMxVjFqZ0EzampVYmVoajRxeXdRN1lWeGI4eUs5cw?oc=5",
+          "image": "https://img.investchosun.com/site/data/img_dir/2026/10/23/2026102380007_0.png",
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380007.html"
+        },
+        {
+          "name": "매일경제",
+          "title": "[속보] SK하이닉스, 솔리다임 프리IPO·IPO 검토 중단…“시장 여건 변화”",
+          "link": "https://www.mk.co.kr/news/stock/12183753",
+          "image": "https://pimg.mk.co.kr/news/cms/202610/23/news-p.v1.20261023.77defd9072de488ebb6fed3d6bcee5ed_R.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "뷰티",
+      "headline": "오송화장품뷰티엑스포 개막",
+      "summary": "청주 OSCO에서 22일 오송화장품뷰티엑스포가 개막했다.",
+      "source": "장업신문",
+      "link": "https://www.jangup.com/news/articleView.html?idxno=100235",
+      "original_title": "‘2026 오송화장품뷰티엑스포’, 22일 청주 OSCO 개막",
+      "sources": [
+        {
+          "name": "장업신문",
+          "title": "‘2026 오송화장품뷰티엑스포’, 22일 청주 OSCO 개막",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100235",
+          "image": "https://www.jangup.com/news/thumbnail/202610/100235_72131_4141_v150.jpg"
+        },
+        {
+          "name": "뷰티누리",
+          "title": "화장품신문 (Beautynury.com) :: 오송 K-뷰티, 생산 넘어 수출로… 22일 오송화장품뷰티엑스포 개막",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16TlgzdERUbzFrWTNqdzFiMUl0WEloSWtHQzFLX0JsYjJycTdNOWF4am9fN0g1VkZHX3ZnTDQwLTZKNjdEMko5MWZNTk00UHZSb3ZlcWVWRE84Mmk5N1dV?oc=5",
+          "url": "https://www.beautynury.com/news/view/112444/cat/10"
+        },
+        {
+          "name": "경충일보",
+          "title": "2026 오송화장품뷰티엑스포 개막… K-뷰티 세계시장 공략",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zOUZoMUpFcDRKQ0pfYnRBdG9NMVlfd3NjcjlmRlpRa1JSX3lwWGl6TWpHUjlzbEdpd2locF80Vk5fbFJadnN2d0RpXzhzNnFTNFlqNHA4R2o?oc=5",
+          "image": "https://www.kcilbo.com/storage/uploads/kcilbo/og/2Bf8btbXbEHdGIFr3DI2er76.jpg",
+          "url": "https://www.kcilbo.com/articles/2026102315242"
+        },
+        {
+          "name": "주간신문씨엠엔",
+          "title": "‘2026 오송화장품뷰티엑스포’ 힘찬 첫발",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KaHNXWjNROHRDU1ZFY19Ybzg2OU5Ua1NCcnozcXJIRzRTOUM2WGRfcWoybW9zQ2NlOFlBWUxHSzVsd0JORVY3SjlBMkpIYUFGZXJDeWx0RmV5SnFiTnJoMFcxN1hoQ094eVpn?oc=5",
+          "url": "https://www.cmn.co.kr/sub/news/news_view.asp?news_idx=51343"
+        },
+        {
+          "name": "웹이코노미",
+          "title": "충북도, 오송화장품뷰티엑스포서 중부고속도로 확장 서명운동 전개",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIb1hiRjNWMVphUlBEQTI5bEtkMWRlcU5KLUtKRUdieDFnTWtvTGZIenJVUndjeV8yejVNdm5XUHNmWHE3eEhlVGVKSDNUR0s0blprY0VNSFpORGt1RDYxZm1lTUh4LU44d25nUmpqSGlhQQ?oc=5",
+          "image": "https://cdn.webeconomy.co.kr/news/photo/202610/2345224_1155348_1851.jpg",
+          "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2345224"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "나스닥 2.6% 하락·다우 5만2867.98에 마감",
+          "summary": "나스닥이 2.6% 하락하고 다우존스30산업평균지수는 5만2867.98에 마감했다",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261023_0003837727",
+          "original_title": "뉴욕증시, AI 투자 우려 재부상에 기술주 급락…나스닥 2.6%↓",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "뉴욕증시, AI 투자 우려 재부상에 기술주 급락…나스닥 2.6%↓",
+              "link": "https://www.newsis.com/view/NISX20261023_0003837727",
+              "image": "https://img1.newsis.com/2026/08/19/NISI20260819_0002215310_web.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "고개든 AI 투자 ’회의론’…뉴욕증시서 나스닥 2.6%↓",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51UHZlUGkzVEZwSDFNaV9ONjNhVkZnR1UzZDZ5Rk9MRk1zX1JxemdKMGxTUHNBVDA1Y2M0dTRLSlp5Sk5QUE90cVdjakpqWkZWMEhXQU5LQ2FWT2M1UHR4NzBuZ1RYQzg?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261022/AKR20261023052318wQt_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261023052318wQt"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "뉴욕증시, AI 불안에 하락 출발",
+              "link": "https://www.yna.co.kr/view/AKR20261022197700009",
+              "image": "https://img5.yna.co.kr/photo/etc/gt/2026/10/21/PGT20261021123801009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "8월 은행 대출 연체율 0.69%·10년 최고",
+          "summary": "8월 국내 은행의 원화대출 연체율이 0.69%로 10년 만에 최고치를 기록했다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261022191400002",
+          "original_title": "8월 은행 대출 연체율 9년 10개월만에 최고…0.7% 육박",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "8월 은행 대출 연체율 9년 10개월만에 최고…0.7% 육박",
+              "link": "https://www.yna.co.kr/view/AKR20261022191400002",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100402220001300_P4.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "은행 8월 말 대출 연체율 0.69%…10년來 최고",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43NXk3ZVIwYVNaN0E4WlQtWVVWVjIxbGc1VExpdjlZYlFJUnNOUllGT2szdjNib1FKM1FSVEw0cmxuZEYyRkpsTER3SkFLZWtGVGY2RlZ5S2tDUWJXNnE3a2lBbW5SN0FNYjJrdDZNZ0g?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202610/4440718_351304_12_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440718"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "구찌, 뉴욕 배경 ‘구찌코어’ 캠페인 공개",
+          "summary": "구찌가 뉴욕 배경에서 ‘구찌코어’ 캠페인을 공개하고 기본 의류 중심 컬렉션을 소개했다.",
+          "source": "더퍼블릭",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sbV9IZV9PXzBlN1NRRnRPcm5STllwSlR3TGZ6c0hoeDc0V3l1ZTFnSkRfTWV5aUtONjUtaEF1OTJUZU5ZYTBua1hibnFFRnAxbXgtVEdSYUxUQnFjRkRrQml1TXFTeHYwN2pfYVhVMNIBb0FVX3lxTE1sbV9IZV9PXzBlN1NRRnRPcm5STllwSlR3TGZ6c0hoeDc0V3l1ZTFnSkRfTWV5aUtONjUtaEF1OTJUZU5ZYTBua1hibnFFRnAxbXgtVEdSYUxUQnFjRkRrQml1TXFTeHYwN2pfYVhVMA?oc=5",
+          "original_title": "구찌, 뉴욕 배경 ‘구찌코어’ 캠페인 공개...기본 의류 중심 컬렉션 소개",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "더퍼블릭",
+              "title": "구찌, 뉴욕 배경 ‘구찌코어’ 캠페인 공개...기본 의류 중심 컬렉션 소개",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sbV9IZV9PXzBlN1NRRnRPcm5STllwSlR3TGZ6c0hoeDc0V3l1ZTFnSkRfTWV5aUtONjUtaEF1OTJUZU5ZYTBua1hibnFFRnAxbXgtVEdSYUxUQnFjRkRrQml1TXFTeHYwN2pfYVhVMNIBb0FVX3lxTE1sbV9IZV9PXzBlN1NRRnRPcm5STllwSlR3TGZ6c0hoeDc0V3l1ZTFnSkRfTWV5aUtONjUtaEF1OTJUZU5ZYTBua1hibnFFRnAxbXgtVEdSYUxUQnFjRkRrQml1TXFTeHYwN2pfYVhVMA?oc=5",
+              "url": "https://www.thepublic.kr/news/articleViewAmp.html?idxno=323345"
+            },
+            {
+              "name": "RNX뉴스",
+              "title": "구찌, 뉴욕을 배경으로 다채로운 개성을 담은 ‘구찌코어(GucciCore)’ 캠페인 공개",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13WlJjd2pvcHJmUHN5SW41S3hGcVlnM3Q4WUpUcUl4VUpNYnh2M2JQQkxnWWtDYkVzaW9nZG1CdWZ6X3dBRXJsOG0zd0VwTzFhR1ZFa1h4MFI4MXdFWEVYb1RR?oc=5",
+              "image": "https://cdn.rnx.kr/news/thumbnail/202610/907458_944171_5510_v150.jpg",
+              "url": "http://www.rnx.kr/news/articleView.html?idxno=907458"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "유한양행, 다이소 전용 '더마푸라민Rx' 출시",
+          "summary": "유한양행이 다이소 전용 화장품 '더마푸라민Rx'를 출시해 뷰티 유통망을 확대했다.",
+          "source": "현대경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JNl8zTk9rejVib3k3U3p0WFcxd25SVHQ0aURLTHR5TjhJUEhwQk1ZSkpleGtFSGpyREZNdER0bVFmY3hHWnRwcWFBZkRnckxmMjZweEEwdEFLS0wyQjYyZ2NSZ1NxMUHSAWtBVV95cUxNZndBSXRzb0tfV3ZETjJzUTdYNHRQQVlsSm9icmp0NlhlRHQtLTB6SW0zRWdaRUR5em9udkJXWDAxZ3l0dF9ja2xxcDh2M3R4OFE4bVZsd2J1RV95TGNHeVNQU3FpbHgzQ1FQaw?oc=5",
+          "original_title": "유한양행, 다이소 전용 화장품 '더마푸라민Rx' 출시···뷰티 유통망 확대",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "현대경제신문",
+              "title": "유한양행, 다이소 전용 화장품 '더마푸라민Rx' 출시···뷰티 유통망 확대",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JNl8zTk9rejVib3k3U3p0WFcxd25SVHQ0aURLTHR5TjhJUEhwQk1ZSkpleGtFSGpyREZNdER0bVFmY3hHWnRwcWFBZkRnckxmMjZweEEwdEFLS0wyQjYyZ2NSZ1NxMUHSAWtBVV95cUxNZndBSXRzb0tfV3ZETjJzUTdYNHRQQVlsSm9icmp0NlhlRHQtLTB6SW0zRWdaRUR5em9udkJXWDAxZ3l0dF9ja2xxcDh2M3R4OFE4bVZsd2J1RV95TGNHeVNQU3FpbHgzQ1FQaw?oc=5",
+              "image": "https://cdn.finomy.com/news/thumbnail/202610/264399_258707_438_v150.jpg",
+              "url": "http://www.finomy.com/news/articleView.html?idxno=264399"
+            },
+            {
+              "name": "팝콘뉴스",
+              "title": "유한양행, 다이소 전용 더마 화장품 8종 출시...뷰티 채널 다각화",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vQW8xWXpMTXdpS1pWNWFIMVNWQXF1UE9hMkJzWUhCWXVrVWZXYXRPOUFQXzJjMkZTU3dITnhNZ0dUbm81SFlzNWlGYTc4Vmx2TGNfVHI4WlM3MVJUZDRNQjRoUHRNU0lSeHEzRmlEZ9IBckFVX3lxTFB2QjY0SlZGbmk2VjUyY2ZfOF84VmtpYUt4cGdhUXVQcFh0SEp5bnVDaGZ1V1A3blVqSUhBcTlSYUpPUk1JVmZXRmt4ZE9iUDFSZzB0WnFwUGpvaDRIZXFyUlNxOVh4RXZkdlVicGFHQ0V2Zw?oc=5",
+              "image": "https://cdn.popcornnews.net/news/thumbnail/202610/137000_163239_548_v150.jpg",
+              "url": "https://www.popcornnews.net/news/articleView.html?idxno=137000"
+            },
+            {
+              "name": "메디컬투데이",
+              "title": "유한양행, 다이소에 더마 화장품 8종 출시…뷰티 유통망 넓힌다",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MQkxfTXVOZ2pNX2ZwR3JXZUZBSXBxUGlIWlVYenlwY1YzQXBrZml5RWVZbkZrbjFZY1lZVi1EczNTY3JIM3A4Q19rcFVQbEE4c09ST0pXcHJ2X0Uya3Zudk5NdmZXV0E1UHc5WQ?oc=5",
+              "image": "https://cdn.mdtoday.co.kr/news/photo/202610/620250_327662_511.jpg",
+              "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=620250"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "메이필드호텔, ‘2026 캐슬클럽’ 식음·웰니스 혜택 확대",
+          "summary": "메이필드호텔 서울은 ‘2026 캐슬클럽’을 선보이며 식음·웰니스 혜택을 확대했다.",
+          "source": "뷰티트래블뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVlHa2JnRndILU5VckNTQWYzTm5QQWNQSEZFSjN1d2UtdzViTl9wT0E2bVVUTmRjWUdqV0FBQ3ZjQlJLbWNmc1VFbzlrQUJrTXc1Smk3S3J4cW84UTdjVjJuWm5ob1E1Njg5ZE9obEZIN2l5NlE3NjIxeXdGZTdmakF3UWJqWlRHTHFn?oc=5",
+          "original_title": "메이필드호텔 서울, ‘2026 캐슬클럽’ 새롭게 선봬…식음·웰니스 혜택 확대",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뷰티트래블뉴스",
+              "title": "메이필드호텔 서울, ‘2026 캐슬클럽’ 새롭게 선봬…식음·웰니스 혜택 확대",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVlHa2JnRndILU5VckNTQWYzTm5QQWNQSEZFSjN1d2UtdzViTl9wT0E2bVVUTmRjWUdqV0FBQ3ZjQlJLbWNmc1VFbzlrQUJrTXc1Smk3S3J4cW84UTdjVjJuWm5ob1E1Njg5ZE9obEZIN2l5NlE3NjIxeXdGZTdmakF3UWJqWlRHTHFn?oc=5",
+              "url": "https://www.beautytravelnews.com/news/view.html?section=1&category=7&item=&no=12923"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "메이필드호텔 서울, ‘캐슬클럽' 새단장...식음·웰니스 혜택↑",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xMlNFdnVMOEtQQktFcjdUUnFNYmpXQzhNTVBwbmNMY3FGazZ6bTllSUE3MGZXa1E4bkxBeHpBQ3U0T1hWYXlBX0pzaHdseGZvczExWHo5WkYzbFhDajBoT0hWUC1sQQ?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202610/775618_1185854_2734_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=775618"
+            },
+            {
+              "name": "민주신문",
+              "title": "메이필드호텔 서울, 식음·웰니스 혜택 강화 '2026 캐슬클럽' 출시",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JcG5oNDhyeGpOZko3U2t4bGJva2FfR1NSRkZ3ZEpTS0lVRDU4Nzl2Qk12Z2NuVjg1c2xXbnBDMkpwZ0tpaHRIV18zQzVJMUxIVnI1Qkg5dEVTVUIwWWFHcGxDNV9RRDDSAWtBVV95cUxQT2xtOWlVSjJUTU9hLTRyNTNuMUs0WU5BZmxEVm83Rk8zQlQ5MjRJd3lhLTBvcDlmVkowb0VFSVVDek1PTlFaWGNwTkl0UjNzanNDU2FJbVlvdzN4QWdwT3h5ZEFRRmNZUnkxUQ?oc=5",
+              "image": "https://cdn.iminju.net/news/thumbnail/202610/171277_182721_4212_v150.jpg",
+              "url": "http://www.iminju.net/news/articleView.html?idxno=171277"
+            },
+            {
+              "name": "서울경제",
+              "title": "메이필드호텔, ‘식음·웰니스 혜택 강화’ 멤버십 개편",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fdXNhRUdzMVZEZ1lwbFpzMVliOXMxUGFxSlZwLUExc3ZBcU93MlRpYVdGdWViWElOWjhXOXRfd3djWlhmbVhVT1pLUGdLVVRKYlHSAVNBVV95cUxNbmplMlc0elNGSVM4Y3k2bEd6Y25zSzEzQjczQm94M3EtcDhyTllUOWprakFoaVZGOXpRaXBkbko0eUlmMWMwVkt2enA4QlZhcGxkbw?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/10/22/news-p.v1.20261022.ef916243f08e4d34a67050af75f85e6d_Z1.png",
+              "url": "https://www.sedaily.com/article/20104929"
+            },
+            {
+              "name": "전자신문",
+              "title": "메이필드호텔 서울, 멤버십 '캐슬클럽' 식음·웰니스 중심 개편",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ycUlfZ2RDcHFscWtPZEQ5bENoNHJUY0dWTnhQMWJCdXlHMl9QeXhZdnRUcTVJb19mazkxYlVEdGE2OTRkbEk3WVBwMUlqUQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/10/22/news-p.v1.20261022.6d1a4e5236514a8f8768835b5708e686_P1.jpg",
+              "url": "https://www.etnews.com/20261022000303"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "북한, 군사분계선 확성기 대기 예고",
+          "summary": "김여정이 군사분계선 일대에 새 대응 수단과 확성기 시설을 대기 상태로 만들겠다고 밝히며 언제든 가동할 준비를 한다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811195",
+          "original_title": "\"새 대응 수단·확성기 대기\"…안보리 의장에 서한 발송",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"새 대응 수단·확성기 대기\"…안보리 의장에 서한 발송",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811195",
+              "image": "https://img.sbs.co.kr/newimg/news/20261023/202234059_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "북 김여정 “새 대응 수단 임무 대기”…정부 “유엔 안보리 의장에 서한 발송”",
+              "link": "https://www.khan.co.kr/article/202610222213025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/22/l_2026102301000699700067601.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "김여정 “국경선 새 대응수단 임무 대기…확성기도 준비 태세”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sdzZDOXBMaXVpZTE1Sk9IQWpKclp5N2lueU5HQUwxSEF4RXhHYTZTcndkSzhvTGVlR3IxLVFKQnBFb3hFTTlTY0RIbks3dFpiUmF0c1ZyWlFRdmRVZTljU3VNSlBQeTV1VDNJaWdqSDItR1dD?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/750/500/imgdb/original/2026/1009/8417915125416467.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1283571.html"
+            }
+          ]
+        },
+        {
+          "headline": "정부, 북한 정전협정 위반 유엔 서한",
+          "summary": "정부가 북한이 정전협정 위반을 지적하며 유엔 안보리에 서한을 발송했고, 안보리 이사국 회람이 승인되었다.",
+          "source": "MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tSnZsUWFYVGdKeHhfRmt1WEpHNktSMU4zOTQxcTdTZ3o2Q3Z1US1kMjZmQVA0X3IwcWc4X2VDNC1BLV9scjFic3hvZlVJMDlhLXRENmRucVpkcU9DYUNiN3diSXJ5R08zNVlXYlVNcGhWNWdv0gF0QVVfeXFMT2JjclR1d2g1YkZTUVZpd3hzWW05NGR2QjlWNkM3eUM3UmpxMlp2dUhLX3p0d29yMVpoR3AxZl92Q205anNDandEcEc3cFJOV3hjTV9PTkhaN2Q3SUlRUzltM0E1VXVFMkVYdm1KU3Z4NjZSTUM?oc=5",
+          "original_title": "정부 '북한 정전협정 위반' 유엔 서한‥안보리 이사국 회람 승인",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "MBC 뉴스",
+              "title": "정부 '북한 정전협정 위반' 유엔 서한‥안보리 이사국 회람 승인",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tSnZsUWFYVGdKeHhfRmt1WEpHNktSMU4zOTQxcTdTZ3o2Q3Z1US1kMjZmQVA0X3IwcWc4X2VDNC1BLV9scjFic3hvZlVJMDlhLXRENmRucVpkcU9DYUNiN3diSXJ5R08zNVlXYlVNcGhWNWdv0gF0QVVfeXFMT2JjclR1d2g1YkZTUVZpd3hzWW05NGR2QjlWNkM3eUM3UmpxMlp2dUhLX3p0d29yMVpoR3AxZl92Q205anNDandEcEc3cFJOV3hjTV9PTkhaN2Q3SUlRUzltM0E1VXVFMkVYdm1KU3Z4NjZSTUM?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/10/23/yn20261022-15.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6860084_36925.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "티베트 규모 7.0 강진 16명 사망",
+          "summary": "중국 서부 티베트자치구에서 오후 10시 반에 규모 7.0의 강진이 발생해 최소 16명이 사망하고 300채 이상이 붕괴됐다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811275",
+          "original_title": "티베트 규모 7.0 강진 최소 16명 사망·300채 이상 붕괴",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "티베트 규모 7.0 강진 최소 16명 사망·300채 이상 붕괴",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811275",
+              "image": "https://img.sbs.co.kr/newimg/news/20261023/202234096_1280.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "中 티베트 나취 규모 7.0 강진, 16명 사망·46명 부상",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CZ0RGSlNRQXR4Qi1rZXpqbWpCclRyaVB0dXptMzZxN3M2NExyV1NnOTQyRmZOY0NxdUhWNWxpcWQ0cHdxR2VjZ1FGdy1LN2pBeER4b2tfX0pMQUJM?oc=5",
+              "image": "https://img.newspim.com/news/2026/10/23/2610230746195140_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261023000036"
+            },
+            {
+              "name": "동아일보",
+              "title": "中 티베트에 규모 7.0 강진…최소 16명 사망, 32명 부상",
+              "link": "https://www.donga.com/news/Inter/article/all/20261023/134894177/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/23/134894186.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "[속보]中 티베트 나취서 규모 7.0 강진…16명 사망·46명 부상",
+              "link": "https://www.newsis.com/view/NISX20261023_0003837750",
+              "image": "https://img1.newsis.com/2020/12/11/NISI20201211_0000654239_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "미·이스라엘, 중간선거 후 이란 공습 계획",
+          "summary": "미국과 이스라엘이 3일 간 이란을 집중 공격하기 위한 계획을 세웠다고 뉴욕타임스가 보도했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261022/134893338/2",
+          "original_title": "“美-이스라엘, 중간선거후 이란 사흘간 공습 계획”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "“美-이스라엘, 중간선거후 이란 사흘간 공습 계획”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261022/134893338/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/22/134891660.4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "\"미·이스라엘, 중간선거 후 이란 재공습 계획\"…이라크서 전투기 훈련",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0aG12RzJVOW5Mb19xWE9mSWtGZVhIeldFTHFCUjFJQUF2RTY2QlBETjdZYl9VZG1kQ0s5ZUdXVll0dmhIeDNOVmxoZzRMNlVCcmRiZzhpNDNvTGx2azc3VXJLSE5QdkE?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261022/AKR20261022135347P3k_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261022135347P3k"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "LG디스플레이, OLED 비중 높아도 영업익 42% 감소",
+          "summary": "OLED 비중이 역대 최고 수준이지만 LG디스플레이의 영업익은 42% 감소했다",
+          "source": "조선비즈",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUVUzVU1hSW1rQ1ZhOUNUMmktUDZoRnZxbHg3a1FUdUY1UXBaS1hyRUNlbDJETGprQ1ZkQW5NY19Nd1h3aHZ6NkwtbGZGLUF4MjAxLWFPZkpwSXlDRU9saWRLbWF6eXJac3Vna0F0aWt2RXpVQ1pWbEMxX3FDMHM1U0VB0gGWAUFVX3lxTE1tajlrUDFFOE1iVHJGSDZkanVXenM2bFk5b3VPaHF2R3pydUVtdTJCWEZGb1diTGtvcnUzb3FPNC1DSjlDeE9xN0c0TGVIYVNsOFUtVUxoenlBcVo1SjRwelBaUTdxY2tKczVBdVFkdXZsOXNBcUpsWWpuV1Jib190ZldfeU9PbjlncmwxM1JQQ0xhSWdUUQ?oc=5",
+          "original_title": "LG디스플레이, OLED 비중 역대 최고에도 영업익 42% 감소… 칩플레이션에 발목",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "조선비즈",
+              "title": "LG디스플레이, OLED 비중 역대 최고에도 영업익 42% 감소… 칩플레이션에 발목",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUVUzVU1hSW1rQ1ZhOUNUMmktUDZoRnZxbHg3a1FUdUY1UXBaS1hyRUNlbDJETGprQ1ZkQW5NY19Nd1h3aHZ6NkwtbGZGLUF4MjAxLWFPZkpwSXlDRU9saWRLbWF6eXJac3Vna0F0aWt2RXpVQ1pWbEMxX3FDMHM1U0VB0gGWAUFVX3lxTE1tajlrUDFFOE1iVHJGSDZkanVXenM2bFk5b3VPaHF2R3pydUVtdTJCWEZGb1diTGtvcnUzb3FPNC1DSjlDeE9xN0c0TGVIYVNsOFUtVUxoenlBcVo1SjRwelBaUTdxY2tKczVBdVFkdXZsOXNBcUpsWWpuV1Jib190ZldfeU9PbjlncmwxM1JQQ0xhSWdUUQ?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/HOWC35DZDRAI5JTS4VTOBFCSHI.png?auth=7545e6cdb88be613656dc8457bb742e43271f79dd97cd8a0b1cf262921a7fcb2&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/it-science/ict/2026/10/22/Y7XBH5LBBNBP3MU53WGBT3535I/"
+            },
+            {
+              "name": "미주중앙일보",
+              "title": "LG디스플레이, OLED 타고 흑자 전환…칩플레이션은 복병",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Ib1dRMnNNU3ZZa2VLUU85aF9QRFk1V2NkUHNsWnZsUGNHSlNMRzBxdzJzdE9DUnBwNVVvbUttVUJHNlZ2ajFYVGR6aHhmR2VGdTJMbXVYVlBaSmJrY2k4ZGpR?oc=5",
+              "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/10/22/bb95d263-71a1-42f9-9ed8-d0ca39f2b140.jpg",
+              "url": "https://www.koreadaily.com/article/20261022003937835"
+            },
+            {
+              "name": "소셜밸류",
+              "title": "LG디스플레이, OLED 덕에 한 분기 만에 흑자전환",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBtWkZ2Zkk4bVNGR0RtSlNTTHZ4TGRtNncwaHpnaGkta3R6WkwzVUpIVTJ2UXB0OU9yU180RlNHS29FbUxWdFlza25iSmVYTmtFa2FqM0NZUEFxNTVHQUFGMzMzUdIBbEFVX3lxTFBpQmt4RXhxRzZmRzYwZXVHR0kzcVZvSzh5MzV1VGpqVVNuNHE0MjY3ZnVQNmhjLTVRUmZNV1dBSk13anFTOUlNMEhEQmxpeG1RTzVyRnVId01QeEFrZDJGQS0zX2lKdjRZYUZ4aw?oc=5",
+              "image": "https://www.socialvalue.kr/news/data/20261022/p1065596378809950_701_thum.jpg",
+              "url": "https://www.socialvalue.kr/news/view/1065596378809950"
+            },
+            {
+              "name": "데일리바이트(DAILY BYTE)",
+              "title": "LG디스플레이, 3분기 흑자 전환에도 수익성 개선 제한적",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0RIY3FzeUFwWG5XX3ZpRmNWSTBFQi1JbTlPZmltTDE0V0NvTWh1OVN3OHRwREdqc2NhV2d4emFkWEdXcjU0TEhKNWFQOW1KWjllLVFKWmRmLThFb3QzYkpFWkE1YUs1d3FwdVVfV0VlajZ3cFZvb0h5V2JVZ2NfMVcxbzI3NTJPWEF6T1JCWlpoVm90VWc?oc=5",
+              "url": "https://www.mydailybyte.com/littlebit/news/ed2a5634-3ec3-42ce-8ccf-740dcd4317a4?iscd=034220"
+            },
+            {
+              "name": "아주경제",
+              "title": "[종합] LG디스플레이, OLED 성수기 타고 흑자전환…환율·칩플레이션에 반등폭 제한",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFZG1IU2dzWUI0bDR4RmhUTzhPaDNSWGZreXVhU3RXdUZWNVRiZU9BVlNiazVtV0JVMFl6RUc0d1lUUnNJT0M0NGRpNzBOTkZkbEQ3LWM0ZTPSAVhBVV95cUxQRWRtSFNnc1lCNGw0eEZoVE84T2gzUlhma3l1YVN0V3VGVjVUYmVPQVZTYms1bVdCVTBZekVHNHdZVFJzSU9DNDRkaTcwTk5GZGxENy1jNGUz?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/10/22/20261022135442261723.jpg",
+              "url": "https://www.ajunews.com/amp/20261022135037153"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "‘제9회 제주유스아트페스티벌’ 24일 개막",
+          "summary": "",
+          "source": "제주일보",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Zc09rZklpdG95ZnRhSS1lZTRnbHhGRmVxUzVPaElfWUhpd3NXaUl0RGlnLVJqZGx6NGRmazlweEVaeUc1TkJrNzAwbEp0Y0d0MjRRVldsMFcxanBYeV82QmhJczExMndjczg2eA?oc=5",
+          "original_title": "‘제9회 제주유스아트페스티벌’ 24일 개막",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "제주일보",
+              "title": "‘제9회 제주유스아트페스티벌’ 24일 개막",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Zc09rZklpdG95ZnRhSS1lZTRnbHhGRmVxUzVPaElfWUhpd3NXaUl0RGlnLVJqZGx6NGRmazlweEVaeUc1TkJrNzAwbEp0Y0d0MjRRVldsMFcxanBYeV82QmhJczExMndjczg2eA?oc=5",
+              "image": "https://www.jejunews.com/news/photo/202610/2228421_258698_5943.jpg",
+              "url": "https://www.jejunews.com/news/articleView.html?idxno=2228421"
+            },
+            {
+              "name": "제주매일",
+              "title": "학생 작품 800점 한자리에…제주유스아트페스티벌 24일 개막",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QeU8tRjU5Rk1KTmItYlZNdWJGNlZUQnAxM2V3OC1nUkNwQ3RmSUVWS2stLVFwZ0kyT0hSaVFKanp2NDJPb0RvTHJmZU9yeExnbUtCdWh0R2F4MDFFUDdsRmk4am9yZnhja01NRw?oc=5",
+              "image": "https://cdn.jejumaeil.net/news/photo/202610/405865_205943_5938.png",
+              "url": "https://www.jejumaeil.net/news/articleView.html?idxno=405865"
+            },
+            {
+              "name": "제주뉴스",
+              "title": "제주 학생 미술작품 800여 점 한자리에…24~25일 제주유스아트페스티벌 개최",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16eDVmc2lmVUM1R2k5a0l2elJfY2dSOXZxVlZNNHl2cWdMS2lDN1lqMkp2V25nRm9YY0NySVFxbGxpNzhjeGJZNk8zOGFYU1prMXhDRE1ieDYzTnpuazNfZzRlRF9xYVJHN19z0gFuQVVfeXFMT0Mta1FLNUtxRlRYNFFid2lIaVBVOGpIbGFSd0JBcHpyS0RtRXRCT0VSVVFRZkl5RXhKSkxHMm1PU2ROUmxLcGV0ZzEtVnJ6TVM0TjlPSVJSd2hwcWJaZHZFemh5REFXQjVUV3MtakE?oc=5",
+              "image": "https://cdn.jejunews.biz/news/thumbnail/202610/106576_79589_4510_v150.jpg",
+              "url": "https://www.jejunews.biz/news/articleView.html?idxno=106576"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "제9회 제주유스아트페스티벌 24일 개막…800여 작품 전시",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93RlRvLTJWdnlqSldkRThnN29WdWw5Q2hfZzNOemZSZVdpZm5MUHVuMHlKS01VWTV4bU5JVVllM3lZei1iLXdvRHFSRndsZ2RCWTNYZ3JTMlRwdXfSAWBBVV95cUxORTVuaWFZbXZGcXZlNHlFanktSTluMnRMYVZpdzd0Y2pmWFFoQktpM25kdHpkN0hrS0VuUTBNWlZtMnQ3dy1iVzVMWjZEWmlvOTZCSmhheFlLWVJzMklYQ24?oc=5",
+              "image": "https://img6.yna.co.kr/etc/inner/KR/2026/10/22/AKR20261022059900056_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261022059900056"
+            },
+            {
+              "name": "채널제주",
+              "title": "\"학생들 상상력이 예술로\"…‘제9회 제주유스아트페스티벌’ 24일 개막",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UTGxveWdnTGc5bjU0Vkk0Y2owOHB0RlhfRktFSUI5T2x5ZzhnWXRKaWcyMVdVME1zMzBZMnhrbE9EWi1rSElHSktNYUVUQmVPb1lZa096Vml5bkJMZVcxMzFFYk1JM0R1dWUwSjYyWQ?oc=5",
+              "image": "https://cdn.channeljeju.com/news/photo/202610/202923_204059_5656.png",
+              "url": "https://www.channeljeju.com/news/articleView.html?idxno=202923"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "신상훈, KPGA 제네시스 챔피언십 첫날 2위…김시우 공동 3위",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008810979",
+          "original_title": "신상훈, KPGA 제네시스 챔피언십 첫날 2위…김시우 공동 3위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "신상훈, KPGA 제네시스 챔피언십 첫날 2위…김시우 공동 3위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008810979",
+              "image": "https://img.sbs.co.kr/newimg/news/20261022/202233962_1280.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "PGA투어 명품 샷 선보인 김시우, 제네시스 챔피언십 공동 3위로 출발",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iQkpNQU9PajV3NHN5X3NzOEpMdU4zZ2FmSnV3blEzV2ozMXBwSHE5REVOMGctLUlXNkNkRkd0NjdxOXRwQXY2QmZ3WDB6clNuM2RuSHdUU285UWs?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/title_image/newsmp4/newsplaza_p1/2026/10/23/320_8693186.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8693186"
+            },
+            {
+              "name": "뉴시스",
+              "title": "김시우, KPGA 제네시스 챔피언십 1R 공동 3위…선두와 2타차(종합)",
+              "link": "https://www.newsis.com/view/NISX20261022_0003837598",
+              "image": "https://img1.newsis.com/2026/08/30/NISI20260830_0001534629_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "신상훈, KPGA 제네시스 챔피언십 첫날 2위…자비스 1타 차 선두(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261022182151007",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/10/22/AKR20261022182151007_01_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "[전국체전] 4관왕 여서정, MVP 수상…체조 선수 역대 3번째 영예(종합)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261022124351007",
+          "original_title": "[전국체전] 4관왕 여서정, MVP 수상…체조 선수 역대 3번째 영예(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[전국체전] 4관왕 여서정, MVP 수상…체조 선수 역대 3번째 영예(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261022124351007",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092409670001300_P4.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "‘4관왕’ 여서정 전국체전 MVP… 기계체조 역대 3번째 영예",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZmNUeDlWRnJRYlI1dVpzb0YxaTBURjRjSUdBMWtYeHVpRENxOUFJcUNQVHVta2E0QjhzNTJHWnFERElPb2VvX2xNaEFxX2dyd1Q3Q3pWNUhTdlQzaXdYT2lBNXhyZjhRdFBIZTVrN3FUXy1sU1g1NW1SM0xQY0QxYm9IQXdpaXBrU1Yw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/MVQTSNBWGZSTGMRSGQZDCNRZGE.jpg?auth=4c05c7d3eec816f1d7df8d4be6e3e54c545abfff246461b8c70bd637437f2417&width=1200&height=630&focal=630,253",
+              "url": "https://www.chosun.com/sports/sports_general/2026/10/22/PSEZDY27YJHDLGWFZAEZTLFHSU/"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "4관왕 여서정, 전국체전 MVP 수상…체조 선수 역대 3번째 영예",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008810303",
+              "image": "https://img.sbs.co.kr/newimg/news/20261022/202233851_1280.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "후리스는 가을 주말 외출룩에도 잘 어울립니다",
+    "tagline": "ELLE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 19,
+      "t_min": 7,
+      "rain_pct": 3,
+      "sky": "흐림",
+      "display": "서울 7~19°C · 흐림 · 강수 3%"
+    },
+    "articles": [
+      {
+        "title": "후리스는 가을 주말 외출룩에도 잘 어울립니다",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1911816",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/10/22/cbd25d86-3fb5-46d8-9c61-47bdc15efce2.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "일찍 자고 일찍 일어나면 건강하고 부유하고 현명해진다.",
+    "author": "벤저민 프랭클린",
+    "work": "가난한 리처드의 달력"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "아이디어가 번쩍 떠올라."
+      },
+      {
+        "animal": "소",
+        "text": "새로운 모험이 기다린다."
+      },
+      {
+        "animal": "호랑이",
+        "text": "힘이 넘쳐 흐르다."
+      },
+      {
+        "animal": "토끼",
+        "text": "부드러운 움직임이 빛난다."
+      },
+      {
+        "animal": "용",
+        "text": "불꽃처럼 열정이 터진다."
+      },
+      {
+        "animal": "뱀",
+        "text": "유연한 생각이 길어져."
+      },
+      {
+        "animal": "말",
+        "text": "빠른 발걸음이 앞서간다."
+      },
+      {
+        "animal": "양",
+        "text": "평온이 흐르는 하루."
+      },
+      {
+        "animal": "원숭이",
+        "text": "유쾌한 웃음이 넘친다."
+      },
+      {
+        "animal": "닭",
+        "text": "새벽을 깨우는 열정이 있다."
+      },
+      {
+        "animal": "개",
+        "text": "충실한 마음이 빛난다."
+      },
+      {
+        "animal": "돼지",
+        "text": "풍성한 기분이 가득하다."
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
