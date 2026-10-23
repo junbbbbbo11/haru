@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-24",
+  "weekday": "토요일",
+  "vol": 12,
+  "generated_at": "2026-10-24T07:59:12+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5533.77,
+      "change": -201.89,
+      "change_pct": -3.52,
+      "direction": "down",
+      "display": "5,533.77",
+      "change_display": "▼ 3.52%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1323.7,
+      "change": -1.9,
+      "change_pct": -0.15,
+      "direction": "down",
+      "display": "1,323.7원",
+      "change_display": "▼ 0.15%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 108500000.0,
+      "change": -403000.0,
+      "change_pct": -0.37,
+      "direction": "down",
+      "display": "10,850만원",
+      "change_display": "▼ 0.37%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 18,
+    "t_min": 13,
+    "rain_pct": 22,
+    "sky": "흐림",
+    "display": "서울 13~18°C · 흐림 · 강수 22%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "태풍",
+      "headline": "태풍 참피 남부·제주에 강한 비",
+      "summary": "태풍 참피의 영향으로 남부와 제주에 강한 비가 내리며 낮 기온은 21도 안팎이다.",
+      "source": "한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtR2NLWGZTeFpob2FDa0ktblBpQW1qdEdSbTVPbkIxcWYwVFRNTW5TRGw1TWpRTlppQlBEU0lxMlhBV29mZHNVWm5qVjVucTlvVHZPbTRNVVpoZw?oc=5",
+      "original_title": "태풍 '참피' 영향 남부·제주 비…낮 기온 21도 안팎 [날씨]",
+      "sources": [
+        {
+          "name": "한국경제",
+          "title": "태풍 '참피' 영향 남부·제주 비…낮 기온 21도 안팎 [날씨]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtR2NLWGZTeFpob2FDa0ktblBpQW1qdEdSbTVPbkIxcWYwVFRNTW5TRGw1TWpRTlppQlBEU0lxMlhBV29mZHNVWm5qVjVucTlvVHZPbTRNVVpoZw?oc=5",
+          "image": "https://img.hankyung.com/photo/202610/ZN.46149064.1.jpg",
+          "url": "https://www.hankyung.com/article/2026102421407"
+        }
+      ]
+    },
+    {
+      "kicker": "스마트폰",
+      "headline": "LG유플러스 보상 절차 간소화 '폰교체패스' 수상",
+      "summary": "LG유플러스가 보상 절차를 간소화한 '폰교체패스'가 고객경험 혁신상에 선정되었다.",
+      "source": "백세시대",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1USXkzdk44SFY2Y1llUkJ3QXIzRGMxMUJvbV9pN1FpaU5kT18xcFNERUJkMnFGQ0FQR1hjWmtDQnNnSi0tXy11N2tnZURFT3BYQ3hOQTBjUkI2NWR5a2hOZ2RZVjZqbnk4UkJN?oc=5",
+      "original_title": "LG유플러스, 스마트폰 보상 절차 간소화 ‘폰교체패스’ 고객경험 혁신상 수상",
+      "sources": [
+        {
+          "name": "백세시대",
+          "title": "LG유플러스, 스마트폰 보상 절차 간소화 ‘폰교체패스’ 고객경험 혁신상 수상",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1USXkzdk44SFY2Y1llUkJ3QXIzRGMxMUJvbV9pN1FpaU5kT18xcFNERUJkMnFGQ0FQR1hjWmtDQnNnSi0tXy11N2tnZURFT3BYQ3hOQTBjUkI2NWR5a2hOZ2RZVjZqbnk4UkJN?oc=5",
+          "image": "https://cdn.100ssd.co.kr/news/photo/202610/213767_216926_437.jpg",
+          "url": "https://www.100ssd.co.kr/news/articleView.html?idxno=213767"
+        }
+      ]
+    },
+    {
+      "kicker": "건설",
+      "headline": "현대건설 동유럽 원전·인프라 진출 본격화",
+      "summary": "현대건설이 동유럽에서 원전·인프라 사업 진출을 본격화했다.",
+      "source": "매일경제 마켓",
+      "link": "https://stock.mk.co.kr/news/view/231110",
+      "original_title": "현대건설, 동유럽 원전·인프라진출 본격화…폴란드를 거점으로",
+      "sources": [
+        {
+          "name": "매일경제 마켓",
+          "title": "현대건설, 동유럽 원전·인프라진출 본격화…폴란드를 거점으로",
+          "link": "https://stock.mk.co.kr/news/view/231110",
+          "image": "https://stock.mk.co.kr/photos/20230914/AKR20230914041900003_01_i_P4.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "SK하이닉스 솔리다임 상장 중단",
+          "summary": "SK하이닉스는 미국 손자회사 솔리다임의 상장 검토를 중단했다. 자본시장 여건과 주가 흐름을 재검토 중이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261023/134899954/2",
+          "original_title": "SK하이닉스, 손자회사 솔리다임 美 상장 접어",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "SK하이닉스, 손자회사 솔리다임 美 상장 접어",
+              "link": "https://www.donga.com/news/Economy/article/all/20261023/134899954/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/23/134900035.1.jpg"
+            },
+            {
+              "name": "한국경제",
+              "title": "솔리다임 상장 접자 '환호'…SK하이닉스, 하루 만에 '급반등' [종목+]",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80allNd3lpWC1pb1ZtVFY3czJNb2RlQklyMVJNZThmTFJNT3hFOFgtTDRLNHlpZDN2SlI4QXRIUFhJa25pcTJQMm1nVzJheER2T3pyd3NRVVFRUQ?oc=5",
+              "image": "https://img.hankyung.com/photo/202610/01.46167851.1.jpg",
+              "url": "https://www.hankyung.com/article/2026102314896"
+            }
+          ]
+        },
+        {
+          "headline": "아마존 PHP 취약점 공격 흔적 발견",
+          "summary": "아마존은 PHP 보안 취약점이 발견된 이후 공격 흔적이 나흘 전부터 있었다고 밝혔다. 한국인터넷진흥원은 국내 공공기관 PHP 사용 현황을 조사 중이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261023/134899726/2",
+          "original_title": "아마존 “PHP 취약점 공개 나흘전부터 공격 흔적”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "아마존 “PHP 취약점 공개 나흘전부터 공격 흔적”",
+              "link": "https://www.donga.com/news/Economy/article/all/20261023/134899726/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900119.1.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "아마존 보안책임자 \"PHP 취약점 발견 나흘 전부터 해킹 시도 흔적 나와\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4WE5HZXE3c1diVnRNT0JGUGlSXzN6amNaeWxRLW9zdmNkcDY5ZnFScDhvSXFIR3VuUVdsUndoWjRaaXdkZU92S2I4aV9laTEyeEhTeHJ5OWV6X2l5Tzk5bnlHdG5uU3FyU0ZlbjFLUEh4S0400gF0QVVfeXFMUHZnUVpTekdFS21BcHlIMDQzOXVacl9aNVQzaWlrVWg0ZHhNUUduYUVWa2o3SjR1UlJia2R0enZIckxPMWJBVzRiZFJ5WFVTWGdEMFBPcDJibWpfSFhVa0Z6Y3AzSjFZd3MzMWVPU2szdDJiQ0E?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/10/23/lyj_261023_12.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6860166_36925.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "LF, 씨티닷츠 던스트, 글로벌 앰버서더 ‘설윤’ 발탁…글로벌 인지도↑",
+          "summary": "",
+          "source": "시사캐스트",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wYmtibGdRYnlIa2pONktlV29ERVZiRjBHdWdMWU9HMHMwODNyR1ljZDB1MkNkSnVyQ3pJdjBzTS1tZ25Id21jWjV0SUZHZFZjM2ctQUlidldnRUdlNFJCTldnNEhfV2VJ?oc=5",
+          "original_title": "LF, 씨티닷츠 던스트, 글로벌 앰버서더 ‘설윤’ 발탁…글로벌 인지도↑",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "시사캐스트",
+              "title": "LF, 씨티닷츠 던스트, 글로벌 앰버서더 ‘설윤’ 발탁…글로벌 인지도↑",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wYmtibGdRYnlIa2pONktlV29ERVZiRjBHdWdMWU9HMHMwODNyR1ljZDB1MkNkSnVyQ3pJdjBzTS1tZ25Id21jWjV0SUZHZFZjM2ctQUlidldnRUdlNFJCTldnNEhfV2VJ?oc=5",
+              "url": "http://www.sisacast.kr/news/articleView.html?idxno=101273"
+            },
+            {
+              "name": "로이슈",
+              "title": "LF 던스트, 엔믹스 설윤 글로벌 앰버서더 발탁… 해외 사업 확장과 연계",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fcTRhRy1kdFZOemtXUk5IckxVWmRWSDhTRmNyYl9WanhuRHVyUzJFYlliclp0YVowWTZaWTBCeU9iVFdLWW1vTm9LTEZBRnVvQ2F0R25YVlhWZU5MVzduU290UVhMYUU1MnBpYW43ZjBXRER5T29yQmNn?oc=5",
+              "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261023103231074820204ead079118023320059.jpg&nmt=12",
+              "url": "https://www.lawissue.co.kr/view.php?ud=202610231032078547204ead0791_12"
+            },
+            {
+              "name": "뉴시스",
+              "title": "던스트, 엔믹스 설윤 글로벌 앰배서더 발탁",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yMThiSldGdVRmamVVQTVTMElZb0VnSm5Cc2M1d1k1S21NcnVpd1BHcU5CLU05c0xXd3ZBTUk0QTRRdkQ1UGZncnIwOHp1WXJVdG4wZlZrZHdYcWZWMHpmNkJWYmVING1CN2Q0cnZuRUZBaHlGTWZ6Q9IBeEFVX3lxTE8yMThiSldGdVRmamVVQTVTMElZb0VnSm5Cc2M1d1k1S21NcnVpd1BHcU5CLU05c0xXd3ZBTUk0QTRRdkQ1UGZncnIwOHp1WXJVdG4wZlZrZHdYcWZWMHpmNkJWYmVING1CN2Q0cnZuRUZBaHlGTWZ6Qw?oc=5",
+              "image": "https://img1.newsis.com/2026/10/23/NISI20261023_0002271838_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261023_0003838168"
+            },
+            {
+              "name": "패션엔",
+              "title": "던스트, 글로벌 앰버서더에 엔믹스 설윤 발탁! 설윤과 감성 시너지로 글로벌 접점 확대",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GN25YbndXX192V3ZyYWpEakJvZERNaWhyNTZtVXRTNWtxUnd1cnJwVFJCYlZoWkZLcTNhYmZ3R3BHaXBBM3FTckhweUJSSThKZFRJczVnVWJRY0tlamxyMHJXc1l2ejRXT0N3UUFORllKbjJaUW1z?oc=5",
+              "image": "https://www.fashionn.com/files/board/2026/image/o_1k5j4j5o79p0spha521vu6n45b.jpg",
+              "url": "https://m.fashionn.com/board/read.php?table=fashionnews&number=62905"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "LF 던스트, 엔믹스 설윤 글로벌 앰배서더로 발탁",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZOWhYVW1WWktTdG45eU9IYkNqREdDQzJTRVY3OElIdHdab3ZYQUtSZmI1YW8zcUY3UXBGQm9BSWV4TnNHM3hMNTFIaElaWGNQdEcxQ0NCeG5qdW1WRHVDSNIBYEFVX3lxTE1ZOWhYVW1WWktTdG45eU9IYkNqREdDQzJTRVY3OElIdHdab3ZYQUtSZmI1YW8zcUY3UXBGQm9BSWV4TnNHM3hMNTFIaElaWGNQdEcxQ0NCeG5qdW1WRHVDSA?oc=5",
+              "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023056000030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/amp/view/AKR20261023056000030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "K-뷰티의 미래와 즐거움이 한자리에! 오송화장품뷰티엑스포, 축제 열기로 가득:경찰연합신문",
+          "summary": "",
+          "source": "경찰연합신문",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yZTJOYzExLUVUbHJmMFdaOVVuRW1RVmk1TlZHM0dCMkk3SlA0YXFyYzlLdTc3SUVaZEZ3YVdZOWd0d3hjZklxOVVJSW04YWxRZFBuMnBNNE5fRTdma19tX0pCd0ZLYVR1Xy1zZtIBbEFVX3lxTE9yZTJOYzExLUVUbHJmMFdaOVVuRW1RVmk1TlZHM0dCMkk3SlA0YXFyYzlLdTc3SUVaZEZ3YVdZOWd0d3hjZklxOVVJSW04YWxRZFBuMnBNNE5fRTdma19tX0pCd0ZLYVR1Xy1zZg?oc=5",
+          "original_title": "K-뷰티의 미래와 즐거움이 한자리에! 오송화장품뷰티엑스포, 축제 열기로 가득:경찰연합신문",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "경찰연합신문",
+              "title": "K-뷰티의 미래와 즐거움이 한자리에! 오송화장품뷰티엑스포, 축제 열기로 가득:경찰연합신문",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yZTJOYzExLUVUbHJmMFdaOVVuRW1RVmk1TlZHM0dCMkk3SlA0YXFyYzlLdTc3SUVaZEZ3YVdZOWd0d3hjZklxOVVJSW04YWxRZFBuMnBNNE5fRTdma19tX0pCd0ZLYVR1Xy1zZtIBbEFVX3lxTE9yZTJOYzExLUVUbHJmMFdaOVVuRW1RVmk1TlZHM0dCMkk3SlA0YXFyYzlLdTc3SUVaZEZ3YVdZOWd0d3hjZklxOVVJSW04YWxRZFBuMnBNNE5fRTdma19tX0pCd0ZLYVR1Xy1zZg?oc=5",
+              "url": "http://www.koreapolicenews.com/sub_read_amp.html?uid=2234152"
+            },
+            {
+              "name": "웹이코노미",
+              "title": "K-뷰티의 미래와 즐거움이 한자리에! 오송화장품뷰티엑스포, 축제 열기로 가득",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FZzh2Q1hHd1M4OFdxeGxWVExscEoxdmtrdnNlMWxsSGo3aTMzTjJ4UkRmSzdoTHJBMFBJS0t6RHJlZl91YjV1blh6bGgwTnBWdWNiT3E4NDlJcU05eGRmSnJaM2VhMUlwUzc1bGpndlU3QQ?oc=5",
+              "image": "https://cdn.webeconomy.co.kr/news/photo/202610/2346605_1156760_931.jpg",
+              "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2346605"
+            },
+            {
+              "name": "경기인터넷신문",
+              "title": "K-뷰티의 미래와 즐거움이 한자리에! 오송화장품뷰티엑스포, 축제 열기로 가득",
+              "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4wdHR3cTNvUDRyMy11cUpzRV9ReThjVnRPR0lpQkxKZ18tSVpNRmItakJHUENtSW9kbWE4WlpOR2M5c1N1SXBZ?oc=5",
+              "url": "http://www.gginews.co.kr/2630796"
+            },
+            {
+              "name": "'태희' - TAEHEE",
+              "title": "내일 오송화장품뷰티엑스포에 가볼까요",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84MFF1NVlvYTBFdzR2ZHM2YUJDRlZGZjlUYzBYa1RNNXNfbWJsSDZ0cnhNdTBqOUpnZGkzSmsybXhCeUpBazZKc3BBckF4QTZMUkstS2Q3QUdrS0FUai0xN051M1JXTEZMSmROcg?oc=5",
+              "image": "https://www.taehee.co.kr/upload/cont/2026-10/6adb170dc3e43.png",
+              "url": "https://www.taehee.co.kr/contents/news/view.php?key_seq=9561"
+            },
+            {
+              "name": "청주일보",
+              "title": "2026 오송화장품뷰티엑스포 개막… K-뷰티 세계시장 공략",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mQlhRMEdfN2t1azg4Z3lrQmYyS2JTQmRRNjhQTlZXUmN0U2FwLVFyN2h5UzdQUS1XZTNlSWVnM2FWWEVCcnJPWno1Y0o3OWJSX3hnTTVfUUF1cWJxcUhiYmcyZGU3WUZ4STBz?oc=5",
+              "image": "https://www.cj-ilbo.com/news/thumbnail/202610/1185472_1104302_5032_v150.jpg",
+              "url": "https://www.cj-ilbo.com/news/articleView.html?idxno=1185472"
+            }
+          ]
+        },
+        {
+          "headline": "파마리서치 리쥬란코스메틱, 美 코스트코 첫 ‘뷰티 테이블’ 참여",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100237",
+          "original_title": "파마리서치 리쥬란코스메틱, 美 코스트코 첫 ‘뷰티 테이블’ 참여",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "파마리서치 리쥬란코스메틱, 美 코스트코 첫 ‘뷰티 테이블’ 참여",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100237",
+              "image": "https://www.jangup.com/news/thumbnail/202610/100237_72137_3420_v150.jpg"
+            },
+            {
+              "name": "조선비즈",
+              "title": "파마리서치 리쥬란코스메틱, 美 코스트코 25개 매장 입점",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVg5bVZVQ2tIM3hDdHFmZHFwWGxMYW5pbEVKdFQ4dVZnVUdIbHBKcV96TTFjNUpYR0F2enMyMW5pSjUteXFPd00zU2xBc2lPNWE3RE03Sks3YWJKWFRSekYwajlyLWJWb0NLSFl1d1pvR25yVGZneW9JR0ppRkZHdTM5dlMxcmJOdkJ5TGRHMmlZZDBqTmxDOFlMSdIBmwFBVV95cUxOUVg5bVZVQ2tIM3hDdHFmZHFwWGxMYW5pbEVKdFQ4dVZnVUdIbHBKcV96TTFjNUpYR0F2enMyMW5pSjUteXFPd00zU2xBc2lPNWE3RE03Sks3YWJKWFRSekYwajlyLWJWb0NLSFl1d1pvR25yVGZneW9JR0ppRkZHdTM5dlMxcmJOdkJ5TGRHMmlZZDBqTmxDOFlMSQ?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/WUYNH3QO6FHOXCNUN7Y6WQR7SM.png?auth=50a57d94f58ad59692afa3c99ff5fc48c56dca50312b7652b3de7794ca75e82d&width=728&height=382&smart=true",
+              "url": "https://biz.chosun.com/science-chosun/bio/2026/10/23/SCJV6PL4MFBIPKZLU5LKOW6QFE/?outputType=amp"
+            },
+            {
+              "name": "Traders Union",
+              "title": "파마리서치, 미국 코스트코 뷰티 테이블 참여로 화장품 오프라인 유통 확대",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVBpOWNydWVOTkVFZkV2dFJxTFNlNG9VbFBoQTlFY191ZlVtM0xwQVY2MkVXWHBPZ3l2ME9OYjBLRVFlRFZKV3IwS25WNFpLTXN4NDlSeTM4ekhCMldHc3ZxclZQeDBVZlc2MVJlTGNZMDVPTlJRaFNUSkdyeGFnYnV3T3NrajZqZzBBQmxzd0hzeVVpTVlEQnUxSWNhelRHRkNucy13?oc=5",
+              "url": "https://tradersunion.com/ko/news/companies/show/3936493-pharmaresearch-costco-beauty-offline-expansion/"
+            },
+            {
+              "name": "서울경제",
+              "title": "파마리서치, 美 코스트코 ‘뷰티 테이블’ 참여…화장품 오프라인 유통 확대",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JQW1qakk2YmdzS0E2MFZURG1XLUF0c1M0OHhoRWk3bTVxOXpFT1lJVFJ1RzZoRVhVcmZNX2Z2ZUV6UW1HM2JMWkpWWG01WHNEYlHSAVNBVV95cUxNVjR0ZmJsTWVRZ2ZYLXpCOTdOMHJmNXpjRGVKS3JZWmlJNFVCR1I2ZDdXNmY3SkRYbTh1dXlSdHMyLU0yODdNaHR5dTFIREdscWNyNA?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/10/23/news-p.v1.20261023.f4d378cdee434f869135a27e3a0b94f6_Z1.jpg",
+              "url": "https://www.sedaily.com/article/20105167"
+            },
+            {
+              "name": "PRESS9",
+              "title": "파마리서치 리쥬란코스메틱, 美 코스트코 첫 '뷰티 테이블' 참여",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5VVJLckJtckU1b0Y0aW56U0VqQTlLWlRndFZEem0wMEJ2eTVxQXRtUWRwdFlwa0FINlFNWjRHMnItX1YwZ1ZjZTlHSHh0NUhYbXJaVFJvUkF0RTNkelZWMGxmdnI?oc=5",
+              "image": "https://www.press9.kr/news/thumbnail/202610/84768_96877_231_v150.jpg",
+              "url": "http://www.press9.kr/news/articleView.html?idxno=84768"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "배민·외식업중앙회, K-장 웰니스 대회",
+          "summary": "배달의민족과 한국외식업중앙회가 K-장 웰니스 요리대회를 개최해 1등은 명품김밥을 수상했다.",
+          "source": "이뉴스투데이",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94ZVI1eklKcnVaLXlseGZkX0VkajJGNWhOVnBIS2praW1wS0Y5d0pJOGVaRUpqTlhqTENiR29CVDZiYVo4aXA5NXZxTTk1TjFTcXlSbk95bm9aV3N0QW52ekZGa21ZWHBfX0twSDZ6bUl4dmdy0gF0QVVfeXFMT3hlUjV6SUpydVoteWx4ZmRfRWRqMkY1aE5WcEhLamtpbXBLRjl3Skk4ZVpFSmpOWGpMQ2JHb0JUNmJhWjhpcDk1dnFNOTVOMVNxeVJuT3lub1pXc3RBbnZ6RkZrbVlYcF9fS3BINnptSXh2Z3I?oc=5",
+          "original_title": "배민, ﻿‘K-장 웰니스 요리대회’ 개최···수상 레시피 무료 제공",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "이뉴스투데이",
+              "title": "배민, ﻿‘K-장 웰니스 요리대회’ 개최···수상 레시피 무료 제공",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94ZVI1eklKcnVaLXlseGZkX0VkajJGNWhOVnBIS2praW1wS0Y5d0pJOGVaRUpqTlhqTENiR29CVDZiYVo4aXA5NXZxTTk1TjFTcXlSbk95bm9aV3N0QW52ekZGa21ZWHBfX0twSDZ6bUl4dmdy0gF0QVVfeXFMT3hlUjV6SUpydVoteWx4ZmRfRWRqMkY1aE5WcEhLamtpbXBLRjl3Skk4ZVpFSmpOWGpMQ2JHb0JUNmJhWjhpcDk1dnFNOTVOMVNxeVJuT3lub1pXc3RBbnZ6RkZrbVlYcF9fS3BINnptSXh2Z3I?oc=5",
+              "url": "http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno=2484019"
+            },
+            {
+              "name": "뉴스웍스",
+              "title": "배민-외식업중앙회, 'K-장 웰니스 요리대회' 개최…1등 명품김밥",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aYlZkdFZYdmlVYTBqTkVoeTZVSGE4NHpmV1JLeVRPYzZ1WndJQVEzRWJTcC1DdUtibE9HTFNad2ZYM05ybUUyQ3NNM2N0Ukl2VkthTmN5b1FVQWFzVjhOeTB6VG1DOTFVaWFJNm5ZONIBc0FVX3lxTE1aWDJjTTFJa0pTRUU1ZEZnbmpTeGVqQUdiczEzNjZuSW0zcGppeF81aGw2d05UelV2WXR4WHM2LW0ySExxbWlLYk1iS2tNVWpqN1BnVW8teHNPcjBuY2RWTThGT0x2Nkl5WFNGVTVHQjU4RGM?oc=5",
+              "image": "https://cdn.newsworks.co.kr/news/photo/202610/900625_900854_019.jpg",
+              "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=900625"
+            },
+            {
+              "name": "파이낸셜투데이",
+              "title": "배달의민족, 한국외식업중앙회와 ‘K-장 웰니스 요리대회’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02bmxfUEg1MnBkOTI4aC1VYVlFaG5oamk2RWMzdkdZMnh6SHppS0FNaXE0dEVsV2pfMTZBN18xUlhZNDNNRmNTOVBrV2Y3VVdVM3NMQzZ3WWRxZERaN0V4TjFoODhsYVdzZm5R0gFuQVVfeXFMTi01cHBVX08xWUFtT05reGRnWWk1cE9SZXhRczdHbnllSEFQTXdEakNRQjFWUWx3V0RDclNCQS1zaHZNQm9RSXFKT2JhcUY4WWRHeXd0MjdubzVRcmkxeWl4ZnZEcU81LVQyTVRiQlE?oc=5",
+              "image": "https://cdn.ftoday.co.kr/news/thumbnail/202610/367997_377917_1437_v150.jpg",
+              "url": "https://www.ftoday.co.kr/news/articleView.html?idxno=367997"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "[경영전략] 배민X한외중, 'K-장 웰니스 요리대회' 성황리 개최",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRYkNndHBJaEhqRVpZYnhTY3lRa0hDMHBIcUhGbmNBSEJ5WlJCcFM3cm9IR1prMG13QlpUUXh1VkpPb0w2VllLb3JtX3R3TzIxM1JHSUpkMHRYU3JUYUFrVlpra3lxTVlWdHVjZ2FhR3llV1Q1?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/thumbnail/202610/282298_373488_68_v150.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=282298"
+            },
+            {
+              "name": "나눔경제뉴스",
+              "title": "배민·한국외식업중앙회, ‘K-장 웰니스 요리대회’ 개최…대추고추장떡볶이 대상",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95eFZoc3ZzSnM0OWU0eFRrQTM4d2xlVE9UdGxVcmlhbWNxWVZuMDFWakItalBjRWc2bWFTLWxUSmhUYVdITGtoSEhzZzRxU2JYQXhqQ2Z6alFBYlA3NWxzb2gweTE0V3RPeEpLZw?oc=5",
+              "image": "https://cdn.nanumy.co.kr/news/photo/202610/4010948_65669_441.jpg",
+              "url": "https://www.nanumy.co.kr/news/articleView.html?idxno=4010948"
+            }
+          ]
+        },
+        {
+          "headline": "AI 설계 바이러스, 첫 인체 투여",
+          "summary": "인공지능으로 설계한 바이러스가 첫 인체 투여를 거쳐 연구 단계에 진입했다.",
+          "source": "디일렉",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1adVZzWlNCbFhnU0YybG1xR1hpREc4RDlSeEN0OGRCLThIN19qYktuUjdha0ZZVkFEWERfU1RfYV9mZUxzU244OTJ4QjhZOG8tb3V0Ym1GQlprdE43UWhLYkdxbUtVZw?oc=5",
+          "original_title": "AI가 설계한 바이러스의 첫 인체 투여",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "디일렉",
+              "title": "AI가 설계한 바이러스의 첫 인체 투여",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1adVZzWlNCbFhnU0YybG1xR1hpREc4RDlSeEN0OGRCLThIN19qYktuUjdha0ZZVkFEWERfU1RfYV9mZUxzU244OTJ4QjhZOG8tb3V0Ym1GQlprdE43UWhLYkdxbUtVZw?oc=5",
+              "image": "https://cdn.thelec.kr/news/photo/202610/64206_50508_5620.jpg",
+              "url": "https://www.thelec.kr/news/articleView.html?idxno=64206"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "최길수 특별감찰관 재임명",
+          "summary": "이재명 대통령은 23일 청와대 특별감찰관 후보자 최길수를 임명하였고, 10년 만에 공백이 해소되었다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261023/134899696/2",
+          "original_title": "최길수 특별감찰관 임명… 10년만에 재가동",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "최길수 특별감찰관 임명… 10년만에 재가동",
+              "link": "https://www.donga.com/news/Politics/article/all/20261023/134899696/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/23/134896128.1.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 최길수 특별감찰관 임명안 재가…'10년 공백' 마침표",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008811976",
+              "image": "https://img.sbs.co.kr/newimg/news/20261023/202234216_1280.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "李, 최길수 특별감찰관 임명 재가... 권력 감시 10년 공백 해소",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ3ZoZHloSFcweHZlVmQybGpPLXhrbnZheWRoOHByQS1Zb3RDM3UyLUh2UjJFX1I1M016aHZFd0xHVlB2MnJHTENnZUV4cF9WRms3WEp0V3lyZ0VBR2lQQ25ydHFDWVY1TldaN19FbTFhWW5OQzg5UWpfSGhjcEdLSk5nOVBCRkpT?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/XSG4J3UNUJAWNBH65BEMHAU3PE.jpg?auth=d2a63fe1db2b50760a95cb6666b991b65355cb0a5c41a169cbba549943862641&width=1200&height=630&focal=1991,560",
+              "url": "https://www.chosun.com/politics/blue_house/2026/10/23/VATIRLPTFVAFJHAD4Z7GK4JCSU/"
+            }
+          ]
+        },
+        {
+          "headline": "독일 총리 방한, 정상회담",
+          "summary": "프리드리히 메르츠 독일 총리는 23일 청와대에서 이재명 대통령과 29일 정상회담을 진행하였다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261023182100001",
+          "original_title": "메르츠 독일 총리 29일 방한…李대통령과 韓獨 정상회담",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "메르츠 독일 총리 29일 방한…李대통령과 韓獨 정상회담",
+              "link": "https://www.yna.co.kr/view/AKR20261023182100001",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/06/17/PYH2026061700010001300_P4.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "이 대통령, 메르츠 독일 총리와 29일 정상회담…“반도체·AI·방산협력”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMZk4weUFiSFNKNlNJN0RDQ3FKaEtPODlIMzZRM0J4bnRmSW1BeGVQbDY5Wks0MU9pRGNqU0JxbFNTbWF3VUxmTjNqcF9DcXlsRmEtMWNEeXVoRHM?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/10/23/20261023_qvjTwC.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8693933"
+            },
+            {
+              "name": "경향신문",
+              "title": "메르츠 독일 총리 29~30일 첫 방한···이 대통령과 정상회담",
+              "link": "https://www.khan.co.kr/article/202610232056001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/23/rcv.YNA.20260617.PYH2026061700020001300_P1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프 행정부, 캐나다 관세 50% 일부 철폐 검토",
+          "summary": "트럼프 행정부가 11월 중간선거를 앞두고 캐나다산 제품에 부과한 50% 관세를 일부 철폐할 방침을 밝혔다. 이는 지역 파티 후보 지원 유도 조치로 판단된다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261024/134900220/1",
+          "original_title": "11월 선거 앞두고…“트럼프, 캐나다 관세 일부 철폐 추진”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "11월 선거 앞두고…“트럼프, 캐나다 관세 일부 철폐 추진”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261024/134900220/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900221.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "11월 선거 앞두고…\"트럼프, 캐나다 관세 일부 철폐 추진\"",
+              "link": "https://www.newsis.com/view/NISX20261024_0003839360",
+              "image": "https://img1.newsis.com/2026/10/15/NISI20261015_0001665679_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프, 캐나다 관세 일부 철회…접전지 지원",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008812810",
+              "image": "https://img.sbs.co.kr/newimg/news/20260917/202223092_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "선거 다급한 트럼프, 캐나다 관세 일부 철회…접전지 지원(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261024003651072",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024003651072_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "신세계百 강남점, 아이폰 듀오 백화점 단독 팝업",
+          "summary": "",
+          "source": "뉴스톱",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43RmlaSWs5NVZYUXVuWGhTR2RyU2lkU0NBVlFrYkxGV0REQmhmY3JEcTd6aW5IRFQ3cjFfbWd6OFc1VERsR2dyY1loQ09NaDR2UHVzalRvYS00WDdFYnFZN1Vwc0ltT2RLNHVpcks0TQ?oc=5",
+          "original_title": "신세계百 강남점, 아이폰 듀오 백화점 단독 팝업",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "뉴스톱",
+              "title": "신세계百 강남점, 아이폰 듀오 백화점 단독 팝업",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43RmlaSWs5NVZYUXVuWGhTR2RyU2lkU0NBVlFrYkxGV0REQmhmY3JEcTd6aW5IRFQ3cjFfbWd6OFc1VERsR2dyY1loQ09NaDR2UHVzalRvYS00WDdFYnFZN1Vwc0ltT2RLNHVpcks0TQ?oc=5",
+              "image": "https://cdn.newstopkorea.com/news/photo/202610/48449_49756_2511.jpg",
+              "url": "https://www.newstopkorea.com/news/articleView.html?idxno=48449"
+            },
+            {
+              "name": "인더뉴스",
+              "title": "신세계백화점 강남점, ‘아이폰 듀오’ 출시 기념 팝업",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fcUdOTTU3WHpDOHFFRDFDcS12RTNHYVc0SkI4cXhBZlZIT29uUnNDelZUNDJyYnlQMFpab21NUXdDNllUWEZ0TnNHVG5wcHRieVhEZVdhcFRpU1JmODc1dTFMMA?oc=5",
+              "image": "https://www.inthenews.co.kr/data/photos/20261043/art_17927335915256_0a6eb9.jpg",
+              "url": "http://www.inthenews.co.kr/news/article.html?no=93467"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "신세계 강남점서 애플 첫 폴더블폰 ‘아이폰 듀오’ 단독 팝업",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uZ3V1NlRBVnJDcDdVM1M3QjdmU2p5U1I1REVwMlFUUzBwNkZUZXFoWld2SVJJVzFpcEphV0xXOGU4Ri1iMF9wemNoQnJCRnFQOHhTd0xTNlFZWFFqb2oxNWJSSkQ?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/10/23/sentv20261023000075.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202610230072"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "신세계百, '아이폰 듀오' 단독 팝업 진행→롯데百, 국가보훈부와 보훈문화 MOU",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94TEhOVlFCaFpBT0RmNGdXNVhmNHlKa3RucVZiSTNRcWVXVHVWYkRhc1NpV2cwUmRfVUNPT3hkR0R0cFl2czlvZEdZZjNuWWlnR1ZIRC1SODE4UTZwVkFKVUN0TVNBUQ?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202610/775843_1186161_5151_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=775843"
+            },
+            {
+              "name": "뉴스퀘스트",
+              "title": "아이폰 듀오 백화점서 체험·구매…신세계 강남점 단독 팝업",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EeGxSeTR4LW9xc3Z1TTJfQ3lQM3BjX0NqUUQxZk82LWxENlZWZGZHMjdCSWc5UE12c1FwZVNTQ3F2TGVES0ZsM3NaX0Rtdmw5UXpWZzBTSm8wWmxUc3VvQjlGOFp4eS15U3NRckw5bw?oc=5",
+              "image": "https://cdn.newsquest.co.kr/news/photo/202610/303300_203946_1944.jpg",
+              "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=303300"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "암살자 개봉 30일 내 손익분기점 돌파",
+          "summary": "영화 '암살자(들)' 개봉 30일 만에 관객 330만 명을 기록하며 손익분기점을 돌파했다.",
+          "source": "매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6NV83YXZhZmVkNGQtaVFjOHZDb3lpemdrMXBSUEhpeHcwV0NUYlZnM1lfTUNHWF9MOVNLVUZvNUFCR3BsVVlfZEY2cEY2MW1JQnBrS3ZrOTc0SHZLZnZmSzln?oc=5",
+          "original_title": "`암살자(들)`, 역사 왜곡 논란 속 손익분기점 돌파…개봉 한 달만에 330만명",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "매일신문",
+              "title": "`암살자(들)`, 역사 왜곡 논란 속 손익분기점 돌파…개봉 한 달만에 330만명",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6NV83YXZhZmVkNGQtaVFjOHZDb3lpemdrMXBSUEhpeHcwV0NUYlZnM1lfTUNHWF9MOVNLVUZvNUFCR3BsVVlfZEY2cEY2MW1JQnBrS3ZrOTc0SHZLZnZmSzln?oc=5",
+              "image": "https://www.imaeil.com/photos/2026/10/11/2026101121461154968_l.jpg",
+              "url": "https://www.imaeil.com/page/view/2026102316583055797"
+            },
+            {
+              "name": "위키트리",
+              "title": "역사 왜곡 논란 '암살자(들)', 개봉 한 달 만에 '대박 소식' 전해졌다",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDWDYxMGlxeWlOOEZKY0xXRTctUHVCWmJScEpxdGl3bDkxR244SkI5WUlNalJQYzU3c2lZWGNLeVE0NDkzQzlPYW54ZHI1WGtYZjFqcWlB?oc=5",
+              "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/23/202610231223117856.jpg",
+              "url": "https://www.wikitree.co.kr/articles/1168557"
+            },
+            {
+              "name": "Queen 이코노미퀸",
+              "title": "영화 '암살자(들)', 개봉 30일 만에 손익분기점 돌파…누적 관객 330만",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OYkw0dUVUa3c3WG1VdnBjTjZ6cXJxWG5tQ1dmbk0ycmRZbzM1NHR3MWdSRko4QUNuYWpPRUZaeGx0R29DLWY3VHNVRGZadHZTck5ZVTdzM2sxNEtxcktrcm0tQ1FfX3JIeEE?oc=5",
+              "url": "https://www.queen.co.kr/news/articleView.html?idxno=465169"
+            },
+            {
+              "name": "한국경제",
+              "title": "개봉 30일 만에…역사 왜곡 논란 '암살자(들)' 손익분기점 넘겼다",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KNkREemZrVkZNMlJrbWxYVTZWNm5meUN5YmhieDhmQkFKUGZLbkktTWNpLUJFU2hsSmwtZTFDTHJHcV9hWVRKSkNFRmVoMUQwNHVMUDJzT1BwUQ?oc=5",
+              "image": "https://img.hankyung.com/photo/202610/01.46164600.1.jpg",
+              "url": "https://www.hankyung.com/article/202610230760H"
+            },
+            {
+              "name": "뉴스1",
+              "title": "'암살자(들)', 개봉 30일 만에 손익분기점 '330만명' 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtWGxVaWJ0cExTLURKTkNXVUZjZDl5MW54X21KVUNWdzBFdjZBa01XUmtSbVJzN1M2ZG9EUGxqSmdhcElEMXNnSk4xMEY5dGxCQXdmNmp1cw?oc=5",
+              "url": "https://www.news1.kr/entertain/movie/6329609"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "신상훈, KPGA 제네시스 챔피언십 2R 공동 3위…김시우 7위",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008812548",
+          "original_title": "신상훈, KPGA 제네시스 챔피언십 2R 공동 3위…김시우 7위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "신상훈, KPGA 제네시스 챔피언십 2R 공동 3위…김시우 7위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008812548",
+              "image": "https://img.sbs.co.kr/newimg/news/20261023/202234282_1280.jpg"
+            },
+            {
+              "name": "문화일보",
+              "title": "신상훈·김시우, 이틀째 제네시스 챔피언십 선두권 유지",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rLU43dkx3dFpPNHhHMXdiM25MSlpxUXRMRkp3d2hxUl81d1B2YnV3OFNwek5qalRNVkY2ZFB2RHphcFl0bXdzbmVrd01yUXpT?oc=5",
+              "image": "https://wimg.munhwa.com/news/cms/2026/10/23/news-p.v1.20261023.b4cd523248bf4582a7ce1859d54ebed8_R.jpg",
+              "url": "https://www.munhwa.com/article/11625856"
+            },
+            {
+              "name": "뉴시스",
+              "title": "김시우, KPGA 제네시스 챔피언십 2R 공동 7위…선두와 4타 차",
+              "link": "https://www.newsis.com/view/NISX20261023_0003839156",
+              "image": "https://img1.newsis.com/2026/10/23/NISI20261023_0002272573_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "신상훈, 제네시스 챔피언십 2R 공동 3위…자비스 이틀 연속 선두",
+              "link": "https://www.yna.co.kr/view/AKR20261023161900007",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/10/23/AKR20261023161900007_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "롱부츠를 매번 똑같이 신었다면 주목하세요",
+    "tagline": "ELLE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 18,
+      "t_min": 13,
+      "rain_pct": 22,
+      "sky": "흐림",
+      "display": "서울 13~18°C · 흐림 · 강수 22%"
+    },
+    "articles": [
+      {
+        "title": "롱부츠를 매번 똑같이 신었다면 주목하세요",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1911779",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/10/22/c288d0ad-c8f7-4224-b4c9-14182bb41291.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "준비가 전부다.",
+    "author": "셰익스피어",
+    "work": "햄릿"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 도전이 쏟아지는 날"
+      },
+      {
+        "animal": "소",
+        "text": "소중한 인연이 사방으로 퍼진다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "호랭이처럼 용기 있게 나아가라"
+      },
+      {
+        "animal": "토끼",
+        "text": "토끼의 속도로 부드럽게 움직이세요"
+      },
+      {
+        "animal": "용",
+        "text": "용감한 결단이 오늘의 비밀"
+      },
+      {
+        "animal": "뱀",
+        "text": "뱀처럼 유연하게 변화를 맞이해"
+      },
+      {
+        "animal": "말",
+        "text": "말이 흔들리지 않는 결심을"
+      },
+      {
+        "animal": "양",
+        "text": "양처럼 부드러운 마음으로"
+      },
+      {
+        "animal": "원숭이",
+        "text": "원숭이의 재치로 웃음을 퍼트려"
+      },
+      {
+        "animal": "닭",
+        "text": "닭의 깃발을 들고 목표를 향해"
+      },
+      {
+        "animal": "개",
+        "text": "개처럼 충실한 함성으로"
+      },
+      {
+        "animal": "돼지",
+        "text": "돼지처럼 풍성한 기쁨을 누려"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
