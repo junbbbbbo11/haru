@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-25",
+  "weekday": "일요일",
+  "vol": 13,
+  "generated_at": "2026-10-25T07:20:41+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5550.3,
+      "change": 16.53,
+      "change_pct": 0.3,
+      "direction": "up",
+      "display": "5,550.30",
+      "change_display": "▲ 0.30%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1325.4,
+      "change": -0.6,
+      "change_pct": -0.04,
+      "direction": "down",
+      "display": "1,325.4원",
+      "change_display": "▼ 0.04%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 108010000.0,
+      "change": -869000.0,
+      "change_pct": -0.8,
+      "direction": "down",
+      "display": "10,801만원",
+      "change_display": "▼ 0.80%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 23,
+    "t_min": 10,
+    "rain_pct": 16,
+    "sky": "구름 조금",
+    "display": "서울 10~23°C · 구름 조금 · 강수 16%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "테크",
+      "headline": "삼성전자 배당 1만2000원 주가 반등",
+      "summary": "삼성전자는 내년에 역대급 배당을 지급한다. 주당 1만2000원 받을 수 있다.",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IQ2hreGJZYlZIRlhyTlRNQU0yQVZtbXI0SWlGWVlGckE2MDR0Q3kwRWVTU05sTTc4b2JNUEVJWDF0c2ZKek9tdlBVR3pVV2R0SGpmNU9CTGM3YUxvdnNHcdIBeEFVX3lxTE9xSUxmQzFaVUtENXkyUjRsUkxHZ3Z3VTZkdHdFYjNyNUFBakNXYW5LSDVIQmhwWklsd2NNMUZmUGsxY0NMRkJfRGVkbUFMQ1htWWZ2dmRBa3JzUUFpSHd4Z2EwTXAydU82NHFiUTY0MS1BSnkxUmh6eQ?oc=5",
+      "original_title": "삼성전자, 내년 역대급 배당 준다는데…주당 1만2000원 받을 수 있을까",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "삼성전자, 내년 역대급 배당 준다는데…주당 1만2000원 받을 수 있을까",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IQ2hreGJZYlZIRlhyTlRNQU0yQVZtbXI0SWlGWVlGckE2MDR0Q3kwRWVTU05sTTc4b2JNUEVJWDF0c2ZKek9tdlBVR3pVV2R0SGpmNU9CTGM3YUxvdnNHcdIBeEFVX3lxTE9xSUxmQzFaVUtENXkyUjRsUkxHZ3Z3VTZkdHdFYjNyNUFBakNXYW5LSDVIQmhwWklsd2NNMUZmUGsxY0NMRkJfRGVkbUFMQ1htWWZ2dmRBa3JzUUFpSHd4Z2EwTXAydU82NHFiUTY0MS1BSnkxUmh6eQ?oc=5",
+          "image": "https://img1.newsis.com/2026/10/24/NISI20261024_0002272705_web.jpg",
+          "url": "https://www.newsis.com/view/NISX20261024_0003839410"
+        }
+      ]
+    },
+    {
+      "kicker": "축구",
+      "headline": "이강인 라리가 선발 복귀, 슈팅 폭발",
+      "summary": "이강인은 라리가 선발 복귀 후 슈팅이 폭발했다. 왼발·오른발 연속 시도했다.",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/sports/2026/10/25/202610250404774398O",
+      "original_title": "'이강인 부상 복귀하자마자 슈팅 폭발!' 전반에만 오른발·왼발 연속 시도...ATM, 데포르티보전 전반 0-0 마무리",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "'이강인 부상 복귀하자마자 슈팅 폭발!' 전반에만 오른발·왼발 연속 시도...ATM, 데포르티보전 전반 0-0 마무리",
+          "link": "https://www.mt.co.kr/sports/2026/10/25/202610250404774398O",
+          "image": "https://menu.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/mobile/osen/data/2026/10/25/202610250404774398_1.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "노동",
+      "headline": "포스코노사 임금 교섭 결렬, 무기한 파업 예고",
+      "summary": "포스코노조는 임금 교섭이 결렬돼 무기한 파업을 예고했다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261024019100053",
+      "original_title": "포스코노사 임금 교섭 결렬…노조, 다음달 2일 무기한 파업 예고",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "포스코노사 임금 교섭 결렬…노조, 다음달 2일 무기한 파업 예고",
+          "link": "https://www.yna.co.kr/view/AKR20261024019100053",
+          "image": "https://img0.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024019100053_04_i_P4.jpg"
+        },
+        {
+          "name": "디지털데일리",
+          "title": "이희근 포스코 사장 나섰지만…노조, 11월2일부터 무기한 파업",
+          "link": "https://m.ddaily.co.kr/page/view/2026102321241916609",
+          "image": "https://m.ddaily.co.kr/photos/2026/09/15/2026091519401199402_l.png"
+        },
+        {
+          "name": "연합뉴스TV",
+          "title": "포스코노조, 다음달 2일 무기한 파업…임금교섭 결렬",
+          "link": "https://www.yonhapnewstv.co.kr/news/MYH20261024135354YbE",
+          "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261024/MYH20261024135354YbE.jpg"
+        },
+        {
+          "name": "프레시안",
+          "title": "포스코 노사 협상 결렬…노조, 다음달 2일 무기한 파업 예고",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05Z19NUWI5c2VtSnF4R2VDUXB2WnB3bUwtbVhRdUlIWjJVb3JfVkNUZy10Y2RIaWRPOHNlQlJnTHpYWE9IYjFWTFZxYzhvX0pRa1IzMUZETXpZU3Q5LXFfVkZkdjN0ekpLckR3?oc=5",
+          "image": "https://www.pressian.com/_resources/10/2026/10/24/2026102412425043901_l.jpg",
+          "url": "https://www.pressian.com/pages/articles/2026102412425217923"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "솔리다임 상장 중단, 코스피 급등 뒤엔 AI 논란",
+          "summary": "솔리다임이 상장 중단을 선언하면서 코스피는 4% 상승했다. AI 수익성 논란과 중동 충돌 재격화가 시장에 영향을 미쳤다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261024024500008",
+          "original_title": "[마켓인사이트] 솔리다임 상장중단에 반전한 코스피…금주 향방은",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[마켓인사이트] 솔리다임 상장중단에 반전한 코스피…금주 향방은",
+              "link": "https://www.yna.co.kr/view/AKR20261024024500008",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102314380001300_P4.jpg"
+            },
+            {
+              "name": "문화일보",
+              "title": "장중 4% 폭락 코스피 상승 마감 원인은? 솔리다임 미 상장 중단에 하이닉스 급등 여파",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBydnBPTHQ3YTZMZWExbW43b2dMaUVmd3o0N3QzeWZXWVdGaHNDa3R1Y20zeF9zNFhPQUJTTXdzT2hETXF4NERQUWxkMHpmbzBQ?oc=5",
+              "image": "https://wimg.munhwa.com/news/cms/2026/10/24/news-p.v1.20261024.cc4b6e3441a547bea528d55d81a7d1da_R.jpg",
+              "url": "https://www.munhwa.com/article/11625899"
+            }
+          ]
+        },
+        {
+          "headline": "러시아 제재 기업, 알래스카 LNG 자금 비밀 지원",
+          "summary": "미국 알래스카 액화천연가스 사업에 러시아 제재대상 기업이 비밀로 자금을 지원했다는 의혹이 제기되었다. 해당 사업은 한국·대만이 검토 중인 글렌파른의 사업과 별개다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261024_0003839706",
+          "original_title": "'美 제재' 러 에너지기업, 알래스카 LNG 사업에 비밀 자금 지원 의혹",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'美 제재' 러 에너지기업, 알래스카 LNG 사업에 비밀 자금 지원 의혹",
+              "link": "https://www.newsis.com/view/NISX20261024_0003839706",
+              "image": "https://img1.newsis.com/2026/04/03/NISI20260403_0001151955_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"알래스카 LNG 개발사업에 러 '제재기업' 몰래 자금 대\"",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZRTlwM2RQOTdtNlZ2NHBmeDlERklyZ3FJZUxhdFpWWWgycTdQSGJwdXR1Z003MjdTWjlKb2lRSU96czdDQVRXTUl4Qk1PbnBUTmJ5TDNTalRGNXM?oc=5",
+              "image": "https://img0.yna.co.kr/photo/etc/up/2026/09/07/PUP20260907007001009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261024039200009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "샤넬, 2.55 백이 2015년 재탄생",
+          "summary": "샤넬이 1955년 선보인 2.55 백은 실용적 디자인과 다이아몬드 모양 퀼팅이 특징이며, 2015년 새로운 모습으로 재탄생했다.",
+          "source": "VOGUE Korea",
+          "link": "https://www.vogue.co.kr/2026/10/24/%ec%83%a4%eb%84%ac%ec%9d%98-%ec%bd%94%ec%bd%94-%ed%81%ac%eb%9f%ac%ec%89%ac%ec%99%80-%ed%95%a8%ea%bb%98-%eb%96%a0%eb%82%98%eb%8a%94-%ec%97%ac%ed%96%89/",
+          "original_title": "샤넬의 코코 크러쉬와 함께 떠나는 여행",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "VOGUE Korea",
+              "title": "샤넬의 코코 크러쉬와 함께 떠나는 여행",
+              "link": "https://www.vogue.co.kr/2026/10/24/%ec%83%a4%eb%84%ac%ec%9d%98-%ec%bd%94%ec%bd%94-%ed%81%ac%eb%9f%ac%ec%89%ac%ec%99%80-%ed%95%a8%ea%bb%98-%eb%96%a0%eb%82%98%eb%8a%94-%ec%97%ac%ed%96%89/",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6adc37bae8cd9-1920x1080.jpg?ver=1.1.62",
+              "url": "https://www.vogue.co.kr/2026/10/24/%EC%83%A4%EB%84%AC%EC%9D%98-%EC%BD%94%EC%BD%94-%ED%81%AC%EB%9F%AC%EC%89%AC%EC%99%80-%ED%95%A8%EA%BB%98-%EB%96%A0%EB%82%98%EB%8A%94-%EC%97%AC%ED%96%89/"
+            },
+            {
+              "name": "Vogue korea",
+              "title": "샤넬의 코코 크러쉬와 함께 떠나는 여행",
+              "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPWldnUXZjUENsV29fQnJQMG1GUXJ6cnZwdmJoZnNtSzZRc3BoWVEwYXAwSmVvU3FManJsZHdGUmFoMTB1dkhDRFJ4SUk1b2FmWDVmTC1SUlVBSUM2MmhaZHNrMmk3NERmanpGUGhTTk12cGF0N1VaOHNrb1BkM0hwTEhXdVBZWGRmZllqRDhBekRMaHVId1NJUnAzX1Ayd05BeHNuSU1naFVQOGs0UmlEeGdiMThOOWpmbWdHbkxwZ0J3YkFLNW5pTkRYUXBoaWxIUVk0RkNCd2xlc1NDeXU4bUo3Z0NtMk1ZUzZDZm1VQTE5emptTnlCcDFYbUxDMFlXNU1yTlFVT05la01wWk5xanRnZw?oc=5",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6adc37bae8cd9-1920x1080.jpg?ver=1.1.62",
+              "url": "https://www.vogue.co.kr/2026/10/24/%EC%83%A4%EB%84%AC%EC%9D%98-%EC%BD%94%EC%BD%94-%ED%81%AC%EB%9F%AC%EC%89%AC%EC%99%80-%ED%95%A8%EA%BB%98-%EB%96%A0%EB%82%98%EB%8A%94-%EC%97%AC%ED%96%89/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "충주시,‘오송화장품뷰티엑스포’서‘충주 워케이션’집중 홍보",
+          "summary": "",
+          "source": "경충일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BLTB1NWtyaFpxc1lZdno2WW9Gd3VQUy1uTDluQWFldzdhNEo1NDBNdXVPb0huZ05YdFJabFBEOVFZWGtXWVJOTzZVOGJPZ25ZOVNCbHF4OGI?oc=5",
+          "original_title": "충주시,‘오송화장품뷰티엑스포’서‘충주 워케이션’집중 홍보",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "경충일보",
+              "title": "충주시,‘오송화장품뷰티엑스포’서‘충주 워케이션’집중 홍보",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BLTB1NWtyaFpxc1lZdno2WW9Gd3VQUy1uTDluQWFldzdhNEo1NDBNdXVPb0huZ05YdFJabFBEOVFZWGtXWVJOTzZVOGJPZ25ZOVNCbHF4OGI?oc=5",
+              "image": "https://www.kcilbo.com/storage/uploads/kcilbo/article/VG7aPz05b4jnIcObUVAWv3xb.jpeg",
+              "url": "https://www.kcilbo.com/articles/2026102403518"
+            },
+            {
+              "name": "충청리뷰",
+              "title": "충주시, ‘충주 워케이션’ 집중 홍보 효과 만점",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EQ18wa25HNmY0NlNWLVdLQWx3MjVjTlRzb2tKb21Bcm4xdU1lT3UzX2JranozelRGTzVFaE9HTXpZQzgzNS1YOFZ6aDZzdEdfajlhZVU1RmpRZkRpVFcxQkFFSDRCLWlSVXlIT2J30gFyQVVfeXFMTlRSRzBfOHBtcFFuYzBSN3dsRk1PNEVqdWNmRlJSb2txQmFmdWJ3RldNUjFtQ05fX2tnQUhRNDRyNXJEcF9qSzFWR2pXd1VtS2tQZWNxV21wWlROejF3TXd6bnhuS3NJRXVydDFVRHhHTVNn?oc=5",
+              "image": "https://cdn.ccreview.co.kr/news/photo/202610/360800_194063_124.jpg",
+              "url": "https://www.ccreview.co.kr/news/articleView.html?idxno=360800"
+            },
+            {
+              "name": "국제뉴스",
+              "title": "충주, 오송 뷰티엑스포서 '체험관광 워케이션 센터' 집중 홍보",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96UjZRSHBuY2hzM1pkZWhuS0xMUVFRbUxlTGdMMGZWUklfOE5KZHNjNHRSNHZELWRQQTdLT3B6eGhteUlWZDdnMVdtS2xPQWtoaWpnVXlfRmJtY2lQbXZxZTRaS0RKOGI5WG45ZnZB?oc=5",
+              "image": "https://cdn.gukjenews.com/news/thumbnail/202610/3729863_3909808_5529_v150.jpg",
+              "url": "https://www.gukjenews.com/news/articleView.html?idxno=3729863"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "“K-뷰티 한자리에“…오송 화장품뷰티엑스포 ’성황’",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yODdtS1R5X3o3bnA4QkpxUzd4ZXRpd251eWtUQlN1VkpoOVV5VW1JdVk3N1REZ3pRRDFBVnY4T29QMHAyVmFyaDVfMnBpdmVzd3VYQm9sendvdUp4Q20zUVFlYkZxSWM?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261024/MYH20261024135730uK0.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/MYH20261024135730uK0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "원주시, 수면·휴식 특화 웰니스 관광 개발",
+          "summary": "원주시는 수면·휴식·회복 중심 웰니스 관광을 활성화하기 위해 경제진흥원·경동대학교와 협약을 맺었다.",
+          "source": "신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81elhOU3R2VS1LUE8yR1VKMkhaZ0x0VmYtM0wtdUlhRUd4RmlHaU5xSmpnZV9vazRKdWtZSU5IcFpRN1BMbGxVSzVZVHFKdWNJWGJtSEhCQi0wbWVieVpRb3d2TkwzS0dEV0thWG1McUo?oc=5",
+          "original_title": "원주시, 수면·휴식 특화 웰니스 관광 개발…경제진흥원·경동대와 협약",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "신아일보",
+              "title": "원주시, 수면·휴식 특화 웰니스 관광 개발…경제진흥원·경동대와 협약",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81elhOU3R2VS1LUE8yR1VKMkhaZ0x0VmYtM0wtdUlhRUd4RmlHaU5xSmpnZV9vazRKdWtZSU5IcFpRN1BMbGxVSzVZVHFKdWNJWGJtSEhCQi0wbWVieVpRb3d2TkwzS0dEV0thWG1McUo?oc=5",
+              "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5075285"
+            },
+            {
+              "name": "중앙뉴스타임스",
+              "title": "원주시, 수면·휴식·회복 중심 웰니스 관광 활성화 나선다",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWa1A2ZXNwUWtyYUx5ZURSaW9TVFl2Q0h2emtxU2MwTkg2Wm01V1RITFp2clBvM0RjejJZejlpUnM4TDFRLTg2b2lIdGNSTUVZbl9fdlJQMXhNMXFtX3pXYTBoMDM?oc=5",
+              "image": "https://www.jnewstimes.com/data/photos/20261043/art_17928440131255_4fd1f0.jpg",
+              "url": "https://www.jnewstimes.com/news/article.html?no=766617"
+            },
+            {
+              "name": "프레시안",
+              "title": "수면·휴식·회복…원주시·경제진흥원·경동대 '웰니스 관광' 맞손",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IVWx6NkRQUkI2c2VmNU9aQkhjbU95b2lGaGRCU3lKa2dRdHlfQVNCOWl3bjd5ZFo1R1ZPVTRDVVVZZTVMR2VLRDBWc0V6alZzYy1xSkJZNnFtRDJLaS1SX1ZIbllmUTI4d0Jv?oc=5",
+              "image": "https://www.pressian.com/_resources/10/2026/10/24/2026102411263501842_l.jpg",
+              "url": "https://www.pressian.com/pages/articles/2026102411282554521"
+            },
+            {
+              "name": "강원타임즈",
+              "title": "원주시, 수면 · 휴식 · 회복중심 웰니스 관광활성화 적극 추진",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12bS04VEIzNlhqZEtuQXhOZFBaQWVvQ1lpd09tUXd4aWJiNjh2TVdUckdfQzdCN2NyLXlGN1oxZTVXNHMwYllrWVBYMkJpT19uR2FDS0xyMDJHREt0?oc=5",
+              "url": "https://www.kwtimes.co.kr/news/view.php?no=46172"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김민석, '曺탄핵' 질문에 \"국조 포함해 원래 생각대로 차근차근\"(종합)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261024028351001",
+          "original_title": "김민석, '曺탄핵' 질문에 \"국조 포함해 원래 생각대로 차근차근\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "김민석, '曺탄핵' 질문에 \"국조 포함해 원래 생각대로 차근차근\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261024028351001",
+              "image": "https://img6.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102303150001300_P4.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "김민석, ‘조희대 탄핵’ 질문에 “국정조사 포함 차근차근 진행해갈 것”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NRE1CMUtseFZJZktvVDAyNmxfRnE3N1BEdEM3STVzb3VMaFRkUDdEZXhYbThLZ3NFQXB3ZkwzazZNM3lxVDlrOW5hRlNzQXd3TmNVSzBxUnFuanpBSG9wRkozdE1uTl9nRkZUTU44Qjg2b1NI?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/860/515/imgdb/original/2026/1024/20261024500546.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1283964.html"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "김민석, '조희대 탄핵' 질문에 \"국조 포함해 원래 생각대로 차근차근\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813051",
+              "image": "https://img.sbs.co.kr/newimg/news/20261024/202234442_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "한 총리 \"아이들 함께 키워야…'온동네 초등돌봄' 공고히 할 것\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813189",
+          "original_title": "한 총리 \"아이들 함께 키워야…'온동네 초등돌봄' 공고히 할 것\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "한 총리 \"아이들 함께 키워야…'온동네 초등돌봄' 공고히 할 것\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813189",
+              "image": "https://img.sbs.co.kr/newimg/news/20261024/202234478_1280.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "한 총리 “아이들 함께 키워야…‘온동네 초등돌봄’ 공고히 할 것”",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yUmhXNDZaZ2lIYzAwa2dUcXEwdWh3Ym1zUDE2b2ZnT21BQ2JJb0RSTmdDeXJOMXpjWHZPMjVlZmZJNXRHRXBMN3JBVkVWWUhKc2VwUE8xQmMyOEp4ZU9zeG41MTVhZw?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/10/24/20261024_pKgyEy.png",
+              "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8694292"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "韓총리 \"아이들 함께 키워야…'온동네 초등돌봄' 공고히 할 것\"",
+              "link": "https://www.yna.co.kr/view/AKR20261024041100001",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/10/24/PYH2026102404270001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "랜도 美 국무부 부장관 “日 안보 3문서, 美전략과 일치해야”",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261024/134900910/1",
+          "original_title": "랜도 美 국무부 부장관 “日 안보 3문서, 美전략과 일치해야”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "랜도 美 국무부 부장관 “日 안보 3문서, 美전략과 일치해야”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261024/134900910/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134900911.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "랜도 美 국무부 부장관 \"日 국가방위전략, 美전략과 일치해야\"",
+              "link": "https://www.newsis.com/view/NISX20261024_0003839530",
+              "image": "https://img1.newsis.com/2025/11/15/NISI20251115_0001993750_web.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "미 국무 부장관 \"일본 3대 안보문서, 미국 전략과 일치시켜야\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRbEoyUzU3bTNZN3E5b0JmenNPNjJzeTdDOHNDV1JIUkNpSmtYajFQakRQdHR6UzVfeWwxM2lIa2JNQlZXVFAwem50UDZSS2NBWmNsdldlT0FYWGtIbGcwTFlaOHltWjQ?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261024/AKR202610241132492hT_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202610241132492hT"
+            }
+          ]
+        },
+        {
+          "headline": "프랑스 41만 명 거리로…유럽 곳곳 대규모 시위",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813463",
+          "original_title": "프랑스 41만 명 거리로…유럽 곳곳 대규모 시위",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "프랑스 41만 명 거리로…유럽 곳곳 대규모 시위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813463",
+              "image": "https://img.sbs.co.kr/newimg/news/20261025/202234533_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "프랑스 시위 제한에도 41만명 거리로…곳곳에서 충돌(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261024052552085",
+              "image": "https://img2.yna.co.kr/photo/etc/af/2026/10/25/PAF20261025111201009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "프랑스 전역서 41만명 시위…파리 등 곳곳서 충돌",
+              "link": "https://www.newsis.com/view/NISX20261025_0003839740",
+              "image": "https://img1.newsis.com/2026/10/25/NISI20261025_0001689807_web.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "프랑스 전역서 대규모 시위…최소 135명 체포",
+              "link": "https://www.donga.com/news/Inter/article/all/20261024/134901470/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/24/134901471.1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "아이폰 듀오, 출시 직후 화면 파손 논란",
+          "summary": "애플의 첫 폴더블 스마트폰 아이폰 듀오가 출시 직후 6시간 내에 화면이 파손되었다는 주장이 제기되며 전시 제품에서도 화면 이상이 보고되어 내구성에 대한 우려가 제기되고 있다.",
+          "source": "전자신문",
+          "link": "https://www.etnews.com/20261024000038",
+          "original_title": "'오픈런' 부른 330만원짜리가 6시간 만에 '쩍'…“아이폰 듀오 20번도 안펼쳤는데 화면 파손”",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "전자신문",
+              "title": "'오픈런' 부른 330만원짜리가 6시간 만에 '쩍'…“아이폰 듀오 20번도 안펼쳤는데 화면 파손”",
+              "link": "https://www.etnews.com/20261024000038",
+              "image": "https://img.etnews.com/news/article/2026/10/24/news-p.v1.20261024.863f0d6c2bbf4b0b96c5a10bcd1a2fbe_P1.jpg"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "\"20번도 안 열었는데 쩍\"…아이폰 듀오, 힌지 따라 화면 균열",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95V3A3dGR2UTFKWjBDMDEzdzlDOEJyZVlVcjhzOEo0YUdSbGRYVUY2aGo5VWpkRThvN0cxZTZHQ2JaeHFsTEtrcnU4bVhIcWkzVHNZclp3?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/10/24/f3c5b0eca6d0cdde63daf09178dc9494.png",
+              "url": "https://zdnet.co.kr/view/?no=20261024071502"
+            },
+            {
+              "name": "ZDNet Korea",
+              "title": "\"20번도 안 열었는데 쩍\"…아이폰 듀오, 힌지 따라 화면 균열",
+              "link": "https://zdnet.co.kr/view/?no=20261024071502",
+              "image": "https://image.zdnet.co.kr/2026/10/24/f3c5b0eca6d0cdde63daf09178dc9494.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "'치이카와' 관객 수 200만명 돌파…올해 애니로는 두 번째",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261024018600005",
+          "original_title": "'치이카와' 관객 수 200만명 돌파…올해 애니로는 두 번째",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "'치이카와' 관객 수 200만명 돌파…올해 애니로는 두 번째",
+              "link": "https://www.yna.co.kr/view/AKR20261024018600005",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024018600005_02_i_P4.jpg"
+            },
+            {
+              "name": "이투데이",
+              "title": "'치이카와', 25일 만에 200만 돌파⋯'슬램덩크'보다 빨랐다",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5welVjSHduWE9OTjY3ZG5TNjhUaVEzcGc4ZHhoLVZHY2dxXy1CWWhhSGZ0Q0NTZmVrWVNHUkRUQ3NzcjNneGdmQzU0WkpwOHE4VEYtWg?oc=5",
+              "image": "https://img.etoday.co.kr/pto_db/2026/10/20261009212111_2399315_1200_1709.jpg",
+              "url": "https://www.etoday.co.kr/news/view/2639674"
+            },
+            {
+              "name": "스타뉴스",
+              "title": "日서 천만 넘은 '치이카와'..韓서 개봉 25일만 200만 돌파",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fTS1sX056ODV2cU5rTjVZS1NzVDBGYkEzaWJyWFN3cnp5ZGVxcWRKb0FUU19NZGFGd3UySWc0OVlmZTRSOVJYanRKdGpmclM5anZJdmtoVmdlN1ZzS3ZuLUJkTUN5Zm96REZSUEU2bGJfU0kt?oc=5",
+              "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=1711,fit=cover,q=high,sharpen=2/21/2026/10/2026102418573398290_1.jpg",
+              "url": "https://www.starnewskorea.com/movie/2026/10/24/2026102418573398290"
+            },
+            {
+              "name": "supple.kr",
+              "title": "극장판 치이카와 200만 돌파 개봉 25일 만에 이룬 반전 흥행 귀여움 뒤에 숨은 서늘함",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nclJqUTV5c3lwUnAxb0NYUXNmSlRqWVFHN2dJVlM4cEdETTRtdkszUHJ4UC1tZWduX3lNTEpadkFfNk95azhmbG5GZ0laQkFEUmhvUktXMGQ?oc=5",
+              "image": "https://media.nudge-community.com/10688508",
+              "url": "https://supple.kr/community/culture/137336419"
+            },
+            {
+              "name": "진일보 | 전남일보",
+              "title": "'극장판 치이카와' 개봉 25일 만에 200만 돌파…올해 애니 두 번째",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xU09JWWpCY1NVb251bnh2RFhldmNOOUs5UzZlNlJsTkZCMTY2M0o1ckRSRTJFZGkzTmplTGtya28xUnJuMVRvdFYtQWNqZm51M0NPZmVYdDFoS1ptbjVTUy1TREV3Wkc0Z21tMU50RQ?oc=5",
+              "image": "https://cdn.jnilbo.com/news/photo/202610/90000076290_604255_5839.jpg",
+              "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000076290"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "김시우·신상훈, 제네시스 챔피언십 공동 3위",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813247",
+          "original_title": "김시우·신상훈, 제네시스 챔피언십 공동 3위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김시우·신상훈, 제네시스 챔피언십 공동 3위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813247",
+              "image": "https://img.sbs.co.kr/newimg/news/20261024/202234516_1280.jpg"
+            },
+            {
+              "name": "골프한국",
+              "title": "'역전 우승 기대' 김시우·신상훈, 제네시스 챔피언십 3R 공동 3위 [DP월드투어·KPGA]",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03dE4tN0xFenp4aFVhcEJNOERiY3ZTQWtqanlkT0h5cnBxd1Z4NTBpZ1pLWElmdXMtaDVzLWVUVlJLdkJDZzFzMDRJVHNPODdsSm04WGlsbXhISjdsbmFiNEVLM202Q0FNMVR0eTktVVE4V1VkV0hrRNIBfEFVX3lxTE4wSERKOXlIbFJoNnRqYWR5ZndRMHZUYktZLUt3U1ViMDhfLUlMcFlfUmpzYjBjRUlTY3FuMWxuZmlhM3lOLUJ5RzNJdFBxc2VqZGI5UjFXNEttVU5vaHNiRzBVdzJianVhOXdWSmV1NUlSTlpUd182UjF3N3M?oc=5",
+              "image": "https://cdn.golfhankook.hankooki.com/news/thumbnail/202610/20022390_326244_037_v150.jpg",
+              "url": "https://golfhankook.hankooki.com/news/articleView.html?idxno=20022390"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김시우·신상훈, 제네시스 챔피언십 공동 3위…선두와 3타 차",
+              "link": "https://www.yna.co.kr/view/AKR20261024045000007",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024045000007_01_i_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "김시우, 제네시스 챔피언십 3R 공동 3위…선두와 3타 차",
+              "link": "https://www.newsis.com/view/NISX20261024_0003839618",
+              "image": "https://img1.newsis.com/2026/10/24/NISI20261024_0002272874_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "'기동 매직' FC서울, 10년 만에 감격의 우승 'V7'",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813244",
+          "original_title": "'기동 매직' FC서울, 10년 만에 감격의 우승 'V7'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'기동 매직' FC서울, 10년 만에 감격의 우승 'V7'",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813244",
+              "image": "https://img.sbs.co.kr/newimg/news/20261024/202234512_1280.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "[프로축구] '4위→6위→우승' 김기동 감독, 시행착오 딛고 FC서울 10년 만의 정상 이끌어",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfMXlZbExwMWJmeUxkR1lLUTNuZG5BVk9FRzJ1T2tWRndGcHg5N3VrZlVCazI1ZnFCWGJ1X3A0M1JSSlBZSlIyQWROek9GaDZzSzhQaDEyV3M5QQ?oc=5",
+              "image": "https://img.newspim.com/news/2026/10/24/2610241608443683.jpg",
+              "url": "https://m.newspim.com/news/view/20261024000059"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "야유를 환호로 바꾼 마침표…10년만에 서울 우승 이끈 '기동매직'",
+              "link": "https://www.yna.co.kr/view/AKR20261024037600007",
+              "image": "https://img9.yna.co.kr/etc/inner/KR/2026/10/24/AKR20261024037600007_01_i_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "야유를 환호로 바꿨다…서울 우승 지휘한 '김기동 매직'[K리그1 우승②]",
+              "link": "https://www.newsis.com/view/NISX20261023_0003838865",
+              "image": "https://img1.newsis.com/2026/03/04/NISI20260304_0021195763_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "스키니진",
+    "tagline": "미니멀 라인으로 세련된 일상",
+    "description": "스키니진은 몸을 실루엣으로 강조하며 깔끔한 라인을 만든다. 최근에는 와이드 팬츠와 대비되는 트렌드로 재조명되고 있다. 적절한 상의와 신발과 매치하면 일상에 세련미를 더한다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "블루 데님 재킷",
+        "color": "블루",
+        "hex": "#0000FF"
+      },
+      {
+        "category": "top",
+        "name": "화이트 티셔츠",
+        "color": "화이트",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bottom",
+        "name": "네이비 스키니 데님 팬츠",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "shoes",
+        "name": "화이트 스니커즈",
+        "color": "화이트",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bag",
+        "name": "블랙 가죽 백",
+        "color": "블랙",
+        "hex": "#000000"
+      }
+    ],
+    "tips": [
+      "스키니진은 과거의 흐릿한 라인을 정리해 현대적 감각을 부여한다.",
+      "스키니진은 여름에 시원함을 주며, 가을에는 두꺼운 스웨터와 매치해 보온성을 높인다.",
+      "스키니진은 신체 라인을 강조하므로, 상의는 슬림한 라인으로 균형을 맞춘다."
+    ],
+    "weather_tip": "구름 낀 날에는 스키니진에 데님 재킷을 매치해 가볍게",
+    "weather": {
+      "city": "서울",
+      "t_max": 23,
+      "t_min": 10,
+      "rain_pct": 16,
+      "sky": "구름 조금",
+      "display": "서울 10~23°C · 구름 조금 · 강수 16%"
+    },
+    "articles": [
+      {
+        "title": "와이드 팬츠가 지겹다면? 다시 돌아온 스키니진",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1911909",
+        "note": "스키니진이 다시 인기를 얻으며 와이드 팬츠와 대비되는 트렌드",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/10/23/8760168e-b508-4bd7-8bf4-677535a100c2.jpg"
+      },
+      {
+        "title": "청바지에 운동화만큼 쉬운 앵클 부츠 5",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/10/23/%ec%b2%ad%eb%b0%94%ec%a7%80%ec%97%90-%ec%9a%b4%eb%8f%99%ed%99%94%eb%a7%8c%ed%81%bc-%ec%89%ac%ec%9a%b4-%ec%95%b5%ed%81%b4-%eb%b6%80%ec%b8%a0-5/",
+        "note": "스키니 데님과 앵클 부츠의 조합이 편리함을 강조",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6adaefafab683-1920x1080.jpg?x=1278&y=720&ver=1.1.62",
+        "url": "https://www.vogue.co.kr/2026/10/23/%EC%B2%AD%EB%B0%94%EC%A7%80%EC%97%90-%EC%9A%B4%EB%8F%99%ED%99%94%EB%A7%8C%ED%81%BC-%EC%89%AC%EC%9A%B4-%EC%95%B5%ED%81%B4-%EB%B6%80%EC%B8%A0-5/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "끝이 좋으면 다 좋다.",
+    "author": "셰익스피어",
+    "work": "끝이 좋으면 다 좋아"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 빛날 때"
+      },
+      {
+        "animal": "소",
+        "text": "친구와의 대화가 즐거워질 것"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 보람으로 이어질 듯"
+      },
+      {
+        "animal": "토끼",
+        "text": "부드러운 일상에 힐링을 더해"
+      },
+      {
+        "animal": "용",
+        "text": "열정이 새로운 길을 열어"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 판단이 좋은 결과를"
+      },
+      {
+        "animal": "말",
+        "text": "마음껏 달려가 보자"
+      },
+      {
+        "animal": "양",
+        "text": "조용한 순간이 큰 힘이 돼"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머가 분위기를 밝게 만들거야"
+      },
+      {
+        "animal": "닭",
+        "text": "새로운 시작이 활력을 주네"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 관계를 더욱 깊게"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 가득한 하루가 될 것"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
