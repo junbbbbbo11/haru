@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-26",
+  "weekday": "월요일",
+  "vol": 14,
+  "generated_at": "2026-10-26T07:35:04+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5550.3,
+      "change": 16.53,
+      "change_pct": 0.3,
+      "direction": "up",
+      "display": "5,550.30",
+      "change_display": "▲ 0.30%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1323.3,
+      "change": -2.7,
+      "change_pct": -0.2,
+      "direction": "down",
+      "display": "1,323.3원",
+      "change_display": "▼ 0.20%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 107867000.0,
+      "change": -650000.0,
+      "change_pct": -0.6,
+      "direction": "down",
+      "display": "10,787만원",
+      "change_display": "▼ 0.60%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 21,
+    "t_min": 14,
+    "rain_pct": 25,
+    "sky": "대체로 맑음",
+    "display": "서울 14~21°C · 대체로 맑음 · 강수 25%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "가족",
+      "headline": "시母 백옥자 며느리 생일 선물 사다 욕심 폭발",
+      "summary": "시母 백옥자가 며느리 생일 선물로 다이아 목걸이를 사서 가격을 보고 ‘어머머머’라며 감탄했다.",
+      "source": "스포츠동아",
+      "link": "https://sports.donga.com/ent/article/all/20261025/134906061/1",
+      "original_title": "김승현 母, 며느리 생일 선물 사다 욕심 폭발…“나 이거 안 뺄래”",
+      "sources": [
+        {
+          "name": "스포츠동아",
+          "title": "김승현 母, 며느리 생일 선물 사다 욕심 폭발…“나 이거 안 뺄래”",
+          "link": "https://sports.donga.com/ent/article/all/20261025/134906061/1",
+          "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/25/134906063.1.png"
+        }
+      ]
+    },
+    {
+      "kicker": "스타",
+      "headline": "이다해 중국풍 외모 지적에 ‘조금씩 달라지는 내 모습 즐겨’",
+      "summary": "이다해가 중국풍 외모 지적에 대해, 조금씩 변해가는 모습이 즐거우라고 해명했다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261024_0003839708",
+      "original_title": "이다해, '중국풍' 외모 지적에 \"조금씩 달라지는 내 모습 즐겨\"",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "이다해, '중국풍' 외모 지적에 \"조금씩 달라지는 내 모습 즐겨\"",
+          "link": "https://www.newsis.com/view/NISX20261024_0003839708",
+          "image": "https://img1.newsis.com/2026/10/24/NISI20261024_0002272922_web.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "K뷰티",
+      "headline": "오송화장품뷰티엑스포, 글로벌 K-뷰티 도약 장",
+      "summary": "2026년 오송화장품뷰티엑스포가 흥행을 넘어 글로벌 K-뷰티 도약의 장으로 평가되었다.",
+      "source": "국민기자뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMG9YRUcyRHVyTW50d2JQWUZ2dndRSWplRlVPVzRHQ1J4MDFfbmppX0VYNDVCMU9FMWtGRm1NRENaQUhXZFdQd1NtOEsyYUZMQ2NCZ0VfbnV0YWdJVmV2ZHA4WllDcTTSAWdBVV95cUxNMjBvWEVHMkR1ck1udHdiUFlGdnZ3UUlqZUZVT1c0R0NSeDAxX25qaV9FWDQ1QjFPRTFrRkZtTURDWkFIV2RXUHdTbThLMmFGTENjQmdFX251dGFnSVZldmRwOFpZQ3E0?oc=5",
+      "original_title": "2026 오송화장품뷰티엑스포, 흥행 넘어 글로벌 K-뷰티 도약의 장으로",
+      "sources": [
+        {
+          "name": "국민기자뉴스",
+          "title": "2026 오송화장품뷰티엑스포, 흥행 넘어 글로벌 K-뷰티 도약의 장으로",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMG9YRUcyRHVyTW50d2JQWUZ2dndRSWplRlVPVzRHQ1J4MDFfbmppX0VYNDVCMU9FMWtGRm1NRENaQUhXZFdQd1NtOEsyYUZMQ2NCZ0VfbnV0YWdJVmV2ZHA4WllDcTTSAWdBVV95cUxNMjBvWEVHMkR1ck1udHdiUFlGdnZ3UUlqZUZVT1c0R0NSeDAxX25qaV9FWDQ1QjFPRTFrRkZtTURDWkFIV2RXUHdTbThLMmFGTENjQmdFX251dGFnSVZldmRwOFpZQ3E0?oc=5",
+          "url": "http://www.kmkj.kr/news/articleViewAmp.html?idxno=141588"
+        },
+        {
+          "name": "충청타임즈",
+          "title": "오송화장품뷰티엑스포 폐막 … `경쟁력 입증'",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42dU9ubTF3WXI3S1VoMW9jSmdrZFZkLWxQY19yVnd3M3g3YlhIbnNSNDRGY0pyMFR6cXNVMUdEeUJaNFNaTEdCTEpWcDRXMHY3eGJnRWVQU1VaZ2paTDlmbGl3b0hnX3RE?oc=5",
+          "image": "https://www.cctimes.kr/news/thumbnail/202610/933713_416983_1449_v150.jpg",
+          "url": "https://www.cctimes.kr/news/articleView.html?idxno=933713"
+        },
+        {
+          "name": "뉴스핌",
+          "title": "2026 오송화장품뷰티엑스포 성료...K-뷰티 도약의 장으로",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWSC1FN1ZqZE9zVWpMZk9ucFBMb25sRzFPQkRDNFFOanBQREhPSlh2VjFkcGlveE81NEN4S09LdU5heG53UVh6ZzRiS1MyMmlYRXNYOVpJUHZDaG1H?oc=5",
+          "image": "https://img.newspim.com/news/2026/10/25/2610251742307510_t1.jpg",
+          "url": "https://www.newspim.com/news/view/20261025000132"
+        },
+        {
+          "name": "중부매일",
+          "title": "2026 오송화장품뷰티엑스포 성료… 수출상담 2억6천982만달러 성과",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vSjF4UGFZTlZDekZzZVVDRHdUMWRYLVk4ZHBMb3JEcEdoNkJkSXhPSzVncFlLWUs0SUN2VXp3R0FEU3FsMVc3OHhQZHJOeEYzRUctMGFrNTRWcHFaV3pJMUd6Zm1MQ1czVllKdnBB0gFuQVVfeXFMTW9KMXhQYVlOVkN6RnNlVUNEd1QxZFgtWThkcExvckRwR2g2QmRJeE9LNWdwWUtZSzRJQ3ZVendHQURTcWwxVzc4eFBkck54RjNFRy0wYWs1NFZwcVpXekkxR3pmbUxDVzNWWUp2cEE?oc=5",
+          "url": "https://www.jbnews.com/news/articleViewAmp.html?idxno=1514331"
+        },
+        {
+          "name": "생생비즈플러스",
+          "title": "오송화장품뷰티엑스포 \"K-뷰티 대표 수출 플랫폼 자리 매김\"...수출 계약 1억달러 육박",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fT0FUcjdZSUpDMFd1b1NCaWFYNGFoLVlIZFU4dThmdmhWOU9LeFhSVllEUWhWMlNLNUdCZzVHUk1SVVF4SE9rc29XWmhCTUo3N0M2SXFhekFJUHFCX1RmVnN1QWhHNFExV2tkVQ?oc=5",
+          "image": "https://cdn.livebiz.today/news/photo/202610/205900_207913_325.jpg",
+          "url": "https://www.livebiz.today/news/articleView.html?idxno=205900"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "쿠팡 현장조사 불응에…공정위 “기업조사 거부땐, 매출 1% 과징금 내야”",
+          "summary": "",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12185329",
+          "original_title": "쿠팡 현장조사 불응에…공정위 “기업조사 거부땐, 매출 1% 과징금 내야”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "쿠팡 현장조사 불응에…공정위 “기업조사 거부땐, 매출 1% 과징금 내야”",
+              "link": "https://www.mk.co.kr/news/economy/12185329",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/26/rcv.NEWS1.NEWS1.20261021.2026-10-21T123930_1008171138_POLITICS_I_R.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "주병기 “조사 거부 땐 매출 1% 과징금 부과해야”",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5Y293cWRiM1JSN0M2aDdwV3cxU0pEYVZ4Q2tEclozUi1oY2d0Wk8waWZhbXpXNXNnUElKN2ZoRFZrbDlWOGdBb1NoSHpJZXo0MWE5dURmSTZsU0JMUVJJNVFHMzBCdw?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/10/26/20261026_w0uHl0.jpg",
+              "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8694687"
+            },
+            {
+              "name": "뉴시스",
+              "title": "주병기 \"조사 거부시 과징금 강화해야…매출 1% 부과 효율적\"",
+              "link": "https://www.newsis.com/view/NISX20261025_0003839930",
+              "image": "https://img1.newsis.com/2026/10/21/NISI20261021_0021498769_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "골드만, 코스피 목표 1만2000→9000으로 낮췄지만…\"상승 여력 60%\"",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261025_0003840248",
+          "original_title": "골드만, 코스피 목표 1만2000→9000으로 낮췄지만…\"상승 여력 60%\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "골드만, 코스피 목표 1만2000→9000으로 낮췄지만…\"상승 여력 60%\"",
+              "link": "https://www.newsis.com/view/NISX20261025_0003840248",
+              "image": "https://img1.newsis.com/2026/10/23/NISI20261023_0021501836_web.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "“코스피 목표 25% 낮췄는데 상승 여력 60%?”…골드만삭스의 반전 전망",
+              "link": "https://www.mk.co.kr/news/stock/12185306",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/25/news-p.v1.20261015.2ec888a819a6442da00f63008e137e06_R.jpeg"
+            },
+            {
+              "name": "YTN",
+              "title": "골드만삭스, 코스피 목표가 하향...\"60% 상승 여력\"",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZQzU2WVM2SWtfNEZ1cjd6ODNhc2R4ek1wSDRWQzFlc1NoaHpWdmxyZ0R0TDFYU3ozOUU5UkhPUEMzQndfazZSY18yV1JXRjZzLW8tQVhaUFdoQ1hwRnc?oc=5",
+              "url": "https://www.ytn.co.kr/_ln/0104_202610252047544806"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "지드래곤에 먼저 \"만나자\" DM 보낸 이효리, '한정판 향수' 선물 받았다..\"고마워\"",
+          "summary": "",
+          "source": "스포츠조선",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3I0SzN5NFVvRlY4MVI2VHcwNEV4am5OTTRzMVRiWm5PMUZIZ1BnNjV5NTdHTkhhQ2txRVVZdS01X2VCMVRwU0l4cEFDM1RfWGpJSDh2YnhiTkhKd1VBOW0xR2ZNT2JGejVGRTJudGZSalBUWUZNY1hudFk0MXRQd3N0amo?oc=5",
+          "original_title": "지드래곤에 먼저 \"만나자\" DM 보낸 이효리, '한정판 향수' 선물 받았다..\"고마워\"",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "스포츠조선",
+              "title": "지드래곤에 먼저 \"만나자\" DM 보낸 이효리, '한정판 향수' 선물 받았다..\"고마워\"",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3I0SzN5NFVvRlY4MVI2VHcwNEV4am5OTTRzMVRiWm5PMUZIZ1BnNjV5NTdHTkhhQ2txRVVZdS01X2VCMVRwU0l4cEFDM1RfWGpJSDh2YnhiTkhKd1VBOW0xR2ZNT2JGejVGRTJudGZSalBUWUZNY1hudFk0MXRQd3N0amo?oc=5",
+              "image": "https://www.sportschosun.com/article/html/2026/10/25/2026102501001548900101181.jpg",
+              "url": "https://www.sportschosun.com/entertainment/2026-10-25/202610250100154890010118"
+            },
+            {
+              "name": "조선비즈",
+              "title": "이효리, 지드래곤과 뜻밖의 친분 공개..한정판 향수 선물에 \"고마워♥\" [핫피플]",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa2NzMjNULUFLRjJRX3Q5Wk1PZ2NBS0ZUYkRwcGY3WVI5QmVRajRSelhKTDI1aDVCVG00bmtxZXc1cjRiS3JyRGU3VDlFWENpaUh0Rlg0ZklZaF9kMldTbUQ5d0ZEeFRKY19xNWZkcFBTOVc4Ukx3T0FSdEVhd0RTbE1WZVloSGwxYk1iczNxUXA2ZkVPakdGWHBEZ2VQY1l0SHBkckNHa9IBpwFBVV95cUxNa2NzMjNULUFLRjJRX3Q5Wk1PZ2NBS0ZUYkRwcGY3WVI5QmVRajRSelhKTDI1aDVCVG00bmtxZXc1cjRiS3JyRGU3VDlFWENpaUh0Rlg0ZklZaF9kMldTbUQ5d0ZEeFRKY19xNWZkcFBTOVc4Ukx3T0FSdEVhd0RTbE1WZVloSGwxYk1iczNxUXA2ZkVPakdGWHBEZ2VQY1l0SHBkckNHaw?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/GFTDIYJQGY4DOZJRMEYWEYTEHE.jpg?auth=24b75e37cd7052499aa6ad92bbbd729ffc535d2391314091585bf49258b2882a&width=600&height=315&smart=true",
+              "url": "https://biz.chosun.com/entertainment/enter_general/2026/10/25/MM2TIOJZHEZDOMZVGQZDEZDFMM/?outputType=amp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "무협, LA서 북미 첫 ‘K-프리미엄 소비재전’ 성료…수출 상담 400건",
+          "summary": "",
+          "source": "서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82SW5PY1hNN0Jld1R3eDJCN1VVSUctVjB3cjFaYUpPOHAyOVhoRGJXU3V4MkxpX2xSUnpfR2hoWWV6NEZaZTZuaWpOZ2JMRzZ2ZEHSAVNBVV95cUxNM3BHZ2tINUFDQ05FelZzaEUtdTc4ZkRrem5GQ3BHU0dyMGw3NEdoX0EtNVVPUm84VHdqU3RoYmNCTXdDa2g3S2w1RzQ2QWNKclFtMA?oc=5",
+          "original_title": "무협, LA서 북미 첫 ‘K-프리미엄 소비재전’ 성료…수출 상담 400건",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "서울경제",
+              "title": "무협, LA서 북미 첫 ‘K-프리미엄 소비재전’ 성료…수출 상담 400건",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82SW5PY1hNN0Jld1R3eDJCN1VVSUctVjB3cjFaYUpPOHAyOVhoRGJXU3V4MkxpX2xSUnpfR2hoWWV6NEZaZTZuaWpOZ2JMRzZ2ZEHSAVNBVV95cUxNM3BHZ2tINUFDQ05FelZzaEUtdTc4ZkRrem5GQ3BHU0dyMGw3NEdoX0EtNVVPUm84VHdqU3RoYmNCTXdDa2g3S2w1RzQ2QWNKclFtMA?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/10/25/news-p.v1.20261025.bf81892a67ac4beb82e28acf52839ec0_Z1.jpg",
+              "url": "https://www.sedaily.com/article/20105770"
+            },
+            {
+              "name": "신아일보",
+              "title": "무협, 북미 첫 'K-프리미엄 소비재전'…120개사 400건 수출상담",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmZjN5amdXeTBFeDRVcVo1TzJKbng5ZFlIdlkycnBYUmJtckNJZUV1VUpJcWdVTVRCaXR1TmpfdHNKdTFPQmptR3htcFFXUkptNHl2dzJDRkdxamgtMl9nOXJrcUJLX2YxV0J1S2tIeTc?oc=5",
+              "image": "https://cdn.shinailbo.co.kr/news/photo/202610/5075644_2073177_5456.jpg",
+              "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5075644"
+            },
+            {
+              "name": "뉴시스",
+              "title": "무협, LA서 북미 첫 'K-프리미엄 소비재전'…바이어 120곳과 400건 상담",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wSG9Nc2RYV0FxQWZKTjBqUmllVVN4NXN1cEswOGVTdE1tM0NWSmhXVVhNeVJPR1pCeGpmZ3JQRlE3TUtSeGctY3BMMnhMdDRKTzgzMVdYSGFUYTlXM19VLdIBeEFVX3lxTE1wVGtneHludVlyNE4xNzRNOHczcm5jZkt5ZFg4TzNJdWNpajZ3VE1RUmtvcldOYVVfN0o0RmlNaG4yeEdzdXNYcDNQXzV1MWNJNnJNQWk5NGlzNkFhZWQ4SmNuRlVMYmFadURCb19LVG9OUFlvZFZjcw?oc=5",
+              "image": "https://img1.newsis.com/2026/10/25/NISI20261025_0002273130_web.jpg",
+              "url": "https://www.newsis.com/view/NISX20261024_0003839670"
+            },
+            {
+              "name": "전자신문",
+              "title": "북미 첫 상륙 'K-소비재전'…400건 수출 상담·1.6만명 몰렸다",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrUVNvMW43T0s1YUdab0dHR2ROOFFpV2NXZ1J6dFR3cmdJY1c2Q3FORVVza2V3YUVnN1VtNUQ4SmlYMUc2MnZYak5USUZpQQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/10/25/news-p.v1.20261025.f5b1c7a9d575401ead7cb4e097acb244_P1.jpg",
+              "url": "https://www.etnews.com/20261025000051"
+            },
+            {
+              "name": "뉴스웍스",
+              "title": "무역협회, LA서 첫 'K-프리미엄 소비재전'…85개사 북미 공략",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qS2dEN0JrdE1LczdaZF8xRzV2NnRhcHh1Q3FJRHZGcWRqYWpiZ2xnODRuc3p4UjFvS3VmOHE2U3NyZXBob0JRUk9zRzNUNTJpMnh5Z2ZGMnVUQ2JYM3JVc25wdVRCaG5rZ2pJVFRJY9IBc0FVX3lxTE1wQm42VDJfajVYZVVOZ0d4a1R4VnF4MGxCNVZ4NWswYjFSSV95OXE5bjM2dWZ5Y3lvcEJ5S3JJeHFMVmVtb0RKSklJdjE2V2dfV1Y4RU1GQWVTTUJpM09qX0hjSGlLcjQ3V0x6QWljQzlFdXM?oc=5",
+              "image": "https://cdn.newsworks.co.kr/news/photo/202610/900667_900884_3034.jpg",
+              "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=900667"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "KB금융, 2026 웰니스 보고서 발표",
+          "summary": "KB금융이 2026 한국 웰니스 보고서를 발간했다. 보고서는 건강 관심이 몸에서 마음으로 이동하고 있다는 점을 강조했다.",
+          "source": "S저널",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmQUw5bzM3T21GREllUHJjZTg3UURoQzk3ZVl0MkwwUDRXY256VnBqTFIzdEt1eXVwemU3WWR0RHJTRjJNU19EQk1nQ3A0VnppWkxJeFRpWkNGLXRPbEk2dGk4OXRaRlhQTHNnV0ZB?oc=5",
+          "original_title": "KB금융, ‘2026 한국 웰니스 보고서’ 발간… 건강 관심, 몸에서 마음으로",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "S저널",
+              "title": "KB금융, ‘2026 한국 웰니스 보고서’ 발간… 건강 관심, 몸에서 마음으로",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmQUw5bzM3T21GREllUHJjZTg3UURoQzk3ZVl0MkwwUDRXY256VnBqTFIzdEt1eXVwemU3WWR0RHJTRjJNU19EQk1nQ3A0VnppWkxJeFRpWkNGLXRPbEk2dGk4OXRaRlhQTHNnV0ZB?oc=5",
+              "image": "https://cdn.s-journal.co.kr/news/photo/202610/44779_56001_95.jpeg",
+              "url": "https://www.s-journal.co.kr/news/articleView.html?idxno=44779"
+            },
+            {
+              "name": "금융계",
+              "title": "KB금융, '2026 한국 웰니스 보고서' 발표…웰에이징 관심 59.9%·실제 준비 29.8%",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04OUZjczMyUFRoNEZvYWxrOTZUSXl0THBzN3lYUDFIWmFaNklUaDViUV9DNVI1SDhWRkh1YW5jSDhZT0U5U1c1RkNuUXJoWktHYWdab1hKSTd4QTZNV0xOcEtMYm5UajDSAWtBVV95cUxNa3gwZ1R6eGpnUWhLR2ZsaVZpYmRmb3ZwdVo0Zl8tdHhFSHlQN1pkbk5RWVpOa0xFbm1YYklrSkhFamtjSW5kb1VKcDJnMFZvVXpwSmlKUW1Wd3ZoVHB3SmVpMG9aaXA1Z3FLbw?oc=5",
+              "image": "https://cdn.fn1966.com/news/thumbnail/202610/43703_47735_2451_v150.jpg",
+              "url": "https://www.fn1966.com/news/articleView.html?idxno=43703"
+            },
+            {
+              "name": "파이낸셜신문",
+              "title": "KB금융, '2026 한국 웰니스 보고서' 발간...\"건강관리, 몸에서 마음으로 이동\"",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wekV6d09NeWhmaXFmYVQtOS1HUEFTbGcyc0RzQjMwVUFFN3I4LXZIb2piLVdKWmhzdHV5NF9XcHhJcl95YjdJN1IxM19IZWFOX3V2d3hSYlBxOVdxbXlGb24tOF9MUVRKbEdB?oc=5",
+              "image": "https://www.efnews.co.kr/news/photo/202610/133419_121029_1551.jpg",
+              "url": "https://www.efnews.co.kr/news/articleView.html?idxno=133419"
+            },
+            {
+              "name": "한국금융경제신문",
+              "title": "KB금융, ‘2026 한국 웰니스 보고서’ 발간",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qTDJobll0Um9xLXd0VmctN2FYWTRNTUJNSDlIYnpfM3lMb2FiVzdIT0VEa0JzRWRsV2FIY25GanBaRGJwclFJTE5XZXRIS3o4Tkx1a09qV2VYZFZWSkpXcWdtcEg2bmxrdUxVdNIBcEFVX3lxTE1LejZCeGZ1Q192Tl9GMTcteUFNaGVGYmJkNmZHYlFUTVQ3Z2JXMF9XOXJRd3pBdlJVMXlvMFlUd2RzRDB1NWY4ME1ocmhRcER4LVFTbHJtaEdKUEN1RTlQU25ybk9LYXc3cjUtUThHcXE?oc=5",
+              "image": "https://cdn.kfenews.co.kr/news/thumbnail/202610/666912_140293_4920_v150.jpg",
+              "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=666912"
+            },
+            {
+              "name": "라이센스뉴스",
+              "title": "[금융 게시판] KB금융, 한국 웰니스 보고서 발간…하나·우리금융, 취약계층 겨울나기 지원",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BeVFUTFZlVUkwYlhaaG9wX0xiak9XbGdhd1pIWFZfWWFiQTJRTXI5eVJhV1F0RmtRZVBwNFp1QWZTbXQ0QmNuUjVjTE9mdnF6eUlFdzZnc0dPc0RSWmQySGhNZEtKdy1zVzJv?oc=5",
+              "image": "https://cdn.lcnews.co.kr/news/photo/202610/210214_213320_1514.jpg",
+              "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=210214"
+            }
+          ]
+        },
+        {
+          "headline": "차 6~8잔, 심장 건강에 도움",
+          "summary": "세계일보가 발표한 연구에 따르면 하루 6~8잔의 차가 심장 건강에 도움을 줄 수 있다. 종류와 첨가물에 따라 효과가 다를 수 있다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tczlLTl9KRFVhakl4eGdNRjZwVzhQeG5FS0dyM2E5eExIRjdrekNTN0IyVFpkeFdieHRuZGZ0NkcwcGZyTWJ2TUZtQ1VTdHZtb0JwS1F1RUfSAVRBVV95cUxOSEFGano1U09jLVNjaDBDV090dWpTT1hCWTFBUXk1LW40Z0NtN0NGdzdjMHZXZWlqSGlRemM0Nmo1ZmRwb0lmMnB3TzV5UXBhUXN6MVA?oc=5",
+          "original_title": "하루 6~8잔 차 마시면 심장 건강에 도움…종류·첨가물 따져야 [연구]",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "세계일보",
+              "title": "하루 6~8잔 차 마시면 심장 건강에 도움…종류·첨가물 따져야 [연구]",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tczlLTl9KRFVhakl4eGdNRjZwVzhQeG5FS0dyM2E5eExIRjdrekNTN0IyVFpkeFdieHRuZGZ0NkcwcGZyTWJ2TUZtQ1VTdHZtb0JwS1F1RUfSAVRBVV95cUxOSEFGano1U09jLVNjaDBDV090dWpTT1hCWTFBUXk1LW40Z0NtN0NGdzdjMHZXZWlqSGlRemM0Nmo1ZmRwb0lmMnB3TzV5UXBhUXN6MVA?oc=5",
+              "image": "https://www.segye.com/content/image/2026/10/25/20261025503978.jpg",
+              "url": "https://www.segye.com/newsView/20261025503930"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "법무장관 후보 박균택·양부남 검토",
+          "summary": "박균택·양부남은 이재명 대통령의 변호사이며 검사 출신으로 법무장관 후보로 검토 중이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261026/134905857/2",
+          "original_title": "법무장관 후보 박균택-양부남 압축, 둘 다 李변호인-檢 출신",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "법무장관 후보 박균택-양부남 압축, 둘 다 李변호인-檢 출신",
+              "link": "https://www.donga.com/news/Politics/article/all/20261026/134905857/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134906292.1.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "법무장관에 ‘이재명의 변호사’ 박균택·양부남 검토 중",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fT0NGeG5vZ0ZFMUhiNUUyU2h0dXZqaVFUa2xGWXlOV2NJemxub2MzU3plZ1NCR0tpQnU1YzlPWnJCUWU1R2pTS3J4N0tBRXoxNEJ5RzFqUDduUdIBX0FVX3lxTE0zMG1GZUpqRFJGZDBVWk5FS2t1ZHZFdzNRZkRvVGpxY2V1WHhtUnBqaEFjMjdYcEJXQ29yNVB1ekxyR1Brdkd0cGJCaFNvRk5EWFFUUkVoTVdhQ29PRm9j?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/10/25/l_2026102601000716800071211.jpg",
+              "url": "https://www.khan.co.kr/article/202610252201005"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "법무장관 후보 박균택·양부남 의원 압축…검찰 출신·호남 현역",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813787",
+              "image": "https://img.sbs.co.kr/newimg/news/20261025/202234575_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "국힘 주진우, 총선 투표소 41곳 적발",
+          "summary": "주진우 의원은 22대 총선 때 수기로 작성된 개표 상황표와 결과가 다른 41곳을 적발했다고 밝혔다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813854",
+          "original_title": "국힘 주진우 \"총선 때 결과값 다른 투표소 41곳 적발\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "국힘 주진우 \"총선 때 결과값 다른 투표소 41곳 적발\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813854",
+              "image": "https://img.sbs.co.kr/newimg/news/20261025/202234589_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "국힘 주진우 \"투표소 41곳, 22대 총선 개표상황표·결과 달라\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54N3phekpQTFZyMVlUVGNFNkxMcEVqRjF3Mm5menJ2YXhsYTFwaUs4TTdXU2hvWnEtaTR4NzMwcURiRUJ3VmJjNDJ6UkJ4NlBmZWV1Sk9td3Bvb3p1NzhZRm9JMEdmVzg?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261025/AKR20261025132411HGn_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261025132411HGn"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "국힘 주진우 \"개표상황표·개표 결과값 다른 투표소 41곳 적발\"",
+              "link": "https://www.yna.co.kr/view/AKR20261025023000001",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102312540001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "푸틴, 유럽 소요 사태 지도자 무능 비판",
+          "summary": "블라디미르 푸틴은 프랑스, 스페인, 이탈리아 등 유럽에서 벌어지는 시위·소요 사태에 대해 ‘러시아 배후설’을 부정하며 해당 국가 지도자들의 무능과 책임감 부족을 지적했다",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261026/134906517/1",
+          "original_title": "푸틴, 프랑스 등 유럽 소요 사태에 “지도자들 무능 때문”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "푸틴, 프랑스 등 유럽 소요 사태에 “지도자들 무능 때문”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261026/134906517/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/26/134906543.1.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "푸틴 \"파리 등 유럽 소요 사태 지도자 무능 때문\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14WlltY0xSVXpJRjVvb1FJcXBPS2Ruem0zYndKa3FHOXBHY3NwajdXU0dRSE5WeTdFdTZROGZLaGxNU3ZQZVZjSGJHcW1nTXJEdUdxSHJudkpaT0I2UXpKR1l5ZUtlTVh1b1ljUGRlOGdpMGp10gF0QVVfeXFMUDJPRWtaS2RVQjRMZ0J2V004OGpIMHh2Z2JpdUpmMWRSYVpPLVNWQVBpTng2ZmhraHZ6dWhYMUhNaV83bF8tTjZSUTJHa0FEUnVfM25zOTNzN1NsbWNURFVDaVBReENRNm03RGcxeUNYREtYamM?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/10/25/yh_20261025-22.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6860616_36925.html"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "푸틴, 파리 등 유럽 소요 사태에 \"지도자 무능 때문\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008814133",
+              "image": "https://img.sbs.co.kr/newimg/news/20261025/202234688_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "푸틴, 파리 등 유럽 소요 사태에 \"지도자 무능 때문\"",
+              "link": "https://www.yna.co.kr/view/AKR20261025051700108",
+              "image": "https://img1.yna.co.kr/photo/etc/ta/2026/10/23/PTA20261023088801009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "인천시, AI·ICT 활용 스마트서비스 확대…2028년 신규사업 발굴 본격화",
+          "summary": "",
+          "source": "뉴스타운",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CYUhfYmZzR09QUE1OeGl4TWZOYU4tcm1KOTBvdXdYM2hpUzhqZktWYkJXQV9HOXdMN2ZfUDNybUhPV1ZkQkJzZkFPRS1yZGE3RzBJVm9EXzF3dF9pSUxKcm9kTzBzeVpRcHBLTDBR?oc=5",
+          "original_title": "인천시, AI·ICT 활용 스마트서비스 확대…2028년 신규사업 발굴 본격화",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "뉴스타운",
+              "title": "인천시, AI·ICT 활용 스마트서비스 확대…2028년 신규사업 발굴 본격화",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CYUhfYmZzR09QUE1OeGl4TWZOYU4tcm1KOTBvdXdYM2hpUzhqZktWYkJXQV9HOXdMN2ZfUDNybUhPV1ZkQkJzZkFPRS1yZGE3RzBJVm9EXzF3dF9pSUxKcm9kTzBzeVpRcHBLTDBR?oc=5",
+              "image": "https://cdn.newstown.co.kr/news/thumbnail/202610/719610_675578_4821_v150.jpg",
+              "url": "https://www.newstown.co.kr/news/articleView.html?idxno=719610"
+            },
+            {
+              "name": "데일리안",
+              "title": "인천시, AI로 지역 문제 푼다…2028년 스마트서비스 시동",
+              "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbGR4T08xXzZMT24tUmpEbFV6YllpNmI4MDNJMXdWak5lZU1USGhnVUhfV3J6YVppbTBaZDhWTnc5WldUZ05yUWpRNldlWFREc0FETDZ3em9zRk9TRHdaNkhKQmlqN2YxRW9tUmNHTjBsVkh2S1IxeEo3RlpDdGphZnVrRHZudzJsMzFqcUxBSFQzSzJOZXFxS0h3MHRyc3pKVDJwMzB5bndhMUJ2T3BTWjlNTmljdEw5cm5RZ2R0T0ZQUmhIbEl4VjhZTUtLYU5IYldYZEdUT1JoRlkzYzZ5aXlrdw?oc=5",
+              "image": "https://cdnimage.dailian.co.kr/news/202610/news_1792895547087_1705798_m_1.jpg",
+              "url": "https://www.dailian.co.kr/news/view/1705798/%EC%9D%B8%EC%B2%9C%EC%8B%9C-AI%EB%A1%9C-%EC%A7%80%EC%97%AD-%EB%AC%B8%EC%A0%9C-%ED%91%BC%EB%8B%A42028-2026"
+            },
+            {
+              "name": "투어코리아",
+              "title": "인천시, ‘2028 스마트빌리지 보급 사업 설명회’ 개최... ICT·AI 기반 맞춤형 서비스 확대",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ha3ZLNk54ZGpkRmtVSDh3SFptcWZmaEY1R0tUNktXNXJOeWdfd1BNWDV6WlFyY3RYTWdKYVJyOXg1dWpnY0FBYU9MMjY4bW1xUHdIMUNISnRjZ01ZOFhYem1GSnFIekZWUVB2MUNn?oc=5",
+              "image": "https://cdn.tournews21.com/news/photo/202610/146587_273123_5039.png",
+              "url": "https://www.tournews21.com/news/articleView.html?idxno=146587"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "타짜, 5주 차 198만 관객 돌파",
+          "summary": "타짜: 벨제붑의 노래는 개봉 5주 차에 누적 관객 198만 명을 돌파하며 한국 영화 흥행 7위에 진입했다. 국내 흥행 순위에서 큰 주목을 받으며 관객 반응은 긍정적이었다.",
+          "source": "https://www.frame-less.co.kr/",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TaElyRHBzNlczeFFKTWotUG9uWlBzbFJlbXoyWjVFZTd3UExtMm84aDU4UTlxSnZObjZyZGVUd0h1clU4bXRfaE5QUGNPMUprTGRacnpOMDNtU1dqMi0tZHJEM2Zsc2RUT0tEdkpB?oc=5",
+          "original_title": "‘타짜: 벨제붑의 노래’, 청불 핸디캡 뚫고 올해 한국영화 흥행 TOP 7 등극개봉 5주 차에 누적 198만 돌파",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "frame-less.co.kr",
+              "title": "‘타짜: 벨제붑의 노래’, 청불 핸디캡 뚫고 올해 한국영화 흥행 TOP 7 등극개봉 5주 차에 누적 198만 돌파",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TaElyRHBzNlczeFFKTWotUG9uWlBzbFJlbXoyWjVFZTd3UExtMm84aDU4UTlxSnZObjZyZGVUd0h1clU4bXRfaE5QUGNPMUprTGRacnpOMDNtU1dqMi0tZHJEM2Zsc2RUT0tEdkpB?oc=5",
+              "image": "https://cdn.frame-less.co.kr/news/photo/202610/5643_14924_1359.jpg",
+              "url": "https://www.frame-less.co.kr/news/articleView.html?idxno=5643"
+            },
+            {
+              "name": "이데일리",
+              "title": "‘타짜4’, 청불 핸디캡 넘었다… 올해 한국영화 흥행 톱7",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSGYyOWphQUdsU2FEMWRtN1JFLUtXM1p4MU9kQVFpYkFkeF9RckxoaDlMTDI2ZVEteng1QzRIR092S3dySnZ1OW1ScDM4RXB6NFVtLVVoRDFNVDRIQ3lmTmxocWlUcjBIblY5Um04MHUxWmpXLXpBbXpjY0hlWnpKWg?oc=5",
+              "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/10/PS26102500711.jpg",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=02246806645616528&mediaCodeNo=257"
+            },
+            {
+              "name": "iMBC 연예",
+              "title": "'타짜' 2026 한국 영화 TOP 7 진입",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83S3VoN3p5dGdJZC1LS0FMbFpwcFJpbVdhRXZzR0NhSkhJR18xdVdCLWVwa0laRGIwdHJHMlRJdC01Ym05eW9MeGZ0dGYtTldfN25EdQ?oc=5",
+              "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/10/25/320a6413-84f3-4570-b189-c23d04b898ff.jpg",
+              "url": "https://enews.imbc.com/News/ViewAmp/522389"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "청불 핸디캡 깬 입소문의 힘…‘타짜: 벨제붑의 노래’ 2026 韓 영화 톱7 등극",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9OY2F1aEZVNEpEYnFoNWdLVkpmdzVXSGhpTVQ4anpmMU9VQ1NyMEprQkVYb2tTeGhtdzlERWJ1bnB0RGxFM2dNa2MyOEt0bEEwZHRnRzNfM3k3RGtWcHlOQzd5TG9lbml2QmVfZ3lR?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/07/134798997.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261025/134902896/1"
+            },
+            {
+              "name": "파이낸셜투데이",
+              "title": "‘타짜: 벨제붑의 노래’, 2026 한국 영화 톱 7 진입…청불 핸디캡 깼다",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10R2drQkViaUV4X2QtbWhmS1R1R0JPYmNqXzExdG5iaFdkVmhzU3B6TmxIbWZOdXdidjl5aTBfQXRrR0JYdEQzU3JmaEg1ODNpZjh2MnZmWl9iaFl0SEtfTlY5T3gyVjl1UUZJ0gFuQVVfeXFMT21DTU5ST1l1WU1DSXlfVkdxcXByeGJRODNfYTM1MXBOVEZlVl9wdGdPaE9rLTh4OXlqY0VrM2pUYWhmTWQyb2JzRGkyWXc3TWF1Zi04eUY2OHlzXzlnTlFvemlxU3BRVFVtUGtzNXc?oc=5",
+              "image": "https://cdn.ftoday.co.kr/news/thumbnail/202610/368045_377966_5145_v150.jpg",
+              "url": "https://www.ftoday.co.kr/news/articleView.html?idxno=368045"
+            }
+          ]
+        },
+        {
+          "headline": "암살자(들), 박스오피스 1위 재탈환",
+          "summary": "암살자(들)은 개봉 5주 차에 한국 영화 박스오피스 정상에 재도약했다. 5주 차 관객 수는 1위에 머물면서 큰 관심을 끌었다.",
+          "source": "더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfX0NCel9NSWpIb2o5NjRMem9sM2FQQ1JscHNxVzZ3NHNZSnlZYVNLZ3ZGRC1xZWxROTJXOW5oWTEyRW1BYVctZmNEZVZQdmZWcDcxMUdpc9IBV0FVX3lxTFBfX0NCel9NSWpIb2o5NjRMem9sM2FQQ1JscHNxVzZ3NHNZSnlZYVNLZ3ZGRC1xZWxROTJXOW5oWTEyRW1BYVctZmNEZVZQdmZWcDcxMUdpcw?oc=5",
+          "original_title": "'암살자(들)', 개봉 5주 차 韓영화 박스오피스 정상 탈환",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "더팩트",
+              "title": "'암살자(들)', 개봉 5주 차 韓영화 박스오피스 정상 탈환",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfX0NCel9NSWpIb2o5NjRMem9sM2FQQ1JscHNxVzZ3NHNZSnlZYVNLZ3ZGRC1xZWxROTJXOW5oWTEyRW1BYVctZmNEZVZQdmZWcDcxMUdpc9IBV0FVX3lxTFBfX0NCel9NSWpIb2o5NjRMem9sM2FQQ1JscHNxVzZ3NHNZSnlZYVNLZ3ZGRC1xZWxROTJXOW5oWTEyRW1BYVctZmNEZVZQdmZWcDcxMUdpcw?oc=5",
+              "url": "https://m.tf.co.kr/amp/entertain/2380426.htm"
+            },
+            {
+              "name": "iMBC 연예",
+              "title": "'암살자(들)' 거침없는 역주행…韓영화 박스오피스 1위 탈환",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LQzZwa2dSMzdDNEtndDhMTFIzZnFpV2N4YWF3WW1SUjFjc3FOX0tYZXJDN1Vqa3gtYzVuVzZKRkhJU3VoTHFJOTZuUGQxMEJuUzZqVg?oc=5",
+              "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/10/25/c08b65ab-b686-4ca9-9ffc-8649245cc082.jpg",
+              "url": "https://enews.imbc.com/News/ViewAmp/522363"
+            },
+            {
+              "name": "스페셜타임스",
+              "title": "‘암살자(들)’, 개봉 5주차에도 韓영화 박스오피스 1위 탈환",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsY3VRSnZ5NExjM1NBTHR1YUNxQk9rb1RycW54d0pjcXVHVTBWbXdPaXFUMFRMSHh2LS1NdUU0d19wTllXdEpVTmZtOEhZUFBlZlVmVkVpczRocXhycTUwcmdqVFlBWkcyQVNyc1RQVEdtem8?oc=5",
+              "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202610/478072_467982_5920_v150.jpg",
+              "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=478072"
+            },
+            {
+              "name": "조이뉴스24",
+              "title": "'암살자(들)', 개봉 5주차 저력…韓영화 박스오피스 1위 탈환",
+              "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wSlpPRkJiVlFQQlBfbzZiQnBHaVJlR3NmWDBETDR6bW9KTmk3X2tzQnAzOGE1NnFYWGE1Q0hMeGpnbTFBLWVncFJ6eTVmRXM?oc=5",
+              "image": "https://image.inews24.com/v1/3a4be23052afc8.jpg",
+              "url": "https://www.joynews24.com/view/2018637"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "‘암살자(들)’, 개봉 5주차 韓영화 박스오피스 1위 탈환",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FTGYtZ2lONnhMdHJSYmVPLWpabjZkSlU0RC1DZE8xY1NuQjJOb1l3UlJCUU55d3BvcEtTRm0zVFhsa2FFeUZsaGlMVnAtYk9vR3BaWVdXVjBxbGlYdHk2T1U1UGlZb2pQenB3eGRn?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/25/134902098.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261025/134902090/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "대한항공, KOVO컵 2연패 달성",
+          "summary": "대한항공이 현대캐피탈을 꺾고 KOVO컵에서 2연패를 기록해 통산 7번째 우승을 차지했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813957",
+          "original_title": "대한항공, 현대캐피탈 꺾고 KOVO컵 2연패…통산 7번째 우승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "대한항공, 현대캐피탈 꺾고 KOVO컵 2연패…통산 7번째 우승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813957",
+              "image": "https://img.sbs.co.kr/newimg/news/20261025/202234609_1280.jpg"
+            },
+            {
+              "name": "경상일보",
+              "title": "‘케트진스키 25득점’ 대한항공, KOVO컵 2연패 달성",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDTDZjT1FoN3MwbHB6YzU3ZF8yZnhQWDBQLWUwc0N6SjdiR1l0SUx4V25EaWFqdDdFY21hcGExeEdkTWhrQTEyaFBabWdZYlJlVkk0WnViS2pkSU9EaWJRQUZHWG1GTVVxdVR0Zg?oc=5",
+              "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1070477"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "대한항공, 현대캐피탈 꺾고 KOVO컵 2연패…통산 7번째 우승",
+              "link": "https://www.yna.co.kr/view/AKR20261025034600007",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/10/25/AKR20261025034600007_02_i_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "대한항공, 라이벌 현대캐피탈 꺾고 컵대회 2연패…통산 7번째 우승",
+              "link": "https://www.newsis.com/view/NISX20261025_0003840031",
+              "image": "https://img1.newsis.com/2026/10/25/NISI20261025_0002273174_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "애니멀 패턴",
+    "tagline": "화려한 패턴이 돋보이는 겨울 아웃핏",
+    "description": "애니멀 패턴이 주는 강렬한 시각 효과가 특징이다. 겨울에 포인트를 주어 눈에 띄는 스타일이다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "네이비 애니멀 패턴 코트",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "top",
+        "name": "다크 그레이 애니멀 패턴 니트",
+        "color": "다크 그레이",
+        "hex": "#2F4F4F"
+      },
+      {
+        "category": "bottom",
+        "name": "블랙 애니멀 패턴 스커트",
+        "color": "블랙",
+        "hex": "#000000"
+      },
+      {
+        "category": "shoes",
+        "name": "브라운 레더 부츠",
+        "color": "브라운",
+        "hex": "#8B4513"
+      },
+      {
+        "category": "bag",
+        "name": "베이지 가죽 토트",
+        "color": "베이지",
+        "hex": "#F5F5DC"
+      }
+    ],
+    "tips": [
+      "네이비 코트와 다크 그레이 니트를 매치해 차분한 색조를 유지한다.",
+      "블랙 스커트와 브라운 부츠를 조합해 시크한 분위기를 연출한다.",
+      "베이지 토트로 색 대비를 주어 전체적으로 균형을 맞춘다."
+    ],
+    "weather_tip": "맑은 날, 네이비 애니멀 코트에 베이지 토트로 포인트.",
+    "weather": {
+      "city": "서울",
+      "t_max": 21,
+      "t_min": 14,
+      "rain_pct": 25,
+      "sky": "대체로 맑음",
+      "display": "서울 14~21°C · 대체로 맑음 · 강수 25%"
+    },
+    "articles": [
+      {
+        "title": "한번쯤 입어볼까?싶은 이 코트 잘 입는 법",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/10/25/%ed%95%9c%eb%b2%88%ec%af%a4-%ec%9e%85%ec%96%b4%eb%b3%bc%ea%b9%8c%ec%8b%b6%ec%9d%80-%ec%9d%b4-%ec%bd%94%ed%8a%b8-%ec%9e%98-%ec%9e%85%eb%8a%94-%eb%b2%95/",
+        "note": "올겨울 애니멀 패턴 코트가 화려하고 튀는 겉 모습으로 용기를 필요로 한다.",
+        "image": "https://www.wkorea.com/wp_data/w/2026/10/style_6addc392714a4-1920x1080.jpg?x=1321&y=1254&ver=1.1.98",
+        "url": "https://www.wkorea.com/2026/10/25/%ED%95%9C%EB%B2%88%EC%AF%A4-%EC%9E%85%EC%96%B4%EB%B3%BC%EA%B9%8C%EC%8B%B6%EC%9D%80-%EC%9D%B4-%EC%BD%94%ED%8A%B8-%EC%9E%98-%EC%9E%85%EB%8A%94-%EB%B2%95/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "꿈꾸는 방향으로 자신 있게 나아가라.",
+    "author": "헨리 데이비드 소로",
+    "work": "월든"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 활짝 피어납니다"
+      },
+      {
+        "animal": "소",
+        "text": "조용한 하루가 내게 안정감을 줍니다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "용감한 결단이 오늘의 길을 밝혀줍니다"
+      },
+      {
+        "animal": "토끼",
+        "text": "부드러운 웃음이 주변을 가득 채웁니다"
+      },
+      {
+        "animal": "용",
+        "text": "힘찬 에너지가 새로운 도약을 이끕니다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 판단이 오늘의 선택을 돕습니다"
+      },
+      {
+        "animal": "말",
+        "text": "경쾌한 발걸음이 꿈을 가속화합니다"
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 관심이 주변을 밝힙니다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 오늘의 분위기를 살려줍니다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 오늘의 성공을 예고합니다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰와 충성심이 오늘을 지켜줍니다"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍부한 에너지가 창의력을 끌어올립니다"
+      }
+    ]
+  },
+  "reading_minutes": 3
+}
