@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-27",
+  "weekday": "화요일",
+  "vol": 15,
+  "generated_at": "2026-10-27T08:40:50+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5550.3,
+      "change": 16.53,
+      "change_pct": 0.3,
+      "direction": "up",
+      "display": "5,550.30",
+      "change_display": "▲ 0.30%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1324.5,
+      "change": -1.5,
+      "change_pct": -0.11,
+      "direction": "down",
+      "display": "1,324.5원",
+      "change_display": "▼ 0.11%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 106912000.0,
+      "change": -298000.0,
+      "change_pct": -0.28,
+      "direction": "down",
+      "display": "10,691만원",
+      "change_display": "▼ 0.28%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 16,
+    "t_min": 5,
+    "rain_pct": 0,
+    "sky": "대체로 맑음",
+    "display": "서울 5~16°C · 대체로 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "야구",
+      "headline": "이범호 감독, 정해영 수비 칭찬",
+      "summary": "이범호 감독이 정해영의 수비를 칭찬했다.",
+      "source": "조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWV9YRFYtMjFZTnNtZkNUZ0JfQ0w5MllnSC1fVFQ5MEVDaTdRTTFHd1ZsZ3M4NWw2YWJkTnllYVVtSlk4UDdCZVBVOTUyVXZSeC1hOEsyWGZYUW1GYjAyOW9nd1ljYzRtbGlIRVZQOFF3WHFGWlkwWTFmWGVlR1dwdEpKcXhaeF840gGcAUFVX3lxTE5zYWxnb2lGYjdHZnd2Qnh0NzVqVnlFZHdreGxvcGQ5MWVpeC1SN3N2YldfaWJ1anNOblhvMXM1WU1YUEdOUGhDZ1U3b0lObExEUTVlM0pTbVJYZTZudDNvaUx1RXRiOHlXV0IwTkM4OWtFT2FwX0xHMGEtblZPTlRNZjlxWTZHVUx3TFJ3MHpxUUsteFBpQ2hwcnY0bA?oc=5",
+      "original_title": "[사진]이범호 감독,'정해영이 잘 막아줬어'",
+      "sources": [
+        {
+          "name": "조선비즈",
+          "title": "[사진]이범호 감독,'정해영이 잘 막아줬어'",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWV9YRFYtMjFZTnNtZkNUZ0JfQ0w5MllnSC1fVFQ5MEVDaTdRTTFHd1ZsZ3M4NWw2YWJkTnllYVVtSlk4UDdCZVBVOTUyVXZSeC1hOEsyWGZYUW1GYjAyOW9nd1ljYzRtbGlIRVZQOFF3WHFGWlkwWTFmWGVlR1dwdEpKcXhaeF840gGcAUFVX3lxTE5zYWxnb2lGYjdHZnd2Qnh0NzVqVnlFZHdreGxvcGQ5MWVpeC1SN3N2YldfaWJ1anNOblhvMXM1WU1YUEdOUGhDZ1U3b0lObExEUTVlM0pTbVJYZTZudDNvaUx1RXRiOHlXV0IwTkM4OWtFT2FwX0xHMGEtblZPTlRNZjlxWTZHVUx3TFJ3MHpxUUsteFBpQ2hwcnY0bA?oc=5",
+          "image": "https://biz.chosun.com/resizer/v2/MM3WCNTCGVRDCZRYGFRGIMTEMU.jpg?auth=a8c49e166b7ac319a35f5aeb4dfe3dd14c5ea0862243861ced20d5eb36790b5d&width=650&height=341&smart=true",
+          "url": "https://biz.chosun.com/sports/sports_photo/2026/10/27/MRSDKMRSG42TKYLGMEZDOOBXMQ/"
+        },
+        {
+          "name": "뉴시스",
+          "title": "'먼저 1승' KIA 이범호 감독 \"네일 퇴장 후 실수하면 다 잡은 경기 놓칠 수 있다 생각\"[PO]",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02UlMwSXd2emdsN1FYREJuR1JHajZyTGJKVlBNZHJPQWs3eU80d3B5RHFLak9EQjF0cnVDWUl0cTRTUURBd1BSeTMwMlozNnZxRlhkaWhtTHBISkhWOEpfdUF3ZlBWNzh6R2NwZWhzRmFVYzUxd25Zb9IBeEFVX3lxTE02UlMwSXd2emdsN1FYREJuR1JHajZyTGJKVlBNZHJPQWs3eU80d3B5RHFLak9EQjF0cnVDWUl0cTRTUURBd1BSeTMwMlozNnZxRlhkaWhtTHBISkhWOEpfdUF3ZlBWNzh6R2NwZWhzRmFVYzUxd25Zbw?oc=5",
+          "image": "https://img1.newsis.com/2026/10/26/NISI20261026_0002274355_web.jpg",
+          "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261026_0003841945"
+        },
+        {
+          "name": "머니투데이",
+          "title": "“4할 타율도 가능하다” 이범호 감독도 극찬한 카스트로, 홈런 포함 3안타 3타점 원맨쇼…감자칩 5박스는 어디로? [PO1]",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ReXRhOE5HOHRWOHhYNk5ZZ1lNc0d3RUtnTXdvTGM2MEVnd2dVN1dscVI2c2tyY1phWEFwOGd4eXdsM08xSlJhTVJHQXRSeFN0MTZxTEYyLUdhdGFpSjZZQUxCQ1RtSUE0QU9ub1FQd9IBb0FVX3lxTE9ReXRhOE5HOHRWOHhYNk5ZZ1lNc0d3RUtnTXdvTGM2MEVnd2dVN1dscVI2c2tyY1phWEFwOGd4eXdsM08xSlJhTVJHQXRSeFN0MTZxTEYyLUdhdGFpSjZZQUxCQ1RtSUE0QU9ub1FQdw?oc=5",
+          "image": "https://menu.mt.co.kr/cdn-cgi/image/w=1200,h=1440,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/mobile/osen/data/2026/10/26/202610262239772620_1.jpg",
+          "url": "https://www.mt.co.kr/amp/sports/2026/10/27/202610262239772620O"
+        }
+      ]
+    },
+    {
+      "kicker": "수출",
+      "headline": "3분기 중소기업 수출 334억 달러 역대 최대",
+      "summary": "3분기 중소기업 수출이 334억 달러로 역대 최대를 기록했다.",
+      "source": "이슈밸리",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SaXBwcmpfU0U0dnJiSTBRVGFtRy1JTWRkV2RBM2trTEZfYVpvb2dTRXhYSXBpU2RBTmZZQjhqejgyWWt5WXFfQzhadXJFei1ucVB6LUFoQ0xrNllyTWhoYUFSYThWcmVJRmNoRg?oc=5",
+      "original_title": "3분기 중소기업 수출 334억달러 '역대 최대'…K뷰티·반도체 호조",
+      "sources": [
+        {
+          "name": "이슈밸리",
+          "title": "3분기 중소기업 수출 334억달러 '역대 최대'…K뷰티·반도체 호조",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SaXBwcmpfU0U0dnJiSTBRVGFtRy1JTWRkV2RBM2trTEZfYVpvb2dTRXhYSXBpU2RBTmZZQjhqejgyWWt5WXFfQzhadXJFei1ucVB6LUFoQ0xrNllyTWhoYUFSYThWcmVJRmNoRg?oc=5",
+          "image": "https://www.issuevalley.com/news/thumbnail/202610/57513_54231_5820_v150.jpg",
+          "url": "http://www.issuevalley.com/news/articleView.html?idxno=57513"
+        },
+        {
+          "name": "동아일보",
+          "title": "3분기 中企 수출 334억달러 역대 최고… 유럽-중남미서 돌풍 K뷰티가 일등공신",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52dWF3MXhyWm1Qd1pqR1NLVmFnTlNtWXFFSmdqNmhnR1dDdmYwcGpPX2FIMGplTnp3U0tYZWRNbXNwclZlUDd5WUpYYXRjOVc0Ni15dzBva2N6UHJ0SEJaQ2h3OTVybF9NSDBvZUJ6bGZDdlVOMFHSAWZBVV95cUxOMmNma2FBX3RkRFNCOTd1WUdtZlk4Vjc0YWhiUmV1ZlFYM2xoY28wY1JzTVE4QmdIeWZIZHJWVGdXMUw3NlVIZWVSdUt6RjMxckdzZktrQnYxWUQ0Yi0td3lCLXRJRkE?oc=5",
+          "url": "https://www.donga.com/news/Economy/article/all/20261026/134912270/2"
+        },
+        {
+          "name": "농민신문",
+          "title": "“K-뷰티까지 달린다”…올 3분기 중소기업 수출 ‘역대 최고’",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqQ2U0dFRZdjJQdW1PYy1ZYi1XdTJPSHFZUkRZZHc0c0RlcEJrX0cyRlZLRW5qSEFVVDBUNHZQcHNyNGlKMEpNM1lsZS1EMzU4ZEVEY0lDVm1Zdw?oc=5",
+          "image": "https://www.nongmin.com/-/raw/srv-nongmin/data2/content/image/2026/10/26/.cache/512/20261026500600.jpg",
+          "url": "https://www.nongmin.com/article/20261026500607"
+        },
+        {
+          "name": "대한민국 정책브리핑",
+          "title": "K-뷰티·반도체 날개…중소기업 3분기 수출 334억 달러 '역대 최고'",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY01xbWlNOUFTZC0wdjQ1LXNaNWRhT0pXUnA0ZEFFcVpYZjFKZDkyRnYxWHlnTmRfemFBbzFjUjdrcGwzZFlYSFRWRUt4cHBjZFVJYVYzSHdIZ0JOcGxzakZsLWZkc1g2cWI2Q0ttdFYwb1NVbFEyb3RObzBVVVdtQ1QxSk5OTnU4Vmc?oc=5",
+          "image": "https://www.korea.kr/newsWeb/resources/attaches/2026.10/26/7a1b3e1aaa48d76f19f1e041bcf6290a.jpg",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974280&pWise=sub&pWiseSub=R6"
+        },
+        {
+          "name": "경북구미신문",
+          "title": "K-뷰티·반도체가 이끈 중소기업 수출 \"역대 최대\" 실적",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpd3BzTnhqa1A1LVJOaFByNWpIdi04RERGdVdSb3l6REtuNnRGTTRxaXlJVjJhcmJYRklLaThBMmUweFlIdHlxTXhBcnVMXzZvN2JfdjNGWHpnSnFpcUR4b0NaSi1OOFBQZFE?oc=5",
+          "image": "https://cdn.guminews.net/news/thumbnail/202610/17286_19372_721_v150.jpg",
+          "url": "https://www.guminews.net/news/articleView.html?idxno=17286"
+        }
+      ]
+    },
+    {
+      "kicker": "AI",
+      "headline": "인공지능 3대 강국, 국민 총력전 선언",
+      "summary": "국가 차원에서 인공지능 3대 강국이 국민 총력전을 선언했다.",
+      "source": "국민뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBDYWgyMVdxbUxEeTRNQVA3MHk3TTJnOVNrZVV3dmdZZ2lsUU5nLU9ISkh1QUZKYV92aU1mMEE3NVZRRmRBS1d1UWZ3?oc=5",
+      "original_title": "인공지능 3대 강국 국민 총력전 `모두의 AI` 정책 브랜드명·슬로건, 국민이 직접 만든다",
+      "sources": [
+        {
+          "name": "국민뉴스",
+          "title": "인공지능 3대 강국 국민 총력전 `모두의 AI` 정책 브랜드명·슬로건, 국민이 직접 만든다",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBDYWgyMVdxbUxEeTRNQVA3MHk3TTJnOVNrZVV3dmdZZ2lsUU5nLU9ISkh1QUZKYV92aU1mMEE3NVZRRmRBS1d1UWZ3?oc=5",
+          "image": "https://www.kookminnews.com/data/kookminnews_com/bigimg/565668.jpg",
+          "url": "https://www.kookminnews.com/123758"
+        },
+        {
+          "name": "워크투데이",
+          "title": "국민 손으로 만드는 ‘모두의 AI’…정책 브랜드·슬로건 공모전 개최",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15bVlGbGotcUlNb0pmRVE3UmNpSE9oZTh2UlNKRWducVEzX1ctR2NTd3NfZUxkWEdsRXdFRFcweFpUY3I1bFdNNUJmNzBNVW11VERadnhEMXh4eTBiNkIyeDl3dTY4ZXZfTFBfLQ?oc=5",
+          "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=90989"
+        },
+        {
+          "name": "경기일보",
+          "title": "연내 출시 ‘모두의 AI’, 국민이 직접 이름 정한다…브랜드·슬로건 공모",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qc1V6VHJZLUZHUlJLekVsVXA2VURlZGF4VjFmei01bmF4UDNmaW1XY0JvNVlqWjM2LXBpcGJLV0ZZNHVyOGRocW13Vm5mZW1XeEszeFZPcmNlZ3c?oc=5",
+          "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/26/.cache/512/20261026580377.jpg?v=20261027085628",
+          "url": "https://www.kyeonggi.com/article/20261026580281"
+        },
+        {
+          "name": "매일일보",
+          "title": "연내 출격 '모두의 AI' 이름 국민이 짓는다",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSOFpHamJZOUNZWmNxSzloQUc2TDAzbFpTZHkySjdrN3dlQXNVVUlaV1FUTmo3blNUVFptV3dsU1M5NUd3YU1DMjgtZUF3dWV0elFaNUU4bG1xdTZvUWFsa1V0VXo?oc=5",
+          "image": "https://cdn.m-i.kr/news/photo/202610/2010383_2010498_3735.jpg",
+          "url": "https://www.m-i.kr/news/articleView.html?idxno=2010383"
+        },
+        {
+          "name": "인공지능신문",
+          "title": "국민 누구나 이용하는 ‘모두의 AI’, 이름도 국민이 짓는다…정부, 브랜드 공모전 개최",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ma0Frd0RURFRYYUZUOExINC1FcUt3cFpBT0ZmVkVpT0hRRVlFcWppWktVVVc3XzJYNTRKUDZqTXE2ejFpZGMta0RFQ1dIT3FleWRZOHcycHNDTzNQRG5VQWdEYTh2UVE?oc=5",
+          "image": "https://cdn.aitimes.kr/news/thumbnail/202610/42432_63781_2748_v150.jpg",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=42432"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "앤트로픽, 미국 증시 상장 준비 발표",
+          "summary": "앤트로픽이 미국 증권거래위원회에 상장용 서류를 제출했다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/stock/12186407",
+          "original_title": "앤트로픽, 나스닥 상장 신청",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "앤트로픽, 나스닥 상장 신청",
+              "link": "https://www.mk.co.kr/news/stock/12186407",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "앤트로픽, 나스닥 상장 공식화…AI 위험성도 언급",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15NmJ5MDVUeXRJdXRsRUJuMWwtZy1FUUVXV3JtOEdXR1lmSjNGckNZb1FJTjMxT2RTQUJacWxaTXZYclpXeFlNZkR3WjdGWXM5cGdxVEI1SVdRSXc?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/title_image/newsmp4/newsplaza/2026/10/27/140_8695916.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8695916"
+            },
+            {
+              "name": "뉴시스",
+              "title": "앤트로픽, 나스닥 상장 위한 IPO 신청…AI 산업 수익성 시험대",
+              "link": "https://www.newsis.com/view/NISX20261026_0003841949",
+              "image": "https://img1.newsis.com/2026/10/13/NISI20261013_0002262164_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "KB국민은행, 해킹으로 2,091명 정보 유출 확인",
+          "summary": "KB국민은행이 외부 해킹으로 2,091명의 정보를 유출한 사실을 확인했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261026157951002",
+          "original_title": "해킹 발표 24일 만에…KB국민은행 정보유출 119→2천210명(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "해킹 발표 24일 만에…KB국민은행 정보유출 119→2천210명(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261026157951002",
+              "image": "https://img6.yna.co.kr/photo/yna/YH/2026/10/11/PYH2026101104720001300_P4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] KB국민은행 “해킹 정보유출 2091명 추가 확인”",
+              "link": "https://www.mk.co.kr/news/economy/12186157",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/26/news-p.v1.20261026.65ed3e541a7849f7b129adac409ccd5d_R.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "KB국민은행 \"해킹 정보유출 2천91명 추가 확인\"…총 2천210명 급증",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RS21jT0I2aFFEVVRJdDdIbFBoTG1TZkN3U0VDSVFZQTk0TVduU1o2a0RWSlhiVjFmRWlfZk5nWXFsOWFYOWRiRmdFTU9XeFRkYjJYR1poSlZZRXBuUC0xc1hBRFV5a2tLcDhPMWdmbm_SAXRBVV95cUxPS3loVXV1MDJRUEtmS3JxbkVLS18xNGhZbEFtQ3pGYk9wbWtOdzVYeVl3M1lpd2NxcTlGeXVpaVVHc09Fd0c5SlRua1p4bHFsZnp3Zjd1aW53enJDVTUwVXIzTlg2WEJNaFRpUTRyYk5sSzd3bA?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202610/4441168_351938_581_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441168"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "부산패션위크, 29~31일 벡스코서 개최",
+          "summary": "",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=149646",
+          "original_title": "부산패션위크, 29~31일 벡스코서 개최",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "부산패션위크, 29~31일 벡스코서 개최",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=149646",
+              "image": "https://www.ktnews.com/news/thumbnail/202610/149646_132553_1058_v150.jpg"
+            },
+            {
+              "name": "피플게이트",
+              "title": "2026 부산패션위크, 10월 29일 벡스코 개막…국내외 17개 브랜드·9개 대학 참여, 12개 패션쇼 개최",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbHNCRG55Z1ZjMXR6M0JIc2Etazg4SFhTc3h0V1NQV3pLR1NnNzB6ZVFRNndoaHlHYS1LbVlIc3BXSlpTMEJtZWVWWGxHR0ItMDdUYnBGU1FCYlRGWmI3aTc3ZGlRazJyME85U3prSmMxaGlBS3NEbWZlTjBTay12T0hPdGlMcEpxU3h1MS1yWFEyczB1RjRzaElQdzRZcEdFX3Fmeg?oc=5",
+              "url": "https://www.peoplegate.co.kr/2026/10/news-busan-fashion-week-2026-bexco-17-brands-12-runway-shows.html"
+            },
+            {
+              "name": "핫콘뉴스",
+              "title": "부산시, 29일부터 패패부산·부산패션위크 개최",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NWU1yTzdPaXkzZS00MERsa3Z4TEdHMHBxbVI5dkZMWHQ2UEtndVVkZ0lZaTBrbDZ0MGNQeXBzS3Z1eFhSYnhjaU5UX01LYUZ0czhyNTk0YWtoX1VFcUpva29pRWFaZjRaLUsw0gFvQVVfeXFMTW1GNXJ4N2l2d25ENGlKYWpUMmtLR1VkSzZqVF9YOVNqN0I0dFFOMlgwUl9WX0dPaWN2LTg5eDNKSW43T251LXdGSXlFeEJWdTFNMWVwdVU2c3VsSUVRVjc1TG94Q1JBM01XTmdsNXN3?oc=5",
+              "image": "https://cdn.hcnnews.co.kr/news/thumbnail/202610/58784_50593_4525_v150.jpg",
+              "url": "https://www.hcnnews.co.kr/news/articleView.html?idxno=58784"
+            },
+            {
+              "name": "웰페어뉴스",
+              "title": "부산 신발·섬유·패션산업 한자리에…29일 패패부산·부산패션위크 개막",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JTUQ1ZUJUNXRfUHNHMVZYZWRUMFFHWkNnSWlLT0JFWFYyaWZ4dFIzM0g2dUJseUFqSHg2YXAxeHo2SW5lUWl2T2wxOGVQZkF3VzdSX0tNbkV6NUVOeWlfSEpQN3FWRlN6ai1PUE5yTQ?oc=5",
+              "image": "https://cdn.welfarenews.net/news/photo/202610/212417_313157_920.jpg",
+              "url": "https://www.welfarenews.net/news/articleView.html?idxno=212417"
+            },
+            {
+              "name": "부산일보",
+              "title": "부산시, 패패부산·부산패션위크 29일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNY1NGSEZ6OThla2xtaG45b3p1cXZpTDA4LWY3Tm9Va2hXaFo0V1Voc0lDVzdYcXhpYzk1NDJZcEdxMWE5S3o5TXRodkxibk5qUmRlWE1JTUJSRzJUUldFRkw3QTZiVV9DZm9aYjlWV1F6dnExdFpSZ2Z6cE81emZDVHR3?oc=5",
+              "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/26/2026102614031743353_m.png",
+              "url": "https://www.busan.com/view/newsunicollvill/view.php?code=2026102614033598979"
+            }
+          ]
+        },
+        {
+          "headline": "대구컬렉션 성료, 패션쇼 넘어 시민 참여형 축제로",
+          "summary": "",
+          "source": "한스경제",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00R1NHS2dLV3RybnJlVHFaVTBtUjNuZUdYQ2tqS3pYMUtTV2lwZUpwMHZfbjZfcDJWVE9hUjZiOWZoWVhaNk85MndOeE5Lb2s2eEpiaFBRSnoydW5QRXB2WG1YT3dicTlmX0lkUtIBb0FVX3lxTE9lb2Nta0d3T1ZCdzFnUm8xdUxWV2xabzMzZ0RQa1kyMVZETldHYUMySjZlVnhwVkgyVzdaOUhrU1FLbnF2bWJxSW5vMG9ZcmJlb3hHemN5aHlMZHZyODRtbE9qSUNuNGZIT2VHaVV2bw?oc=5",
+          "original_title": "대구컬렉션 성료, 패션쇼 넘어 시민 참여형 축제로",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "한스경제",
+              "title": "대구컬렉션 성료, 패션쇼 넘어 시민 참여형 축제로",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00R1NHS2dLV3RybnJlVHFaVTBtUjNuZUdYQ2tqS3pYMUtTV2lwZUpwMHZfbjZfcDJWVE9hUjZiOWZoWVhaNk85MndOeE5Lb2s2eEpiaFBRSnoydW5QRXB2WG1YT3dicTlmX0lkUtIBb0FVX3lxTE9lb2Nta0d3T1ZCdzFnUm8xdUxWV2xabzMzZ0RQa1kyMVZETldHYUMySjZlVnhwVkgyVzdaOUhrU1FLbnF2bWJxSW5vMG9ZcmJlb3hHemN5aHlMZHZyODRtbE9qSUNuNGZIT2VHaVV2bw?oc=5",
+              "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202610/876403_901644_4219_v150.jpg",
+              "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=876403"
+            },
+            {
+              "name": "중소기업뉴스",
+              "title": "대구컬렉션, 패션쇼 넘어 시민 참여형 축제로 확대",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXVHFwZ2Rzb1ZJb1JRR01NbUFTZjZ3UTlEYml4cHpWenFBakVuRkQ5LWV6d3FUa0NWLUFWSUU3aHY1dENuT1NJQ3dkaVNFUEJiMG1hNnBITzl3VXBOZmZOWGs0N0c0NVZtTmp0RNIBcEFVX3lxTE16SC1ocWZNVkdrSWNfVUV1Z3dhLW9UWGFoMGFvTDcwM190VEdLM3lUMHFqTjNWMkZLbEdHZkJOaFhKZ3NMdlMzTGJleFJ1dFpnTGdFYXJkdUNkVVRIYWVPSFNjTF9VaGc3dUN6eDJQamY?oc=5",
+              "image": "https://cdn.kbiznews.co.kr/news/thumbnail/202610/115063_78143_1613_v150.jpg",
+              "url": "http://www.kbiznews.co.kr/news/articleView.html?idxno=115063"
+            },
+            {
+              "name": "TIN뉴스",
+              "title": "대구컬렉션, 패션도시 위상 더 높여",
+              "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE12NGJDcEJZTGtCU05YbmpGa2d1dVZTcWh6V25EeERGS1cyczZrRWxyaUFuTm1iS2VITTE4X3Z4bGhNLU9V?oc=5",
+              "image": "https://www.tinnews.co.kr/data/tinnews_co_kr/mainimages/202610/2026102608499909.jpg",
+              "url": "http://www.tinnews.co.kr/32404"
+            },
+            {
+              "name": "한국섬유신문",
+              "title": "제37회 대구컬렉션, 패션문화 향유 비즈니스場 모색",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xNzRydVRnbEJ4M0xMVE5BSHkxQ0h5RGpqbzNXdlpILXFONzZJMHdJZTZCMUFONjNIUk9oX2U3QzdjTHFuSDY3TENkdnp0QUx5VnpPU2ctNENPOGZQMFNxRkFqcFdLSWdQ?oc=5",
+              "image": "https://www.ktnews.com/news/thumbnail/202610/149644_132549_409_v150.jpg",
+              "url": "https://www.ktnews.com/news/articleView.html?idxno=149644"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "KTR, 국내 첫 클린화장품 단체표준 인증 수여",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100243",
+          "original_title": "KTR, 국내 첫 클린화장품 단체표준 인증 수여",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "KTR, 국내 첫 클린화장품 단체표준 인증 수여",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100243",
+              "image": "https://www.jangup.com/news/thumbnail/202610/100243_72149_320_v150.jpg"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "KTR, 국내 첫 클린화장품 단체표준 인증 전달",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50NmpDOUs3bHU3WHVoRTBqYklIZlhUVzhxR0pCTUZvMFhyUXRHdi14ZU90LUlFTkE3Mkg1NXdEeFpVSHU3TUl3NE9UNWFGQlNfVlFWTWdn?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/10/26/bf4ca0b6de1a6ea3ac141eb14a108581.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261026191056"
+            },
+            {
+              "name": "주간신문씨엠엔",
+              "title": "KTR, 국내 첫 클린화장품 단체표준 인증 수여",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90X1lyeU50ZkM2QmdhVHdDbndiMFBJcFZSc2NfWjBOZWUxc2JqSmdaTmhvNGdrLTlGZEd6VzZqYzF2aU5PQTkzN1RjSXllakY3T1VSS3M5MlpjS2xIUUFZdTgzVHFNRTVkNkZF?oc=5",
+              "image": "https://www.cmn.co.kr/webupload/ckeditor/images/20261026_134802_0149471_re.jpg",
+              "url": "https://www.cmn.co.kr/sub/news/news_view.asp?news_idx=51371"
+            },
+            {
+              "name": "코스인코리아닷컴",
+              "title": "KTR, 국내 첫 클린화장품 단체표준 인증 수여",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBheWhHLS1yRmtCdVlHUnIzX0dGc2l6RWdXQVBBakxTQV9SdHhvWGloV2ZZdVc3cmVPaDZZNWlZVnlVajhZYWtpVXIySTJZOE43WUlCUm5ic001VWRQVEdYa1ZFRQ?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261044/art_17929765267566_e3091b.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58586"
+            },
+            {
+              "name": "직썰",
+              "title": "KTR, 클린화장품 단체표준 인증 수여···“K클린뷰티 경쟁력 강화 지원할 것”",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zSXlVaFhtX3JIVmJ3SHRXSEFyZGVXd2xwLWlYWkozM0poQkZfbThIWU9TVnByVGZmZXgxQmFTZVdkOVl1NTRCcmF5MUxqNzR2VUw5a3lWaXg1UGZ6dVplbzFQVUdkUURi0gFsQVVfeXFMUEtYM3JJTzRlbjJRYlRJTDE5UFVUb3lTWmFEUTBnaGpNemtzVVU0bEZqTXM5VWFWdTF4UnRvRjFRQnJDTVRKVWNTdWtvY1BUQXdhWno2QUEzMmYxOGRiRm92Z1Z1RWhoVVB5ZkxD?oc=5",
+              "image": "https://cdn.ziksir.com/news/thumbnail/202610/150674_170073_4534_v150.jpg",
+              "url": "https://www.ziksir.com/news/articleView.html?idxno=150674"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "폐경 호르몬 치료 패러다임 변화 조명",
+          "summary": "한독·대한산부인과의사회가 학술대회에서 폐경 호르몬 치료의 새로운 방향을 제시했다.",
+          "source": "의약뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MWU01S3JRZVNBSV9CX0NWMUxUS1VXSGkzZm9Kc2dBOVJHamhzcDhEWFZpc1o5S2JJaXZ0UERGclE5U2I0RTJCRmt4djF1TmFkWlBwTW1PZXB6MG9uZjI5d2hOMlhpbDcy?oc=5",
+          "original_title": "한독, 대한산부인과의사회 학술대회에서 폐경 호르몬 치료 패러다임 변화 조명 外",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "의약뉴스",
+              "title": "한독, 대한산부인과의사회 학술대회에서 폐경 호르몬 치료 패러다임 변화 조명 外",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MWU01S3JRZVNBSV9CX0NWMUxUS1VXSGkzZm9Kc2dBOVJHamhzcDhEWFZpc1o5S2JJaXZ0UERGclE5U2I0RTJCRmt4djF1TmFkWlBwTW1PZXB6MG9uZjI5d2hOMlhpbDcy?oc=5",
+              "image": "https://www.newsmp.com/news/thumbnail/202610/258935_298689_4237_v150.jpg",
+              "url": "https://www.newsmp.com/news/articleView.html?idxno=258935"
+            }
+          ]
+        },
+        {
+          "headline": "하루 8875보가 뇌 인지 기능에 미친 변화",
+          "summary": "전자신문에 따르면 하루 8875보를 걸었을 때 뇌의 인지 기능에 변화를 가져온 것으로 보인다.",
+          "source": "전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUUkRva0w0TjNEMHQtZWdFRjVJMmRUM2hIbmlPWS1YQzBYc0RIbENaRnZLcXQ3TkRVaGpGMnJhWnFRYmRqYXNGeHJjS3AtUQ?oc=5",
+          "original_title": "하루 1만보 아닌, 8875보 걸었더니…뇌 인지 기능에 생기는 변화?",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "전자신문",
+              "title": "하루 1만보 아닌, 8875보 걸었더니…뇌 인지 기능에 생기는 변화?",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUUkRva0w0TjNEMHQtZWdFRjVJMmRUM2hIbmlPWS1YQzBYc0RIbENaRnZLcXQ3TkRVaGpGMnJhWnFRYmRqYXNGeHJjS3AtUQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/10/26/news-p.v1.20261026.f9cf6c35d7294691ad637ed4e254b89b_P1.jpg",
+              "url": "https://www.etnews.com/20261026000395"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "48개 기동대 투입, 선관위 투표지 검증",
+          "summary": "경찰은 28일 선관위 투표지 검증에 48개 기동대를 투입했다",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610270828001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "경찰, 28일 선관위 특검 ‘투표지 검증’에 48개 기동대 투입",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "경찰, 28일 선관위 특검 ‘투표지 검증’에 48개 기동대 투입",
+              "link": "https://www.khan.co.kr/article/202610270828001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/27/news-p.v1.20260908.42f6f89202cc4efb83d3382fc5ec73f0_P1.jpeg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "경찰, 올림픽공원 투표용지 공개검증에 48개 기동대 투입 예정",
+              "link": "https://www.yna.co.kr/view/AKR20261027025500004",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090809640001300_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "서울경찰 “28일 선관위 검증에 48개 기동대, 형사·수사 300명 배치”",
+              "link": "https://www.donga.com/news/Society/article/all/20261027/134914230/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/27/134914278.1.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "'선관위' 특검, 28일 올림픽공원서 투표지 검증",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NOE1seUR6NVd1Ym03bDYzNkdFRzdLYUx1U1RXc09FS1RVLUxxUWwyME5ZclF6TkFGUzBNOVBNVHNhQnEwbnV3bmItZVh1VDAzTUUybjRfblZnQlJ4ZUpZcWxYUHd1SlpYYVd1ZTNuam9GSWxHa3I40gF3QVVfeXFMUGdPSnJDSm9BeHZhZzNxbUNMZGxZd2hMMmdhTVV5SEEtVlRxZUdDYzg3LUgxQTJYY2Jma0FZdU92cnRmQ09ndnRwbHY2MGNvUmpTelkzREhZZnJtYUlWUmZJUmhYNFlxbVFVMEJrWHNfMzZyLV84V0U?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/10/26/lyj_261026_8.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6860680_36918.html"
+            }
+          ]
+        },
+        {
+          "headline": "홍준표, 지인 변론 맡을 듯",
+          "summary": "홍준표 전 대구시장은 지인의 여론조사비 의혹 관련 영장심사에서 변론을 맡을 예정이다",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610270814001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "홍준표, ‘변호사’로 사건 맡는다···‘명태균 여론조사비’ 의혹 지인 영장심사 변론",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "홍준표, ‘변호사’로 사건 맡는다···‘명태균 여론조사비’ 의혹 지인 영장심사 변론",
+              "link": "https://www.khan.co.kr/article/202610270814001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/27/news-p.v1.20261027.97e63fcc6a4c410f8b4dddb0134c6a56_P1.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "홍준표 \"여론조사비 의혹 지인 영장심사 변론하기로\"",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVjdtNHJPLVZJdzdDakI1QTdQbTBaNjYxRlBkSmd5VWw0S1gtbS1BZktrdTQtSktQR1doTl92bDZDUDFlcXJNMTFuOW80bUo0OGx0TFhnVDhobW81TW81OUE4YWlZTWFlWEptQU11aDZwdjdfMU9RdDhPMTc4SU1Eck9KVjI2X2p2UVBPcU1Daks?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/HA4DSOBTMMZTKYJTHE4GKMJRGU.jpg?auth=74c8dd15ce3e50456a526125921dcd6bea85056f70ed4445414cb801e2c072fa&width=1200&height=630&focal=2449,1594",
+              "url": "https://www.chosun.com/national/national_general/2026/10/26/ZYNIDW5AD5BY5GL5MXYH2IUMVA/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프, 브라질 대선 결과를 ‘조작된 부패 선거’라 비판",
+          "summary": "도널드 트럼프 미국 대통령은 브라질 대통령 룰라의 재선이 조작된 것처럼 보였다고 주장했다. 현지 AP통신에 따르면 미시시피주 유세 이동 전 기자들에게 말했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261027/134913811/2",
+          "original_title": "트럼프, 룰라 브라질 대선 승리에 “조작된 부패 선거”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "트럼프, 룰라 브라질 대선 승리에 “조작된 부패 선거”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261027/134913811/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/27/134913809.3.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "트럼프, 브라질 대선 결과에 \"조작된 부패 선거\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OSXpPeTdQU2paNjBxVDh6cGU5Y19ZbjFvNzJXcHMtRGhvekxwcXJERnRiekNfbWFmOWl1c1dQY04zdW90VTk4dWVOVkh6TGtzZlNfYjVRMnFMNDAwTFJSSlUtZHh5MHF0Tnhnc3lKdkVwcjVS0gF0QVVfeXFMT0NGNVdCVHBCbWlHMm4tTjkzb3N0Ym1xbjZvTEtTNWRpelh0QXZOdUxjbHVzU1ZEQ2J3SjJ4Qm1iLTZyNllxRUMybVNZZEtmM3B5X3REZUF6MktIekNQNm4tOGkyTmJDa3pNU1ROOEl0MXhGaGI?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/10/27/jh_20261027_12.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6860905_36925.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "[인&아웃] '오뚝이' 룰라 브라질 대통령",
+              "link": "https://www.yna.co.kr/view/AKR20261026087700546",
+              "image": "https://img7.yna.co.kr/photo/etc/epa/2026/10/17/PEP20261017052201009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "트럼프, 룰라 당선에 브라질 대선 조작 주장…\"부패하고 끔찍\"",
+              "link": "https://www.newsis.com/view/NISX20261027_0003841984",
+              "image": "https://img1.newsis.com/2025/10/26/NISI20251026_0000745244_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "아이폰 듀오 힌지 결함 논란",
+          "summary": "아이폰 듀오에서 힌지 결함이 보고되면서 파인엠텍이 부품 결함이 아니라고 밝혔다.",
+          "source": "경기일보",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yaVFDS19wOTFQQ1U2UkJpSVFHZThNa0NkQWVYdmlXdFI5anJOSHlzVEV0aFNqa1pBaDRUX3lVWVFVc2xTODNQVHYzRkx4U21Udkx6QUdfZEVXSHc?oc=5",
+          "original_title": "아이폰 듀오 ‘힌지 논란’ 번지자…韓 부품사 파인엠텍 “우리 부품 결함 아니다”",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "경기일보",
+              "title": "아이폰 듀오 ‘힌지 논란’ 번지자…韓 부품사 파인엠텍 “우리 부품 결함 아니다”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yaVFDS19wOTFQQ1U2UkJpSVFHZThNa0NkQWVYdmlXdFI5anJOSHlzVEV0aFNqa1pBaDRUX3lVWVFVc2xTODNQVHYzRkx4U21Udkx6QUdfZEVXSHc?oc=5",
+              "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/10/26/.cache/512/20261026580776.jpg?v=20261027085642",
+              "url": "https://www.kyeonggi.com/article/20261026580775"
+            },
+            {
+              "name": "디일렉",
+              "title": "아이폰 듀오 품질 논란에...파인엠텍 \"당사 부품, 결함과 무관\"",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96a2lUcThrRTV2bS1CZ0RURjlyaUNwZGFxUEhkOU51R285SkNFRGNjeG1TMEt6UjUtQjhIUmdfYmd3ZWtXcTRfVG9JdmdqSDI1aWZQNEpMb05RT0xhcnJLUUVSX3ZVQQ?oc=5",
+              "image": "https://cdn.thelec.kr/news/photo/202610/64235_50518_4121.png",
+              "url": "https://www.thelec.kr/news/articleView.html?idxno=64235"
+            },
+            {
+              "name": "뉴시스",
+              "title": "아이폰 듀오 파손 논란 속 국내 힌지업체 \"우리 부품 결함 아냐\"",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vd0ZKOUEwLUNHcEItVEVsRC1PLVZQUzJHdkw2M1ZvbmZWTXlqX3g0LUNidmZFWXVjQnptNFJvYkRDSmhmV2Z4Y3I4ZDlzWm9LTTAxZzdDN0JjWEk4X3VuUGRmQ2I1R29FUkhjRFV3b0hiUEFZcG9NNNIBeEFVX3lxTE5vd0ZKOUEwLUNHcEItVEVsRC1PLVZQUzJHdkw2M1ZvbmZWTXlqX3g0LUNidmZFWXVjQnptNFJvYkRDSmhmV2Z4Y3I4ZDlzWm9LTTAxZzdDN0JjWEk4X3VuUGRmQ2I1R29FUkhjRFV3b0hiUEFZcG9NNA?oc=5",
+              "image": "https://img1.newsis.com/2026/10/23/NISI20261023_0021500899_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261026_0003841097"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "암살자(들) 6주차 한국영화 1위, 338만 관객 돌파",
+          "summary": "암살자(들)이 개봉 6주차에도 한국영화 흥행 1위 를 유지하며 누적 338만 관객을 돌파했다.",
+          "source": "스포츠동아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPZ01XWlczcklIY2pYXzZRbWJCeWREa3lHX0RyemtqT2xLV2FGRnNfeHY0VUdIZURaUjR0VTZaNlBNY25QSmsxbEw3dVJScGNFMzN2bHlrV0ZiTTlydnZpdWF0Z3gxUHVfWUNFVWpn?oc=5",
+          "original_title": "‘암살자(들)’, 개봉 6주차에도 韓영화 1위…누적 338만 관객 돌파",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "스포츠동아",
+              "title": "‘암살자(들)’, 개봉 6주차에도 韓영화 1위…누적 338만 관객 돌파",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPZ01XWlczcklIY2pYXzZRbWJCeWREa3lHX0RyemtqT2xLV2FGRnNfeHY0VUdIZURaUjR0VTZaNlBNY25QSmsxbEw3dVJScGNFMzN2bHlrV0ZiTTlydnZpdWF0Z3gxUHVfWUNFVWpn?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/27/134914079.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261027/134914055/1"
+            },
+            {
+              "name": "조선비즈",
+              "title": "'암살자(들)' 개봉 6주차에도 한국영화 흥행 1위..338만 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3ltLVBpaC1wcGhNQU1qYUF1eWpScXVRVW5MNk8zREszM0ZNYkVrSzJsN1U5OE9BbURvTHlhdUZMTG43Qk9vUnk5VXF2ZzVJVkxkdENXa1hLOHR3M3BsXzBoWFdINms1aTBsSGJfWDZIbFplSllkSFFxRVpNa092MUJlZUFEVzV00gGcAUFVX3lxTFAxYkEtZlZ2cDY3azdEbWVVZjFheUUtSk11YURwWWFtdENVM0lEQm4wcGYwYVFucENSSmZxOXplcTNYZHVNbktkbEhVRXhobXVMRkVMa1hlNFFQVFg1Tm9NeE4yWFBmc0VrMGIyREhfaVRIVHJvUW51bU04dVptV1QyZUdCb2FmWEY5Tk1fRmhXUWdfZTN2Z3g2dldnaw?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/HA4DMNDDMIYDGODEHFSTQMZUGI.jpg?auth=08f84bc392828d3af263e0b97b6fe1ff6b59696efc6be535cc385c6adb717eb9&width=572&height=300&smart=true",
+              "url": "https://biz.chosun.com/entertainment/movie/2026/10/27/GVSGKMBWGJTDIY3GMUYDGMBQGA/"
+            },
+            {
+              "name": "www.bntnews.co.kr",
+              "title": "‘암살자(들)’ 개봉 6주차에도 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RMTR4ZHRxb2dURFcxalhQLUExSU05WFVMbXd3anduNHNFWGlaRElScVV6WHVINlRMS2VFZVFDWnNxakNYN3N1NFV1bzRkZEtPcjNqYTRlV1pSQzRfem1kcDRUOVI?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/27/bnt202610270038.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202610270030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "스머더먼, 버뮤다 대회 연장전 우승",
+          "summary": "오스틴 스머더먼이 강풍으로 축소된 PGA 버뮤다 챔피언십에서 연장전 끝에 우승했다. 총상금 600만 달러 대회에서 승리했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261027_0003842031",
+          "original_title": "강풍으로 축소된 PGA 버뮤다 대회…연장 끝 스머더먼 우승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "강풍으로 축소된 PGA 버뮤다 대회…연장 끝 스머더먼 우승",
+              "link": "https://www.newsis.com/view/NISX20261027_0003842031",
+              "image": "https://img1.newsis.com/2026/10/26/NISI20261026_0001695787_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "스머더먼, PGA 버뮤다 대회서 연장전 끝에 우승",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ycnp5S0tibjJJZXFZOUsxQ0w2R1VHWHMtTWtfRUlfZ2hCWEJTSTNiRWZoWlRXQVdjMXpPYVNZQi1oeEUzb3ZZREJwdmtERE5kX0ZFcnNzVUtoc0t3ck1mMExydHV5QzRRbkE?oc=5",
+              "image": "https://img.sbs.co.kr/newimg/news/20261027/202235079_1280.jpg",
+              "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008816075"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "스머더먼, PGA 투어 버뮤다 대회서 연장전 끝에 우승",
+              "link": "https://www.yna.co.kr/view/AKR20261027011100007",
+              "image": "https://img7.yna.co.kr/photo/etc/gt/2026/10/05/PGT20261005281101009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "김지원과 장원영이 똑같은 원피스를? 요즘 뜨는 슈슈통",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 16,
+      "t_min": 5,
+      "rain_pct": 0,
+      "sky": "대체로 맑음",
+      "display": "서울 5~16°C · 대체로 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "김지원과 장원영이 똑같은 원피스를? 요즘 뜨는 슈슈통",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1912002",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/10/26/ac222aed-9f79-40e3-af38-11cf4ca2b9a5.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "자기 자신을 믿는 것이 성공의 첫 번째 비결이다.",
+    "author": "랄프 왈도 에머슨",
+    "work": "성공"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 활짝 피어납니다"
+      },
+      {
+        "animal": "소",
+        "text": "쏟아지는 좋은 기회, 받아들여라"
+      },
+      {
+        "animal": "호랑이",
+        "text": "경기장에선 당신이 스타다"
+      },
+      {
+        "animal": "토끼",
+        "text": "달콤한 하루, 껴안고 가세요"
+      },
+      {
+        "animal": "용",
+        "text": "힘찬 한 걸음, 용감히 나아가라"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 빛을 비춘다"
+      },
+      {
+        "animal": "말",
+        "text": "달리기보다 멈춰서 숨을 고르세요"
+      },
+      {
+        "animal": "양",
+        "text": "친구와 웃음꽃을 피워보세요"
+      },
+      {
+        "animal": "원숭이",
+        "text": "상상력이 당신을 놀라게 할 거예요"
+      },
+      {
+        "animal": "닭",
+        "text": "새벽이 밝아오면 기회가 찾아온다"
+      },
+      {
+        "animal": "개",
+        "text": "소중한 사람과 시간을 보내세요"
+      },
+      {
+        "animal": "돼지",
+        "text": "맛있는 음식, 행복한 순간을 담아"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
