@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-28",
+  "weekday": "수요일",
+  "vol": 16,
+  "generated_at": "2026-10-28T08:39:53+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5469.47,
+      "change": -80.83,
+      "change_pct": -1.46,
+      "direction": "down",
+      "display": "5,469.47",
+      "change_display": "▼ 1.46%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1326.5,
+      "change": 4.7,
+      "change_pct": 0.36,
+      "direction": "up",
+      "display": "1,326.5원",
+      "change_display": "▲ 0.36%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 107739000.0,
+      "change": 828000.0,
+      "change_pct": 0.77,
+      "direction": "up",
+      "display": "10,774만원",
+      "change_display": "▲ 0.77%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 11,
+    "t_min": 2,
+    "rain_pct": 0,
+    "sky": "맑음",
+    "display": "서울 2~11°C · 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "주식시황",
+      "headline": "SK하이닉스 3분기 실적 발표 역대급 주주환원책 제시",
+      "summary": "SK하이닉스가 3분기 실적을 발표했다. 기업은 역대급 주주환원책을 제시했다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261027_0003843283",
+      "original_title": "SK하이닉스, 오늘 3분기 실적 발표…'역대급 주주환원책' 내놓나",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "SK하이닉스, 오늘 3분기 실적 발표…'역대급 주주환원책' 내놓나",
+          "link": "https://www.newsis.com/view/NISX20261027_0003843283",
+          "image": "https://img1.newsis.com/2025/10/29/NISI20251029_0021034886_web.jpg"
+        },
+        {
+          "name": "지데일리",
+          "title": "SK하이닉스 실적발표.. 확인해야 할 핵심 '세 가지' > 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VakpuWGp0Z2RDYU1lZHhKWEI5YXpPNnF5T2p3cmFNZlZvU0FOenFHTWxYV1lEaVBpbGtXUkxaQzAtbUlUbGprRGF5bUVXQU1udUhVdDF6Q3pGYzVkWG5aQWVGakpNMGZINEtONw?oc=5",
+          "url": "http://www.gdaily.kr/bbs/board.php?bo_table=news&wr_id=22502"
+        },
+        {
+          "name": "YTN",
+          "title": "[스타트 경제] '역대급 실적' 삼전닉스 3분기 실적공개...주주환원은 얼마나?",
+          "link": "https://www.ytn.co.kr/_ln/0102_202610280727055635",
+          "image": "https://image.ytn.co.kr/general/jpg/2026/1028/202610280727055635_t.jpg"
+        },
+        {
+          "name": "PRESS9",
+          "title": "SK하이닉스 실적·주주환원에 쏠린 눈…반도체주 상승세 주목-iM증권",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81UzU3bWYwYy1LS0FENkVxWUN5ZmkxMC01d20wTXhBaTFHeW1oRmFrNmRFenI3aUE5cGFkOWc2QWtoZEw1a29nTnRFTGlBM3Y5amNIZ2FKYjh1ajlMUGt4czVXai0?oc=5",
+          "image": "https://www.press9.kr/news/thumbnail/202610/85039_97138_1421_v150.jpg",
+          "url": "http://www.press9.kr/news/articleView.html?idxno=85039"
+        }
+      ]
+    },
+    {
+      "kicker": "한파",
+      "headline": "아침 기온 10도 한파특보 전국 대부분",
+      "summary": "아침 기온이 10도에 머물면서 전국 대부분 지역에 한파특보가 발효됐다.",
+      "source": "신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iWWxxd1EwZF9MR3MwbmhwZUxEWGs3eXRaLWZHUm9BbEtFNGJkMEl1MzhnZGFEVEF6NUdibXhvLWIzMkxsenM5UDR0a1ZTY0VUaDVCTjFKck1tUjdkTmhvN2FYZ2QwX3hGSXVxTkcxQ0Q?oc=5",
+      "original_title": "[오늘날씨] 아침 기온 10도 '뚝'…전국 대부분 한파특보",
+      "sources": [
+        {
+          "name": "신아일보",
+          "title": "[오늘날씨] 아침 기온 10도 '뚝'…전국 대부분 한파특보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iWWxxd1EwZF9MR3MwbmhwZUxEWGs3eXRaLWZHUm9BbEtFNGJkMEl1MzhnZGFEVEF6NUdibXhvLWIzMkxsenM5UDR0a1ZTY0VUaDVCTjFKck1tUjdkTmhvN2FYZ2QwX3hGSXVxTkcxQ0Q?oc=5",
+          "image": "https://cdn.shinailbo.co.kr/news/photo/202610/5076763_2074243_2349.jpg",
+          "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5076763"
+        },
+        {
+          "name": "국제신문",
+          "title": "부울경 맑고 아침 기온 `뚝`…경남 내륙 한파특보",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM0tNbDNVZmxXYWVJeTN5T2s2eHFua01HZzBSSjRkUU12UWpKTkVCQzdlQ1h3S0ItU0J2SkZIMmxsOThsc0x6dnNrR28xMUdsYnp4TWh6eFFNMkdocF9FVDN5Q2N0RlUxMjBBeXFGTWRvVmx1VVM3MVBMS0NaSEw0WHlFb2NSRWhWMVM3dG5Qb0Q5OXc?oc=5",
+          "image": "https://db.kookje.co.kr/news2000/photo/2026/1028/L20261028.99099008101i1.jpg?47",
+          "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261028.99099008101&kid="
+        }
+      ]
+    },
+    {
+      "kicker": "입시",
+      "headline": "용인특례시 수능 마친 수험생 특별 프로그램 운영",
+      "summary": "용인특례시가 수능을 마친 수험생을 위해 특별 프로그램을 운영했다.",
+      "source": "인천일보",
+      "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335097",
+      "original_title": "용인특례시, 수능 마친 수험생 위한 특별 프로그램 운영",
+      "sources": [
+        {
+          "name": "인천일보",
+          "title": "용인특례시, 수능 마친 수험생 위한 특별 프로그램 운영",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335097",
+          "image": "https://cdn.incheonilbo.com/news/thumbnail/202610/1335097_676993_1717_v150.jpg"
+        },
+        {
+          "name": "아시아경제",
+          "title": "용인시, 수능 마친 수험생에 쉼표…‘도서관서 재충전’ 프로그램",
+          "link": "https://view.asiae.co.kr/article/2026102609100406789",
+          "image": "https://cphoto.asiae.co.kr/listimglink/1/2026102609080473614_1792973284.png"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "공정위, 삼성전자에 ‘표시광고법 위반’ 201억 과징금",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261027/134920026/2",
+          "original_title": "공정위, 삼성전자에 ‘표시광고법 위반’ 201억 과징금",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "공정위, 삼성전자에 ‘표시광고법 위반’ 201억 과징금",
+              "link": "https://www.donga.com/news/Economy/article/all/20261027/134920026/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/28/134921579.1.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "공정위, 삼성 'GOS 광고' 과징금 201억‥삼성 \"법적 대응\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00NUl3Uno2VUl5am5HMHh3WTVqT2REWFlaa2dZU1lfcVB1V3hOaUZxM3UweFVMbUJ0eGxEaWJraWhSbEYyd3kwejZxUzVhdW93WktNVFVxdEs4MlVFWEl4RGVXTFVvUlZVdy1qa3A3bzhWVVU50gF0QVVfeXFMTmtEY2dKaW1vX3NTd3Z0TmNzZW1kcEFrNlgwYXE2emtJRTVyR2tWM0pELV8xRkp1a3hjd2ZBdmRPV25kX21ORTFnUkRvSWZGZUtTYURCbGppM3Fmdl9ya0NsejVwT0xwSF8xdjBpcE1HcGViY20?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/10/27/yh_20261027-8.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6861063_36932.html"
+            },
+            {
+              "name": "매일경제",
+              "title": "삼성전자, 공정위 200억 과징금 불복…‘성능제한 과장광고’ 뭐길래",
+              "link": "https://www.mk.co.kr/news/stock/12186867",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/27/rcv.YNA.20261008.PYH2026100801230001300_R.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "당국 'JYP 공개매수' 예의주시…\"불공정거래 의심 시 조사착수\"",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261027174100002",
+          "original_title": "당국 'JYP 공개매수' 예의주시…\"불공정거래 의심 시 조사착수\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "당국 'JYP 공개매수' 예의주시…\"불공정거래 의심 시 조사착수\"",
+              "link": "https://www.yna.co.kr/view/AKR20261027174100002",
+              "image": "https://img6.yna.co.kr/photo/cms/2026/10/27/02/PCM20261027000002990_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "금감원 'JYP 공개매수' 예의주시‥\"불공정거래 의심 시 조사착수\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvcE9hQ2NoSnY5bnZhSXV3U0xXTzNCd0JPU2hHaUFlYk1rczZhclBIaUtHSEtaaUVWMkhfelNPTnBTUzhoRmV2dEtJWW96RFJNTGkxV0VjQmNWR1JXRHlPa3VIV3pUSVBQa2pOellJZHpuMThO0gF0QVVfeXFMT0owUVFGZ25lbEhUVlFILUJvRlZwbGhTXzY0V044eWZOdzNQdVJMa3NTa3M4ZmlhNjNUelBzTDRPU3JBM2xXelNneVY2QWR0dlV0MmFsbHZvU0tveGVFdm5LdnlZZ2J6S3luTXZrZHZkVnFsdVA?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/10/27/hm_20261027_13.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6861135_36932.html"
+            },
+            {
+              "name": "매일경제",
+              "title": "뜬금없는 JYP 공개매수 예고…당국, 부정거래 가능성 '주시'",
+              "link": "https://www.mk.co.kr/news/stock/12187369",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "신세계, 쥬시꾸뛰르 단독 출시",
+          "summary": "신세계라이브쇼핑이 '쥬시꾸뛰르'를 단독으로 출시, 여성복 포트폴리오를 확대했다. 이번 런칭으로 여성 타깃이 강화된다.",
+          "source": "지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oQjgtWERybGV4OEwyajVEbFJZMV9rZ3ZNclhwVlhpR3cxNWIyR2xDY2ZHMmphRG1tV3pzbldNZXE1ZGpPdnltWkdTM0xkeHRSWWRQaWdB?oc=5",
+          "original_title": "신세계라이브쇼핑, '쥬시꾸뛰르' 단독 상품 출시",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "지디넷코리아",
+              "title": "신세계라이브쇼핑, '쥬시꾸뛰르' 단독 상품 출시",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oQjgtWERybGV4OEwyajVEbFJZMV9rZ3ZNclhwVlhpR3cxNWIyR2xDY2ZHMmphRG1tV3pzbldNZXE1ZGpPdnltWkdTM0xkeHRSWWRQaWdB?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/10/27/8af873fce90b6aea0ca1c0ddc373e8aa.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261027184957"
+            },
+            {
+              "name": "어패럴뉴스",
+              "title": "신세계라이브쇼핑, '쥬시꾸뛰르' 론칭…여성복 포트폴리오 확대",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55QnJsZVZJc2RySk9JMkRuX3ZBZW5ER2Z5SXlPOUFMem1xZWVqZ3g0cGx2azcwOXJ1WDZ0YXpvMGNTWmd2MU13QTFKWTAteVY0N2FlRVVUMmxqbTAzNXZXbnlhLUNsXzRWbm45NU5HSkVOMTJrcUtv?oc=5",
+              "url": "http://m.apparelnews.co.kr/news/news_view_amp/?idx=228548?cat=CAT128"
+            },
+            {
+              "name": "전자신문",
+              "title": "신세계라이브쇼핑, 쥬시꾸뛰르 론칭…4050 여성 패션 공략",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12T1F3SXRZNzZVOGZ6cWJCY25LdW9CTjA4MjhsajB0UkplRDBCSUEzT1ZJb2hnb1V1VTMzUndDVFFTSUtEU2t5S2lLNzlJdw?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/10/27/news-p.v1.20261027.d82b7f2303934e44b2eb883232fe8438_P2.jpg",
+              "url": "https://www.etnews.com/20261027000278"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "“Y2K 감성+고급화” 신세계라이브쇼핑, ‘쥬시꾸뛰르’ 론칭",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1abzVyOWROOGd6Sm5YanFBSlhxZ0Z3TUZZc0VvZGN3X24zdVR1MG4yR0hQc1RYQ1N4WFQyVlBxLVNkME9CU095QkNUMXVKTktLcUhBeGVLVGNaNEplcmhfUzRGaHVwbkpkNmtpaUw5VFdDQWM?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/27/134914388.1.jpg",
+              "url": "https://sports.donga.com/economy/article/all/20261027/134914377/1"
+            },
+            {
+              "name": "이코노미사이언스",
+              "title": "신세계라이브쇼핑, Y2K 패션 브랜드 '쥬시꾸뛰르' 론칭…4050 겨냥",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EaXZxM2FCM0N2TDl4ZTBLS20wZ3I4RVRZR0V4UUVvRzNISWdtRzFMQ2t0NnJveFdlQWRFbHA0SWM0UERpRFJSOF9BQVR0ZGZ0VDVUX3ZvMkZNbWpwTDRFTUl2MVJSTGR1ang3U2hUMA?oc=5",
+              "image": "https://cdn.e-science.co.kr/news/photo/202610/138258_71135_2416.jpg",
+              "url": "https://www.e-science.co.kr/news/articleView.html?idxno=138258"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "윤상현 부회장, K‑뷰티 지속성장 100% 확신",
+          "summary": "윤상현 콜마그룹 부회장은 K‑뷰티가 지속성장이 가능하다고 100% 확신한다. 유기적 산업 생태계가 성장 원동력이라고 분석했다.",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100270",
+          "original_title": "윤상현 콜마그룹 부회장, K뷰티 지속성장 “100% YES”",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "윤상현 콜마그룹 부회장, K뷰티 지속성장 “100% YES”",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100270",
+              "image": "https://www.jangup.com/news/thumbnail/202610/100270_72175_2557_v150.jpg"
+            },
+            {
+              "name": "코스모닝",
+              "title": "윤상현 콜마그룹 부회장 “K-뷰티 지속성장, 100% YES”",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16VHVDZlFscmx1NndEODFld3Q2bTF2VEFKZlJrVTVEbXdRTUhPU2NuQmdtcGZmT3JXN3hrSEN5RlNsWGJTalJLblctaGxxR1otSVhUS2pna1dyVjgtb1FZRVp3TQ?oc=5",
+              "image": "https://www.cosmorning.com/data/photos/20261044/art_17931437918682_217e1a.jpg",
+              "url": "https://www.cosmorning.com/news/article.html?no=53796"
+            },
+            {
+              "name": "중앙일보",
+              "title": "윤상현 “K뷰티 지속성장 가능성 100% 확신”",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BckxoTzBNbjQySnlwV2k2RmkwNEtCVzNlZUFraldwUXgweThSMzQyRDFXVnQ4cnNUOGR5QTRsTmpFbDY2NXVEZWt4UDhUeUtjelh5SzBB?oc=5",
+              "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202610/28/db2f543b-f312-4ea0-8e25-e2507a8cdf6b.jpg",
+              "url": "https://www.joongang.co.kr/article/25473383"
+            },
+            {
+              "name": "헬스경향",
+              "title": "윤상현 콜마그룹 부회장 “K뷰티 지속성장 원동력은 새로운 브랜드의 탄생”",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ka1M1SXJEckIwVHd3TF83ZGVkYUR2Y0J1Q1JZbm9xMnI1Znp3X1NyOGRrclVpRl9WN2s5Zm5HUFRGZUgxMDlhYmxNdUJCcTBFeExrRWQ4SkJSMzI1bVk4bXdhVy1rY1dnb1Z3?oc=5",
+              "image": "https://cdn.k-health.com/news/photo/202610/101886_203495_3934.jpg",
+              "url": "https://www.k-health.com/news/articleView.html?idxno=101886"
+            },
+            {
+              "name": "CNC NEWS",
+              "title": "윤상현 콜마그룹 부회장, K뷰티 지속성장 “100% YES”",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqeHQybEo1OUlWbnNWOFB1aU02NmctTl9Wb1hxMFRKWXFhZTFvODZpbWduNWRMV1hla0NQNmp0ZHpWQmpjVk9wNDQ4WDVHTm1abEppVG9nSjdkc3RLTXhCX1ZR?oc=5",
+              "image": "https://www.cncnews.co.kr/data/photos/20261044/art_17930983608279_b0fd4f.jpg",
+              "url": "https://www.cncnews.co.kr/news/article.html?no=11373"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "종근당 ‘더마그램 피디알엔 크림’, ‘K-약국 쇼핑’ 추천 제품으로 주목",
+          "summary": "",
+          "source": "내외뉴스통신",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jcEk1S2VrRGJJOF93MDk4R2dXd2xxWkJaREF3U0Z5QkZMUWp3aWZoZkFQMnFEVWg1N1VIeG5rTkRLNUwyZi1wRzFZWHVzZjAyZ2E5VTJNZWg3Y0JESU1uTlZGWkd5TEU5OWhaX3JR0gFwQVVfeXFMUEptSzFPNmJySkMtbng4TkFWam9vQ1dDTVo0Nmw4dnh0WUJiS044TmgzVXBpOWVvS1ctMHR6NjRtZ1plN0NYVTl6b3UtclJTYUZTTXFUbFUtcW1jX0JuUkR6TXBKTU9Tc3cwdV9jcHZKYQ?oc=5",
+          "original_title": "종근당 ‘더마그램 피디알엔 크림’, ‘K-약국 쇼핑’ 추천 제품으로 주목",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "내외뉴스통신",
+              "title": "종근당 ‘더마그램 피디알엔 크림’, ‘K-약국 쇼핑’ 추천 제품으로 주목",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jcEk1S2VrRGJJOF93MDk4R2dXd2xxWkJaREF3U0Z5QkZMUWp3aWZoZkFQMnFEVWg1N1VIeG5rTkRLNUwyZi1wRzFZWHVzZjAyZ2E5VTJNZWg3Y0JESU1uTlZGWkd5TEU5OWhaX3JR0gFwQVVfeXFMUEptSzFPNmJySkMtbng4TkFWam9vQ1dDTVo0Nmw4dnh0WUJiS044TmgzVXBpOWVvS1ctMHR6NjRtZ1plN0NYVTl6b3UtclJTYUZTTXFUbFUtcW1jX0JuUkR6TXBKTU9Tc3cwdV9jcHZKYQ?oc=5",
+              "url": "https://www.nbnnews.co.kr/news/articleView.html?idxno=1065461"
+            },
+            {
+              "name": "중기이코노미",
+              "title": "종근당 '더마그램', 약국 쇼핑 추천제품으로 소개",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CR2RVOWxKS2RjU1o0NkRSSk1FamNCTmZtT2ozbU9mT1hHazFOTzRod2tJQkMtR0p0Y1RtcFl5U0pGd1BjU0RqMlYzTXMwV2RCR2xGS1lINzVzMHI1UndlOUlHYlk1cGNJbHc?oc=5",
+              "image": "https://cdn.junggi.co.kr/news/photo/202610/38255_45102_3021.jpg",
+              "url": "https://www.junggi.co.kr/news/articleView.html?idxno=38255"
+            },
+            {
+              "name": "주간한국",
+              "title": "종근당 ‘더마그램 PDRN 크림’, 관광공사 약국 쇼핑 칼럼에 소개",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBScFRSSzN6N2dJazBXV3FaWDNxU1RuX2gzV0g2STRRcVhUSE1yNEI2dzVPVEtYQmY0bml3UkhUNFRnV2c1N1YzdU9LOTZDd3ptSFluNkw2bUdnb3F1Z085ay1nZHNRMTFXaS04UktkanfSAXRBVV95cUxOQ3VqM1NwbDVBQnl0QnVDcG1STGpOSklZeVdiTldsZkJMbHJNUWZXM1lSRElhTVFoeHk3YThzN3VXRVRJX3ZoajJsWmJzNm5IMGxzeGgwVzZTWXZGZjA0ZVdSZWJHOW84aDIweEN5Vk5md1ZnUA?oc=5",
+              "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7190850_252364_414_v150.jpg",
+              "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7190850"
+            },
+            {
+              "name": "PRESS9",
+              "title": "종근당 '더마그램', 외국인 관광객 약국 쇼핑 추천 제품 선정",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1SGUzY1FFOWNzd09wSEpqbmpYUWJTSTdEcHNqOEVickM5bVBLNzdNTmdSdUJvUXBuTnJ0YlQ3aTBiMXZVLW5yQ3dFLUZVTnYzSk15Y1djSlMtSUNlLWpaZERIVXg?oc=5",
+              "image": "https://www.press9.kr/news/thumbnail/202610/84970_97067_382_v150.jpg",
+              "url": "http://www.press9.kr/news/articleView.html?idxno=84970"
+            },
+            {
+              "name": "매일경제",
+              "title": "관광객 필수 코스 된 ‘K-약국’…관광공사 종근당 ‘더마그램 피디알엔 크림’ 추천",
+              "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE54TkN2Q09DRWR1WmRzNnp3Qms0Um1lcHJLOXVSY0JhbU1vOGE3Nl9XSjZIeEgwSjVUYktaNENHaF94VElNVnc?oc=5",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg",
+              "url": "https://m.mk.co.kr/amp/12186745"
+            }
+          ]
+        },
+        {
+          "headline": "서울시, 오감 체험 웰니스 학습라운지 ‘다감’ 11월 9일 개관… 4주간 무료 시범운영",
+          "summary": "",
+          "source": "웹이코노미",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNbDAzbExrcVlyOUNQbFpOdHE3TlhPdXlmRzR6Q1BCWWs3WDJQOG43aGxhYkVnQkViY0lrYW44ejh0TDVJanVLTXdUaFBOOU9nNkNTTXNqc29mZzliOU9wRmhiTnlhYlRpN2pkVFNZY19adw?oc=5",
+          "original_title": "서울시, 오감 체험 웰니스 학습라운지 ‘다감’ 11월 9일 개관… 4주간 무료 시범운영",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "웹이코노미",
+              "title": "서울시, 오감 체험 웰니스 학습라운지 ‘다감’ 11월 9일 개관… 4주간 무료 시범운영",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNbDAzbExrcVlyOUNQbFpOdHE3TlhPdXlmRzR6Q1BCWWs3WDJQOG43aGxhYkVnQkViY0lrYW44ejh0TDVJanVLTXdUaFBOOU9nNkNTTXNqc29mZzliOU9wRmhiTnlhYlRpN2pkVFNZY19adw?oc=5",
+              "image": "https://cdn.webeconomy.co.kr/news/photo/202610/2350594_1160838_209.jpg",
+              "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2350594"
+            },
+            {
+              "name": "얼리어답터뉴스",
+              "title": "서울시, 오감 체험 웰니스 공간 ‘다감’ 11월 9일 개관…4주간 무료 운영",
+              "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1DMWJ2Tm1ZZDctc3oyUDUxdW5ndHJDWnVJRkxEaEZfWHpHeTR1cDVCSjBkVEw0cXViS0NJdGw3VUhITFZSbUFiTjhR?oc=5",
+              "image": "https://img.ehom.kr/news/2026/10/27/4591d2c3afab7c89e83f63f31d47d26c175558_thumb.png",
+              "url": "https://www.eanews.kr/news/1024384"
+            },
+            {
+              "name": "서울특별시",
+              "title": "제철 차, 명상 배워요! 웰니스 학습라운지 '다감' 개관…무료 교육",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tc3RNVnBQZVlrd0JGalBlQnFGWDQ1amgzcGpBOVBuX2hrc3lWS1lrWkxaNTdhdXNUcjdzVnNYbnFPUFkyRENNMmNyRGliMzhQMlZVNVFWTjY?oc=5",
+              "image": "https://mediahub.seoul.go.kr/uploads/mediahub/2026/10/JCYRvUkDCWOjrFeDiwZYQaUgIlEoRUeI.jpg?ver=1.0",
+              "url": "https://mediahub.seoul.go.kr/archives/2019869"
+            },
+            {
+              "name": "어반톡",
+              "title": "서울시, 오감 체험 웰니스 공간 ‘다감’ 11월 9일 개관",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WaWFwU3BkUHBFUHlSV25KbC1RdWpQSVR1Mjdpa25UeDYycEFhOHFZd2JkRk5saVBuVW9Gb3RnWkE5ZHVUejdTcGFGQUY4V1FDVjZDcE13?oc=5",
+              "image": "https://cdn.coenworks.com/Files/490/News/202610/8132_20261027095232771.jpg",
+              "url": "https://urban-talk.com/View.aspx?No=4280376"
+            },
+            {
+              "name": "펜앤마이크",
+              "title": "서울시, 오감 체험 웰니스 학습라운지 '다감' 11월 9일 개관…4주 무료 시범운영",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aSkx2MkxYY1dWdUk3R1Q4RmtXQnlXUjdJcDh0OXdFQXVwTlktRzJUSFpFU0x0Q3NvamVrdkdnQjZtbWFrRTJnWkNhR2E4c1Rubmx5MmM2WWZrRFRadkJ4dkRDQmRQWjQ4Qm1kWjNWc9IBb0FVX3lxTE9aSkx2MkxYY1dWdUk3R1Q4RmtXQnlXUjdJcDh0OXdFQXVwTlktRzJUSFpFU0x0Q3NvamVrdkdnQjZtbWFrRTJnWkNhR2E4c1Rubmx5MmM2WWZrRFRadkJ4dkRDQmRQWjQ4Qm1kWjNWcw?oc=5",
+              "url": "https://www.pennmike.com/news/articleViewAmp.html?idxno=130339"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "선관위 특검, 올림픽공원 투표용지 오늘 공개검증 나서",
+          "summary": "",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610280801001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "선관위 특검, 올림픽공원 투표용지 오늘 공개검증 나서",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "선관위 특검, 올림픽공원 투표용지 오늘 공개검증 나서",
+              "link": "https://www.khan.co.kr/article/202610280801001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/28/news-p.v1.20260702.6c0a3f4c6723478d93b96baac8eaf9d5_P1.jpeg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "올림픽공원 투표용지, 지방선거 147일 만인 오늘 공개검증",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008818008",
+              "image": "https://img.sbs.co.kr/newimg/news/20261006/202228971_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "올림픽공원 투표용지 오늘 공개검증…6·3 지방선거 이후 147일만",
+              "link": "https://www.yna.co.kr/view/AKR20261027188500004",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/09/08/PYH2026090808710001300_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "선관위 특검, 올림픽공원 보관 서류·CCTV 압수수색…\"현장 검증 전 자료 확보\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRDVHcllyMjBSZi1RQXN1cVBXUmJfUjdGd2I3TlpTTVhJekJTQnZiVXEzTmI3Mm9sbEQtNHp3UjJDNjJWMGhzMVBGZmhwUHJtWGtfUEt4M25XbURCV0h3bGIzNTl2ams?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261027/AKR202610271006478rV_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202610271006478rV"
+            }
+          ]
+        },
+        {
+          "headline": "조현 “루비오 美국무, 북미대화 기대 관련… 한국이 너무 앞서가지 않길 바란다고 해”",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261028/134921362/2",
+          "original_title": "조현 “루비오 美국무, 북미대화 기대 관련… 한국이 너무 앞서가지 않길 바란다고 해”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "조현 “루비오 美국무, 북미대화 기대 관련… 한국이 너무 앞서가지 않길 바란다고 해”",
+              "link": "https://www.donga.com/news/Politics/article/all/20261028/134921362/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/28/134921722.1.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "조현 “미, 북미대화에 한국이 너무 앞서가지 않길 바라는 입장”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aNXQyemYxSE9KLWE3UHRCRmNnblY2RTc4RDY3c0MxbVNRMS0tYm4xalowS2dXZkRsSXQ3Nm5wODliWXJkUGcxZUYzRXZFc2ZHTGZQZDBQRXFCWHlaRFByNHlaNl9GZ3RzdS05S2NOY2tfZmxl?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1013/585/imgdb/original/2026/1027/20261027503798.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1284481.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "이스라엘 총선, 네타냐후 진영 소폭 앞서",
+          "summary": "네타냐후 진영이 출구조사에서 소폭 앞서 총선이 결산을 제시했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008818122",
+          "original_title": "이스라엘 총선 초박빙…반 네타냐후 진영 출구조사서 근소하게 앞서",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이스라엘 총선 초박빙…반 네타냐후 진영 출구조사서 근소하게 앞서",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008818122",
+              "image": "https://img.sbs.co.kr/newimg/news/20261028/202235478_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "이스라엘 총선 초박빙…反네타냐후 진영 출구조사서 근소하게 앞서(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261028007551099",
+              "image": "https://img6.yna.co.kr/photo/cms/2026/10/28/02/PCM20261028000002990_P4.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "이스라엘 총선 초박빙 \"反네타냐후 52석·親네타냐후 50석\"",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONUprWjRSanlpYTlkalNVSHNXMWl4cUtEVjQzUDhWMmFEb2toajNuQ0xnVnltb0UtV081NmJGY2NQV2pGUzZsQ2JNa0drZzg5bzlDWFgxb1BlR1d5U1JGc25DdXJNTXJlalA3d0NHUWZuWWdWc3ctTDNvMkFCVS1UUzRvbTFIXzVfclozeV90OEFCNFJyZjh0NWV3WkUwZw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/T4NKQBEOEVN6RBK4GOZGHPSKE4.jpg?auth=3f049b142ff875fb7e0b8d1ad8ee62fe637bf8b09161284aee0af10f96beaf70&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/international/international_general/2026/10/28/PDB25ZWDXNEPDMUKH3EPONBCZE/"
+            },
+            {
+              "name": "뉴시스",
+              "title": "이스라엘 총선 친네타냐후 50석·반네타냐후 52석-채널12 출구조사",
+              "link": "https://www.newsis.com/view/NISX20261028_0003843759",
+              "image": "https://img1.newsis.com/2026/10/27/NISI20261027_0001698140_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "이란, 장금상선 호르무즈 규칙 위반 경고",
+          "summary": "이란이 장금상선의 호르무즈 해협 통항 규칙 위반을 경고하며 내달 법적 조치를 예고했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261028_0003843813",
+          "original_title": "이란, 韓장금상선 11월부터 법적 조치…\"호르무즈 규칙 최다 위반\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "이란, 韓장금상선 11월부터 법적 조치…\"호르무즈 규칙 최다 위반\"",
+              "link": "https://www.newsis.com/view/NISX20261028_0003843813",
+              "image": "https://img1.newsis.com/2026/10/28/NISI20261028_0002275741_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "이란, '호르무즈 해협 운항' 장금상선 겨냥 \"법적 조치\" 경고",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008817793",
+              "image": "https://img.sbs.co.kr/newimg/news/20260930/202227285_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "이란, ’호르무즈 해협 운항’ 한국 장금상선에 경고…“내달 법적조치“",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZRmdudWlQNlZOWE52RW9aTlNKc1pFNWp3Q1pQaUNHdlYtamV5SUxVeTlGeXcwTURBdVR6UzJzR0VPOGs2aDN0R2VFVVc3Rlo4LUxKdW80c0xqX2Z0TWdJZzd3QXpTMEU?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261027/AKR2026102721051849Y_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR2026102721051849Y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "삼성, 게임 성능 제한 고지 미이행에 200억 과징금",
+          "summary": "삼성은 게임 성능 제한을 고지하지 않아 200억 원 과징금을 부과받았다.",
+          "source": "경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sdWoxY1o4Ymg2bXFYdTJkSGRRQk02VlpXUVRVdmZtX1BXUmtVZ1dqQkZiTkZGY2xOZURtRXJibVpmQThFcEpUbjJhLVVwWEcxMEJaZ1d6T1J0UdIBX0FVX3lxTE5tdUF6cWs1Y21lWnFzNmZNeXJZelpmV0xnSkxJR0dPT2ZNMWRhd1NhXzJhNnRsVjgyeFZ2djlvVVJaZG96QnZra3czeEtsSGhuVUZYcDBnSjBOU0N1ckFr?oc=5",
+          "original_title": "‘게임 성능 제한’ 고지 안 한 삼성전자에 200억대 과징금",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "‘게임 성능 제한’ 고지 안 한 삼성전자에 200억대 과징금",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sdWoxY1o4Ymg2bXFYdTJkSGRRQk02VlpXUVRVdmZtX1BXUmtVZ1dqQkZiTkZGY2xOZURtRXJibVpmQThFcEpUbjJhLVVwWEcxMEJaZ1d6T1J0UdIBX0FVX3lxTE5tdUF6cWs1Y21lWnFzNmZNeXJZelpmV0xnSkxJR0dPT2ZNMWRhd1NhXzJhNnRsVjgyeFZ2djlvVVJaZG96QnZra3czeEtsSGhuVUZYcDBnSjBOU0N1ckFr?oc=5",
+              "image": "https://img.khan.co.kr/spko/company/Khan_CI_180212.jpg",
+              "url": "https://www.khan.co.kr/article/202610272056015"
+            },
+            {
+              "name": "동행미디어 시대",
+              "title": "게임 켜면 스마트폰 성능 뚝…삼성전자에 201억 과징금",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rSHF0NmRsei1BUDFfNF9hUHpMblJVWjVHSnhfYTUxTnl5aVdwaG9GbEppMm93WlpfSFZzY3VERFlCUlBhUVRybkFHcDJFaHdTcTg4YktuX1diaGtMSVE?oc=5",
+              "image": "https://menu.sidae.com/moneyweek/thumb/2026/10/27/00/2026102717124825561_1.jpg",
+              "url": "https://www.sidae.com/article/2026102717124825561"
+            },
+            {
+              "name": "국제신문",
+              "title": "스마트기기 성능 제한 사실 숨긴 삼성전자, 과징금 200억 원 문다",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM1dzRjY5LTVUbjJUOUxWWEwtdFIzT2dPZGFKT0VCM2JzWk9KUV9KZ3QtN1JENGhvQXd4YUozdmlhZTh6LV9iZlY5N1owWjY1TUVVS1ZORm5RVDgzNmZVcnBLX1FEOVc0ZThLNWwzdGw0Q1J4VENIRTVjS3M1Mmt1bkhSSDd4U0hHQ2xJT0d3?oc=5",
+              "image": "https://db.kookje.co.kr/news2000/photo/2026/1027/L20261027.99099007753i1.jpg?9",
+              "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261027.99099007753"
+            },
+            {
+              "name": "조선일보",
+              "title": "갤럭시 스마트폰서 고사양 게임 시 최대 성능 제한됐는데도 안 알려...공정위, 삼성전자에 과징금 201억원 부과",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZEIzUUgxWmlyU1dCMm82LTFSSTZoTU5kZ2pTa252QTVUbnhtQk1vd0FHRjVwa0pNbnVOcVlNQUw5bWl4U2tkOXpfaWV5RkhtQVNFRDRfTEdqRkg1NkxCVFI5Mk1NOGtIR2JVX0J5LVdPUlRIOUtwRmFwRDlwbEsxaW96VGVkY0dCRkJiVExB?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/GA4GIZTFG43TAZTEGY4DCYLEME.jpg?auth=53457c9925bbb84ddae625edb8643baf76df9d7ccdc1b7042f580bda0c1f26dc&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/economy/economy_general/2026/10/27/KVWYGM2CWRGE7PKZO6VM6QWNO4/"
+            },
+            {
+              "name": "부산일보",
+              "title": "\"모바일 게임 끝판왕\"이라더니 성능제한, 삼성전자 과징금 200억",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kTVV2Qm9ub3V5YlhMVFhodFdHcC1SLVZnT2c3QnBpZkxLQ2lVRlQtMGdQZkJNYnpucjRaaWxEdE9CbzUxQ3dRVktmYTZOcVZ2NlZVaVFhQ1RUaFVNUEpoWjkzTC1ad3pDTGo4dEp4d0tBRnR2?oc=5",
+              "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/27/2026102709500774922_l.png",
+              "url": "https://www.busan.com/view/busan/view.php?code=2026102709553093075"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "영화 '최종면접', 개봉 전 한국영화 예매율 1위",
+          "summary": "가장 높은 예매율을 기록한 영화 '최종면접'이 11월 4일 개봉을 앞두고 있다.",
+          "source": "https://www.frame-less.co.kr/",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DdUZRcGVLLUl5TDVfYkJ5M1FaYW9rQ0l4M01abC1jT0FnZHgzQ0hYQkh1V3d1OXF1TG84Y1dnRmQtaDVtMmJnN0JVODFLZVFyUllYdHRxbGgyeE8xLXFjajkxbHJwdG9obm5pTjFR?oc=5",
+          "original_title": "영화 '최종면접', 한국영화 예매율 1위 등극- 11월 4일 개봉",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "frame-less.co.kr",
+              "title": "영화 '최종면접', 한국영화 예매율 1위 등극- 11월 4일 개봉",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DdUZRcGVLLUl5TDVfYkJ5M1FaYW9rQ0l4M01abC1jT0FnZHgzQ0hYQkh1V3d1OXF1TG84Y1dnRmQtaDVtMmJnN0JVODFLZVFyUllYdHRxbGgyeE8xLXFjajkxbHJwdG9obm5pTjFR?oc=5",
+              "image": "https://cdn.frame-less.co.kr/news/photo/202610/5674_15037_3336.jpg",
+              "url": "https://www.frame-less.co.kr/news/articleView.html?idxno=5674"
+            },
+            {
+              "name": "미디어펜",
+              "title": "영화 '최종면접', 개봉 앞두고 한국영화 예매율 1위",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11c0tENVNabUw0c3gzTTFhYWdFTHN6dkgzZmdXM3hiRTAzWGEtTUp3d1V4Z2hscjdBck5uaWQxc0JDM0dMTndyWF9rQ1lhT1RjbWZXRFlWQ1LSAVhBVV95cUxNdXNLRDVTWm1MNHN4M00xYWFnRUxzenZIM2ZnVzN4YkUwM1hhLU1Kd3dVeGdobHI3QXJObmlkMXNCQzNHTE53clhfa0NZYU9UY21mV0RZVkNS?oc=5",
+              "image": "https://image.mediapen.com/news/202610/news_1132997_1793109106_m.jpg",
+              "url": "https://www.mediapen.com/newsamp/view/1132997"
+            },
+            {
+              "name": "맥스무비",
+              "title": "[박스오피스] ‘최종면접’ 개봉 전 터졌다…한국영화 예매율 1위",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ia0JLUUt5c3d4cU9JY0VURVdCV3owNGJiSVFBZllFclBDTjM2Y2xtWGJLU0ttS3V6NXFmNEYyUnE0S2VSbU9NNU5RbDVsZ3V3Y05USzZPZ3k2a011VU15aWE5U1lIZENRMFF3?oc=5",
+              "image": "https://cdn.maxmovie.com/news/photo/202610/502600_43574_4629.jpeg",
+              "url": "https://www.maxmovie.com/news/articleView.html?idxno=502600"
+            },
+            {
+              "name": "머니투데이",
+              "title": "김재원·신승호·강유석 '최종면접', 개봉 전 韓영화 예매율 1위",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaR0dzNEVubkZvb2lJOGFNOTQwX1ZVWnhmXzhCMXpta1VabXdsczM3QnNaMTNUWHdTTmNRVE45cm1hZ0N4S1hIZFd4YXFzZnptb0lRT2pUV2pzUHpaOVFrT0RlM3B1YTlIbHkzZGFsRXFJcGdfNVpOeNIBeEFVX3lxTFBaR0dzNEVubkZvb2lJOGFNOTQwX1ZVWnhmXzhCMXpta1VabXdsczM3QnNaMTNUWHdTTmNRVE45cm1hZ0N4S1hIZFd4YXFzZnptb0lRT2pUV2pzUHpaOVFrT0RlM3B1YTlIbHkzZGFsRXFJcGdfNVpOeA?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=802,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026102715037265902_1.jpg",
+              "url": "https://www.mt.co.kr/amp/entertainment/2026/10/27/2026102715037265902"
+            },
+            {
+              "name": "스페셜타임스",
+              "title": "‘최종면접’, 한국영화 예매율 1위…11월 4일 개봉",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfNXkwYU1vNXg2bm9VOTZUUkhpUUx5VkFocE5QVDFEbEg2RXVvWC1nNi1SMzRUNk1nNW9mWWYyMldJNjZSRTBsbldzWnkxVjMzdkd5V0FFeWlBWkxkMG1JQkpLR1pDZTBITndrNzhyNDRYVDg?oc=5",
+              "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202610/478810_468484_916_v150.jpg",
+              "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=478810"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "안세영 덴마크 프랑스 오픈 제패 후 귀국",
+          "summary": "덴마크와 프랑스 오픈을 연속으로 우승한 안세영이 귀국했다. 부상 회복을 위해 다음 주 코리아오픈을 건너뛸 가능성을 언급했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008818086",
+          "original_title": "쉼 없이 달린 안세영…\"재정비할 시간 필요해\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "쉼 없이 달린 안세영…\"재정비할 시간 필요해\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008818086",
+              "image": "https://img.sbs.co.kr/newimg/news/20261028/202235482_1280.jpg"
+            },
+            {
+              "name": "서울신문",
+              "title": "셔틀콕 50연승·10회 우승 안세영 “재정비 시간 필요”",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sbWZKTzhfYkt2Y2VNeFI0N05STG10Vkpqc2ZNY2dQS053dkFnSUFsY3ZtQ2EtdXp2RWktWmprZW50dHlNNmJzeDJjZlhGWWJzaGlUNXJVTmVNXzUxT2pOeTBaVjkzdThEcTZqUmtxNERLOWxKR2dvNFZB?oc=5",
+              "image": "https://img.seoul.co.kr//img/upload/2026/10/28/SSC_20261028004857_O2.jpg",
+              "url": "https://www.seoul.co.kr/news/sport/badminton/2026/10/28/20261028035001"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "리커버리 슈즈",
+    "tagline": "운동 후 휴식에 최적",
+    "description": "리커버리 슈즈는 운동 후 신발을 벗는 대신 착용해 근육 회복을 돕는다. 편안한 소재와 통기성으로 하루 종일 착용이 가능하다. 색상은 주로 흰색·회색이 어울린다.",
+    "items": [
+      {
+        "category": "top",
+        "name": "연회색 티셔츠",
+        "color": "연회색",
+        "hex": "#D3D3D3"
+      },
+      {
+        "category": "bottom",
+        "name": "연회색 반바지",
+        "color": "연회색",
+        "hex": "#D3D3D3"
+      },
+      {
+        "category": "shoes",
+        "name": "흰색 리커버리 슈즈",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bag",
+        "name": "흰색 가벼운 백",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "hat",
+        "name": "검은색 스포츠 모자",
+        "color": "검은색",
+        "hex": "#000000"
+      },
+      {
+        "category": "scarf",
+        "name": "연회색 스카프",
+        "color": "연회색",
+        "hex": "#D3D3D3"
+      }
+    ],
+    "tips": [
+      "운동 직후 착용해 근육 회복을 돕는다.",
+      "편안한 소재로 하루 종일 착용 가능.",
+      "색상은 흰색·회색이 어울린다."
+    ],
+    "weather_tip": "맑은 아침, 회색 리커버리 슈즈와 연회색 티셔츠로 가볍게",
+    "weather": {
+      "city": "서울",
+      "t_max": 11,
+      "t_min": 2,
+      "rain_pct": 0,
+      "sky": "맑음",
+      "display": "서울 2~11°C · 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "좋은 러닝화보다 훨씬 더 가지고 싶은 리커버리 슈즈",
+        "name": "GQ Korea",
+        "link": "https://www.gqkorea.co.kr/2026/10/28/%ec%a2%8b%ec%9d%80-%eb%9f%ac%eb%8b%9d%ed%99%94%eb%b3%b4%eb%8b%a4-%ed%9b%a8%ec%94%ac-%eb%8d%94-%ea%b0%80%ec%a7%80%ea%b3%a0-%ec%8b%b6%ec%9d%80-%eb%a6%ac%ec%bb%a4%eb%b2%84%eb%a6%ac-%ec%8a%88%ec%a6%88/",
+        "note": "리커버리 슈즈는 운동 후 신발을 벗는 대신 착용해 회복을 돕는다.",
+        "image": "https://www.gqkorea.co.kr/wp_data/gq/2026/10/style_6ad25abe34720-1920x1080.jpg",
+        "url": "https://www.gqkorea.co.kr/2026/10/28/%EC%A2%8B%EC%9D%80-%EB%9F%AC%EB%8B%9D%ED%99%94%EB%B3%B4%EB%8B%A4-%ED%9B%A8%EC%94%AC-%EB%8D%94-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%A6%AC%EC%BB%A4%EB%B2%84%EB%A6%AC-%EC%8A%88%EC%A6%88/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "용기란 두려움이 없는 것이 아니라, 두려움을 다스리는 것이다.",
+    "author": "마크 트웨인",
+    "work": "얼간이 윌슨"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 찾아온다"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 부드러운 대화가 빛난다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "활력 넘치는 하루를 설계해라"
+      },
+      {
+        "animal": "토끼",
+        "text": "가벼운 발걸음이 새로움을 이끈다"
+      },
+      {
+        "animal": "용",
+        "text": "불꽃 같은 열정이 길을 열어준다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 판단이 오늘을 빛낸다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 목소리가 길을 안내한다"
+      },
+      {
+        "animal": "양",
+        "text": "평온한 마음이 새로운 아이디어를 낸다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유연한 사고가 상황을 바꾼다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성취를 이끈다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 오늘의 동반자다"
+      },
+      {
+        "animal": "돼지",
+        "text": "따뜻한 웃음이 하루를 채워준다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
