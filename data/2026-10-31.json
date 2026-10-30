@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-31",
+  "weekday": "토요일",
+  "vol": 19,
+  "generated_at": "2026-10-31T08:32:21+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5937.66,
+      "change": -74.78,
+      "change_pct": -1.24,
+      "direction": "down",
+      "display": "5,937.66",
+      "change_display": "▼ 1.24%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1333.4,
+      "change": -6.9,
+      "change_pct": -0.51,
+      "direction": "down",
+      "display": "1,333.4원",
+      "change_display": "▼ 0.51%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 103800000.0,
+      "change": -1554000.0,
+      "change_pct": -1.48,
+      "direction": "down",
+      "display": "10,380만원",
+      "change_display": "▼ 1.48%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 13,
+    "t_min": 7,
+    "rain_pct": 47,
+    "sky": "흐림",
+    "display": "서울 7~13°C · 흐림 · 강수 47%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "가전",
+      "headline": "삼성전자 AI·대화면 갤럭시 A18 LTE 출시",
+      "summary": "삼성전자가 AI 기능과 대화면을 탑재한 갤럭시 A18 LTE를 국내 공식 출시했다",
+      "source": "유스연합",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wSUFrTHZBQktQa2ZMdTZvMWFTQUo2OWhJN05HWXpJYkdTNE95Y19KZHlGMnJUQ0M3MThzMnFMQkhIbUV6WkdsV3dsclBHSjRlWXpj?oc=5",
+      "original_title": "삼성전자, AI와 대화면 갖춘 ‘갤럭시 A18 LTE’ 국내 공식 출시",
+      "sources": [
+        {
+          "name": "유스연합",
+          "title": "삼성전자, AI와 대화면 갖춘 ‘갤럭시 A18 LTE’ 국내 공식 출시",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wSUFrTHZBQktQa2ZMdTZvMWFTQUo2OWhJN05HWXpJYkdTNE95Y19KZHlGMnJUQ0M3MThzMnFMQkhIbUV6WkdsV3dsclBHSjRlWXpj?oc=5",
+          "image": "https://img.ehom.kr/news/2026/10/30/438c7e81e1f769ff51c71af7412f1f73165233_thumb.jpg",
+          "url": "https://www.youthassembly.kr/news/1025498"
+        },
+        {
+          "name": "지디넷코리아",
+          "title": "삼성전자, 가성비 AI 스마트폰 '갤럭시 A18 LTE' 국내 출시",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiYzI2QzhiVG1QbWpaX3l3ZWtVb2xZZnNxOVNkWHhxbldRenJlcVIyS1A5c2pweUpweGlTNTE3ZFlZOEtlQlBFWkNLOUxwc3RtYThQWUV3?oc=5",
+          "image": "https://image.zdnet.co.kr/2026/10/30/5d21af389d86e83504686e8c1aa7041f.jpg",
+          "url": "https://zdnet.co.kr/view/?no=20261030154118"
+        },
+        {
+          "name": "현대경제",
+          "title": "삼성전자, 42만원대 '갤럭시A18 LTE' 출시…AI 기능까지 담았다.",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YRVlQWEtBQ2NDOXpCbHVZaGxjbVNQNGltYktzZFpQSDRfeWZWX3FkZTZsaHVDQ245NXJIXy1aOGltUHRSUkQ1ZGdITUo0ZHNtUlpNV28xY0U2ODAwUklWcTlINWJQUnVzaU9F?oc=5",
+          "image": "https://cdn.hdnews.co.kr/news/thumbnail/202610/361112_359133_4249_v150.jpg",
+          "url": "https://www.hdnews.co.kr/news/articleView.html?idxno=361112"
+        },
+        {
+          "name": "워크투데이",
+          "title": "삼성전자, 실속형 스마트폰 ‘갤럭시 A18 LTE’ 출시 … 42만원대 가격 경쟁력",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZMmNlbFBoOUplWjQwQmpHRi03elZXQjFNN0dtQzMydHFBVzhPdGRiLWd1YXFGcXpHZUE4a08wZFFLbmdiNWo1MEU3V0xTNHY1b004MDlEcm04MGc1cVJnbURFZExrTk9lRkhVUg?oc=5",
+          "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=91201"
+        },
+        {
+          "name": "Investing.com 한국어",
+          "title": "삼성전자, 40만원대 AI 스마트폰 ’갤럭시 A18 LTE’ 국내 출시 By EBN",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12blA5Ym9RR1ZBNzl1U3U2OW9Ra085Q0EtX3ZHYWV3bEJzMWNTNUJwRFAzS0swUXltSXVLam5rRllSMmF4aG1PSlprbUxkb3dLODctTnlXV3JQZy1JcFpscFNBdGdtWkhhVTdrOHJYM1A?oc=5",
+          "url": "https://kr.investing.com/news/stock-market-news/article-2150341"
+        }
+      ]
+    },
+    {
+      "kicker": "코스피",
+      "headline": "코스피 4%대 급락 매도 사이드카 발동",
+      "summary": "코스피가 4%대 급락하며 매도 사이드카가 발동했다",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/stock/12191260",
+      "original_title": "[속보] 코스피 4%대 급락…매도 사이드카 발동",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "[속보] 코스피 4%대 급락…매도 사이드카 발동",
+          "link": "https://www.mk.co.kr/news/stock/12191260",
+          "image": "https://pimg.mk.co.kr/news/cms/202610/30/rcv.YNA.20261030.PYH2026103002440001300_R.jpg"
+        },
+        {
+          "name": "경향신문",
+          "title": "구글 실적 충격에 코스피 4%대 급락…매도 사이드카 발동",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hUUUyTDBKX3NBQWtBU0I5VDRqZUJyYVlkOUZibHZLSXl2Zng3ejBHQm5ISlJ2VHMtdnN2TUx5RWotNmF6cmcxQzBFMlBvSXFtcHJjVFVsaUZBUdIBX0FVX3lxTE9NNWRCS1JhanVUVmhGUlFjc1dpdThmejVzNFNEOW91N2d2VVpYQWtaU0UwMEJlZWpGTlBzbVY5d2lKOElzTkxBcUJianZIZ3BYcUhySTItY1VGcmZfc0pF?oc=5",
+          "image": "https://img.khan.co.kr/news/2026/10/30/rcv.YNA.20261030.PYH2026103002400001300_P1.jpg",
+          "url": "https://www.khan.co.kr/article/202610301029011"
+        }
+      ]
+    },
+    {
+      "kicker": "아이돌",
+      "headline": "이수현 30kg 감량…뼈말라 칭찬 아냐",
+      "summary": "이수현이 30kg 감량 후 불편한 심경을 밝혔다",
+      "source": "BNT뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpVjBfQlBBWTdNb3M5RWVjMTl2dDlQelRVd1pRUHBxR3piR0tqOXppWW56b0Job1o3dlhQOUJ3NGw4Zkp2cEQtMTkwcU1HQ1ZFcHNQQ3ZFQ2JzOWZ5VnNland5UF8?oc=5",
+      "original_title": "‘30kg 감량’ 악뮤 이수현 “뼈말라, 나한텐 칭찬 아냐”",
+      "sources": [
+        {
+          "name": "BNT뉴스",
+          "title": "‘30kg 감량’ 악뮤 이수현 “뼈말라, 나한텐 칭찬 아냐”",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpVjBfQlBBWTdNb3M5RWVjMTl2dDlQelRVd1pRUHBxR3piR0tqOXppWW56b0Job1o3dlhQOUJ3NGw4Zkp2cEQtMTkwcU1HQ1ZFcHNQQ3ZFQ2JzOWZ5VnNland5UF8?oc=5",
+          "image": "https://www.bntnews.co.kr/data/bnt/image/2026/10/31/bnt202610310056.jpg",
+          "url": "https://www.bntnews.co.kr/article/view/bnt202610310031"
+        },
+        {
+          "name": "스포츠동아",
+          "title": "이수현 “뼈말라, 나한텐 칭찬 아냐”…30kg 감량 후 불편한 심경",
+          "link": "https://sports.donga.com/ent/article/all/20261030/134938610/1",
+          "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/10/30/134938612.1.png"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "AI 투자 우려로 NYSE 급락",
+          "summary": "AI 투자 우려로 미국 증시 주요 지수가 하락했다. 나스닥은 2.9%, 인텔은 29% 급락했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261031005452072",
+          "original_title": "AI 투자 우려에 뉴욕증시 털썩…인텔 29% 급락에 나스닥 2.9%↓(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "AI 투자 우려에 뉴욕증시 털썩…인텔 29% 급락에 나스닥 2.9%↓(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261031005452072",
+              "image": "https://img4.yna.co.kr/photo/reuters/2026/10/31/PRU20261031010601009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "[속보] 뉴욕 증시, 기술주 실적 부진에 하락 마감···다우 1.09%↓ 나스닥 2.86%↓",
+              "link": "https://www.newsis.com/view/NISX20261031_0003849131",
+              "image": "https://img1.newsis.com/2024/08/06/NISI20240806_0001360363_web.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "뉴욕 증시, 아마존·인텔 실적 부진에 하락 출발",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoeGRueVI5ODN5S1NnOVVzaDB4TDVaR2JqQVpZUFZCbXVtWVhFODNlV2ZWN1JVRklYTm5hcVNSWVppSEs0YmdROUJUVEFOdlpXSmlIV2ZFZkR6SkVhT3c?oc=5",
+              "image": "https://image.ytn.co.kr/general/jpg/2026/1031/202610310019491925_t.jpg",
+              "url": "https://www.ytn.co.kr/_ln/0104_202610310019491925"
+            }
+          ]
+        },
+        {
+          "headline": "이란 전쟁 우려로 유가 급등",
+          "summary": "이란 전쟁 확전 우려로 국제유가가 2% 이상 상승했다. 브렌트유는 6개월 만에 최고 수준에 이르렀다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261031005200072",
+          "original_title": "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월만에 최고",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월만에 최고",
+              "link": "https://www.yna.co.kr/view/AKR20261031005200072",
+              "image": "https://img5.yna.co.kr/photo/reuters/2026/10/28/PRU20261028256701009_P4.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "미-이란 확전 우려에 국제유가 2%대 급등…브렌트유 지난 4월 이후 최고 수준",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RXzNfazdGN3J5ODlrOUFVd2pPb195dFYzVThJT2JiOTNFZ21ZSmtmUzR0c1NZdmJuNnc0Y2xKd1lKQkdPbWlrSENUV25xcWVnbXhONTFPcDN4QXc?oc=5",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8700398"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "휠라, 성수에 헤리티지 매장 휠라 1911 오픈…한정판 협업 상품 판매",
+          "summary": "",
+          "source": "아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVbkFWRDZ0MlNJQWRFVWVFV2lHYVJLR3Z1S2lkbXc5d3BlZ2pWNmYzUTlPSEFzem5VRUVaY2ROcXFYLS16SlRZZU9hc2h5SGZaVHJfX1lTZknSAVhBVV95cUxQVW5BVkQ2dDJTSUFkRVVlRVdpR2FSS0d2dUtpZG13OXdwZWdqVjZmM1E5T0hBc3puVUVFWmNkTnFxWC0tekpUWWVPYXNoeUhmWlRyX19ZU2ZJ?oc=5",
+          "original_title": "휠라, 성수에 헤리티지 매장 휠라 1911 오픈…한정판 협업 상품 판매",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "아주경제",
+              "title": "휠라, 성수에 헤리티지 매장 휠라 1911 오픈…한정판 협업 상품 판매",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVbkFWRDZ0MlNJQWRFVWVFV2lHYVJLR3Z1S2lkbXc5d3BlZ2pWNmYzUTlPSEFzem5VRUVaY2ROcXFYLS16SlRZZU9hc2h5SGZaVHJfX1lTZknSAVhBVV95cUxQVW5BVkQ2dDJTSUFkRVVlRVdpR2FSS0d2dUtpZG13OXdwZWdqVjZmM1E5T0hBc3puVUVFWmNkTnFxWC0tekpUWWVPYXNoeUhmWlRyX19ZU2ZJ?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/10/30/20261030183835765660.jpg",
+              "url": "https://www.ajunews.com/amp/20261030183757519"
+            },
+            {
+              "name": "KPI뉴스",
+              "title": "휠라(FILA), 성수에 ′휠라 1911 성수′ 오픈",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3cFNkLXZ3VHBja0NiRW9aMXoxblM5YVVobHNObU1uZFVyZmxEb0REMjczNF96aVVZRmZuNmFudDRWX1RLem13OHRwVV8wYmpGcEow0gFTQVVfeXFMUDdwU2QtdndUcGNrQ2JFb1oxejFuUzlhVWhsc05tTW5kVXJmbERvREQyNzM0X3ppVVlGZm42YW50NFZfVEt6bXc4dHBVXzBiakZwSjA?oc=5",
+              "url": "https://m.kpinews.kr/amp/1065580744885260"
+            },
+            {
+              "name": "패션엔",
+              "title": "휠라, 115년 헤리티지와 성수의 문화적 감성이 만났다! ‘휠라 1911 성수’ 오픈",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wZWZlcktJdHBxZ3dpZncxQVFGOF9QLXFHMnJuTkNwa3JnZkpRVzBiQmJ6UWQ1R3IwZVI5cUdyRDk5SlBEQjZRLWRfdUdaSEFFRXRkdG1JNzJHaVZrb1FybVlZWnBxWmx2NGpIdjdoSkF4bkRjdjFF?oc=5",
+              "image": "https://www.fashionn.com/files/board/2026/image/o_1k655a2h860p16oa13srumm16dnb.jpg",
+              "url": "https://m.fashionn.com/board/read.php?table=fashionnews&number=62984"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "휠라, 헤리티지 스토어 ‘FILA 1911 성수’ 오픈",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fVGxYdG5YdWoxdk1sRlZOZUtIMHgzN2F4aUQ3SF9uLXBQbS1aY09EYjBkQnN3cWdRRmFRNGNWNEkwZ3EzUnZyUTM0TDlvUW9SZ3Zmc1J4Mk93RHpzNXdrT1F6WmdyZw?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202610/777726_1188654_3747_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=777726"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "LG 프라엘, 피부 전문의와 손잡고 ‘피부과학 자문단’ 공식 발족",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100318",
+          "original_title": "LG 프라엘, 피부 전문의와 손잡고 ‘피부과학 자문단’ 공식 발족",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "LG 프라엘, 피부 전문의와 손잡고 ‘피부과학 자문단’ 공식 발족",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100318",
+              "image": "https://www.jangup.com/news/thumbnail/202610/100318_72223_3723_v150.jpg"
+            },
+            {
+              "name": "맥스무비",
+              "title": "LG 프라엘, 피부 전문의와 ‘피부과학 자문단’ 발족… K-뷰티 테크 리더십 강화",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EeVdqVi1oOWxnYXdBOG00QmJ1TTJlNlVNUjNSanhSaDZ1RzhqeVhJUG1ZVXg1ck41SkJ1bmNaTHpZU1ktb3QtY291SE04bXdrTkpFemxyZGFwUHZoSnFXVDluXzZMcHNIb1FF?oc=5",
+              "image": "https://cdn.maxmovie.com/news/photo/202610/502675_43676_1346.jpg",
+              "url": "https://www.maxmovie.com/news/articleView.html?idxno=502675"
+            },
+            {
+              "name": "뉴스드림",
+              "title": "LG 프라엘, 피부과학 자문단 출범…K-뷰티 테크 경쟁력 강화",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6WEUwcGxmWXRXdVRXNk5lZFg0Ym9SX3JucFIwTU5pTEJpbUZCYlJUa0lJaFRPZi12NlE2R3pBU1M0Qnpwa0hKb0ZNTWg5RG1jc3F3TDhXLVM3RXM4bkMyRUJLTExjeTlYalRR0gFuQVVfeXFMUEhnLS1EaW1wUWUtUWZqLXBIV3VORzVCYlRwWWRiM1J5V29NbHZVWEM2bi1WaDBaU0l4RTM0LUZEV016NUpWbkJoekVaa3VXTGVGbW1CV243czhua2JiaWkwaFlqendVb1FPTDBycmc?oc=5",
+              "image": "https://cdn.newsdream.kr/news/thumbnail/202610/121201_94235_5041_v150.jpg",
+              "url": "https://www.newsdream.kr/news/articleView.html?idxno=121201"
+            },
+            {
+              "name": "뷰티누리",
+              "title": "화장품신문 (Beautynury.com) :: LG 프라엘, 피부과학 자문단 발족…홈 뷰티 기기 연구 확대",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ST1RzckRLY0hTWmFudW9VaWxmcnljcW81R2FoWWQwS2JoVUktaUZuZHlLU1dpNVhaclBZNlFTUVBVSm03MlQxZmRhTnRhUVB0SnVTdThvS25VcjluRFU0?oc=5",
+              "url": "https://www.beautynury.com/news/view/112494/cat/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "웰니스·국내 료칸·시니어 여행 급증",
+          "summary": "어센트 AI가 발표한 여행 검색 키워드 분석 결과, 웰니스, 국내 료칸, 시니어 여행이 급증했다고 밝혔다",
+          "source": "월요신문",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lSjRXUGFiY3FKZG42WlpYQndJZE5JVFZRUTVLWnNBT21sNGVnQVpKWnM4VVowZTF4SUxLMm82Rmhpak12b082QWhXSl9zdXc1SWVSY21HcTBUclptVWY4OGd2LThHSGl6dGc?oc=5",
+          "original_title": "어센트 AI, 여행 검색 3대 변화 분석…‘웰니스·국내 료칸·시니어’ 부상",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "월요신문",
+              "title": "어센트 AI, 여행 검색 3대 변화 분석…‘웰니스·국내 료칸·시니어’ 부상",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lSjRXUGFiY3FKZG42WlpYQndJZE5JVFZRUTVLWnNBT21sNGVnQVpKWnM4VVowZTF4SUxLMm82Rmhpak12b082QWhXSl9zdXc1SWVSY21HcTBUclptVWY4OGd2LThHSGl6dGc?oc=5",
+              "image": "https://cdn.wolyo.co.kr/news/photo/202610/319838_228850_1155.png",
+              "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=319838"
+            },
+            {
+              "name": "이지경제",
+              "title": "웰니스·국내 료칸 뜨고 시니어 여행 급증…어센트 AI, \"여행 검색 키워드 달려져\"",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFOTR4SlFqTFMtNjRaTlVKY3E1WUY3WXQ1X0k4anBNNldCaG9WUXdWWG5KanM5X29Wa2ctT2hreG9lbHBuWXgwbmFvUDY1czBNU2pockVXdjhkN3Z5SjVJMW4ta3ZxdUJVVUNLREVR?oc=5",
+              "image": "https://cdn.ezyeconomy.com/news/thumbnail/202610/241420_142960_4138_v150.jpg",
+              "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241420"
+            },
+            {
+              "name": "테크월드",
+              "title": "시니어 여행 검색 532% 급증…웰니스·국내 료칸도 관심 커졌다",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zU1duMTkwSElzMC1GSHdETWpPMHhjbkRueWJTc0o1ak1RSWpqeU94Q1pfMDdSMUsydDBUMnppWVFpanpmOW8wT1dYVkZmdi1MN0trUUJLdHBqR2xZc2stM3VwcUgyNWZR?oc=5",
+              "image": "https://cdn.epnc.co.kr/news/photo/202610/409035_409672_3758.png",
+              "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409035"
+            },
+            {
+              "name": "숙박매거진",
+              "title": "최근 여행의 핵심 키워드, 웰니스·료칸·시니어",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sd1RkaFNhZFZuN21Wc2J2ZHFQYk9jNUREYzc2VTRZMG1nQWZMX1J3SWxUYmJ4RGNURXBBYzNFbV94VV8zZjlCbzZ5TWIwWkhFdkhHdndyWEV1Ty1oaTZlS3AzMk5HZ29ULWlrMDlDNWtHZw?oc=5",
+              "image": "https://cdn.sukbakmagazine.com/news/thumbnail/202610/69819_519211_4550_v150.jpg",
+              "url": "https://www.sukbakmagazine.com/news/articleView.html?idxno=69819"
+            },
+            {
+              "name": "헬로티",
+              "title": "어센트 AI, 검색 데이터 분석…웰니스·국내 료칸·시니어 여행 관심 급증 확인",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGM0NiTEhXN1JzN1FQZFJEZ2dHcHJfazZuVGVET0RlVG04WDNHYXFXTXVWLW1BVHRTc2duX0RvSU9pei04VGlOWGtkT0N6MXkwby1Gd3pFYnBnWFZDMzlJ?oc=5",
+              "image": "https://www.hellot.net/data/photos/20261044/art_17933271184837_ce4595.jpg",
+              "url": "https://www.hellot.net/news/article.html?no=115915"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "북한, 스위스 외무장관 방북결과 보도…\"국제정세 의견 교환\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824173",
+          "original_title": "북한, 스위스 외무장관 방북결과 보도…\"국제정세 의견 교환\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "북한, 스위스 외무장관 방북결과 보도…\"국제정세 의견 교환\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824173",
+              "image": "https://img.sbs.co.kr/newimg/news/20261031/202236600_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "북 ‘2인자’ 회담한 스위스 외무장관 방한…정부에 방북 결과 설명",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5V0ZuMlJNUmpqQzk4dEEwaUo0ekFDVzJGNEU2aTJsQnRvSkpxcG5Ccy1ZcjlpRGU2Qi1UcFR0NjZYeWc4S1pKMDUtMjJwdmRRWVJCSG5LdmpFQUxFWjMxYW9zYlo4RC1ZdzhKSnMtRVprM3NG?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/900/imgdb/original/2026/1031/1817933741492614.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1285088.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "北조용원·최선희 만난 스위스외무, 韓정부에 방북결과 설명(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261030182252504",
+              "image": "https://img3.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030182252504_01_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "충남 부여 양계장서 불…닭 2만7천마리 폐사",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261031009100063",
+          "original_title": "충남 부여 양계장서 불…닭 2만7천마리 폐사",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "충남 부여 양계장서 불…닭 2만7천마리 폐사",
+              "link": "https://www.yna.co.kr/view/AKR20261031009100063",
+              "image": "https://img0.yna.co.kr/photo/cms/2025/08/24/04/PCM20250824000004990_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "충남 부여 양계장 불‥닭 2만7천 마리 폐사",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCWGNvUlRtNG9DLUEzUkRRdXdCNUtMbHUyS0E0RnlKa0RDRmg0WFM3ME54SU1oWGJ4WGZOZlFvOVNHOG5vbXA0QXZ5Tnoyd0xXRzFEQ09hSUFaT0d2NTlSTExja0s3elVGeFpqc1FqSUFHNDBnWVdV0gF3QVVfeXFMUEx3QnJBNGxKN2h2dXhUTWFCQkZCb1F6d0J4UWNsT0M3S0VGMGhaeUhqTWpZcDE5eEpQc2xKbnhURXdQYzdpMU5qME05aTRkZllaV2VmcWJXSkN1elRnT0I4UWJvU1NHZ3J1emdMNHFNSFU3bjJqU1k?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/10/31/jh_20261031_19.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6862127_36918.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "[美중간선거 D-3] 사전투표 4800만명 돌파…역대 최다",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261031_0003849146",
+          "original_title": "[美중간선거 D-3] 사전투표 4800만명 돌파…역대 최다",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "[美중간선거 D-3] 사전투표 4800만명 돌파…역대 최다",
+              "link": "https://www.newsis.com/view/NISX20261031_0003849146",
+              "image": "https://img1.newsis.com/2026/10/10/NISI20261010_0002259629_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "미국 중간선거 역대 최다 4천800만 명 사전 투표",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824096",
+              "image": "https://img.sbs.co.kr/newimg/news/20261031/202236596_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美중간선거 역대최다 4천800만명 사전투표…상원 접전지서 급증",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11UjNrYmhPMW1XZ0NxSWNad1pPR3R3UzlEMHdjZ0dGSnNrRDczbGNxclhCNzRyZjRKV0F2YXBmZEpIT24xMHVJSG9KcGQwS1BKOU9PMjE4bmtjcVHSAWBBVV95cUxPVi1rWXJ1bHQyWW5KRGlObVBWcWlwclFFSVVUVmVnV3BLLWFIZmpUMzE1WUk1aER4RmJnTzV6M29ZZm5IaTE4eWxDbFNnbU5acG1WelRWY1ZoNjlXc2RNV1Y?oc=5",
+              "image": "https://img5.yna.co.kr/photo/etc/epa/2026/10/28/PEP20261028048301009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261031004000071"
+            }
+          ]
+        },
+        {
+          "headline": "트럼프 \"이란 전쟁 곧 마무리될 것…핵무기 불가 보장 필요\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824022",
+          "original_title": "트럼프 \"이란 전쟁 곧 마무리될 것…핵무기 불가 보장 필요\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"이란 전쟁 곧 마무리될 것…핵무기 불가 보장 필요\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824022",
+              "image": "https://img.sbs.co.kr/newimg/news/20261030/202236547_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "트럼프 \"이란전쟁 곧 마무리…핵무기 없단 보장 필요\"",
+              "link": "https://www.newsis.com/view/NISX20261030_0003849104",
+              "image": "https://img1.newsis.com/2026/10/30/NISI20261030_0001704411_web.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "트럼프 “이란 전쟁 곧 마무리될 것”···중재국 카타르 대표단은 이란으로",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6UjVpUjBkdld5bGtsX2IyQlZpaGcxRkRfOTdmbXBDc2ZLbTRIWXpDZE5NSy1nSW5yUWdnMjlMRHQ0OHNGUDZYdVB1b1d5eEdSbnZ6TEo0QzEtd9IBX0FVX3lxTE95UXdCMXB4N1hySnlPMHRuUzFXNHZmaFpFSmdhUHlRWHVJalhscDI3aWRmMFZia0o2U1VsczZJcnZTR0NaVmU0U1FtYXJRb2ZjT0J0UkVkRklnQWVYLTNz?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/10/30/rcv.YNA.20261030.PAF20261030170301009_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202610302232001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "SK하이닉스, 日서 첫 '파트너스데이'…소부장 협력 강화",
+          "summary": "",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261030164421",
+          "original_title": "SK하이닉스, 日서 첫 '파트너스데이'…소부장 협력 강화",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "SK하이닉스, 日서 첫 '파트너스데이'…소부장 협력 강화",
+              "link": "https://zdnet.co.kr/view/?no=20261030164421",
+              "image": "https://image.zdnet.co.kr/2026/10/30/16b74be95f1e7ef61a4dad8a59776c5c.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "SK하이닉스, 日서 첫 '파트너스데이'…핵심 협력사와 사업 방향성 공유",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15VkhsUzIwcENUY3d0LUJub09YWDFRSERCd3NmQUtvZjZTTnM0QUgxb09GUzBmRUhxZGw0SXlJQk4zaWFRcWszVTN6dzcwUThWYld2SlluNVN3SHpV?oc=5",
+              "image": "https://img.newspim.com/news/2026/10/30/2610301445032790_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261030000843"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "가을밤 목포 골목이 깨어난다… 국가유산 야행 개막",
+          "summary": "",
+          "source": "천지일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBseEM5eWZ4SFE5VkY2X3k4WGpNaktUekNvNkM5dThTWG5OQ3dmamxLU19ka0Rfa3ZZOG9nbXIwNk9tc0pwYUxfNVFSVlVSYWU0NXhMUmJoOHV2SXg5Y1AyVlMtTl9BejJTaVE?oc=5",
+          "original_title": "가을밤 목포 골목이 깨어난다… 국가유산 야행 개막",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "천지일보",
+              "title": "가을밤 목포 골목이 깨어난다… 국가유산 야행 개막",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBseEM5eWZ4SFE5VkY2X3k4WGpNaktUekNvNkM5dThTWG5OQ3dmamxLU19ka0Rfa3ZZOG9nbXIwNk9tc0pwYUxfNVFSVlVSYWU0NXhMUmJoOHV2SXg5Y1AyVlMtTl9BejJTaVE?oc=5",
+              "image": "https://cdn.newscj.com/news/thumbnail/202610/3444571_3568421_5544_v150.jpg",
+              "url": "https://www.newscj.com/news/articleView.html?idxno=3444571"
+            },
+            {
+              "name": "보도자료 | 기사",
+              "title": "목포시 국가유산 야행 30일 개막…근대역사 골목서 가을밤 시간여행",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZR1NwaG9iSExZOGxpbkZlcmU4V0VsZk1rRGVBbUUzckJjcFMyQW52dW0weVRad29zN3p3T1RkTjM2YWdFdnZTZDF1WTRHSlFKbzZlUXR3elZiUWRkb0Uw?oc=5",
+              "image": "https://img.tf.co.kr/article/home/2026/10/30/202683711793335323.jpg",
+              "url": "https://news.tf.co.kr/read/releasecopy/2383007.htm"
+            },
+            {
+              "name": "전남인뉴스",
+              "title": "목포시, 국가유산 야행 오늘 개막…“근대 목포로 시간여행 오세요”",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IQ2VJS2tZXzNaM1oxMlBwVDdYZEUtTHN3RjVuc0Y1VFJfcmFud0VKRmRkVEVjZWpuc0JTQTZkQkRkSE1oUkx2cE5VUmc5OG9nTFNzSExNT2NlREVJblF2WElSR1F1aG1SUUE?oc=5",
+              "image": "https://cdn.jninnews.com/news/photo/202610/46352_55718_5717.jpg",
+              "url": "https://www.jninnews.com/news/articleView.html?idxno=46352"
+            },
+            {
+              "name": "투데이광주전남",
+              "title": "목포 국가유산 야행 오늘 개막…“가을밤, 근대 목포로 시간여행 오세요”",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03NC04cjVhQ2ZpQ3dKeHU0RHRQUXQ4QlRBUFpVUUpwQXNtVERuOUxPejNLSWVkOGFqd3lRV0dGZWRqMHRlQk1MR2RxOU1PSmM4Wk9IdHYwS18tQmhISU9PSWFHUFE1dWlraFBkS1hMeXY?oc=5",
+              "image": "https://cdn.todaygwangju.com/news/photo/202610/325727_326373_2011.jpg",
+              "url": "https://www.todaygwangju.com/news/articleView.html?idxno=325727"
+            },
+            {
+              "name": "인디포커스",
+              "title": "목포 국가유산 야행 오늘 개막…“가을밤, 근대 목포로 시간여행 오세요”",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNHZFZlhuT0ZsSHFmbHlGb3Z2enM2Y2M4cHlPOTc1WGZzM1dpSTBST3duNjhncGNpeHBrZW1DLTg0OFdBY0hkRWdlYkdESUQyQWpnUFZ3MjV5c0RQUXZISmxpWVlHWlNrOFVXWmNTNVpyZHZ6dnRZb294eHhybVlVR3pqX1NQM0QwSG0yaFBia1RuZmNtUFBjWGxja051MGhOVjVjTS1WUnlzQQ?oc=5",
+              "url": "http://www.indifocus.kr/sub_read.html?uid=83535&section=sc27&section2=%EC%A7%80%EC%97%AD%EC%86%8C%EC%8B%9D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "[프로야구 PO 4차전 전적] KIA 4-2 삼성",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261030181600007",
+          "original_title": "[프로야구 PO 4차전 전적] KIA 4-2 삼성",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[프로야구 PO 4차전 전적] KIA 4-2 삼성",
+              "link": "https://www.yna.co.kr/view/AKR20261030181600007"
+            },
+            {
+              "name": "경북일보",
+              "title": "삼성 라이온즈, 실책 3개에 무너졌다…KIA에 2-4 역전패, 한국시리즈행 5차전으로",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEN0VzOGJ5X0czbU14bGNrekRGTVNqMDQzVEdidWxnV1ZHSmdGbExHYjRieXh0UGI1R2JGZldTbmNLdHJjYnk0eVhkTDRKUThMeUJ1dWNDWkpjRTRGSE9XRzh1ZjFUVGRhNThzck5hQQ?oc=5",
+              "image": "https://cdn.kyongbuk.co.kr/news/photo/202610/4089101_827900_5450.jpg",
+              "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4089101"
+            },
+            {
+              "name": "뉴시스",
+              "title": "[속보]'한준수 3안타' KIA, 4차전 삼성에 4-2 역전승…PO 최종전 간다",
+              "link": "https://www.newsis.com/view/NISX20261030_0003849034",
+              "image": "https://img1.newsis.com/2020/12/11/NISI20201211_0000654239_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "프로축구 포항, 박태하 감독과 결별…김성재 감독대행 체제",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008823802",
+          "original_title": "프로축구 포항, 박태하 감독과 결별…김성재 감독대행 체제",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "프로축구 포항, 박태하 감독과 결별…김성재 감독대행 체제",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008823802",
+              "image": "https://img.sbs.co.kr/newimg/news/20261030/202236476_1280.jpg"
+            },
+            {
+              "name": "헤드라인제주",
+              "title": "K리그1 포항, 제주SK전 앞두고 박태하 감독과 결별...김성재 대행 체제",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wUHM2MFBJeVY2VnhTcnBEQjRMSDhtSDBBcktEQVJERk9qdkxkRGV6OVd1eDY5bmR5VjBRUEVOUTJ5VnlGSGRzLTRvNlotZDU3VTN4LXZUY2hjdGhJT2ZyMjRWOE0ycWRRU1RqRXBsb1hsNGM?oc=5",
+              "image": "https://www.headlinejeju.co.kr/news/photo/202610/601374_498429_5458.jpg",
+              "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=601374"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "프로축구 포항, 박태하 감독과 결별…김성재 감독대행 체제",
+              "link": "https://www.yna.co.kr/view/AKR20261030168100007",
+              "image": "https://img1.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030168100007_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "청바지에 앵클부츠 하나면 끝! 올겨울 실패 없는 데님 핏별 스타일 5",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 13,
+      "t_min": 7,
+      "rain_pct": 47,
+      "sky": "흐림",
+      "display": "서울 7~13°C · 흐림 · 강수 47%"
+    },
+    "articles": [
+      {
+        "title": "청바지에 앵클부츠 하나면 끝! 올겨울 실패 없는 데님 핏별 스타일 5",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1912320",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/10/30/40a26be6-e49e-41d8-8ae3-58dd0948a0b8.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "배우고 때때로 익히면 또한 기쁘지 아니한가.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 돋보여"
+      },
+      {
+        "animal": "소",
+        "text": "조용한 하루가 에너지를 충전해"
+      },
+      {
+        "animal": "호랑이",
+        "text": "정직한 태도가 사람을 끌어당겨"
+      },
+      {
+        "animal": "토끼",
+        "text": "웃음이 넘치는 순간을 만들어요"
+      },
+      {
+        "animal": "용",
+        "text": "창의력이 폭발하는 시간"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 보람을 가져다"
+      },
+      {
+        "animal": "말",
+        "text": "활동적인 하루가 기대를 높여"
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 관계가 깊어지는 순간"
+      },
+      {
+        "animal": "원숭이",
+        "text": "재치가 빛나는 프로젝트가 시작돼"
+      },
+      {
+        "animal": "닭",
+        "text": "정시 출발이 성과를 이어가게 해"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 쌓이는 하루가 될 거예요"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 가득한 휴식이 찾아와"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
