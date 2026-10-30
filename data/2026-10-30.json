@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-10-30",
+  "weekday": "금요일",
+  "vol": 18,
+  "generated_at": "2026-10-30T08:52:53+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 6012.44,
+      "change": 374.1,
+      "change_pct": 6.63,
+      "direction": "up",
+      "display": "6,012.44",
+      "change_display": "▲ 6.63%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1338.5,
+      "change": 11.7,
+      "change_pct": 0.88,
+      "direction": "up",
+      "display": "1,338.5원",
+      "change_display": "▲ 0.88%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 105514000.0,
+      "change": -3468000.0,
+      "change_pct": -3.18,
+      "direction": "down",
+      "display": "10,551만원",
+      "change_display": "▼ 3.18%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 18,
+    "t_min": 7,
+    "rain_pct": 76,
+    "sky": "구름 조금",
+    "display": "서울 7~18°C · 구름 조금 · 강수 76%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "가요계",
+      "headline": "도경완 120억 집에 25만원 남겨 논란",
+      "summary": "도경완이 120억 집을 사면서 통장에 25만원을 남겼다는 사실이 '편스토랑' 논란을 불러왔다",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/entertainment/2026/10/29/2026102921054052433",
+      "original_title": "120억 집 살면서 \"통장에 25만원\"...도경완 '편스토랑' 결국",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "120억 집 살면서 \"통장에 25만원\"...도경완 '편스토랑' 결국",
+          "link": "https://www.mt.co.kr/entertainment/2026/10/29/2026102921054052433",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/10/2026102921054052433_1.jpg"
+        },
+        {
+          "name": "세계일보",
+          "title": "도경완, 120억대 주택 살면서 ‘가난 코스프레’ 논란…'편스토랑' 민원 제기",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZVdVckYwM25lZmdjblNRLVZDUlhRbVA2TUs0UDNGVE0xeWdGbGlKdi16LV9JV0FuVE1ab0JUYXo2ZzVDSjNRX0xLY0RPRzI1U0ZZUmFOS0JfRFZLVWVKUGdSa0lNa0tVLVHSAVRBVV95cUxPSWNEUkV6M2tyVk93Rm1hX3U3UGJLdG9CbGxfQmZVcXF0VEFRVmI1QlBzZVdxUTAtbEtjVktCcE1URC1La1BFTjhhZkF1Wk5Fd19KX1A?oc=5",
+          "image": "https://www.segye.com/content/image/2026/10/30/20261030502531.jpg",
+          "url": "https://www.segye.com/newsView/20261030502512?OutUrl=naver"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "title": "\"120억 집 사놓고 통장에 25만원?\"…도경완 방송에 심의 민원",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mYmhNakhUT3B4UnZrYTJMSWlpd0hQSHlGYi1Oelk1em93ZHpWem0wZjJ5NjM2cDhnREQ0SC0xbjZxQWpyX2EzNGE3M0Y2cTdoa18tSzJmQUpQZw?oc=5",
+          "image": "https://image.fnnews.com/resource/media/image/2026/10/29/202610292208114575_e.jpg",
+          "url": "https://www.fnnews.com/news/202610292202387852"
+        }
+      ]
+    },
+    {
+      "kicker": "환경위기",
+      "headline": "천안 폐기물처리시설 화재 5시간에 진화",
+      "summary": "천안 폐기물처리시설에서 화재가 발생해 5시간여에 진화했다",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261030011900063",
+      "original_title": "천안 폐기물처리시설 화재…5시간여 만에 큰 불길 잡아",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "천안 폐기물처리시설 화재…5시간여 만에 큰 불길 잡아",
+          "link": "https://www.yna.co.kr/view/AKR20261030011900063",
+          "image": "https://img2.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030011900063_01_i_P4.jpg"
+        },
+        {
+          "name": "뉴시스",
+          "title": "천안 폐기물 재활용 시설 화재, 5시간여 만에 큰 불길 잡아",
+          "link": "https://www.newsis.com/view/NISX20261030_0003847521",
+          "image": "https://img1.newsis.com/2026/10/28/NISI20261028_0002276225_web.jpg"
+        },
+        {
+          "name": "더팩트",
+          "title": "천안시 폐기물 자원순환시설서 화재…5시간 만에 큰 불길 잡아",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fVi1pRDFGdE9RUnVDNnJ1d1RQNHAxSzVEclZfNmNfSHB0N0pVbTROcDRBYU1CdVUtNW9CdmFWQk8yMjNHSHlxQW05UzQwNXl4UmxUVE1pTEpZOHfSAVZBVV95cUxOREtkS1oxd19MTjNYeXVKZU41d2hSa0dWeVNRSDVsdlVTX1g2NEZ5b2ZMRTBfa3B3b1d6N08tMUp1WGxsQTBfSFg4QU1sOXRCRWpGTnZxQQ?oc=5",
+          "image": "https://img.tf.co.kr/article/home/2026/10/30/202634301793313365.jpg",
+          "url": "https://news.tf.co.kr/read/national/2382766.htm"
+        }
+      ]
+    },
+    {
+      "kicker": "주식시장",
+      "headline": "아마존 주가 급락 AI 투자와 연말 전망",
+      "summary": "아마존 주가가 AI 투자와 연말 전망에 따라 급락했다",
+      "source": "공감신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tRE96SDQ5WE1ZTDRmNFUteGlYU2JIQUVmS18zZWdVLTVDcm1zZVhLYmRkU3dvVFNrTElfS0Fjc1V2T0M3SVF6OTBCdFpRc2Nta00zeTBOR0E3TFVaMWtxNVp4b2E0T28?oc=5",
+      "original_title": "아마존 주가 급락, AI 투자와 연말 전망에 빨간불 켜지나",
+      "sources": [
+        {
+          "name": "공감신문",
+          "title": "아마존 주가 급락, AI 투자와 연말 전망에 빨간불 켜지나",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tRE96SDQ5WE1ZTDRmNFUteGlYU2JIQUVmS18zZWdVLTVDcm1zZVhLYmRkU3dvVFNrTElfS0Fjc1V2T0M3SVF6OTBCdFpRc2Nta00zeTBOR0E3TFVaMWtxNVp4b2E0T28?oc=5",
+          "image": "https://cdn.gokorea.kr/news/thumbnail/202610/883353_160867_3638_v150.jpg",
+          "url": "http://www.gokorea.kr/news/articleView.html?idxno=883353"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "[속보] 9월 생산 3.0%↑, 소비 3.6%↑, 투자 5.3%↑…트리플 증가",
+          "summary": "",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12191140",
+          "original_title": "[속보] 9월 생산 3.0%↑, 소비 3.6%↑, 투자 5.3%↑…트리플 증가",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "[속보] 9월 생산 3.0%↑, 소비 3.6%↑, 투자 5.3%↑…트리플 증가",
+              "link": "https://www.mk.co.kr/news/economy/12191140",
+              "image": "https://pimg.mk.co.kr/news/cms/202610/30/news-p.v1.20261030.d9ef8f9f6ae74f5c82963040ee6a5c20_R.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "[1보] 9월 생산 3.0%↑, 소비 3.6%↑, 투자 5.3%↑…트리플 증가",
+              "link": "https://www.yna.co.kr/view/AKR20261030017800002",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/10/01/PYH2026100109850005100_P4.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "9월 생산 3.0%↑·소비 3.6%↑…투자까지 5.3% 늘며 '트리플 증가'",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtSTlJLXAyaVhnNHkzSmcxNmU5UUU1Y1RPYnprdWROVzZRSkZUNV9wTnZOdkRNTDJPNHRrbVdBZEVFakdMOEFYdlBvYVFLcHhiRVNkVFVWRXdHcjZjWU9vUjNURWJDVzVHSlY0WENCWlA?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202610/4442076_353123_12_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442076"
+            }
+          ]
+        },
+        {
+          "headline": "문턱 더 높아진 ‘계층 이동 사다리’, 소득분위 변동 33%… 집계후 최저",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261030/134936242/2",
+          "original_title": "문턱 더 높아진 ‘계층 이동 사다리’, 소득분위 변동 33%… 집계후 최저",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "문턱 더 높아진 ‘계층 이동 사다리’, 소득분위 변동 33%… 집계후 최저",
+              "link": "https://www.donga.com/news/Economy/article/all/20261030/134936242/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/30/134937049.1.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "무너진 ’계층 사다리’…계층 이동, 통계 작성 후 최저",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PYzBXTDRjRUo2Sm5uSm9CNXFMQXdiWmZlX1J0a1FRNXBnU2hjYTNiZ0hycGxkNkdDRGhDX28zNTBjU2V0dVlVVkZuYkRtY3RNRldabE9nTGFhUjBYSURqQTB0aFlicVE?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261029/AKR20261029110448QEm_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261029110448QEm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "부산패션위크, 세계 브랜드 총출동",
+          "summary": "2026 부산패션위크가 개막되며 국내외 브랜드가 총출동했다.",
+          "source": "조선일보",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWVd4bV9uRzRrcUx5UkZLNmx6RGI3Z3NBMEwwZmNUZkNQOHpWZmZBUngtMnN4QlM0UWJESjFJTk9zM2k0QkxLc3dhYkRxNEEzQ3hfTUVKS3luNWFxRnFSTk9kNWZZUzJDZlNlSTdodnFtQVc1QkNTZWxGM3J3NFBwc21ILUJJUHUta2Z4aE13?oc=5",
+          "original_title": "부산패션위크 개막",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "조선일보",
+              "title": "부산패션위크 개막",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWVd4bV9uRzRrcUx5UkZLNmx6RGI3Z3NBMEwwZmNUZkNQOHpWZmZBUngtMnN4QlM0UWJESjFJTk9zM2k0QkxLc3dhYkRxNEEzQ3hfTUVKS3luNWFxRnFSTk9kNWZZUzJDZlNlSTdodnFtQVc1QkNTZWxGM3J3NFBwc21ILUJJUHUta2Z4aE13?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/2SF2KZT7OJF2FLEBPZ27GBBUQI.jpg?auth=29698e0fdcb28962ef517a95de9f27dc4c091712eeb28506b33e657522353dc1&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/economy/economy_general/2026/10/30/5SQR5DMPKFE3XFTLE2IU7NPWLM/"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "'2026 부산패션위크' 벡스코서 막 올렸다",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wUlN0YVczWkpjVzRjZ0pHTDZHUFpOcFNoSF9FTV9QUkFvdDlFUF9qeVhSSzRIT3J3Z1Y4TTBvRVlZSG81N3RFUGpPLUJySEFnU1gzV0xlbEVXQQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/10/29/202610291758120236_e.jpg",
+              "url": "https://www.fnnews.com/news/202610291756531632"
+            },
+            {
+              "name": "유스연합",
+              "title": "바다에서 세계로…‘2026 부산패션위크’ 개막, 국내외 브랜드 총출동",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CdkpFVXJZdmZ1clNncjVyaF9uWE1qQjEwdFFIX2J6MU9vR3o1bGt2R0hoRi0wZzhhMnVKZzFaZFJESkk1T1RGM3pKZmFJN0RwZTMw?oc=5",
+              "image": "https://img.ehom.kr/news/2026/10/29/f9eded47369a459b15f6a422dd7ab91c171442_thumb.png",
+              "url": "https://www.youthassembly.kr/news/1024217"
+            },
+            {
+              "name": "부산일보",
+              "title": "부산패션위크·패패부산 동시 개막… 패션·신발업계 국내외 판로 확대 모색",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yMmt1TEZYam0zM3lIN0lrZXNmWEo3R28teVZZLXBWc0JfZ1ZvVTZiYnRmeHBNM2FNZjBXLWRZMmp6YWI3VERtV003cjFhTlBMNG9xT1FTdWFKeXpSdC1LWWx3ZXFILXFzeVlISGpkSGVzWWs5?oc=5",
+              "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/29/2026102914001199334_l.jpg",
+              "url": "https://www.busan.com/view/busan/view.php?code=2026102916175527465"
+            },
+            {
+              "name": "대학저널",
+              "title": "‘2026 라사라패션위크’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtWTlHM3hNM3dVMWZEWnNtRzNzZFFYaUV1ZzdQNjNRMzE1RGROVWJTU3A0MTRETU1iNC1GUGtYTnRrcUpxUnV5RnZpWFZ5TUpKUE4xR0ZPajJXdnfSAWpBVV95cUxOcTlUM1VMekxiRm5xclRHWDQwX3dZS0lqM2pYaDR1NlBkcHhzTWZJRlNnY1dCNy1VSV9sZmlEajFmOFRIY3dKVlIyeUtNVHNpRkcxSGRNNktTbnhPTGV3LThEVFcwYUIwZmpn?oc=5",
+              "image": "https://dhnews.co.kr/news/data/20261029/p1065597525026877_531_thum.jpg",
+              "url": "https://dhnews.co.kr/news/view/1065597525026877"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "UAE에서 9배 성장한 K‑뷰티 수출",
+          "summary": "한국 K‑뷰티가 UAE를 중심으로 5년간 9배 성장하며 중동·북아프리카 시장을 공략하고 있다",
+          "source": "뷰티경제",
+          "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312537",
+          "original_title": "UAE K-뷰티 수출 5년 새 9배 성장…무협, 중동·북아프리카 시장 공략 지원",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "뷰티경제",
+              "title": "UAE K-뷰티 수출 5년 새 9배 성장…무협, 중동·북아프리카 시장 공략 지원",
+              "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312537",
+              "image": "https://cdn.thebk.co.kr/news/photo/202610/312537_83023_378.png"
+            },
+            {
+              "name": "재외동포신문",
+              "title": "K-뷰티 UAE 수출 5년 새 9배…중소기업, 중동·북아프리카 시장 공략",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrSlBadFptS0YwMTRKTkxIR2FpYW5mLU5qbTVqQUh2YVM4VVBrUURuRUlnVS0yaG12U1hmenVnakxSUzNBTV9qaTQ5WlFfbkd2Z0FNVnFGOURocHF4U0N6VkZxdkFpaVpCcmxObw?oc=5",
+              "image": "https://cdn.dongponews.net/news/thumbnail/202610/61353_218284_3658_v150.jpg",
+              "url": "https://www.dongponews.net/news/articleView.html?idxno=61353"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "CJ올리브영 성수점, 웰니스 매장 개장",
+          "summary": "CJ올리브영이 성수점에서 새 웰니스 매장을 개장했다. 체험 강화와 즐거운 일상 루틴을 강조했다.",
+          "source": "마일드경제",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xSDFnNWtUSVI5TUpjR092RkNMXzc2N2xHVnU1bktnc0hoWldsa0luaDFxZDRqSWxNWEZ0M0RZVUs5a0x1Z0xfczctcm45LVdMazZBSTQ5OFJUZ3FWTlpPSTdfV2lYMWdFcFBz?oc=5",
+          "original_title": "CJ올리브영 '올리브베러 성수점' 오픈 \"웰니스를 즐거운 일상 루틴으로\"",
+          "coverage": 16,
+          "sources": [
+            {
+              "name": "마일드경제",
+              "title": "CJ올리브영 '올리브베러 성수점' 오픈 \"웰니스를 즐거운 일상 루틴으로\"",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xSDFnNWtUSVI5TUpjR092RkNMXzc2N2xHVnU1bktnc0hoWldsa0luaDFxZDRqSWxNWEZ0M0RZVUs5a0x1Z0xfczctcm45LVdMazZBSTQ5OFJUZ3FWTlpPSTdfV2lYMWdFcFBz?oc=5",
+              "image": "https://cdn.todaymild.com/news/thumbnail/202610/40442_47583_1241_v150.jpg",
+              "url": "https://www.todaymild.com/news/articleView.html?idxno=40442"
+            },
+            {
+              "name": "인사이트코리아",
+              "title": "CJ올리브영, ‘올리브베러 성수점’ 오픈…웰니스 체험 강화",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWaC13WHVqVVQyWE9sMjNBQzRnQnhLLVduSzBlclYzMG9sck01b19yNmFjVmZwSEJoNmZEdWFST3ZEYmJKT241ZXpoSkhsX3BURktoMm40V0txamtDcENHdWIyWE1FbW93UDdpN1FOMlBCaGfSAXdBVV95cUxNUEFWSnRoMHQyTDRYQ0lBdjRXSS1heVY1VG9yampyR1lRdWxoX0hrVXpRWDVlaWpJbHdKQmgxVUtkZTNfZnpkcHBZOFpXYnpncFBwUTRubVJRY0x6aDl0R2Rpb2pNNmZLNy1EY0w4d1F3eXlLWnQ5UQ?oc=5",
+              "image": "https://cdn.insightkorea.co.kr/news/thumbnail/202610/257635_270221_1439_v150.jpg",
+              "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=257635"
+            },
+            {
+              "name": "한국섬유신문",
+              "title": "CJ올리브영, 성수에 최대 웰니스 매장…체험 강화",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BeFF2UEx4bkZKUlhUZmNQTG85ekJqcUJQZWJaZzRubURHRVc3SVQzMXNLZm0wdThhSmpRcTBMX09FazhJOXc1a2hUWFB0RUREbk0xWlJFUmNLNFV6WVBsWktoTlZjQ0RG?oc=5",
+              "image": "https://www.ktnews.com/news/thumbnail/202610/149770_132812_468_v150.jpg",
+              "url": "https://www.ktnews.com/news/articleView.html?idxno=149770"
+            },
+            {
+              "name": "www.ebn.co.kr",
+              "title": "CJ올리브영, 성수에 최대 '올리브베러'…웰니스 체험 강화",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjTFgzUDA4ME12MU5QTWVxZUh2Z0tzaGJkbEF2U3RMLUtZTkhFNWlxMjBwWENOT0t2aFU2bHVLWWhERDVuNzZwMzJrLUs2dUxFdU9xRldPWjkzbTlITk9nb3IxeDBUVTls?oc=5",
+              "image": "https://cdn.ebn.co.kr/news/thumbnail/202610/1729740_764974_4330_v150.jpg",
+              "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1729740"
+            },
+            {
+              "name": "주간한국",
+              "title": "K웰니스 알린다…CJ올리브영, ‘올리브베러 성수점’ 개점",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5odk5RRG1SUk1nbFY3clhRbi11bG1KMnNwQi01eFQzb0VoYUxvU01xa01seGd4VXZiTTZ0cnFvd3ZBc2JrZW5iOXlUdzA5ZzJPemFzVmM5LXFKV2pxcWQ5UEE4LVNSdlZwVWNfNHRvZ1HSAXRBVV95cUxPV0ZwSXVfSDBBSlhJT1p3b3I4OVpTNkZwaVBZRGRhT0YydUNyMFdCYjI3NkZjdnRtZF9wZTlwc3FSOEZPMm9mdlVKV3NNdjZXaXhiTm1iclhtdHF4TEY2Y2F6QXRTdnZuQWo3Q04zV2tSUUpmZg?oc=5",
+              "image": "https://cdn.weekly.hankooki.com/news/thumbnail/202610/7191292_252755_1915_v150.jpg",
+              "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7191292"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "한독 전략 동반자 관계 수립",
+          "summary": "한·독 정상회담에서 강화된 전략적 동반자 관계를 수립해 경제·안보 협력을 확대했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261029179800001",
+          "original_title": "韓-獨, '강화된 전략 동반자관계' 수립…\"경제·안보 협력 강화\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "韓-獨, '강화된 전략 동반자관계' 수립…\"경제·안보 협력 강화\"",
+              "link": "https://www.yna.co.kr/view/AKR20261029179800001",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/06/17/PYH2026061700020001300_P4.jpg"
+            },
+            {
+              "name": "대한민국 정책브리핑",
+              "title": "한·독 '강화된 전략적 동반자 관계' 수립…첨단산업·안보 협력 확대",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCVThrQ1MwMFRJaFNrc2ppNjNycWowTzVYWWg5NmozRlFqQzNOWFVUNVdPYTAxTTRTaG9ubzJHbndSMTVZcEZvV05SeHktZHJvdFJTaV8wLW9kbXhIZ2VhRjdaX001dkZhMlhNYw?oc=5",
+              "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974588"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 한·독 정상회담 \"강화된 전략적 동반자 관계 수립\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008821928",
+              "image": "https://img.sbs.co.kr/newimg/news/20261029/202236099_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "북한 확성기·미사일",
+          "summary": "북한이 오전에는 확성기를, 오후에는 미사일을 발사해 대외 신호를 보냈다.",
+          "source": "조선일보",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSF9jSFZ1UEZ4cDZ3NkhrS1NZeHJScGN6U2tfZGJfR1A3VHBYSU9UeEpiRi00TGNfRGVEa0c3UG1JU1RUdWRsSWJlektVZElFUEF5bnFlS0s0RFlRVE9VM0c3ODY2TlRDOVNqOXFnTjhIbS1VWEFmZ3dZRG1NZXBsQUxGTjdSZm80RHhWSFhEeTNOZw?oc=5",
+          "original_title": "北, 오전엔 확성기… 오후엔 미사일",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "조선일보",
+              "title": "北, 오전엔 확성기… 오후엔 미사일",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSF9jSFZ1UEZ4cDZ3NkhrS1NZeHJScGN6U2tfZGJfR1A3VHBYSU9UeEpiRi00TGNfRGVEa0c3UG1JU1RUdWRsSWJlektVZElFUEF5bnFlS0s0RFlRVE9VM0c3ODY2TlRDOVNqOXFnTjhIbS1VWEFmZ3dZRG1NZXBsQUxGTjdSZm80RHhWSFhEeTNOZw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/OVCO7L7V7JEVTICOEI774MYRZA.jpg?auth=294c79c98cdc81ff342765c27114ee85f3e8d60770bda8d66f80fc6048c09866&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/politics/diplomacy-defense/2026/10/30/FWSNXXJFUNA6XAT3J3DLFOWOS4/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "\"미 중부사령관, 트럼프에 이란 공격 옵션 보고\"…이란공격 임박했나",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008822322",
+          "original_title": "\"미 중부사령관, 트럼프에 이란 공격 옵션 보고\"…이란공격 임박했나",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"미 중부사령관, 트럼프에 이란 공격 옵션 보고\"…이란공격 임박했나",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008822322",
+              "image": "https://img.sbs.co.kr/newimg/news/20260916/202222774_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "미, 이란 공습 재개 임박했나···“미 중동지역 사령관, 백악관 찾아 트럼프에 직보”",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qTUZPNHhMejFTOUttTG40ZTBITXMydHk1NHFIQ3JQNmRfandxWFRYVWgtbWVCdFdPdXJST3o4YnhsSjJRamplN1hLYnlCNlNBdjFPbkdYYjAxUdIBX0FVX3lxTFBSdVhJNktENnkwdHo2ZW9jT1RKUTFfLW16SkJDWkgtaVdrdEVtZ3ZwLTd6M2ozbV8yeFRhS1BsWXVLdTJHMlNac0pWdU5vUTRGc2MyS1l0d2N5ZU5ROXpv?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/10/30/rcv.YNA.20261030.PAF20261030097001009_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202610300736001"
+            },
+            {
+              "name": "뉴시스",
+              "title": "\"美중부사령관, 오늘 트럼프에게 對이란 군사옵션 보고\"",
+              "link": "https://www.newsis.com/view/NISX20261030_0003847500",
+              "image": "https://img1.newsis.com/2026/05/15/NISI20260515_0001254268_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"美중부사령관, 오늘 트럼프에 공격옵션 보고\"…이란공격 임박했나",
+              "link": "https://www.yna.co.kr/view/AKR20261030008300071",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/10/30/AKR20261030008300071_02_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "트럼프 \"여론조사는 가짜…브라질 대선 수치스러워\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008822241",
+          "original_title": "트럼프 \"여론조사는 가짜…브라질 대선 수치스러워\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"여론조사는 가짜…브라질 대선 수치스러워\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008822241",
+              "image": "https://img.sbs.co.kr/newimg/news/20261030/202236199_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "트럼프 \"여론조사는 가짜·날조‥선거일이 진짜 여론\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xSjkxRVpQdll2NUx5M3VpYTBhbUVsSTF3eGtja0d4bE83clkwdEV1elNjWDdCUERlbmNOdG9pU0w3YkM2eE93SHBPc0I3Mm0zZklCWFhFSWpRYU1iYW9kN3FnZVN6T00wZG43NlRlbnV4Vlg40gF0QVVfeXFMUEI2MkNNNGxlaFZ5YmpKV0VUVkFadjVtZDByWGNiMlhldklLV0JYczRpYl9OSktEeU5ya0xMbmdUQ2ZsaVA2M1dvV0xRZ055N1VWQVVGa1hIODgwbEN2Rm5XZzRiVUotN0UyMUJwZVdST2FqRUE?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/10/30/s261030_0022.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6861830_36925.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 \"여론조사는 가짜·날조…선거일이 진짜 여론\"",
+              "link": "https://www.yna.co.kr/view/AKR20261030006000071",
+              "image": "https://img1.yna.co.kr/photo/ap/2026/10/30/PAP20261030055901009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "코레일, AI 음성 예매 시스템 인증 획득",
+          "summary": "코레일이 AI 음성 예매 시스템을 구축해 국제표준 AI 경영시스템 인증을 획득했다.",
+          "source": "금강일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Da3lSc1RXLVNwVmZtbEpDUFU1Wml3QVJ2ZGs5YXpNeFM4YWdJY0tpWU1CT1dlSllOTVVuMGVZVXF1NnZHLVdxZ25iNS1lcXp1ZU9MLWJYSzAxdVpRdHNJN0hQdUF6bFRCUEE?oc=5",
+          "original_title": "AI 음성 예매 구축 성과…코레일. 국제표준 AI 경영시스템 인증 획득",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "금강일보",
+              "title": "AI 음성 예매 구축 성과…코레일. 국제표준 AI 경영시스템 인증 획득",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Da3lSc1RXLVNwVmZtbEpDUFU1Wml3QVJ2ZGs5YXpNeFM4YWdJY0tpWU1CT1dlSllOTVVuMGVZVXF1NnZHLVdxZ25iNS1lcXp1ZU9MLWJYSzAxdVpRdHNJN0hQdUF6bFRCUEE?oc=5",
+              "image": "https://cdn.ggilbo.com/news/photo/202610/1190078_1043051_0854.jpg",
+              "url": "https://www.ggilbo.com/news/articleView.html?idxno=1190078"
+            },
+            {
+              "name": "프레시안",
+              "title": "코레일, AI 경영시스템 국제표준 인증 획득…철도서비스 신뢰성 강화",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53UWRwSnJEaUhJaGJaaTVobmpJdS0wWHBGQjdGV29NYmU5MXlvQ2U1R0YzTjVBTjNCbmxlMkxuY0lKbDJPbFFUWVNNd0JkdmNad29pcGloNWFmUDNVUnVlZW9FRkk4YzVzVlFF?oc=5",
+              "image": "https://www.pressian.com/_resources/10/2026/10/29/2026102915413375658_x.jpg",
+              "url": "https://www.pressian.com/pages/articles/2026102915420596751"
+            },
+            {
+              "name": "뉴스1",
+              "title": "코레일, 국제표준 AI 경영시스템 인증…AI 서비스 관리체계 구축 성과",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNR1JaN0dRcFRBNXpUQ3kwU0liR1FJNmM1NG43R195R3hIZzZZWmMwNmVwcjl1Zk4zXzVVUFJEdV83RlI2NUd1R2JFZ2E5Q0ZzZ3M1bzdqTGU5Z1Qwd1hWMg?oc=5",
+              "url": "https://www.news1.kr/local/daejeon-chungnam/6336390"
+            },
+            {
+              "name": "충청매일",
+              "title": "코레일, 국제표준 AI 경영시스템 인증 획득…음성 예매 신뢰성 강화",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jaXIxTE1xaXhORlVub2RrZWhOM1hwb3ByanAtRFMzQS1PdUk3NERZTnBQb0dSenlOUmRGZmNIQS1CNDBIN1FPejljT0pCbFpXcU9pTy15MEZzRl92Z1VjajRhU2RxVE03TVE?oc=5",
+              "image": "https://cdn.ccdn.co.kr/news/thumbnail/202610/1107884_620264_1507_v150.jpg",
+              "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1107884"
+            },
+            {
+              "name": "비욘드포스트",
+              "title": "코레일, 'AI 기반 음성 예매'로 국제표준 인증 획득",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11QWx6bzE4Ml9WODJHUEtrcUwtSmNFanh0Z0VQVk8taGlWa05ISm5kbHk3bXVEdE1EU2dGS0h6elFBTlF6eUtkQ2RoaWVmRWdYTlI4bUNoaUJ1a0VreGE2VThTbFdWMVdIZ2g3N1BMNm9adW1QMENoYTNUcUk?oc=5",
+              "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261029101855027150be44c0aacd18221916790.jpg&nmt=30",
+              "url": "https://www.beyondpost.co.kr/view.php?ud=202610291017231314be44c0aacd_30"
+            }
+          ]
+        },
+        {
+          "headline": "삼성전자, 스마트폰·가전 2분기 연속 적자",
+          "summary": "삼성전자가 스마트폰·가전 부문에서 2분기 연속 적자를 기록해 폴더블 기기 흥행에도 원가 부담이 컸다고 발표했다.",
+          "source": "팝콘뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pZEdxR1U3VHdqODFMQjh6V3QwY3k4eXBnZHdqQVk2T3FtMmhSTmJqTEw5UTBVQlZpcUF5N3B5Y01aTHh1QmkyNjBFTmprbVRHRDkzRHRMUkRabGRlLXV0bjB0S1laa3RXcklZa2pvWnB4UdIBckFVX3lxTE9pZEdxR1U3VHdqODFMQjh6V3QwY3k4eXBnZHdqQVk2T3FtMmhSTmJqTEw5UTBVQlZpcUF5N3B5Y01aTHh1QmkyNjBFTmprbVRHRDkzRHRMUkRabGRlLXV0bjB0S1laa3RXcklZa2pvWnB4UQ?oc=5",
+          "original_title": "삼성전자, 스마트폰·가전 2분기 연속 적자…폴더블 흥행에도 원가 부담",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "팝콘뉴스",
+              "title": "삼성전자, 스마트폰·가전 2분기 연속 적자…폴더블 흥행에도 원가 부담",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pZEdxR1U3VHdqODFMQjh6V3QwY3k4eXBnZHdqQVk2T3FtMmhSTmJqTEw5UTBVQlZpcUF5N3B5Y01aTHh1QmkyNjBFTmprbVRHRDkzRHRMUkRabGRlLXV0bjB0S1laa3RXcklZa2pvWnB4UdIBckFVX3lxTE9pZEdxR1U3VHdqODFMQjh6V3QwY3k4eXBnZHdqQVk2T3FtMmhSTmJqTEw5UTBVQlZpcUF5N3B5Y01aTHh1QmkyNjBFTmprbVRHRDkzRHRMUkRabGRlLXV0bjB0S1laa3RXcklZa2pvWnB4UQ?oc=5",
+              "url": "http://www.popcornnews.net/news/articleViewAmp.html?idxno=137936"
+            },
+            {
+              "name": "더팩트",
+              "title": "반도체 날았지만 스마트폰 주춤…삼성전자 MX, 분기 연속 적자",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TQVRmTkRrTGhaeFhTX09JMHhxdmZRQkhPTzl3SVhOeEdwdWxGcUxmRmJ5dDZQZVN5VXZ4WWxlR01qWXc3UWQwaHRJQ0F3T0poVS1TZdIBVEFVX3lxTE1TQVRmTkRrTGhaeFhTX09JMHhxdmZRQkhPTzl3SVhOeEdwdWxGcUxmRmJ5dDZQZVN5VXZ4WWxlR01qWXc3UWQwaHRJQ0F3T0poVS1TZQ?oc=5",
+              "url": "https://m.tf.co.kr/amp/economy/2382394.htm"
+            },
+            {
+              "name": "아이뉴스24",
+              "title": "삼성전자 DX, 두 분기 연속 적자…스마트폰 6천억원·가전 2천억원 손실",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NV2ZnQVJYSWE2U3g3d0lmSVFycEp6ZTVtWjVnQThjOWl0S2tQQlVpYlNIZmFfNXhNLWhlcFlsQ3dVa0d3Sm5aYU1maw?oc=5",
+              "image": "https://image.inews24.com/v1/4317bb88938e21.jpg",
+              "url": "http://www.inews24.com/view/2020311"
+            },
+            {
+              "name": "뉴스1",
+              "title": "삼성폰 3분기 적자 6000억원…폴더블 흥행에도 원가 부담 '빨간불'",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MbnhERUdYZl9XNUhnOTV5QlhmZXNUa3dLVlhTUGpKbEJCSVBxTVF3V1Q2RWRycHVwZjRUQUc2QUhmN1Rpc1Z0dFZqRjdzVEgwYmlveTdvSEl0dw?oc=5",
+              "url": "https://www.news1.kr/it-science/mobile/6336040"
+            },
+            {
+              "name": "마이데일리",
+              "title": "삼성전자 DX, 3분기 8000억원 적자…갤럭시 신제품 효과에도 원가 부담",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PVEV4dmY5UkdUclQ1UmpqZTA1SklrTU9abjdYbF9tcGhGd0RQemtaX01hbjEyU2c4M2ZmMjlWYkZLRmNwejJsNmg5RjBDX3pYTzlaOXprbEFHZEhwdFg0LQ?oc=5",
+              "image": "https://mydaily.co.kr/photos/2026/10/29/2026102910420838804_l.jpg",
+              "url": "https://mydaily.co.kr/page/view/2026102910422314999"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "양천구, 어르신 작품 360점 전시…'시간을 담은 캔버스' 개막",
+          "summary": "",
+          "source": "열린뉴스통신",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nRzFFUDlPTU16Rmx6ZWNsQkJVTzRuVHlhcW1aR1I1MFhSMHhCcmhPd1BaZmxBb2dqRDdaSnEtdXVENkcwSUsxcGhhb3dXTEpzUV9iN2tsdmh5Y0luQmFBbm5vR0VfZw?oc=5",
+          "original_title": "양천구, 어르신 작품 360점 전시…'시간을 담은 캔버스' 개막",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "열린뉴스통신",
+              "title": "양천구, 어르신 작품 360점 전시…'시간을 담은 캔버스' 개막",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nRzFFUDlPTU16Rmx6ZWNsQkJVTzRuVHlhcW1aR1I1MFhSMHhCcmhPd1BaZmxBb2dqRDdaSnEtdXVENkcwSUsxcGhhb3dXTEpzUV9iN2tsdmh5Y0luQmFBbm5vR0VfZw?oc=5",
+              "url": "https://www.onews.tv/news/articleView.html?idxno=290359"
+            },
+            {
+              "name": "서울신문",
+              "title": "양천구, 어르신들의 인생 담은 ‘시간을 담은 캔버스’ 개막",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02QVUybGpzdlliTnU1SUtjRUZnMVZHWGJJSnZ4SG1BMDd3TW9XWGgzTzNvTkpYNWRFZW5XbWdvcWxVNG5ZMEhqZ19CaVVXSERCdFE4?oc=5",
+              "image": "https://img.seoul.co.kr/img/upload/2026/10/29/SSC_20261029193024.jpg.webp",
+              "url": "https://amp.seoul.co.kr/go/20261029500337"
+            },
+            {
+              "name": "헤럴드경제",
+              "title": "양천구, 어르신들의 그림이 전하는 위로와 감동… ‘시간을 담은 캔버스’ 개막",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13RjN2dlJ0WkZxRHBSMlVLWE1hVkYxUVJLMmEzT2VWVnZpTUs0YXZCbnRhSXhFbUN4VXdBMEdDOHEwRjlwaGFhSktvbzEtcW5IVGFFWDhR?oc=5",
+              "image": "https://wimg.heraldcorp.com/news/cms/2026/10/29/news-p.v1.20261029.eee4603e64164000b746c23e6f54f705_P1.jpg",
+              "url": "https://biz.heraldcorp.com/article/10919728"
+            },
+            {
+              "name": "웹이코노미",
+              "title": "양천구, 어르신 미술전 ‘시간을 담은 캔버스’ 개막",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WUTZ2NEJ0Ynp3Q3ZYenBCSHpITXNlY0VZelRqS1NzcGE1ZFpiRnE0algtUHBfSm9hTkJKNV9HR0dEVVNic0p3ajh1QWc1UmVvSjh1ZWxZaXhlWFB3ZWJfTnZwcmhUeHMzQ0ZPendNTDNsdw?oc=5",
+              "image": "https://cdn.webeconomy.co.kr/news/photo/202610/2354012_1164348_4940.jpg",
+              "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2354012"
+            },
+            {
+              "name": "매일일보",
+              "title": "[양천구 포토] 양천구, 어르신들의 그림이 전하는 위로와 감동… ‘시간을 담은 캔버스’ 개막",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYQzg3TjNaVEZGaUJERUJ0akNfODFINGNEaTducDcyYXozRFd2dkE0NldxNUN5THZra1RoUmJ4a2hCemJkNGNKOHNraW12c0c3d1pzb3R0V0JSWHVPSDFqZFRNTW4?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202610/2012184_2012416_55.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2012184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "박승규 결승타…삼성, KS 진출 1승 남았다",
+          "summary": "삼성은 박승규의 결승타로 KIA를 꺾어 한국시리즈 진출에 1승만 남겼다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008822332",
+          "original_title": "'박승규 결승타'…삼성, KS 진출 1승 남았다",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'박승규 결승타'…삼성, KS 진출 1승 남았다",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008822332",
+              "image": "https://img.sbs.co.kr/newimg/news/20261030/202236243_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "박승규 결승타·구자욱 쐐기타…삼성, KS 진출 1승 남았다(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261029208751007",
+              "image": "https://img6.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102925690005400_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'박승규 결승타' 삼성, '홈런 공방전' 끝에 3차전 이기고 KS행 눈앞(종합)[PO]",
+              "link": "https://www.newsis.com/view/NISX20261029_0003847400",
+              "image": "https://img1.newsis.com/2026/10/29/NISI20261029_0021510878_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "미야오 안나의 파리 산책, 여행 가방 속 필수템은?",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 18,
+      "t_min": 7,
+      "rain_pct": 76,
+      "sky": "구름 조금",
+      "display": "서울 7~18°C · 구름 조금 · 강수 76%"
+    },
+    "articles": [
+      {
+        "title": "미야오 안나의 파리 산책, 여행 가방 속 필수템은?",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1912291",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/10/30/8b5722c2-777e-40f8-a4e3-70cdc8437394.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "멀리서 벗이 찾아오니 또한 즐겁지 아니한가.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "오늘은 아이디어가 흐르는 날"
+      },
+      {
+        "animal": "소",
+        "text": "진심이 전해지는 순간이 찾아온다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "열정이 불꽃처럼 뿜어져나간다"
+      },
+      {
+        "animal": "토끼",
+        "text": "부드러운 웃음이 주변을 밝힌다"
+      },
+      {
+        "animal": "용",
+        "text": "창의력이 폭발하는 순간"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜가 흐르는 길을 따라가라"
+      },
+      {
+        "animal": "말",
+        "text": "마음이 가벼워지는 소리"
+      },
+      {
+        "animal": "양",
+        "text": "조화로운 만남이 오늘의 키워드"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유쾌한 아이디어가 폭발"
+      },
+      {
+        "animal": "닭",
+        "text": "새로운 시작을 알리는 시계"
+      },
+      {
+        "animal": "개",
+        "text": "충실한 마음이 따뜻함을 전해"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍성한 기쁨이 가득한 하루"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
