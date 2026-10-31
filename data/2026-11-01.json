@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-01",
+  "weekday": "일요일",
+  "vol": 20,
+  "generated_at": "2026-11-01T08:14:45+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5730.74,
+      "change": -206.92,
+      "change_pct": -3.48,
+      "direction": "down",
+      "display": "5,730.74",
+      "change_display": "▼ 3.48%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1335.1,
+      "change": -2.9,
+      "change_pct": -0.22,
+      "direction": "down",
+      "display": "1,335.1원",
+      "change_display": "▼ 0.22%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 104385000.0,
+      "change": 219000.0,
+      "change_pct": 0.21,
+      "direction": "up",
+      "display": "10,438만원",
+      "change_display": "▲ 0.21%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 10,
+    "t_min": 6,
+    "rain_pct": 100,
+    "sky": "비",
+    "display": "서울 6~10°C · 비 · 강수 100%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "가을비",
+      "headline": "가을비, 전국 흐리고 최저 3도",
+      "summary": "일요일 전국이 흐리고 비가 내려 최저 기온은 3도로 쌀쌀했다. 전국 가을비가 지속될 전망이다.",
+      "source": "머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CUmZnRHYxaDd0bkxuOUM0VTRWNFllSEw5MjVjRDExTXU0RGtCV3R1WEMyVHlwcFYwN2ltVkx4V0ZOZXhlMWlOazFPVmRZSzhHMUhpbDJsRTBqdVBZYzlvTFp3WVhqRGQ2Q0JB0gFwQVVfeXFMTTBFTHk5RWtzbFRyRG5oc1RnYWYzd2FFRGkzamZJTnJ0WE91aHB6eW1aZmxFSUtNWUdQdFVaSDh1dUVNckRmYmhoV043MXJKUVdLcV9kSUVUaUFmdm9mcjBqSlFZVzU1WkZCNTBtRVI2eA?oc=5",
+      "original_title": "[오늘 날씨] 일요일 전국 흐리고 비…아침 최저 3도 '쌀쌀'",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "[오늘 날씨] 일요일 전국 흐리고 비…아침 최저 3도 '쌀쌀'",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CUmZnRHYxaDd0bkxuOUM0VTRWNFllSEw5MjVjRDExTXU0RGtCV3R1WEMyVHlwcFYwN2ltVkx4V0ZOZXhlMWlOazFPVmRZSzhHMUhpbDJsRTBqdVBZYzlvTFp3WVhqRGQ2Q0JB0gFwQVVfeXFMTTBFTHk5RWtzbFRyRG5oc1RnYWYzd2FFRGkzamZJTnJ0WE91aHB6eW1aZmxFSUtNWUdQdFVaSDh1dUVNckRmYmhoV043MXJKUVdLcV9kSUVUaUFmdm9mcjBqSlFZVzU1WkZCNTBtRVI2eA?oc=5",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/10/2026103117120214663_1.jpg",
+          "url": "https://www.mt.co.kr/society/2026/11/01/2026103117120214663"
+        }
+      ]
+    },
+    {
+      "kicker": "AI해킹",
+      "headline": "AI 해킹, 학원·병원까지 번진 위협",
+      "summary": "학원과 병원 등 다양한 기관이 AI 해킹 위협을 받고 있다. 보안 전문가가 위험성을 경고했다.",
+      "source": "뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fWlVvNVF5SHJCTmpCeThTVFRrMFhUOXlBeWc3LVA0RzVzWXZIejNwZmtaVHoyaWd5TkR3TzVuUFlzd1lHWHJlMnhhMkZFQ09UdmI4WFpzS0ZvSjhqNkMyem5Qalg?oc=5",
+      "original_title": "막아낼 돈도 사람도 부족한데…학원·병원까지 번진 'AI 해킹' 위협",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "title": "막아낼 돈도 사람도 부족한데…학원·병원까지 번진 'AI 해킹' 위협",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fWlVvNVF5SHJCTmpCeThTVFRrMFhUOXlBeWc3LVA0RzVzWXZIejNwZmtaVHoyaWd5TkR3TzVuUFlzd1lHWHJlMnhhMkZFQ09UdmI4WFpzS0ZvSjhqNkMyem5Qalg?oc=5",
+          "url": "https://www.news1.kr/society/incident-accident/6338302"
+        }
+      ]
+    },
+    {
+      "kicker": "독감",
+      "headline": "계절성 독감 조기 발견, 합병증 위험",
+      "summary": "계절성 독감이 조기에 발견될 때 합병증 위험이 줄어든다. 특히 고위험군에 대한 조기 진단이 중요하다.",
+      "source": "Laodong.vn",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWh1bEppMUxGQ3liaHlkQ1E5aVVVWl9uaHBJRFVKeE5pLW5HMEk5X2pnZE4xbnI2cUx2cjJVREtjUVJBbEpYZjhucHhIdF9pM01DYVZKSjlvRnJKOUgycnRDNDNWX3R4WllfX2VqYWhOcWdlc0RPUnc2dkQtd2JRVEtFSWNxSjhNWkNrNmszQkg4d3VSMENPVHhJMWlNVDZCZkpqZFZ0Ymx1Z3RiV3FkU0tmTQ?oc=5",
+      "original_title": "계절성 독감 조기 발견 징후, 합병증에 걸리기 쉬운 대상 그룹",
+      "sources": [
+        {
+          "name": "Laodong.vn",
+          "title": "계절성 독감 조기 발견 징후, 합병증에 걸리기 쉬운 대상 그룹",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWh1bEppMUxGQ3liaHlkQ1E5aVVVWl9uaHBJRFVKeE5pLW5HMEk5X2pnZE4xbnI2cUx2cjJVREtjUVJBbEpYZjhucHhIdF9pM01DYVZKSjlvRnJKOUgycnRDNDNWX3R4WllfX2VqYWhOcWdlc0RPUnc2dkQtd2JRVEtFSWNxSjhNWkNrNmszQkg4d3VSMENPVHhJMWlNVDZCZkpqZFZ0Ymx1Z3RiV3FkU0tmTQ?oc=5",
+          "url": "https://ko.laodong.vn/y-te/dau-hieu-phat-hien-som-benh-cum-mua-nhung-nhom-doi-tuong-de-gap-bien-chung-1791977.ldo"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "美FBI \"北, 가상화폐 63억달러 탈취 배후…이더리움 전환 포착\"",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261101006451071",
+          "original_title": "美FBI \"北, 가상화폐 63억달러 탈취 배후…이더리움 전환 포착\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "美FBI \"北, 가상화폐 63억달러 탈취 배후…이더리움 전환 포착\"",
+              "link": "https://www.yna.co.kr/view/AKR20261101006451071",
+              "image": "https://img4.yna.co.kr/photo/reuters/2026/10/27/PRU20261027216001009_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "[속보] 미 FBI \"북한, 바이낸스 60억 달러 가상화폐 탈취 배후\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JUnlhUnVhYkhlN2N0VXc2UU1IbzFkRWhhaC1xRmhXSXlkSmt0M0NyMjFxMXd2cmJhQjlDRjZIeGpGZ2Q4anZnVFBoWEVyb1BEdWJsZkdaNzRXbmVNOFZ5ZUhObUxoMEQyOUNHN0E0bzE3ZWpR0gF0QVVfeXFMTmk1ZzNqR1NiWWRRVlNYVTBFRjJ5OTZHOHhudjQtMEgxbmxITFktRnpPUlNDejNMX0FDUzY1MS1XLTFIT1FZSjRkS3dJc2JpWGVBYWdEV2QxZWxDem55VDRwMU1VZzJQTmFtQzlIdGxxTnRsczQ?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/01/lyj_261101_3.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6862243_36925.html"
+            }
+          ]
+        },
+        {
+          "headline": "9월 산업생산 84개 업종서 감소…생산확산지수 연중 최저",
+          "summary": "",
+          "source": "연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVOUtrZnlwNFVSaDNteG03bUprdl9QNmFfaGdPM25COWNoX1FNUmRyT2pnVUtOMkE3cEpLTTFZcnYxM2QtZDdrUnE5OGwyYVBaRzlpTUt1Z3FWQTAxX3k3eER4QWN5VDV2TzJMX3lnbTQ?oc=5",
+          "original_title": "9월 산업생산 84개 업종서 감소…생산확산지수 연중 최저",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합인포맥스",
+              "title": "9월 산업생산 84개 업종서 감소…생산확산지수 연중 최저",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVOUtrZnlwNFVSaDNteG03bUprdl9QNmFfaGdPM25COWNoX1FNUmRyT2pnVUtOMkE3cEpLTTFZcnYxM2QtZDdrUnE5OGwyYVBaRzlpTUt1Z3FWQTAxX3k3eER4QWN5VDV2TzJMX3lnbTQ?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4442347_353485_62_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442347"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "2027 봄여름 패션위크 하이라이트",
+          "summary": "뉴욕부터 파리까지 이어진 2027 봄여름 패션위크의 주요 컬렉션과 트렌드를 소개했다.",
+          "source": "ELLE Korea",
+          "link": "https://www.elle.co.kr/article/1911857",
+          "original_title": "뉴욕부터 파리까지, 2027 봄여름 패션위크 하이라이트",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "ELLE Korea",
+              "title": "뉴욕부터 파리까지, 2027 봄여름 패션위크 하이라이트",
+              "link": "https://www.elle.co.kr/article/1911857",
+              "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/10/31/d3f40c07-921f-44db-a11d-3d8bff86eedd.jpg"
+            },
+            {
+              "name": "Vietnam.vn",
+              "title": "2026 바그다드 패션 위크",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GM01SX2V1ZUt5YVEtQ2xEZlFKX0VhMXZIZzROZjBTcnRUYUQzajF5RUpHbGpHRHBMMGJfYlVfYVpsb2F5S3JHM1V4MTBnbzh3TFBIWDJwN1pYM2l2WlRMWFI2OXVEbVlp?oc=5",
+              "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/10/31/1793459533730_thumbngangmultiafp20261030d4wq4wfv1mp419-17934471392701162342609-43-0-266-426-crop-17934472755471319768017-gif.png",
+              "url": "https://www.vietnam.vn/ko/tuan-le-thoi-trang-baghdad-2026"
+            },
+            {
+              "name": "엘르 코리아 │ ELLE KOREA",
+              "title": "뉴욕부터 파리까지, 2027 봄여름 패션위크 하이라이트",
+              "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwOTItb1RJWWl1SjUxUHF6dWxZRDRfLVdlYl9aU1AxdzBuelNub2hoOUx6LVZsWjdYQzlvOHlwaVNUclU2ekMwel9mZDFiY1k?oc=5",
+              "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/10/31/d3f40c07-921f-44db-a11d-3d8bff86eedd.jpg",
+              "url": "https://www.elle.co.kr/article/1911857"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "경기통합국제공항 추진 시민협의회, 인도래 주민한마당 찾아 서명운동 전개",
+          "summary": "",
+          "source": "모닝투데이",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VbHB4cFZsbDQ3SXdHX3pyZmFhX0paaVdMMWZpQnItQmR5WFFMUEdWbWpMckswLXA0Qkl2enNIMTQtOVVUbzJhZWNESTk?oc=5",
+          "original_title": "경기통합국제공항 추진 시민협의회, 인도래 주민한마당 찾아 서명운동 전개",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "모닝투데이",
+              "title": "경기통합국제공항 추진 시민협의회, 인도래 주민한마당 찾아 서명운동 전개",
+              "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VbHB4cFZsbDQ3SXdHX3pyZmFhX0paaVdMMWZpQnItQmR5WFFMUEdWbWpMckswLXA0Qkl2enNIMTQtOVVUbzJhZWNESTk?oc=5",
+              "image": "https://www.morningtoday.co.kr/data/morningtoday_co_kr/mainimages/202611/202611010525205.jpg",
+              "url": "http://www.morningtoday.co.kr/127294"
+            },
+            {
+              "name": "경인종합일보",
+              "title": "수원군공항 이전 및 경기통합국제공항 건설 시민협의회, 인도래 주민한마당서‘서명운동 캠페인’실시",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZQTc5RmRwd3RaZUdLZTFKWGJPVU9SNzZZWWx5NkRIWVg0SXNMTndmQXV6TFZkTGxKOVVYMklqbk5scHZvSGlJbUpBWUh5dlBETUVLN1FsYmpGLXRnOVA3bXhoWjFYX0dHeXJJQXpQQWVFd9IBckFVX3lxTE5ZQTc5RmRwd3RaZUdLZTFKWGJPVU9SNzZZWWx5NkRIWVg0SXNMTndmQXV6TFZkTGxKOVVYMklqbk5scHZvSGlJbUpBWUh5dlBETUVLN1FsYmpGLXRnOVA3bXhoWjFYX0dHeXJJQXpQQWVFdw?oc=5",
+              "url": "http://www.jonghapnews.com/news/articleViewAmp.html?idxno=495191"
+            },
+            {
+              "name": "매일일보",
+              "title": "시민협의회, 수원군공항 이전·경기통합국제공항 건설 공감대 확산 재시동",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkbk5jY3VPVlprNXJITElGeUFmZUtkWm0yUlZXdGU2SXZDeEJPXzd4bnExY040UDZqcHB1Yzl1LXpsNjdGZWNaNlhqMzItU213QWo2WmhYbWpuVndqNVlrYnVTTXU?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202610/2012753_2013037_5845.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2012753"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "코로나 백신과 암 위험 3600만명 분석 결과",
+          "summary": "3600만명을 분석해 코로나 백신과 암 발생 위험을 조사했다.",
+          "source": "아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzVlRkTHBHWUVjVEVnOE8ydUZMUzIxN3V4RnFEWXdSWjZ0QTRxTnlmeURkRVozWmdnRWxNQmpqNE1uUDQ2R1E4ZjZBYnkwUC14WHBTRFpoM0Mtc211Q2pndw?oc=5",
+          "original_title": "\"코로나 백신 맞으면 암 걸린다?\"…3600만명 분석한 결과 '깜짝'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "아시아경제",
+              "title": "\"코로나 백신 맞으면 암 걸린다?\"…3600만명 분석한 결과 '깜짝'",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzVlRkTHBHWUVjVEVnOE8ydUZMUzIxN3V4RnFEWXdSWjZ0QTRxTnlmeURkRVozWmdnRWxNQmpqNE1uUDQ2R1E4ZjZBYnkwUC14WHBTRFpoM0Mtc211Q2pndw?oc=5",
+              "image": "https://cphoto.asiae.co.kr/listimglink/1/2026103118000481688_1793437204.jpg",
+              "url": "https://www.asiae.co.kr/article/2026103118024312696"
+            }
+          ]
+        },
+        {
+          "headline": "알츠하이머 조기 진단 혈액검사 문턱 낮출까",
+          "summary": "혈액검사를 통해 알츠하이머를 조기에 진단할 수 있는 가능성을 탐구했다.",
+          "source": "청년일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wblkwQjgySnlPQm1BMGFGdXFUOFJIOGFQRm4xVVlfeWtCaC15LUIteHhnOE0xcmRsTmQyaVFKaTl4ellIVVNhMGxYVzMySjU0MXRqRXB0X2Zhb3c5SWszcGdDNEFoczQ?oc=5",
+          "original_title": "[청년발언대] 알츠하이머 조기 진단, 혈액검사가 문턱 낮출까",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "청년일보",
+              "title": "[청년발언대] 알츠하이머 조기 진단, 혈액검사가 문턱 낮출까",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wblkwQjgySnlPQm1BMGFGdXFUOFJIOGFQRm4xVVlfeWtCaC15LUIteHhnOE0xcmRsTmQyaVFKaTl4ellIVVNhMGxYVzMySjU0MXRqRXB0X2Zhb3c5SWszcGdDNEFoczQ?oc=5",
+              "image": "https://www.youthdaily.co.kr/data/photos/20261044/art_17932405268414_4db15e.jpg",
+              "url": "https://www.youthdaily.co.kr/news/article.html?no=229049"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "정청래, 김민석 취임 100일 후 깃발 결정",
+          "summary": "정청래 더불어민주당 의원은 10·28 건대항쟁 40주년 기념 국회 토론회에서 김민석 취임 100일을 마무리하며 향후 어떤 정책을 펼칠지 고민 중이라고 했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202610312139001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "정청래 “김민석, 취임 100일이면 판가름…이후 어떤 깃발 들지 생각 중”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "정청래 “김민석, 취임 100일이면 판가름…이후 어떤 깃발 들지 생각 중”",
+              "link": "https://www.khan.co.kr/article/202610312139001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/31/news-p.v1.20261031.01eecff60aa749888398d874a1081c64_P1.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "정청래 \"김민석, 취임 100일이면 판가름… 그때 난 어떤 깃발 들지 생각 중\"",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZFJwWDVONE0wZFA4R01fU25WcVZ0aXd0Q2VZN2laYi1EZ0xRMHFtTUNxSTh5Q0Zad1JXQ3BNaEVRdUY1VHRIeFN4dzZwUy0tOWpZblVxRmhKeHV3YkducFpyYlJ0LVdRSFdQRzl3X3pNYU0tUnlSZ3NnNm1oNVZDWGdZMmIwZw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/MFRWGNTGHE4TCNLBMEYGGM3EGI.jpg?auth=6438c811df79648aa043f5a9bfa1019e41fba834cf1389d67bf7c2b6f5192733&width=1200&height=630&focal=1704,942",
+              "url": "https://www.chosun.com/politics/assembly/2026/10/31/S2TRIIHRSBCNREWRXWB5VC6WZA/"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "정청래 \"김민석, 취임 100일이면 판가름…어떤 깃발들지 생각중\"",
+              "link": "https://www.yna.co.kr/view/AKR20261031047100001",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102814870001300_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "이재명, 경북 청송·영양 방문 농어촌 기본소득 점검",
+          "summary": "이재명 대통령은 31일 경북 청송·영양을 방문해 농어촌 기본소득 시범운영 실태를 점검했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261031029651001",
+          "original_title": "李대통령, 경북 찾아 \"농어촌 기본소득 더 많은 지역으로 확대\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "李대통령, 경북 찾아 \"농어촌 기본소득 더 많은 지역으로 확대\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261031029651001",
+              "image": "https://img6.yna.co.kr/photo/yna/YH/2026/10/31/PYH2026103103840001300_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령, 경북 청송·영양 ‘깜짝 방문’···“고향에 오니 좋다” 농어촌 기본소득 점검",
+              "link": "https://www.khan.co.kr/article/202610311854011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/10/31/news-p.v1.20261031.d33478c958d64388af277f7a9c975831_P1.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "이 대통령, 경북 영양·청송 찾아 “농어촌 기본소득 집행 실태 점검”",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hQ1NrSkJUNktocEt5SVpXLVBKZTdUOTJ2Z1dYNmJWMzNLSnNLSExJbmttYmtSWEgwRFY1RzdRbHpoWjMwd1JqTnkwMUthTnNFM2g4SVZWbXBFN2VndmRwbTd3Y29mRFRYZnpPaDluUDNQdw?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/640/428/imgdb/original/2026/1031/20261031500410.webp",
+              "url": "https://www.hani.co.kr/arti/economy/economy_general/1285134.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "미국 국무장관, 트럼프와 김정은 대화 준비",
+          "summary": "마코 루비오 장관은 트럼프가 김정은과 만나 준비가 됐다고 밝혔다. 회담 일정은 아직 정해지지 않았다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824648",
+          "original_title": "미 국무 \"트럼프, 김정은과 대화 준비돼…회담 일정은 아직\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "미 국무 \"트럼프, 김정은과 대화 준비돼…회담 일정은 아직\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824648",
+              "image": "https://img.sbs.co.kr/newimg/news/20261101/202236710_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "美국무 \"트럼프, 김정은과 대화 열려 있어…예정 회담은 없어\"",
+              "link": "https://www.newsis.com/view/NISX20261101_0003849465",
+              "image": "https://img1.newsis.com/2026/11/01/NISI20261101_0002279418_web.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "미 국무 “트럼프, 김정은과 대화 준비돼…아직 회담 일정 없어”",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90bS1OWVZfSHE2bGtzNk9HTUt4V1RLSUdHR1VPak91cEFFS255aUFyTzlsbE9zTnA3OWp6NkpKTTFOZDZ0cEpjVEU3NGZZT1hfNXoxenNhdFFLdEp0dTZmMWhLUGk1Uzg?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261031/AKR20261101025044kNW_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261101025044kNW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "삼성 올트먼과 AI 미래전략 논의",
+          "summary": "삼성전자가 31일 용인 인력개발원에서 샘 올트먼을 초청해 AI가 바꿀 다음 10년 기업 선택을 논의했다.",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261031160238",
+          "original_title": "삼성 사장단, 올트먼과 'AI 미래전략' 논의",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "삼성 사장단, 올트먼과 'AI 미래전략' 논의",
+              "link": "https://zdnet.co.kr/view/?no=20261031160238",
+              "image": "https://image.zdnet.co.kr/2026/10/31/7dd84fe63ef173672f52ec561795c537.png"
+            },
+            {
+              "name": "전자신문",
+              "title": "삼성 사장단, 올트먼에 'AI 다음 10년' 물었다…OpenAI 동맹 밀착 행보",
+              "link": "https://www.etnews.com/20261031000026",
+              "image": "https://img.etnews.com/news/article/2026/10/31/news-p.v1.20261031.73fe6e9fa8284315acf3d0d2adb53918_P1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "목포 국가유산 야행 개막",
+          "summary": "목포 국가유산 야행이 2026년 목포에서 개막했다. 129년 전 모던타임즈를 통해 시간여행을 안내한다.",
+          "source": "브레이크뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlbEt3Rms2NXhmZmhpMXQyYjRINWFoNDdBQWhOX21KTTlLS1kxQWoycUk1d3hoX1FXMUt4NHF1Rk4tbGRRN1dEdA?oc=5",
+          "original_title": "129년 전 모던타임즈로 시간여행… ‘2026 목포 국가유산 야행’ 개막",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "브레이크뉴스",
+              "title": "129년 전 모던타임즈로 시간여행… ‘2026 목포 국가유산 야행’ 개막",
+              "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlbEt3Rms2NXhmZmhpMXQyYjRINWFoNDdBQWhOX21KTTlLS1kxQWoycUk1d3hoX1FXMUt4NHF1Rk4tbGRRN1dEdA?oc=5",
+              "image": "https://honam.breaknews.com/imgdata/honam_breaknews_com/202610/2026103141203386.jpg",
+              "url": "https://www.breaknews.com/1247353"
+            },
+            {
+              "name": "서울뉴스통신",
+              "title": "목포 국가유산 야행 오늘 개막",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Dcy1ZUjlVbVFOdXdQXzA2YXdTczVyeDVQNnRObWQwc1VSWFNHMG03RXp4M1NkSzFTcjdmQWhZQTNSRjFsdFVfWUJwZ0NVbC1vYjE0X21JbHNDYWFHOGZaaUtLcllCUzZ6eGt3?oc=5",
+              "image": "https://cdn.snakorea.com/news/thumbnail/202610/1060541_1011813_1641_v150.jpg",
+              "url": "http://www.snakorea.com/news/articleView.html?idxno=1060541"
+            },
+            {
+              "name": "한스경제",
+              "title": "“가을밤, 근대 목포로 시간여행 오세요”…국가유산 야행 개막",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBacWtxQ2UzTXJ6dkdqYkcyNVZKRmRzNDUyQkt6YlZJMlZQTUlsa0lNeFRhOU1JWnFoN2dHOFdVaGZ2dFh0eWtFSmprcGw2T2xTU1cxekN3Sl9KWXlwdDdNVldsamVhbHhoSWdGRjNDY9IBb0FVX3lxTFBacWtxQ2UzTXJ6dkdqYkcyNVZKRmRzNDUyQkt6YlZJMlZQTUlsa0lNeFRhOU1JWnFoN2dHOFdVaGZ2dFh0eWtFSmprcGw2T2xTU1cxekN3Sl9KWXlwdDdNVldsamVhbHhoSWdGRjNDYw?oc=5",
+              "url": "http://www.hansbiz.co.kr/news/articleViewAmp.html?idxno=878243"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "전북·대전 0-0 무승부, K리그1 파이널 라운드",
+          "summary": "전북 현대가 4위, 대전 하나시티즌이 3위인 파이널 라운드에서 0-0 무승부를 기록했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261031036751007",
+          "original_title": "K리그1 4위 전북, 3위 대전과 헛심 공방 0-0 무승부(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "K리그1 4위 전북, 3위 대전과 헛심 공방 0-0 무승부(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261031036751007",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/10/31/AKR20261031036751007_01_i_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "K리그1 4위 전북, 3위 대전과 비겨…광주는 김천과 무승부(종합)",
+              "link": "https://www.newsis.com/view/NISX20261031_0003849373",
+              "image": "https://img1.newsis.com/2026/10/31/NISI20261031_0002279315_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "K리그1 4위 전북, 3위 대전과 헛심 공방 '득점 없이' 무승부",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824411",
+              "image": "https://img.sbs.co.kr/newimg/news/20261031/202236646_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "KCC, 7연패 탈출에 승리 기록",
+          "summary": "프로농구 KCC가 7연패를 끝내고 승리하며 시즌 전환을 맞았다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824466",
+          "original_title": "'디펜딩 챔피언' KCC 7연패 탈출…킹의 멋진 버저비터",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'디펜딩 챔피언' KCC 7연패 탈출…킹의 멋진 버저비터",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824466",
+              "image": "https://img.sbs.co.kr/newimg/news/20261031/202236687_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "프로농구 '디펜딩 챔피언' KCC, DB 잡고 마침내 7연패 탈출(종합)",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kcUdqX0xRNHVGdHNrdU84WEdzekRmUHUtYVdhRGdtUEFiOW5yLVYybGlhZ2FQTS01UWxnOHk0UDNoX1A2LVpyaDZmQU0wYTJQaWR6azJHLVRWeGfSAWBBVV95cUxQUFBVcGtiNGJvRVdDdF9hRm8tMHlnY2p1T0NfUUlCRDB6ODg1VEVBZXZfM2NTckVMUTVBN3F2Mi1qM25tdENJeDcxcnpSaFphVEh2MlM2RElfdDZhWlE3ZlM?oc=5",
+              "image": "https://img7.yna.co.kr/etc/inner/KR/2026/10/31/AKR20261031038151007_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261031038151007"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "이제 가방은 ‘똑바로’ 메야 합니다",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 10,
+      "t_min": 6,
+      "rain_pct": 100,
+      "sky": "비",
+      "display": "서울 6~10°C · 비 · 강수 100%"
+    },
+    "articles": [
+      {
+        "title": "이제 가방은 ‘똑바로’ 메야 합니다",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/10/31/%ec%9d%b4%ec%a0%9c-%ea%b0%80%eb%b0%a9%ec%9d%80-%eb%98%91%eb%b0%94%eb%a1%9c-%eb%a9%94%ec%95%bc-%ed%95%a9%eb%8b%88%eb%8b%a4/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/10/style_6ae460704e745-scaled-1920x1080.jpg?x=1707&y=1050&ver=1.1.62",
+        "url": "https://www.vogue.co.kr/2026/10/31/%EC%9D%B4%EC%A0%9C-%EA%B0%80%EB%B0%A9%EC%9D%80-%EB%98%91%EB%B0%94%EB%A1%9C-%EB%A9%94%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "아는 것을 안다 하고, 모르는 것을 모른다 하는 것. 그것이 아는 것이다.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 찾아옵니다."
+      },
+      {
+        "animal": "소",
+        "text": "친근한 말 한마디가 웃음으로 이어집니다."
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전정신이 빛을 발합니다."
+      },
+      {
+        "animal": "토끼",
+        "text": "잠시 멈춰도 새로운 길이 보입니다."
+      },
+      {
+        "animal": "용",
+        "text": "열정이 불꽃처럼 타오릅니다."
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 앞을 밝혀줍니다."
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 발걸음이 새로운 모험을 부른다."
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 배려가 곁에 머물러 있다."
+      },
+      {
+        "animal": "원숭이",
+        "text": "창의력이 풍부해 새로운 아이디어가 나옵니다."
+      },
+      {
+        "animal": "닭",
+        "text": "시작이 완벽해도 끝은 멋지게."
+      },
+      {
+        "animal": "개",
+        "text": "신뢰와 충성심이 길을 열어준다."
+      },
+      {
+        "animal": "돼지",
+        "text": "웃음이 가득한 하루가 기다립니다."
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
