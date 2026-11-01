@@ -1,0 +1,721 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-02",
+  "weekday": "월요일",
+  "vol": 21,
+  "generated_at": "2026-11-02T08:26:48+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5730.74,
+      "change": -206.92,
+      "change_pct": -3.48,
+      "direction": "down",
+      "display": "5,730.74",
+      "change_display": "▼ 3.48%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1332.7,
+      "change": -5.3,
+      "change_pct": -0.4,
+      "direction": "down",
+      "display": "1,332.7원",
+      "change_display": "▼ 0.40%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 104428000.0,
+      "change": -47000.0,
+      "change_pct": -0.04,
+      "direction": "down",
+      "display": "10,443만원",
+      "change_display": "▼ 0.04%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 13,
+    "t_min": 6,
+    "rain_pct": 73,
+    "sky": "흐림",
+    "display": "서울 6~13°C · 흐림 · 강수 73%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "가을야구",
+      "headline": "KIA, 김호령 선발 라인업 제외",
+      "summary": "KIA는 김호령을 선발 라인업에서 제외하고 김도영을 2번 전진 배치하며 주전 중견수는 박정우를 배치했다.",
+      "source": "머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBleGh1TXZNTzlXalJ1YzVSb1ZFTFRRNVNJQmZHNVRrdGxNY0J6TDFLSWo2cXY4bkxQS2pMWXpCVGEyaXFLMnE0MUlLMVFIa1hVaVBISTJSRXNBUzhETkZQaGxneHc5NW9TTjNNLUNld9IBb0FVX3lxTFBleGh1TXZNTzlXalJ1YzVSb1ZFTFRRNVNJQmZHNVRrdGxNY0J6TDFLSWo2cXY4bkxQS2pMWXpCVGEyaXFLMnE0MUlLMVFIa1hVaVBISTJSRXNBUzhETkZQaGxneHc5NW9TTjNNLUNldw?oc=5",
+      "original_title": "[PO5] 'KIA 초강수' 또 '2번 김호령' 선발 라인업 제외! '김도영 2번 전진 배치, 주전 중견수는 박정우 중책' [대구 현장]",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "[PO5] 'KIA 초강수' 또 '2번 김호령' 선발 라인업 제외! '김도영 2번 전진 배치, 주전 중견수는 박정우 중책' [대구 현장]",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBleGh1TXZNTzlXalJ1YzVSb1ZFTFRRNVNJQmZHNVRrdGxNY0J6TDFLSWo2cXY4bkxQS2pMWXpCVGEyaXFLMnE0MUlLMVFIa1hVaVBISTJSRXNBUzhETkZQaGxneHc5NW9TTjNNLUNld9IBb0FVX3lxTFBleGh1TXZNTzlXalJ1YzVSb1ZFTFRRNVNJQmZHNVRrdGxNY0J6TDFLSWo2cXY4bkxQS2pMWXpCVGEyaXFLMnE0MUlLMVFIa1hVaVBISTJSRXNBUzhETkZQaGxneHc5NW9TTjNNLUNldw?oc=5",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110112223832466_1.jpg",
+          "url": "https://www.mt.co.kr/amp/sports/2026/11/01/2026110112223832466"
+        }
+      ]
+    },
+    {
+      "kicker": "가상자산",
+      "headline": "북한 해커, 1만8270개 비트코인 탈취",
+      "summary": "북한 해커가 1만8270개의 비트코인을 탈취해 약 1조8701억원에 달하는 가치를 확보했다.",
+      "source": "국제신문",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFNHZTh3VEJGX3A3RHB0RkVNSmR5RUN5dHA0OTBwU3FDd2F1Ml9EVWQ2WDRKalNiUTFGTUJieFh0azBNaGt3bVRBUWE1MUlFRURrLW1MV0RlQV85T2Q0cl9rUno3ZzhFVnZzUGNUUEJjYWRRZXVENDJtZ3d4UTltcGZLaE96QUNDSUdjdVVB?oc=5",
+      "original_title": "北 해커, 비트코인만 1만8270개(약 1조8701억원 ) 훔쳤다",
+      "sources": [
+        {
+          "name": "국제신문",
+          "title": "北 해커, 비트코인만 1만8270개(약 1조8701억원 ) 훔쳤다",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFNHZTh3VEJGX3A3RHB0RkVNSmR5RUN5dHA0OTBwU3FDd2F1Ml9EVWQ2WDRKalNiUTFGTUJieFh0azBNaGt3bVRBUWE1MUlFRURrLW1MV0RlQV85T2Q0cl9rUno3ZzhFVnZzUGNUUEJjYWRRZXVENDJtZ3d4UTltcGZLaE96QUNDSUdjdVVB?oc=5",
+          "image": "https://db.kookje.co.kr/news2000/photo/2026/1102/L20261102.99099000244i1.jpg?34",
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261102.99099000244"
+        },
+        {
+          "name": "천지일보",
+          "title": "北해커, 8조원대 가상자산 탈취… 비트코인만 北 수출액 3배",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSZG5WbGdLai01eWpuOURDWUxmZGdhYWZKbzFzVk1xUjNjR2ZMbWhUVnBTMkdYaFQ5bXhpSzRBNGhNb3JCYzVDNVVTckdBeDNuZmczb2lVb0l5eVhLR1lMc0E1SkwzTG5QTHc?oc=5",
+          "image": "https://cdn.newscj.com/news/thumbnail/202611/3444996_3569080_398_v150.jpg",
+          "url": "https://www.newscj.com/news/articleView.html?idxno=3444996"
+        }
+      ]
+    },
+    {
+      "kicker": "노동",
+      "headline": "포스코 노조, 파업 철회 후 임금협상 투표",
+      "summary": "포스코 노조는 파업을 철회하고 7일간 임금협상 잠정합의안 투표를 제안했다.",
+      "source": "비즈니스포스트",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=450846",
+      "original_title": "포스코 노조 파업 철회하고 7일 임금협상 잠정합의안 투표, 과반 찬성하면 최종 타결",
+      "sources": [
+        {
+          "name": "비즈니스포스트",
+          "title": "포스코 노조 파업 철회하고 7일 임금협상 잠정합의안 투표, 과반 찬성하면 최종 타결",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=450846"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "151개 상장사 저PBR 꼬리표 부여",
+          "summary": "거래소가 2차례 명단 공개를 통해 코스피·코스닥 상장사 중 PBR이 낮은 151개 기업에 저PBR 꼬리표를 부여했다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/stock/12193045",
+          "original_title": "1조클럽도 못피했다…한화생명·현대제철 등 151곳에 ‘저PBR 꼬리표’",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "1조클럽도 못피했다…한화생명·현대제철 등 151곳에 ‘저PBR 꼬리표’",
+              "link": "https://www.mk.co.kr/news/stock/12193045",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261101.72eef1c010244dca88eb75b4aaed6a5e_R.png"
+            },
+            {
+              "name": "경향신문",
+              "title": "내일부터 주식 종목에 ‘저PBR’ 꼬리표 붙는다…저PBR 기업 151개 첫 공개",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tTzlMMjF0TWVDenVsaFpjQzNNZUZXSzlQM25rSmg1Z2RLTzk1bXdYaW82UW9uTUJqeHlRUk5tazdfTXBHa3lsZTdwRlJ4UjhCNzB1aTAtZWgxd9IBX0FVX3lxTE1pZldDVUZHUDRoc21ZUDR4bTdhVmE3Q1EzaGtSYjg3SW9OYTFjdGpOLWh5R0ltZ3VzQ3R0NHBNOEpSQmJwNDNPQU5ZdkNXa0k2ZXZjZ2d3TkxRdTZZemxV?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/01/rcv.YNA.20261028.PYH2026102819950001300_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202611011602001"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "저PBR 151개사 명단 첫공개…현대제철 등 시총 1조 이상도 포함",
+              "link": "https://www.yna.co.kr/view/AKR20261031025200008",
+              "image": "https://img8.yna.co.kr/photo/cms/2024/09/16/19/PCM20240916000019990_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "체코 원전 시공 계약 무산, 비상관리체제 가동",
+          "summary": "산업통상부가 체코 두코바니 원전사업 시공계약 협상 무산에 따라 비상관리체제를 가동해 사업 차질을 방지하고 있다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261101_0003849517",
+          "original_title": "산업부, 체코 원전 비상관리체제 가동…장관은 '팀코리아', 차관은 한수원 계획 점검",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "산업부, 체코 원전 비상관리체제 가동…장관은 '팀코리아', 차관은 한수원 계획 점검",
+              "link": "https://www.newsis.com/view/NISX20261101_0003849517",
+              "image": "https://img1.newsis.com/2026/10/20/NISI20261020_0021497168_web.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "체코 원전 시공 계약 무산에…정부, 비상관리체제 가동",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52U0tMQzZQQUVXVXZ3YXhnU3NnblFoVW1LVTY2S3dvb2xLUDV1SVhtMnNDeE9vMlhMTVBVSmU2SVFRSk5BOTdfc2t6WC1hSUFmYVpPanctWHBHclpfRjRrbVRqZG1lQktIVFlNeE5pTWU?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4442380_353534_12_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442380"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "한섬, 도쿄·오사카에 ‘시스템 파리’ 매장 개설",
+          "summary": "한섬이 도쿄·오사카에 ‘시스템 파리’ 매장을 열며 일본 진출을 확대하고 2030년까지 10개 매장을 목표로 한다.",
+          "source": "헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Da1pxRTBWbF9rUTZraVZvYXZQdE9Udzc2NWx0anB4cDB2MUdwb0RYUElQM1Z1NVFMTEZkT1BQMzF4NkFmVE10VW5mVzN5UGNPQ3l5SHBB?oc=5",
+          "original_title": "한섬, 日 도쿄·오사카에 ‘시스템 파리’ 매장 연다",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "헤럴드경제",
+              "title": "한섬, 日 도쿄·오사카에 ‘시스템 파리’ 매장 연다",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Da1pxRTBWbF9rUTZraVZvYXZQdE9Udzc2NWx0anB4cDB2MUdwb0RYUElQM1Z1NVFMTEZkT1BQMzF4NkFmVE10VW5mVzN5UGNPQ3l5SHBB?oc=5",
+              "image": "https://wimg.heraldcorp.com/news/cms/2026/11/02/news-p.v1.20261102.626cdb2fd38f444c9f1256aa4de92a47_P1.jpg",
+              "url": "https://biz.heraldcorp.com/article/10922030"
+            },
+            {
+              "name": "시장경제신문",
+              "title": "현대百 한섬 '시스템 파리', 일본 진출… 2030년까지 10개 매장 연다",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CblkxdDB6ZGpBMC1uQmJIN2Q5RU5wTlJXb2lyMlhaeFA1Zi1kSUx5bFlaU0w0dEFheUZTX2oybjNSZlNid05MdFlVSnRTUHZfX2dsdUhBZlhmaVBndVRjclhpeG1XbVduSjREaHByeDk?oc=5",
+              "image": "https://cdn.meconomynews.com/news/photo/202611/203122_206345_4641.jpg",
+              "url": "https://www.meconomynews.com/news/articleView.html?idxno=203122"
+            },
+            {
+              "name": "더팩트",
+              "title": "한섬, 日 시장에 '시스템 파리' 매장 연다",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80dXhYQVBNR2dLdjB1end1b2ZTLWpVaTFrdF9KdC1LOUpVY0czMGZ6dGxPN1pFMnlUYldvTC1RTC1BazNZanhyOVBTTVhob3EyaUFIdtIBVEFVX3lxTE80dXhYQVBNR2dLdjB1end1b2ZTLWpVaTFrdF9KdC1LOUpVY0czMGZ6dGxPN1pFMnlUYldvTC1RTC1BazNZanhyOVBTTVhob3EyaUFIdg?oc=5",
+              "url": "https://m.tf.co.kr/amp/economy/2383406.htm"
+            },
+            {
+              "name": "아주경제",
+              "title": "한섬 시스템 파리, 日 진출…2030년까지 매장 10개 확대",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fRWdYNEoxYWlHRHI4SU5zRW11bGNET0RpTUw3Uk9rbk9RZ0xQR1FtTGhDdTVhc1kyRjdTWjRjUjRmU3F4M3lpWTRvdVVZcWZWRFRWVDdEWVbSAVhBVV95cUxNX0VnWDRKMWFpR0RyOElOc0VtdWxjRE9EaU1MN1JPa25PUWdMUEdRbUxoQ3U1YXNZMkY3U1o0Y1I0ZlNxeDN5aVk0b3VVWXFmVkRUVlQ3RFlW?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/11/01/20261101135617384184.jpg",
+              "url": "https://www.ajunews.com/amp/20261101133511618"
+            },
+            {
+              "name": "서울경제",
+              "title": "한섬 ‘시스템 파리’, 日 진출…2030년까지 10개 매장 연다",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40OGVKSUZZdmZRSnJHODFJZU5EWWQ0eGdEM2JCSlhQTzU5MlFVVlZndHNIT1BZWmowTi1FbTJqNThXeHIzTHF2QzFwT05hRnUzMktN0gFTQVVfeXFMTjQ4ZUpJRll2ZlFKckc4MUllTkRZZDR4Z0QzYkJKWFBPNTkyUVVWVmd0c0hPUFlaajBOLUVtMmo1OFd4cjNMcXZDMXBPTmFGdTMyS00?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/11/01/news-p.v1.20261101.1ba4ffb2008a4bc19e57b873045e3343_R.jpg",
+              "url": "https://m.sedaily.com/amparticle/20108690"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "노디너리 현장 점검·성장 지원 논의",
+          "summary": "K-뷰티 기업 노디너리의 현장을 점검하며, 성장 지원 확대를 논의했다.",
+          "source": "시사매거진",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJOEtoUG9vbzdKZDVhWE1zVXo0QWNaNGVGNlpKRzRzdU1SdHhBNUVLRWdaSE96SUxsSTVZbXBoWE5KYTR1X1p4QjRKUTM1RHhZRjhld2hDWlpWdmNVR1RuTE53?oc=5",
+          "original_title": "기보, K-뷰티 기업 노디너리 현장 점검…성장 지원 확대 논의",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "시사매거진",
+              "title": "기보, K-뷰티 기업 노디너리 현장 점검…성장 지원 확대 논의",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJOEtoUG9vbzdKZDVhWE1zVXo0QWNaNGVGNlpKRzRzdU1SdHhBNUVLRWdaSE96SUxsSTVZbXBoWE5KYTR1X1p4QjRKUTM1RHhZRjhld2hDWlpWdmNVR1RuTE53?oc=5",
+              "image": "https://www.sisamagazine.co.kr/media/4a5147f4-a15f-4110-9227-1a7f34130ead",
+              "url": "https://www.sisamagazine.co.kr/article/1000000000447"
+            },
+            {
+              "name": "국제뉴스",
+              "title": "기보, 노디너리 'Kibo-Star밸리' 선정서 전달…K-뷰티 성장·지원 논의",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSVjRENTZDMWRuTGZ1V0tpbHVfRFduZElLOXV1LTN4X1pJcHpfUEhmbXdMQjJEb1lNZVZDYkpFVVFJSnllbklXeWtGNE5fTXRsNWdKWFVPSWctVmFvMWxFS09TbUlCRnZnQ0FkS3BR?oc=5",
+              "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3738934_3918639_2042_v150.jpg",
+              "url": "https://www.gukjenews.com/news/articleView.html?idxno=3738934"
+            },
+            {
+              "name": "라이센스뉴스",
+              "title": "기보, K-뷰티 기업 노디너리 현장 방문…글로벌 성장 지원 강화",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCVUtxMHpCLWJCODFnRk1XVDRvei1CYzZiSmJYUjhNUk1HVW9CVHdUMnl1eHBpblBGRHRFTjNSQmxRUVlSNlJ5Qkd0STNLTU8ySzVqeGJkYlJ3T0NNRXJ6UjhjTHFkdWNIU1dV?oc=5",
+              "image": "https://cdn.lcnews.co.kr/news/photo/202611/210640_213872_1711.jpg",
+              "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=210640"
+            },
+            {
+              "name": "영남신문",
+              "title": "기보, K-뷰티 이끄는 Kibo-Star밸리기업 ㈜노디너리 현장 방문",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TaWN2Y09iRlRUY2RhVWZWd2x6V1FPaVNiYUFqNU5WVG5QU0VZX1RVRTc0bk1DbGlCMzB4Q1B4c05GcUZ1cUpoRGJJZUhUWWgxSjlueXN0VjY4azJXZUpRVG5NLUd0U3Rwanp4aS13?oc=5",
+              "image": "https://cdn.ynamnews.co.kr/news/thumbnail/202611/145912_202576_101_v150.jpg",
+              "url": "https://www.ynamnews.co.kr/news/articleView.html?idxno=145912"
+            },
+            {
+              "name": "부산경제",
+              "title": "기보, K-뷰티 유망기업 ‘㈜노디너리’ 현장 방문",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YMF9mSW5TdWVTQjZ6OTk2NENnMFdxbUo1NHBCbWd3NU5wcVpNck5oUlBHN0JIU3JMU0lvbG1na21mVE9uQWdJUUlHa3dVWUthdy05eU9wWHAyRW9GZ3c?oc=5",
+              "image": "https://www.bseconomy.com/data/cheditor4/2611/395cdc9fa5f1bea6cc701f0401ee7218bd21d162.jpg",
+              "url": "https://www.bseconomy.com/news/view.php?idx=57898"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "삼성, AI 가전 활용 크리에이터 ‘삼성 크루’ 출범",
+          "summary": "삼성은 AI 가전 사용법을 알리는 크리에이터 그룹 ‘삼성 크루’를 출범시켜 가전 활용을 확대한다.",
+          "source": "컨슈머타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83SlRDVnVNREVXb040eUF6Q0d6RU1xdnJkMWJXOUlodWpMSG8xbUVsSDVnV0JaSklqNmJNNHU5MnJ4ei10VDk2M2VQZlJfRWpDV0xzbnF3cHZIS25ZeHR3Ym0xMjZldS1TdWc?oc=5",
+          "original_title": "삼성전자, 크리에이터와 AI 가전 사용기 확산 나선다",
+          "coverage": 29,
+          "sources": [
+            {
+              "name": "컨슈머타임스",
+              "title": "삼성전자, 크리에이터와 AI 가전 사용기 확산 나선다",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83SlRDVnVNREVXb040eUF6Q0d6RU1xdnJkMWJXOUlodWpMSG8xbUVsSDVnV0JaSklqNmJNNHU5MnJ4ei10VDk2M2VQZlJfRWpDV0xzbnF3cHZIS25ZeHR3Ym0xMjZldS1TdWc?oc=5",
+              "image": "https://www.cstimes.com/news/photo/202611/726136_647584_4026.jpg",
+              "url": "https://www.cstimes.com/news/articleView.html?idxno=726136"
+            },
+            {
+              "name": "더게이트",
+              "title": "“우리 집 AI 가전 활용법, 크리에이터가 직접 알린다”…삼성전자, ‘삼성 크루’ 1기 출범",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpRXJLQWJpay1LU0EtbkUta1ZIX3Z3SlNmZHJ4T3ZHQm1TTHdvQldEVFY0UDFWVkI0UWo5ck1hVWZCckd1RGRHaHp0R3FTVUxmYmpGTE1VMTVWSkI2UnNvVWNYa1J3SHRZektCVtIBbEFVX3lxTFBpRXJLQWJpay1LU0EtbkUta1ZIX3Z3SlNmZHJ4T3ZHQm1TTHdvQldEVFY0UDFWVkI0UWo5ck1hVWZCckd1RGRHaHp0R3FTVUxmYmpGTE1VMTVWSkI2UnNvVWNYa1J3SHRZektCVg?oc=5",
+              "url": "http://www.spochoo.com/news/articleViewAmp.html?idxno=131649"
+            },
+            {
+              "name": "아이뉴스24",
+              "title": "삼성전자, AI 가전 크리에이터 '삼성 크루' 출범⋯30여명 참여",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uV2d4SGRzZTBFSTJTZnd3OFloVVB3dkd3UFNDcVRkV0t0M1I5NUF2SV9pd0hWQ3hvTmdMS1pPc3BYR2NSSTJfcXRlcw?oc=5",
+              "image": "https://image.inews24.com/v1/2ad1386f24be24.jpg",
+              "url": "http://www.inews24.com/view/2021197"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "삼성전자, 크리에이터 30여명과 '삼성 크루' 출범… AI 가전 콘텐츠 확대",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05d1VPMlpGLWl4TWhNWkZjYnBScFU2VC1Iem4zanByUk9RYkFJUGctVkE0OEFZcWdoOUFzaWw0WHk5SDBSblVXa2tqMUh6bG5MbUtuVmUyUGpEbW0xYlJHdzh0S012aGlnQkpCZk5TdFdDWTE1?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/thumbnail/202611/283852_375957_1647_v150.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=283852"
+            },
+            {
+              "name": "파이낸셜신문",
+              "title": "삼성전자, AI 가전 크리에이터 '삼성 크루' 출범…소비자 접점 확대",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxUWRKX1B1OTJQTGx2aHR4MTJONXBwM3dTblNWZUkwTDZoZ3Q2bXFhTUVfSUxaV3FaUzBQSmF5Y3dHdEc1Z3RsUG5hWnpzaDNqOW9UOXNyaDdIZU5uSWlyLVZ5RTJXUWZGb3pz?oc=5",
+              "image": "https://www.efnews.co.kr/news/photo/202611/133632_121359_624.jpg",
+              "url": "https://www.efnews.co.kr/news/articleView.html?idxno=133632"
+            }
+          ]
+        },
+        {
+          "headline": "운동시간 없이 운동량 늘리는 방법",
+          "summary": "이 글은 일상에 운동 시간을 할애하지 않고도 운동량을 늘리는 실질적인 방법을 제시한다.",
+          "source": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kU1BGQjNUS3puZUR1Tnk4U1VwT2tmTDZjRFZUWDFBZW40Y0xpYjB2VHNxbE5EWlQ1R0lFcG9nMjItVHlXUEpHT2RDYmJPTzRUaFpWdk5LY2R2OVBmc0HSAWNBVV95cUxOc1BKajBtdmFCOV8yanVGZjhIeXZGMC14Z2tOaFlKaEYzenVKdDlKdDlZcmtxUW54R0lvaVRSNDEzeXpnUV9CSG9mcXQzOUVOdUJYMml1VVY1dm9mQjNBOGtOQUE?oc=5",
+          "original_title": "따로 시간 내지 않고 운동량 늘리는 법",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "BBC",
+              "title": "따로 시간 내지 않고 운동량 늘리는 법",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kU1BGQjNUS3puZUR1Tnk4U1VwT2tmTDZjRFZUWDFBZW40Y0xpYjB2VHNxbE5EWlQ1R0lFcG9nMjItVHlXUEpHT2RDYmJPTzRUaFpWdk5LY2R2OVBmc0HSAWNBVV95cUxOc1BKajBtdmFCOV8yanVGZjhIeXZGMC14Z2tOaFlKaEYzenVKdDlKdDlZcmtxUW54R0lvaVRSNDEzeXpnUV9CSG9mcXQzOUVOdUJYMml1VVY1dm9mQjNBOGtOQUE?oc=5",
+              "image": "https://ichef.bbci.co.uk/news/1200/branded_korean/3a0e/live/a54f4320-d593-11f1-b441-2b33b063138f.jpg",
+              "url": "https://www.bbc.com/korean/articles/cwe9l521v51jo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "국힘 주진우 \"22대 총선 투표소 57곳 개표결과 허위입력\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825138",
+          "original_title": "국힘 주진우 \"22대 총선 투표소 57곳 개표결과 허위입력\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "국힘 주진우 \"22대 총선 투표소 57곳 개표결과 허위입력\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825138",
+              "image": "https://img.sbs.co.kr/newimg/news/20261101/202236780_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "국힘 주진우 \"22대 총선 투표소 57곳서 개표결과 허위입력\"",
+              "link": "https://www.yna.co.kr/view/AKR20261101029400001",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110104330001300_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "주진우 \"지난 총선 수기·전산 개표 결과 다른 투표소 57곳\" 주장",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBblg3U0tpaDg0OXdtTU5vZ1ZMMHdNUTYwQ2xCLVRJUXU5QmYwMGVHRU5ZTFRTVnlMTUZSSDdBWVE2VGRldzhjOHF3WUo3ZC1pRVZrSzkwYXdVazlJeEc2VUJqZVFraDVscWxWWVNZMVlCSU9ER1BqatIBeEFVX3lxTFBSX0ZJNnpMYzZYWVNhamQwWmhhcmRhWmlRSnhoWURUYThCMmRqdnFWamd3SEVVeUE5azloRGFLZXd0MWFBSFNQTm1hZnlzTHBxQ0lkWmMzdEhTaWtGT1ZzRGpYZ1Q0dXEtRHZJd3lib3czTDZwdDhwcw?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/01/jse_20261101_11.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6862298_36911.html"
+            }
+          ]
+        },
+        {
+          "headline": "조현, G20서 DMZ 지뢰 폭발 사건 설명…\"남북 대화·소통 중요\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824915",
+          "original_title": "조현, G20서 DMZ 지뢰 폭발 사건 설명…\"남북 대화·소통 중요\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "조현, G20서 DMZ 지뢰 폭발 사건 설명…\"남북 대화·소통 중요\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824915",
+              "image": "https://img.sbs.co.kr/newimg/news/20261101/202236750_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "조현, G20서 ‘DMZ 지뢰 폭발’에 입장 표명…“남북 대화 중요”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OZ0lkWTJQdzhXOG5hU0VoZUtLMXdvTFJ5ZlBwWmtBS01XUHE1VV9UQWdLYWc3dm14bmp5TVMxcEtsZFN2dWtlZkFTTWd5MHNxekdMWlRNM0NEaWZWTnVXMkdoRW52d09vZ3FTbVVFWUlSRWNv?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/800/imgdb/original/2026/1101/20261101500913.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1285168.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "조현, G20서 DMZ 지뢰 폭발 사건 설명…\"남북 대화·소통 중요\"",
+              "link": "https://www.yna.co.kr/view/AKR20261101011900504",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110101510001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "네타냐후 트럼프 이란 공격 압박",
+          "summary": "네타냐후 이스라엘 총리가 미국 대통령 트럼프에게 이란을 공격하라고 압박했다 트럼프는 협상을 지켜보겠다고 밝혔다",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261102_0003850046",
+          "original_title": "네타냐후, 美 중간선거 이후 이란 공격 압박…트럼프는 신중",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "네타냐후, 美 중간선거 이후 이란 공격 압박…트럼프는 신중",
+              "link": "https://www.newsis.com/view/NISX20261102_0003850046",
+              "image": "https://img1.newsis.com/2026/10/19/NISI20261019_0002266815_web.jpg"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "네타냐후 “美 중간선거 후 이란 공격 재개”… 트럼프 “협상 더 지켜보자”",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWE1kSDlsaXFMYU5RNWp4aXFsamlGUldGNWhhRnA5ZTlRZGJYaUlmY3hJNkdfRUpLOFZ4NGhpbGs1cDFVNFBjVkpYSGx2UTh4U3NRMk5rNXJ0ODk2RDYtRW53SDh3NWFPUmV3QWlEM1ZRZ0JXb29lSlFnNHk4d1FLVlJfb3phV3BtRDdPbFNhdlJMTnFCeWRwVTVqQjlQZ9IBsgFBVV95cUxQTmxSa2JuQ3hkMUJqVmVqSW5oLVNNNWZqTFBhS0FnS0lmTDZ6TWVZRDhsTHdrUF9KT2UzNXZHVWt1SWxQOF83UEE3cE0tUEZrbHZxS01LYzRBSEZIR0VZSHYydlJnaWNCMGIwQWxtdmt5aDV1YXZtYlVueU1vS3hHT1JvYXQ5ejMwUFdhTUpOdVVIS2tDQzFNS0dGZVBfN3FocnRSRjRjQ3ZDYnRnN3VTbnZn?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/4WDPEH36FRM2FAAZKMHVBS2AZQ.jpg?auth=d6bfa05aeb37115dc753dc87e9c7a6b017afac6d471120121e528cf4d34a9213&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/international/international_general/2026/11/02/PUGDIXCQGRCITIBN5KOTZCL37E/"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "네타냐후, '美 중간선거 직후 이란 타격' 압박…트럼프 '유보적'(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261102002951079",
+              "image": "https://img9.yna.co.kr/photo/reuters/2026/10/19/PRU20261019022001009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "김세웅 전 카카오 부사장, 국민AI서비스혁신단장 취임",
+          "summary": "김세웅 전 카카오 부사장이 국민AI서비스혁신단장에 취임했다.",
+          "source": "아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ3JWUXBoa0RCYWx2NVRsdWxSRGF0VnhJTFJrOW9TNEhyblVhV2RrTnJXeXotLWx3VFFrTl9GMzl5QnBXTTVZZ1J2MEdrNmtrM3lKUlhBYmpMQks1cE1DQkJ4RlZocTQ2dl9MLUFvWFhOU0Y2WVhzMW5tZFFxRC1iT3NB?oc=5",
+          "original_title": "국민AI서비스혁신추진단장에 김세웅 전 카카오 부사장",
+          "coverage": 30,
+          "sources": [
+            {
+              "name": "아시아경제",
+              "title": "국민AI서비스혁신추진단장에 김세웅 전 카카오 부사장",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ3JWUXBoa0RCYWx2NVRsdWxSRGF0VnhJTFJrOW9TNEhyblVhV2RrTnJXeXotLWx3VFFrTl9GMzl5QnBXTTVZZ1J2MEdrNmtrM3lKUlhBYmpMQks1cE1DQkJ4RlZocTQ2dl9MLUFvWFhOU0Y2WVhzMW5tZFFxRC1iT3NB?oc=5",
+              "url": "https://www.asiae.co.kr/realtime/sokbo_viewNew.htm?idxno=2026110122340112849"
+            },
+            {
+              "name": "서울신문",
+              "title": "국민AI서비스혁신추진단장에 김세웅 전 카카오 부사장",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TU1lZbWxSbkI5UHFCMlRqQUIxclhTeDg3UFVfb1B1cTNkdHQ5Z0ZidEpOSFV4azVMZTRDNXdBYmJCMWp4aTZhQlNCbVZZODh6MGFULXJ5QQ?oc=5",
+              "image": "https://img.seoul.co.kr/img/upload/2026/11/01/SSC_20261101205317.jpg.webp",
+              "url": "https://amp.seoul.co.kr/seoul/20261102023003"
+            },
+            {
+              "name": "뉴스데일리",
+              "title": "국민AI서비스혁신추진단장 김세웅 단장 취임",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MTVdfaGtJa2RQNjlmbl9HZmNhYmdZcE55ZXlweElnbHhSa1F6QkhXNzhRTVlSOFFLbWlPTzFIdlpnY1o4NmRkSGlQeW9UUlNvb1h5R1lOdERRQmxwcUphdjA1dkRHbnE4OFMw?oc=5",
+              "image": "https://cdn.newsdaily.kr/news/thumbnail/202611/262576_182211_3654_v150.jpg",
+              "url": "https://www.newsdaily.kr/news/articleView.html?idxno=262576"
+            },
+            {
+              "name": "한국일보",
+              "title": "국민AI서비스혁신추진단장에 김세웅 전 카카오 부사장",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3a3VsdEVudjJ5T0Qwczh2dUE5NXNwNy04bDJRTHpwV3gyUzBRN3FvZi11V09ZR3I0TnJTRUdUUEFmV2VZby1CU1VRZjhsNTJNWS12MGFtY3JnUXEzVXpZR1JDX0ZNNlVxa3BqVmpn0gFzQVVfeXFMT1A5WVZ1LW84ejh2a1VfUGc2Q1NWT1RzNkZFN0swRFFST0t4Y1VSNWFZQ1pWdHZ2UFJXakpLaWxvZlZkTWF0T2Etdm5vUVhOUkpFMEZocFdVQ0xrLWFFcy04SVZLSy1Db2lhUDl6X2hmTHZCMA?oc=5",
+              "image": "https://newsimg.hankookilbo.com/2026/11/01/b326315d-d078-4924-93a8-87e5a6bf0c85.png",
+              "url": "https://www.hankookilbo.com/news/article/A2026110116540004300"
+            },
+            {
+              "name": "이즈보험",
+              "title": "국민AI서비스혁신추진단장 김세웅 단장 취임",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45LWlVUDF2WXZDNXFhZnpVekZXOTBQd3pvNGthSmZNek1laURHSHkyS0liVWVsN3N6cHhrVFo0THNYUHF0MFJ3aC1yVnlBdTlfUEF5NDg3OHRGSE1hYmdocWloUWZsOEFLT3c?oc=5",
+              "image": "https://dazabi.com/img/isinsu_meta.png",
+              "url": "https://dazabi.com/insurance_magazine/article.php?id=46578"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "‘하트 오브 비스트’ 개봉 첫 주말 동시기 박스오피스 1위…누적 21만 돌파",
+          "summary": "",
+          "source": "톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EZG1SQTNtVzB0aHhFN1NvMGZqRTJPV2c1czNLR3JDY2ZxNndHRm9GemlDbDE0SU55VXFfbjM2QkFva213elFIY1RTeFBIWnluUnVkS19mTlRfSktGVmh3VkcwSWZTWElxdW5kRlVqem9KZw?oc=5",
+          "original_title": "‘하트 오브 비스트’ 개봉 첫 주말 동시기 박스오피스 1위…누적 21만 돌파",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "톱스타뉴스",
+              "title": "‘하트 오브 비스트’ 개봉 첫 주말 동시기 박스오피스 1위…누적 21만 돌파",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EZG1SQTNtVzB0aHhFN1NvMGZqRTJPV2c1czNLR3JDY2ZxNndHRm9GemlDbDE0SU55VXFfbjM2QkFva213elFIY1RTeFBIWnluUnVkS19mTlRfSktGVmh3VkcwSWZTWElxdW5kRlVqem9KZw?oc=5",
+              "image": "https://cdn.topstarnews.net/news/photo/202611/16265708_2074419_409_crop.jpg",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16265708"
+            },
+            {
+              "name": "www.bntnews.co.kr",
+              "title": "‘하트 오브 비스트’ 개봉 첫 주말 1위",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfdFY4bFl0ZjFBNmNESlZEc1p6b0ZjNVFhQnd1d3pWWGNoZVVlWjlSZDFTMFFXVDZFVFlWTHZENDNBV2ZVTXJWcjJ0akdlenpxQTkyWmd2YXpORllINW1POWFCSTZYTlpX?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/02/bnt202611020046.jpg",
+              "url": "https://www.bntnews.co.kr/TV/article/view/bnt202611020029"
+            },
+            {
+              "name": "www.artivenews.co.kr",
+              "title": "'하트 오브 비스트 스포 후기' 영화 가장 좋았던 부분..강아지 오딘 죽음 여부는? (쿠키 영상, 이동진, 평점)",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqTkhmSkUxYW1YWkNpWkNwQ2NyZ05GUzBZYWZPZUE2OU91Q2k3MEpCbnhuRkRYM2NycU5GQ2RxR09iME5jcVNIc29Kdkpab0NjR3FiX28zRzlvc2NHLWlkOHlTXzRNQXRiQXNGYjF3?oc=5",
+              "image": "https://cdn.artivenews.co.kr/news/thumbnail/202611/3911_18642_153_v150.jpg",
+              "url": "https://www.artivenews.co.kr/news/articleView.html?idxno=3911"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "배용준, 렉서스 마스터즈 2차 연장 승리",
+          "summary": "배용준이 렉서스 마스터즈에서 2차 연장까지 혈투를 펼쳐 챔피언이 되었다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261101_0003849931",
+          "original_title": "배용준, KPGA 렉서스 마스터즈서 2차 연장 끝 정상…통산 3승 달성",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "배용준, KPGA 렉서스 마스터즈서 2차 연장 끝 정상…통산 3승 달성",
+              "link": "https://www.newsis.com/view/NISX20261101_0003849931",
+              "image": "https://img1.newsis.com/2026/11/01/NISI20261101_0002279753_web.jpg"
+            },
+            {
+              "name": "지이코노미",
+              "title": "배용준, KPGA '렉서스 마스터즈' 우승... 통산 3승",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sVWRWdTRwQXZ3MzlLN3JBNUVtRHB3dlFJeEtSS3p6djJYTXFMeVNMbDN5QUZnaUdHM2JyNWhibzZnWmVVbjd6QnZZZ19iUFM0aWYtZjZZN19PWVQ2UVBkWDZCdXo1Y0k?oc=5",
+              "image": "https://www.geconomy.co.kr/data/photos/20261144/art_17935313918064_0a3a22.jpg",
+              "url": "https://www.geconomy.co.kr/mobile/article.html?no=325139"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "배용준, KPGA 렉서스 마스터스에서 2차 연장 끝에 우승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825205",
+              "image": "https://img.sbs.co.kr/newimg/news/20261101/202236794_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "[KPGA 최종순위] 렉서스 마스터즈",
+              "link": "https://www.yna.co.kr/view/AKR20261101037700007"
+            }
+          ]
+        },
+        {
+          "headline": "삼성 라이온즈, 한국시리즈 진출",
+          "summary": "삼성 라이온즈가 KIA를 꺾고 한국시리즈에 진출했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261101_0003849906",
+          "original_title": "'후라도 역투' 삼성, KIA 꺾고 2년 만에 KS행 [뉴시스Pic]",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'후라도 역투' 삼성, KIA 꺾고 2년 만에 KS행 [뉴시스Pic]",
+              "link": "https://www.newsis.com/view/NISX20261101_0003849906",
+              "image": "https://img1.newsis.com/2026/11/01/NISI20261101_0021513654_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "삼성, KIA 꺾고 2년 만에 한국시리즈 진출",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825166",
+              "image": "https://img.sbs.co.kr/newimg/news/20261101/202236785_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "삼성, KIA 꺾고 플레이오프 통과…2년 만에 한국시리즈 진출(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261031041400007",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110106970005300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "화이트 팬츠",
+    "tagline": "흰색이 주는 깔끔한 대비",
+    "description": "화이트 팬츠는 밝은 색감으로 겨울에도 산뜻함을 주는 스타일이다. 블랙 코트 대신 화이트 팬츠를 매치하면 눈에 띄는 대비를 연출한다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "흰색 블레이저",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "top",
+        "name": "흰색 티셔츠",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bottom",
+        "name": "흰색 팬츠",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "shoes",
+        "name": "흰색 스니커즈",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bag",
+        "name": "흰색 토트백",
+        "color": "흰색",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "tips": [
+      "화이트 티와 블레이저를 겹쳐 입는다.",
+      "하늘색 스웨터를 덧입어 차가운 날씨에 대비한다.",
+      "화이트 스니커즈와 트렌치 코트로 완성한다."
+    ],
+    "weather_tip": "흐린 날에는 투명 재킷과 방수화로 화이트 팬츠를 보호한다.",
+    "weather": {
+      "city": "서울",
+      "t_max": 13,
+      "t_min": 6,
+      "rain_pct": 73,
+      "sky": "흐림",
+      "display": "서울 6~13°C · 흐림 · 강수 73%"
+    },
+    "articles": [
+      {
+        "title": "매년 입는 겨울 아우터도 ‘이 바지’ 하나면 달라집니다",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/01/%eb%a7%a4%eb%85%84-%ec%9e%85%eb%8a%94-%ea%b2%a8%ec%9a%b8-%ec%95%84%ec%9a%b0%ed%84%b0%eb%8f%84-%ec%9d%b4-%eb%b0%94%ec%a7%80-%ed%95%98%eb%82%98%eb%a9%b4-%eb%8b%ac%eb%9d%bc%ec%a7%91%eb%8b%88%eb%8b%a4/",
+        "note": "블랙 코트 대신 화이트 팬츠를 매치하면 겨울 아우터를 새롭게 연출할 수 있다.",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6ae70caf555c9-scaled-1920x1080.jpg?x=1707&y=1771&ver=1.2.05",
+        "url": "https://www.wkorea.com/2026/11/01/%EB%A7%A4%EB%85%84-%EC%9E%85%EB%8A%94-%EA%B2%A8%EC%9A%B8-%EC%95%84%EC%9A%B0%ED%84%B0%EB%8F%84-%EC%9D%B4-%EB%B0%94%EC%A7%80-%ED%95%98%EB%82%98%EB%A9%B4-%EB%8B%AC%EB%9D%BC%EC%A7%91%EB%8B%88%EB%8B%A4/"
+      },
+      {
+        "title": "날이 추워지는데, 새하얀 다리에 더 끌리더라구요",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/10/31/%eb%82%a0%ec%9d%b4-%ec%b6%94%ec%9b%8c%ec%a7%80%eb%8a%94%eb%8d%b0-%ec%83%88%ed%95%98%ec%96%80-%eb%8b%a4%eb%a6%ac%ec%97%90-%eb%8d%94-%eb%81%8c%eb%a6%ac%eb%8d%94%eb%9d%bc%ea%b5%ac%ec%9a%94/",
+        "note": "올겨울 화이트로 다리를 드러내는 스타일이 예외를 두어야 한다.",
+        "image": "https://www.wkorea.com/wp_data/w/2026/10/style_6ae5b33ce06e8-1920x1080.jpg?x=1320&y=910&ver=1.2.05",
+        "url": "https://www.wkorea.com/2026/10/31/%EB%82%A0%EC%9D%B4-%EC%B6%94%EC%9B%8C%EC%A7%80%EB%8A%94%EB%8D%B0-%EC%83%88%ED%95%98%EC%96%80-%EB%8B%A4%EB%A6%AC%EC%97%90-%EB%8D%94-%EB%81%8C%EB%A6%AC%EB%8D%94%EB%9D%BC%EA%B5%AC%EC%9A%94/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "세 사람이 길을 가면 그중에 반드시 나의 스승이 있다.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 귀에 속삭인다"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 차분히 발걸음을 재정비"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 기다리는 순간, 눈을 뜨라"
+      },
+      {
+        "animal": "토끼",
+        "text": "웃음이 가장 좋은 방패가 된다"
+      },
+      {
+        "animal": "용",
+        "text": "마음의 파이프라인이 열려"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 길을 비춘다"
+      },
+      {
+        "animal": "말",
+        "text": "속도와 균형을 동시에 잡아라"
+      },
+      {
+        "animal": "양",
+        "text": "조화로운 협업이 결실을 맺는다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "새로운 아이디어를 손에 넣어라"
+      },
+      {
+        "animal": "닭",
+        "text": "집중이 성공의 열쇠가 된다"
+      },
+      {
+        "animal": "개",
+        "text": "믿음직한 동료가 곁에 있다"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 자원처럼 흘러온다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
