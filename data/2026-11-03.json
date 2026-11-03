@@ -1,0 +1,773 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-03",
+  "weekday": "화요일",
+  "vol": 22,
+  "generated_at": "2026-11-03T11:08:26+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5707.06,
+      "change": -23.68,
+      "change_pct": -0.41,
+      "direction": "down",
+      "display": "5,707.06",
+      "change_display": "▼ 0.41%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1341.5,
+      "change": 16.0,
+      "change_pct": 1.21,
+      "direction": "up",
+      "display": "1,341.5원",
+      "change_display": "▲ 1.21%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 103638000.0,
+      "change": -12000.0,
+      "change_pct": -0.01,
+      "direction": "down",
+      "display": "10,364만원",
+      "change_display": "▼ 0.01%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 16,
+    "t_min": 5,
+    "rain_pct": 25,
+    "sky": "흐림",
+    "display": "서울 5~16°C · 흐림 · 강수 25%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "전기차",
+      "headline": "비야디, 차체 생산 준비 현지화 50% 목표",
+      "summary": "비야디가 브라질에서 차체 생산을 준비하며 현지화 비율을 50%로 목표한다.",
+      "source": "글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOTZJR3Eybk4yOXFjLVROZmlYaFpPUkN6ckItX3VfdXJUTTYzTFZuVWhxZURUUFA1Y1UwOXl5SDlXd3VRcWV3aG5oT1RQSWVicUxzS0w4NHRRM3ZEeFhPU2pZaC1MbmhyMGRTVHFyVC1PUTIwS2ZQNEk2NVpQZGJKVGw2OFl4Qm5w?oc=5",
+      "original_title": "비야디, 브라질 수입 부품 조립 넘어 차체 생산 준비…현지화 50% 목표",
+      "sources": [
+        {
+          "name": "글로벌이코노믹",
+          "title": "비야디, 브라질 수입 부품 조립 넘어 차체 생산 준비…현지화 50% 목표",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOTZJR3Eybk4yOXFjLVROZmlYaFpPUkN6ckItX3VfdXJUTTYzTFZuVWhxZURUUFA1Y1UwOXl5SDlXd3VRcWV3aG5oT1RQSWVicUxzS0w4NHRRM3ZEeFhPU2pZaC1MbmhyMGRTVHFyVC1PUTIwS2ZQNEk2NVpQZGJKVGw2OFl4Qm5w?oc=5",
+          "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261102134543055272bd56fbc3c22210812861.jpg",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110213413910152bd56fbc3c_1"
+        }
+      ]
+    },
+    {
+      "kicker": "BTS",
+      "headline": "지민 부친 카페 영업 종료 예고",
+      "summary": "BTS 지민의 부친이 운영하던 부산 카페가 내년 영업을 종료할 예정이다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261103_0003851902",
+      "original_title": "BTS 지민 부친 카페, 내년 영업 종료",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "BTS 지민 부친 카페, 내년 영업 종료",
+          "link": "https://www.newsis.com/view/NISX20261103_0003851902",
+          "image": "https://img1.newsis.com/2026/05/30/NISI20260530_0002148891_web.jpg"
+        },
+        {
+          "name": "동아일보",
+          "title": "“함께할 시간 365일뿐”…‘부산 명소’ BTS 지민 아버지 카페 문 닫는다",
+          "link": "https://www.donga.com/news/Entertainment/article/all/20261103/134954529/1",
+          "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/03/134954530.1.jpg"
+        },
+        {
+          "name": "문화일보",
+          "title": "BTS 지민父 카페, 돌연 폐업 예고…“내년 영업 종료”",
+          "link": "https://www.munhwa.com/article/11628280",
+          "image": "https://wimg.munhwa.com/news/cms/2026/11/03/news-p.v1.20261103.4721a4af775f4224aa6b7804f79be80d_R.jpg"
+        },
+        {
+          "name": "엑스포츠뉴스",
+          "title": "BTS 지민 아버지 카페, 1년 뒤 문 닫는다…임대인과 갈등설도 [엑's 이슈]",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rN2RkdU92elA5eUF3VnA2Uy1vT2RaSFNNbDNYZXZJVFNoUWt5NEFyNjFTSFhHNS15UGlzcGs1SF93T2JrZWgxTW9yWHh3Y1RLdlpjdg?oc=5",
+          "image": "https://image.xportsnews.com/contents/images/upload/article/2026/1103/1793667293386484.webp",
+          "url": "https://www.xportsnews.com/article/2214525"
+        },
+        {
+          "name": "재경일보",
+          "title": "BTS 지민 부친 카페 영업 종료 예고…1년 뒤 폐업 : 연예",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5zQkw3djJRSTdUTjQ3MTRmMFRsMkJsVGpGc3ZGWnUzMFhKX3l1bDNjTjg1QzdHN1NKSmpiWnJ2dk5BQ2dtQWhqQl9Baw?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/110/16/1101609.jpg?v=1793666608&width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1066715"
+        },
+        {
+          "name": "스포츠경향",
+          "title": "지민 부친 운영 부산 카페, 1년 후 폐업 공지…과거 영업 갈등 재조명",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CanRXQnlqV3M4MXJZNnY4TC1YTUdtTkhZM2l1a3ROT3pNYXdaaXluazA3R1F1TmRGaGdDdnMxVlBFTUZFWUlsV0F5M3BQT1VYZlZXakJoQ2xRTFFOQWtjeFhmMNIBY0FVX3lxTE1CanRXQnlqV3M4MXJZNnY4TC1YTUdtTkhZM2l1a3ROT3pNYXdaaXluazA3R1F1TmRGaGdDdnMxVlBFTUZFWUlsV0F5M3BQT1VYZlZXakJoQ2xRTFFOQWtjeFhmMA?oc=5",
+          "image": "https://images.khan.co.kr/article/2026/11/03/news-p.v1.20261103.48156ea931c84fa5a4c95bbba69e5bc4_P1.png",
+          "url": "https://sports.khan.co.kr/article/202611030814003/amp"
+        }
+      ]
+    },
+    {
+      "kicker": "트롯",
+      "headline": "미스트롯4, 서울 앙코르로 6개월 전국투어 마무리",
+      "summary": "미스트롯4 톱7이 서울 앙코르 공연으로 6개월간 전국 투어를 마무리했다.",
+      "source": "아시아경제",
+      "link": "https://www.asiae.co.kr/article/2026110310272151628",
+      "original_title": "'미스트롯4' 톱7, 서울 앙코르로 6개월 전국투어 마무리",
+      "sources": [
+        {
+          "name": "아시아경제",
+          "title": "'미스트롯4' 톱7, 서울 앙코르로 6개월 전국투어 마무리",
+          "link": "https://www.asiae.co.kr/article/2026110310272151628",
+          "image": "https://cphoto.asiae.co.kr/listimglink/1/2026110310172784395_1793668647.jpg"
+        },
+        {
+          "name": "매일경제",
+          "title": "[트롯돋보기] 왕관의 무게 견딘 ‘미스트롯4’ 톱7… 논란마저 잠재운 6개월의 눈물",
+          "link": "https://www.mk.co.kr/news/entertain/12193856",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/02/news-p.v1.20261102.c6892d9a086b4fab9ae691e87b1bfb6b_R.png"
+        },
+        {
+          "name": "스포츠동아",
+          "title": "‘미스트롯4’ 서울 앙코르 성료…허찬미 오열→TOP7 눈물바다",
+          "link": "https://sports.donga.com/ent/article/all/20261102/134947791/1",
+          "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/02/134947790.1.jpg"
+        },
+        {
+          "name": "한국사회복지저널",
+          "title": "‘미스트롯4’ 톱7, 서울 앙코르 공연으로 6개월 전국투어 마무리",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtSUNCdklFUEt0WHk4MjRickptVFRKbDN5M0pVS0tfNVNabEkwanA2LWg0ODdqTTVrcGh4Rmc0emRkLXJJX1FMZDF0aWhHWEo3VXFSYm1yYUJHUTYzWjBTa25jYko1ckNrNDE4?oc=5",
+          "image": "https://cdn.ksw-news.com/news/thumbnail/202611/3055650_3044749_503_v150.jpg",
+          "url": "http://www.ksw-news.com/news/articleView.html?idxno=3055650"
+        },
+        {
+          "name": "재경일보",
+          "title": "‘미스트롯4’ TOP7 전국투어 성료…20개 도시 완주 : 연예",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tclYzSVJoUF9UYnVteFBRblVPcUdMZUdZcTFWVjdFTWVGRWRTUWwyYzV0c0Q5bkhVbllsUGhOYjFfM2U2bGNMWGhoZw?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/110/17/1101702.jpg?v=1793670225&width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1066864"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "한양증권 해킹·고객정보 일부 유출",
+          "summary": "한양증권이 해킹으로 고객정보 일부가 유출됐다. 사건은 금융권 연쇄 해킹 사고와 함께 보도됐다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261103022951008",
+          "original_title": "한양증권에서도 해킹…고객정보 등 일부 정보 유출(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "한양증권에서도 해킹…고객정보 등 일부 정보 유출(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261103022951008",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/03/AKR20261103022951008_02_i_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "한양증권도 해킹…고객정보 등 일부 정보 유출",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RV3U1SlBnZzUtRFFSUDE2ZFhxWm96ZkdPNE5zQXJiSU51Q2lFSmhOMVN6YW5tZl9abERiVWNXZi1DRzV5SHFrekxHVjdJUDRQQ2FjYVJzVEp6aVhmYjVZM0JFMW1idlk?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261103/MYH20261103102647t2B.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/MYH20261103102647t2B"
+            },
+            {
+              "name": "동아일보",
+              "title": "한양증권도 해킹 피해…고객 주민번호 등 31건 유출",
+              "link": "https://www.donga.com/news/Economy/article/all/20261103/134955180/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/03/134955181.2.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "주식 결제 주기 T+1 도입 2028년",
+          "summary": "주식 거래 결제 주기가 2028년 10월부터 T+1으로 단축된다. 현재는 거래일 기준 이틀 뒤에 대금이 입금된다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261103/134953887/2",
+          "original_title": "2028년부터 주식 팔면 다음날 바로 돈 받는다",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "2028년부터 주식 팔면 다음날 바로 돈 받는다",
+              "link": "https://www.donga.com/news/Economy/article/all/20261103/134953887/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/02/134953897.1.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "주식 팔면 하루 빨리 돈 받는다…결제주기 단축 2028년부터",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ga1NSWWpGcERJMXFZeThFcTNUNTduSVFNY2FWbHltcElUUGNvbGt0b1pHLW9rQ2VnNGFMcDFkc09fNkJ1Z3dqNVVzUTkxQ3V5Y194SWRCQlNfbEU?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/02/20261102_zk8FCz.png",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8701877"
+            },
+            {
+              "name": "매일경제",
+              "title": "주식 판 돈 다음날 입금 2028년부터 …'T+1' 도입 늦춰",
+              "link": "https://www.mk.co.kr/news/stock/12193801",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/03/20261103_01170102000001_L00.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "AI 큐레이션 12개 카테고리 확대",
+          "summary": "무신사가 AI 트렌드 큐레이션을 12개 카테고리로 확대했다",
+          "source": "파이낸셜포스트",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fTjcxVzBuNXlIMlNDWktleDByenBUTkpRWVZldmJqVlpwSUtydFpDZzNVTm9zUGtKcDZhQ2l1SHpFT2ZVbDJ5VWY0UzRxcmlraWhIUkFtR0s2OEc2LWs1UmZ2RVcza0xFekZYU1VKVU9UY3dt?oc=5",
+          "original_title": "무신사, AI 트렌드 큐레이션 12개 카테고리로 확대",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "파이낸셜포스트",
+              "title": "무신사, AI 트렌드 큐레이션 12개 카테고리로 확대",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fTjcxVzBuNXlIMlNDWktleDByenBUTkpRWVZldmJqVlpwSUtydFpDZzNVTm9zUGtKcDZhQ2l1SHpFT2ZVbDJ5VWY0UzRxcmlraWhIUkFtR0s2OEc2LWs1UmZ2RVcza0xFekZYU1VKVU9UY3dt?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/thumbnail/202611/284279_376504_3411_v150.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=284279"
+            },
+            {
+              "name": "뉴스투데이",
+              "title": "무신사, AI 트렌드 큐레이션 확대…패션·뷰티 12개 카테고리 적용",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wZkNiRmE0N3Q2T3FaYl9XQlAyQzJSUUhiVG1FZjlsaXhNQmdsRGxPeDBWaXZ2d1d5UTgyeTkyN0VPaktQRjJSRDBWMDVaemZmWS1ySTFTV2tfcWF4eXc?oc=5",
+              "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/03/.cache/512/20261103500056.png",
+              "url": "https://www.news2day.co.kr/article/20261103500058"
+            },
+            {
+              "name": "뉴시스",
+              "title": "\"트렌드 알려드립니다\" 무신사, 'AI 큐레이션' 적용 범위 확대",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Db3Nxemh3b0VBTnBudGdoa2RRNGFNRFZPY0E1aUwzM09CRUR0ZE9PdEF1Q1IxTHNuNk5aSkZBU2tfWnlzTmREb04xeENmMUR0dFdPVFBFNlpLMFpqRjB4MdIBeEFVX3lxTE9YUjVtLThJVlQ2M3lvOVdrN09LWm91UmRHaThSWFhXZTVpTG9Sd1JuRU9xWnZkNFJhNUNLWGM0MzBxelVhM1pyTVBEZXpMQURxaWtwX0ttMEtEYUk1cm00bnhfaHFWZnFlcmZqQlEtV2tJZEVGNzVlRA?oc=5",
+              "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0002281272_web.jpg",
+              "url": "https://www.newsis.com/view/NISX20261103_0003852309"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "무신사 'AI 트렌드 큐레이션', 패션·뷰티로 확장한다",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tekJiUXJzTWQ5NDlDVUZjaDVYaU9ObXE1UG91N0xDUHdpa01sWmMtVTJyM2NVd0IxYk1VUzYtblhUQnRjVnBpaENhMUxsTkdqN3U0UDN3?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/11/03/514af52e14d54c2fe5f62b8a7f7e1110.png",
+              "url": "https://zdnet.co.kr/view/?no=20261103093513"
+            },
+            {
+              "name": "SR타임스",
+              "title": "무신사, ‘AI 트렌드 큐레이션’ 패션·뷰티 적용 범위 확대",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqME9yMG9oX09vVF9Ib2Q3ai1wLXktUmlDd3lSaWJ4QjkxdXY0S3BiVklRUFk1a2ZONzF5LVpHWjhyTDUtZThEeG5JX0c4QTNubzRFanNnck5DbVFRT2ROZmZSdlk5UDFO?oc=5",
+              "image": "https://cdn.srtimes.kr/news/thumbnail/202611/216574_221651_4823_v150.jpg",
+              "url": "https://www.srtimes.kr/news/articleView.html?idxno=216574"
+            }
+          ]
+        },
+        {
+          "headline": "한섬 3분기 영업익 76억 전년비 206%",
+          "summary": "한섬이 3분기 영업익 76억을 기록하고 전년 동기 대비 206% 증가했다",
+          "source": "아주경제",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LNjhGbzVtcEZwSWlvZmEzRTI5MTNNLWZjZF9PUmZjVi1hZV9sM1BGd3M1TUNLODZRaTZhWms4d0lQR3RRQm9kQnNrb190X0RPWHcxRmJwMEjSAVhBVV95cUxPSzY4Rm81bXBGcElpb2ZhM0UyOTEzTS1mY2RfT1JmY1YtYWVfbDNQRndzNU1DSzg2UWk2YVprOHdJUEd0UUJvZEJza29fdF9ET1h3MUZicDBI?oc=5",
+          "original_title": "한섬, 3분기 영업익 76억... 전년比 206% 급증 간절기 의류 판매 호조",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "아주경제",
+              "title": "한섬, 3분기 영업익 76억... 전년比 206% 급증 간절기 의류 판매 호조",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LNjhGbzVtcEZwSWlvZmEzRTI5MTNNLWZjZF9PUmZjVi1hZV9sM1BGd3M1TUNLODZRaTZhWms4d0lQR3RRQm9kQnNrb190X0RPWHcxRmJwMEjSAVhBVV95cUxPSzY4Rm81bXBGcElpb2ZhM0UyOTEzTS1mY2RfT1JmY1YtYWVfbDNQRndzNU1DSzg2UWk2YVprOHdJUEd0UUJvZEJza29fdF9ET1h3MUZicDBI?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/11/02/20261102155210473481.jpg",
+              "url": "https://www.ajunews.com/amp/20261102153649819"
+            },
+            {
+              "name": "청년일보",
+              "title": "한섬, 3분기 영업익 76억원…전년 동기比 206.1% '증가'",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aRlYtSmhUU3BlTW1RWFRULWRpUGp5Z1VubTcxNzVpSjF2eXVQQy1oSGFQUHJSa2xGLUhUSWFGLXFsTVduaXloTTM4SWQ2X3JINzNwSnM5Y3pmWUZMcFNxM0wzaW5CTERXQnc?oc=5",
+              "url": "https://www.youthdaily.co.kr/mobile/article.html?no=229246"
+            },
+            {
+              "name": "머니투데이",
+              "title": "간절기 의류 판매 호조...한섬, 3분기 매출 3248억",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93SVNlcURBWmJiVnJuLWJ5Yl8wYmMwNkZQTmkzbWNydnpPbGR5NHJDUXR1dmZtODM1Z3Mwc1hpX3NEcTVuVnlXdFktNkxjZ1hsNlZsNE1leHVJbHRCcVRjOElhVjZuSm5FQ2g4Q29IMNIBb0FVX3lxTE93SVNlcURBWmJiVnJuLWJ5Yl8wYmMwNkZQTmkzbWNydnpPbGR5NHJDUXR1dmZtODM1Z3Mwc1hpX3NEcTVuVnlXdFktNkxjZ1hsNlZsNE1leHVJbHRCcVRjOElhVjZuSm5FQ2g4Q29IMA?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1758,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026110216071584838_1.jpg",
+              "url": "https://www.mt.co.kr/amp/living/2026/11/02/2026110216071584838"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "한섬, 3Q 영업익 76억·206%↑…예상치 하회 |",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4YWk2bU1fVXE1SGxPX0dZZGY5MlNVd3h0ak40eWVzT09mTm02NUpnM3dhMFJzVloyLWNjTUw5THoycXlJQlpzMnRQckxiY19DVGdZRnBTTkxZQm1DS2U4clluRjdlMDVTUkVReW9FaTBFaW5M?oc=5",
+              "url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4442570"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "2026 뷰티썸 수원, 11월 5일 개막",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100362",
+          "original_title": "2026 뷰티썸 수원, 11월 5일 개막",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "2026 뷰티썸 수원, 11월 5일 개막",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100362",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100362_72268_4533_v150.jpg"
+            },
+            {
+              "name": "쿠키뉴스",
+              "title": "K-뷰티의 현재와 미래 한눈에…‘뷰티썸 수원’ 5일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IWjBqbjJRcm8tbnFsV3N5ejVVWmRTWEpWWGlQVkk0a1JWX2dFS1RibHhKYW94b19xMmRyZnVDMWF5U3NndTdndmZrQllLN2o4bGlMWTBPVWFNX2JyX1NMOVhpUQ?oc=5",
+              "url": "https://www.kukinews.com/article/view/kuk202611030056"
+            },
+            {
+              "name": "에너지경제신문",
+              "title": "K뷰티의 미래, 수원에 모인다…130개 기업 참여 ‘뷰티썸 수원’ 5일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wV3VPNjdDV0ZKLWw1V3NsaUd1VXF5TGdablBJclp0RWhESVo5Ul95Y2s0RU5IVkZ1QmNJQ3lvaUIyUFl1TkdPYTRMSmdRUENXSkU2VGVrWi1yR1E?oc=5",
+              "image": "https://www.ekn.kr/mnt/file/202611/news-p.v1.20261103.9c6bd84ca7c24fc3a5c3b3bf155b993c_R.jpg",
+              "url": "https://m.ekn.kr/view.php?key=20261103025234555"
+            },
+            {
+              "name": "동행미디어 시대",
+              "title": "K뷰티 미래 한눈에…'2026 뷰티썸 수원' 보러 오세요",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oT1JDWXFxc0c2ZzlLZGJ6TGQzaDJDNV9WVjF1WGJDcEYxOXB4VUhyV2JtdmJMb0tsUWgxQTl3Wm5IcVBkMk5vTG1MQ3dSSkNhcktlYk1nR3paT3hsT2c?oc=5",
+              "image": "https://menu.sidae.com/moneyweek/thumb/2026/11/03/00/2026110308095349555_1.jpg",
+              "url": "https://www.sidae.com/article/2026110308095349555"
+            },
+            {
+              "name": "광역행정신문",
+              "title": "수원 ‘2026 뷰티썸’ 개최,130개 기업 참여 K-뷰티 글로벌 진출 모색",
+              "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5UMXhhMXdvYnJXaFNRYmxocGVlelo3SGs4WFdRejJJQUNkSDJZclBUWEFQc2pEakFadklRcWZSN1VvNzkz?oc=5",
+              "url": "https://www.wide-news.kr/13850"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "현대해상, 무제한 보장 해외여행보험 출시",
+          "summary": "현대해상은 1년 보장 기간과 여행 횟수 제한을 없앤 '트래블패스365' 해외여행보험을 출시했다",
+          "source": "S저널",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15WHo5Z0Q3SFlWQk9QU0JkTjhYTHNGLUVuUDBLU3NSd3U5RndRV0lKZ1N3TjR2OXc2RzBmc242ejBzbVRXQXYzYWRzMUl3OGpCemRlUkJsUmtqQ0MwZ2MwbmVzZmRlc1J3UmtnTUh3?oc=5",
+          "original_title": "현대해상, 1년간 횟수 제한 없는 해외여행보험 출시",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "S저널",
+              "title": "현대해상, 1년간 횟수 제한 없는 해외여행보험 출시",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15WHo5Z0Q3SFlWQk9QU0JkTjhYTHNGLUVuUDBLU3NSd3U5RndRV0lKZ1N3TjR2OXc2RzBmc242ejBzbVRXQXYzYWRzMUl3OGpCemRlUkJsUmtqQ0MwZ2MwbmVzZmRlc1J3UmtnTUh3?oc=5",
+              "image": "https://cdn.s-journal.co.kr/news/photo/202611/45003_56233_949.jpg",
+              "url": "https://www.s-journal.co.kr/news/articleView.html?idxno=45003"
+            },
+            {
+              "name": "더팩트",
+              "title": "현대해상, 연간 무제한 보장 '트래블패스365 해외여행보험' 출시",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxdDhNNThpeXRpWHFjUFkzNGNTdlp3bm5aRWRsTTk4VkNGQ3B3UFZVRlU1QUNqWEU1cUdJQ29heThSYWxDeTFxRl9EUGY0TUZka2N3UDNYSzlxZ9IBVEFVX3lxTE1oUGZISk9PYTVSdUsxUkdzNnJBUzJ2QTdOc3NTNlpaSXhYYm52SWQ0ZGRyTWNIWmJ2MTlkMXBxNUZISl8zeEEwSjlhNGV4Y3Uwc3NSOA?oc=5",
+              "image": "https://img.tf.co.kr/article/home/2026/11/02/202694141793601133.jpg",
+              "url": "https://news.tf.co.kr/read/economy/2383782.htm"
+            },
+            {
+              "name": "금융경제신문",
+              "title": "현대해상, 해외여행보험 한 번 가입으로 1년 보장…여행 횟수 제한도 삭제",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Cd3NaX00yZzN6WUxIckpOdk9YZU9TczdlWVhIcm9HSmUzSG5wZDNibGhwVFZkbXNxRE05Qjd0RWRPcGVweEs3eHNEZ1RnZG83T3g4bUN3YVBzMzRRZUhFWVJ1R3lwYjkyWEZYeGJUONIBb0FVX3lxTE9Cd3NaX00yZzN6WUxIckpOdk9YZU9TczdlWVhIcm9HSmUzSG5wZDNibGhwVFZkbXNxRE05Qjd0RWRPcGVweEs3eHNEZ1RnZG83T3g4bUN3YVBzMzRRZUhFWVJ1R3lwYjkyWEZYeGJUOA?oc=5",
+              "url": "http://www.fetimes.co.kr/news/articleViewAmp.html?idxno=128780"
+            },
+            {
+              "name": "조세일보",
+              "title": "1년간 횟수 제한 없이…현대해상, ‘연간 여행보험’ 출시",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzN2I1THlwYzZmZERZV2JhWnJDMFpYdGMwbUZYUlBwRFpoVHZlS2x3N0FCS2ROSWtFOE5LQ3pZY0lHV0tuLThfZXdNd3pHeGcyWWhMMnhvaml5MXB1LTZaYnZxMWxRLU5LbDVrMkJrSQ?oc=5",
+              "url": "http://www.joseilbo.com/news/htmls/2026/11/20261102578695.html"
+            },
+            {
+              "name": "KPI뉴스",
+              "title": "현대해상, 해외여행보험 한 번 가입하면 1년 보장…여행 횟수 무제한",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5rdjhoX1FrXzYzbm11dnQ2QjZJOWFtTTNEN1ZYRXZsUFFMMC03UkVBelJ0VmN4Ujg5SmFxUUJ5WmpFUmlqM2dQWTZldllna1dLVERz0gFTQVVfeXFMTmt2OGhfUWtfNjNubXV2dDZCNkk5YW1NM0Q3VlhFdmxQUUwwLTdSRUF6UnRWY3hSODlKYXFRQnlaakVSaWozZ1BZNmV2WWdrV0tURHM?oc=5",
+              "url": "https://m.kpinews.kr/amp/1065588837162407"
+            }
+          ]
+        },
+        {
+          "headline": "한국관광공사, 데이터 세미나 개최",
+          "summary": "한국관광공사는 26일에 '요즘, 한국관광 데이터 세미나'를 개최하여 데이터 기반 관광 정책을 논의했다",
+          "source": "트래블데일리",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01eF95NDVScTFGRm5CdGhCZk5XNFdTR0c4T1l4Z25SamlvNUZKTVVOTHBCY0V6cmw1Tkt0bTY3SXlwYng5SU9UU0FsaUJzaXc1bU9XM3RDMm00djhQc2dFRjZnaEJuYnkyTkJ6bXJQTG4?oc=5",
+          "original_title": "한국관광공사, ‘요즘, 한국관광 데이터 세미나’ 개최",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "트래블데일리",
+              "title": "한국관광공사, ‘요즘, 한국관광 데이터 세미나’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01eF95NDVScTFGRm5CdGhCZk5XNFdTR0c4T1l4Z25SamlvNUZKTVVOTHBCY0V6cmw1Tkt0bTY3SXlwYng5SU9UU0FsaUJzaXc1bU9XM3RDMm00djhQc2dFRjZnaEJuYnkyTkJ6bXJQTG4?oc=5",
+              "image": "https://cdn.traveldaily.co.kr/news/photo/202611/72540_75024_3544.jpeg",
+              "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72540"
+            },
+            {
+              "name": "비즈월드",
+              "title": "[관광산업 HOT 뉴스] \"데이터로 해결하는 ‘K-의료관광’의 미래\"…한국관광공사, 26일 세미나 개최",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUN0xTamt3TUd2T2t2S1MtNzJxQ3NPSFR3c2FvWkNhSG1qaUM1WGdUb3NXYncxb1EydWktTG1aNDdjbTNPTmpOVVY4U2kzVERlaENRUHBNY29BSkd1b3NmSWloUUNhdnBEaE5B?oc=5",
+              "image": "https://cdn.bizwnews.com/news/thumbnail/202611/150624_168080_3731_v150.jpg",
+              "url": "https://www.bizwnews.com/news/articleView.html?idxno=150624"
+            },
+            {
+              "name": "글로벌뉴스통신GNA",
+              "title": "한국관광공사, '제3회 요즘, 한국관광 데이터 세미나' 개최",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FaUVPX2FGc2d2ODludWZIcV8wSkJLeWo4MEF5TnNNaVRGaWpINXVzOERVTlhxa1pCUnNUdWJPSmZrWnRIRERlR0JEcnNTUXd3dGJaMWx6T1lCb1lWdE12STFtS2dWd0pNbF9BUl92YjNjLThh?oc=5",
+              "image": "https://cdn.globalnewsagency.kr/news/photo/202611/502585_520945_242.png",
+              "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=502585"
+            },
+            {
+              "name": "국제뉴스",
+              "title": "한국관광공사, 26일 '제3회 요즘, 한국관광 데이터 세미나' 개최…K-의료관광·2027 트렌드 전망 집중 조명",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GWE9lcHN6MEh1Z3RnTERYTVM3aTVzX3M4ZWNnMUFLRVQwUG1vNWZmemswQkJBV0pxZUViSEowMGNpc0tvR3lPc01idHVadWt4S05IdFRHY3A2YTBLV2FoeExVWUN2NlFFSjlZUmRR?oc=5",
+              "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3739917_3919801_724_v150.jpg",
+              "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739917"
+            },
+            {
+              "name": "디스커버리뉴스(DISCOVERYNEWS)",
+              "title": "한국관광공사, ‘제3회 요즘, 한국관광 데이터 세미나’ 11월 26일 개최",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JczU5QVdOTndWQjV4VHJmMUJWQmpLT2hHNE1CUElXYWFjQVladVNxbnBrZXlOZXpYbnQ1SmJvWV9RdE9iOGpPREkzS01tT29mN2Q2TWE1N2p0WDdteWdlZ0tVdThKbXBfbFQtXzFDS19yUQ?oc=5",
+              "image": "https://cdn.discoverynews.kr/news/thumbnail/202611/1105567_1150017_5256_v150.jpg",
+              "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1105567"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "靑, '대통령 순방단 개인정보 유출' 긴급회의…\"철저히 조사\"",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261103036800001",
+          "original_title": "靑, '대통령 순방단 개인정보 유출' 긴급회의…\"철저히 조사\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "靑, '대통령 순방단 개인정보 유출' 긴급회의…\"철저히 조사\"",
+              "link": "https://www.yna.co.kr/view/AKR20261103036800001",
+              "image": "https://img0.yna.co.kr/photo/cms/2026/02/02/10/PCM20260202000210990_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "靑, '대통령 순방단 개인정보 유출' 비서실장 주재 긴급회의",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5yRzBUSndELWIwY0s4SVFQb3lqSlI4UUhWc2djVDg4SXFNWm53ZVJVWmZIVGhZMzZCaVF0M0FJekZ5a1g2ek9xS29tbHZtS3Rlb2RhdFdkMDJJNEpMNzMtTFJLWkpKa2NzMXRlWDlhcTE2N1RkandPQ9IBeEFVX3lxTE5GTWVuZWVIOWlZNS1JLV93cFFJcFNiTi1JUVliUURoQ280T2J1aXlUeTBfb2FpeDB1X3cyQ3JjTGcxMG1wUVhObmZ2V1RBbUNNMGRrVGx3TVFHcDdPTUVia2cyem1tTkFLcTdGN0FOcXF5X1JsNkFrQg?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/03/yen_20261103_5.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6862738_36911.html"
+            },
+            {
+              "name": "경향신문",
+              "title": "[속보] 임광현 “대통령 순방단 개인정보유출 중대 사안…책임 규명해야”",
+              "link": "https://www.khan.co.kr/article/202611030851001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/03/news-p.v1.20261029.b04572fe64a54b438109cf4a18d5257d_P1.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "美법무부, 투표 전날 선거범죄 63명 기소…부정선거 빌드업?",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261103/134954964/1",
+          "original_title": "美법무부, 투표 전날 선거범죄 63명 기소…부정선거 빌드업?",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "美법무부, 투표 전날 선거범죄 63명 기소…부정선거 빌드업?",
+              "link": "https://www.donga.com/news/Inter/article/all/20261103/134954964/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/03/134955008.1.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "미국 법무부, 중간선거 전날 \"선거범죄 63명 기소\"…부정투표 부각",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RdWhnTnczcWFGMmFQTEhwQ1ZzM3A5d2lTMXdOSlNtWlY2LWtPazFDZnNwLUwxcjl5T0NubjdLMTJKeENzV0lKUHlXcVhlZ1ZGT29pV1U2SWZCMmhSaTRfRko0UG1Yak0?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261103/AKR202611031027126Ag_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202611031027126Ag"
+            },
+            {
+              "name": "뉴시스",
+              "title": "[美중간선거]본투표 전날 선거 범죄로 63명 기소…부정선거론 부각",
+              "link": "https://www.newsis.com/view/NISX20261103_0003851906",
+              "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0001715640_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美법무부, 중간선거 전날 선거범죄 63명 기소…부정투표 부각",
+              "link": "https://www.yna.co.kr/view/AKR20261103018600071",
+              "image": "https://img3.yna.co.kr/photo/ap/2026/11/03/PAP20261103063401009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "WSJ \"美, 중간선거 앞두고 이란 전략 요충지 케슘섬 공습\"",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261103_0003852416",
+          "original_title": "WSJ \"美, 중간선거 앞두고 이란 전략 요충지 케슘섬 공습\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "WSJ \"美, 중간선거 앞두고 이란 전략 요충지 케슘섬 공습\"",
+              "link": "https://www.newsis.com/view/NISX20261103_0003852416",
+              "image": "https://img1.newsis.com/2026/04/16/NISI20260416_0001182870_web.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "WSJ “미국, 이란 호르무즈 요충지 케슘섬 타격”",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KTW5aRjFyYmRMVjBxYVFOQ0dfZUtkZFRrTmlMeUluaFV3MDB5ZmktSmwzZlFuTmZxWVVLb05QaFBfZlllSTFVVlNLeC04dGFkTXl6SXFIdFVrUdIBX0FVX3lxTE8wN1I4dmdnYkZjSllMb2dHdXlrWmxUX19GVnVULVdhNWNvZ0k1TmdDcGV3c29aRDR1Nk5Gc0ZDUUJmRjQzMmZURXlET29zZkRBNFFha2ZtTGE3bmlUUEJN?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/03/rcv.YNA.20261028.PRU20261028256701009_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202611031005001"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "[속보] WSJ \"미국, 이란 호르무즈 요충지 게슘섬 타격\"",
+              "link": "https://www.yna.co.kr/view/AKR20261103056900009",
+              "image": "https://img1.yna.co.kr/photo/ap/2026/04/28/PAP20260428149701009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "네이버 AI 탭 ISO 인증 획득",
+          "summary": "네이버가 AI 경영시스템 ISO·IEC 42001 인증을 획득했다. 국제표준 인증은 AI 서비스 운영에 대한 신뢰성을 높인다.",
+          "source": "지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tWmxINVQ4NXZrcnlJUUJ6UkVaN3djTlIybVdib1hJcWdGYjV0SS05a0hDek8taUpEbF93Mzlaek1wazZhelFaanFMc3d2V0l3XzJBR3Jn?oc=5",
+          "original_title": "네이버 'AI탭', 경영시스템 국제표준 ISO·IEC 42001 획득",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "지디넷코리아",
+              "title": "네이버 'AI탭', 경영시스템 국제표준 ISO·IEC 42001 획득",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tWmxINVQ4NXZrcnlJUUJ6UkVaN3djTlIybVdib1hJcWdGYjV0SS05a0hDek8taUpEbF93Mzlaek1wazZhelFaanFMc3d2V0l3XzJBR3Jn?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/11/03/ddc09645d2ad780765d92fe65645e2d2.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261103095334"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "네이버 ‘AI 탭’, AI 경영시스템 국제표준 인증 획득",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5THJYQzliVV9hMm1Uc0JLN2s5b1pqbmlXT1pfU0pzaW1hcTE2Z2hiM3h0M0RXRFU1Y1NEbDFLRVJkbjVGT1hISTlJNnBiY3JFdVBvYkNaOFJOU2tnVE4tN3l0T2k?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/11/03/sentv20261103000044.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611030067"
+            },
+            {
+              "name": "전자신문",
+              "title": "네이버 AI탭, 국제 AI 경영시스템 인증 획득",
+              "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Vc0c2aFEtZHotS1NSUFY0SnE1ei15UVdibmVOUzFxa0lCc2E3ZWIzeEZ4b0s5N0lUejdwTldRY1ROby1QYldrR2F3NUo?oc=5",
+              "url": "http://www.etnews.com/20261103000046"
+            },
+            {
+              "name": "데일리한국",
+              "title": "네이버, 'AI 탭' ISO 42001 인증…AI 안전 체계 구축 검증",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SYWZ2N2ZGdmVJSURJVEVnbXUtX0lQMFRGQXQ1Rmx4eWxHaWY2WVdNQnlhOXpjZWNKODM0UHJrdWdHR3JIN1RFWmVHT0lwaHBrcmJONzZoS2JjMVVRWUQzM2NiM3NSMlc1Uy1WUGQ2TdIBc0FVX3lxTE94ZmI3TmVydC1BN2o4YmQ3VkctRTFUUHhaR3ZoNGk4bDIyN2hRaEI4SngzX1hBNmNVRUdBN0ZpV3gwWW9JVE15UVB5N0JxdTBtTmdMeUlpNTZ3bmUwS1hJYWR0RTh0VE9pTk1rU2Q4WUVGZ1k?oc=5",
+              "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1421068_1599774_2738_v150.jpg",
+              "url": "https://daily.hankooki.com/news/articleView.html?idxno=1421068"
+            },
+            {
+              "name": "뉴스프리존",
+              "title": "네이버 'AI 탭', AI 경영시스템 국제표준 인증 획득",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DMW9EZk1QWk5BMllPbVVQUjFZUkxXcXhnX3dzUjk4ZG9vQzZsT2xUcjBlT1V4aW96MjBVYl9IS0V5M3E0WHRoSWp5TEFjS1RoT1U1aFlraV85aklvY1ktcXgyWlNabUJoNEN2dC1NamVDaEM4S1ZF0gF3QVVfeXFMT0Mxb0RmTVBaTkEyWU9tVVBSMVlSTFdxeGdfd3NSOThkb29DNmxPbFRyMGVPVXhpb3oyMFViX0hLRXkzcTRYdGhJanlMQWNLVGhPVTVoWWtpXzlqSW9jWS1xeDJaU1ptQmg0Q3Z0LU1qZUNoQzhLVkU?oc=5",
+              "url": "https://www.newsfreezone.co.kr/news/articleViewAmp.html?idxno=717307"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "암살자(들) 6주차 박스오피스 1위 탈환",
+          "summary": "암살자(들)이 6주차에 한국영화 박스오피스 1위를 탈환하며 340만 관객을 돌파했다.",
+          "source": "iMBC 연예",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zazNLTm9vTUVnY0pCYWNVaFAtR1JTQndleEdvT2ZqdmxMeFRBbjhSdHQ4T2pkcjlZQmNyaVdjVW9NbW9WbWU3SlpFUkhQUHRnUnZ1dW02RWRHVFU3X2wtQg?oc=5",
+          "original_title": "'암살자(들)' 개봉 6주차 韓영화 박스오피스 1위 탈환…역주행 흥행",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "iMBC 연예",
+              "title": "'암살자(들)' 개봉 6주차 韓영화 박스오피스 1위 탈환…역주행 흥행",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zazNLTm9vTUVnY0pCYWNVaFAtR1JTQndleEdvT2ZqdmxMeFRBbjhSdHQ4T2pkcjlZQmNyaVdjVW9NbW9WbWU3SlpFUkhQUHRnUnZ1dW02RWRHVFU3X2wtQg?oc=5",
+              "image": "https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2026/11/03/3195fca6-32b5-4ea5-be5b-8952d5fbcc86.jpg",
+              "url": "https://enews.imbc.com/News/RetrieveNewsInfo/523305"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "‘암살자(들)’, 6주차에 韓영화 박스오피스 1위 탈환…340만 관객 돌파",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BTkN6ZnpBelBpOXBDZXhjZEZkREF4a0dIREZhOE1Mckl0RWxCaVZrTlNib1RFSDhtTnctU0tGdEp6RlJHcUNNWWlQWmRFMGJkU3cyWEhzRzE1b0ppS1R4ejN1U1BUbFpROVpadVR3?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/03/134954803.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261103/134954800/1"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "‘하트 오브 비스트’, 박스오피스 1위 탈환…개봉 6일 만에 23만 관객 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ObVJnSVIwdkYwdDNRaGlPVjRybTVyYUZIYWNNUFZJR0ZBNVpZLXBiWmhkb0ZuU3FRcThqUDhQYklTTkRZMi01VjJjS0xZZXRWdnBqQ2dDQUpoNkRJb0p4MVgta29jQQ?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202611/778468_1189659_1153_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=778468"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "이예원, KLPGA 2승 세계랭킹 46위",
+          "summary": "이예원은 KLPGA 시즌 2 승으로 세계랭킹 56위에서 46위로 상승했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261103_0003851948",
+          "original_title": "KLPGA 시즌 2승 이예원, 여자골프 세계랭킹 46위로 도약",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "KLPGA 시즌 2승 이예원, 여자골프 세계랭킹 46위로 도약",
+              "link": "https://www.newsis.com/view/NISX20261103_0003851948",
+              "image": "https://img1.newsis.com/2026/11/01/NISI20261101_0021513770_web.jpg"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "S-OIL 우승자 이예원, 세계여자골프랭킹 46위로 도약...유해란 랭킹 3위, 김효주 랭킹 9위",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQWs5WHBSVTZ3cTVIQjRzc0FpMXZyS2M3VlRMQWs4YW1DbjlKZXJKS1lBRlVDbnhYb0JzblhYNTFJMEpFY1pWVUY5aW85SjVSRHF1dlFOaVNHRzZDVDZZdWhWc2hnY29yb093VUhBd3pOWEZ3T3ViSGVCU2pJUEc4SExLc1dOSGdr?oc=5",
+              "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110307473300357daecd3dad5581422153.jpg",
+              "url": "https://www.g-enews.com/article/General-News/2026/11/2026110307402884daecd3dad5_1"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "KLPGA 시즌 2승 이예원, 여자골프 세계랭킹 46위로 도약",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827432",
+              "image": "https://img.sbs.co.kr/newimg/news/20261103/202237299_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "KLPGA 시즌 2승 이예원, 여자골프 세계랭킹 10계단 오른 46위",
+              "link": "https://www.yna.co.kr/view/AKR20261103009600007",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/11/03/AKR20261103009600007_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "청바지에는 신고 벗기 편한 ‘비틀스 부츠’",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 16,
+      "t_min": 5,
+      "rain_pct": 25,
+      "sky": "흐림",
+      "display": "서울 5~16°C · 흐림 · 강수 25%"
+    },
+    "articles": [
+      {
+        "title": "청바지에는 신고 벗기 편한 ‘비틀스 부츠’",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/11/02/%ec%b2%ad%eb%b0%94%ec%a7%80%ec%97%90%eb%8a%94-%ec%8b%a0%ea%b3%a0-%eb%b2%97%ea%b8%b0-%ed%8e%b8%ed%95%9c-%eb%b9%84%ed%8b%80%ec%8a%a4-%eb%b6%80%ec%b8%a0/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6ae83f2119d10-1920x1080.jpg?x=768&y=664&ver=1.1.62",
+        "url": "https://www.vogue.co.kr/2026/11/02/%EC%B2%AD%EB%B0%94%EC%A7%80%EC%97%90%EB%8A%94-%EC%8B%A0%EA%B3%A0-%EB%B2%97%EA%B8%B0-%ED%8E%B8%ED%95%9C-%EB%B9%84%ED%8B%80%EC%8A%A4-%EB%B6%80%EC%B8%A0/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "지나침은 미치지 못함과 같다.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "빠른 발로 기회 잡는다"
+      },
+      {
+        "animal": "소",
+        "text": "지혜로운 선택이 보상된다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "용감한 발걸음이 길을 열어준다"
+      },
+      {
+        "animal": "토끼",
+        "text": "민첩함이 새로운 길을 만든다"
+      },
+      {
+        "animal": "용",
+        "text": "열정이 비상하는 순간"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜롭게 길을 엮어 나간다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 사유가 힘을 준다"
+      },
+      {
+        "animal": "양",
+        "text": "협동이 새로운 기회를 만든다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "창의력이 무한히 번진다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성공을 이끈다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 곧 힘이 된다"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 풍성히 찾아온다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
