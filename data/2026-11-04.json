@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-04",
+  "weekday": "수요일",
+  "vol": 23,
+  "generated_at": "2026-11-04T09:30:55+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5825.18,
+      "change": -33.9,
+      "change_pct": -0.58,
+      "direction": "down",
+      "display": "5,825.18",
+      "change_display": "▼ 0.58%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1344.3,
+      "change": -0.5,
+      "change_pct": -0.04,
+      "direction": "down",
+      "display": "1,344.3원",
+      "change_display": "▼ 0.04%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 104017000.0,
+      "change": -295000.0,
+      "change_pct": -0.28,
+      "direction": "down",
+      "display": "10,402만원",
+      "change_display": "▼ 0.28%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 17,
+    "t_min": 7,
+    "rain_pct": 0,
+    "sky": "흐림",
+    "display": "서울 7~17°C · 흐림 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "연금",
+      "headline": "연금실장 해임, 대기발령 3개월만",
+      "summary": "국민연금공단 부동산투자실장이 해임돼 대기발령이 3개월만으로 결정되었다.",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FbDhkVHVybjhBOVAtVXZtcG51Q29SNTA5cW9BM3p6UDdDNTdtNkItakZ1QTg3QWtaZFNoSzlJTDM3dUgtWFZpTHYyUmR5NW11TGw1c3g5NEo1X2ZJVnNJTGlQUFZtX3ZyYUVKS3gzeUVyVGZ1eWF2Z9IBeEFVX3lxTE1FbDhkVHVybjhBOVAtVXZtcG51Q29SNTA5cW9BM3p6UDdDNTdtNkItakZ1QTg3QWtaZFNoSzlJTDM3dUgtWFZpTHYyUmR5NW11TGw1c3g5NEo1X2ZJVnNJTGlQUFZtX3ZyYUVKS3gzeUVyVGZ1eWF2Zw?oc=5",
+      "original_title": "국민연금공단 부동산투자실장 해임…대기발령 3개월만",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "국민연금공단 부동산투자실장 해임…대기발령 3개월만",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FbDhkVHVybjhBOVAtVXZtcG51Q29SNTA5cW9BM3p6UDdDNTdtNkItakZ1QTg3QWtaZFNoSzlJTDM3dUgtWFZpTHYyUmR5NW11TGw1c3g5NEo1X2ZJVnNJTGlQUFZtX3ZyYUVKS3gzeUVyVGZ1eWF2Z9IBeEFVX3lxTE1FbDhkVHVybjhBOVAtVXZtcG51Q29SNTA5cW9BM3p6UDdDNTdtNkItakZ1QTg3QWtaZFNoSzlJTDM3dUgtWFZpTHYyUmR5NW11TGw1c3g5NEo1X2ZJVnNJTGlQUFZtX3ZyYUVKS3gzeUVyVGZ1eWF2Zw?oc=5",
+          "image": "https://img1.newsis.com/2019/01/23/NISI20190123_0000264450_web.jpg",
+          "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261103_0003853399"
+        }
+      ]
+    },
+    {
+      "kicker": "골프",
+      "headline": "박성현, KLPGA 시드순위전 75위 첫날",
+      "summary": "박성현이 KLPGA 시드순위전 첫날 75위에 머물며 안소현·유효주의 순위가 주목받고 있다.",
+      "source": "골프한국",
+      "link": "https://golfhankook.hankooki.com/news/articleView.html?idxno=20022538",
+      "original_title": "박성현, KLPGA 시드순위전 첫날 75위…안소현·유효주는?",
+      "sources": [
+        {
+          "name": "골프한국",
+          "title": "박성현, KLPGA 시드순위전 첫날 75위…안소현·유효주는?",
+          "link": "https://golfhankook.hankooki.com/news/articleView.html?idxno=20022538",
+          "image": "https://cdn.golfhankook.hankooki.com/news/thumbnail/202611/20022538_326388_845_v150.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "바이오",
+      "headline": "알테오젠 3분기 영업익 789억원 역대 최대",
+      "summary": "알테오젠이 3분기 영업익 789억원을 기록하며 매출·이익이 역대 최고치를 달성했다.",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/stock/12194817",
+      "original_title": "알테오젠, 3분기 영업익 789억원…매출·이익 모두 역대 최대",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "알테오젠, 3분기 영업익 789억원…매출·이익 모두 역대 최대",
+          "link": "https://www.mk.co.kr/news/stock/12194817",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/03/news-p.v1.20261103.d2c35e3eb11d410299b0f5920aa4f9ba_R.jpg"
+        },
+        {
+          "name": "Investing.com 한국어",
+          "title": "알테오젠, 3분기 영업익 789억 달성…분기 기준 최대 By EBN",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KaGM5a2hDN1RET3oxRG5uVERuZGRjQzBfWmI0TVlwMjlDdUtzVzRRbUw4SFNJbUNMbVI1bnZKU1hrYVY0clB0UUxEcDBBeTAtYU54eEdIZjMwTGRoUjh5Z0tfUWE5YVJSaUhwenNwT24?oc=5",
+          "url": "https://kr.investing.com/news/stock-market-news/article-2155225"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "쿠팡Inc 3분기 영업손실 6423억원",
+          "summary": "쿠팡Inc는 3분기 영업손실 6423억원을 기록해 3년치 이익이 증발했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261104009153030",
+          "original_title": "쿠팡Inc, 3분기 영업손실 6천423억원…3년치 이익 증발(종합2보)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "쿠팡Inc, 3분기 영업손실 6천423억원…3년치 이익 증발(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261104009153030",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/01/29/PYH2026012909870001300_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "쿠팡Inc 3분기 영업손실 6423억…정보유출 이후 3연속 적자",
+              "link": "https://www.donga.com/news/Economy/article/all/20261104/134961914/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/04/134961915.2.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "쿠팡Inc, 3분기 6천423억원 영업손실‥매출은 11% 증가",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92UGg0RlpOSTZSUEtUTlJZSENxWlphME0tN0p0UXVJbjE0NWJSWE9BeEFCaWdheElrdHg1SlRzRmZmMjFoZlZXR0UtdC1POXRCNDUxX0NEQWU0Yi1FeDlnRWsxakVNUFRGU2tpRWdUcDZ2VGho0gF0QVVfeXFMT0JLdXNsb2VPQ3dSS3I2QnJDb24wajF3ZXF1RWFVbHhJN0FxQXBVSnhzZ05LTWZzUEV6MFlraWg3b2xTbms1TDF3SS1XU0k3U3g3cWlUU2RKaFB3V3ZHeUlsVjlzZEdCaXBERVk1WkhhNGlCSkc?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/04/jh_20261104_1.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6863000_36925.html"
+            }
+          ]
+        },
+        {
+          "headline": "미국 SK하이닉스 장비 수출 허가 보류",
+          "summary": "미국이 SK하이닉스의 중국 공장 장비 수출 허가를 보류해 미국 뉴욕 주 반도체 공장 투자도 차질을 빚었다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261104/134962358/2",
+          "original_title": "美, SK하이닉스 中공장 장비 반입 제동…뉴욕 반도체 공장 투자도 난항",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "美, SK하이닉스 中공장 장비 반입 제동…뉴욕 반도체 공장 투자도 난항",
+              "link": "https://www.donga.com/news/Inter/article/all/20261104/134962358/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/04/134962354.3.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "“미국, SK하이닉스 중국 공장 장비반입 제동…뉴욕 공장투자도 차질”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOd3lJZ21qU0o5YUJPX0F2N0xBSERVTXFNdXJhcF8wUWEzbmtzbmJoUjNQWEdHZ2VpNUhocjlPQ1FBLWFKZTQxTkxacDdEckFpQ2VGd2t4cTYyX1E?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/04/20261104_YOgIrd.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8703240"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "무신사, AI 필터 이용률 21% 상승",
+          "summary": "무신사는 11월 3일 AI 트렌드 큐레이션을 12개 카테고리로 확대해 고객 필터 이용률이 최대 21% 상승했다.",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=149860",
+          "original_title": "무신사, AI 상품 탐색 확대…필터 이용률 최대 21% 증가",
+          "coverage": 16,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "무신사, AI 상품 탐색 확대…필터 이용률 최대 21% 증가",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=149860",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/149860_132954_5332_v150.jpg"
+            },
+            {
+              "name": "비즈트리뷴",
+              "title": "무신사, ‘AI 트렌드 큐레이션' 12개 카테고리로 확대…필터 이용률 최대 21%↑",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wRHdVN3hqOUo2azhlMTNzZUxqX1FiRVdnLTZtUm8zWnlJOXpXblN2ZlcyTVBRZHo5RElDaG5UU1BxQXd2VVVZRnhKMUVrUUg5Zm9HbEpaOG5NV0VnVWFlajBwVTYtT0RkSVFyVWxPbTE?oc=5",
+              "image": "https://www.biztribune.co.kr/news/thumbnail/202611/361800_267782_385_v150.jpg",
+              "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=361800"
+            },
+            {
+              "name": "아주경제",
+              "title": "무신사, AI 트렌드 큐레이션 12개 카테고리로 확대…필터 이용률 최대 21%↑",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDX0ViRUVMY1RwR2F0OFltVHRmTGFyNTFIcmtBWlQtNDRpdG9Vc2lleWI4V3JycjdTMGRZaDRUUkVvSGE5Q3hJZFRaWkFJX0NMLUxRTW1EemjSAVhBVV95cUxQQ19FYkVFTGNUcEdhdDhZbVR0ZkxhcjUxSHJrQVpULTQ0aXRvVXNpZXliOFdycnI3UzBkWWg0VFJFb0hhOUN4SWRUWlpBSV9DTC1MUU1tRHpo?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/11/03/20261103191001605302.png",
+              "url": "https://www.ajunews.com/amp/20261103190604280"
+            },
+            {
+              "name": "뉴스인사이드",
+              "title": "무신사 AI 큐레이션 통했다…필터 이용률 최대 21%↑",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tTDZVWWRaUE56ZXIxNHoyZTJ2aHdyZHN4RUItOWVQWFp2VkNqeDdZMmJobTFXdzdGUlN0cjRkYVJVWWd4V3gwdGZkb0t6SXcyTmtsTE5ORUVRMDAzeTFhTFpnRjRPQ1VaUE9nUXV3?oc=5",
+              "image": "https://cdn.newsinside.kr/news/photo/202611/5039665_942355_1442.png",
+              "url": "https://www.newsinside.kr/news/articleView.html?idxno=5039665"
+            },
+            {
+              "name": "뉴스저널리즘",
+              "title": "무신사, AI 큐레이션 12개 카테고리로 확대…필터 이용률 최대 21%↑",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JMFhTa0dxYlRPQ0dnS2ZIRmsza2tPdTMxMFRiQzNLNkdlQ0pERERhRlo2bkxsNFBQUHp1MURvZW1qcGVWYWhSZWhPNHdCLUhleGNkblFDcXlCU1A0RE1kalBKSzhLb2h6YmVJ?oc=5",
+              "image": "https://cdn.ngetnews.com/news/thumbnail/202611/555489_123367_47_v150.jpg",
+              "url": "https://www.ngetnews.com/news/articleView.html?idxno=555489"
+            }
+          ]
+        },
+        {
+          "headline": "중기부, 패션·뷰티·식품 소공인 120곳 판로 지원",
+          "summary": "중기부는 패션·뷰티·식품 유망 소공인 120곳에 판로 지원을 확대해 디깅위크를 성수동에서 개최했다.",
+          "source": "경제타임스",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92b1VIOW05TC1LUEtWT3NPbzBQOUc1YXJOZzZ2ZURKTTBPU1M4Q0thVnh3TWZuQW0tNFRFVllaS2pjeGxuZWE1VjhUeERWM3cxUkpr?oc=5",
+          "original_title": "중기부, 패션·뷰티·식품 유망 소공인 120곳 판로 지원",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "경제타임스",
+              "title": "중기부, 패션·뷰티·식품 유망 소공인 120곳 판로 지원",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92b1VIOW05TC1LUEtWT3NPbzBQOUc1YXJOZzZ2ZURKTTBPU1M4Q0thVnh3TWZuQW0tNFRFVllaS2pjeGxuZWE1VjhUeERWM3cxUkpr?oc=5",
+              "image": "https://www.ket.kr/data/photos/20261145/art_17936787002153_c7e193.jpg",
+              "url": "https://ket.kr/news/article.html?no=41833"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "패션·뷰티·식품 유망 소공인 한자리에…중기부, ‘디깅위크’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd1JpTXV6T1laR1RCTzY2NUlnUEdiblctVmNlWXo1Z09ELXZFaEVzZVltaUFoWGRTVjRzRVF2bVh4WmdCWkRmdXRJZGl2aTFpdDRHZUN6bkZmZXpBMEY5dktHLUxyTk1vbnIxb01hSzJMQjdBWUdMLUdXVVZWTzdxaGtaVUR6NVdKS1MwclJQbE3SAaQBQVVfeXFMTk5TbFVNOHJxdmVOV3pGVDhISkdGV05YZXAtUHJOSVNiWXdJdTUzQW5zQnFjLUEtdW1vaEdMY2xZeTNsUU1MWUhkWk5PNlQ3RVJ2WF92VEFsLVV3M1dwUGF2TXBfQ0VyUEZRYUsybHY3ZmVEY1hGUkowd0h3Z0VlZlhfNlBwV3ZxVW1xdXRIdWU3WVA5eXdRTTFxTHhrWFlBVm5FNEs?oc=5",
+              "url": "https://biz.chosun.com/industry/business-venture/2026/11/03/7P7MTG36XVEPHHOVO35O7VSSNI/"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "“유망 소공인 120곳 한자리에”…중기부, 성수동서 '디깅위크' 개최",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZS1lb1JHcXo4WW5ZOVBWRDFmZm1aRF9VSV90Uy14Nm1XYU41Vl85bmZSX2taM2k1dklDQ05aMURkZFN5WmtiR2h2Z3FHYTUzMy1hYTRuUlpWOFF4UkcwYWdsUnY?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/news/2024/05/30/1717058924.png",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611020253"
+            },
+            {
+              "name": "매일일보",
+              "title": "성수동서 '소공인 디깅위크' 개최…유망 소공인 12곳 선발",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VYm4zOUZBWG1LWjFjalBHNEdNbGpEbDVvM1ZoY2h1aVE5clJxVzJvOTBra0JpU0hFQzd4emxkSndZNmU1MTZXenJLQ3dySGQ5dzRtZ2VjN1NVbmFhOTNwX29DczI?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2013453_2013780_622.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2013453"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "중기부, 성수동서 ‘2026 소공인 디깅위크’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YMnpIMlN5RTNwNjNydVJ1M0Y2cGR0dEJja0hfcjdTREJ3NFMwazMzMktPSmZzdzRzd0ZwZlY4NWE1YXlQS3BiamFPbFBnSVBRbVh6d3lKZk92c2FuVHVvLWNCM0pZR2VEM3dWMw?oc=5",
+              "image": "https://img.asiatoday.co.kr/file/2026y/11m/03d/2026110301000159900008001.jpg",
+              "url": "http://www.asiatoday.co.kr/kn/view.php?key=20261103010000800"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "경산, ‘2026 K-뷰티 페스타’ 개최",
+          "summary": "",
+          "source": "서울일보",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QUHRWMWVESlJkWUtETHFxQ2hGb3FON2FDZTEyRW9yc0YyaVJZOHRGUXRReFc5SGw2NEZUN0VyMldnQkx6bUg0Tjlkd0N0QlA1bFR4eFQ2VHUtVFBUZmVXNEd1LWFxR2VXM1J5ONIBb0FVX3lxTE4wX3BSdWhPaFl4VTNOWHp6LWFua3R3d1ZLaDYwdWlhUWNSMEFZRTM0TTBvajIzSnplMmZnb1UyTXp0c2I0cHZZVDdPenB6M2ozOWt1aU9UbnNKTnVWSF9DaXJubFdCZkJGSmU1YmJCRQ?oc=5",
+          "original_title": "경산, ‘2026 K-뷰티 페스타’ 개최",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "서울일보",
+              "title": "경산, ‘2026 K-뷰티 페스타’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QUHRWMWVESlJkWUtETHFxQ2hGb3FON2FDZTEyRW9yc0YyaVJZOHRGUXRReFc5SGw2NEZUN0VyMldnQkx6bUg0Tjlkd0N0QlA1bFR4eFQ2VHUtVFBUZmVXNEd1LWFxR2VXM1J5ONIBb0FVX3lxTE4wX3BSdWhPaFl4VTNOWHp6LWFua3R3d1ZLaDYwdWlhUWNSMEFZRTM0TTBvajIzSnplMmZnb1UyTXp0c2I0cHZZVDdPenB6M2ozOWt1aU9UbnNKTnVWSF9DaXJubFdCZkJGSmU1YmJCRQ?oc=5",
+              "image": "https://cdn.seoulilbo.com/news/thumbnail/202611/862363_616876_1248_v150.jpg",
+              "url": "https://www.seoulilbo.com/news/articleView.html?idxno=862363"
+            },
+            {
+              "name": "대구신문",
+              "title": "‘경산 K-뷰티 페스타’ 성황리 열려",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TOF9PRXZ0RVV3a3F6NGRaWXBZVGRraXlTOVJ1c1lMNGNtWDF0bWZmWVQxM25vZ0JjMS0yQ0NGcmFydVF3ZkJsY3ZrNWpFbk9LV1AwcEJheUFPUWU5QlI2MWV2cjFha2JIakpz?oc=5",
+              "image": "https://cdn.idaegu.co.kr/news/photo/202611/564086_259518_284.jpg",
+              "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=564086"
+            },
+            {
+              "name": "신아일보",
+              "title": "경산시, '2026 K-뷰티 페스타' 개최…지역 화장품 기업 22곳 제품 선보여",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ra3FXQVp2VU1vQzdhZVRWaFl0YWJhd0dFRjczaHdhVnM5YnhqZlY0cVhnb1g0OFlyWHNiMk5jelMtdTZSdXJsaWpaRUpFZmE2b2ZLN0pCVjd2OTRoWmZ0Z19CZmpkalVvOFVtSGgyeDU?oc=5",
+              "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5079147_2076628_2638.jpg",
+              "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5079147"
+            },
+            {
+              "name": "웹이코노미",
+              "title": "경산 K-뷰티페스타, 지역 화장품 산업 성과 한자리에",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GeXdmYXVPTHB2RUtVcXZZMFpZM2xlUjFlN183ajBjSVgxbUxpcGtKcGlwRWFKV0xtWDJhR2lYSzlGN2VDTnkyQXdSNEFSVXJZSnFUbHZCZ2paRFUwaW9iQTZxQU9LMXVnR2FMQnVoeldkQQ?oc=5",
+              "image": "https://cdn.webeconomy.co.kr/news/photo/202611/2359178_1169622_2412.jpg",
+              "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2359178"
+            },
+            {
+              "name": "오늘경제",
+              "title": "경산 화장품 기업 22곳 제품 한자리에…K-뷰티 페스타서 판매·체험",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jQndVZjc4UDFNdDV0RmFOMmMweU03ZkF0WmtLUUF2T0I5MjJaX0RHLXJ0dzdaYTJ2aUI5ejJ6OHZfaG9zemtOVHZYaEk5YW5fekpBUm1JNFAydmFlcUZvYUhpVktuOG1fcEFaQjVGWHBTdG8?oc=5",
+              "image": "https://cdn.startuptoday.co.kr/news/photo/202611/817953_616923_376.jpg",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=817953"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "코로나19 백신과 암 위험",
+          "summary": "국내 연구팀이 3,600만 명의 데이터를 분석한 결과, 코로나19 백신과 암 발생 사이에 명확한 연관이 없음을 시사했다.",
+          "source": "하이닥",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zNzVSb084N0JRcVpYMkFjb3RuVkI3eHVYa09sa3I2cTBaZ2NfS24yS080bU9nX3FKbEFlTmhKYklkTjh2dV9YNzFrMWJ1R0t2SkUzTm5DbkR3ZmNBOWhiVnlndlByaGJwX1E?oc=5",
+          "original_title": "“코로나19 백신, 정말 암을 유발할까?”… 국내 연구팀, 3,600만 명 분석해 보니",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "하이닥",
+              "title": "“코로나19 백신, 정말 암을 유발할까?”… 국내 연구팀, 3,600만 명 분석해 보니",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zNzVSb084N0JRcVpYMkFjb3RuVkI3eHVYa09sa3I2cTBaZ2NfS24yS080bU9nX3FKbEFlTmhKYklkTjh2dV9YNzFrMWJ1R0t2SkUzTm5DbkR3ZmNBOWhiVnlndlByaGJwX1E?oc=5",
+              "image": "https://cdn.news.hidoc.co.kr/news/thumbnail/202611/69569_93693_454_v150.jpg",
+              "url": "https://news.hidoc.co.kr/news/articleView.html?idxno=69569"
+            }
+          ]
+        },
+        {
+          "headline": "장내 미생물과 파킨슨병 연계",
+          "summary": "새로운 연구에서 장내 미생물이 파킨슨병 발병 메커니즘에 관여함을 제시했다.",
+          "source": "메디칼업저버",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93VGg3ZEdaUnRLdlE5Y0h2dnBabm1QRE1uR1pvYWJaU1VXbVBfYjktTGZJczRheVQwUUlaVVduWVNtOGE1WEZTSWxIcEl1OXRRT0dRaldrZjA2bGxMNDk0dzRjVnN3S1dEcmEw?oc=5",
+          "original_title": "장내 미생물과 파킨슨병 연결 새 기전 제시",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "메디칼업저버",
+              "title": "장내 미생물과 파킨슨병 연결 새 기전 제시",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93VGg3ZEdaUnRLdlE5Y0h2dnBabm1QRE1uR1pvYWJaU1VXbVBfYjktTGZJczRheVQwUUlaVVduWVNtOGE1WEZTSWxIcEl1OXRRT0dRaldrZjA2bGxMNDk0dzRjVnN3S1dEcmEw?oc=5",
+              "image": "https://cdn.monews.co.kr/news/photo/202611/415103_218992_231.png",
+              "url": "https://www.monews.co.kr/news/articleView.html?idxno=415103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "한동훈, 이재명 대통령 루이 14세 흉내 시도 비판",
+          "summary": "한동훈 의원은 30일 국회에서 민주당이 추진 중인 조작기소 특검법 본회의 상정에 대해 이재명 대통령이 2026년 루이 14세를 흉내 내고 있다고 비판했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611040915001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "한동훈, 민주당 조작기소 특검 추진에 “이 대통령, 루이 14세 흉내”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "한동훈, 민주당 조작기소 특검 추진에 “이 대통령, 루이 14세 흉내”",
+              "link": "https://www.khan.co.kr/article/202611040915001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/04/news-p.v1.20261104.fa188812824c41e28758bef13185721a_P1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "정점식 \"5일 본회의에 조작기소특검법안 상정시 모든 법안 필버\"",
+              "link": "https://www.yna.co.kr/view/AKR20261103168500001",
+              "image": "https://img0.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110301710001300_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "민주당, 모레 '조작기소 특검법안' 처리 추진…조희대 국조는 추가 의견 수렴",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008828877",
+              "image": "https://img.sbs.co.kr/newimg/news/20261103/202237524_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "이재명 대통령, 터키와 원전·방산 협력 확대 합의",
+          "summary": "이재명 대통령은 3일 청와대에서 터키 대통령 에르도안과 회담을 열며 원전·방산 분야 협력을 확대하겠다고 합의했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611032135005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "한·튀르키예 “원전·방산 등 전략 분야 협력 내실화”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "한·튀르키예 “원전·방산 등 전략 분야 협력 내실화”",
+              "link": "https://www.khan.co.kr/article/202611032135005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/03/l_2026110401000117000011181.jpg"
+            },
+            {
+              "name": "대한민국 정책브리핑",
+              "title": "이 대통령 \"한·튀르키예 전략적 동반자 관계 심화…원전·방산 협력 확대\"",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jekYxRTlnTk4zWHJsdXctLVdaMUJ4eU1IeXJ6c0NIYlgzNVF5THZCWW5iUWNfbWVEOEprSFYxbEppVEtwZkNtc3o3TWdXSUY3YjEyRnNsRVktY0gtVE00eU1yMldRWlFLb2FyYg?oc=5",
+              "image": "https://www.korea.kr/newsWeb/resources/attaches/2026.11/03/3ba540c771f5a7b41fc3dc0a94b1c525.jpg",
+              "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974930"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령 \"한국전쟁 참전 튀르키예, '피 나눈 형제'…원전·방산 협력 강화\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829031",
+              "image": "https://img.sbs.co.kr/newimg/news/20261103/202237551_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령 \"튀르키예, 피를 나눈 형제…원전·방산 협력 심화\"",
+              "link": "https://www.yna.co.kr/view/AKR20261103143800001",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/03/PYH2026110321490001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "러시아, 우크라이나 구호센터 폭탄 투하",
+          "summary": "러시아군이 우크라이나 자포리자 지역 구호센터로 사용된 학교 건물에 9발 폭탄을 투하해 33명이 사망하고 50명이 실종이 발생했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261104_0003853602",
+          "original_title": "러, 우크라 구호센터에 폭탄 9발 투하…33명 사망·50명 실종",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "러, 우크라 구호센터에 폭탄 9발 투하…33명 사망·50명 실종",
+              "link": "https://www.newsis.com/view/NISX20261104_0003853602",
+              "image": "https://img1.newsis.com/2026/11/03/NISI20261103_0001717664_web.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "러, 우크라 구호센터에 3t 폭탄 9발 투하... 최소 33명 사망",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPejB1RjA4SVpzWkJzaERIQVpyZHlzQ1FlQ3l0VVlCY2pxVG5LaHM3d2IwNTh6OW9aMElhaXR4aUt0cnNFek83WWdXSldISjI3TnZ6ZUNWXzJQN1hqNW1NN3lGc0hSekh3RXcyX1pIYW5qZjFvS1I4NllVUVNySE03bVFwbkszbVBNSVBiWUtET0V4cHFvNGpNWmFveC1uUQ?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/R2KFYB44M5PQTIYKFVIK2LJ6PM.jpg?auth=cfd008095f44287d3a7b44e1aebd6742bf497e6c68f03538d8921f97550bfe32&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/international/international_general/2026/11/04/VS4X3ZKDGZATTGXA4QRCQHBUHU/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "스마트폰 AP 시장 21% 급감했는데...애플·삼성은 왜 웃었나",
+          "summary": "",
+          "source": "https://www.ppss.kr/",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QYnlyRU8zeUFQamd3dTBVcWJTeGJUeGlzM1k3WFFRMlc0OVN0Q2FXN1lDckNxdjlUUWc5ZDk2SkFtMkY5TTZFbW94STJhM1ZUZjZPdkZZR2hmbTFtNXA5U1o3Rlo?oc=5",
+          "original_title": "스마트폰 AP 시장 21% 급감했는데...애플·삼성은 왜 웃었나",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "ppss.kr",
+              "title": "스마트폰 AP 시장 21% 급감했는데...애플·삼성은 왜 웃었나",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QYnlyRU8zeUFQamd3dTBVcWJTeGJUeGlzM1k3WFFRMlc0OVN0Q2FXN1lDckNxdjlUUWc5ZDk2SkFtMkY5TTZFbW94STJhM1ZUZjZPdkZZR2hmbTFtNXA5U1o3Rlo?oc=5",
+              "image": "https://cdn.ppss.kr/news/photo/202611/318794_141980_2735.jpg",
+              "url": "https://www.ppss.kr/news/articleView.html?idxno=318794"
+            },
+            {
+              "name": "이데일리",
+              "title": "스마트폰 AP 출하 21% 급감…애플·삼성 점유율 상승",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbXhaNkF2dW50ZndaUk9aUDJ3OXpSTnBTc01MTzZwTXBsbzJoRi05dllYNDBDbjRCOHRKYnlnd3IySHh1QXZfV1FYYUs1RTU2OEoxdmZvOEcya0liUFk0MEh0NDM5OElGUG0zUW91bzBaTUNwcnpiSTVvQVlTbFJJTw?oc=5",
+              "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26110301412.jpg",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=05031526645642112&mediaCodeNo=257"
+            },
+            {
+              "name": "M이코노미뉴스",
+              "title": "글로벌 스마트폰 AP 출하량 21% 급감...삼성·애플 점유율은 상승",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iajVvZEZfc1RYREc4dnptSG9SQlhaRVZsZEpsV202QXdqYzFiN0NFb1g2Q0U2T0c1dnBZYzNnYjVkWnVXVzBzdHd6S1poMFJ0QkhUM2ZXM3RSRnFhYUpDZFMxT2ZwVFk?oc=5",
+              "image": "https://www.m-economynews.com/data/photos/20261145/art_17936874727523_7b992a.jpg",
+              "url": "https://www.m-economynews.com/news/article.html?no=72528"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "스마트폰 AP 출하량 21% 급감… 애플·삼성 점유율은 상승",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWmwtcTJMVnJwZTJBWV91QjUzSmRzNGVtejI5SnFubDZHVGxhRFNob01qanhSbGdXUzdRS0N3SFRJUjNLY3pZLUllTHJVc21iVTE3ajlLSHZncTdTWkt5Ni0tbUE2TUVHNC0wTWhpc0Jnbm1rNEFKeFVYczY5Yy1NbUNzT2RvTzlfM0hIM3pXdklKV3BFc2fSAZYBQVVfeXFMTlpsLXEyTFZycGUyQVlfdUI1M0pkczRlbXoyOUpxbmw2R1RsYURTaG9Namp4UmxnV1M3UUtDd0hUSVIzS2N6WS1JZUxyVXNtYlUxN2o5S0h2Z3E3U1pLeTYtLW1BNk1FRzQtME1oaXNCZ25tazRBSnhVWHM2OWMtTW1Dc09kb085XzNISDN6V3ZJSldwRXNn?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/BLM24U3A5FBQRPG6H6ZD6S77DU.webp?auth=8c63c642600abea5cde1cdedc18ac408cbad83c960c7098a6e3c73d180541fc3&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/it-science/ict/2026/11/03/EAADNIS4BVCBHDSEE5ZUPVK45M/?outputType=amp"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "3분기 스마트폰 AP 출하량 1년 새 21% 급감…애플·삼성은 점유율 올랐다",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcUR4dG1wRHNjdjM2cmZyU21yM0hvc1MyT3dRSDlSZHZRSjRSb04tU3JwVWJrcFBoajltWjhXTEY4R1Z6V0JQUXlWWUFnTkw3TEp4N0h2b0Jyc0hqMmc0U2V4bW1yNTV0ZUlHX3BlYzdUUXc0VUNsU2xlbkJlTm1jZ2w5Rm5Tdw?oc=5",
+              "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110315004102761139bf6e4b2115951676.jpg",
+              "url": "https://www.g-enews.com/article/Industry/2026/11/202611031459299130139bf6e4b2_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "'호프' 또 역사 만들었다..프랑스 개봉 첫날 올해 韓영화 최고 오프닝 기록",
+          "summary": "",
+          "source": "스포츠조선",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ2R1QS12U1dmR0RKZ0p2QnpKOGdtOUJ1d1F1c043TlpWRFBjSVAwQTZTYlN2ckpLWEhNem0zbXd4WTc4ZUhSU1F1am1idWhSMGRfbkhycEZXOE9aendHSnY5MmhtTEk4Vlg0MVFoc2pZYVlOUDc2LXNDdk1uU0xDOW5pN24?oc=5",
+          "original_title": "'호프' 또 역사 만들었다..프랑스 개봉 첫날 올해 韓영화 최고 오프닝 기록",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "스포츠조선",
+              "title": "'호프' 또 역사 만들었다..프랑스 개봉 첫날 올해 韓영화 최고 오프닝 기록",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ2R1QS12U1dmR0RKZ0p2QnpKOGdtOUJ1d1F1c043TlpWRFBjSVAwQTZTYlN2ckpLWEhNem0zbXd4WTc4ZUhSU1F1am1idWhSMGRfbkhycEZXOE9aendHSnY5MmhtTEk4Vlg0MVFoc2pZYVlOUDc2LXNDdk1uU0xDOW5pN24?oc=5",
+              "image": "https://www.sportschosun.com/article/html/2026/11/04/2026110401000267700025831_w.jpg",
+              "url": "https://www.sportschosun.com/entertainment/2026-11-04/202611040100026770002583"
+            },
+            {
+              "name": "일간스포츠",
+              "title": "나홍진 ‘호프’, 프랑스서 통했다…개봉 첫날 韓영화 최고 오프닝 기록",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jUzVhVW4wNlgxU3czUDFsOFlTa0FaZlNTbE9ZWFRpb2tlTGVDeWJJMEVNeGdOZ1l4UXd3U2lyT3pCOVBYZTdIZEFmYVduSFhZS0pPU00wbHJNdU0?oc=5",
+              "image": "https://isplus.com/data/isp/image/2026/08/31/isp20260831000202.800x.0.jpg",
+              "url": "https://isplus.com/article/view/isp202611040036"
+            },
+            {
+              "name": "스포츠서울",
+              "title": "‘호프’, 프랑스 현지 홀렸다…올해 韓 영화 중 최고 오프닝 스코어",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1eHQ0eGltNVNNbGdaQVNQSzZTaUZOOXd4dUZpR3JQVVFkVm1XUFNCdjNhZlpWNjdlS0sxVksxY0FWeE40TDV5ZEp3WUNQNDhxZTBzaVRmOGc?oc=5",
+              "image": "https://file.sportsseoul.com/news/cms/2026/11/04/news-p.v1.20261104.d1535a32f26d4a56a972375d2d800527_T1.png",
+              "url": "https://www.sportsseoul.com/news/read/1646727"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "‘호프’, 프랑스 개봉 첫날 올해 韓영화 오프닝 1위…파리 박스오피스 2위",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mYWZzeS14T1ZWUTRsQUk5blZTemhFUzk0aFdiaThXNUQ0b3NKYVRNSXIzOVB6bVFzYmtMY0JQY3NjUmdreXlNSlJTUlQzLW95MWladWkzRFJjdUR0Ry1nRHdxNC02VWVoZ3F3cUVn?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/04/134962257.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261104/134962256/1"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "나홍진 ‘호프’, 프랑스 개봉 '오프닝 성적' 올해 한국영화 중 최고",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oQ21QaG9JNEphMlhwYnBqbEpHWjFOVk5BWFVycTdHREN5Vl9JZEFudWxUWERnYXNiSEV1YXBSZkdySE9QdGEtTGJ1S3BESGdDRDc5Nkd5WWdrNGU1UHZlNlREQnFmQQ?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202611/778821_1190076_536_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=778821"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "바이에른 뮌헨, 아틀레티코 마드리드에 2-0 완승",
+          "summary": "바이에른 뮌헨이 아틀레티코 마드리드와의 경기에서 2-0 승리했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829466",
+          "original_title": "김민재의 뮌헨, 이강인의 아틀레티코와 UCL 대결 2대 0 완승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김민재의 뮌헨, 이강인의 아틀레티코와 UCL 대결 2대 0 완승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829466",
+              "image": "https://img.sbs.co.kr/newimg/news/20261104/202237748_1280.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "이강인의 아틀레티코, 김민재의 뮌헨과 유럽 챔스 대결 완패",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fRHUzWVFTY0N5WDNOeFlYNV9QeXBTWDZyUk1GODAxLWMxemg2QzItenY4dTFOQ1pBREtFRlFvdG9MNmx5MDhNNVJ0QnZ5V25xWTZTTmNTTnAtMk50VVE?oc=5",
+              "url": "https://www.ytn.co.kr/_ln/0107_202611040734580315"
+            },
+            {
+              "name": "뉴시스",
+              "title": "김민재의 뮌헨, UCL서 이강인의 아틀레티코에 2-0 완승(종합)",
+              "link": "https://www.newsis.com/view/NISX20261104_0003853633",
+              "image": "https://img1.newsis.com/2026/11/04/NISI20261104_0001719280_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "이강인의 아틀레티코, 김민재의 뮌헨과 UCL 대결 0-2 완패",
+              "link": "https://www.yna.co.kr/view/AKR20261104012800007",
+              "image": "https://img8.yna.co.kr/photo/etc/epa/2026/11/04/PEP20261104119301009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "엄지손가락부터 자기 딸까지? 스타들의 상상 초월 할로윈 룩 10",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 17,
+      "t_min": 7,
+      "rain_pct": 0,
+      "sky": "흐림",
+      "display": "서울 7~17°C · 흐림 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "엄지손가락부터 자기 딸까지? 스타들의 상상 초월 할로윈 룩 10",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1912510",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/11/03/4434f3a3-4c15-4e5b-a402-742800996623.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "군자는 어울리되 같아지지 않는다.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 시작, 아이디어가 번쩍"
+      },
+      {
+        "animal": "소",
+        "text": "마음의 평온이 가득, 웃음이 흐른다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "용기와 활력이 넘쳐, 도전이 기다린다"
+      },
+      {
+        "animal": "토끼",
+        "text": "순수함이 빛나, 작은 기쁨이 쌓인다"
+      },
+      {
+        "animal": "용",
+        "text": "열정이 끓어오르고, 창의력이 폭발"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜가 도약, 단단한 결단을 내린다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 길을 걷고, 스텝이 가벼워진다"
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 마음이 전파, 소통이 활발해진다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "재치가 빛나, 웃음이 퍼져나간다"
+      },
+      {
+        "animal": "닭",
+        "text": "열심히 준비, 성공이 부른다"
+      },
+      {
+        "animal": "개",
+        "text": "충성심이 빛나, 주변이 따뜻해진다"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍요가 흐르고, 마음이 편안해진다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
