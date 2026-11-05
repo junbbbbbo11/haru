@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-05",
+  "weekday": "목요일",
+  "vol": 24,
+  "generated_at": "2026-11-05T09:49:23+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5536.54,
+      "change": -112.25,
+      "change_pct": -1.99,
+      "direction": "down",
+      "display": "5,536.54",
+      "change_display": "▼ 1.99%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1338.6,
+      "change": -4.3,
+      "change_pct": -0.32,
+      "direction": "down",
+      "display": "1,338.6원",
+      "change_display": "▼ 0.32%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 108734000.0,
+      "change": 407000.0,
+      "change_pct": 0.38,
+      "direction": "up",
+      "display": "10,873만원",
+      "change_display": "▲ 0.38%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 16,
+    "t_min": 9,
+    "rain_pct": 57,
+    "sky": "이슬비",
+    "display": "서울 9~16°C · 이슬비 · 강수 57%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "가을야구",
+      "headline": "KIA 타이거즈 가을야구 결산 공개",
+      "summary": "이범호 감독이 투혼으로 가을야구를 지탱하며 결산을 발표했다.",
+      "source": "남도일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96QXFqLXBQNGxYN285V1Bpa0Zscl9TZ1VQUXB0THBGc2NqeUZJUFF2cXJwaEpBWEtUNFAzTjJXSTlkbFQwT3UwbzUzRmRYX1l1aXlGb050Y1Z5aWVoOVBIVjJiY3dqcEVVSFI4QUhueEnSAXBBVV95cUxPekFxai1wUDRsWDdvOVdQaWtGbHJfU2dVUFFwdExwRnNjanlGSVBRdnFycGhKQVhLVDRQM04yV0k5ZGxUME91MG81M0ZkWF9ZdWl5Rm9OdGNWeWllaDlQSFYyYmN3anBFVUhSOEFIbnhJ?oc=5",
+      "original_title": "[이슈포커스][KIA 타이거즈 결산](하) 투혼의 가을-이범호의 관리 야구, KIA 가을야구를 지탱했다",
+      "sources": [
+        {
+          "name": "남도일보",
+          "title": "[이슈포커스][KIA 타이거즈 결산](하) 투혼의 가을-이범호의 관리 야구, KIA 가을야구를 지탱했다",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96QXFqLXBQNGxYN285V1Bpa0Zscl9TZ1VQUXB0THBGc2NqeUZJUFF2cXJwaEpBWEtUNFAzTjJXSTlkbFQwT3UwbzUzRmRYX1l1aXlGb050Y1Z5aWVoOVBIVjJiY3dqcEVVSFI4QUhueEnSAXBBVV95cUxPekFxai1wUDRsWDdvOVdQaWtGbHJfU2dVUFFwdExwRnNjanlGSVBRdnFycGhKQVhLVDRQM04yV0k5ZGxUME91MG81M0ZkWF9ZdWl5Rm9OdGNWeWllaDlQSFYyYmN3anBFVUhSOEFIbnhJ?oc=5",
+          "image": "https://cdn.namdonews.com/news/photo/202611/928193_634839_2628.jpg",
+          "url": "https://www.namdonews.com/news/articleViewAmp.html?idxno=928193"
+        }
+      ]
+    },
+    {
+      "kicker": "이혼소송",
+      "headline": "장모 퇴직금으로 6억 아파트 가액 급등",
+      "summary": "이혼 소송에서 장모 퇴직금이 집값 상승을 야기하고 남편이 분할을 요구했다.",
+      "source": "뉴스1",
+      "link": "https://www.news1.kr/society/general-society/6342295",
+      "original_title": "장모 퇴직금 보태서 산 6억 집, 18억 되자…이혼 소송 남편 \"'옛 공시가'로 나누자\"",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "title": "장모 퇴직금 보태서 산 6억 집, 18억 되자…이혼 소송 남편 \"'옛 공시가'로 나누자\"",
+          "link": "https://www.news1.kr/society/general-society/6342295"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "title": "장모 퇴직금으로 계약한 아파트 6억→18억…이혼 소송 남편 \"3년 전 가격으로 반반하자\" [이런 法]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81OGpmUk5fZXNPZlRIbk9oVzl1SjVVb0VqZ1NVVzN6MktBOUlvZ05NT1J4QVowaUk3SEppV3ZndmRYVUUwZEQ0Rnc5NGd6b1daQV9jMkNFYUtvUQ?oc=5",
+          "image": "https://image.fnnews.com/resource/media/image/2026/06/15/202606151020445939_e.jpg",
+          "url": "https://www.fnnews.com/news/202611041004332418"
+        }
+      ]
+    },
+    {
+      "kicker": "노사협의",
+      "headline": "HD현대중공업 하청노조와 첫 상견례 진행",
+      "summary": "노란봉투법 시행 8개월 만에 하청노조와 상견례가 열린다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261104165700057",
+      "original_title": "HD현대중공업, 하청노조와 첫 상견례…노란봉투법 시행 8개월만",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "HD현대중공업, 하청노조와 첫 상견례…노란봉투법 시행 8개월만",
+          "link": "https://www.yna.co.kr/view/AKR20261104165700057",
+          "image": "https://img9.yna.co.kr/photo/cms/2023/09/05/81/PCM20230905000081003_P4.jpg"
+        },
+        {
+          "name": "해사신문",
+          "title": "HD현대중공업, 하청노조와 20년 만에 첫 단체교섭…노란봉투법 시행 후 첫발",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91RUk3MnZUOUFualRpVnZ5NHpiMVl5Zy0tSzVJbHR0Q2hkU2lwZG5mQkRnNC1XdnBvT2lpd1BndGg4Ykg5V1J1YS1CWXphWmdLeW9hUm1PVjVUOTdPQXJzRnlyR2tZU0NYWU53?oc=5",
+          "url": "http://www.haesanews.com/news/articleView.html?idxno=152485"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "9월 한국 경상흑자 600억 달러 돌파",
+          "summary": "9월 한국 경상수지는 614억 6000만 달러 흑자이며, 반도체 수출이 전년 대비 3.6배 증가해 1000억 달러를 초과한 상품수출이 크게 기여했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261105/134969252/1",
+          "original_title": "9월 경상흑자 사상 첫 600억 달러 돌파…반도체 수출 3.6배 급증",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "9월 경상흑자 사상 첫 600억 달러 돌파…반도체 수출 3.6배 급증",
+              "link": "https://www.donga.com/news/Economy/article/all/20261105/134969252/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/05/134969253.1.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "9월 경상수지 사상 첫 600억 달러 돌파…“반도체 수출 증가”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54dmp5NEZkRXdQdldTVVllcUlOdHdsYWlwRWRZc01pa1V1dlNIeVhsRHdyX1ROSkZrZGNLeE1WY1dPR3Y2SDVXS095djJ4ZV9hZ29wbEhQSkM2MzA?oc=5",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8704536"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "9월 경상흑자 600억달러 사상 첫 돌파…반도체 수출 260%↑",
+              "link": "https://www.yna.co.kr/view/AKR20261105019900002",
+              "image": "https://img0.yna.co.kr/photo/yna/YH/2026/11/01/PYH2026110105370005100_P4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 반도체 수출 폭증에 경상흑자 첫 600억달러 돌파…사상 최대",
+              "link": "https://www.mk.co.kr/news/economy/12197693",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/05/news-p.v1.20261105.9098639d417e4707949642a892b15d59_R.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "미국 중간선거 후 뉴욕증시 다우 3.03% 급등",
+          "summary": "미국 중간선거에서 민주당이 압승을 기록하면서 정치적 불확실성이 줄어들고 국제유가가 급락해 뉴욕증시의 다우존스30산업평균지수는 3.03% 상승했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261105_0003855407",
+          "original_title": "뉴욕증시, 美중간선거 민주당 압승에 상승 마감…다우 3.03% 급등",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "뉴욕증시, 美중간선거 민주당 압승에 상승 마감…다우 3.03% 급등",
+              "link": "https://www.newsis.com/view/NISX20261105_0003855407",
+              "image": "https://img1.newsis.com/2026/06/09/NISI20260609_0002156308_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "뉴욕증시, 중간선거 블루웨이브에 상승 출발",
+              "link": "https://www.yna.co.kr/view/AKR20261105000500009",
+              "image": "https://img7.yna.co.kr/photo/reuters/2026/11/03/PRU20261103009501009_P4.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "[외환] 美 중간선거 '블루웨이브' 기대에 1,330원대로…2.30원↓",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxRkhjUVRYR2tfSjI0QWhCcEhaYzBhUy1qNkZtRVdKYmxVSEduckFCdmpIOEdJTlg3ODF1d2I3U0lVYWZ4bng3S0x5LXpRNVlYUkFvSlk2MzNVbkoxaGJUbVllMmRxdUFSYlJMeXFlaTbSAXRBVV95cUxNeHJpU2NXcW5OTU82N0JSODl5SjF0OE8zRHNaS3ZaU1N0bjRXeHUycERsUjU1dnc2TkZPaVV3YkFXNmJsbllMN1lYYzY5MElhLWg1Uk5NejF5Y0hiSjNMekk5a2tVX2VsWDU5RVFKUUxlV1BXZw?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4442979_354339_322_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442979"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "광주신세계, 보라색 포도코어 트렌드 주도",
+          "summary": "광주신세계가 포도코어·신백코어 컬렉션을 선보이며 보라색이 올가을 패션 트렌드의 주된 색상으로 떠올랐다.",
+          "source": "남도일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abTAwR3JSRUlVcEJYTzVoUW92YS03SDAtUE8tQjROSUNiYzdRSEJEZm9hQ3JJM1Q2TlVVWUJLRndLRXg2MFlxV0hkcG1paFcxMXkxeTlRUVl1cktVRnQ1STc3R24xeFFLd3pkY0l4T2jSAXBBVV95cUxNWm0wMEdyUkVJVXBCWE81aFFvdmEtN0gwLVBPLUI0TklDYmM3UUhCRGZvYUNySTNUNk5VVVlCS0Z3S0V4NjBZcVdIZHBtaWhXMTF5MXk5UVFZdXJLVUZ0NUk3N0duMXhRS3d6ZGNJeE9o?oc=5",
+          "original_title": "올가을 패션은 보라색…광주신세계, ‘포도코어’ 트렌드 눈길",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "남도일보",
+              "title": "올가을 패션은 보라색…광주신세계, ‘포도코어’ 트렌드 눈길",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abTAwR3JSRUlVcEJYTzVoUW92YS03SDAtUE8tQjROSUNiYzdRSEJEZm9hQ3JJM1Q2TlVVWUJLRndLRXg2MFlxV0hkcG1paFcxMXkxeTlRUVl1cktVRnQ1STc3R24xeFFLd3pkY0l4T2jSAXBBVV95cUxNWm0wMEdyUkVJVXBCWE81aFFvdmEtN0gwLVBPLUI0TklDYmM3UUhCRGZvYUNySTNUNk5VVVlCS0Z3S0V4NjBZcVdIZHBtaWhXMTF5MXk5UVFZdXJLVUZ0NUk3N0duMXhRS3d6ZGNJeE9o?oc=5",
+              "image": "https://cdn.namdonews.com/news/photo/202611/928182_634828_344.jpg",
+              "url": "https://www.namdonews.com/news/articleViewAmp.html?idxno=928182"
+            },
+            {
+              "name": "데일리한국",
+              "title": "광주신세계, ‘포도코어·신백코어’ 패션 트렌드 유행 이끈다",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tY2ZtUkVFTjF3NjVaTkN4cXFRMlRRUWZJaWE5alRwejQtTTJXbVowQ2hwWExQMWpLOV9qd0JXRWxKNzBJSzNpNnB0VG5Ed29fNnd5dDZVbEh4bkZ4VFFQUTJ6VkZfUWVSaXlYaDZTWdIBc0FVX3lxTFBINkx6VWc4TXc4SXpDc0c5MV81dEhDX1Y0ZjJhYTRqQVJ6bWlGeTU4MG5Gd0xUZWY0RXJHVk5vOGdjOGpORlhpSDNJQVMtSnVhRkN1TU1PUm5XcmN3aS1oYVVZSkRwT05fYnh1LXdBZV9JZTA?oc=5",
+              "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1421660_1600322_1327_v150.jpg",
+              "url": "https://daily.hankooki.com/news/articleView.html?idxno=1421660"
+            },
+            {
+              "name": "아시아경제",
+              "title": "올가을 패션은 '보라색'…광주신세계, 포도코어 상품 선보여",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONE5FenJQTE5PaGwzZ1NrR0s1SXJYQWx2bjd2UmR4Y2FNQVRQMzJnUnlmbGE4ZkRxOXBsWS1HM2h5ckZzaUtBSXZ5ZElLdV9BeF91RWwxTkdJeTFXbGdJNHByeUFsWTEydDFrcG9pdWVXd2diTmpiNEp5N2Z4N2MyUVlB?oc=5",
+              "url": "https://www.asiae.co.kr/realtime/sokbo_viewNew.htm?idxno=2026110414283704194"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "광주신세계, '포도코어'·'신백코어' 신유행 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QY2VoS2tyclI5b3RGU1dTRVRqRHBvRVNrT0FSOWptVktGVDFIdEpMaGJhSmpqdEM1cWxhWkFYU2JXM0c1MDZFMHRiYk5GQnhleXltbFp4MnNyUQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/11/04/202611041044327686_e.jpg",
+              "url": "https://www.fnnews.com/news/202611041042085002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "더페이스샵, 美얼타 뷰티 온·오프라인 전격 입점",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100380",
+          "original_title": "더페이스샵, 美얼타 뷰티 온·오프라인 전격 입점",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "더페이스샵, 美얼타 뷰티 온·오프라인 전격 입점",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100380",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100380_72286_4133_v150.jpg"
+            },
+            {
+              "name": "뉴스웍스",
+              "title": "쌀뜨물이 美 화장품 매대로…LG생활건강 더페이스샵 '얼타 뷰티' 입점",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPWTQzNXNXY1R4dGhiOFFrSXp4eXVOdkdEWTlDTW5sMUFoTWhUQ3JwSGs4U1NqaWYtOHZIMnN6czZJQ2hlSVp4TGNfWTMzVXZtV0hLS0N6Wi1PRDhsS2hnQ0pYeUNKcDZ0T0VrNzA4RdIBc0FVX3lxTE53X2tyYUF2N0ZaenR0MkhFemZBSnZWY0xJZFZoblYxSkQybmF1aTZuNWNBTGhQVkNZODFjT1N3T1g4c3h3d19pTE1qcmpUbjFYbFQyM21CN2lzN3VfbDFOWk56b25XYVZJaWxFQXVaeGVGNlU?oc=5",
+              "image": "https://cdn.newsworks.co.kr/news/photo/202611/901985_902761_1822.jpg",
+              "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=901985"
+            },
+            {
+              "name": "오늘경제",
+              "title": "더페이스샵, 美얼타 뷰티 온·오프라인 전격 입점…신제품 ‘미감수 레디’로 북미 공략 가속",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uNnBVY3FLUjJYekJjUkFjQVVsblpzS05OUUJ3NGlwMG5CNVgzemwwSXVMZUJkQjNrbTNHdk1XdEhTMFFyT1VNRFc5enJwUHV4NTh6RVRTYlhta1JEeVo3b2xJWTQtclZBZmVfdmFsSXdlTlU?oc=5",
+              "image": "https://cdn.startuptoday.co.kr/news/photo/202611/818137_617099_1616.png",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=818137"
+            },
+            {
+              "name": "더게이트",
+              "title": "“미국 뷰티 매장 500곳에 K-클렌징 깔린다”…LG생활건강 더페이스샵, 얼타 뷰티 입점",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpUlhWSFA4Z2QyNjBqT3gtSTFIMzVIVEg3TW5KRkN5YnVNc0dvanZYcjBRaWVoaVJzeHRHUkM5VzJFNURzeFhuWVU3TkhQMHVERDN6VFpYaWtHRXRaWEtlNFdnTEhCelBs0gFsQVVfeXFMT0dyZlpXRzFrYUhodk1SR2dqOWxWT2gyU015THZqaUhhUWttWWxGTk5PNTJYVDVueUo0Y2Q5dDRCWmZZUk9ldURpVW1xNVh2bDFNY2RFaGFkZkt5VFk4LXhYLWcteTIzMXYtTkFO?oc=5",
+              "image": "https://cdn.spochoo.com/news/thumbnail/202611/131762_263662_1419_v150.jpg",
+              "url": "http://www.spochoo.com/news/articleView.html?idxno=131762"
+            },
+            {
+              "name": "뉴스인사이드",
+              "title": "LG생활건강 더페이스샵, 美 얼타뷰티 500곳 입점…‘미감수’ 북미 확장",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByS3ViMTBNcDM0bnVMdFIySzcwZG9iaGlwc0tTSmZ1R2k0WG1aRFc4Q0J1dDJoQUo5bkQyLU1KeWFBTU51aVFLSjV2TGhBcGN3Xzh1OElyMmlKSHFIazZ2V0k3cjdjZVFYZmpTdk9n?oc=5",
+              "image": "https://cdn.newsinside.kr/news/photo/202611/5040286_942372_4242.jpg",
+              "url": "https://www.newsinside.kr/news/articleView.html?idxno=5040286"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "KAIST, 알츠하이머 단백질 축적 53% 감소",
+          "summary": "KAIST 연구가 알츠하이머 독성 단백질의 뭉침을 억제해 생쥐 뇌에서 단백질 축적을 53% 감소시킨 원리를 규명했다.",
+          "source": "중부매일",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02TjFkZ2ZtMXYybGNqQjdyM1dhcDl2TE13c0xjOVVkYXFfc19MeENEbGIzY2hZYlduNHNCazRnT0pRc1dnajhGVG5lTDBmZFpRUTNkcmVRdU5zRVNDSkY2UWhVdzVQZWY4a3fSAW5BVV95cUxNX3VFOVFxa0JQZkZ5NG10aURCbVExRWxLM2QyeUNHUVVMWmFsZjBleFNfTnc4YnBUTVcya0NCRFJ3WlhVejlUOGxEVS13czZkOThsTjVqWlY4RnplVU4tTTFweGJBOHdDaG5vM1ZEUQ?oc=5",
+          "original_title": "KAIST, 알츠하이머 독성 단백질 뭉침 억제 원리 규명…생쥐 뇌 단백질 축적 53% 감소",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "중부매일",
+              "title": "KAIST, 알츠하이머 독성 단백질 뭉침 억제 원리 규명…생쥐 뇌 단백질 축적 53% 감소",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02TjFkZ2ZtMXYybGNqQjdyM1dhcDl2TE13c0xjOVVkYXFfc19MeENEbGIzY2hZYlduNHNCazRnT0pRc1dnajhGVG5lTDBmZFpRUTNkcmVRdU5zRVNDSkY2UWhVdzVQZWY4a3fSAW5BVV95cUxNX3VFOVFxa0JQZkZ5NG10aURCbVExRWxLM2QyeUNHUVVMWmFsZjBleFNfTnc4YnBUTVcya0NCRFJ3WlhVejlUOGxEVS13czZkOThsTjVqWlY4RnplVU4tTTFweGJBOHdDaG5vM1ZEUQ?oc=5",
+              "image": "https://cdn.jbnews.com/news/thumbnail/202611/1515162_1370450_1511_v150.jpg",
+              "url": "https://www.jbnews.com/news/articleView.html?idxno=1515162"
+            }
+          ]
+        },
+        {
+          "headline": "공복 커피, 몸속에서 일어나는 일",
+          "summary": "아침에 마신 공복 커피가 몸속에서 발생하는 생리적 변화를 보여준다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9vcWxJMlVWNUZ5TV9yZk5lZ3I5MmNpR0ZUejZIZm9nMVlEZEpvZmJldHdkOTIyc1lQajVTV2JnMnBpR0NtczZROFpZS1M5dTZvY1BKc1BwYnrSAVRBVV95cUxOZndaZ2NXRWJFTS1lRElvelM5eTR2T3RQOGhjTW8wYkF4ZkVibHMtekF1S1haYzA3b3VMeVlnOXg4UkpFdTBidW5admFhVjhqeGNJWWc?oc=5",
+          "original_title": "아침에 무심코 마신 공복 커피, 지금 당신의 몸속에서 벌어지고 있는 일",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "세계일보",
+              "title": "아침에 무심코 마신 공복 커피, 지금 당신의 몸속에서 벌어지고 있는 일",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9vcWxJMlVWNUZ5TV9yZk5lZ3I5MmNpR0ZUejZIZm9nMVlEZEpvZmJldHdkOTIyc1lQajVTV2JnMnBpR0NtczZROFpZS1M5dTZvY1BKc1BwYnrSAVRBVV95cUxOZndaZ2NXRWJFTS1lRElvelM5eTR2T3RQOGhjTW8wYkF4ZkVibHMtekF1S1haYzA3b3VMeVlnOXg4UkpFdTBidW5admFhVjhqeGNJWWc?oc=5",
+              "image": "https://www.segye.com/content/image/2026/10/30/20261030506963.jpg",
+              "url": "https://www.segye.com/newsView/20261030506940"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "민주당 본회의서 조작기소 특검법 추진",
+          "summary": "이재명 대통령이 2일 국회에서 2027년도 예산안과 기금운용계획에 대해 시정연설을 한 뒤, 민주당이 조작기소 특검법을 본회의에서 처리 추진을 선언했다이다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831578",
+          "original_title": "민주당, 오늘 본회의서 '조작기소 의혹 특검법' 처리 추진…국힘, 필리버스터 예고",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "민주당, 오늘 본회의서 '조작기소 의혹 특검법' 처리 추진…국힘, 필리버스터 예고",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831578",
+              "image": "https://img.sbs.co.kr/newimg/news/20261105/202238125_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "여당, 오늘 조작기소 특검법 본회의 처리 추진‥야당 필리버스터 예고",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBZl9EeWZLMzZZZk45STZ3aHZuUWxra3pnUTZfc0RFUzVMNnprOVlwZjdWOFZyWVI0Y1draVI0Szc3RGRoUEhuUGVFOWdRSVdPNG1lQ3FCMFJsUy1Wbk4xS3ozNHpLVWM5ZUwwZ3lhdXF6d1A5N3d2NdIBeEFVX3lxTE5GRFVVUXBUN3JqQnQ1aUY3eGYyUDVGTXZkbVFJckZBd1FUbjJkSDJOVC02bnBhd2JaUWlnQV9QMnp6NmZxQVpQMzh5Mm9WVmJxemN0TFlnV2xwVVZMLVpPckpJM24temRIZzlkQzVfZ3BSdnZSUG43Uw?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/05/kds_20261105_15.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6863321_36911.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "與, 오늘 본회의서 조작기소 특검법 처리 추진…국힘 필버 예고",
+              "link": "https://www.yna.co.kr/view/AKR20261104161800001",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/02/PYH2026110212240001300_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "한지, 유네스코 인류무형유산 등재 권고",
+          "summary": "한지 제작 기술이 유네스코 무형유산위원회에서 등재 권고를 받아 최종 등재에 청신호가 켜졌다이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Culture/article/all/20261105/134969351/1",
+          "original_title": "韓 한지 유네스코 인류무형유산 등재 ‘청신호’…北 태권도도 ‘등재 권고’",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "韓 한지 유네스코 인류무형유산 등재 ‘청신호’…北 태권도도 ‘등재 권고’",
+              "link": "https://www.donga.com/news/Culture/article/all/20261105/134969351/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/05/134969672.1.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "’한지’ 인류무형유산 ’등재 권고’…북한 ’태권도’ 단독 등재 눈앞",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ydXBwOWhaQmZxbzdJSWZ4eWtDUDRWMkV3S2hhVjlkaW9EcXczOTUza2VMTElBMkJoSEJqTkVwSTY0elZ4MV9kU09TRW02a1laX1dMQjVxSWt0MWEwTzQ1V2ozWFZJWHM?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261104/AKR20261105075432IEa_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261105075432IEa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "아랍정당, 아이젠코트 차기 총리 후보 지지",
+          "summary": "이스라엘 아랍계 주요 정당이 가디 아이젠코트를 차기 총리 후보로 지지했다. 이는 네타냐후 재집권을 막으려는 야권 연대의 본격화로 해석된다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261105/134969154/1",
+          "original_title": "‘캐스팅보트’ 아랍정당, 아이젠코트 지지…네타냐후 실각하나",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "‘캐스팅보트’ 아랍정당, 아이젠코트 지지…네타냐후 실각하나",
+              "link": "https://www.donga.com/news/Inter/article/all/20261105/134969154/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/05/134969155.1.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "네타냐후 재집권에 빨간불...아랍계 정당, 아이젠코트 지지",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aZmg4MXdhSHNXTVRPUEhQNExRazByeDdtYi1rV3hYeWZZU2pqLU9Jem05Zzk1a0tjdURPSlVUcjV5b0w2TVVKb1U5MERJTlliXzh4dERmb096d0hK?oc=5",
+              "image": "https://img.newspim.com/news/2026/10/30/2610301122185240_902_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261105000259"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "네타냐후 재집권 '먹구름'…아랍계, 야권 지지",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831313",
+              "image": "https://img.sbs.co.kr/newimg/news/20261105/202238050_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'캐스팅보트' 아랍정당, 아이젠코트 지지…네타냐후 실각하나",
+              "link": "https://www.newsis.com/view/NISX20261105_0003855395",
+              "image": "https://img1.newsis.com/2026/07/01/NISI20260701_0001390081_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "재집권 멀어지는 네타냐후…우군 이탈·아랍계는 야권 지지",
+              "link": "https://www.yna.co.kr/view/AKR20261105006500079",
+              "image": "https://img6.yna.co.kr/photo/reuters/2026/10/29/PRU20261029384601009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "카카오, 3분기 영업익 2403억 AI 서비스 확대",
+          "summary": "카카오는 3분기에 영업이익 2403억 원을 기록하고 AI 서비스를 중심으로 성장동력을 확대했다. 주요 사업인 카카오톡 광고·커머스가 견인해 호실적을 거두었다.",
+          "source": "데일리한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GRHU3cGJhV0ZqbUZkbjBTUW1MWTg1d2ppTGxCY2FFQWx4MGRJNnNIY2JySE9IRkhOVlBVSjlRVDYzUGtuZTFLelJRc1Y2akg1YWxuLUdiWXYtc0RyS2kzb1BsLWI3cnAzX1dhOEpzVdIBc0FVX3lxTE5KYWFlZUdJZ2dQclZVOTdlamJJSTJLeGJtaXotbnRGTDhFX2lnOTJCTU0zOTh4TUQtWnN5TmxjckozTjdlaVZySUhaU1NpT3lfWFNOTFM3enhxLU8zMEtZeXVXb1VQVHJGYWpzSkNOaFJ4dmM?oc=5",
+          "original_title": "카카오, 3분기 영업익 2403억…AI 서비스 확대 집중",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "데일리한국",
+              "title": "카카오, 3분기 영업익 2403억…AI 서비스 확대 집중",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GRHU3cGJhV0ZqbUZkbjBTUW1MWTg1d2ppTGxCY2FFQWx4MGRJNnNIY2JySE9IRkhOVlBVSjlRVDYzUGtuZTFLelJRc1Y2akg1YWxuLUdiWXYtc0RyS2kzb1BsLWI3cnAzX1dhOEpzVdIBc0FVX3lxTE5KYWFlZUdJZ2dQclZVOTdlamJJSTJLeGJtaXotbnRGTDhFX2lnOTJCTU0zOTh4TUQtWnN5TmxjckozTjdlaVZySUhaU1NpT3lfWFNOTFM3enhxLU8zMEtZeXVXb1VQVHJGYWpzSkNOaFJ4dmM?oc=5",
+              "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1421941_1600530_424_v150.jpg",
+              "url": "https://daily.hankooki.com/news/articleView.html?idxno=1421941"
+            },
+            {
+              "name": "서울경제",
+              "title": "카카오, 3분기 영업익 7%↑…AI 서비스로 성장동력 확대",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zdzNNam4zVHVGSDNqRFE2bVJIUzUya05tSXVfZnpUZ3pCX2VJbWM3VzhpOGNzSVVKM0tJODBndzg0NVZxcWNqSV85SFFSWWZMZWfSAVNBVV95cUxNbDJpSEZENkQ3bF9uSjJjendWV1hqN3VjaVdyVFhZcm0wd29lT2U4R09VQU9wT2xDQ1k2OElfZzdOVTc4d1VXXzRoNWRsRFNxQ0cwYw?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/11/05/news-p.v1.20261105.a723704c041f412a850c63103456f1a8_Z1.jpeg",
+              "url": "https://www.sedaily.com/article/20110436"
+            },
+            {
+              "name": "매일일보",
+              "title": "카카오, 3분기 영업익 2403억원…톡비즈·커머스가 견인",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FR3g0SUFlUTFkc0ZRejh6b1VrSVUyVFBMc044NkZHQ3BPaGdRLTNSQlJySlNNR2N6b01TNEVXNXpLalNXVTZIbEJmWjdfRmFQMjIwM1NxLU5iSGdmX0RERm5IN1g?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2014649_2015053_2349.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2014649"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "[3Q실적] 카카오, 영업익 2403억원…AI 서비스 확장 '청신호'",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EWExUZURBLVB0bVdOd3JncU9MUHV2VlFIY08xNmhGWjZVd1lVNERkWXBXQ2cyQm5XaVVOV05oaUFaUVBnNVAxR3R5WHNxSW9BV2IyX19xalB3WEhLcG5BdEdxak5nbHNaZDJTSTRjMVJmWm9E?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/thumbnail/202611/284806_377694_1711_v150.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=284806"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "최종면접 개봉 첫날 박스오피스 1위",
+          "summary": "영화 '최종면접'이 개봉 첫날 박스오피스 1위를 차지했다",
+          "source": "미디어펜",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43em1KT1NxOXUxQXJicUlFMWhpQkhlZUJNeVFCRWYtRG16cmNSdDNqYXZMTlVUOTJ1S0ZPY0tYSkl6dVdrak9wRGsyd2FQdzlaZWFrR9IBWEFVX3lxTE12U201eW5BSzBfU3E2MVhUc0piamQ2Z0p1ZFhuNDRVbml0NFRpVmFDanZDY2dfV2JOdENHZDgzQ0VKSXpxdkgzbEFZVHQzQzVlSHpDMEEtZjg?oc=5",
+          "original_title": "영화 '최종면접', 브래드 피트와 日 애니 모두 제쳤다",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "미디어펜",
+              "title": "영화 '최종면접', 브래드 피트와 日 애니 모두 제쳤다",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43em1KT1NxOXUxQXJicUlFMWhpQkhlZUJNeVFCRWYtRG16cmNSdDNqYXZMTlVUOTJ1S0ZPY0tYSkl6dVdrak9wRGsyd2FQdzlaZWFrR9IBWEFVX3lxTE12U201eW5BSzBfU3E2MVhUc0piamQ2Z0p1ZFhuNDRVbml0NFRpVmFDanZDY2dfV2JOdENHZDgzQ0VKSXpxdkgzbEFZVHQzQzVlSHpDMEEtZjg?oc=5",
+              "image": "https://image.mediapen.com/news/202611/news_1135307_1793837112_m.jpg",
+              "url": "https://www.mediapen.com/news/view/1135307"
+            },
+            {
+              "name": "매일경제",
+              "title": "‘최종면접’ 브래드 피트 꺾고 개봉 첫날 1위 [MK박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGLTdwSVFTWjR0R1FiRDl4UnJXUUVVelI0elI5MDdFQUg2N0g1bmx5Qm1KVzB2eGtrcHVEYjFmMEV1RUVqTXBqRUlkbEZFa1RxMGZr?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/05/news-p.v1.20261105.914c9a56126c45aa86d30b22564f3d83_R.jpg",
+              "url": "https://www.mk.co.kr/news/movies/12197890"
+            },
+            {
+              "name": "BNT뉴스",
+              "title": "‘최종면접’ 개봉 첫날 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHNzhIOVpHdWdleHZWUnhqc0hSYXZTTTdvUHNRaGNvdWVYXzkzTVBHb1RiREZHa3NldTVLX1lpdTNJeHVaWmNMSDh1ZllwQmdnQThDOGZLWjZnUHh3cnBkSTRtdmM?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/05/bnt202611050180.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202611050115"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "‘최종면접’, 개봉 첫날 박스오피스 1위…22일 만에 韓영화 정상 탈환",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mcGFJNWNJNVlhdmROX1A4UWZwdXZaMWJ0WTU1RU5pYXd1T2NmSnZwelBWN25QbDZMbWVYd0piWWpnREJ2c3BsVnpDbTQtdW9kZ0pVWWxCWlM3d2huTHo5TERwZ2VUd094ZFNOQ0J3?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/05/134969387.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261105/134969382/1"
+            },
+            {
+              "name": "일간스포츠",
+              "title": "조이현·김재원 ‘최종면접’, 개봉 첫날 박스오피스 1위…‘하트 오브 비스트’ 제쳤다 [IS차트]",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56R25NRFBwVjdhd2dXQ3J0SVF3YXV4R1VoRUdSVFJVRVI0b2RUdmc4bVJLSU9sMXpMMU15QUY4NzBrYklMYWJIWUFvejVBNmZnbUlWVEd6TFFqak5iWVFIUWd3?oc=5",
+              "image": "https://isplus.com/data/isp/image/2026/11/05/isp20261105000028.800x.0.png",
+              "url": "http://isplus.joins.com/article/view/isp202611050019"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "황인범, 교체투입 2분 만에 쐐기 골 도움…포르투는 UCL 첫 승리",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831451",
+          "original_title": "황인범, 교체투입 2분 만에 쐐기 골 도움…포르투는 UCL 첫 승리",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "황인범, 교체투입 2분 만에 쐐기 골 도움…포르투는 UCL 첫 승리",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831451",
+              "image": "https://img.sbs.co.kr/newimg/news/20261105/202238105_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "황인범 교체 2분 만에 코너킥 도움…포르투 챔스 첫 승",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Cd3NCY0ZreGhtOUEyUWhWZlBUbXBORE1XUllLR2htQm5Kb0IwSUpEYWYzaWhpSEt4cnVZbzhKbE1BekF1dGloOXRTak5JYUllVjhiSWJDelE3MnVScDJQazUwcm4?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/600/419/imgdb/original/2026/1105/20261105500395.webp",
+              "url": "https://www.hani.co.kr/arti/sports/soccer/1285869.html"
+            },
+            {
+              "name": "뉴시스",
+              "title": "황인범, 교체투입 2분 만에 도움…포르투는 UCL 첫 승(종합)",
+              "link": "https://www.newsis.com/view/NISX20261105_0003855476",
+              "image": "https://img1.newsis.com/2026/11/05/NISI20261105_0001722753_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "황인범, 교체투입 2분 만에 쐐기 골 도움…포르투는 UCL 첫 승리",
+              "link": "https://www.yna.co.kr/view/AKR20261105018700007",
+              "image": "https://img8.yna.co.kr/photo/reuters/2026/11/05/PRU20261105122001009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "'가을 남자' KT 소형준 vs 'PO MVP' 삼성 후라도, 3차전 선발 격돌[KS]",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261105_0003855598",
+          "original_title": "'가을 남자' KT 소형준 vs 'PO MVP' 삼성 후라도, 3차전 선발 격돌[KS]",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'가을 남자' KT 소형준 vs 'PO MVP' 삼성 후라도, 3차전 선발 격돌[KS]",
+              "link": "https://www.newsis.com/view/NISX20261105_0003855598",
+              "image": "https://img1.newsis.com/2026/10/12/NISI20261012_0021485982_web.jpg"
+            },
+            {
+              "name": "천지일보",
+              "title": "[야구] kt 소형준 vs 삼성 후라도, KS 3차전 격돌",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EVktzck9kZ1FtSFVPVHdWN3BId196Skh4LWpuMUlCX3N4dWREdXF4aXo4Y3ZsZ3MydTVLTE5lLXdINlhUbE9OMnhROUZpc1ZHaXFpdzZBbU5WeFRrLU5GdENaS1c4eVp6YUE?oc=5",
+              "image": "https://cdn.newscj.com/news/thumbnail/202611/3446026_3570704_4344_v150.jpg",
+              "url": "https://www.newscj.com/news/articleView.html?idxno=3446026"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "'가을 불패' 소형준 vs 'PO MVP' 후라도, KS 3차전 격돌",
+              "link": "https://www.yna.co.kr/view/AKR20261104174500007",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/08/25/PYH2026082519930006100_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "올겨울, 코트와 패딩 대신 입기 좋은 아우터 4",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 16,
+      "t_min": 9,
+      "rain_pct": 57,
+      "sky": "이슬비",
+      "display": "서울 9~16°C · 이슬비 · 강수 57%"
+    },
+    "articles": [
+      {
+        "title": "올겨울, 코트와 패딩 대신 입기 좋은 아우터 4",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/11/04/%ec%98%ac%ea%b2%a8%ec%9a%b8-%ec%bd%94%ed%8a%b8%ec%99%80-%ed%8c%a8%eb%94%a9-%eb%8c%80%ec%8b%a0-%ec%9e%85%ea%b8%b0-%ec%a2%8b%ec%9d%80-%ec%95%84%ec%9a%b0%ed%84%b0-4/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6aeaf4c832911-scaled-1920x1080.jpg?x=1707&y=1013&ver=1.1.63",
+        "url": "https://www.vogue.co.kr/2026/11/04/%EC%98%AC%EA%B2%A8%EC%9A%B8-%EC%BD%94%ED%8A%B8%EC%99%80-%ED%8C%A8%EB%94%A9-%EB%8C%80%EC%8B%A0-%EC%9E%85%EA%B8%B0-%EC%A2%8B%EC%9D%80-%EC%95%84%EC%9A%B0%ED%84%B0-4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "잘못하고도 고치지 않는 것, 이것을 잘못이라 한다.",
+    "author": "공자",
+    "work": "논어"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 도착할 시간"
+      },
+      {
+        "animal": "소",
+        "text": "친구와의 대화가 즐거움을 더해"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전적 아이디어가 빛날 기회"
+      },
+      {
+        "animal": "토끼",
+        "text": "새로운 취미가 삶을 풍요롭게"
+      },
+      {
+        "animal": "용",
+        "text": "자신감이 상승해 목표가 명확해"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 인생을 가속화"
+      },
+      {
+        "animal": "말",
+        "text": "새로운 인연이 여행을 동반"
+      },
+      {
+        "animal": "양",
+        "text": "감성적 순간이 마음을 치유"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머가 분위기를 밝게 해"
+      },
+      {
+        "animal": "닭",
+        "text": "새벽의 활력이 하루를 이끈다"
+      },
+      {
+        "animal": "개",
+        "text": "충성심이 인연을 더욱 깊게"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍부한 에너지가 기분을 끌어올린다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
