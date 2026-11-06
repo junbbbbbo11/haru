@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-06",
+  "weekday": "금요일",
+  "vol": 25,
+  "generated_at": "2026-11-06T10:29:29+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4984.44,
+      "change": -699.36,
+      "change_pct": -12.3,
+      "direction": "down",
+      "display": "4,984.44",
+      "change_display": "▼ 12.30%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1356.7,
+      "change": 16.6,
+      "change_pct": 1.24,
+      "direction": "up",
+      "display": "1,356.7원",
+      "change_display": "▲ 1.24%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 103140000.0,
+      "change": -117000.0,
+      "change_pct": -0.11,
+      "direction": "down",
+      "display": "10,314만원",
+      "change_display": "▼ 0.11%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 13,
+    "t_min": 4,
+    "rain_pct": 100,
+    "sky": "이슬비",
+    "display": "서울 4~13°C · 이슬비 · 강수 100%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "주식시장",
+      "headline": "삼성전자 주가 8% 급락",
+      "summary": "코스피 5000선 붕괴와 함께 삼성전자 주가가 8% 급락했다.",
+      "source": "재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE01bHdGQl9WWWhoRHc2QnE2R2RZV2dlM1dudmZzUTFJd0k3TEpBMFJsMWpyTGg5TlMxSEgyNnB4OE1EaFUxZXlBU3lfcw?oc=5",
+      "original_title": "코스피 5000선 붕괴…삼성전자 주가 8% 급락 : 경제",
+      "sources": [
+        {
+          "name": "재경일보",
+          "title": "코스피 5000선 붕괴…삼성전자 주가 8% 급락 : 경제",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE01bHdGQl9WWWhoRHc2QnE2R2RZV2dlM1dudmZzUTFJd0k3TEpBMFJsMWpyTGg5TlMxSEgyNnB4OE1EaFUxZXlBU3lfcw?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/110/54/1105489.jpg?v=1793927925&width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1073998"
+        }
+      ]
+    },
+    {
+      "kicker": "가족",
+      "headline": "장윤정, 연우·하영 자랑에 '광대 승천'",
+      "summary": "연우·하영 남매를 자랑하며 장윤정이 가족에 대한 자부심을 드러냈다.",
+      "source": "스포츠경향",
+      "link": "https://sports.khan.co.kr/article/202611052015013",
+      "original_title": "“벌써 이렇게 컸어” 장윤정, 연우·하영 남매 자랑에 ‘광대 승천’",
+      "sources": [
+        {
+          "name": "스포츠경향",
+          "title": "“벌써 이렇게 컸어” 장윤정, 연우·하영 남매 자랑에 ‘광대 승천’",
+          "link": "https://sports.khan.co.kr/article/202611052015013",
+          "image": "https://images.khan.co.kr/article/2026/11/05/news-p.v1.20261105.610fa27c090b44a88124178d1024c7d1_P1.png"
+        },
+        {
+          "name": "재경일보",
+          "title": "장윤정, 폭풍 성장한 연우·하영 남매 공개…“집에 있을 때 가장 행복”…장윤정, 연우 하영 남매 성장에 흐뭇한 미소",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5lZUxnSDJyWkhCNnhLbjFqc2VlRlV4RUdaaGdxQUphT3VCNXF5S2o1R3lxSG5YX3pDczVhN2cwdmV4MTRFbzYzWkdQMA?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/110/54/1105498.png?width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1073997"
+        }
+      ]
+    },
+    {
+      "kicker": "군사",
+      "headline": "北 신형 군함 규모 키워 1만t급 추정",
+      "summary": "북한이 신형 군함 규모를 키워 1만t급 순양함 가능성을 제기했다.",
+      "source": "재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96NXF4X1ZCLUhpRjMyX1dfTEFiTTRUckJVeGRmT05Bek1zcnZCcW1wU2pYMlFyS09TMC1XM1l6R3ZiSW9YekVheU9VZw?oc=5",
+      "original_title": "北 신형 군함 규모 키웠다…1만t급 순양함 가능성 제기..김정은 “수상 수중전력 강화”…남포조선소 현대화 지시",
+      "sources": [
+        {
+          "name": "재경일보",
+          "title": "北 신형 군함 규모 키웠다…1만t급 순양함 가능성 제기..김정은 “수상 수중전력 강화”…남포조선소 현대화 지시",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96NXF4X1ZCLUhpRjMyX1dfTEFiTTRUckJVeGRmT05Bek1zcnZCcW1wU2pYMlFyS09TMC1XM1l6R3ZiSW9YekVheU9VZw?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/110/54/1105487.jpg?width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1073975"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261106049900008",
+          "original_title": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
+              "link": "https://www.yna.co.kr/view/AKR20261106049900008",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110602130001300_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "[속보] 코스피 서킷브레이커 이어 매도 사이드카도 발동‥5,000선 무너져",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jeldPNFdxX29lMXBiamxCb0k4d2dSV1psSWp0NFB6QWM4QXdDTzRZU21aamlrRWY5ZUpjMkk1N0hjQm1LT20xeUwxNi1IenZjWnh6b0V1cDhKN3pqRnZ0QTNMaVYyN1BhUVhETWR0WVUwZ1ZR0gF0QVVfeXFMUFFaclFTTnFUVzluZGpTTFpvaTZIcXRiWlo1am5kV1F5SUZEcGxlcGY3ZTREMmh4Qm4xNnZqQ3RBdmc2T3lzZlVsdjI4czBydFBqRW0wam52Q1Q5dE1YVV9BN051cTRrbDd0M3gzYjJ0NURWS2w?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/06/jh_20261106_32.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6863635_36932.html"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 급락장에 코스피 이어 코스닥도 매도 사이드카",
+              "link": "https://www.mk.co.kr/news/stock/12198332",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/05/news-p.v1.20261105.ee942a5cc2f94345beadfedfa07349aa_R.png"
+            }
+          ]
+        },
+        {
+          "headline": "세계증시 급락 속…증권가 \"데이터센터 규제 우려 과도\"",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261106050600008",
+          "original_title": "세계증시 급락 속…증권가 \"데이터센터 규제 우려 과도\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "세계증시 급락 속…증권가 \"데이터센터 규제 우려 과도\"",
+              "link": "https://www.yna.co.kr/view/AKR20261106050600008",
+              "image": "https://img1.yna.co.kr/etc/inner/KR/2026/11/06/AKR20261106050600008_01_i_P4.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "[블루쓰나미 긴급진단] \"데이터센터 규제 우려 과도…반도체 비중 확대 기회\"",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Mcktkb3kyU2pEQ1l2cnN0RElPV09pRzluMl9CTXktVEU4MDdHejZVS0lULTdObFFuQXJrOUZpMDA5M2Q4N1VNV2lQQnprbkZFdi1aVEl3UDhfWjJyYmF6Qkptd0pQLXF0aE9JaDg3YWw?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4443350_354864_482_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443350"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "'2월 결혼' 도상우♥박지혜, '럽스타' 포착..같은 날 등장한 반려견 포미 [스타이슈]",
+          "summary": "",
+          "source": "스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02aEZ5dnNJUmpPUE1ucnRpcWdrekk5cXJUTDFaN18zb0VXQzM5bVVhXzRqSC1tRlRiSEYwaktncFFiYlFXMlVTZmI2c29hMlUydDJkdnkxd1NxRnlHNTQ1UGZybTZ6blU5eGMwRFFZbGhQQjQ?oc=5",
+          "original_title": "'2월 결혼' 도상우♥박지혜, '럽스타' 포착..같은 날 등장한 반려견 포미 [스타이슈]",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "스타뉴스",
+              "title": "'2월 결혼' 도상우♥박지혜, '럽스타' 포착..같은 날 등장한 반려견 포미 [스타이슈]",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02aEZ5dnNJUmpPUE1ucnRpcWdrekk5cXJUTDFaN18zb0VXQzM5bVVhXzRqSC1tRlRiSEYwaktncFFiYlFXMlVTZmI2c29hMlUydDJkdnkxd1NxRnlHNTQ1UGZybTZ6blU5eGMwRFFZbGhQQjQ?oc=5",
+              "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=858,fit=cover,q=high,sharpen=2/21/2026/11/2026110610070162964_1.jpg",
+              "url": "https://www.starnewskorea.com/star/2026/11/06/2026110610070162964"
+            },
+            {
+              "name": "YTN star",
+              "title": "배우 도상우·모델 박지혜, 내년 2월 결혼",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TYXNDQnVJdFpXSk8zUmRVNXdBQU1RaXRuVHkwd21fdnJoSVgydHYzQkNFR1lMX3RycmE4QTdqVTFiVzkxWFUxX3lfWWo0T1pfYTg0ai1aMjROTno4dDR3?oc=5",
+              "image": "https://image.ytn.co.kr/general/jpg/2026/1106/202611061001562323_t.jpg",
+              "url": "https://star.ytn.co.kr/_sn/0117_202611061001562323"
+            },
+            {
+              "name": "데일리안",
+              "title": "배우 도상우·모델 박지혜, 내년 2월 부부 된다… “따뜻한 축하 부탁”",
+              "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNDh4SmNKcUE2LVVNTmZnZHpDMU0xcDlZWGdBYlFRSHN1blZkY2tDYlhyRktKV1R0NzhDX3hLYmMtd1R0TlMyeVQ5THJnTzFRN2dFT2RLVnQ0Rld6bjZVOXl6TFJVaWdCdVVYekRhamlQVGZxTHNvNHhMYlUtR2Jqb05tSjFGVXBBVmRWZURQZmRDQXlaTHJxdzR0SWVmMEtqR21jV1JkcGVBMlNOYWx0cjV3MVVrNER1NElXRFlsckx6RVJqUGdZX01HVHY3QnRxTDkxTnFsbGR3QjdzMXJtNndsc09aREhmZGNybGtLaWhCYi1FM0RNOUFHbTRZaDc2dUVoMlk4cHZzVWZFS1E?oc=5",
+              "image": "https://cdnimage.dailian.co.kr/news/202611/news_1793926848987_1711646_m_1.jpg",
+              "url": "https://www.dailian.co.kr/news/view/1711646/%EB%B0%B0%EC%9A%B0-%EB%8F%84%EC%83%81%EC%9A%B0%EB%AA%A8%EB%8D%B8-%EB%B0%95%EC%A7%80%ED%98%9C-%EB%82%B4%EB%85%84-2%EC%9B%94-%EB%B6%80-2026"
+            },
+            {
+              "name": "경기일보",
+              "title": "런웨이서 시작된 인연, 부부로…도상우·박지혜 내년 2월 결혼",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yNHRXNVprbm45TFdibUxzc3h2OFR5MXhvckY2ZDd5M0pVRHd2Q01vNThRT1BXMmlCeW11eUVCVDdoVTdKWndjSXNpRTVzNDRES01XZjB4N00zX1k?oc=5",
+              "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/06/.cache/512/20261106580060.jpg",
+              "url": "https://www.kyeonggi.com/article/20261106580059"
+            },
+            {
+              "name": "텐아시아",
+              "title": "[공식] 연예계 결혼 소식 또 터졌다…이번엔 배우♥모델 커플, 도상우·박지혜 '2월' 백년가약",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wbGpPZ1cxMlFNYVh3djhNMndZVGxMd3FZOGZXbVhBSDR2SzZkcmlwQnhURWNFU2ZUV3JXdjdySTM3dGxnLUY0WF9FTmxUaVk4VU1pUnEtVTFXSjA?oc=5",
+              "image": "https://img.tenasia.co.kr/photo/202611/BF.46331541.1.jpg",
+              "url": "https://www.tenasia.co.kr/article/2026110601404"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "아모레퍼시픽재단, 일본서 K-뷰티 문화 알린다…메이크업 클래스·전시 개최",
+          "summary": "",
+          "source": "매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mQWNKUHdWNjdfTkxiN0hqR2NSLW00dUh3X2VyLXMwdHBDNUpvQXRyWVlfMTdQaTBKVGJmNnRJaTJGN25vb2Y4WnYxVjRxQ3lwSHYtY3YweHdScTBacXhJR0FTYXU?oc=5",
+          "original_title": "아모레퍼시픽재단, 일본서 K-뷰티 문화 알린다…메이크업 클래스·전시 개최",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "매일일보",
+              "title": "아모레퍼시픽재단, 일본서 K-뷰티 문화 알린다…메이크업 클래스·전시 개최",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mQWNKUHdWNjdfTkxiN0hqR2NSLW00dUh3X2VyLXMwdHBDNUpvQXRyWVlfMTdQaTBKVGJmNnRJaTJGN25vb2Y4WnYxVjRxQ3lwSHYtY3YweHdScTBacXhJR0FTYXU?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2015297_2015712_326.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2015297"
+            },
+            {
+              "name": "팝콘뉴스",
+              "title": "아모레퍼시픽재단, 일본서 K-뷰티 알린다...도쿄·오사카 메이크업 클래스 개최",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqWllMNkI2ZnFVVF8zcDJ1UWZocmN5ZDJQUVlYTHRZeVpXMU9CQWpmSmRRdnE5cWxsLWJ1M3kzX09td0hKeHBPZ0JpczJ0NW9XdHhGeTU2eFdibERvb0VXNExCMUFLNnlJSGFLUnVHZ9IBckFVX3lxTFByelBTdTBzUlJod1dWNnBvdjEtZ2o3UlAza2oxVDlYZUZwWnhYR215U3Rodi1haWtTZGRwclhLUFRCYXBycGpBWEdwM2ZzRmpZd3B0cHhSUWlRSkw1MFRTZUVQSjJMOEp3YlpuNmFMdkFLUQ?oc=5",
+              "image": "https://cdn.popcornnews.net/news/thumbnail/202611/138971_165512_5654_v150.jpg",
+              "url": "https://www.popcornnews.net/news/articleView.html?idxno=138971"
+            },
+            {
+              "name": "뉴스퀘스트",
+              "title": "아모레퍼시픽재단, 일본서 K-뷰티 메이크업 클래스·체험 전시 개최",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYNUl1aEUxWjJvR3hrbGU3dll0YUFQdENJejBYdkxHUUQ2clAzUTNaUkE1NXc4TTZWRW13ZzRURDQyclV1OUkydVNwX1dqeTlxeU5jaW5RbDlGOWN4QXF6V2FyWEwtSXJRZUI3R2w4OA?oc=5",
+              "image": "https://cdn.newsquest.co.kr/news/photo/202611/304396_205233_4152.jpg",
+              "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=304396"
+            },
+            {
+              "name": "데일리e뉴스",
+              "title": "아모레퍼시픽재단, 일본서 K-뷰티 메이크업 클래스·체험형 전시 선보여",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSWURpdUdXUzlfTmtxekdDNl9pMVpuUW55Q0Q0UktQN2RseUlCVGhZSjZLN0xDX2J6dkZTUFdhRHZiYmlNb0lMY3hTbFNnUGRvWDh2a09yRTRXV2tvSms2N21UdkRkb3BNTTluR3pCMA?oc=5",
+              "image": "https://www.dailyenews.co.kr/news/thumbnail/202611/54347_69382_3525_v150.jpg",
+              "url": "https://www.dailyenews.co.kr/news/articleView.html?idxno=54347"
+            },
+            {
+              "name": "한국경제",
+              "title": "손끝으로 배우는 K뷰티…아모레퍼시픽, 日서 메이크업 클래스·전시 개최",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CV1l0NDZFWV9KcUxKMnpSZnlrbWJMdTJLVTU4czF0NTFldm9ibVgxSURVRmNZMEY1cUV2OHNPdm5tTzAxbVJFVUEtLVY0QW5FY3AxMFpJNEFVdw?oc=5",
+              "image": "https://img.hankyung.com/photo/202611/01.46330875.1.jpg",
+              "url": "https://www.hankyung.com/article/202611069980g"
+            }
+          ]
+        },
+        {
+          "headline": "수원시, 5~7일 수원컨벤션센터서 ‘2026 뷰티썸 수원‘ 개최",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100395",
+          "original_title": "수원시, 5~7일 수원컨벤션센터서 ‘2026 뷰티썸 수원‘ 개최",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "수원시, 5~7일 수원컨벤션센터서 ‘2026 뷰티썸 수원‘ 개최",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100395",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100395_72301_3916_v150.jpg"
+            },
+            {
+              "name": "비욘드포스트",
+              "title": "이재준 수원시장 “수원을 K-뷰티 거점으로 만들겠다”",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4talBxYzNSQ1dfTnhwNmF4X1RUSDl0QUdNTDZWOXJCTTExOG9CVjRxZUNxeUItZ2d6RkNkeUNTTUtOSF95RWhzWHNqSzlxTWVJS3VPYVQ4WVFXNTZjSnhHOTlhSkhPTFdVWkFjdHlSUE1UTkthM3I0SlhseV8?oc=5",
+              "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611060924380927604c878f8fa11224017169.jpg&nmt=30",
+              "url": "https://www.beyondpost.co.kr/view.php?ud=2026110609201661024c878f8fa1_30"
+            },
+            {
+              "name": "일간투데이",
+              "title": "수원특례시,이재준 시장. “수원을 케이(K)-뷰티의 거점으로 만들겠다”",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLd2xrMXpFYTZLU3B3Q2Npa1pRZDUwYXNJUmg3V1lfcmt4endtLU0ySXVYQVJNRGF1REpObmNacmozMjJWVTdDYVJJNmZfSEliWUdmUUhOV0U1SVBRdGtCMkN2bWZvWWlaSkVF?oc=5",
+              "image": "https://cdn.dtoday.co.kr/news/thumbnail/202611/801851_674811_577_v150.jpg",
+              "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=801851"
+            },
+            {
+              "name": "월드장애인사랑뉴스",
+              "title": "이재준 수원시장 “수원을 K-뷰티 거점으로”…2026 뷰티썸 수원 개막",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OOUJjQXVxNk1MWmJaakRrZVVrV1pLYVBsRGhsbklnNDFFOVI4Wi1zREp5OGYtS1dtRGE5aENDLXdROGt6eGhydGJ6Tmg1YWZUWFpzSGN4Z3ZLNnc4eUw5RU5RYjdnM2pRN1J5LVB0NA?oc=5",
+              "image": "https://cdn.youcandonews.com/news/thumbnail/202611/21391_35179_2426_v150.jpg",
+              "url": "https://www.youcandonews.com/news/articleView.html?idxno=21391"
+            },
+            {
+              "name": "서울신문",
+              "title": "이재준 시장, “수원을 케이(K)-뷰티의 거점으로 만들겠다”",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRmFmUjd5YTR6LVhQM2piQXBwMm5LbXZ0Rzh5aXRNcGxIVk1kTnhJdDd0czVJSFFEMWlRY0Y1Zk5RV2hSellwTDhfRDkzWU1ubEhaSkVHTk5ieTJJVXh3cm5jQ2p0clR0Vjl5RGpKdjd3bXFDTDhzaWlfVFNad0ZaQlh0UEc?oc=5",
+              "image": "https://imggo.seoul.co.kr/img/go_share.png",
+              "url": "https://www.seoul.co.kr/news/publicnews/local_govern/2026/11/06/20261106500021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "칼륨 소금이 연간 300만 사망 예방",
+          "summary": "연구에 따르면 칼륨 소금으로 나트륨 소금을 대체하면 연간 300만 명이 사망을 예방할 수 있다.",
+          "source": "매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aUWNlejhwZHhxSnUtUzh0SkYyb19qMTRORGVwZ00xWjIxTktoTUd1S3pRMHZkTTVtaWwwLXMyMlVNbFd1M3ZCbzBVQjhfVnc5SENnRmdLcmd1UWpwT1N2eGFB?oc=5",
+          "original_title": "칼륨 소금으로 바꾸면 연간 300만 명 사망 막는다…193개국 모델링 결과",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일신문",
+              "title": "칼륨 소금으로 바꾸면 연간 300만 명 사망 막는다…193개국 모델링 결과",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aUWNlejhwZHhxSnUtUzh0SkYyb19qMTRORGVwZ00xWjIxTktoTUd1S3pRMHZkTTVtaWwwLXMyMlVNbFd1M3ZCbzBVQjhfVnc5SENnRmdLcmd1UWpwT1N2eGFB?oc=5",
+              "image": "https://www.imaeil.com/photos/2026/11/05/2026110520480543618_l.jpg",
+              "url": "https://www.imaeil.com/page/view/2026110520480977999"
+            }
+          ]
+        },
+        {
+          "headline": "알츠하이머 단백질 응집 독성 줄이는 방법 발견",
+          "summary": "연구팀은 알츠하이머병에서 단백질 응집과 독성을 줄이는 방법을 발견했다.",
+          "source": "경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OYjFYN2pQMFRqYVhVRWZDdVY0Q25acmhUNGdya2t1YzctUVlfZVZtUTVnVUNjdnowR3pmTEFCQ1lPbkJyT25CdGZVZ2F6U3ZtWjBJZk5LRGtZZ9IBX0FVX3lxTE5TVGVvdjVwdnl6aFlpVzZfLVJsNGtQeGNQZmdJT2t2LWZLcl9jc1RaWFNzUUlpNGlObllEY0NvTjB1RXRSZEZjLTJ4TU5ySXltTEJIU01rTXBtUXVBTHdr?oc=5",
+          "original_title": "‘알츠하이머병 단백질’ 응집·독성 줄일 방법 발견",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "‘알츠하이머병 단백질’ 응집·독성 줄일 방법 발견",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OYjFYN2pQMFRqYVhVRWZDdVY0Q25acmhUNGdya2t1YzctUVlfZVZtUTVnVUNjdnowR3pmTEFCQ1lPbkJyT25CdGZVZ2F6U3ZtWjBJZk5LRGtZZ9IBX0FVX3lxTE5TVGVvdjVwdnl6aFlpVzZfLVJsNGtQeGNQZmdJT2t2LWZLcl9jc1RaWFNzUUlpNGlObllEY0NvTjB1RXRSZEZjLTJ4TU5ySXltTEJIU01rTXBtUXVBTHdr?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/05/l_2026110601000187200019233.jpg",
+              "url": "https://www.khan.co.kr/article/202611052028035"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이재명 대통령, 동티모르 대통령과 정상회담",
+          "summary": "이재명 대통령이 동티모르 대통령과 정상회담을 진행하며 협력 확대를 논의했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833613",
+          "original_title": "이 대통령, 오늘 '첫 방한' 동티모르 대통령과 정상회담",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 오늘 '첫 방한' 동티모르 대통령과 정상회담",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833613",
+              "image": "https://img.sbs.co.kr/newimg/news/20261105/202238238_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령, 오늘 동티모르 대통령과 정상회담…협력 확대 논의(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261105166651001",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/05/PYH2026110510650001300_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령, 오늘 동티모르 대통령과 정상회담…기후변화·인적 교류 등 협력 확대 논의",
+              "link": "https://www.khan.co.kr/article/202611060712001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/06/news-p.v1.20261106.15c69bc5c3e84ae7a8aba76b06d44ccf_P1.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "이 대통령, 오르타 동티모르 대통령과 정상회담…기후변화·인적교류 협력 논의",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzTEhUaUNqZTltaHRKLTdCNDU0VG5NcjVQR21RNDhRdWdoY01YZG1mSmZ3dkJ6QnlISThPSU9PRFFLaFhaR1hpZnB3ZlJuOUhGUm4wa2QtOVpPOFk?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/06/20261106_bTBzih.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8705497"
+            }
+          ]
+        },
+        {
+          "headline": "조작기소 특검법 본회의 상정, 국회 필리버스터 진행",
+          "summary": "민주당이 상정한 조작기소 특검법이 국회 본회의에서 무제한 토론 필리버스터가 진행되며, 오늘 늦은 오후에 처리될 전망이다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833194",
+          "original_title": "조작기소 특검법 본회의 상정…국힘 필리버스터",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "조작기소 특검법 본회의 상정…국힘 필리버스터",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833194",
+              "image": "https://img.sbs.co.kr/newimg/news/20261106/202238455_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "'조작기소 특검법' 오늘 필리버스터 강제 종결 뒤 통과 전망",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vblhNS0RTN3dlSmowMHhhZmdsMV9mSDMyeWFkbjVjQURhb2ViSjA1YTlwU0lXdGlyY0c3OTBGRUxmQ3kzZUFoYnhNWTNxeW5yMEJscTB5QXdOenNQN0tkVFRwNG9hWlQtd2FPbUFPQ0JlZkg3bHZEMdIBeEFVX3lxTE5GYXRuSkRMTHVpVzdQbjBDMUk3bXJKVTlORUphVEJtRlZka3l5MGNmdWU4ek1McHVIM1dUcTZBVzM5WGl4ZmpnNC1DdUJSczAzdnpMLVFZdGE2QURwU2JsTVdEaWxKdHpFbThHY3dGRkhZcHZoVEVHZQ?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/06/jh_20261106_30.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6863616_36911.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "유럽 여객기 27편 폭탄 위협",
+          "summary": "27편의 항공편이 폭탄 위협을 받아 항공 운항에 차질이 빚어야 했다",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261106/134976155/1",
+          "original_title": "유럽 여객기 27편에 또 폭탄 위협…전투기 출동·긴급 착륙 소동",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "유럽 여객기 27편에 또 폭탄 위협…전투기 출동·긴급 착륙 소동",
+              "link": "https://www.donga.com/news/Inter/article/all/20261106/134976155/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/06/134976156.1.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "유럽 여객기 27편에 폭탄 위협, 비상착륙·전투기 출동 ‘대란’",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2x6R3FmdzhtQmhSTWNTc1ZvOXo4dDFKOHZCbGZ4cnVJZ3EwWHFnbzFTQVZzaEJ6TWs3bEV4ZEdmSVlreDhoR05BUEVaUndMTHZISGdWRkp0NlNzWktXRndhV3VwY1FBbnAxZHhUVE40RTZPT1J3RUxBUzdZTkpGSk9BRnRWVFdyc1gzeC1YQlVHMEx4dDlsNjVlYjM5dw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/4UIR2TTNZBIX3B6LNAFLNBV47Q.jpg?auth=97678c38ea7002668d3443c1a94f1f13ba0d1e5dd5987d864379c6b68271a4f0&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/international/international_general/2026/11/06/NDVQFW6ZWNC3HLTHBQOYWLX7IA/"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "유럽 항공기 최소 27편에 또 폭탄 위협…비상착륙·회항 '대란'",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833252",
+              "image": "https://img.sbs.co.kr/newimg/news/20261106/202238433_1280.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "카카오, AI 서비스 3종 출시",
+          "summary": "카카오는 연내 AI 서비스 3종을 출시한다. 출시 목표는 월 AI 이용자 1000만 명에 도달하는 것이다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wNW5QdE4zbzBiQTBiSWJBRUlqU2lwTmJtUXNhMEN4ZnFKazk2alJNd29HdHRxTC1hcUxjdjRCUGY4NEpPWlhUZ1J3TFhDQ09WLVVQYkZ30gFUQVVfeXFMTUVTWFJ2US01VFRpbnpsd3E2RUlENE9HWXdCN3NIelNHXzJmbDB3M0FRaGlrYXp6WXA4dU9GLTI2dHFXRHEzY2Vsd1BmVWNqXzNiTlBC?oc=5",
+          "original_title": "카카오, 연내 AI 서비스 3종 출시",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "세계일보",
+              "title": "카카오, 연내 AI 서비스 3종 출시",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wNW5QdE4zbzBiQTBiSWJBRUlqU2lwTmJtUXNhMEN4ZnFKazk2alJNd29HdHRxTC1hcUxjdjRCUGY4NEpPWlhUZ1J3TFhDQ09WLVVQYkZ30gFUQVVfeXFMTUVTWFJ2US01VFRpbnpsd3E2RUlENE9HWXdCN3NIelNHXzJmbDB3M0FRaGlrYXp6WXA4dU9GLTI2dHFXRHEzY2Vsd1BmVWNqXzNiTlBC?oc=5",
+              "url": "https://m.segye.com/daumview/20261105516062"
+            },
+            {
+              "name": "중앙일보",
+              "title": "\"AI 서비스 확산 지체 뼈아프다\" 컨콜서 반성문 쓴 정신아, 카카오 에이전트 전략 바꾼다 [팩플]",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5acUxKOXl1am9RS3hpS0tEdENLRXR2MjAyWkZGMlVLcHV4TExJaTdfZ0g5SG8xZmlJVUhMNWpOWmVKb3VNYWFuZF9uMFZONURVT2lva3hB?oc=5",
+              "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202611/05/e64cbbbe-9c8b-426e-b156-381317382f83.jpg",
+              "url": "https://www.joongang.co.kr/article/25476111"
+            },
+            {
+              "name": "CEO스코어데일리",
+              "title": "카카오, AI 서비스 연말 출격…“AI 이용자 월 1000만 찍는다”",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85cWo5ZFF5bE5FbS1xNi1BRXVUckRhX1NLbWNDVkFGbmtRWW5wR3d3aUZ2R2FJaHg0bHhQMGQtVU02a2JraWhsWjFFNzBoTWVLRFd6R2RHeUV6cjJyUXNpQXhwOHBYT1Vs?oc=5",
+              "image": "https://m.ceoscoredaily.com/photos/2026/11/05/2026110516040912582_l.jpg",
+              "url": "https://m.ceoscoredaily.com/page/view/2026110516163652185"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "카카오, AI 서비스 4종 선보인다…광고·커머스 연계로 수익화 추진",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwcTNhNlFKbHJXaURZVHlmS2s4ZzBaWHlsWk9SYTdNZUpQekZiWGpid05COWtEZW51WHBoNGNnVmFLanp0M0ozeXkzaTlaQjQtZlY2Q2NkbkNaNWlyemFLVkJGemgzYW8xWlZ5V2tSRWlpdnlFa3Z6elBqN1RLRGM?oc=5",
+              "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20261105132219019593d7a51010222114721494.jpg",
+              "url": "https://www.g-enews.com/article/ICT/2026/11/2026110510571540163d7a510102_1"
+            },
+            {
+              "name": "전자신문",
+              "title": "카카오, 영업이익률 두 자릿수 굳혔다…내달 신규 AI 서비스 4종 출격",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOOV9aWHdQM1BtOThoV2x6WERHZ2YtcmoxbHBDUTdiWVJMVE4yM1F5SG9VeTdiQXhWcjI4T1BxR0xZWC1GU09fVWViLXlBQQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/09/22/news-p.v1.20260922.04a16804ccb24cd8bc9aa83ed6888413_P1.png",
+              "url": "https://www.etnews.com/20261105000308"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "코난 애니 영화, 개봉 첫날 박스오피스 1위",
+          "summary": "일본 애니메이션 영화 명탐정 코난: 30호 살인 사건이 개봉 첫날 박스오피스에서 1위를 차지했다. 주말 예매율은 치이카와가 선두를 기록했다차지했다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261106043600005",
+          "original_title": "[주말극장가] '명탐정 코난' 개봉일 1위…예매율은 '치이카와' 선두",
+          "coverage": 15,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[주말극장가] '명탐정 코난' 개봉일 1위…예매율은 '치이카와' 선두",
+              "link": "https://www.yna.co.kr/view/AKR20261106043600005",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/06/AKR20261106043600005_01_i_P4.jpg"
+            },
+            {
+              "name": "www.entv.kr",
+              "title": "'명탐정 코난' 개봉 첫날 박스오피스 1위, 주말 예매율은 '치이카와' 선두",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2U1lrQ3VmdUZVMzJSbmFZdkJubTA1X0FmbUxjeHh0c2RmeWpjM3Y1eUFfYUpKZEJVQlBPUmNKeXBKVFJtTmIwYktTblI1cmRXWG94a3pvVFo4dkJYQ3N3UHppb2s?oc=5",
+              "image": "https://cdn.entv.kr/news/photo/202611/221858_8387_102.jpg",
+              "url": "https://www.entv.kr/news/articleView.html?idxno=221858"
+            },
+            {
+              "name": "재경일보",
+              "title": "‘명탐정 코난: 30호 살인 사건’, 개봉 첫날 박스오피스 1위 : 연예",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIV2MwNWFCS19aZTVjaXZGNmdjUk5IVUVoVlEyaDFJVTBtNzlDU2JNcHFrVWlLRjhYUVFUN0Z1d1lXekRNVV9DeTB0Zw?oc=5",
+              "image": "https://images.jkn.co.kr/data/images/full/110/54/1105447.jpg?v=1793926088&width=1200&height=630",
+              "url": "https://news.jkn.co.kr/post/1073841"
+            },
+            {
+              "name": "키즈맘",
+              "title": "‘명탐정 코난: 30호 살인 사건’ 개봉 첫날 1위…‘최종면접’ 2위",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1UGctV0Y5dzlxSkdjcHMxbi1tblFxeDIyMHVNRmJiemVaTTd0V2lGU3dHSURhNTliVElrWWUzTWJXeEdGa2thSmhOV0Y4LUg5VDBFei1mSU5ZaW4zblJ1T3dmM2xCSDB0?oc=5",
+              "image": "https://cdn.kizmom.com/news/photo/202611/113794_60013288_3258.png",
+              "url": "https://www.kizmom.com/news/articleView.html?idxno=113794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "LIV 골프, 5년 운영 끝내 파산 청산",
+          "summary": "사우디 자금 기반의 LIV 골프가 5년간 운영을 종료하고 파산법원에 청산 계획을 제출했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261106_0003857261",
+          "original_title": "LIV 골프, 출범 5년 만에 운영 종료 수순…파산법원에 청산 계획 제출",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "LIV 골프, 출범 5년 만에 운영 종료 수순…파산법원에 청산 계획 제출",
+              "link": "https://www.newsis.com/view/NISX20261106_0003857261",
+              "image": "https://img1.newsis.com/2026/05/06/NISI20260506_0001231671_web.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "LIV 골프, 출범 5년 만에 막 내려...\"사업 정리 절차\"",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91bUNwV01mZllBcG9fMWhnNi10MjZpV080dXE1alVyYUttTk9YTHcyTDlqX2ZqMzl2YmxQNW10UUxLd1gtSGRYeDU1YTY0UmdvMWRCaHExUEN3OXRXd3c?oc=5",
+              "url": "https://www.ytn.co.kr/_ln/0107_202611061003287060"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "LIV 골프, 출범 5년 만에 역사 속으로…\"사업 종료\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261106021451007",
+              "image": "https://img4.yna.co.kr/photo/ap/2026/11/06/PAP20261106023501009_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "LIV 골프, 출범 5년 만에 사업 종료",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833362",
+              "image": "https://img.sbs.co.kr/newimg/news/20261106/202238507_1280.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "신민아부터 장원영까지, 긴 생머리 로망을 키우는 셀럽들의 헤어 룩",
+    "tagline": "W Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 13,
+      "t_min": 4,
+      "rain_pct": 100,
+      "sky": "이슬비",
+      "display": "서울 4~13°C · 이슬비 · 강수 100%"
+    },
+    "articles": [
+      {
+        "title": "신민아부터 장원영까지, 긴 생머리 로망을 키우는 셀럽들의 헤어 룩",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/06/%ec%8b%a0%eb%af%bc%ec%95%84%eb%b6%80%ed%84%b0-%ec%9e%a5%ec%9b%90%ec%98%81%ea%b9%8c%ec%a7%80-%ea%b8%b4-%ec%83%9d%eb%a8%b8%eb%a6%ac-%eb%a1%9c%eb%a7%9d%ec%9d%84-%ed%82%a4%ec%9a%b0%eb%8a%94-%ec%85%80/",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6aec2d1e39609-scaled-1920x1080.jpg?x=2324&y=2123&ver=1.2.05",
+        "url": "https://www.wkorea.com/2026/11/06/%EC%8B%A0%EB%AF%BC%EC%95%84%EB%B6%80%ED%84%B0-%EC%9E%A5%EC%9B%90%EC%98%81%EA%B9%8C%EC%A7%80-%EA%B8%B4-%EC%83%9D%EB%A8%B8%EB%A6%AC-%EB%A1%9C%EB%A7%9D%EC%9D%84-%ED%82%A4%EC%9A%B0%EB%8A%94-%EC%85%80/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "천 리 길도 발밑에서 시작된다.",
+    "author": "노자",
+    "work": "도덕경"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 떠올라"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 친구와의 대화가 빛난다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "활동적인 하루 에너지가 넘쳐"
+      },
+      {
+        "animal": "토끼",
+        "text": "편안한 순간이 마음을 채워준다"
+      },
+      {
+        "animal": "용",
+        "text": "창의력이 높아져 새로운 프로젝트에 도전"
+      },
+      {
+        "animal": "뱀",
+        "text": "집안 분위기가 부드러워져 평온을 느낀다"
+      },
+      {
+        "animal": "말",
+        "text": "운동이나 외출이 활력을 주어"
+      },
+      {
+        "animal": "양",
+        "text": "감성적인 순간이 창작의 영감을 돋우네"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 빛나며 사람들과 소통"
+      },
+      {
+        "animal": "닭",
+        "text": "정리정돈이 잘 되어 업무 효율이 상승"
+      },
+      {
+        "animal": "개",
+        "text": "친구와의 대화가 따뜻함을 전해준다"
+      },
+      {
+        "animal": "돼지",
+        "text": "자기 시간을 갖고 휴식을 즐길 수 있다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
