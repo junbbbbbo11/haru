@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-07",
+  "weekday": "토요일",
+  "vol": 26,
+  "generated_at": "2026-11-07T09:00:56+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5383.8,
+      "change": -300.0,
+      "change_pct": -5.28,
+      "direction": "down",
+      "display": "5,383.80",
+      "change_display": "▼ 5.28%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1356.3,
+      "change": 16.3,
+      "change_pct": 1.21,
+      "direction": "up",
+      "display": "1,356.3원",
+      "change_display": "▲ 1.21%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 103340000.0,
+      "change": -41000.0,
+      "change_pct": -0.04,
+      "direction": "down",
+      "display": "10,334만원",
+      "change_display": "▼ 0.04%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 7,
+    "t_min": 0,
+    "rain_pct": 0,
+    "sky": "대체로 맑음",
+    "display": "서울 0~7°C · 대체로 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "전기차",
+      "headline": "테슬라 사이버트럭 생산 중단",
+      "summary": "테슬라가 사이버트럭 생산을 중단하고 사이버캡 전환을 결정했다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261107003800075",
+      "original_title": "테슬라, 사이버트럭 생산 중단키로…머스크 \"한 시대의 끝\"",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "테슬라, 사이버트럭 생산 중단키로…머스크 \"한 시대의 끝\"",
+          "link": "https://www.yna.co.kr/view/AKR20261107003800075",
+          "image": "https://img2.yna.co.kr/photo/ap/2023/12/01/PAP20231201042401009_P4.jpg"
+        },
+        {
+          "name": "재경일보",
+          "title": "테슬라 사이버트럭 생산 중단…사이버캡 전환 : 기업·산업",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfTzllY3hoQ0NnLUtwYVV0OVdkQmdqWl9UQWVhaEYtaC1QYjQwaFB6NVdrbHVaMHVzQVR6TU0zRjlpanJaMzMzbDJpdw?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/110/66/1106680.jpg?v=1794009067&width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1075934"
+        },
+        {
+          "name": "전자신문",
+          "title": "지드래곤 마음도 훔친 차였는데…테슬라 '사이버트럭' 3년 만에 단종 수순",
+          "link": "https://www.etnews.com/20261107000006",
+          "image": "https://img.etnews.com/news/article/2026/11/07/news-p.v1.20261107.da517d22102b418c93d2dffaef747a69_P1.jpg"
+        },
+        {
+          "name": "서울경제",
+          "title": "안 팔리던 사이버트럭 3년만에 결국 단종...머스크 “로보택시 생산 집중”",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94ZHpuek56X0FVdTZhQWlMUjNiTldmLTV4MEgtWEVpUUFEbV9PMWVHOF9QMFY4bXFhZ1dMUXFGZmNBTjVocnR2VGZWZndqOEdnaEVv0gFTQVVfeXFMT3hkem56TnpfQVV1NmFBaUxSM2JOV2YtNXgwSC1YRWlRQURtX08xZUc4X1AwVjhtcWFnV0xRcUZmY0FONWhydHZUZlZmd2o4R2doRW8?oc=5",
+          "image": "https://wimg.sedaily.com/news/cms/2026/11/07/rcv.YNA.20261106.PAP20261106245801009_R.jpg",
+          "url": "https://m.sedaily.com/amparticle/20111394"
+        }
+      ]
+    },
+    {
+      "kicker": "시장",
+      "headline": "VIX, 8개월 만에 최고치 기록",
+      "summary": "미국 증시 공포지수 VIX가 8개월 만에 최고치를 기록하며 변동성이 급등했다.",
+      "source": "매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83NEotUmZybDdvYjE5Z2Y5RGxVMTVLZEtRcDRGaVBZSFRnNDNmNU5ibXRUUW1GR1NVY1VDR2NQS3otSWxBTmc?oc=5",
+      "original_title": "“나 떨고 있니”…월가 ‘공포지수’ 8개월 만에 최고",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "“나 떨고 있니”…월가 ‘공포지수’ 8개월 만에 최고",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83NEotUmZybDdvYjE5Z2Y5RGxVMTVLZEtRcDRGaVBZSFRnNDNmNU5ibXRUUW1GR1NVY1VDR2NQS3otSWxBTmc?oc=5",
+          "image": "https://static.mk.co.kr/facebook_mknews.jpg",
+          "url": "https://m.mk.co.kr/amp/12200729"
+        }
+      ]
+    },
+    {
+      "kicker": "영화",
+      "headline": "CGV, 3분기 영업이익 736억원 기록",
+      "summary": "CGV가 3분기 영업이익 736억원을 기록하며 '오디세이' 흥행에 힘입어 역대 최대를 달성했다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/AKR20261106164500005",
+      "original_title": "CGV 3분기 영업익 736억원 '역대 최대'…'오디세이' 흥행에 개선",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "CGV 3분기 영업익 736억원 '역대 최대'…'오디세이' 흥행에 개선",
+          "link": "https://www.yna.co.kr/view/AKR20261106164500005",
+          "image": "https://img0.yna.co.kr/photo/cms/2024/11/30/16/PCM20241130000016990_P4.jpg"
+        },
+        {
+          "name": "더팩트",
+          "title": "CJ CGV, 3분기 영업이익 736억원…전년比 215.2% 증가",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uYUhKOEp5dldzSXdVNFRGMzdZUmJjcUw0bjFWc1NHUk5MUzRqRWVNQ0U1NkhEN3A1aGZSUmNiR0FvWGJGQTZVU19xTDdsRGE5eFhITzEwc2ZrQdIBVEFVX3lxTE5GS1RtbzlEeVNrd2tla0ZKWTRxRWJKNUVvRXVORE9BYU1JbllVdFp4N01KWXE1b3hzUC1WcEFVZGJZcFQ2eXZ0dmZsNGppbUh0VEtmeg?oc=5",
+          "image": "https://img.tf.co.kr/article/home/2026/11/06/202674431793950581.jpg",
+          "url": "https://news.tf.co.kr/read/economy/2385924.htm"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "미래에셋증권 해킹, 고객·임직원 정보 유출",
+          "summary": "미래에셋증권에서 해킹으로 고객 3천800명과 임직원 3만5천여명이 정보가 유출됐다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261107014452008",
+          "original_title": "해킹 대책 문제없나…미래에셋증권도 3만9천여명 정보유출(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "해킹 대책 문제없나…미래에셋증권도 3만9천여명 정보유출(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261107014452008",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/06/15/PYH2026061513310001300_P4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 미래에셋증권도 해킹 당해…“고객·임직원 정보 일부 유출”",
+              "link": "https://www.mk.co.kr/news/economy/12201367",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/07/news-p.v1.20261107.112015a6b1f04a4a99ee457e426f4172_R.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "미래에셋증권, 고객 3천800명 계좌번호·임직원 3만5천명 정보 유출(종합)",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KelJ4TnNlRWxtZVRMcGRHLXpxN2lyeV9fdTZobDMyUHlsLUJxakRjdl9fdHc4MnNKMjQ4eUVsQURiRlhZMzdNZ1RIdEV0VlhHMXhLemNEQTdtVVR6WUE4N1I5N1pEbVYxTXRMcWJOSW4?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4443587_355191_404_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443587"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "발렌시아가 새 크리에이티브 디렉터 임명",
+          "summary": "피엘파올로 피치올리가 2025년 7월 부관으로 초빙되었으나 1년 만에 사임했다.",
+          "source": "VOGUE Korea",
+          "link": "https://www.vogue.co.kr/2026/11/06/%eb%b0%9c%eb%a0%8c%ec%8b%9c%ec%95%84%ea%b0%80%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%88%98%ec%9e%a5-%eb%a7%88%ed%8b%b4-%eb%a1%9c%ec%a6%88/",
+          "original_title": "발렌시아가의 새로운 수장, 마틴 로즈",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "VOGUE Korea",
+              "title": "발렌시아가의 새로운 수장, 마틴 로즈",
+              "link": "https://www.vogue.co.kr/2026/11/06/%eb%b0%9c%eb%a0%8c%ec%8b%9c%ec%95%84%ea%b0%80%ec%9d%98-%ec%83%88%eb%a1%9c%ec%9a%b4-%ec%88%98%ec%9e%a5-%eb%a7%88%ed%8b%b4-%eb%a1%9c%ec%a6%88/",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6aed8589b8ee6-1920x1080.jpg?x=1120&y=1664&ver=1.1.63",
+              "url": "https://www.vogue.co.kr/2026/11/06/%EB%B0%9C%EB%A0%8C%EC%8B%9C%EC%95%84%EA%B0%80%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%88%98%EC%9E%A5-%EB%A7%88%ED%8B%B4-%EB%A1%9C%EC%A6%88/"
+            },
+            {
+              "name": "Hypebeast.KR",
+              "title": "금주의 주요 패션 뉴스: 마틴 로즈의 발렌시아가 합류 및 이지의 런웨이 복귀",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOS1YZlZOaWJjVUMwSTdVUDk0Qnd5QjJkdEM3cDBtOXBCRkhxSHJ1ZlRfOUJHcXg4WF9zM3U3cHVqc0p0ZXJCNU1LcTRBVGlqdXJYdmRFRlE3X3E3ekNTOFNZNTJkUGN5VkF1SFhGUGttRDNRYXdtT094OUZtMnhtYWJoZ1Q2bU9JMFBNaEhtTW9EUm44RUZkMTdBRXBrVWFSUkxoNzUxYTF5Z2pJRFlzSzVwWkx5OUltWkE?oc=5",
+              "url": "https://hypebeast.kr/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry"
+            },
+            {
+              "name": "Vogue korea",
+              "title": "발렌시아가의 새로운 수장, 마틴 로즈",
+              "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQN29CX3VieXFRV0hOWl9lZU1nOVlXV2V4UUxlX1RQbVFnTFd2MDhxdThzejlVZ1RwSkxNbXNDWGVCa2YtTHVuNVNJaElfSFY1V25OMXpnU08zT3puQl9QdmozeDlKOXAtZmNfUFVkZTVObmw5eDF5cTF3U1hmYUdtYmxOSkdLMmdQS0k2Q0RFdkNFM1dRT212OEJDVVlHaWJveGFKTkVlaDVPbE1FODVwcXlkVktZam1jM3VjOFlBSC1DZnJ5ZFN2SVJCXzZzRUMxcmpIdG1MQ1RoeE03NkN4bXdzcFBFNjlqN2lLNHlJaVBPN1pma21CTWtsQkZRR2EydzkxSmNn?oc=5",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6aed8589b8ee6-1920x1080.jpg?x=1120&y=1664&ver=1.1.63",
+              "url": "https://www.vogue.co.kr/2026/11/06/%EB%B0%9C%EB%A0%8C%EC%8B%9C%EC%95%84%EA%B0%80%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%88%98%EC%9E%A5-%EB%A7%88%ED%8B%B4-%EB%A1%9C%EC%A6%88/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "아모레퍼시픽재단, 일본에서 K-뷰티 클래스·전시 진행",
+          "summary": "",
+          "source": "코리아리포트",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrUFlQOFBGZkpMUUhjS1ctdnphbWRaRUIxdVV1Slk2NWI5SHZGLTBIbjRXRzFMVW1lQWFONTVSUUZwb3A1RXBuMmZfNklVTUZ1bnBzVllXdUZJTlh2cDhvWUJYdnRRblE1bE8tVjRoS2c?oc=5",
+          "original_title": "아모레퍼시픽재단, 일본에서 K-뷰티 클래스·전시 진행",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "코리아리포트",
+              "title": "아모레퍼시픽재단, 일본에서 K-뷰티 클래스·전시 진행",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrUFlQOFBGZkpMUUhjS1ctdnphbWRaRUIxdVV1Slk2NWI5SHZGLTBIbjRXRzFMVW1lQWFONTVSUUZwb3A1RXBuMmZfNklVTUZ1bnBzVllXdUZJTlh2cDhvWUJYdnRRblE1bE8tVjRoS2c?oc=5",
+              "image": "https://cdn.koreareport.co.kr/news/photo/202611/54427_57638_5144.jpg",
+              "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54427"
+            },
+            {
+              "name": "지이코노미",
+              "title": "“화장법 넘어 문화·과학으로”… 아모레퍼시픽재단, 日 도쿄·오사카서 K-뷰티 스펙트럼 넓힌다",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZTVc4Z0tjdVlFbUQxSjFJWUN4NzdFai1jeXMwNVZkQjlYUG05NnFwUml1WDNBSlZHbHE1SWZBV01ETkd0NzZqcHF1bUg2alJiQzB1Mkg4eXFSTk1VOVpfVXp3N3pUTTA?oc=5",
+              "image": "https://www.geconomy.co.kr/data/photos/20261145/art_17939698010171_cc47c6.jpg",
+              "url": "https://www.geconomy.co.kr/mobile/article.html?no=325371"
+            },
+            {
+              "name": "헬스경향",
+              "title": "아모레퍼시픽재단, 일본서 K-뷰티 문화·과학 알린다",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vejdBcmFyRGNPYmQ2TDN3X2U4eDFsU0I5b01hcVBBeklPb0F5U0EyTlZ3eFdURktaS1ZSZnQyYVVCaWd1U3hvRHhtQk9uQ0xwYWdxRlg4bTR0SzlWdVRNS1FQWWJkanRoZEtJ?oc=5",
+              "image": "https://cdn.k-health.com/news/photo/202611/102071_203835_3454.jpg",
+              "url": "https://www.k-health.com/news/articleView.html?idxno=102071"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "도쿄·오사카서 K-뷰티 체험…아모레퍼시픽재단, 메이크업 클래스 개최",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRGstQ2F4UWZRalU0aGYwSy10MEtxVXdsOHZZNFpjN2U5LTRKQ0FoSEVkTnloYTZxMHlxREpQU0wxanpRb09IX0lZU21QSVVXUjBubl9OejlOdXhsRTBYT2I2ak10Y3FFRVRITjBwS0Y4UWl6MmlPRUdKMExqeVRFLTM2Q0hKSHFGSU00?oc=5",
+              "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026110616524005647740eacf40412512920052.jpg",
+              "url": "https://www.g-enews.com/article/Distribution/2026/11/202611061652111217740eacf404_1"
+            },
+            {
+              "name": "Korea IT Times",
+              "title": "아모레퍼시픽재단, 일본서 K-뷰티 문화 알린다",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5md1d4dldRYWdzQUxvdWl4Uy0yNkpLYThsbGQ5RkxUOG5xSDAwcjZUZFQySDh4cEI2TERsMVU4eFM4SmpNSnNQSm10X1hRUzFxcEJQRGt2YU9jU3JfT1RiRWhFZHlHeHJGdm9STVJDRnk?oc=5",
+              "image": "https://www.koreaittimes.com/news/thumbnail/202611/158880_108488_1333_v150.jpg",
+              "url": "https://www.koreaittimes.com/news/articleView.html?idxno=158880"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "SK인텔릭스 AI 로봇 나무엑스 시니어케어 확대",
+          "summary": "SK인텔릭스가 AI 웰니스 로봇 '나무엑스'를 시니어케어 시장에 확대하였다. 4자와 협약을 체결해 솔루션을 구축했다.",
+          "source": "오늘경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LVFplWlJ4U3VHVGlnMTltbS14bmhVMGtZRjFRUG02YS1hakcxWWJGdU5OcDZOS25OcU5Gd3FYX2d1Zm42VUllT2stRFBmT3RQTXVHNkJOdlFLLWN2ZDNpa3R6NzViZDZxbmJBR3hyZ3docWM?oc=5",
+          "original_title": "SK인텔릭스, AI 웰니스 로봇 '나무엑스' 시니어케어 시장 확대",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "오늘경제",
+              "title": "SK인텔릭스, AI 웰니스 로봇 '나무엑스' 시니어케어 시장 확대",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LVFplWlJ4U3VHVGlnMTltbS14bmhVMGtZRjFRUG02YS1hakcxWWJGdU5OcDZOS25OcU5Gd3FYX2d1Zm42VUllT2stRFBmT3RQTXVHNkJOdlFLLWN2ZDNpa3R6NzViZDZxbmJBR3hyZ3docWM?oc=5",
+              "image": "https://cdn.startuptoday.co.kr/news/photo/202611/818361_617316_1407.jpg",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=818361"
+            },
+            {
+              "name": "매일경제",
+              "title": "SK인텔릭스, AI 웰니스 로봇 ‘나무엑스’로 시니어케어 공략 나선다",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ea0EweTNfN0hpU3J6ZXRFRVp0VjJIY2cyOEFpZlNjdlV2bWNNdkg1U0ZYWnBJSWV4bHNwMFZsUk5aWGw5eV91N005RXB1WFI1?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/06/news-p.v1.20261106.9894547caeff4b9d819b5e21037d04fe_R.jpeg",
+              "url": "https://www.mk.co.kr/news/pick/12200324"
+            },
+            {
+              "name": "한국아이닷컴",
+              "title": "SK인텔릭스, 4자 협약 체결…AI 웰니스 로봇 시니어케어 솔루션 구축",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzdHVlUmdjdmNEd3B6NTRNT29FOU5FeXJDNS1HSjRic183WEUxLUQxdGRsOVJDcTQtR2hfN3BBeXMzSnR2ZU9pYTBOazB0b01JMnAtVW1PaE9KdzBtYm9KSU5SUmdJQnMxQ2ZXVjZWWdIBb0FVX3lxTFBzdHVlUmdjdmNEd3B6NTRNT29FOU5FeXJDNS1HSjRic183WEUxLUQxdGRsOVJDcTQtR2hfN3BBeXMzSnR2ZU9pYTBOazB0b01JMnAtVW1PaE9KdzBtYm9KSU5SUmdJQnMxQ2ZXVjZWWQ?oc=5",
+              "url": "https://www.hankooki.com/news/articleViewAmp.html?idxno=347878"
+            },
+            {
+              "name": "팝콘뉴스",
+              "title": "SK인텔릭스, AI 웰니스 로봇 ‘나무엑스’로 시니어케어 시장 공략",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrOG1UaEE5QzJLTmRPbkNuamhOeS0xR1k5S3lNdUJXMS1nMmItbEpBRG42ZGcxS0VMYk1GWWFDZmU5cmhEbXNONHdkMnBWUDVDMkNsM19BdzdBRk5WOGdWWGZJTFpuSXEtazNKVHdzbEhtd9IBckFVX3lxTFBrOG1UaEE5QzJLTmRPbkNuamhOeS0xR1k5S3lNdUJXMS1nMmItbEpBRG42ZGcxS0VMYk1GWWFDZmU5cmhEbXNONHdkMnBWUDVDMkNsM19BdzdBRk5WOGdWWGZJTFpuSXEtazNKVHdzbEhtdw?oc=5",
+              "url": "http://www.popcornnews.net/news/articleViewAmp.html?idxno=138980"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "SK인텔릭스, 시니어케어 4자 업무협약···AI 웰니스 로봇 '나무엑스' 활용 강화",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aTmlTeS1jb2JXcWdGeTEwTlZOZ2tEWFhlb3pyNzRHYXBubUNXRFdBck8ybDltS0VhY19lTWdqVGF4OGR0dUlKMDV3UkNnQWt2U0l0V193bEpBR2NG?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/06/2611060848077660_840_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261106000161"
+            }
+          ]
+        },
+        {
+          "headline": "mRNA RSV 백신, 고령자 입원위험 80% 이상 감소",
+          "summary": "mRNA RSV 백신이 고령자 입원 위험을 80% 이상 낮춘다. 임상시험 결과가 발표되었다.",
+          "source": "메디칼트리뷴",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UYW5XLU5rRzVreUppSVBoR0EtUnFudGVub25HdzFyLUhTcW1OdTYzdlZRMTViNUF0NlB3cWhTR2xTVF9IY3JVYS12S21Wd3BadGhyV1cyazB5Z2JVM01nVnVWSGRGWWo0aWhfZnFfOVJFOXV0Wnc?oc=5",
+          "original_title": "mRNA RSV 백신, 고령자 입원위험 80% 이상 낮춰",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "메디칼트리뷴",
+              "title": "mRNA RSV 백신, 고령자 입원위험 80% 이상 낮춰",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UYW5XLU5rRzVreUppSVBoR0EtUnFudGVub25HdzFyLUhTcW1OdTYzdlZRMTViNUF0NlB3cWhTR2xTVF9IY3JVYS12S21Wd3BadGhyV1cyazB5Z2JVM01nVnVWSGRGWWo0aWhfZnFfOVJFOXV0Wnc?oc=5",
+              "image": "https://cdn.medical-tribune.co.kr/news/thumbnail/202611/215775_63808_2956_v150.jpg",
+              "url": "http://www.medical-tribune.co.kr/news/articleView.html?idxno=215775"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이재명 대통령, 이용철 법무부 장관 후보 지명",
+          "summary": "이재명 대통령은 6일 법무부 장관 후보로 이용철 방위사업청장을 지명했다. 이 후보는 사법연수원 21기 출신이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261107/134982646/2",
+          "original_title": "李, 법무장관에 ‘성남 라인’ 이용철 방사청장 지명",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "李, 법무장관에 ‘성남 라인’ 이용철 방사청장 지명",
+              "link": "https://www.donga.com/news/Politics/article/all/20261107/134982646/2"
+            },
+            {
+              "name": "경향신문",
+              "title": "신임 법무장관에 ‘친노·민변’ 이용철 지명…‘성남라인·대장동 의혹’ 청문회 달굴 듯",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yUjRVQWlwUGdNeTlzYUNmdDVzX1A4NUxkOWpzQlIxTEVGT3g2d21tMjgyMFZOSzhVUmJFbndkSW1oTFN2dnRLNEY4djlkcnYxVVYzUnVEQmZPd9IBX0FVX3lxTE1VZkJONmNVbi1iXy1CTzgzX19ydFRkT2tjN3NVbmRCT3hJQkxKaUJSR2Q2Q2t2QUZRejllTVZrUlFGYXFJazR2eEcxS0lrOG9EQTVrM3c1ZU14MkUtdXZz?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/06/news-p.v1.20261106.7bb99a05b67248978f9ca973c0dd86be_P1.jpeg",
+              "url": "https://www.khan.co.kr/article/202611061712001"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "신임 법무장관 이용철 방사청장…청와대 정무수석 최인호",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834289",
+              "image": "https://img.sbs.co.kr/newimg/news/20261106/202238663_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "신임 법무장관에 이용철 방사청장 지명…靑 정무수석 최인호(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261106130851001",
+              "image": "https://img2.yna.co.kr/etc/inner/KR/2026/11/06/AKR20261106130851001_02_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "중수청 쿠팡 허위 세금계산서 의혹 경찰 이첩",
+          "summary": "경기 광주 쿠팡 물류센터에서 발생한 허위 세금계산서 발급 의혹을 중수청이 경찰에 이첩했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611061801011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "중수청, ‘쿠팡 허위 세금계산서’ 의혹 경찰로 이첩…“중복수사 우려”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "중수청, ‘쿠팡 허위 세금계산서’ 의혹 경찰로 이첩…“중복수사 우려”",
+              "link": "https://www.khan.co.kr/article/202611061801011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/06/news-p.v1.20261009.caa12ccef3ae4b4680d269537e77c92c_P1.png"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "중수청, 쿠팡 허위 세금계산서 의혹 경찰 이첩…“중복 수사 우려”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zME50ckdYTnJ5TWFTcUNKY2pGR1NKMER3ZWtmZW9lZHQ2QWVWNFBIMUZJdHJ6MW1DeWtlU0xJbHVVd1ZLbDlhUDlMVTNOMmRyTkEtbW55cmVfcTA?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/06/20261106_GSSpk4.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8706159"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "백악관 비서실장 교체 스티븐 밀러 지명",
+          "summary": "미국 중간선거 참패 이후 트럼프 대통령이 스티븐 밀러를 새 비서실장으로 임명했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834861",
+          "original_title": "백악관 비서실장 전격 교체…강경파 스티븐 밀러 지목",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "백악관 비서실장 전격 교체…강경파 스티븐 밀러 지목",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834861",
+              "image": "https://img.sbs.co.kr/newimg/news/20261107/202238780_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "트럼프, 선거 참패에도 강경파 밀러 비서실장 발탁(종합)",
+              "link": "https://www.newsis.com/view/NISX20261107_0003858717",
+              "image": "https://img1.newsis.com/2026/11/07/NISI20261107_0001727417_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프, 와일스 비서실장 교체…후임에 강경파 최측근 스티븐 밀러(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261107005051071",
+              "image": "https://img5.yna.co.kr/photo/etc/up/2026/04/07/PUP20260407014501009_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "트럼프, 선거 참패에도 강경파 밀러 비서실장 발탁",
+              "link": "https://www.donga.com/news/Inter/article/all/20261107/134982852/1"
+            }
+          ]
+        },
+        {
+          "headline": "예멘 시내 공습 30명 사망, 사우디·후티 책임 공방",
+          "summary": "예멘 남서부에서 사우디 아라비아의 공습이 후티가 장악한 지역에 가해져 30명이 사망했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261107004200099",
+          "original_title": "\"예멘 시장서 공습으로 30명 사망\"…사우디·후티 책임 공방",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "\"예멘 시장서 공습으로 30명 사망\"…사우디·후티 책임 공방",
+              "link": "https://www.yna.co.kr/view/AKR20261107004200099",
+              "image": "https://img3.yna.co.kr/photo/reuters/2026/11/04/PRU20261104415001009_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "\"예멘 시장서 공습으로 30명 사망\"‥사우디·후티 책임 공방",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45bXdlc1RySkVrSTBFa1B0OHhwY0pseTB2RTdiQ1BTc1VHOWtGMlUzRy1nTV9yTjNPVmJxVVpRNlk2VjRtVGJyX2F0X1FZQmo2emI1OWRnbE9YelBraUJYWDA0YjlYeGJjV3gxeDhTMFUyTFlH0gF0QVVfeXFMUHNFeTBwa19LYVpBSW1DYWY2ejdDUkdwRTc2S2xYcl9Xa0tUT01RMjNhX05qTER2WEY4Ul9KaVhhQXVUYlRudnJ2cXpVVFE4X2FBRmYydVIwMnFEX0pDREVVYXZqS0V6ZndjNmxabGZtazRNOGc?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/07/s261107_0011.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6863852_36925.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "스마트폰 출하량 20% 감소, 3분기 최저치",
+          "summary": "2026년 3분기 전 세계 스마트폰 입고량이 20% 감소해 2013년 이후 가장 낮은 수준을 기록했다.",
+          "source": "elec4",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10cUZraVBiM0VxeFl2ZUl6WWNWMUlkTmV5d0kzTkI1VUl3b3M1TW5KbVNUM3E0eUt5ZExVMmRrb1lJQXFzdGZzSHJER3FPNVhoSDZtY3NoRTBPYWFxNEIyYzE5Vl9yUGlTZHlqZlF3?oc=5",
+          "original_title": "2026년 3분기 글로벌 스마트폰 출하량 20% 감소 집계",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "elec4",
+              "title": "2026년 3분기 글로벌 스마트폰 출하량 20% 감소 집계",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10cUZraVBiM0VxeFl2ZUl6WWNWMUlkTmV5d0kzTkI1VUl3b3M1TW5KbVNUM3E0eUt5ZExVMmRrb1lJQXFzdGZzSHJER3FPNVhoSDZtY3NoRTBPYWFxNEIyYzE5Vl9yUGlTZHlqZlF3?oc=5",
+              "image": "https://elec4.co.kr/media/commonfile/202611/06/19b4ce9f7a28c047cb52b4633583173e.png",
+              "url": "https://elec4.co.kr/contents/article_detail?article_idx=38620"
+            },
+            {
+              "name": "스포츠 피플 타임즈",
+              "title": "옴디아, 2026년 3분기 글로벌 스마트폰 출하량 20% 감소… 2013년 이후 3분기 최저치",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MRUh0ZmYwdHNwVjJHMFBDeG0wa2p5aFlrelNBRWxuaFRfZXRqSWtETWxBQzRZeTlDUWh6YjkzYzlJUC1QTTNsV3A4dDdBZjhRLTdzN2V4VmFQT1lObTVWX1dhc25ONk1zV3M1UnhSNU9JMy12NDRJ0gF3QVVfeXFMTUxFSHRmZjB0c3BWMkcwUEN4bTBranloWWt6U0FFbG5oVF9ldGpJa0RNbEFDNFl5OUNRaHpiOTNjOUlQLVBNM2xXcDh0N0FmOFEtN3M3ZXhWYVBPWU5tNVZfV2Fzbk42TXNXczVSeFI1T0kzLXY0NEk?oc=5",
+              "url": "http://www.sportpeopletimes.com/news/articleViewAmp.html?idxno=38214"
+            },
+            {
+              "name": "newsphere.kr",
+              "title": "스마트폰 출하 20% 급감…13년 만의 3분기 최저",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iS013NnZjNElRZlhyeF96QUMxc0ZHRmp4WVN1QnRYWDdoSVpFVDhCajNYMllNc0dQSldaUUlBQ2VsRW0yX2h1OGk1VERvdlVVbTdtQW91SFFmMTI2cEhYRlRqYmhCUEdD?oc=5",
+              "image": "https://cdn.newsphere.kr/news/photo/202611/3416_4630_1432.jpg",
+              "url": "https://www.newsphere.kr/news/articleView.html?idxno=3416"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "[주말 극장가] ‘명탐정 코난: 30호 살인 사건’ 개봉 첫날 1위…일본 애니 강세",
+          "summary": "",
+          "source": "애드뉴스인천",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uNnpsdnZRWDd1d0NwaWNEZm1PVkpCS1BfRWZoc3ZEZm9zdy1ZRnRTdmRBOFNxSWc1dzBCcFB3WTl6SGhZb0FfdnlVYS0zeExjaC0yME9yeWNtTk84dlRpajJPTEdGUUszWGs0?oc=5",
+          "original_title": "[주말 극장가] ‘명탐정 코난: 30호 살인 사건’ 개봉 첫날 1위…일본 애니 강세",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "애드뉴스인천",
+              "title": "[주말 극장가] ‘명탐정 코난: 30호 살인 사건’ 개봉 첫날 1위…일본 애니 강세",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uNnpsdnZRWDd1d0NwaWNEZm1PVkpCS1BfRWZoc3ZEZm9zdy1ZRnRTdmRBOFNxSWc1dzBCcFB3WTl6SGhZb0FfdnlVYS0zeExjaC0yME9yeWNtTk84dlRpajJPTEdGUUszWGs0?oc=5",
+              "image": "https://cdn.addnewsin.com/news/photo/202611/63523_18051_1057.jpg",
+              "url": "https://www.addnewsin.com/news/articleView.html?idxno=63523"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "‘명탐정 코난’ 개봉 첫날 1위… 2위는 ‘최종면접’",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSDZpWVJUMklqVUtsMWhCS3R2ZDBHcDdtUlJNZ2lkNFMzX0g5UG9BcnQ0S1hKR3I5eHdZamlqTW5LaGdUVk1CbUN6OWs2T1hicUZ0bFN5aFVFVy1DTFAyVnpQTTc4ZndzX1ZmMkZrSjdsOE0wSlE3VkIzSHZWZDBNeHFNZVZpUk9UWWhfdWV30gGiAUFVX3lxTE9UQV9BYTlZSmxWdU5xcVlGNDNwY2E1eXdQdTZITGx5TXF2Z3pZOU92blBhbk1YWjJCVkE1VEE0YnF0c21JOC0zdThFQW5nMVJZUWZDdjZBd29zb1lvZHJVSGJ2d1BPci1GYU5BN05LZmtoYmJMUFZwZWRBVGNRVUlnWWtCalZhRHRyZ2tpeU13MjdYNm1sdUgwREUzUkJLR3BVUQ?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/GQ2GEMBWGVRWCMBWGM3TQNZWGM.jpg?auth=ef0460b0e7482bde45567c2588f8e2734415984eb10c7044aa09f1dd626d08ba&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/culture/culture_general/2026/11/06/DRKGOW2T75FR5B5Y2DXVCDRSRI/"
+            },
+            {
+              "name": "ER 이코노믹리뷰",
+              "title": "‘명탐정 코난: 30호 살인 사건’ 개봉 첫날 1위 출발…‘최종면접’ 2위 [11월 5일 영화 박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XVGQ5RWUzalEyYjJZU3RCVEI5Vm83ZGdWbVJrY1pSdWxrTW95THlYVFNiR1JRMnlRNWpMdlRhMGxTTW5UTnBCZExRa0xWYzNxbU1YbVB0Qmwxb1ZMTFBxMzhVdWZMV3ZEVm9NSg?oc=5",
+              "image": "https://cdn.econovill.com/news/thumbnail/202611/756284_733715_4618_v150.jpg",
+              "url": "https://www.econovill.com/news/articleView.html?idxno=756284"
+            },
+            {
+              "name": "재경일보",
+              "title": "「명탐정 코난: 30호 살인 사건」 25,379명 1위 : 영화",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OWnJpUEhCLW9DMHpsOXNvTE1HLXBqNnROM29LTXZHS3NfbVJoLWhCMmhlMHMwNk81cnZoRWZmczQxWk85VHl5cUZyWQ?oc=5",
+              "image": "https://images.jkn.co.kr/data/images/full/110/55/1105537.jpg?v=1793928629&width=1200&height=630",
+              "url": "https://news.jkn.co.kr/post/1074094"
+            },
+            {
+              "name": "entv.kr",
+              "title": "'명탐정 코난' 개봉 첫날 박스오피스 1위, 주말 예매율은 '치이카와' 선두",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2U1lrQ3VmdUZVMzJSbmFZdkJubTA1X0FmbUxjeHh0c2RmeWpjM3Y1eUFfYUpKZEJVQlBPUmNKeXBKVFJtTmIwYktTblI1cmRXWG94a3pvVFo4dkJYQ3N3UHppb2s?oc=5",
+              "image": "https://cdn.entv.kr/news/photo/202611/221858_8387_102.jpg",
+              "url": "https://www.entv.kr/news/articleView.html?idxno=221858"
+            }
+          ]
+        },
+        {
+          "headline": "\"떠올리고 싶지 않다\"…‘코로나19’ 다룬 중국 영화, 개봉 무산",
+          "summary": "",
+          "source": "JTBC",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtVkhqb1dPTVVsbUpfT0Q1TERucThjTW9VTHBxNDl0c3lXTUozV1djTi1vSXRvd24ycDBsR1RIZjdFRGF5eFZjQ1Y1a0pkcEdGTnc?oc=5",
+          "original_title": "\"떠올리고 싶지 않다\"…‘코로나19’ 다룬 중국 영화, 개봉 무산",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "JTBC",
+              "title": "\"떠올리고 싶지 않다\"…‘코로나19’ 다룬 중국 영화, 개봉 무산",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtVkhqb1dPTVVsbUpfT0Q1TERucThjTW9VTHBxNDl0c3lXTUozV1djTi1vSXRvd24ycDBsR1RIZjdFRGF5eFZjQ1Y1a0pkcEdGTnc?oc=5",
+              "image": "https://thumb.jtbc.co.kr/photo/r600x0/etc/2026/11/06/20261106161304425001.png",
+              "url": "https://news.jtbc.co.kr/video/NB12326858"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "中 코로나19 영화, 논란 속 개봉 무산",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWkZreGlDMnlQb0hJcGU5X1JuZmdYdWl3NW1VUFZQTHh4NUtxZnlBMm5UMV9zaTljaHB2ZXpaNlhfaGt0OUNKZVlDV1YyTWhGOF8tMS1WVzA2NTVzdFh0YlhuVlhWMnlqam9sTFp2MndCMEpJaE9qaGxHZTc2VnktT1lVenNtblgtUXl2LTlOWTZDM2NCM0FQMDZpR3VBZ9IBsgFBVV95cUxQLTVlMEdCeXdQekJoTlctbXlRYkJkSGJiS1NyVUlRMmoyS24tVXBfNm1wdGl3NnZtTDM4dVc5RFRRRFczYTZacUd5OWk5OWlPNjNSR1ZET01UZkc0ZzI4Mk5tbEVJZDB0VnpHdC1UQTFLYlVOUXptNlBETEhDdWVfN3dLeHBHTHAxLXVnWWUzMU1TMmNnYU9hWGpObTJtRDg4VS1KbHc2Y2JYUzVxdXpfaW1n?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/AWW5AFLEJNGTFCIBKCY7UL27VI.png?auth=31fe76e4ed01313c20efaec8f6df729effbddd8ad0546a1e0758957195869ee9&width=580&height=304&smart=true",
+              "url": "https://biz.chosun.com/international/international_general/2026/11/06/PIUUNVJJZZFFDNNFAC2GTRXJXY/"
+            },
+            {
+              "name": "미디어워치",
+              "title": "[미디어 이슈] “트라우마에 반발 여론” 中 코로나19 영화 또 개봉 무산… 6년째 표류",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJSkNYeVdZQURUNW1KUXRISzFKM3BsbHRiV1d5M1VoU2FLS2p1UmlXODNEdUNEZGF6amV1cG5wYjNyQWlNLXBfZUpKcEV3djdVdnlfM2UtU2FrWllfdWNTaVE1UQ?oc=5",
+              "image": "https://www.mediawatch.kr/data/photos/20261145/art_17939469941726_d9cfc1.jpg",
+              "url": "https://www.mediawatch.kr/news/article.html?no=261653"
+            },
+            {
+              "name": "아시아경제",
+              "title": "\"누가 돈을 내고 극장에 가겠나\"…中 코로나19 다룬 영화 개봉 무산",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVUJCVVprbFItT0ozWnBVQm1rZU1yaFFTQlB6UjdTUWVmbTctZTk4cFBTWjE5THNDS0MxUXo5cDhIdmsyVzJKb1YzeEhZSTNoY2V6bk9JN2lXX3l6MnZqQ2dodDJ2bHUyemdjal9ZSjkzVGxIOC1qNTM5T19MUm5LMkhn?oc=5",
+              "url": "https://www.asiae.co.kr/realtime/sokbo_viewNew.htm?idxno=2026110614594601954"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "이해인 트리플 악셀 성공…점프 실수로 6위",
+          "summary": "피겨스케이팅 국가대표 이해인이 트리플 악셀을 성공적으로 착지했지만 이어진 점프에서 실수를 하여 그랑프리 쇼트에서 6위에 머물렀다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261107_0003858760",
+          "original_title": "'점프 실수' 피겨 이해인, 시즌 첫 그랑프리 쇼트 6위…서민규는 10위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'점프 실수' 피겨 이해인, 시즌 첫 그랑프리 쇼트 6위…서민규는 10위",
+              "link": "https://www.newsis.com/view/NISX20261107_0003858760",
+              "image": "https://img1.newsis.com/2026/11/06/NISI20261106_0021522842_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "'점프 난조' 피겨 이해인, 그랑프리 3차 대회 여자 쇼트 6위(종합)",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KakdwT1B4U0ZBMTVkRkU3bXh1YlczQzF5T0w1emo3RkhCbHJwdTVxMlE5MlZTYlIxSTd6SEVWVmhFbjhjWjliVXBQTjRYNU52b2RRRzZTNDZzVTjSAWBBVV95cUxQbTg2eWFzTjFnWXk4MVBSSlVhUlFkMUNZSlFaYzRMRWtsMTN2dTBYYnpHdVhaRUNrZVVmdVZOMmJRN2Vud2dIVmVNbXFNRU5XT0N6bk90d0J3c3hIOWloTDU?oc=5",
+              "image": "https://img8.yna.co.kr/photo/reuters/2026/11/06/PRU20261106284301009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261106181051007"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "'점프 난조' 피겨 이해인, 그랑프리 3차 대회 여자 쇼트 6위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834714",
+              "image": "https://img.sbs.co.kr/newimg/news/20260714/202202045_1280.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "주말부터 한파! 지금 사서 오래 입을 블랙 코트",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 7,
+      "t_min": 0,
+      "rain_pct": 0,
+      "sky": "대체로 맑음",
+      "display": "서울 0~7°C · 대체로 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "주말부터 한파! 지금 사서 오래 입을 블랙 코트",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1912722",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/11/06/97b99439-258e-46c6-90f2-b9093eefd41b.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "남을 아는 것은 지혜요, 자신을 아는 것은 밝음이다.",
+    "author": "노자",
+    "work": "도덕경"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 빛을 비추네"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 여유를 즐길 수 있는 날"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전의 에너지가 활력을 주네"
+      },
+      {
+        "animal": "토끼",
+        "text": "친구와의 작은 대화가 기분을 돋우네"
+      },
+      {
+        "animal": "용",
+        "text": "창의력으로 마주한 과제가 흥미진진"
+      },
+      {
+        "animal": "뱀",
+        "text": "차분한 태도가 오늘을 편안하게 해"
+      },
+      {
+        "animal": "말",
+        "text": "새로운 길을 향해 가볍게 걸어가"
+      },
+      {
+        "animal": "양",
+        "text": "자연과 함께하는 순간이 소중해"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 오늘의 분위기를 밝히네"
+      },
+      {
+        "animal": "닭",
+        "text": "일상에 작은 변화를 주면 기분이 새로워"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰와 친절이 오늘의 핵심이 될 거야"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 가득한 하루를 맞이할 준비를"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
