@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-09",
+  "weekday": "월요일",
+  "vol": 28,
+  "generated_at": "2026-11-09T08:32:17+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5059.69,
+      "change": -324.11,
+      "change_pct": -6.02,
+      "direction": "down",
+      "display": "5,059.69",
+      "change_display": "▼ 6.02%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1362.9,
+      "change": 6.6,
+      "change_pct": 0.49,
+      "direction": "up",
+      "display": "1,362.9원",
+      "change_display": "▲ 0.49%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 103196000.0,
+      "change": -504000.0,
+      "change_pct": -0.49,
+      "direction": "down",
+      "display": "10,320만원",
+      "change_display": "▼ 0.49%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 11,
+    "t_min": 4,
+    "rain_pct": 78,
+    "sky": "구름 조금",
+    "display": "서울 4~11°C · 구름 조금 · 강수 78%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "드라마",
+      "headline": "시청자 이탈, 닥터X 예고편에 반응",
+      "summary": "조선일보는 닥터X 예고편이 시청자 이탈을 유발했다는 보도를 했다.",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/opinion/taepyeongro/2026/11/08/LQIMJ7KPOVDBPKBEN4IMB6P5PE/",
+      "original_title": "[태평로] ‘닥터X’ 시청자들은 어디로 갔을까",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "[태평로] ‘닥터X’ 시청자들은 어디로 갔을까",
+          "link": "https://www.chosun.com/opinion/taepyeongro/2026/11/08/LQIMJ7KPOVDBPKBEN4IMB6P5PE/",
+          "image": "https://www.chosun.com/resizer/v2/YD6DZZFKGFBKVKW5QM6G6S4LNA.png?auth=6c020c5ffdfe5c1ce4e67589d1384d14e11db6128ce7caf3f79228c21a7abc26&width=885&height=464&smart=true"
+        }
+      ]
+    },
+    {
+      "kicker": "연예",
+      "headline": "송중기, 운동 중 아이와 영통",
+      "summary": "스포츠경향은 송중기가 운동 중 자녀를 품에 안고 웃는 모습을 보도했다.",
+      "source": "스포츠경향",
+      "link": "https://sports.khan.co.kr/article/202611081515003",
+      "original_title": "‘케이티♥’ 송중기, 아이 끌어안고 함박웃음…운동 중에도 자녀와 ‘영통’ 삼매경",
+      "sources": [
+        {
+          "name": "스포츠경향",
+          "title": "‘케이티♥’ 송중기, 아이 끌어안고 함박웃음…운동 중에도 자녀와 ‘영통’ 삼매경",
+          "link": "https://sports.khan.co.kr/article/202611081515003",
+          "image": "https://images.khan.co.kr/article/2026/11/08/news-p.v1.20261108.b22256e5473f4f42bc7152dc4c6a6a83_P1.png"
+        },
+        {
+          "name": "OSEN",
+          "title": "'케이티♥' 송중기, 두 딸 안고 아빠 미소..\"운동 중에도 영상통화\"[핫피플]",
+          "link": "https://www.osen.co.kr/article/G1112906588",
+          "image": "https://file.osen.co.kr/article_thumb/2026/11/08/202611081616772021_6af0275b2d1e4_300x.png"
+        },
+        {
+          "name": "세계일보",
+          "title": "송중기, 트레이너 자녀 품에 안고 함박웃음…두 아이 아빠의 다정함",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKNjFzVnVyVlMzRFJrSEpra043cDlNcW5FWjJVb3poQlhuT3FKbzJSVjhtNW1BOTNIbHJGX01JeHdWNW9admZtVGV2Z3JWN2Z3TTBVSXdsajLSAVRBVV95cUxQRTVVN21aOEd4aHVDenlIcE54MmhUdTR4RDNLdkFqWHA0d1JrVml0Qlg2RzlIa2ZXTWFlUVRCU2pIOVYtXzdpSGNvaVRwb1UwLTAxNFU?oc=5",
+          "image": "https://www.segye.com/content/image/2026/11/09/20261109502147.jpg",
+          "url": "https://www.segye.com/newsView/20261109502166"
+        }
+      ]
+    },
+    {
+      "kicker": "날씨",
+      "headline": "주초 초겨울 추위, 남부 비·강원 눈",
+      "summary": "연합뉴스TV는 주 초까지 초겨울 추위와 남부 비, 강원 산지 눈을 보도했다.",
+      "source": "연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQZFVEOFExckwtNE10OEp5MllkVjE0OUNTWTBPMEVBejBxc0xzNmFHcDFjZWhLU3Ixc3J0bTNqeUM5UTZJUTVSa1FqcEo5bjF3YWJOTXJLa1VTZWZLeHlBdWtNZkRmZnM?oc=5",
+      "original_title": "[날씨] 주 초까지 초겨울 추위… 남부 비·강원 산지 눈",
+      "sources": [
+        {
+          "name": "연합뉴스TV",
+          "title": "[날씨] 주 초까지 초겨울 추위… 남부 비·강원 산지 눈",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQZFVEOFExckwtNE10OEp5MllkVjE0OUNTWTBPMEVBejBxc0xzNmFHcDFjZWhLU3Ixc3J0bTNqeUM5UTZJUTVSa1FqcEo5bjF3YWJOTXJLa1VTZWZLeHlBdWtNZkRmZnM?oc=5",
+          "image": "https://media.yonhapnewstv.co.kr/article/MYH/20261108/MYH20261109080538JMH.jpg",
+          "url": "https://www.yonhapnewstv.co.kr/news/MYH20261109080538JMH"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "4대 금융지주 배당·자사주 소각 역대급",
+          "summary": "4대 금융지주가 배당·자사주 소각을 역대급으로 확대했다. KB금융 55%, 신한 52% 등 글로벌 메가뱅크 수준에 육박하며 ESG·밸류업 전략을 강조했다. 5년 새 주주환원율이 두 배로 상승했으나 자본건전성 약화 우려가 제기됐다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12201960",
+          "original_title": "“번 돈의 절반은 주주에 돌려줍니다”…4대 금융지주, 배당·자사주 소각 역대급",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "“번 돈의 절반은 주주에 돌려줍니다”…4대 금융지주, 배당·자사주 소각 역대급",
+              "link": "https://www.mk.co.kr/news/economy/12201960",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/08/news-p.v1.20261108.423d9ef303be4b46830b4beadf33f7f1_R.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "현대백화점, 호주 멜버른 K패션 진출",
+          "summary": "현대백화점이 호주 멜버른에서 한국 패션·뷰티 제품을 판매하며 이틀간 1만 명이 방문했다.",
+          "source": "동아일보",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KN1g1LTNNOTZCWlJuQjBQM3VKM01sNGJfcG5LeG8zd3dMSDlTSWcybWRXOUNQckk1N05OM3Q4Qkd4TV9DeXR1aVhJY1g1ZzB0Z2Ita1VzY0NvU3lTREkxbC1QX20yd9IBZkFVX3lxTE5KN1g1LTNNOTZCWlJuQjBQM3VKM01sNGJfcG5LeG8zd3dMSDlTSWcybWRXOUNQckk1N05OM3Q4Qkd4TV9DeXR1aVhJY1g1ZzB0Z2Ita1VzY0NvU3lTREkxbC1QX20ydw?oc=5",
+          "original_title": "오세아니아 겨냥한 현대백화점…호주 멜버른서 K패션·뷰티 판로튼다",
+          "coverage": 19,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "오세아니아 겨냥한 현대백화점…호주 멜버른서 K패션·뷰티 판로튼다",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KN1g1LTNNOTZCWlJuQjBQM3VKM01sNGJfcG5LeG8zd3dMSDlTSWcybWRXOUNQckk1N05OM3Q4Qkd4TV9DeXR1aVhJY1g1ZzB0Z2Ita1VzY0NvU3lTREkxbC1QX20yd9IBZkFVX3lxTE5KN1g1LTNNOTZCWlJuQjBQM3VKM01sNGJfcG5LeG8zd3dMSDlTSWcybWRXOUNQckk1N05OM3Q4Qkd4TV9DeXR1aVhJY1g1ZzB0Z2Ita1VzY0NvU3lTREkxbC1QX20ydw?oc=5",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/08/134988519.1.jpg",
+              "url": "https://www.donga.com/news/amp/all/20261108/134988523/1"
+            },
+            {
+              "name": "문화저널21",
+              "title": "현대백화점, 호주 멜버른서 K브랜드 알려 '이틀간 1만명' 방문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4taHpQYThpTzJ5dVNjWlE3V3BZeFVvZmJya01pcEtSUXNWYU9HNWJqaXpONjl3TnFfSXE4djJDZENHWUFmcWpZVEhoQjM2RVR4akJiTWdjdVNFMk8xcy1oOVJBNlpBY28?oc=5",
+              "image": "https://cdn.mhj21.com/news/photo/202611/254717_167241_645.jpg",
+              "url": "https://www.mhj21.com/news/articleView.html?idxno=254717"
+            },
+            {
+              "name": "현대경제신문",
+              "title": "\"호주로 향한 K패션·뷰티\"···현대백화점, 판로 지원 확대 |",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oLTRjRy1KalRzeDBOUFRDU2hJWFctWW1HUXc1X2l1LVlDYl9qZDNMUHdYS3hjMGV2Z0p3RkdRTkdjMy1JUFVFa1M5d2dKMUcxWnFvSGdhRUtyMmFBYjlMVnFLQXloZHFhT2lJ?oc=5",
+              "url": "http://www.finomy.com/news/articleViewAmp.html?idxno=265971"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "현대백화점, K브랜드 호주 판로 확대 지원… 홍보관에 1만명 방문",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUpUSFY3cHdKOTVZcUJld2g4ZkhXM25MaHdDVk1sOVZrYUpsNHhOMjFxbW4xaVNJN0gzWlBHZ2MwZTZla2xSTVdENkFnVDkzSFFHdWs1MllBMHRYbVkzS0tTeW5xdkczN200azh3YzN1RTQ2OWlPWHlqNkJOMDhuZE1sRHZGbXJBRVHSAZ4BQVVfeXFMUFZQUzBLSmRqQ0RVT09nT3NqelBNOFEyYkJMX0lHdlNFM1ZrWEpSOHRxWVBMSXlMcTM3ZXdObjlzeDF0bTJVVGt3OFNKcjBxY3oyTTF3OVFFX3JLN0tXakVFeUF4Znd6NXpBOV9lcncxemxzTnlES1FvLWJENjRIMHFJNzdyOTI3N1dSclcyQzdUbDFzUk44VFhYT3dCTHc?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/G44GINLCMIZDOYZUGVRTCZBTGI.jpg?auth=6659753c6a40f70fd3f1e73600eb9a75c88ef485936665fe5b4c4007d8791797&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/distribution/channel/2026/11/08/DU32JXB3JVBHDAYWABCMSGXLPQ/"
+            },
+            {
+              "name": "머니투데이",
+              "title": "현대백화점, 호주서 K패션·뷰티 소개…현지 고객 1만명 방문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1uZGxDakxEaS1kOVA3Vzh6bnpEaHIxTlFtTE1yNkFVUy0wZ09SYlc3TVpGbUhHU0VaRkd1RldFd2tjRkpUUWlQMEN5Y3M4eDdob2wyNEJaUEhVTUxKcG1hbnhLN0ZxdGdScjhYSzZiONIBb0FVX3lxTE1uZGxDakxEaS1kOVA3Vzh6bnpEaHIxTlFtTE1yNkFVUy0wZ09SYlc3TVpGbUhHU0VaRkd1RldFd2tjRkpUUWlQMEN5Y3M4eDdob2wyNEJaUEhVTUxKcG1hbnhLN0ZxdGdScjhYSzZiOA?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026110813520359693_1.jpg",
+              "url": "https://www.mt.co.kr/amp/living/2026/11/08/2026110813520359693"
+            }
+          ]
+        },
+        {
+          "headline": "신세계 하이퍼그라운드, 대만·말레이시아 진출",
+          "summary": "신세계 하이퍼그라운드가 대만과 말레이시아에 K패션·K뷰티 브랜드를 처음으로 선보이며 영토를 확장했다.",
+          "source": "테넌트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3eVU4cFNLRmw5MzNwbk91ZTRGWXFTOFFoU2ZITFFDNllwNzVoVWxaR2Z2VEc4NWpTa1J1N3ZJc3Zja21oNUdxUmtlTl8?oc=5",
+          "original_title": "신세계 하이퍼그라운드, 대만·말레이시아 진출…K패션·K뷰티 선봬",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "테넌트뉴스",
+              "title": "신세계 하이퍼그라운드, 대만·말레이시아 진출…K패션·K뷰티 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3eVU4cFNLRmw5MzNwbk91ZTRGWXFTOFFoU2ZITFFDNllwNzVoVWxaR2Z2VEc4NWpTa1J1N3ZJc3Zja21oNUdxUmtlTl8?oc=5",
+              "image": "https://tnnews.co.kr/wp-content/uploads/2026/11/iyiuu.jpg",
+              "url": "https://tnnews.co.kr/archives/298799"
+            },
+            {
+              "name": "더페어",
+              "title": "“글로벌 K패션·뷰티 전파”…신세계 하이퍼그라운드, 대만·말레이시아 영토 확장",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZclhYUUJ0bm5lYTRKQzR0aW9Sa2E5RmhFdXBld0VuS0ZfcTF6c2lCQS1xbjEzalVoQnRqX2I3UFFGMktPQUcyYVlrREdTWHVKanhJYWZ4ZzdVZC1wajM2WTh0TFFPLW5qWEVSdEMxMTRtS0Qy0gF0QVVfeXFMT1lyWFhRQnRubmVhNEpDNHRpb1JrYTlGaEV1cGV3RW5LRl9xMXpzaUJBLXFuMTNqVWhCdGpfYjdQUUYyS09BRzJhWWtER1NYdUpqeElhZnhnN1VkLXBqMzZZOHRMUU8tbmpYRVJ0QzExNG1LRDI?oc=5",
+              "url": "https://www.thefairnews.co.kr/news/articleViewAmp.html?idxno=93450"
+            },
+            {
+              "name": "매일경제 마켓",
+              "title": "신세계 하이퍼그라운드, 대만·말레이시아 K브랜드 첫 진출",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nbHc3N0hyT0VPOUVhS0JlY3cyLUVybmJCMG0weTBrSFhDaDNIME9rZjN2cmNBUFRnMi11SWlEWjNpOGtHTDE5ZlNzbzBiUW5IS1E?oc=5",
+              "image": "https://stock.mk.co.kr/photos/20261109/AKR20261108042800030_01_i_P4.jpg",
+              "url": "https://stock.mk.co.kr/news/view/1193315"
+            },
+            {
+              "name": "아시아경제",
+              "title": "신세계 하이퍼그라운드, 대만·말레이시아 첫 진출…K패션·뷰티 판로 넓힌다",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55eUE0S0pzcHREcDRkSTBxdWxEc0thc0lSQm9jbTlaT0UzQWp1bXVWc0pvdUxWU0NmZEJOUGhYX3pkN0FGTnlfVEJHOGJSWno2M0lJclNKQlA0dUhDS3NhbQ?oc=5",
+              "image": "https://cphoto.asiae.co.kr/listimglink/1/2026110813360491040_1794112564.jpg",
+              "url": "https://www.asiae.co.kr/article/2026110813372319976"
+            },
+            {
+              "name": "뉴시스",
+              "title": "\"아시아로 영토 확장\" 신세계 '하이퍼그라운드', 대만·말레이시아 진출",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XWXo0d3cweW1HY2tEampJaGdDQ2dWVms1WnBRbENDZ2ExUkp1X1d3RVluaUtjZW05SkhKUHlzSm0wQU9OODIzOElQX2VMdGxCVGdlc3JCY3RKUEZtQ3FJTjdQc3A3dUxIZE84aXd2ZXZGNVpmSVdQdNIBeEFVX3lxTE1XWXo0d3cweW1HY2tEampJaGdDQ2dWVms1WnBRbENDZ2ExUkp1X1d3RVluaUtjZW05SkhKUHlzSm0wQU9OODIzOElQX2VMdGxCVGdlc3JCY3RKUEZtQ3FJTjdQc3A3dUxIZE84aXd2ZXZGNVpmSVdQdA?oc=5",
+              "image": "https://img1.newsis.com/2026/11/08/NISI20261108_0002286128_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261108_0003859451"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "한국콜마, 호주 K-뷰티 시장 공략 가속",
+          "summary": "한국콜마가 호주에서 6곳 고객사와 68억원 규모 수출 상담을 진행하며 K‑뷰티 시장 진출을 가속화하고 있다.",
+          "source": "헤럴드경제",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwZjNkTXhCc3NMemhLbGV6WUp6el9RLWVmYVlWS0p2UVVGcUR1aUg5VHJMZDhNSV9ncTVBLWgxZ3BMdmFhcnNMTWh5UWhBUVEteWNPUjV0OA?oc=5",
+          "original_title": "한국콜마, 호주서 수출상담 68억원…K-뷰티 시장 공략 가속",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "헤럴드경제",
+              "title": "한국콜마, 호주서 수출상담 68억원…K-뷰티 시장 공략 가속",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwZjNkTXhCc3NMemhLbGV6WUp6el9RLWVmYVlWS0p2UVVGcUR1aUg5VHJMZDhNSV9ncTVBLWgxZ3BMdmFhcnNMTWh5UWhBUVEteWNPUjV0OA?oc=5",
+              "image": "https://wimg.heraldcorp.com/news/cms/2026/11/09/news-p.v1.20261109.29535a9509554a5e948705210371d2a4_P1.jpg",
+              "url": "https://mbiz.heraldcorp.com/article/10929852"
+            },
+            {
+              "name": "코스인코리아닷컴",
+              "title": "한국콜마, 고객사 6곳과 호주 K-뷰티 시장 공략 수출 판로 확대",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XUlNEOXF4V2plY2lKQ0RFaUtHaHdGMVZRZi10ZXBrWDIwVVN2MS1fU3RSYVlyNVhaZG9ENTBjemY2azNUUG1jY2FWMUxSZXBxX2doRi1PTEVvazFiTm5EeW5VZw?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261146/art_17941556585914_f019e1.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58684"
+            },
+            {
+              "name": "뷰티트래블뉴스",
+              "title": "한국콜마, 호주 K-뷰티 시장 공략 가속…멜버른 한류박람회서 150여 건 수출 상담",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS0wwNlJzajR5am0ybDQ1eDNnRWpCbzBoaDNXRDV0RERyUmNEZGNTM19JLW5RSkFYN1BueUZHY1hIbUppa2QyRVhoSnBKNnhBZnZNUlFaN1NybzhjdUtBRmVKbk5qTWtndzAzNHpfY2JyYkVmZVF2OERPekJvRDhjejUyRjdSZw?oc=5",
+              "url": "https://www.beautytravelnews.com/news/view.html?section=2&category=103&no=12994"
+            },
+            {
+              "name": "미디어인뉴스",
+              "title": "한국콜마, 호주서 K-뷰티 판로 확대…수출 상담 150건·68억원 규모",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jUEdTNUlMamlXa3BkMzh1VHd4aEQyMlJRdm9hZjZGYjhiVE5zZFFzX1BqaHJlT2o3NFN6X0RGaThINUFxM3N5XzZrem1kTEpCdVBmdDg5dGpEUHNHWjNraW1qQ1pxSFpIc0RpdWNR?oc=5",
+              "image": "https://cdn.mediainnews.com/news/thumbnail/202611/48793_60182_1649_v150.jpg",
+              "url": "https://www.mediainnews.com/news/articleView.html?idxno=48793"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "예년보다 이른 독감, 48시간 내 진료 권고",
+          "summary": "예년보다 이른 독감이 재확산되면서, 증상 발생 시 48시간 이내에 진료를 받도록 권고한다.",
+          "source": "동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyREtPRUtmWGZ4dTFBeDJ1OHNKYlpueExrMDF5b1B5a3U5MWprczQyZXlmcnVtNldFVHltSlhiSWtIeFlDYTlueThkcDZObVd0RzY5bFREb3Vab1RkaUwyTE1lMXZBNWFrR2ZsVmM3a0tMUXlreHfSAWZBVV95cUxObFV5V09qVl9DblB0a2dCUlR5bHl2N1Z5dzFmdTA1YnUwSDVKN2pvaUVZSml2eUFka01OZlVkMF9vZGlkeHc2SUNwb0x5UU5yZ0c4dGlPM0c5T2NnaVJTUi1JNEZvd1E?oc=5",
+          "original_title": "예년보다 이른 독감…“의심 증상 48시간내 진료받아야”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "예년보다 이른 독감…“의심 증상 48시간내 진료받아야”",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyREtPRUtmWGZ4dTFBeDJ1OHNKYlpueExrMDF5b1B5a3U5MWprczQyZXlmcnVtNldFVHltSlhiSWtIeFlDYTlueThkcDZObVd0RzY5bFREb3Vab1RkaUwyTE1lMXZBNWFrR2ZsVmM3a0tMUXlreHfSAWZBVV95cUxObFV5V09qVl9DblB0a2dCUlR5bHl2N1Z5dzFmdTA1YnUwSDVKN2pvaUVZSml2eUFka01OZlVkMF9vZGlkeHc2SUNwb0x5UU5yZ0c4dGlPM0c5T2NnaVJTUi1JNEZvd1E?oc=5",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134989269.1.jpg",
+              "url": "https://www.donga.com/news/Society/article/all/20261109/134989268/1"
+            }
+          ]
+        },
+        {
+          "headline": "부모님이 급히 찾는 음식, 치매 의심 필요",
+          "summary": "부모님이 갑자기 찾는 특정 음식이 치매의 초기 징후일 수 있어, 조기 진단을 권장한다.",
+          "source": "위키트리",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45V1hJX1hZT1BkQUMyTlhrQjh0S2NZUGVJay1RTTBPeG1TOWFTNmhFcVdzb0tqTFBuYzMtQUdtNUM3bllGb1hJUlJTUU9Ca3pkaExQYW13?oc=5",
+          "original_title": "부모님이 갑자기 '이 음식' 찾는다면…치매 의심해야 하는 '뜻밖의 식습관'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "위키트리",
+              "title": "부모님이 갑자기 '이 음식' 찾는다면…치매 의심해야 하는 '뜻밖의 식습관'",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45V1hJX1hZT1BkQUMyTlhrQjh0S2NZUGVJay1RTTBPeG1TOWFTNmhFcVdzb0tqTFBuYzMtQUdtNUM3bllGb1hJUlJTUU9Ca3pkaExQYW13?oc=5",
+              "image": "https://cdnweb01.wikitree.co.kr/webdata/editor/202611/04/img_20261104143840_a16db0d8.jpg",
+              "url": "https://www.wikitree.co.kr/articles/1171774"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김정우 청와대 국정상황실장 사직",
+          "summary": "김정우 청와대 국정상황실장이 사의를 밝히고 사직했다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835976",
+          "original_title": "김정우 청와대 국정상황실장 사의…\"국민주권정부 성공 위해 노력\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김정우 청와대 국정상황실장 사의…\"국민주권정부 성공 위해 노력\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835976",
+              "image": "https://img.sbs.co.kr/newimg/news/20261108/202239004_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "靑 국정상황실장에 김태근 자치발전비서관…김정우 사의(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261108015451001",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/08/AKR20261108015451001_01_i_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "김정우 靑 국정상황실장 사의‥\"국민주권정부 성공 위해 노력\"",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBneEs4RF8tOEN0WU1NMTZOZzhDNlc4UTd3ZG9XQUtaQmRZMUFQejBLNmJ5bDJsdWlxYUNoeVY3WU9YLU1aYVJmUHFDTU9nb0lOa1dGVlVnRWV5YjEwMVRTdnRwVkJfcU9oelZjQzMycHRqQ2ctR21WQdIBeEFVX3lxTE15VHdQMkZBamRYWWlYWURkUUxfMEFqVnhLT3BLd21FU1RxUnhKUHhsRWJWMWNVTXVWSzREWVlSM0EtTWZDZkc2cHFmSWczWnUyUVJneTBLaVA4TWRyckpLVU43eF9nT3FMYjVlcEpocFlCMUUybHIzZg?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/08/yen_20261107_15.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6863992_36911.html"
+            }
+          ]
+        },
+        {
+          "headline": "국민의힘, 조작기소 특검법 반발 시위",
+          "summary": "국민의힘이 조작기소 특검법에 반발해 청와대 앞에서 시위를 벌였다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261108033300001",
+          "original_title": "정점식 \"특검 대상에 서해피격 포함…수사검사에 정치보복 의도\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "정점식 \"특검 대상에 서해피격 포함…수사검사에 정치보복 의도\"",
+              "link": "https://www.yna.co.kr/view/AKR20261108033300001",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110613110001300_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "정점식 \"특검 대상에 서해피격 포함…공소취소 성공 모델\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Pd0VHODQ1WVh1OXdBaUlpUjNiWTV6N3lnS3pwdDRaZkVQRDVLUGFsVTVudlBvZ1M2eHBLYTBpS3lpaWJGU3VXVVViN0ZDc1NCaHVXOXpidFl5LXhmcmNSaWkyTUdpNTg?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261108/AKR20261108171128ycC_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261108171128ycC"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "정점식 \"'서해 공무원 피격 사건'은 공소취소의 성공 모델\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835921",
+              "image": "https://img.sbs.co.kr/newimg/news/20261108/202238989_1280.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "폴란드 총기 난사 22명 사상…테러 혐의 수사",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836347",
+          "original_title": "폴란드 총기 난사 22명 사상…테러 혐의 수사",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "폴란드 총기 난사 22명 사상…테러 혐의 수사",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836347",
+              "image": "https://img.sbs.co.kr/newimg/news/20261109/202239130_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "'22명 사상' 폴란드 총기난사 테러 혐의 수사(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261108008352009",
+              "image": "https://img7.yna.co.kr/photo/reuters/2026/11/08/PRU20261108285901009_P4.jpg"
+            },
+            {
+              "name": "VOA 한국어 홈페이지",
+              "title": "폴란드 총기 난사에 6명 사망…당국, 테러 혐의 수사",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxcVlETWtma0txdURrMWU5elJ1NEVVcGZWYnpwZGEzY05XNjQtU0dJTnFtMFBRMUpNdTZtNkp5Q1YzX3RvekQtNHVHM1pfbWNH0gFTQVVfeXFMT3dtbWtlRXV2a1d1YTB3eE1hci1wNVJyeG5OSmpXVldzZjFrTENFSWw0eHJBVmlnOUU3RE80ZjlxQUEwcndkdHhBN0lQNk5PdmhiTGM?oc=5",
+              "image": "https://gdb.voanews.com/eb9eeb9b-ef6f-4023-8195-afaf615d0764_w1200_h630.jpg",
+              "url": "https://www.voakorea.com/a/8220241.html"
+            },
+            {
+              "name": "뉴시스",
+              "title": "폴란드 총기 난사로 6명 사망…총격범 자택서 가족 추정 시신 발견 [뉴시스Pic]",
+              "link": "https://www.newsis.com/view/NISX20261108_0003859403",
+              "image": "https://img1.newsis.com/2026/11/08/NISI20261108_0001730050_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "\"UFC 선수들이 기자들 때려눕혀\"…트럼프 SNS 애니메이션 논란",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836559",
+          "original_title": "\"UFC 선수들이 기자들 때려눕혀\"…트럼프 SNS 애니메이션 논란",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"UFC 선수들이 기자들 때려눕혀\"…트럼프 SNS 애니메이션 논란",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836559",
+              "image": "https://img.sbs.co.kr/newimg/news/20261109/202239188_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "트럼프, ‘UFC 선수 백악관 난동’ 애니메이션 공유",
+              "link": "https://www.donga.com/news/Inter/article/all/20261109/134989299/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/09/134989282.1.jpg"
+            },
+            {
+              "name": "한국경제",
+              "title": "기자들 때려눕히는 UFC 선수들…트럼프가 올린 '백악관 애니'",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WOHpCRS1rU1VYTTcwZ0lHWnBlQ1pQb1FTbkdTeHJlX0UyWUR1NllkLW92d0tTVnByZTZfLVhGM1d3NWpJQWdjdHV4YVZPOXBkS1k5WWlwN0hXZw?oc=5",
+              "image": "https://img.hankyung.com/photo/202611/01.46357894.1.jpg",
+              "url": "https://www.hankyung.com/article/2026110936567"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"UFC 선수들이 기자들 제압\"…트럼프 SNS 애니메이션 논란",
+              "link": "https://www.yna.co.kr/view/AKR20261109010800071",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/11/09/AKR20261109010800071_02_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "챗GPT, 한국서 1800만명 넘게 쓴다…이용시간도 2배 급증",
+          "summary": "",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261108123102",
+          "original_title": "챗GPT, 한국서 1800만명 넘게 쓴다…이용시간도 2배 급증",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "챗GPT, 한국서 1800만명 넘게 쓴다…이용시간도 2배 급증",
+              "link": "https://zdnet.co.kr/view/?no=20261108123102",
+              "image": "https://image.zdnet.co.kr/2026/03/05/cfb18a6c9caf6fead67068e88bf118a1.png"
+            },
+            {
+              "name": "매일경제",
+              "title": "“처음엔 호기심, 이젠 너 없인 못 살아”…국내 이용자 1800만 돌파한 챗GPT",
+              "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9vSzZNNkdWOXYyZmZVWVYtV0p1ZnhsTEs3UlBOSV8zVmhxRFN3WGRwMWtLYzJFRHlraUZlTXFxVWtNZnM1ZWc?oc=5",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg",
+              "url": "https://m.mk.co.kr/amp/12201705"
+            },
+            {
+              "name": "한국일보",
+              "title": "챗GPT 국내 앱 이용자 1800만 명 첫 돌파…사용시간 2배로",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zZDhnN2VlRnQwcTlFLXFnanVJalVEWWdick9DLU5NXzlGQ2lUN2xqS3AxM09naW5YUUM0NDlFMVlkcFV4d2d4LUV6VHg1aHpZV29zNXVDTnhxMFpKNnVCblBhSmVidlE2X3NtX0pySS02LVnSAXNBVV95cUxPc2Q4ZzdlZUZ0MHE5RS1xZ2p1SWpVRFlnYnJPQy1OTV85RkNpVDdsaktwMTNPZ2luWFFDNDQ5RTFZZHBVeHdneC1FelR4NWh6WVdvczV1Q054cTBaSjZ1Qm5QYUplYnZRNl9zbV9KckktNi1Z?oc=5",
+              "image": "https://newsimg.hankookilbo.com/2026/11/08/e83a7c76-13da-461e-8f45-c6703aea936f.jpg",
+              "url": "https://www.hankookilbo.com/news/article/amp/A2026110814400002356"
+            },
+            {
+              "name": "강원도민일보",
+              "title": "챗GPT 국내 앱 이용자 1876만명 돌파…1년 새 44% 급증",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11WkU4V212ZkdFVDVkVnh2TE00dEUtVk5ZZXg5eUlxaEpKUllZeV9Zc3Zvd0YteVEwa05XcENBUFJPY2lNNFRJZXUzV3d6dGtNTElnenFULUxEVFpYTGs5RFRWZjk4VmVG?oc=5",
+              "image": "https://cdn.kado.net/news/photo/202611/2083237_894084_1712.png",
+              "url": "https://www.kado.net/news/curationView.html?idxno=2083237"
+            },
+            {
+              "name": "아주경제",
+              "title": "챗GPT 국내 앱 이용자 1800만 넘어…클로드는 1년 새 15배로",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ESHh0T1NxbEd5QjBNQWpteTFQTkk3UGhreEdEcEFrcEVRQ0hZcTI1eW1rbEpyVFZldWQzVktoMlIzdEdRSzUwVjFkN1hVcjdza00zT0kzQ2zSAVhBVV95cUxPREh4dE9TcWxHeUIwTUFqbXkxUE5JN1Boa3hHRHBBa3BFUUNIWXEyNXlta2xKclRWZXVkM1ZLaDJSM3RHUUs1MFYxZDdYVXI3c2tNM09JM0Ns?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/11/08/20261108110402298081.jpg",
+              "url": "https://www.ajunews.com/amp/20261108110325264"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "\"개봉 첫 주 한국영화 1위 쾌조\"… '최종면접' 골든에그 95%·입소문 흥행 궤도 (공식)",
+          "summary": "",
+          "source": "뉴스버즈",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1cFRXNjl1Um1zc0VaRXpOVVUwbUlyS2Q5UDFpWXNMWVJOdlZLcGVzZzNhRG15TmNuT25nSXBpZGhLUTdIVWN6bDVNMUpuSHhNUE5qb0xxM1pmaU9KSGUzWHlvdTBqMnJJTXVWNQ?oc=5",
+          "original_title": "\"개봉 첫 주 한국영화 1위 쾌조\"… '최종면접' 골든에그 95%·입소문 흥행 궤도 (공식)",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "뉴스버즈",
+              "title": "\"개봉 첫 주 한국영화 1위 쾌조\"… '최종면접' 골든에그 95%·입소문 흥행 궤도 (공식)",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1cFRXNjl1Um1zc0VaRXpOVVUwbUlyS2Q5UDFpWXNMWVJOdlZLcGVzZzNhRG15TmNuT25nSXBpZGhLUTdIVWN6bDVNMUpuSHhNUE5qb0xxM1pmaU9KSGUzWHlvdTBqMnJJTXVWNQ?oc=5",
+              "image": "https://cdn.newsbuzz.co.kr/news/thumbnail/202611/26716_29714_10_v150.jpg",
+              "url": "https://www.newsbuzz.co.kr/news/articleView.html?idxno=26716"
+            },
+            {
+              "name": "스포츠동아",
+              "title": "‘최종면접’, 첫 주 한국영화 박스오피스 1위…입소문 파란불",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MSmYwc0lMYzh5RGVQLWRZM09LRkZDNjE2Q2Jka0xBdXNhN1RvaUozM2JETDhFYUEyb1doTzJGTUZoYmRFUXpFdVFydi0xWVQ5eXkyV19fQnZzYi1ZVUl5ejQ1aGluVDBGYVdVT2xn?oc=5",
+              "image": "https://dimg.donga.com/wps/SPORTS/IMAGE/2026/11/09/134989151.1.jpg",
+              "url": "https://sports.donga.com/ent/article/all/20261109/134989148/1"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "'최종면접' 개봉 첫 주 한국영화 1위…심층 검증 GV로 '굳히기'",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TbkhTSlBaSDZnLXNZVHhQekdRNXZBSExleXBBWlJTUlFUOTVDMXRPakZzeWtDU2dWc1J1eEdGTlBXeGZTWjlKUzAtZ1dXOGIzWU1qbXF1c2haSHZTWnVKWnJMQ2tZdw?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202611/780008_1191685_262_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=780008"
+            },
+            {
+              "name": "톱스타뉴스",
+              "title": "영화 ‘최종면접’ 개봉 첫 주 한국영화 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLVEstalItUFU3d3Y2QlhLT2xuUnZwVU5vRFMzME5YZms4ZURFVkJ4WEhuTTUzU3A3MHR4RlRuOHhHTFhUV2hJVmptaHdRNTN4WEl0WXZqaU5EV1BpaDlsa216a0VEaHNKQ21qSlprSUtjdw?oc=5",
+              "image": "https://cdn.topstarnews.net/news/photo/202611/16271544_2081853_2510_crop.jpg",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16271544"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "구자욱, 한국시리즈 MVP로 우승 선도",
+          "summary": "구자욱이 한국시리즈 5차전에서 MVP를 수상하며 삼성 라이온즈가 12년 만에 우승을 확정했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836192",
+          "original_title": "'한국시리즈 MVP' 삼성 구자욱 \"왕조 다시 만들 수 있다\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'한국시리즈 MVP' 삼성 구자욱 \"왕조 다시 만들 수 있다\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836192",
+              "image": "https://img.sbs.co.kr/newimg/news/20261108/202239046_1280.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "테일러링 룩으로 완성한 모노드라마",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 11,
+      "t_min": 4,
+      "rain_pct": 78,
+      "sky": "구름 조금",
+      "display": "서울 4~11°C · 구름 조금 · 강수 78%"
+    },
+    "articles": [
+      {
+        "title": "테일러링 룩으로 완성한 모노드라마",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1912186",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/10/28/8a4aee33-805b-4007-a5bb-2d345a334140.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "사람들은 모두 쓸모 있는 것의 쓸모는 알지만, 쓸모없는 것의 쓸모는 알지 못한다.",
+    "author": "장자",
+    "work": "장자"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 찾아온다"
+      },
+      {
+        "animal": "소",
+        "text": "함께라면 더 큰 웃음"
+      },
+      {
+        "animal": "호랑이",
+        "text": "대담함이 오늘의 무기"
+      },
+      {
+        "animal": "토끼",
+        "text": "달콤한 계획이 시작된다"
+      },
+      {
+        "animal": "용",
+        "text": "열정이 불꽃처럼 타오른다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜가 길을 밝힌다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 발걸음이 선물"
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 정서가 전해진다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "창의력이 빛나는 순간"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성취를 돕는다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 관계를 강화한다"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 풍부하게 흐른다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
