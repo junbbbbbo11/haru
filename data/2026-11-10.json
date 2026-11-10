@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-10",
+  "weekday": "화요일",
+  "vol": 29,
+  "generated_at": "2026-11-10T11:37:47+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5242.72,
+      "change": 223.87,
+      "change_pct": 4.46,
+      "direction": "up",
+      "display": "5,242.72",
+      "change_display": "▲ 4.46%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1347.3,
+      "change": -15.4,
+      "change_pct": -1.13,
+      "direction": "down",
+      "display": "1,347.3원",
+      "change_display": "▼ 1.13%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 101551000.0,
+      "change": -703000.0,
+      "change_pct": -0.69,
+      "direction": "down",
+      "display": "10,155만원",
+      "change_display": "▼ 0.69%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 10,
+    "t_min": 1,
+    "rain_pct": 0,
+    "sky": "맑음",
+    "display": "서울 1~10°C · 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "keyword": "구자욱",
+      "headline": "강민호 “무관 놀림받아”·구자욱 “삼성 왕조 끊은 건 아닐까”…우승 후 감사 편지",
+      "summary": "",
+      "source": "아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RbVhsbm5HUVpDRFlXWC1pS1EwQV83NjhfVTF2aWMtYUV6ZWhVZDBzZmlCN1ZIc0oxeWlGdHI5NXJpTlJRQ1M2bWw4ZTN6M1djWnlHQk1pa0JicjMwWWZFdW1RakI4anNKclZyQTF3?oc=5",
+      "sources": [
+        {
+          "name": "아시아투데이",
+          "title": "강민호 “무관 놀림받아”·구자욱 “삼성 왕조 끊은 건 아닐까”…우승 후 감사 편지",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RbVhsbm5HUVpDRFlXWC1pS1EwQV83NjhfVTF2aWMtYUV6ZWhVZDBzZmlCN1ZIc0oxeWlGdHI5NXJpTlJRQ1M2bWw4ZTN6M1djWnlHQk1pa0JicjMwWWZFdW1RakI4anNKclZyQTF3?oc=5",
+          "image": "https://img.asiatoday.co.kr/file/2026y/11m/10d/2026111001000688200036781.jpg",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261110010003678"
+        }
+      ]
+    },
+    {
+      "keyword": "중대범죄 수사청",
+      "headline": "전북도의회 박병철 의원, 전주지방중대범죄수사청 신설 촉구",
+      "summary": "",
+      "source": "웹이코노미",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE42aklSVWRnV2ZLaXhHR3d6aEtBQTlPb0ZHWC03bFNZS2QwaHh6dDEzUE9HR01VOWJXWjVDLUMyZk5aN0VJajQwN0VJVzBoSVd3ZUVxVzFBZFNmVlpJN1VpZ3F2T2JpUm0xVG02Y01Oa0ZVdw?oc=5",
+      "sources": [
+        {
+          "name": "웹이코노미",
+          "title": "전북도의회 박병철 의원, 전주지방중대범죄수사청 신설 촉구",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE42aklSVWRnV2ZLaXhHR3d6aEtBQTlPb0ZHWC03bFNZS2QwaHh6dDEzUE9HR01VOWJXWjVDLUMyZk5aN0VJajQwN0VJVzBoSVd3ZUVxVzFBZFNmVlpJN1VpZ3F2T2JpUm0xVG02Y01Oa0ZVdw?oc=5",
+          "image": "https://cdn.webeconomy.co.kr/news/photo/202611/2367884_1178552_2040.jpg",
+          "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2367884"
+        },
+        {
+          "name": "미디어이슈",
+          "title": "전북특별자치도의회 박병철 의원, “호남권 중수청 광주 단일 설치는 전북 홀대”",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Wa2tibzBuaC13emxRUlo3cTg0Z2dIVldnRDM5T05rZ19HZURYa3FEZGswcmxodDVzVkVUMk1PQWRVdmphQkRtUg?oc=5",
+          "url": "http://www.mediaissue.net/3610831"
+        }
+      ]
+    },
+    {
+      "keyword": "3 기 신도시 남양주 왕숙 지구",
+      "headline": "정부는 ‘앞당긴다’ 했는데… 3기 신도시 최대 사업지 또 입주 지연",
+      "summary": "",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/economy/real_estate/2026/11/10/HUUAKXSW6JEJ5JRRV3GTRG5UDY/",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "정부는 ‘앞당긴다’ 했는데… 3기 신도시 최대 사업지 또 입주 지연",
+          "link": "https://www.chosun.com/economy/real_estate/2026/11/10/HUUAKXSW6JEJ5JRRV3GTRG5UDY/",
+          "image": "https://www.chosun.com/resizer/v2/KLJ7TJUQ2VADBLJUNAN7RIRX2I.jpg?auth=b6c8f1ae145013c364980a77591bab8d1e5229885d67950205167b96272be080&width=1200&height=630&focal=3892,2035"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "블루쓰나미, 데이터센터 지연",
+          "summary": "블루 쓰나미로 인한 데이터센터 지연·차질이 코스피·코스닥 매수 사이드카를 촉발했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261110036351008",
+          "original_title": "'블루쓰나미' 충격딛고 4~5%↑…코스피·코스닥, 매수 사이드카(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "'블루쓰나미' 충격딛고 4~5%↑…코스피·코스닥, 매수 사이드카(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261110036351008",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111002510001300_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "코스피-코스닥 매수 사이드카…삼전닉스 5~7% 급등",
+              "link": "https://www.donga.com/news/Economy/article/all/20261110/134996786/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/134996829.1.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "뉴욕증시, 유가 하락에 반등",
+          "summary": "뉴욕증시 3대 주가지수는 저가 매수세와 유가 하락에 힘입어 상승세로 마감했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261110_0003861203",
+          "original_title": "뉴욕증시, 저가 매수·유가 하락에 일제히 상승 마감…엔비디아 급락",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "뉴욕증시, 저가 매수·유가 하락에 일제히 상승 마감…엔비디아 급락",
+              "link": "https://www.newsis.com/view/NISX20261110_0003861203",
+              "image": "https://img1.newsis.com/2026/11/09/NISI20261109_0002287234_web.jpg"
+            },
+            {
+              "name": "머니투데이",
+              "title": "유가 하락에 증시 반등...'젠슨황 불륜' 엔비디아만 급락[뉴욕마감]",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83amctR0o3YXBSeDk4WnV4WHo4NmJTcVVCdWpCUGhueTZzd19sZU4yLWFlc1BQX0hiWklUNUNfWjhsaEFIOEVaRjhIZnI3b3JERkpLWjZVMHpkdU1HdHo0U3FPc0RGZXZj0gFuQVVfeXFMT0tMeFRHa2Vick5nd0VBaGhJVE9GamZoUG00Uk5vQWhhSll5NGRnNGdWMDV0MENzeDJYcDhDb2dDZUN2dG1KN3dZX0tGSWtIeE5kZmJFa01NcTVaeV94aFI3OTE0amduRXlGUG43RWc?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026111007083372467_1.jpg",
+              "url": "https://www.mt.co.kr/world/2026/11/10/2026111007083372467"
+            },
+            {
+              "name": "경향신문",
+              "title": "뉴욕증시 반등했지만···‘젠슨 황 불륜 의혹’에 엔비디아 한때 8%대 급락",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BQk1naXhweXc2cGNEVWJpWE1rM0ZHUEZpekh3dWp1dE5WVm5nT2hzY1ZhUjBXSUdVcnFFeW9FbkQydWdNOHpXZlkxcmlrTHNXcUF1ZERhVl9KQdIBX0FVX3lxTE1zbjdLZUZCNDJUMlRKcXFZcTY1dkNYcGt2VXM4bUpqc2RsNnhxMm82czlFVlVXUFo2ZDdxTXVvWUhfWUw0aTFkbnRkYTR2N3FxTXNUM3ZDcEVVQ0l0cmJN?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/10/rcv.YNA.20260929.PYH2026092912460007200_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202611100710001"
+            },
+            {
+              "name": "매일경제",
+              "title": "“너무 떨어졌나” 美증시 반등…‘젠슨황 쇼크’ 엔비디아 4.3% 뚝 [월가월부]",
+              "link": "https://www.mk.co.kr/news/economy/12203304",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/10/news-p.v1.20261110.a084682cd37745c3b14e60c40eff91d2_R.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "CJ온스타일, 겨울 패션위크 개최",
+          "summary": "CJ온스타일이 19일까지 소재별 신상품을 할인하며 겨울 패션위크를 진행했다.",
+          "source": "뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CTURxTFZyRGRXYXZrOWp5X1pobHd6SVZmOHJ6aDFSMk43TkFUVENSOXR1eFFPeE9XOVoyc3V3VEtLWUVTQVRrbHVBQklwdk5MbWJodkxHLUREYktn?oc=5",
+          "original_title": "CJ온스타일, 겨울 패션위크 실시…19일까지 소재별 신상품 할인",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "title": "CJ온스타일, 겨울 패션위크 실시…19일까지 소재별 신상품 할인",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CTURxTFZyRGRXYXZrOWp5X1pobHd6SVZmOHJ6aDFSMk43TkFUVENSOXR1eFFPeE9XOVoyc3V3VEtLWUVTQVRrbHVBQklwdk5MbWJodkxHLUREYktn?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/09/2611090817280250_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261109000084"
+            },
+            {
+              "name": "마일드경제",
+              "title": "CJ온스타일, 캐시미어~양모까지 '겨울 패션위크' 개최",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlRVhaWnhtTEMwOUVPUUlPMVB6YVV6Yy1VSWNhbWlVWnZVdDk4Y3N5T3BtMmQxc0xTUHJkVkpJUW1zYlRzcjZqR2ZqaE5TZDhUc2VsMU9Ic1Y2MEYxbkhnYTRlR1dqWVNqUHVR?oc=5",
+              "image": "https://cdn.todaymild.com/news/thumbnail/202611/40844_48022_3053_v150.jpg",
+              "url": "https://www.todaymild.com/news/articleView.html?idxno=40844"
+            },
+            {
+              "name": "뉴스메카",
+              "title": "캐시미어부터 양모까지... CJ온스타일, 19일까지 ‘겨울 패션위크’",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuZlJTQVpUQ011Um43OTFzNXI2MUZFM28tbUNMekQ5UzdLNXc2c3kxUFBwbU5mVWJ6Zl9RTXBTWlFKc29HN2pSall2eXA2WkltaUNaQVZ4My13c3ZaX19SaFA4UGctdw?oc=5",
+              "image": "https://cdn.newsmc.net/news/thumbnail/202611/69369_79710_332_v150.jpg",
+              "url": "http://www.newsmc.net/news/articleView.html?idxno=69369"
+            },
+            {
+              "name": "메가경제",
+              "title": "CJ온스타일, 겨울 패션 승부수는 ′소재′…캐시미어부터 레더까지 프리미엄 라인업 강화",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jMFRtWmFEanY5U0lnNmxRb19FWV9SWFNRVHQ1OWRvU0lnQnRNUjR4VlUydVNkNmxGbUdlSXg2WE8zcEFxakxVZ3Q1QXB5SVB3M0xQc3ktV3JYZ21odllhOUQ3N2lJVDUtMGJsZUdiU3JkUdIBckFVX3lxTE9jMFRtWmFEanY5U0lnNmxRb19FWV9SWFNRVHQ1OWRvU0lnQnRNUjR4VlUydVNkNmxGbUdlSXg2WE8zcEFxakxVZ3Q1QXB5SVB3M0xQc3ktV3JYZ21odllhOUQ3N2lJVDUtMGJsZUdiU3JkUQ?oc=5",
+              "url": "https://m.megaeconomy.co.kr/news/amp.html?ncode=1065596887620527"
+            },
+            {
+              "name": "어패럴뉴스",
+              "title": "CJ온스타일, 19일까지 '겨울 패션위크'…소재별 신상품 제안",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NcHlJcThCdFUtamxqUzN5djJ4dE12NnJ1UXlNTzBVeUhBSTJYa2Z2aEphVzlhYlhmWU5mV1QtRDZtTHFtRlNCaXVjcXZqMGF1Q2NEbF9hWThIWDNqRDBLMnN4X0didzVCTFNZSk4xZFJENHpHamZv?oc=5",
+              "url": "http://m.apparelnews.co.kr/news/news_view_amp/?idx=228836?cat=CAT128"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "식약처, K-뷰티 중남미 수출 확대 위한 지원 강화",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100396",
+          "original_title": "식약처, K-뷰티 중남미 수출 확대 위한 지원 강화",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "식약처, K-뷰티 중남미 수출 확대 위한 지원 강화",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100396",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100396_72302_3819_v150.jpg"
+            },
+            {
+              "name": "헬스경향",
+              "title": "식약처, K-뷰티 중남미 진출 지원…브라질에 민·관 합동 지원단 파견",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mMjBjZFc2azZBWll0QnBYZ0xCREFBSnlKOFNJcXo0ZzZhWk1qZE43eEVpZnc4SHN2LTBPUF9GRzFXb0dhX0JRWVpoR0Izb3cyY0s5UmlXMWYxeDlrV24yQkMyeUktOXU2MHBZ?oc=5",
+              "image": "https://cdn.k-health.com/news/photo/202611/102110_203897_69.png",
+              "url": "https://www.k-health.com/news/articleView.html?idxno=102110"
+            },
+            {
+              "name": "자유방송",
+              "title": "식약처, K-뷰티 중남미 수출 확대 위해 민·관 합동 진출지원단 파견",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rak9ZeVVuZXJLX3BQdWpKalRMdmxDZnBTdVhnU2hlbUhKSm92VG9YN0ZPT09oUHA3ZmdQU0dINTVwMERBaHpWSGwzRG90WFdDT0dpS0FadEpvdFc3N0prcnp3bVdqQQ?oc=5",
+              "image": "https://cdn.jybtv.kr/news/photo/202611/211587_70245_437.png",
+              "url": "https://www.jybtv.kr/news/articleView.html?idxno=211587"
+            },
+            {
+              "name": "식약일보",
+              "title": "브라질에 K-뷰티 진출지원단 파견…식약처, 중남미 수출길 넓힌다",
+              "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFByZV9GcktlRE8xMjdFWkJXNHNTTVB5dkZ4SVlsalphVUNybThidkY4TEFFZC1iRzJQMTFzQjFnVzM?oc=5",
+              "image": "https://www.kfdn.co.kr/data/fmnews_kr/mainimages/202611/2026110940503388.png",
+              "url": "http://www.kfdn.co.kr/73863"
+            },
+            {
+              "name": "이뉴스투데이",
+              "title": "식약처, K-뷰티 중남미 진출 위한 ‘브라질 파견기업’ 모집",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51M3BJdmhkS2FGcHdPTDFMOGhleS1hZG01azNIRFJleS1Jb0o3WTlPc0swX0QyTjFzNEZPZ3QtZXpaWmpYMnBGelFXREhSU1ZKTmpxaHpMREJ1SXBIbTRKZzRUdDhXSTU2YXM0c3BvNFXSAXRBVV95cUxOa1pIQlU2d1RMTWktVmNsMUZkb3N4N2o3dWYxYVFjNkhLaGpPa2N3OXBXaWVWQWx1cjlMUE9TR01jYUxtX2RESlkxVW8zRTBUUldERXlxQzBDMFlJZm9LamhzNDFueUh6aWFxU0EzaDFnN25jbw?oc=5",
+              "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2489851_1336106_4845_v150.jpg",
+              "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2489851"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "세라젬, CES 혁신상 9개 수상",
+          "summary": "세라젬은 4년 연속 CES에서 혁신상을 수상하며, 누적 30개를 달성했다.",
+          "source": "www.dhns.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LZlo1RDNXYkxfR095YkZia01BeGtVc3ZBcDNZQ0pGTVYxdHZqdjZXYmxBS3lSV3l2MFpOU04tenZ6RGhBSGtCbl9wODdFQjJYYVczYUh3RGxmaENqNFBHY3VBU0o2bHM?oc=5",
+          "original_title": "세라젬, ‘AI 웰니스 홈’ 등 CES 2027서 9개 혁신상 수상… 4년 연속 수상으로 누적 30개 달성",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "www.dhns.co.kr",
+              "title": "세라젬, ‘AI 웰니스 홈’ 등 CES 2027서 9개 혁신상 수상… 4년 연속 수상으로 누적 30개 달성",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LZlo1RDNXYkxfR095YkZia01BeGtVc3ZBcDNZQ0pGTVYxdHZqdjZXYmxBS3lSV3l2MFpOU04tenZ6RGhBSGtCbl9wODdFQjJYYVczYUh3RGxmaENqNFBHY3VBU0o2bHM?oc=5",
+              "url": "http://www.dhns.co.kr/news/articleView.html?idxno=388453"
+            },
+            {
+              "name": "한국면세뉴스",
+              "title": "세라젬, CES 혁신상 누적 30개…AI 웰니스 홈 등 9개 추가",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5US2stM3pkdnBhUjZJUEU5TnlTcld3S0xJa2ZEc0RVSTJuVnFvWDRhLTU2ZTQzVG5XaU5CY1BhRUtLR1EyV3ZfSzN0V1M3REtOZmtqdmQtdEhpUXlDWGVmNU11R1oyVnRPTVE?oc=5",
+              "image": "https://www.kdfnews.com/news/thumbnail/202611/190691_244006_2710_v150.jpg",
+              "url": "https://www.kdfnews.com/news/articleView.html?idxno=190691"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "세라젬, 'CES 2027' 혁신상 9개 수상…4년 연속 수상",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43UXdmOEE2Y0lBQVBJOHNKMUE3dmkwZURhX2dhY1EyNW1kOWRZWDMzUFNUNk1zNGNtR1gzX3haWFV2R3pXVkRla1QxbkpiVnRZQi1XQ1h3?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/11/10/f662d3f84000559cee3fa43506d942f3.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261110100327"
+            },
+            {
+              "name": "매일일보",
+              "title": "세라젬, AI 웰니스 홈 등 CES 혁신상 9개 수상",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xSE04WS1wc2NOczZZX2dfUWYwVVBDOENVUmVCWV94TkdLV0p0WjFYZDFBWC1uX205MXI3SkdjT0ZHWjdLS2RpUjBFSGItUjY5TDQ2QUhGYmlHNnAtOVNDWGRfX2s?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2016506_2016979_522.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2016506"
+            },
+            {
+              "name": "서울경제",
+              "title": "세라젬, CES 2027서 혁신상 9개 수상…AI 웰니스 홈 선보여",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EV3hiQ0J5bld4WXRRQm5xTHNaam9FRnE1M1ZaY1B3b2JjVnBYa0NCaXg0a28wZVZEVVhROWJjNzJzMkRuV0xtTTBpalJLcHVaSTVR0gFTQVVfeXFMTURXeGJDQnluV3hZdFFCbnFMc1pqb0VGcTUzVlpjUHdvYmNWcFhrQ0JpeDRrbzBlVkRVWFE5YmM3MnMyRG5XTG1NMGlqUktwdVpJNVE?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/11/10/news-p.v1.20261110.28483076d88342b6afc9b292d1ba77da_R.jpg",
+              "url": "https://m.sedaily.com/amparticle/20112266"
+            }
+          ]
+        },
+        {
+          "headline": "위고비, 인슐린보다 암위험 38% 낮아",
+          "summary": "위고비를 사용한 연구에서 인슐린 대비 암 위험이 38% 낮았으며, 특정 조건 하에서만 적용된다.",
+          "source": "매일신문",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiUGJVVE95MGM4VmhDLVJFYWF4bG4za01WcVZOTVpuTm4wZnQtelNId0JVaWRuSUxtTWhSTVA1bG9uS0JCc2FubHlObHg4MEtKMUFxSUx1WVRHVVM4aUNzYVZR?oc=5",
+          "original_title": "`위고비의 기적` 인슐린보다 암위험 38% 낮았다…단, 조건이 있다? [매일비타민]",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일신문",
+              "title": "`위고비의 기적` 인슐린보다 암위험 38% 낮았다…단, 조건이 있다? [매일비타민]",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiUGJVVE95MGM4VmhDLVJFYWF4bG4za01WcVZOTVpuTm4wZnQtelNId0JVaWRuSUxtTWhSTVA1bG9uS0JCc2FubHlObHg4MEtKMUFxSUx1WVRHVVM4aUNzYVZR?oc=5",
+              "image": "https://www.imaeil.com/photos/2026/11/10/2026111010021108338_l.jpg",
+              "url": "https://www.imaeil.com/page/view/2026111010021540899"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "국민의힘, 청와대 의원총회에서 특검법 거부권 압박",
+          "summary": "국민의힘 정점식 원내대표가 청와대 의원총회에서 조작기소 특검법 거부권 행사 압박을 제기했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008838759",
+          "original_title": "국힘, 청와대 앞 의총…'조작기소 의혹 특검법' 거부권 행사 압박",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "국힘, 청와대 앞 의총…'조작기소 의혹 특검법' 거부권 행사 압박",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008838759",
+              "image": "https://img.sbs.co.kr/newimg/news/20261110/202239578_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "국힘, 靑앞 최고위 이어 의총…'조작기소 특검' 거부권행사 압박",
+              "link": "https://www.yna.co.kr/view/AKR20261110063000001",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111005840001300_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "국힘, 청와대 앞 현장 의원총회‥'특검법 거부권 행사' 촉구",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CV2FRZTk1X3lQOHlRaEJGTThuX3JseWFtSDRRUVdwVGNOZUVKeUtwZzV0NjN2T2d4bjRDSV9LWXV3VkotTUhQcVg0QlZGa3h0N2ItakdibEhYRU41TUNjQlgwcGxrQ0hlZTNUWlhpMmIwVkYxbDJXVNIBeEFVX3lxTE44ekxMU1dsZTNaZVY0b1dJRGRDd1l2OVpCNmpMMWgwN3VLZ1ZMdlo4V0xwLW1qTjdudWxEZDBMejdyaVNKc1ZvQWpFb2djeGlEcnBDbG5RaWVjTzFyVGdvYmJ0cVhFdThBck8tSHhuRnpGTUMxNTFTSw?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/10/yen_20261110_2.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6864473_36911.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "북한 동쪽 신형 어뢰 발사 시험",
+          "summary": "북한이 동쪽에서 신형 어뢰를 발사해 내년 초 해군에 실전 배치할 계획을 발표했다.",
+          "source": "연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50d1psMG14eHdmTE5LUTF3cG5BckhsMmxLY09XaUs5Si1HcmRrTkRUNzNRbUplbFJlY3NDUTBZU21ta3hfelJUeG9kbTRhSXNTS2FJXzJFMDFMWmfSAWBBVV95cUxPdlJsYTV0MFRkOFVMaEE3bWEzZ2hFVFV1SU54QWg1bjJsRDhSQkRJNVhUeE1ldms4dkJLNFFibTFpUmRaZ0tFTlVBNDVmamtSSk1KZnc1QkF1bk5EZ0dhSmM?oc=5",
+          "original_title": "北 \"동해서 신형어뢰 발사시험\"…내년 초 해군에 실전배치(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "北 \"동해서 신형어뢰 발사시험\"…내년 초 해군에 실전배치(종합)",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50d1psMG14eHdmTE5LUTF3cG5BckhsMmxLY09XaUs5Si1HcmRrTkRUNzNRbUplbFJlY3NDUTBZU21ta3hfelJUeG9kbTRhSXNTS2FJXzJFMDFMWmfSAWBBVV95cUxPdlJsYTV0MFRkOFVMaEE3bWEzZ2hFVFV1SU54QWg1bjJsRDhSQkRJNVhUeE1ldms4dkJLNFFibTFpUmRaZ0tFTlVBNDVmamtSSk1KZnc1QkF1bk5EZ0dhSmM?oc=5",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/11/04/PYH2026110400510004200_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261110010651504"
+            }
+          ]
+        },
+        {
+          "headline": "프랑스, IRGC가 슈퍼마켓 해킹 배후 지목",
+          "summary": "프랑스는 이란 이슬람혁명수비대가 자국 슈퍼마켓 냉장고 해킹을 배후했다고 지목하고 유럽연합 차원의 제재를 추진하기로 했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261110/134996507/1",
+          "original_title": "프랑스 “이란 혁명수비대, 슈퍼마켓 냉장고 해킹 배후”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "프랑스 “이란 혁명수비대, 슈퍼마켓 냉장고 해킹 배후”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261110/134996507/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/134996508.1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "이주영 의원 청소년 AI 규제 법안 발의",
+          "summary": "이주영 의원은 청소년 보호를 위해 AI 챗봇 서비스에 대한 규제 법안을 발의했다.",
+          "source": "월간조선",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93VHgyWlV2UUhaVFJJMHJOUHVXeHFHZlJnaUI2b1Y2YzB4WlJmRlNTeE9PUFdUT1JDMHF3S3l6aGYwZ29qN095cmIwSXJCUU4tVXRVemFQZndMalBWRDFMZW9xNHNKcVNNVERuQg?oc=5",
+          "original_title": "이주영 의원, ‘AI 챗봇’ 청소년 보호법 발의…유해 서비스 접속차단 근거 마련",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "월간조선",
+              "title": "이주영 의원, ‘AI 챗봇’ 청소년 보호법 발의…유해 서비스 접속차단 근거 마련",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93VHgyWlV2UUhaVFJJMHJOUHVXeHFHZlJnaUI2b1Y2YzB4WlJmRlNTeE9PUFdUT1JDMHF3S3l6aGYwZ29qN095cmIwSXJCUU4tVXRVemFQZndMalBWRDFMZW9xNHNKcVNNVERuQg?oc=5",
+              "image": "https://cdn.monthly.chosun.com/news/photo/202611/71933_204353_3810.jpg",
+              "url": "https://monthly.chosun.com/news/articleView.html?idxno=71933"
+            },
+            {
+              "name": "헬스경향",
+              "title": "이주영 의원, 청소년 보호 위한 ‘관계형 AI’ 규제 법안 발의",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YM0tiamZHWkpjWXUyWGZheTNOMzZlUlc2YWJKS29BQ0s2LUx1MktxaW9nOW9sSHM0MVBSRkxaSFg5RDZiOG1pNXFTM0tfRzRYbGhGV053T1M2MjJZUE9OcGVNRTUybmpHNGxV?oc=5",
+              "image": "https://cdn.k-health.com/news/photo/202611/102107_203895_4825.jpg",
+              "url": "https://www.k-health.com/news/articleView.html?idxno=102107"
+            },
+            {
+              "name": "MEDI:GATE NEWS",
+              "title": "이주영 의원, 관계형 AI서비스 청소년 보호 법안 대표발의",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ERFBnVzE1ZzdtRUdOMGFxQzdtM0ZHanpaSGZDNGJWYkhNTkpWT3dNTFgxdkZZeGhaUU9pc1Y1Ujc0UVBYVXhqVjZOZG5qWEJJS1FhYjVBZw?oc=5",
+              "image": "https://medigatenews.com/file/news/541040",
+              "url": "https://www.medigatenews.com/news/1114629434"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "경주 예술의전당에서 2026 G아트마켓 개막",
+          "summary": "경주 예술의전당에서 2026 G아트마켓이 25일 개막한다. 회화·공예 전시·판매와 원로 작가 5인 초대전이 진행된다.",
+          "source": "투어코리아",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1YkFWeUxmTmtWXzVoOU1Zclh5MXpQQnNmQlROVHVIN0YwOEJsVlgtaHRUSXJxakthLVlKbXcwSEFGRmFLWFdBU255ekdRbTNQOU9pTnVfWXRCTzI2M1d6QXJvQ1JmeHE2aFBYNnhR?oc=5",
+          "original_title": "경주예술의전당서 ‘2026 G아트마켓' 오는 25일 개막…회화·공예 전시·판매에 원로 작가 5인 초대전까지",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "투어코리아",
+              "title": "경주예술의전당서 ‘2026 G아트마켓' 오는 25일 개막…회화·공예 전시·판매에 원로 작가 5인 초대전까지",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1YkFWeUxmTmtWXzVoOU1Zclh5MXpQQnNmQlROVHVIN0YwOEJsVlgtaHRUSXJxakthLVlKbXcwSEFGRmFLWFdBU255ekdRbTNQOU9pTnVfWXRCTzI2M1d6QXJvQ1JmeHE2aFBYNnhR?oc=5",
+              "image": "https://cdn.tournews21.com/news/photo/202611/147945_275009_5910.jpg",
+              "url": "https://www.tournews21.com/news/articleView.html?idxno=147945"
+            },
+            {
+              "name": "뉴스타운",
+              "title": "경주 지역작가 26명 참여 ‘2026 G아트마켓’ 25일 개막",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DVHZmSkZyUVJlaUUwTkt5by1Mc1FwM2tOUWRublRhNnd3Q0wySk9XODVMYjJ5M1pXY3dNQTViamZfUnB1ODA5VGpuR3N4eEg5N2pCbmdQNTRRRkdlZFFCSGN1bDBXcGNocGhON3J3?oc=5",
+              "image": "https://www.newstown.co.kr/news/thumbnail/202611/721300_677556_1410_v150.jpg",
+              "url": "https://www.newstown.co.kr/news/articleView.html?idxno=721300"
+            },
+            {
+              "name": "매일신문",
+              "title": "경주 예술가 26인 참여 `2026 G아트마켓` 25일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43SjV2OG42cGtBYzhxNEpwRmdaTnJUTE9CMkw2SFNaSUk5NzlqVnRQLXZUQ1QyNC1lQnhWLTl4X0tGMmZxeTYyMllmVWt6ZkhVWTNkTTB1SDZCU1ZjMjJscEZR?oc=5",
+              "image": "https://www.imaeil.com/photos/2026/11/09/2026110913362264193_l.jpg",
+              "url": "https://www.imaeil.com/page/view/2026110913375024510"
+            },
+            {
+              "name": "디트NEWS24",
+              "title": "경주 예술시장 ‘2026 G아트마켓’ 25일 개막",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLM0s3QU80emFCeE1XSmhDNFlXTGRZN0JCbWFkMEVYMDNRQmUwVXdPWWV1M0RjckxZdVJqTWtBb3FQMHJSMnJjRENsQ25TQjllc2ZudFBodUdCcHpacUczV3doYWpMY0pLUE00?oc=5",
+              "image": "https://cdn.dtnews24.com/news/thumbnail/202611/816974_443169_638_v150.jpg",
+              "url": "https://www.dtnews24.com/news/articleView.html?idxno=816974"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "도핑방지위원회 창립 20주년 기념식…亞 25개국 임원 참석",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261110_0003861535",
+          "original_title": "도핑방지위원회 창립 20주년 기념식…亞 25개국 임원 참석",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "도핑방지위원회 창립 20주년 기념식…亞 25개국 임원 참석",
+              "link": "https://www.newsis.com/view/NISX20261110_0003861535",
+              "image": "https://img1.newsis.com/2026/11/10/NISI20261110_0002287528_web.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "창립 20주년 한국도핑방지위원회, 아시아 25개국 참여·특별전시 마련",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56MExVd1pRX0djZFpGZE9CY2FhX0VhbHBOOTNfVEdVRjRjSXo5cVZ0VHJjdjJrQ2tyakRaWGZoNkpWSVY5VmRPdEliTldoYnQ5Ynl2YWQ0ZFcwVkI2?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/10/2611100924239080_576_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261110000179"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "도핑방지위원회 창립 20주년 기념식…아시아 25개국 관계자 참석",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008838408",
+              "image": "https://img.sbs.co.kr/newimg/news/20261110/202239543_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "도핑방지위원회 창립 20주년 기념식…아시아 25개국 관계자 참석",
+              "link": "https://www.yna.co.kr/view/AKR20261110033100007",
+              "image": "https://img3.yna.co.kr/etc/inner/KR/2026/11/10/AKR20261110033100007_02_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "KLPGA 최종전 제패한 유현조, 세계랭킹 30위 도약",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261110_0003861321",
+          "original_title": "KLPGA 최종전 제패한 유현조, 세계랭킹 30위 도약",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "KLPGA 최종전 제패한 유현조, 세계랭킹 30위 도약",
+              "link": "https://www.newsis.com/view/NISX20261110_0003861321",
+              "image": "https://img1.newsis.com/2026/11/08/NISI20261108_0021525247_web.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "KLPGA 시즌 최종전 제패 유현조, 세계랭킹 30위…김효주 ’톱5’ 복귀",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCYk1KeEVQWVdBSk1ZZHdWSi1XdEtVZjY2YlJoVHZqSF93eUF5ZlJBblVIbE91b25mZlhjTGxqeTdfdnFreGlERHgwaHY5bkhWbjFIRlZfc25EdXdWaFBrYTJJWXRTZlk?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261109/AKR20261110084617BwB_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261110084617BwB"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "KLPGA 시즌 최종전 우승 유현조, 세계랭킹 30위로 도약",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008838215",
+              "image": "https://img.sbs.co.kr/newimg/news/20261110/202239497_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "KLPGA 시즌 최종전 우승 유현조, 세계랭킹 30위로 도약",
+              "link": "https://www.yna.co.kr/view/AKR20261110013100007",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110813850001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "벨벳 리본 헤어",
+    "tagline": "머리에 포인트를 주는 벨벳 리본",
+    "description": "벨벳 리본을 머리에 매는 스타일은 고급스러운 포인트를 더한다. 최근 겨울 패션에서 인기를 끌며 다양한 아이템과 매치된다.",
+    "items": [
+      {
+        "category": "top",
+        "name": "네이비 벨벳 리본 블라우스",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "bottom",
+        "name": "블랙 치노 팬츠",
+        "color": "블랙",
+        "hex": "#000000"
+      },
+      {
+        "category": "shoes",
+        "name": "블랙 레더 부츠",
+        "color": "블랙",
+        "hex": "#000000"
+      },
+      {
+        "category": "bag",
+        "name": "베이지 벨벳 가방",
+        "color": "베이지",
+        "hex": "#F5F5DC"
+      },
+      {
+        "category": "hat",
+        "name": "베이지 벨벳 리본 모자",
+        "color": "베이지",
+        "hex": "#F5F5DC"
+      }
+    ],
+    "tips": [
+      "벨벳 리본을 머리에 포인트로 매치하면 고급스러운 느낌을 준다.",
+      "베이지와 네이비를 조합해 차분한 톤을 연출한다.",
+      "부츠와 가방은 블랙으로 매치해 전체적으로 정돈된 이미지다."
+    ],
+    "weather_tip": "서울 5℃·맑음에 벨벳 리본 모자와 블랙 부츠로 따뜻함과 스타일을 더한다.",
+    "weather": {
+      "city": "서울",
+      "t_max": 10,
+      "t_min": 1,
+      "rain_pct": 0,
+      "sky": "맑음",
+      "display": "서울 1~10°C · 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "올겨울 벨벳 리본이 머리에 있고 없고 차이가 큽니다",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1912825",
+        "note": "올겨울 벨벳 리본을 머리에 매면 스타일에 큰 변화를 주는 것을 강조한다.",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/11/09/f37769b4-9433-4503-a31c-87665da5b8a8.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다.",
+    "author": "손자",
+    "work": "손자병법"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "오늘은 새로 시작할 기회가 찾아온다"
+      },
+      {
+        "animal": "소",
+        "text": "집안 분위기가 한층 따뜻해질 전망"
+      },
+      {
+        "animal": "호랑이",
+        "text": "새로운 도전이 당신을 기다린다"
+      },
+      {
+        "animal": "토끼",
+        "text": "소소한 기분 전환이 큰 변화를 이끈다"
+      },
+      {
+        "animal": "용",
+        "text": "오늘은 직장에서 새로운 아이디어가 빛난다"
+      },
+      {
+        "animal": "뱀",
+        "text": "금전적 움직임이 부드럽게 흐른다"
+      },
+      {
+        "animal": "말",
+        "text": "친구와의 대화가 기분을 상쾌하게 한다"
+      },
+      {
+        "animal": "양",
+        "text": "오늘은 일상에 작은 즐거움을 더할 찬스"
+      },
+      {
+        "animal": "원숭이",
+        "text": "새로운 사람과의 만남이 예상외로 유익하다"
+      },
+      {
+        "animal": "닭",
+        "text": "집안일이 순조롭게 진행된다"
+      },
+      {
+        "animal": "개",
+        "text": "오늘은 감사의 마음이 깊어지는 날"
+      },
+      {
+        "animal": "돼지",
+        "text": "마음이 편안해지며 평온을 느낀다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
