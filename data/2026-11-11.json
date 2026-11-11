@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-11",
+  "weekday": "수요일",
+  "vol": 30,
+  "generated_at": "2026-11-11T09:31:03+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5251.35,
+      "change": 232.5,
+      "change_pct": 4.63,
+      "direction": "up",
+      "display": "5,251.35",
+      "change_display": "▲ 4.63%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1339.2,
+      "change": -4.6,
+      "change_pct": -0.34,
+      "direction": "down",
+      "display": "1,339.2원",
+      "change_display": "▼ 0.34%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 99925000.0,
+      "change": -290000.0,
+      "change_pct": -0.29,
+      "direction": "down",
+      "display": "9,992만원",
+      "change_display": "▼ 0.29%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 14,
+    "t_min": 4,
+    "rain_pct": 0,
+    "sky": "대체로 맑음",
+    "display": "서울 4~14°C · 대체로 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "연예",
+      "headline": "이효정 아들, 배우 장동윤과 동서",
+      "summary": "이효정의 아들 이유진이 배우 장동윤과 동서가 결혼했다는 소식이 보도됐다. 두 사람은 가족 모임에서 서로를 만나 인연을 확인했다.",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/entertainment/2026/11/11/2026111105460011738",
+      "original_title": "\"집안에 배우만 6명\"…이효정 아들 이유진, 장동윤과 동서된다",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "\"집안에 배우만 6명\"…이효정 아들 이유진, 장동윤과 동서된다",
+          "link": "https://www.mt.co.kr/entertainment/2026/11/11/2026111105460011738",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=1337,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111105460011738_1.jpg"
+        },
+        {
+          "name": "뉴시스",
+          "title": "이효정 아들 이유진 \"배우 장동윤이 동서…평소 좋아했다\"",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0S0lYcHMtT2trLTdwcTFVdjhFMVRaNUlUaEpYTU9XMmJlanFwWDhrMzVIbzQxc3RKb29aeXlUUk5lT2I2RGZhTHNIZGhZN1JNZlB6bzk0bXFUWVh3bWJXZ055bkgxYzdvV0tsNDRxbF9GSFXSAXhBVV95cUxQQXRWbE5mLThoTUdtWFk1M1RZc3hNeVhINzFkb1E4b3I5R0VseVpRQ1FaZ21zb0paMVgtRTBwTTNGWHFjMmRBVjE0QUJSNW5Ka0pGcndFbTR4UTJmLWtaeGI2VGtNRzdudlE1Yk5yZVl2RzZVWGZiTEo?oc=5",
+          "image": "https://img1.newsis.com/2026/11/11/NISI20261111_0002288415_web.jpg",
+          "url": "https://mobile.newsis.com/view.html?ar_id=NISX20261111_0003862937"
+        }
+      ]
+    },
+    {
+      "kicker": "군사",
+      "headline": "모레노호, 도하서 첫 완전체 훈련",
+      "summary": "한국 해군 모레노호가 도하에서 첫 완전체 훈련을 진행했다. 전투 시나리오와 협력 훈련이 포함됐다.",
+      "source": "연합뉴스",
+      "link": "https://www.yna.co.kr/view/IPT20261111000001365?section=gallery/index",
+      "original_title": "'이제는 끈끈한 원팀!'…모레노호, 도하서 첫 완전체 훈련",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "title": "'이제는 끈끈한 원팀!'…모레노호, 도하서 첫 완전체 훈련",
+          "link": "https://www.yna.co.kr/view/IPT20261111000001365?section=gallery/index",
+          "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/11/PYH2026111100230001300_P4.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "정치",
+      "headline": "광주시 선관위 압수수색",
+      "summary": "선거관리위원회 특검팀이 경기도와 광주시 선거관리위원회 사무실을 압수수색했다. 조사를 위한 조치였다.",
+      "source": "인천일보",
+      "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336478",
+      "original_title": "선관위 특검팀, 경기도·광주시선관위 압수수색",
+      "sources": [
+        {
+          "name": "인천일보",
+          "title": "선관위 특검팀, 경기도·광주시선관위 압수수색",
+          "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336478",
+          "image": "https://cdn.incheonilbo.com/news/thumbnail/202611/1336478_679034_2033_v150.jpg"
+        },
+        {
+          "name": "기호일보",
+          "title": "특검, 경기도·광주시 선관위 강제수사…임태희 전 교육감, 진상규명 촉구",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vZ3BNNWU2cFZVM3pGZmtLNUo1QlZoeUUzT3dpVTR4RTFQdFNKMUlMQ3lhY1QzRExtbEtvZWlUeDdwR0VIdDJkRXM0VzNCZ0oySTNPYktBMzhZVEJnREJOallvTWNIc1dFYURyN3Zvbw?oc=5",
+          "image": "https://cdn.kihoilbo.co.kr/news/photo/202611/3040495_585219_5218.jpg",
+          "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040495"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "유류세 인하 2개월 연장, 1월 말까지 유지",
+          "summary": "중동 전쟁으로 국제유가 변동성이 지속돼 정부는 유류세 인하를 2개월 연장했다. 1월 말까지 휘발유 15%, 경유 25% 인하가 유지된다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261111/135003915/1",
+          "original_title": "유류세 인하 내년 1월까지 2개월 연장…휘발유 15%·경유 25% 유지",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "유류세 인하 내년 1월까지 2개월 연장…휘발유 15%·경유 25% 유지",
+              "link": "https://www.donga.com/news/Economy/article/all/20261111/135003915/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/11/135003916.1.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 유류세 인하 내년 1월까지 2개월 연장…“유류비 부담 경감”",
+              "link": "https://www.mk.co.kr/news/economy/12204996",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/11/rcv.YNA.20261108.PYH2026110802300001300_R.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "유류세 인하 내년 1월 말까지 연장…휘발유 15%·경유 25% 유지",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uRmlJclJENlpxbzNJQUN1bHdhOHpweE1UbWJ2VnY4bXlmNjFNT0ktclRuUDhNbG1EbVBzMWg1dDNvME5xTnhuLXhZYkVjTHJVc0YyNlNSZGl4bDViR1FBX24wYk1kN1NvbmFFdUU4RGg?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4444091_355897_12_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444091"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "유류세 인하 내년 1월까지 2개월 연장…\"유류비 부담 경감\"",
+              "link": "https://www.yna.co.kr/view/AKR20261110161900002",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/11/08/PYH2026110802300001300_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "유류세 인하 내년 1월까지 2개월 연장…휘발유 15%·경유 25% 유지",
+              "link": "https://www.newsis.com/view/NISX20261110_0003862668",
+              "image": "https://img1.newsis.com/2026/11/08/NISI20261108_0021524511_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "수출 쏠림 심화, 상위 10대 기업 60% 차지",
+          "summary": "반도체 호황에 따라 3분기 대기업 수출액이 전년 대비 두 배 이상 증가했다. 전체 수출에서 상위 10대 기업이 사상 처음 60%를 넘어선 것으로 나타났다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12204135",
+          "original_title": "韓수출 쏠림 심화 …'톱10' 기업이 60% 차지",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "韓수출 쏠림 심화 …'톱10' 기업이 60% 차지",
+              "link": "https://www.mk.co.kr/news/economy/12204135",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/11/20261111_01160110000001_S00.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "수출 호황에 쏠림도 심화…상위 10개 기업이 61%·전년比 20%p↑",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OUU5lRFl1WmlhcG9QanNZMTZJOFg4a0owZjh5cmdrTmw5UVgtLXNhcDJRT2MyeGNTX1ZpYjVKcVJLcUQwUEZvSldUdzVXejNhSUFqMU5vVUhhM1hPRW5ZRFMtT0J2a2N2SHd2bXVldjc?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4443966_355746_111_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443966"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "송지오·에곤랩, ‘ART OF DARK POETRY’ 공개",
+          "summary": "송지오와 에곤랩이 첫 협업 컬렉션 ‘ART OF DARK POETRY’를 공개했다. 패션과 예술이 융합된 컬렉션이다.",
+          "source": "AP신문",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DR0lfMXRzVGFtNUdPam95dnBSdF9rZFowcFpkWFFxRk5YM1FaUGwzWmZCY2x4ZThycG15d1ZQN1dtQm9SRVJEcXg0SHVWSXRMeDFDZXZDeVA3eXc3NDR1YXV6MjYyM1R5aEFyWNIBbEFVX3lxTE9DR0lfMXRzVGFtNUdPam95dnBSdF9rZFowcFpkWFFxRk5YM1FaUGwzWmZCY2x4ZThycG15d1ZQN1dtQm9SRVJEcXg0SHVWSXRMeDFDZXZDeVA3eXc3NDR1YXV6MjYyM1R5aEFyWA?oc=5",
+          "original_title": "송지오 × 에곤랩, ‘ART OF DARK POETRY’ 공개… 패션과 예술의 넘나드는 첫 협업 컬렉션",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "AP신문",
+              "title": "송지오 × 에곤랩, ‘ART OF DARK POETRY’ 공개… 패션과 예술의 넘나드는 첫 협업 컬렉션",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DR0lfMXRzVGFtNUdPam95dnBSdF9rZFowcFpkWFFxRk5YM1FaUGwzWmZCY2x4ZThycG15d1ZQN1dtQm9SRVJEcXg0SHVWSXRMeDFDZXZDeVA3eXc3NDR1YXV6MjYyM1R5aEFyWNIBbEFVX3lxTE9DR0lfMXRzVGFtNUdPam95dnBSdF9rZFowcFpkWFFxRk5YM1FaUGwzWmZCY2x4ZThycG15d1ZQN1dtQm9SRVJEcXg0SHVWSXRMeDFDZXZDeVA3eXc3NDR1YXV6MjYyM1R5aEFyWA?oc=5",
+              "url": "https://www.apnews.kr/news/articleViewAmp.html?idxno=3052964"
+            },
+            {
+              "name": "BNT뉴스",
+              "title": "송지오X에곤랩 글로벌 협업 컬렉션 공개",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tOHFvbUs2WFdEX3JDcUc3YV9fdXV4V0QxWVlnWTUyVHNJYjRUeWhLdlhkamNaZ0FZelJqaGtyaWZUQ1g4cnJoTWZ3S1RGUGhqRzVPUTBVQVpKR0dQTlE5ZVU2MXk?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/09/bnt202611090465.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202611090257"
+            },
+            {
+              "name": "스포츠월드",
+              "title": "송지오, 패션 브랜드 에곤랩과 첫 협업 컬렉션 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1TTVOS3JNVXFpTVJ6Q2pqOUlpbGtBbm9kdmlMbm9iR0RiSWQtNGxlV1dtMExjRW9wbllwVVd4U0VsQ2E4Zjc2cm54cGt3RkxJMmZOOHIxRGlwMElIUEthLUVB?oc=5",
+              "image": "https://www.sportsworldi.com/content/image/2026/11/09/20261109510687.jpg",
+              "url": "https://www.sportsworldi.com/newsView/20261109516470"
+            },
+            {
+              "name": "스타데일리뉴스",
+              "title": "송지오, 프랑스 아방가르드 브랜드 에곤랩과 첫 협업 컬렉션 출시",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tZDl2cExISXlScm8xYkIyazlVMHh6RElMaHVpQWxGdFhCSTRfNGVUUHB3TGtfVUlOaDhGTVpOa3c5UDdtYzVyNVlwUTM2WkxaQ24wTWhCS25Td2JCcEptb05nRWJlUDNhaDJ6NE9mS1pQUXc0?oc=5",
+              "image": "https://cdn.stardailynews.co.kr/news/photo/202611/601726_601889_414.jpg",
+              "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=601726"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "송지오 × 에곤랩, 고독과 창작의 미학을 담은 협업 컬렉션 공개",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkUkYtSEFmVEZwQlZBbTVrc0FtQWtoNHh4Y21BMC1ETXJuSExxMm5BNjBsMnpoYnk0eGU5ZkRrZ2lXbC01Rk9OSTFTRk5zYTkxZjk4RFZNcU9kaktnRVdmSjdTTjdnMTlnYXFqckR3?oc=5",
+              "image": "https://img.asiatoday.co.kr/file/2026y/11m/09d/20261109001322395_1.jpg",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261109001322395"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "국립생물자원관·코스메카코리아, 자생 소재 개발 협약 체결",
+          "summary": "국립생물자원관이 코스메카코리아와 자생 생물자원을 활용한 화장품 소재 개발·산업화를 위해 업무협약을 체결했다.",
+          "source": "뷰티경제",
+          "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312765",
+          "original_title": "자생 생물자원으로 한국형 화장품 소재 개발…K-뷰티 경쟁력 강화",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "뷰티경제",
+              "title": "자생 생물자원으로 한국형 화장품 소재 개발…K-뷰티 경쟁력 강화",
+              "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312765",
+              "image": "https://cdn.thebk.co.kr/news/photo/202611/312765_83258_588.png"
+            },
+            {
+              "name": "환경일보",
+              "title": "자생 생물자원으로 K-뷰티 소재 개발",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16cFprSEh1TF85VkNyeUJuVDJtdmJBSm5Sa3RmTDVUZmtmY25oS3hmR2pyVmt0Rk9GVmNaRWxZRWlOWER3MEFFc1A4NFpHZDZwT3pzSEdjX0hBMkhpSnNRcEtfLXZ4Mkh2?oc=5",
+              "image": "https://cdn.hkbs.co.kr/news/thumbnail/202611/838119_568581_3242_v150.jpg",
+              "url": "https://www.hkbs.co.kr/news/articleView.html?idxno=838119"
+            },
+            {
+              "name": "전기신문",
+              "title": "국립생물자원관, 화장품 기업과 자생 생물자원 활용 K-뷰티 소재 개발",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5renQ1R1h3Z1VtbmpHbVBraExnMkRaWEZwcUcyUWgzUVJlWmNLLXNCWmRSVU9PMm8tdDVwNmp4U294NFY4WHpsXzlBOXNtN1I1dk5uWTNsZWNNcmdncmVuTkkyTGNiNWp4RkhjNVhtZS3SAXBBVV95cUxOa3p0NUdYd2dVbW5qR21Qa2hMZzJEWlhGcHFHMlFoM1FSZVpjSy1zQlpkUlVPTzJvLXQ1cDZqeFNveDRWOFh6bF85QTlzbTdSNXZOblkzbGVjTXJnZ3Jlbk5JMkxjYjVqeEZIYzVYbWUt?oc=5",
+              "url": "https://www.electimes.com/news/articleViewAmp.html?idxno=374572"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "세라젬, AI 웰니스 홈 포함 9개 혁신상 수상",
+          "summary": "세라젬이 CES 2027에서 AI 웰니스 홈을 포함해 9개의 혁신상을 수상했다.",
+          "source": "소비자가 만드는 신문",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MLXhuZTNZZXlLZllqeDdxM21tQlM3OTlmdVJjMmEyZWgzdmxkYUhKMVVyZDByNW1fUWNORWxiZ1pZZVVKZzlEZ2dwQWMyRkRjUi0zdlRkZUNIbmtIVk1JLXlzeGVCdlhacFNoQkJVSVBqNzA?oc=5",
+          "original_title": "세라젬, 'CES 2027' 혁신상 9개 수상...대표 수상작은 'AI 웰니스 홈'",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "소비자가 만드는 신문",
+              "title": "세라젬, 'CES 2027' 혁신상 9개 수상...대표 수상작은 'AI 웰니스 홈'",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MLXhuZTNZZXlLZllqeDdxM21tQlM3OTlmdVJjMmEyZWgzdmxkYUhKMVVyZDByNW1fUWNORWxiZ1pZZVVKZzlEZ2dwQWMyRkRjUi0zdlRkZUNIbmtIVk1JLXlzeGVCdlhacFNoQkJVSVBqNzA?oc=5",
+              "image": "https://www.consumernews.co.kr/news/thumbnail/202611/767973_320922_4412_v150.jpg",
+              "url": "https://www.consumernews.co.kr/news/articleView.html?idxno=767973"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "세라젬, CES 2027서 'AI 웰니스 홈' 포함 9개 혁신상 수상",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KSUplcTcxWUJSdmcyQVlaMEVHc3NsM1lHajU5MzMtQ1BCUUs3UGZtRjAySF83bWRmdjlPd3lvemRacmp6NXdVeWNuUzJoTENqdE92ZmlKcUx2RU1R?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/10/2611101656045370_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261110001404"
+            },
+            {
+              "name": "코리아리포트",
+              "title": "세라젬, ‘AI 웰니스 홈’ CES 2027 혁신상...4년 연속 수상",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLTkJoQnpxWWZ3Y1RXNEJNVHRfZmJUbUM4bmJYWTh1d09TZmYxdlFWLVhmVWFCS0w5VXhSR3ZIdnRVQnRJTWt2clJpemhWeGNmU3NqWkhZdWxqQ3pNOXB3blJ1ZGMzSllDd3dITnRpdGk?oc=5",
+              "image": "https://cdn.koreareport.co.kr/news/photo/202611/54527_57759_812.jpg",
+              "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54527"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "세라젬, ‘AI 웰니스 홈’ 등 CES 혁신상 9개 수상",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CNXIteExMc05RZnNjWm1Gc3ZGTTZRYlViZmoydE1EOGlESkU5dzRDV3RIaWtnUW5ySk44UnI4WXBBalFmWVhiNlNFazRDVGxzWHJOYk9nU0xXN2JZRGtlS2gwUVZocm9mTWI4bGRB?oc=5",
+              "image": "https://img.asiatoday.co.kr/file/2026y/11m/10d/2026111001000709000037771.jpg",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261110010003777"
+            },
+            {
+              "name": "뉴시스",
+              "title": "\"내년 CES 존재감\"…세라젬, 총 9개 혁신상 수상",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3WnVhZ2VUU3d4Q0dWWGcyQ3J2MFhjaFd3MmMzdVJ5cHRXbXRscXprSHkxZFVuRVRWQ1liZXZOU1RZWmVGdFZwWW1zYXdrdUliamlackJiVm1Sd3ptSmpqZjRnVzhNc29TSGZrempPUHdGZXg1QTctWNIBeEFVX3lxTFA3WnVhZ2VUU3d4Q0dWWGcyQ3J2MFhjaFd3MmMzdVJ5cHRXbXRscXprSHkxZFVuRVRWQ1liZXZOU1RZWmVGdFZwWW1zYXdrdUliamlackJiVm1Sd3ptSmpqZjRnVzhNc29TSGZrempPUHdGZXg1QTctWA?oc=5",
+              "image": "https://img1.newsis.com/2026/11/10/NISI20261110_0002287842_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261110_0003862018"
+            }
+          ]
+        },
+        {
+          "headline": "CJ푸드빌, 커먼이츠 라이트밀 브랜드 론칭",
+          "summary": "CJ푸드빌이 웰니스 라이트밀 브랜드 ‘커먼이츠’를 강남역에 1호점으로 론칭했다.",
+          "source": "베이비뉴스",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UlBGeklhRTJIS2JjZ1N4S3lWNVFUcU9rNlNtaTRTRFVxOTZleUJ3MXgwSzVTWkFLNGZlZnRvNWRzU0FQM1pUdnZ2YmxwT3ZTdkxibnBIS3NqNTJDcDViV3NvYVdHVmlOUEJubQ?oc=5",
+          "original_title": "[푸드·다이닝트렌드] CJ푸드빌, 웰니스 라이트밀 브랜드 ‘커먼이츠’ 론칭…강남역에 1호점 外",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "베이비뉴스",
+              "title": "[푸드·다이닝트렌드] CJ푸드빌, 웰니스 라이트밀 브랜드 ‘커먼이츠’ 론칭…강남역에 1호점 外",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UlBGeklhRTJIS2JjZ1N4S3lWNVFUcU9rNlNtaTRTRFVxOTZleUJ3MXgwSzVTWkFLNGZlZnRvNWRzU0FQM1pUdnZ2YmxwT3ZTdkxibnBIS3NqNTJDcDViV3NvYVdHVmlOUEJubQ?oc=5",
+              "image": "https://www.ibabynews.com/news/photo/202611/w142251_44e4b546.jpg",
+              "url": "https://www.ibabynews.com/news/articleView.html?idxno=156757"
+            },
+            {
+              "name": "인더뉴스",
+              "title": "CJ푸드빌, 웰니스 라이트밀 브랜드 ‘커먼이츠’ 신규 론칭",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54TUVoS2NmR1o3UzBhTmR0dEdtbHlOQmJBaDFsLXAwZkVkOTl4NkI1S2I5YUU2ekJ2bXR0VWhYNmJjb2phODE4a3Z3eHpXMkc3Z21BYjFZcUJyQUxXb1JIdi01bzA?oc=5",
+              "image": "https://www.inthenews.co.kr/data/photos/20261146/art_17942992791582_e2ed56.jpg",
+              "url": "https://www.inthenews.co.kr/news/article.html?no=94298"
+            },
+            {
+              "name": "경향신문",
+              "title": "CJ푸드빌, 웰니스 브랜드 ‘커먼이츠’ 론칭",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5obTNuaTdYRk0xa3owRVBsWUZkb2c4RVROMmlzdzlJQ2cwWFlJdjdXNEUyVXlIbkdwOVMtbHZvcnpoZ293Z1ZEVGhVSFdTeFVzaHozTWtGRkwteFUwdkRz0gFfQVVfeXFMTmhtM25pN1hGTTFrejBFUGxZRmRvZzhFVE4yaXN3OUlDZzBYWUl2N1c0RTJVeUhuR3A5Uy1sdm9yemhnb3dnVkRUaFVIV1N4VXNoejNNa0ZGTC14VTB2RHM?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/10/news-p.v1.20261110.89e257289c6c4688bf2d1617d69ce3fd.jpg",
+              "url": "https://www.khan.co.kr/article/202611101452001/amp"
+            },
+            {
+              "name": "뉴스웍스",
+              "title": "CJ푸드빌, 웰니스 라이트밀 브랜드 '커먼이츠' 선봬…강남에 1호점 출격",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOX29TU0JtWTZGSy1OU1pBOTVXR1Jzd0doTUh4b2lGaUk0WFZCUkJtQ2NEMTZfcEhCVXU0clN5WlllSFlmbDNoZ0xVUERjTW54TzVQZm1qLUlVbXpDQlJQRnlVVkVOTWlyQUtxRmdKRdIBc0FVX3lxTE1EWHFQci02MjNLbDJXNXlmMmFBNDh4RUlRMEZ6WDdLREFrUWtaNFhCczRWVmxQZG8zMG1tSF9EOWprXzl2cHY4WkI1T0F4MkdnN1Zob2FoTkt4ZVBTOVNmYzhrMnlWQU44Y1FIRGRxZVhDUXM?oc=5",
+              "image": "https://cdn.newsworks.co.kr/news/photo/202611/902579_903581_4410.jpg",
+              "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=902579"
+            },
+            {
+              "name": "뉴시스",
+              "title": "CJ푸드빌, 웰니스 라이트밀 브랜드 '커먼이츠' 론칭…강남에 1호점 연다",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTRlBwZkl0a05EY0hXcmdzdzdpbjZ3VEVKeFRJc05uUEtHSG1jNnJMTExWajNxaElfNDlNQmdzWDg4LUx4NE1qdlgwOGg4U0lKZ18zU2hkdm45Y3dycXNlTlVjcUVKVVJPT09MTEt2bnEyT1lRNllucdIBeEFVX3lxTFBTRlBwZkl0a05EY0hXcmdzdzdpbjZ3VEVKeFRJc05uUEtHSG1jNnJMTExWajNxaElfNDlNQmdzWDg4LUx4NE1qdlgwOGg4U0lKZ18zU2hkdm45Y3dycXNlTlVjcUVKVVJPT09MTEt2bnEyT1lRNllucQ?oc=5",
+              "image": "https://img1.newsis.com/2026/11/10/NISI20261110_0002287606_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261110_0003861707"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "분당 시내버스 17대 연쇄 추돌",
+          "summary": "경기도 성남시 분당구 야탑동 버스정류장 인근 도로에서 시내버스가 신호 대기 중인 차량들을 연쇄 추돌해 17대가 얽히는 대형 사고가 발생했고 30여명이 부상했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Society/article/all/20261111/135003922/1",
+          "original_title": "[속보]분당서 시내버스가 차량 17대 추돌…30여명 부상",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "[속보]분당서 시내버스가 차량 17대 추돌…30여명 부상",
+              "link": "https://www.donga.com/news/Society/article/all/20261111/135003922/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/11/135003935.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "분당서 시내버스가 차량 10여대 연쇄 추돌…10여명 부상",
+              "link": "https://www.yna.co.kr/view/AKR20261111032100061",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/11/11/PYH2026111102050006101_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "[속보] 경기 성남 분당서 버스가 차량 10여대 연쇄 추돌",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03RlNKS2p5ekJWN1FlS1hVam9EdGhjOW9HSlhQNGIyREdPN3ZCbFRGNkdELWp0MDVaOEkxZGNpQmN5aUJUY0E0ekZEeWgtVXNnWFk5Z1RSbnk3cktfVlNhcDdlVDVyV3RFWlJVV2xaLW9Hal9fUks40gF3QVVfeXFMTXdQQ1c1VXU0bjcwWTNyZm9hRlRvNUpBS0taeUdTc2RySkU3X1hRUUdJWWZzeWxKUkFqODdGZXgydFlranJOZDRvX0xNOV96Sm8zZElaQWdxQ29RRWRZM0RrNUVkMnZ4dWxHSWM5VEhpOHNXOURxeEU?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/11/jh_20261111_34.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6864775_36918.html"
+            }
+          ]
+        },
+        {
+          "headline": "육사 충청 이전 결론…통합에 1조5000억 투입",
+          "summary": "국방부가 육군 사단만 충청 이전을 결론지었고 통합에 1조5000억 원을 투입했다.",
+          "source": "조선일보",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcldzLTd2dWpqbXdjR2FSVzJRZkM2WWZlRFNObnFOTXBoa3JnYlFpbDl5YUxIVTVDbEs2XzQ0ZS1YdVZJQmZERlhCZEVJa1hsQkZZSTMtTHBUdTVMQXRBenlSNDdkTFhmcnMxQmpTVloweEUtc1dRQV9YWHNvdlFraWNBUXRRLWRMMks3QWxRRDQ?oc=5",
+          "original_title": "[단독] 국방부 ‘육사만 충청 이전’ 결론… 통합에 1조5000억 투입",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "조선일보",
+              "title": "[단독] 국방부 ‘육사만 충청 이전’ 결론… 통합에 1조5000억 투입",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcldzLTd2dWpqbXdjR2FSVzJRZkM2WWZlRFNObnFOTXBoa3JnYlFpbDl5YUxIVTVDbEs2XzQ0ZS1YdVZJQmZERlhCZEVJa1hsQkZZSTMtTHBUdTVMQXRBenlSNDdkTFhmcnMxQmpTVloweEUtc1dRQV9YWHNvdlFraWNBUXRRLWRMMks3QWxRRDQ?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/FUWS5KGD2NMEBPWM6CBEHDRRIY.JPG?auth=821028be9cbf37a5fbbf5ee8d326d9295d32ec7abf45bfe751c9b8ef2d797eeb&width=1200&height=630&focal=1474,629",
+              "url": "https://www.chosun.com/politics/politics_general/2026/11/11/4XG7U4GKUFFDDDPIVPW3NLSAF4/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "짐 조던, 하원 공화당 원내대표",
+          "summary": "짐 조던이 미국 하원 공화당 원내대표에 선출됐다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840242",
+          "original_title": "'쿠팡보고서' 주도한 트럼프 충성파, 미 공화 하원 원내대표 됐다",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'쿠팡보고서' 주도한 트럼프 충성파, 미 공화 하원 원내대표 됐다",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840242",
+              "image": "https://img.sbs.co.kr/newimg/news/20261111/202239911_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "‘MAGA 인사’ 짐 조던, 공화당 하원 원내대표…쿠팡보고서 주도 인물",
+              "link": "https://www.donga.com/news/Inter/article/all/20261111/135003513/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/11/135003508.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美공화 하원 원내대표에 '쿠팡보고서' 주도 강경파 트럼프 측근(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261111005852071",
+              "image": "https://img9.yna.co.kr/photo/etc/epa/2026/11/11/PEP20261111067201009_P4.jpg"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "美 공화 새 하원 대표에 친트럼프 강경파, 쿠팡 옹호 의원",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aX0hRNEFGXzVEZUFTc1ZfWGVVbjdoeEFXRFBZdy1PUTlpNVpYYlVfcFRBTmpkcUMzV0hjVGgyb00zd0JUbGlQRktwbXBaOHhQRWtpWGE4LWFtUQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/11/11/202611110559273262_e.jpg",
+              "url": "https://www.fnnews.com/news/202611110714473675"
+            }
+          ]
+        },
+        {
+          "headline": "헤그세스 탄핵소추안, 하원 회부 동의안 가결",
+          "summary": "미국 하원은 피트 헤그세스 국방장관 탄핵소추안의 회부 동의안을 찬성 211표, 반대 204표로 가결했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261111_0003863162",
+          "original_title": "美 공화당, 헤그세스 탄핵 제동…위원회 회부로 탄핵 표결 피해",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "美 공화당, 헤그세스 탄핵 제동…위원회 회부로 탄핵 표결 피해",
+              "link": "https://www.newsis.com/view/NISX20261111_0003863162",
+              "image": "https://img1.newsis.com/2026/11/10/NISI20261110_0001736980_web.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "헤그세스 탄핵 제동…법사위 회부로 표결 피해",
+              "link": "https://www.donga.com/news/Politics/article/all/20261111/135003666/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/10/135002890.1.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "[속보] 미 하원 헤그세스 탄핵소추안 표결 무산···법사위로 회부",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyNW8xbWM3QlZmUzVKTTdkQmd0TnA1VFlfSzRaQUVrWk8yRDQ4c1FZUTE4eXVtSGtPNlBodDBoX1oyWkxnN1JERmVpMnNmTFlUNS1FbnhwblY4Z9IBX0FVX3lxTFBMMHdvMVRIQ05WVFh4bm83THdCQXY2bDBsMmdiT3ZMQ2JOcG5UWXhSSmJIQ1B3VXd6RTI5OVdMSDJfRDNxd0FZQUY3UEhpaTBrd0Q0MmpxbnNpNnJlR3hR?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/11/rcv.YNA.20261111.PUP20261110020201009_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202611110819001"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "[속보] 美하원 헤그세스 탄핵소추안 표결 무산",
+              "link": "https://www.yna.co.kr/view/AKR20261111024000071",
+              "image": "https://img0.yna.co.kr/photo/etc/epa/2026/11/11/PEP20261111092701009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "앤트로픽, 1.4조 달러 IPO 목표",
+          "summary": "미국 AI 기업 앤트로픽이 기업가치를 1조4000억달러로 설정하고 IPO를 추진한다.",
+          "source": "블로터",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=678277",
+          "original_title": "앤트로픽, 몸값 1.4조달러 목표로 IPO 추진…공모가 70∼78달러",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "블로터",
+              "title": "앤트로픽, 몸값 1.4조달러 목표로 IPO 추진…공모가 70∼78달러",
+              "link": "https://www.bloter.net/news/articleView.html?idxno=678277",
+              "image": "https://cdn.bloter.net/news/thumbnail/202611/678277_292909_1915_v150.jpg"
+            },
+            {
+              "name": "전자신문",
+              "title": "앤트로픽, 19일 나스닥 상장…공모가 70~78달러·86조원 조달 추진",
+              "link": "https://www.etnews.com/20261111000002",
+              "image": "https://img.etnews.com/news/article/2026/08/21/news-p.v1.20260821.13700f4b88054b388d7245886a4be8e0_P1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "'예술, 함께 그리는 미래' 2026 경남학교예술교육 페스티벌 전시회 개막",
+          "summary": "",
+          "source": "https://www.newfilenews.com/",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CVzBvSHNOdXVWLThJdjZYakZMZlRKbFBYUlh4NThEaGl6MEdldHJBZVhhQTlLWGdhb05KQy1pYVNock5sUW1INW5mMGdPei1lQVhrOVl1RVdtNno2YkUzQXJ0R3R0aG9GaG81dkZ3?oc=5",
+          "original_title": "'예술, 함께 그리는 미래' 2026 경남학교예술교육 페스티벌 전시회 개막",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "newfilenews.com",
+              "title": "'예술, 함께 그리는 미래' 2026 경남학교예술교육 페스티벌 전시회 개막",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CVzBvSHNOdXVWLThJdjZYakZMZlRKbFBYUlh4NThEaGl6MEdldHJBZVhhQTlLWGdhb05KQy1pYVNock5sUW1INW5mMGdPei1lQVhrOVl1RVdtNno2YkUzQXJ0R3R0aG9GaG81dkZ3?oc=5",
+              "image": "https://cdn.newfilenews.com/news/thumbnail/202611/55397_55749_3554_v150.jpg",
+              "url": "https://www.newfilenews.com/news/articleView.html?idxno=55397"
+            },
+            {
+              "name": "이뉴스투데이",
+              "title": "경남교육청, ‘2026 경남학교예술교육 페스티벌’ 작품 전시",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAteTA3eHRrMWNMNTVDVVNpMWl3OE1Gal8wd1NOM0xXSDI5OVlhOEdIUUlYOElBWUJjSFM1N01kRnhvc292SlRSSk9lNENFTWZkT3l3d1l6OW1CdWxSMlpHTzc3NmVHc3B3dVdDdURfVEFINmV40gF0QVVfeXFMUC15MDd4dGsxY0w1NUNVU2kxaXc4TUZqXzB3U04zTFdIMjk5WWE4R0hRSVg4SUFZQmNIUzU3TWRGeG9zb3ZKVFJKT2U0Q0VNZmRPeXd3WXo5bUJ1bFIyWkdPNzc2ZUdzcHd1V0N1RF9UQUg2ZXg?oc=5",
+              "url": "http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno=2490850"
+            },
+            {
+              "name": "더쎈뉴스",
+              "title": "경남교육청, 학교예술교육 페스티벌 개막…학생·교사 작품 689점 전시",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEVHFYaGpYVUJYdC1Pa2tCMjlOUWNuSURqS2VNX2hDckljLUE1OVZPdnRXUHVjQUFKRWJxUmhFejRXZGhNWGlZSWIyY2c2WWpkTGZYNGtKLV9Ba2tZak9lQVB6d3VXNlRq?oc=5",
+              "image": "https://cdn.mhns.co.kr/news/thumbnail/202611/768496_903573_5010_v150.jpg",
+              "url": "https://www.mhns.co.kr/news/articleView.html?idxno=768496"
+            },
+            {
+              "name": "경남탑뉴스",
+              "title": "경남교육청, 학교예술교육 페스티벌 개막···학생·교사 작품 689점 한자리에",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DbmxaYTBsUUU0eXcwbjdiWU9URmg0TVFrRzB3Q3ZNX003LUhLbGMtTy0tSXdhazNUYW9Dck1mbUtyQmsyckxQdHl4VUhnUDJ3ZHJUVXFIdmNrZmltVTlYdmFtWEdManNtbHRPTVZR0gFuQVVfeXFMTkNubFphMGxRRTR5dzBuN2JZT1RGaDRNUWtHMHdDdk1fTTctSEtsYy1PLS1Jd2FrM1Rhb0NyTWZtS3JCazJyTFB0eXhVSGdQMndkclRVcUh2Y2tmaW1VOVh2YW1YR0xqc21sdE9NVlE?oc=5",
+              "url": "https://www.topnews24.kr/news/articleViewAmp.html?idxno=82325"
+            },
+            {
+              "name": "경남포스트",
+              "title": "경남학교예술교육 페스티벌 작품 전시 10일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YTWVKSGE1cjlsUkpOeE11Tno1XzFUV3l0VU1DWmVJc0xDYmk5VXhDQUo2U1I0NFhOUDIydXdSdG9uODZsNzlnVEsyQzJwM3Fm?oc=5",
+              "image": "https://storage.googleapis.com/pressdata-media/gyeongnampost/1794296916708-rojarc.jpg",
+              "url": "https://gyeongnampost.com/post/cUgwjyZi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "벤거, 인판티노와 맞서 FIFA 회장 출마",
+          "summary": "벤거 전 아스널 감독이 인판티노 회장에 맞서 FIFA 회장 출마를 고민한다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840255",
+          "original_title": "'명장' 벵거, 인판티노에 맞서나…\"FIFA 회장 출마 고민\" 보도",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'명장' 벵거, 인판티노에 맞서나…\"FIFA 회장 출마 고민\" 보도",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840255",
+              "image": "https://img.sbs.co.kr/newimg/news/20261111/202239915_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "'명장' 벵거, 인판티노에 맞서나…\"FIFA 회장 출마 고민\" 보도",
+              "link": "https://www.yna.co.kr/view/AKR20261111024500007",
+              "image": "https://img9.yna.co.kr/photo/ap/2026/08/04/PAP20260804151801009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "벵거 전 아스널 감독, 인판티노 대항마로 FIFA 회장 출마하나",
+              "link": "https://www.newsis.com/view/NISX20261110_0003862885",
+              "image": "https://img1.newsis.com/2025/12/05/NISI20251205_0000837487_web.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "‘아스널의 전설’ 아르센 벵거, 인판티노 맞서 FIFA 회장 출마하나",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWWFTRlVLcGxNRWVHQ0ktcmF0WHFVN0UxcEtBeWt2LXhNd042TTdqQVU1bVN3WXM2cEx5TE9wQ3dlSGphNEI0MHFQVHJWbkZ2eVNqQ3prZ2JPZDZsSkJwTno4djJaOUJkQTB4T3J3ZkRyb1BPQ2xfR3FVWXQ3eTVnOWQ1OUdEWlJRazRn?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/AMO3H6JUTFCYVKUEDUEK2CSTRQ.JPG?auth=71ca0ac7a38cee8b7f3a574c56f7c954badfcb4602fdc72eab0394848ab030e5&width=1200&height=630&focal=1500,774",
+              "url": "https://www.chosun.com/sports/world-football/2026/11/10/MR2FO36I4RGM5PLPCGJ74ULBJY/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "국내에 없던 인테리어 스타일링의 시작",
+    "tagline": "ELLE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 14,
+      "t_min": 4,
+      "rain_pct": 0,
+      "sky": "대체로 맑음",
+      "display": "서울 4~14°C · 대체로 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "국내에 없던 인테리어 스타일링의 시작",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1911985",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/10/26/00e34c85-bb5f-47db-9094-be8605fdda6c.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "푸른색은 쪽에서 나왔지만 쪽보다 더 푸르다.",
+    "author": "순자",
+    "work": "순자"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 도착할 때, 웃음이 흐른다"
+      },
+      {
+        "animal": "소",
+        "text": "마음이 편안해질 때, 풍경이 빛난다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "활동이 활발해지면, 매일이 새롭다"
+      },
+      {
+        "animal": "토끼",
+        "text": "달콤한 아이디어가 눈에 떠오르다"
+      },
+      {
+        "animal": "용",
+        "text": "힘찬 에너지가 일상을 물들인다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜가 흐르면, 길이 밝아진다"
+      },
+      {
+        "animal": "말",
+        "text": "우정이 깊어지면, 여행이 즐거워진다"
+      },
+      {
+        "animal": "양",
+        "text": "평온이 흐르면, 마음이 가벼워진다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "창의력이 솟구치면, 웃음이 터진다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 빛을 비추면, 성취가 온다"
+      },
+      {
+        "animal": "개",
+        "text": "사랑이 넘치면, 작은 기쁨이 커진다"
+      },
+      {
+        "animal": "돼지",
+        "text": "웃음이 가득할 때, 삶이 풍성해진다"
+      }
+    ]
+  },
+  "reading_minutes": 3
+}
