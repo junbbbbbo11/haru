@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-12",
+  "weekday": "목요일",
+  "vol": 31,
+  "generated_at": "2026-11-12T10:51:54+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5390.2,
+      "change": 151.07,
+      "change_pct": 2.88,
+      "direction": "up",
+      "display": "5,390.20",
+      "change_display": "▲ 2.88%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1334.8,
+      "change": -7.1,
+      "change_pct": -0.53,
+      "direction": "down",
+      "display": "1,334.8원",
+      "change_display": "▼ 0.53%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 99659000.0,
+      "change": -679000.0,
+      "change_pct": -0.68,
+      "direction": "down",
+      "display": "9,966만원",
+      "change_display": "▼ 0.68%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 15,
+    "t_min": 6,
+    "rain_pct": 0,
+    "sky": "흐림",
+    "display": "서울 6~15°C · 흐림 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "연예",
+      "headline": "이재아 테니스 포기 골프 택",
+      "summary": "이재아는 테니스를 포기하고 골프를 시작했다. 은퇴를 원치 않았으며, 골프를 택한 이유를 밝혔다.",
+      "source": "매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMdVpFcW1FODRpMi1qYl9US3c4ZFZENC1qRW1aWmxnQWJLZjZGS0lTWTNhSzVwc0NlaVkzdks0NkcxSXlGZFF4eF9leGtLTGFlT3h0bHZJM20?oc=5",
+      "original_title": "“은퇴 원치 않았다”…‘이동국 딸’ 이재아, 테니스 접고 골프 택한 이유",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "“은퇴 원치 않았다”…‘이동국 딸’ 이재아, 테니스 접고 골프 택한 이유",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMdVpFcW1FODRpMi1qYl9US3c4ZFZENC1qRW1aWmxnQWJLZjZGS0lTWTNhSzVwc0NlaVkzdks0NkcxSXlGZFF4eF9leGtLTGFlT3h0bHZJM20?oc=5",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/12/news-p.v1.20261112.3996ca8f020b4c58b4d915dada3b206c_R.jpg",
+          "url": "https://www.mk.co.kr/news/hot-issues/12206026"
+        }
+      ]
+    },
+    {
+      "kicker": "교통",
+      "headline": "서울 지하철 통합관제센터 예산 문제",
+      "summary": "서울 지하철 통합관제센터 예산이 3,110억 원으로 과다하게 책정돼 문제가 되고 있다.",
+      "source": "청년투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrODU4TThNbTV6VVZYX3NBOW1xWExBaXRXSEpzZHBrc3Y1TGdYS1dKMXR5NV9sNFFTUVB3R3R5WkRtVEpkLXV1dDR6Vm1IcEZvZWduVmNfQktCRmVxcEJJUHc5Z295RlBibGc?oc=5",
+      "original_title": "고찬양 서울시의원, \"관제사가 보는 상황판은 69억 깎고, 메타버스·VR엔 107억”3,110억 서울 지하철 통합관제센터 '총체적 난국'… 행정사무조사 특위 건의“",
+      "sources": [
+        {
+          "name": "청년투데이",
+          "title": "고찬양 서울시의원, \"관제사가 보는 상황판은 69억 깎고, 메타버스·VR엔 107억”3,110억 서울 지하철 통합관제센터 '총체적 난국'… 행정사무조사 특위 건의“",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrODU4TThNbTV6VVZYX3NBOW1xWExBaXRXSEpzZHBrc3Y1TGdYS1dKMXR5NV9sNFFTUVB3R3R5WkRtVEpkLXV1dDR6Vm1IcEZvZWduVmNfQktCRmVxcEJJUHc5Z295RlBibGc?oc=5",
+          "image": "https://cdn.fnnews21.com/news/thumbnail/202611/59519_61803_0021_v150.jpg",
+          "url": "https://www.fnnews21.com/news/articleView.html?idxno=59519"
+        }
+      ]
+    },
+    {
+      "kicker": "사회",
+      "headline": "전세사기 피해 480건 추가 결정",
+      "summary": "전세사기 피해가 480건 추가로 확인돼 누적 피해자가 4만2039명에 이른다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261111_0003864192",
+      "original_title": "국토부, 전세사기 피해 480건 추가 결정…누적 4만2039명",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "국토부, 전세사기 피해 480건 추가 결정…누적 4만2039명",
+          "link": "https://www.newsis.com/view/NISX20261111_0003864192",
+          "image": "https://img1.newsis.com/2019/09/03/NISI20190903_0015556030_web.jpg"
+        },
+        {
+          "name": "MBC 뉴스",
+          "title": "국토부, 전세사기 피해 480건 추가 결정‥누적 4만 2,039명",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpamlZRS1ON0RXWjBwei00LXcwSm91MmR0eHBuZDFHc0hNRDRMNXVXejA3Y2YtanVqeDVNMXFmN055TXBaajk5MVpPZm5DWVl5OFJiT3lxbmhPVmRsWHB6dkltRm9lT3dhQVV5MVhObGVveGFS0gF0QVVfeXFMT05HcUxZT3o4amlNYmJQUDBVbno1T1RrcHBJbmpPQkNWVHk5VEs3a0NzOHpPYlM1bTd2YnBOYnBiR2N1bUM2a1NobHNZYzJ6dVZDOGpJOGpJUTZJdEdKWDhaNmZtR2dzMm1TaFU0OWJRRTRyTG4?oc=5",
+          "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/12/jh_20261112_49.jpg",
+          "url": "https://imnews.imbc.com/news/2026/econo/article/6865055_36932.html"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "국고채 담합 1.6조 과징금 부과",
+          "summary": "국고채 입찰 담합한 15개 금융사에 1조6000억원 과징금이 부과됐다. 사상 최대 규모다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12205669",
+          "original_title": "국고채 담합 1.6조 과징금…시장 혼란",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "국고채 담합 1.6조 과징금…시장 혼란",
+              "link": "https://www.mk.co.kr/news/economy/12205669",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "국고채 담합 1.4조 과징금에도…\"증권주, 배당 매력 유효\"",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96cllfam1RREgySjhndE1Rdm55YUVfcGszUHJxOWE0a004b21LSlNZcFMtRU9MR2RiN3FET3M1dGJqcUJhelY5djB4NUtkWjZnYXZuMGo1eTc1M2huVV9FYmxQMHpRVk1qQnBmOHN6SzU?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4444313_356217_472_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444313"
+            }
+          ]
+        },
+        {
+          "headline": "반도체 한국 대미 흑자 170조 전망",
+          "summary": "반도체 산업이 올해 대미 흑자 170조원을 기록할 전망이다. 트럼프 행정부의 과녁판과 연계해 논란이 제기될 수 있다.",
+          "source": "한겨레",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VdERtZWtSQnBLRTg3cHBHRFl0VXozVkJMUkxwdDgtRWUwUmkzY1JPUDBXRUxoVkpvdjBNQlppXzVnX2pKY3ZFdVRCUVFKUWFXeFdNdUtlQVZlMXdiaEgtWGlBaHVIckNoUGc?oc=5",
+          "original_title": "반도체 한국, 올해 대미 흑자 170조원 전망…트럼프 ‘과녁판’ 되나",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "한겨레",
+              "title": "반도체 한국, 올해 대미 흑자 170조원 전망…트럼프 ‘과녁판’ 되나",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VdERtZWtSQnBLRTg3cHBHRFl0VXozVkJMUkxwdDgtRWUwUmkzY1JPUDBXRUxoVkpvdjBNQlppXzVnX2pKY3ZFdVRCUVFKUWFXeFdNdUtlQVZlMXdiaEgtWGlBaHVIckNoUGc?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/800/imgdb/original/2026/1111/20261111503822.webp",
+              "url": "https://www.hani.co.kr/arti/economy/marketing/1286910.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "벨리츠 FW 대표상품 판매 목표 초과",
+          "summary": "쇼핑엔티 벨리츠가 FW 대표상품 4종을 판매 목표를 모두 초과 달성했다.",
+          "source": "스마트투데이",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ySmw3emJjdGlPam1wZjd6VHk4eW9HdTJHUUJRRGNOM1p4Y1B3VUt6SGlsWmJYODBmRGVVb0ZYN0N4dlZsVVJlTExnMU9yMjVJd2pJWVI4OVRfZnN2NEZF?oc=5",
+          "original_title": "쇼핑엔티 ‘벨리츠’, FW 대표 상품 4종 모두 판매 목표 달성",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "스마트투데이",
+              "title": "쇼핑엔티 ‘벨리츠’, FW 대표 상품 4종 모두 판매 목표 달성",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ySmw3emJjdGlPam1wZjd6VHk4eW9HdTJHUUJRRGNOM1p4Y1B3VUt6SGlsWmJYODBmRGVVb0ZYN0N4dlZsVVJlTExnMU9yMjVJd2pJWVI4OVRfZnN2NEZF?oc=5",
+              "image": "https://cdn.www.smarttoday.co.kr/w1200/q100/f_jpg/article-images/2026-11-11/6de6be14-d4d2-4627-b04c-e0ef70dd071f.jpg",
+              "url": "https://www.smarttoday.co.kr/ko-kr/articles/113655"
+            },
+            {
+              "name": "뉴스투데이",
+              "title": "실용 패션 통했다…쇼핑엔티 ‘벨리츠’, FW 대표 상품 판매 목표 초과",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9WMnZicWpzcmx2ZE93MXhKS1RURGhuNjhreEZ4Z2x6SjdRZlZyUnc3aV9EMXMyMU5HR1kyeVppX1VOYU5VTDhPX0JseUN5ZjNpUjVUa1A5cGY0VmljWFE?oc=5",
+              "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/11/.cache/512/20261111500240.jpg",
+              "url": "https://www.news2day.co.kr/article/20261111500241"
+            },
+            {
+              "name": "어패럴뉴스",
+              "title": "쇼핑엔티 패션 PB '벨리츠', FW 대표 상품군 판매 목표 100% 이상 달성",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xN3k2MEplb2FjZEFaX00xLU5tQjY3bHdHaVdKNXM1ekJidXZMVmtLekFLeW1YbkxBcGJRMGdTUnZBWjZnT1JWNDE1UVQ2azNDSlRfNkpfaEtleEV0dThfM09NSWRpMnVadU12Znp1N0pseWpjQTBV?oc=5",
+              "url": "http://m.apparelnews.co.kr/news/news_view_amp/?idx=228909?cat=CAT127"
+            },
+            {
+              "name": "파이낸셜리뷰",
+              "title": "쇼핑엔티 ‘벨리츠’ FW 대표 상품군 4개 목표치 달성",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jWjlrNEhSTEh1cHhCVnMwMlBpNDJwV3FlbGswN3htVlpzcTFGMmxlOXl3M0VrNVRfX3Z1Z3JzQ0N1VnUzUzFGVi1mVUIwT0hCa09FMkRxdnJzOUhaX2VKcnRqdWFBU2xrb1RHVUc2UkVvSEtW?oc=5",
+              "url": "http://www.financialreview.co.kr/news/articleView.html?idxno=46211"
+            },
+            {
+              "name": "테크M",
+              "title": "쇼핑엔티, 패션 PB '벨리츠' 인기...대표 상품 4종 FW 시즌 판매 목표 달성",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoenplTXo4MGlJWUhGLWFDTlluMUp5Y3E5S0ZZcVJqbjZCS3RHbldfNkJOdkVuektFZlVfeG9oaHgxYmFjZGdPSHdqRWpLUUp3aF9JTEtyMUtIVVR0WjVMd2Yxekd4TUZfOVHSAWpBVV95cUxQaHp6ZU16ODBpSVlIRi1hQ05ZbjFKeWNxOUtGWXFSam42Qkt0R25XXzZCTnZFbnpLRWZVX3hvaGh4MWJhY2RnT0h3akVqS1FKd2hfSUxLcjFLSFVUdFo1THdmMXpHeE1GXzlR?oc=5",
+              "url": "https://www.techm.kr/news/articleViewAmp.html?idxno=157211"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "충북도, 오송화장품뷰티엑스포 성과 점검…내년 행사 개선 추진",
+          "summary": "",
+          "source": "충청매일",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OMlN3dy15V1ZMZEMzZ2VKTlhPdU5kN0d0UUNuMm9lbFFaY3V6bTJUazhTcEdhcHRSOS1xaTJqaGtlTjZHSlduOU9lOTFXa3hBSDR3Qm5CRDd2c3VRN3F1WTRZZW5GcFFlS0E?oc=5",
+          "original_title": "충북도, 오송화장품뷰티엑스포 성과 점검…내년 행사 개선 추진",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "충청매일",
+              "title": "충북도, 오송화장품뷰티엑스포 성과 점검…내년 행사 개선 추진",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OMlN3dy15V1ZMZEMzZ2VKTlhPdU5kN0d0UUNuMm9lbFFaY3V6bTJUazhTcEdhcHRSOS1xaTJqaGtlTjZHSlduOU9lOTFXa3hBSDR3Qm5CRDd2c3VRN3F1WTRZZW5GcFFlS0E?oc=5",
+              "image": "https://cdn.ccdn.co.kr/news/thumbnail/202611/1110585_623408_0554_v150.jpg",
+              "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1110585"
+            },
+            {
+              "name": "더퍼블릭",
+              "title": "충북도, 오송화장품뷰티엑스포 성과 점검… 해외 바이어 감소 과제",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRWWd3NDhsdEozUlFMb2V6Q2ZoaExxNEdHc2Ywa1VLNE1vbGJfTUlUdnJXVzVnMGtlRV9JM2FJRFdiSTJvZzR3OFFHc0UxNGNUeTFra05XMVBXb0o0Qm13bVFxOFFHdkxxaWFWRUVWTdIBb0FVX3lxTFBRWWd3NDhsdEozUlFMb2V6Q2ZoaExxNEdHc2Ywa1VLNE1vbGJfTUlUdnJXVzVnMGtlRV9JM2FJRFdiSTJvZzR3OFFHc0UxNGNUeTFra05XMVBXb0o0Qm13bVFxOFFHdkxxaWFWRUVWTQ?oc=5",
+              "url": "https://www.thepublic.kr/news/articleViewAmp.html?idxno=326198"
+            },
+            {
+              "name": "국제뉴스",
+              "title": "2026 오송화장품뷰티엑스포 성과 공유…기업 유치·관람객 만족 방안 논의",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aQW1XS3ZnenpsYWJDWXJOMmVUTnZfUHZ4a2ZhT09hLXNhMGRZTXlNUnFyT1duU0FuUC16cE0zMkx2bU9xY1lHTFNKVUhCQ3pXQ3A5T3ltcU5pdFhmc2IzbTBsaFBkcmI5THhhUjBB?oc=5",
+              "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3749143_3930710_5338_v150.jpg",
+              "url": "https://www.gukjenews.com/news/articleView.html?idxno=3749143"
+            },
+            {
+              "name": "세종경제뉴스",
+              "title": "‘2026오송화장품뷰티엑스포’ 성과 공유했다",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TcnFGZVQxenU3WDg5TnNqb1p2bUdGMjhUWUl3SGFIdHdZVEt3YzFjMGg3bzFYemdYNFFobXkzaWlnN2JWZlQ2dGFjT0lMYzktcC01cFo1SWVBRXBiRDNOWUpPeW9ld1UtZGdYNNIBcEFVX3lxTFA0ZjF3UXVIOGlBekNRbjZ6UGhWWnZHTExJNmpsZzBQcmNQYnVBa3kwSEswb2ZmaGR4Mk45ekZIRTdDQXBTaHM2MWVtbTk5dEdpRXZhc3R0U2dqbldzSkFGWmVkQThGWVFFQXhVNTdoUzM?oc=5",
+              "image": "https://cdn.seenews365.com/news/photo/202611/66624_83062_928.jpg",
+              "url": "https://www.seenews365.com/news/articleView.html?idxno=66624"
+            },
+            {
+              "name": "굿모닝충청",
+              "title": "신용한 충북지사 “오송화장품뷰티엑스포 성과, 내년에도 계속”",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tc2JoQVZucUxxbHk3Y0c4QU4xZnh1M2h2NEt2WHNRQ1JPY20tOW5iZDNFWHpSdDQ4d3N3ZlZrRVR6NFNYYXBDejZwUHBmZ0ljdEJNNVZ6bjBydDViSTNKUEtQeWtES2xya0VZcHd5cEtuUQ?oc=5",
+              "image": "https://cdn.goodmorningcc.com/news/thumbnail/202611/455628_472803_3050_v150.jpg",
+              "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=455628"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "한화손보와 이대서울병원, 친환경 웰니스 공간 조성",
+          "summary": "한화손보는 이대서울병원에 친환경 쉼터를 조성해 80그루의 왕벚나무를 심었다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DZWp2cU9KT0tfRWx3cTFJVTktS1B6cTYxc1JOczRhb0EyM1RENFRQNFV0dnNTZGgxcHVRQmhCakNXZUFWTWV6RVhwUlFHSUlr0gFUQVVfeXFMTTJZVk1WRGZldWJqa0twVXQ3eXNfbDRFYzZKb3N0cFZ2V3pOaWpCcEE1ZDFpa2hsdkNJb2pVRmdYRFlEbWx4SmFFNzc0aTBDdlJ3aVJJ?oc=5",
+          "original_title": "한화손보, 이대병원에 ‘웰니스 존’",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "세계일보",
+              "title": "한화손보, 이대병원에 ‘웰니스 존’",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DZWp2cU9KT0tfRWx3cTFJVTktS1B6cTYxc1JOczRhb0EyM1RENFRQNFV0dnNTZGgxcHVRQmhCakNXZUFWTWV6RVhwUlFHSUlr0gFUQVVfeXFMTTJZVk1WRGZldWJqa0twVXQ3eXNfbDRFYzZKb3N0cFZ2V3pOaWpCcEE1ZDFpa2hsdkNJb2pVRmdYRFlEbWx4SmFFNzc0aTBDdlJ3aVJJ?oc=5",
+              "image": "https://www.segye.com/content/image/2026/11/11/20261111518794.jpg",
+              "url": "https://m.segye.com/view/20261111516158"
+            },
+            {
+              "name": "우먼타임스",
+              "title": "한화손보, 이대서울병원에 친환경 쉼터 '웰니스 존' 조성…왕벚나무 80그루 심어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NeHcyYkRXZjZKWTZaUUF6Q3FLVV9EMm1FX1hvN052bnlKT2pkRTVXTW9pMkUxU3FEQ1lZUEU4NnhZdDVLcTFaUUMyZHVqZU1xQkVPR2NQcXdicmtTLXpPOGhIb2V6c3FCRUxYempxVUvSAXRBVV95cUxQTXQzazREQ01ZNzVfek1nOEpTbTQ1aHJUclhIUGRKUnhCQWhkN2k2SHEtcVVKUHpiRURqeFp5NnZfQ1RhWERMbEwxVjN6THJiU2M5YjFtblU2OWFwTkNXRDc4aWlKN0o2WkRMYy1UcERhd0xIZA?oc=5",
+              "image": "https://cdn.womentimes.co.kr/news/photo/202611/107835_209368_1912.jpg",
+              "url": "https://www.womentimes.co.kr/news/articleView.html?idxno=107835"
+            },
+            {
+              "name": "아시아타임즈",
+              "title": "[보험 뉴스브리핑] 한화손보 이대서울병원 친환경 쉼터 '웰니스 존' 조성",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53SEdSbElmb2EyUTR5Q1ByWWw2MnI5LVlSREw1VWdhQVFpaXlTay1UZzVRR3laUUxnQ2p4M25Kb05TMzJ3VE55UlFvNjdzR1JrNjc5MloxNFljOS1NRVE?oc=5",
+              "image": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/11/11/.cache/512/20261111500459.jpg",
+              "url": "https://www.asiatime.co.kr/article/20261111500468"
+            },
+            {
+              "name": "뉴스포스트",
+              "title": "한화손보, 이대서울병원 치유 쉼터 '웰니스 존' 조성",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCWkVUVXRvQ3RqS0lnZkR2bER6aFVNZGpTZ0pZdmtOdXV2S3FZOG5XRjNCZEZtalZTeHRMd3dkdXNmVVRwbVJ2SFI0eFJtY3JJOUtrXzZqcDNCelJBMHE2NlhCR1c1cjZsUUE?oc=5",
+              "image": "https://cdn.newspost.kr/news/thumbnail/202611/227289_229825_5151_v150.jpg",
+              "url": "https://www.newspost.kr/news/articleView.html?idxno=227289"
+            },
+            {
+              "name": "리버티코리아포스트",
+              "title": "한화손보, 이대서울병원 內 친환경 치유 쉼터 ‘웰니스 존’ 조성",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XcnJpX2d5ZEdWVXNMT19kT2tnVF9rM2g0Z1Vzck9EMUgtSi1Wd3luQjhQaFdqWjh2V1k0OXh1aXgzbHRTcXZwNU43SUVwdzFKVnZ6NVZnMW80enFRcmNfM3FrSFAyYTTSAWdBVV95cUxPV3JyaV9neWRHVlVzTE9fZE9rZ1RfazNoNGdVc3JPRDFILUotVnd5bkI4UGhXalo4dldZNDl4dWl4M2x0U3F2cDVON0lFcHcxSlZ2ejVWZzFvNHpxUXJjXzNxa0hQMmE0?oc=5",
+              "url": "http://www.lkp.news/news/articleViewAmp.html?idxno=86025"
+            }
+          ]
+        },
+        {
+          "headline": "대장암 수술 후 근감소와 '머슬린' 연관 규명",
+          "summary": "연세의대 교수팀이 대장암 수술 후 근감소와 '머슬린'의 연관성을 규명했다.",
+          "source": "MEDI:GATE NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tZHM3Um1aR3dveHB0d3podmsyVTc3MUFZVW9WTWRYdUg3blpSMjZlTXBDZmhjeHlJMWgydWVJWmlRSU9yS0tlTVAyVEViS2FieThIaEllWQ?oc=5",
+          "original_title": "연세의대 안철우·강정현 교수팀, 대장암 수술 후 근감소 연관 '머슬린' 규명",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "MEDI:GATE NEWS",
+              "title": "연세의대 안철우·강정현 교수팀, 대장암 수술 후 근감소 연관 '머슬린' 규명",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tZHM3Um1aR3dveHB0d3podmsyVTc3MUFZVW9WTWRYdUg3blpSMjZlTXBDZmhjeHlJMWgydWVJWmlRSU9yS0tlTVAyVEViS2FieThIaEllWQ?oc=5",
+              "image": "https://medigatenews.com/file/news/542005",
+              "url": "https://www.medigatenews.com/news/1514896537"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이재명 대통령 필리핀 아세안·중국 APEC 정상회의 참석",
+          "summary": "이재명 대통령은 2025년 말레이시아 아세안+3 정상회의에 참석하고, 16일부터 19일까지 필리핀에서 아세안·중국 APEC 정상회의를 진행한다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842424",
+          "original_title": "이 대통령, 16~19일 필리핀 아세안·중국 APEC 정상회의 참석",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 16~19일 필리핀 아세안·중국 APEC 정상회의 참석",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842424",
+              "image": "https://img.sbs.co.kr/newimg/news/20261112/202240265_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "[속보]李, 16~19일 필리핀 아세안·中 APEC 참석",
+              "link": "https://www.donga.com/news/Politics/article/all/20261112/135011330/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/12/135012019.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령, 16∼19일 필리핀 아세안·中 APEC 정상회의 참석",
+              "link": "https://www.yna.co.kr/view/AKR20261112043900001",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2025/10/27/PYH2025102712160001300_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "[속보]이 대통령, 3박4일간 필리핀·중국 순방…아세안·APEC 정상회의 참석",
+              "link": "https://www.khan.co.kr/article/202611120939001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/12/rcv.PHOTOPOOL.20260927.kpa17905113910212_P1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "엔비디아 이사회, 황 CEO 해임 준비",
+          "summary": "엔비디아 이사회가 황 CEO 해임을 준비한 보도에 주가가 시간외 거래에서 9% 가까이 하락했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842572",
+          "original_title": "\"젠슨 황 해임 준비\" 보도…엔비디아 주가 시간외 8.6%↓",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"젠슨 황 해임 준비\" 보도…엔비디아 주가 시간외 8.6%↓",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842572",
+              "image": "https://img.sbs.co.kr/newimg/news/20261112/202240263_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "엔비디아 주가 시간외 8.6%↓…시총 MS에 밀려 3위(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261112021351009",
+              "image": "https://img9.yna.co.kr/photo/ap/2026/11/09/PAP20261109157401009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'젠슨 황 해임설' 엔비디아 시간외 9%↓…나스닥100 선물 하락세",
+              "link": "https://www.newsis.com/view/NISX20261112_0003864836",
+              "image": "https://img1.newsis.com/2026/10/20/NISI20261020_0001677185_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "미 민주당, 미시시피 상원 40여년 만에 승리",
+          "summary": "미시시피주에서 민주당 후보가 공화당 현역을 꺾어 상원 의석을 40여 년 만에 탈환했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261112_0003864862",
+          "original_title": "美 민주당, 미시시피서 40여년 만에 승리…상원 55석 확보",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "美 민주당, 미시시피서 40여년 만에 승리…상원 55석 확보",
+              "link": "https://www.newsis.com/view/NISX20261112_0003864862",
+              "image": "https://img1.newsis.com/2026/11/05/NISI20261105_0001722360_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "미 민주, 공화텃밭 미시시피 상원 선거도 승리…총 55석 확보",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842374",
+              "image": "https://img.sbs.co.kr/newimg/news/20261112/202240258_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美민주, '딥레드' 공화텃밭 미시시피 상원선거도 승리…총 55석(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261112016852071",
+              "image": "https://img9.yna.co.kr/photo/ap/2026/11/05/PAP20261105063401009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "IBM, 나이트호크 r3 양자 프로세서 공개",
+          "summary": "IBM이 차세대 양자 프로세서 ‘나이트호크 r3’ 개발을 공개했다. 내년 두 개를 연결해 1040큐비트 규모 단일 시스템 구축을 추진했다.",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261112091439",
+          "original_title": "IBM, 양자 프로세서 '나이트호크 r3' 공개…내년 1040큐비트 구축 추진",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "IBM, 양자 프로세서 '나이트호크 r3' 공개…내년 1040큐비트 구축 추진",
+              "link": "https://zdnet.co.kr/view/?no=20261112091439",
+              "image": "https://image.zdnet.co.kr/2026/11/12/2a899feceac050fa1c31374d63515218.jpg"
+            },
+            {
+              "name": "전자신문",
+              "title": "IBM, 내년 1040큐비트 시스템 구축 추진…양자칩 두 개 연결",
+              "link": "https://www.etnews.com/20261112000007",
+              "image": "https://img.etnews.com/news/article/2026/11/12/news-p.v1.20261112.7e3da960a4d94a36abbc3e896a8d64ed_P1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "인천아트쇼 2026 송도서 개막 전통과 현대 예술 한자리에 모여",
+          "summary": "인천아트쇼 2026이 19일 송도에서 개막했다. 작가 1000명과 작품 5000점이 한자리에 전시된다.",
+          "source": "livesnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxYWdNaFJqNlQ0LUxIcUV3VGVacVViV1lzcV9jMy1WZ3Z0VlFhc0t6cHNKckREZk9nOHZmSnZzeFJVRHJxY0hTSENaSjYtOXJGdXZPcHZsOF9JUlFVWmxvcHhn?oc=5",
+          "original_title": "인천아트쇼 2026, 19일 송도서 개막… 전통공예와 현대미술 한자리에",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "livesnews.com",
+              "title": "인천아트쇼 2026, 19일 송도서 개막… 전통공예와 현대미술 한자리에",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxYWdNaFJqNlQ0LUxIcUV3VGVacVViV1lzcV9jMy1WZ3Z0VlFhc0t6cHNKckREZk9nOHZmSnZzeFJVRHJxY0hTSENaSjYtOXJGdXZPcHZsOF9JUlFVWmxvcHhn?oc=5",
+              "image": "https://www.livesnews.com/data/photos/20261146/art_17944020739938_96e74e.jpg",
+              "url": "https://www.livesnews.com/news/article.html?no=65883"
+            },
+            {
+              "name": "내외일보",
+              "title": "인천아트쇼2026, 19일 개막.. 전통과 오늘의 예술을 잇다",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15MXhNWU81MTJUS2tXeFMyLU9STVVpODJuZjR0MjlDZTNfeXNQWm4yV1VBV3I4elJ1amVjQW5MSWM3OU4tcFZDOERsdFBZTzl2cEFrNGh0OXdEcTJUTkFjNGFTN0NVRVZrZ1ZJVjdvNA?oc=5",
+              "image": "https://cdn.naewoeilbo.com/news/photo/202611/2451852_1471548_1849.jpg",
+              "url": "https://www.naewoeilbo.com/news/articleView.html?idxno=2451852"
+            },
+            {
+              "name": "인천in 시민의 손으로 만드는 인터넷신문",
+              "title": "작가 1000명, 작품 5000점 한자리에... 인천아트쇼 19일 송도서 개막",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MQXZkQ0RvX0dTdjdNSUphTnNVMXJGOFJkcEo1QUgwdEhDUW0xTVJDWDd4Wjc5ckIzcVZJQkllQWxrMlpoU3l6cEw3VEdCREVNbkNWYjZVbjFFSjJ4Sll1Tm1ya1doTllPVy1IQQ?oc=5",
+              "image": "https://www.incheonin.com/news/thumbnail/202611/122192_191771_2438_v150.jpg",
+              "url": "https://www.incheonin.com/news/articleView.html?idxno=122192"
+            },
+            {
+              "name": "뉴스프리존",
+              "title": "인천아트쇼 2026, 송도서 19일 개막…세계 미술과 한국 전통공예 한자리에",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42eHg5OHZGNEY4Rmx5dlBUdUY0NzdRbnNodEhGZXFPdlpIU0dncWRrRFBZNFprdjA4V05rVkNXVU1XNkw4dTZESEwwaURvQlg0eFJodDhBQzRLWi0xZFpKUk5CZWNsNE1BazhiQ2RJczhweE5EMHY00gF3QVVfeXFMTjZ4eDk4dkY0RjhGbHl2UFR1RjQ3N1Fuc2h0SEZlcU92WkhTR2dxZGtEUFk0Wmt2MDhXTmtWQ1dVTVc2TDh1NkRITDBpRG9CWDR4Umh0OEFDNEtaLTFkWkpSTkJlY2w0TUFrOGJDZElzOHB4TkQwdjQ?oc=5",
+              "url": "https://www.newsfreezone.co.kr/news/articleViewAmp.html?idxno=718824"
+            },
+            {
+              "name": "경향신문",
+              "title": "작가 1000명의 작품 5000점 전시…인천아트쇼 19일 송도서 개막",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xTGw4c0xTM05HaldMd2NTRVRhSU5pUHc0OWh0dGljdG1QajhGLXNCdXpYbDBIZTdFTkVuLWJRUFF2SU9pR001cVdiV0J1Ty00VDhDNHFWQkxOd9IBX0FVX3lxTE5uQ3RFV2lUeXpsMHg1ZURjcjJkR1N2cGJsb0daRDBJSnlPTzZqM01qX19iM3RMQzcwUUJyZXBraHg5dGhmX19RSTZhVjN2VGJ1MW81UXBTMWs4cHppbTJN?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/11/news-p.v1.20261111.7ea9a75894fe4396bcacd0dddd45370a_P1.jpg",
+              "url": "https://www.khan.co.kr/article/202611111314001"
+            }
+          ]
+        },
+        {
+          "headline": "한·러 초대 교류전 12일 서울에서 현대 미술 거장들 모인다",
+          "summary": "한·러 현대미술 거장 8인이 서울에서 ‘한·러 초대 교류전’을 12일 개막한다.",
+          "source": "스트레이트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IR3JlMDQxZWJKYlR1VUNSbklBZEwxSXN2eVdBUTZwRm9uMm80MlhseUZmNXJXZ2ZzMENmbWV2U2xYbEk0OEQ3dFVKN2pBcDBQbnpoOURITjh6LUVXSXVGNWZuZERYMHBBTHBhN0Fnc1lFTVnSAXdBVV95cUxQMlozUW9EdnlNaktKQW1taWd6akJqTTQzaXh2bjJIY19HR2w5MDVoanlIbVV1SVdsSzUwSzRHQ1h5SHgtWjZZUWlpdmZDRjNyNHI3bmZsOUN4blZReWtOVVUzZW1XMnZRdGpTS3B3VTBaU2stR09IWQ?oc=5",
+          "original_title": "한·러 현대미술 거장들 서울 집결…‘한·러 초대 교류전’ 12일 개막",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "스트레이트뉴스",
+              "title": "한·러 현대미술 거장들 서울 집결…‘한·러 초대 교류전’ 12일 개막",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IR3JlMDQxZWJKYlR1VUNSbklBZEwxSXN2eVdBUTZwRm9uMm80MlhseUZmNXJXZ2ZzMENmbWV2U2xYbEk0OEQ3dFVKN2pBcDBQbnpoOURITjh6LUVXSXVGNWZuZERYMHBBTHBhN0Fnc1lFTVnSAXdBVV95cUxQMlozUW9EdnlNaktKQW1taWd6akJqTTQzaXh2bjJIY19HR2w5MDVoanlIbVV1SVdsSzUwSzRHQ1h5SHgtWjZZUWlpdmZDRjNyNHI3bmZsOUN4blZReWtOVVUzZW1XMnZRdGpTS3B3VTBaU2stR09IWQ?oc=5",
+              "image": "https://cdn.straightnews.co.kr/news/thumbnail/202611/315187_228180_4912_v150.jpg",
+              "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315187"
+            },
+            {
+              "name": "뉴시안",
+              "title": "한·러 현대미술 거장 한자리에…‘한·러 초대 교류전’ 12일 개막",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0eEoyV1I4blBVdzFFWHdkS3V5MEs2OXB1bXZ3ZFIxSnN3M2Vwa2pWMGhQd2ZWUUdod0dsRU1Ec3o0MmdIU1F1Y3A0LWV3bFZ5MVhucWFLMFE4Y3c5aVZuUi1TNEFpdmNfVzU2bA?oc=5",
+              "image": "https://cdn.newsian.co.kr/news/photo/202611/101049_101316_5825.jpg",
+              "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101049"
+            },
+            {
+              "name": "브릿지경제",
+              "title": "한·러 현대미술 거장 8인 서울서 대규모 교류전… 12일 개막",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xcmtxcVJVSVF2amZobHJSamhzbVpmYWpVYjJBUjFEY0luTjlER0E1SGRJb3NYZzZKRGVld0lWT05VeWVxZEE1UmhzNExMenBNY2k1ZGZ1ampEdw?oc=5",
+              "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/11/11/.cache/512/20261111500529.jpg?v=20261112110845",
+              "url": "https://www.viva100.com/article/20261111500531"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "LG 오스틴, 1년 200만 달러 재계약",
+          "summary": "LG 오스틴이 200만 달러에 재계약하며 외인 타자 연봉 최고 기록을 갱신했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842590",
+          "original_title": "LG 오스틴, 외국인 타자 역대 최고 연봉 재계약…1년 200만 달러",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "LG 오스틴, 외국인 타자 역대 최고 연봉 재계약…1년 200만 달러",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842590",
+              "image": "https://img.sbs.co.kr/newimg/news/20261112/202240287_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "오스틴, 외인 타자 역대 최고 연봉 200만 달러에 재계약…5년째 LG와 동행",
+              "link": "https://www.newsis.com/view/NISX20261112_0003864883",
+              "image": "https://img1.newsis.com/2026/10/14/NISI20261014_0021489235_web.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "41홈런 거포 오스틴, LG와 200만 달러에 재계약…외인 타자 최고 대우",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFeXl1YXNuTXNwUzI4Q3BQM2R1VFRSVUMyTnlFejJwRlI4YlRZUU9nT2dKa0c2LUI4OW1ScGMxMXZ5SEZsaTBMM2NKc01oWTdoeFZWbE9ud0lIRW8?oc=5",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8710827"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "LG 오스틴, 외국인 타자 역대 최고 연봉 재계약…1년 200만 달러",
+              "link": "https://www.yna.co.kr/view/AKR20261112065800007",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/09/03/PYH2026090323100001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "퍼 코트가 부담스러운 사람들을 위한 해결책",
+    "tagline": "W Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 15,
+      "t_min": 6,
+      "rain_pct": 0,
+      "sky": "흐림",
+      "display": "서울 6~15°C · 흐림 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "퍼 코트가 부담스러운 사람들을 위한 해결책",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/12/%ed%8d%bc-%ec%bd%94%ed%8a%b8%ea%b0%80-%eb%b6%80%eb%8b%b4%ec%8a%a4%eb%9f%ac%ec%9a%b4-%ec%82%ac%eb%9e%8c%eb%93%a4%ec%9d%84-%ec%9c%84%ed%95%9c-%ed%95%b4%ea%b2%b0%ec%b1%85/",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6af42ba1d6e43-scaled-1920x1080.jpeg?x=1707&y=1377&ver=1.2.07",
+        "url": "https://www.wkorea.com/2026/11/12/%ED%8D%BC-%EC%BD%94%ED%8A%B8%EA%B0%80-%EB%B6%80%EB%8B%B4%EC%8A%A4%EB%9F%AC%EC%9A%B4-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%95%B4%EA%B2%B0%EC%B1%85/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "반드시 죽고자 하면 살고, 반드시 살고자 하면 죽는다.",
+    "author": "이순신",
+    "work": "난중일기"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "오늘은 새로 시작할 기회가 찾아온다."
+      },
+      {
+        "animal": "소",
+        "text": "풍부한 에너지가 일상에 활력을 더해."
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전정신이 빛나는 순간이 될 것이다."
+      },
+      {
+        "animal": "토끼",
+        "text": "웃음이 가득한 하루를 기대해보자."
+      },
+      {
+        "animal": "용",
+        "text": "열정이 사방으로 퍼져 나갈 준비가 됐다."
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 판단이 오늘의 길을 밝힌다."
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 발걸음이 새로운 가능성을 열어준다."
+      },
+      {
+        "animal": "양",
+        "text": "친근한 미소가 주변을 따뜻하게 감싼다."
+      },
+      {
+        "animal": "원숭이",
+        "text": "호기심이 새로운 아이디어를 불러일으킨다."
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 오늘의 성공을 이끈다."
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 깊어지는 순간이 찾아온다."
+      },
+      {
+        "animal": "돼지",
+        "text": "풍성한 기분이 하루를 완성시킨다."
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
