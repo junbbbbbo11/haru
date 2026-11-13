@@ -1,0 +1,729 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-13",
+  "weekday": "금요일",
+  "vol": 32,
+  "generated_at": "2026-11-13T09:58:34+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5448.04,
+      "change": 72.68,
+      "change_pct": 1.35,
+      "direction": "up",
+      "display": "5,448.04",
+      "change_display": "▲ 1.35%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1334.6,
+      "change": -1.7,
+      "change_pct": -0.13,
+      "direction": "down",
+      "display": "1,334.6원",
+      "change_display": "▼ 0.13%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 96255000.0,
+      "change": -335000.0,
+      "change_pct": -0.35,
+      "direction": "down",
+      "display": "9,626만원",
+      "change_display": "▼ 0.35%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 15,
+    "t_min": 8,
+    "rain_pct": 34,
+    "sky": "흐림",
+    "display": "서울 8~15°C · 흐림 · 강수 34%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "에너지",
+      "headline": "두산에너빌리티 주가 400원 상승",
+      "summary": "두산에너빌리티가 외국인과 기관이 순매수한 가운데 주가가 400원 상승해 마감했다.",
+      "source": "아시아뉴스통신",
+      "link": "https://m.anewsa.com/article_sub3.php?number=3217002&type=&mobile=",
+      "original_title": "두산에너빌리티 주가 400원 상승 후 마감",
+      "sources": [
+        {
+          "name": "아시아뉴스통신",
+          "title": "두산에너빌리티 주가 400원 상승 후 마감",
+          "link": "https://m.anewsa.com/article_sub3.php?number=3217002&type=&mobile=",
+          "image": "https://www.anewsa.com/news_images/2026/08/17/mark/20260817122434.png"
+        },
+        {
+          "name": "뉴스핌",
+          "title": "[장중수급포착] 두산에너빌리티, 외국인/기관 동시 순매수… 주가 +6.00%",
+          "link": "https://www.newspim.com/news/view/20261110000746"
+        },
+        {
+          "name": "Chosunbiz",
+          "title": "[단독] 두산에너빌리티, 퇴직연금 적립률 미달에 과태료",
+          "link": "https://biz.chosun.com/topics/topics_social/2026/11/10/Y4UMG73LYVGPZAQYNYBO46HY5M/",
+          "image": "https://biz.chosun.com/resizer/v2/G42TCM3EMFQTKOJSGRQTEYRZMM.jpg?auth=1d0601a9f0e49bdf90cb605412a82750b46f17ae4320aabc3bf089ddedc0e04a&width=1200&height=630&smart=true"
+        },
+        {
+          "name": "인사이트N파워",
+          "title": "두산에너빌리티, 동반성장지수 3년 연속 ‘최우수’ 명예기업 선정",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lcjE1ZDZ1bWJOS3psX0JFZFRzMEhCeUxTUmswbzljQlpkYWJ6WWdUa29IelR3SXRaekMtUGVsQ05veVAwM3EtREFsTzdfa1l0LWlZUWVfNmRqdjlVX3hDenJjZU5vQQ?oc=5",
+          "image": "https://cdn.inpnews.kr/news/thumbnail/202611/8224_7827_3111_v150.jpg",
+          "url": "https://www.inpnews.kr/news/articleView.html?idxno=8224"
+        },
+        {
+          "name": "재경일보",
+          "title": "두산에너빌리티, 美 테라파워 원자로 기자재 수주 : 산업",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3dWc2MUxhcUotMmtrZE9yQ28zZHpicGxUcU5PWl95Zmc5QklOS2ZMOS1qM2g5aC1QcTNZXzNOZW9CeWo4dGZNZF9ZVQ?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/111/32/1113271.jpg?v=1794529260&width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1090310"
+        },
+        {
+          "name": "핀포인트뉴스",
+          "title": "SMR·용융염원자로 공동개발 추진…두산에너빌리티 한전기술, 한전KPS 주목",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93UDlEQW5PY3o5a09veGhQb3BjS1FpQkhjR3lQNy11dFBWdzNjUzVGbjJFRlpwVkt2U19Uc1B4Y3pUTjRuVHd4SUMxaldqbEV6SGdZaDkxYWtMUmtIazg5X2l6Szl1aW53VFpBd3JOa2R0cDjSAXdBVV95cUxQRE5vUEZRZk9ucDhDREs1eTlkdUhXTjVFMTZHbkpDS3NteFNLb05VZW9Nc2pqNUtZRFcwS0o3TDJpb2RqcmVvekh3ZG1qOU9rS2cyMFlaVldkalVBanl0aW5UQTl2SEZwdklWdWsxLTNCbXB5WEZDOA?oc=5",
+          "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/503597_488555_911_v150.jpg",
+          "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503597"
+        }
+      ]
+    },
+    {
+      "kicker": "연극",
+      "headline": "정명훈, 부산 100억과 바꾼 공연",
+      "summary": "부산이 100억 원을 정명훈 공연에 투자해 바꾸었다는 보도가 나왔다.",
+      "source": "중앙일보",
+      "link": "https://www.joongang.co.kr/article/25477943",
+      "original_title": "“정명훈 공연만 날린 게 아니다” 부산이 100억과 바꾼 것",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "title": "“정명훈 공연만 날린 게 아니다” 부산이 100억과 바꾼 것",
+          "link": "https://www.joongang.co.kr/article/25477943",
+          "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202611/12/c607d536-a7ea-492c-9763-f95a4fd3997f.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "축구",
+      "headline": "포체티노, 맨유 감독 유력",
+      "summary": "포체티노가 맨체스터 유나이티드 감독 후보로 유력하다는 보도가 나왔다.",
+      "source": "경향신문",
+      "link": "https://www.khan.co.kr/article/202611122023005",
+      "original_title": "맨유 새 감독에 포체티노 유력",
+      "sources": [
+        {
+          "name": "경향신문",
+          "title": "맨유 새 감독에 포체티노 유력",
+          "link": "https://www.khan.co.kr/article/202611122023005",
+          "image": "https://img.khan.co.kr/news/2026/11/12/l_2026111301000380700039741.jpg"
+        },
+        {
+          "name": "조선일보",
+          "title": "[오피셜]'40년만의 강등권' 맨유, 6개월만에 캐릭 '전격 경질'...훈련 중 포체티노 합의→'레전드' 향한 황당 대우에 \"역겹다\", \"소송감\" 비난 쇄도 중",
+          "link": "https://www.chosun.com/sports/world-football/2026/11/13/MQ3TCMJSGQ3GIMBVME2TKNDFMU/",
+          "image": "https://www.chosun.com/resizer/v2/HBQTIZDEGM3TEZLFMJRDCZJSGI.jpg?auth=d0ece5f312311c54557cda8f33e911283013cbbabc979fa9ccbaf274998c8876&width=700&height=367&smart=true"
+        },
+        {
+          "name": "미주중앙일보",
+          "title": "'오히려 좋아!' 포체티노 맨유행 임박...미국대표팀, 세계최고 명장 펩 과르디올라 노린다",
+          "link": "https://www.koreadaily.com/article/20261111183001886",
+          "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/11/12/49a53dc1-dffc-4c6b-b59d-a999e3ba0729.jpg"
+        },
+        {
+          "name": "Goal.com",
+          "title": "금주 안으로 ‘오피셜’ 공식발표 나올 가능성 크다! ‘HERE WE GO SOON’ 맨체스터 유나이티드, 포체티노 감독과 원칙적 구두 합의",
+          "link": "https://news.google.com/rss/articles/CBMiyApBVV95cUxQdHlyNUp0b1pUZlhFUm81YmU2dENraWJNRGJvNnVwRzV1RnRDS3g2RHl2WlB1QUdLcERxY0M0YjV0T2ZBSzI4RmZJVGdlVk1UU0c2WkE1VHZVR1dTUzFLcnVDWUUwbGxxWi1Vd2FPZWIxa1hiUWdON3NMd2xobmtrTzdZd0lkeFVZMnBvSjJnNWNpN29OZS1pMV9sVDZnZkIyTUZpMjYyQWRPU0hHYnllWGdpODdVR0t2cXoxV3dCb0hqNHJWUzZQT2VwUUx2NXV1S0hydkJyWlFDcFpiZ0NJaGRpZXRYZ3RDVW5GZXgyWE5FSng0OG14b2oyU3lKa1NKR2tPVEdMN1B3aVVkZmV5VVN5NGNmTlhhMVFZV1RNRHRRNjRlaVg2c0JBTnFPNHpqLTFraFhaUDY5UjNsMnk0Z3g3d1dBWkFsTTBoUlNxVmduTG0wMVhmbTN0aVNIbFh0SV9iaEhoZ3pJdm5BWmE1ZExSSEVmb281blh1RHFhd2JyQ2Z2Tl9oRjM2VFZJQl9DMW1DQkZpa25hMFZndjNhbmhhWkNqYTVJRnVKSndRbHd5ZndBOUxYcWZDVkVOVVJFNnlDYV92NHFCTVRvZGhfcUQwREhKNkhGTHBSTEtJWmx2NW5CdkoxZzk2ZDh3YkVkZFpTQU0yaGtvbmZaaUJKRTZkN1BFY0ZIMWVmWUhZdW1mc3dVa1VBVEJsWXp1TFlYWmZfZFgyLU15Z2tpN0NDQUtmNTBteHFueUhMSHpCenpoaGRLLVBwMmRCMnRnWHRJcmRkSWt4Z2N5N3BJMDJJWHRacXRvdzdzNlBnU2Z1enFrY0FHay1OZFNzenZ2NUZpdUtPdGF3R1VRYi12a29PMXI4dHYzQmtGbGVVREVzZ3ptZ0FRSlZYUUFwSXFsSW1nMndCblJBRU9pRmh6NXhkR0FmNFJpVko3WlZiejd3SUg2TnJyaUh5LVF3ZEFkeDRhajQ5N29HM1dYblhSZGZtSERmaFh0ZVk3cl82N0dkWmtnOGV3NkZPaUc1VnNIOEVDc2RKMjVvWmRGUXJUZWtoM21hUk1DVktkNWZ0TXdDdU9NbEhtVGNOUWc5TWZJMmpRekpxUThJODIzTXlKUy15OWlMVm9QMUFiUkEzekZqaXpDeDItV0FxVnJ2X2xDMm9oNGZKUnF5ZEtodXB6c2E1TVFLRzB1NGprbVF4MWdBSGhCaGdhRTg4TWhCa0JJWmtOaE90dllYZDVXajlFLWEyM0NwTEctdVB0ZXFBUDJzVF9LRFZYWGE1V25VXzl4NTh1X0pJdUR3bTBqVzNSWkdFWnp6ZXJoei05dThQaGRXZXVvRGJiLUJ2ZVNWT3V0NFRJUi1kbC1DWkZGdEZLc2pBQ3k1TFFlMDk4Qk5RazJ3WXV5X0VZcHdjSzJUUkZRM29RLXc2cXBDSG5MaHpuTjh4UEJHQkNuVkJXSDUxZWJOUF9ZNXhJSDRVSFc1YzF0X2JkajE5Yk5wQ01BbjdCNmM3b3hBcGotaWxHV3JHZmwxV2lEN3d4aDF6UUwwbWRPa2xXNFJDWXhGNWZsQ1YwbVdiWmNlb3JuUHYtQmVhTFB0TXJoYTRyU2hZejBWRHVocWQyX3kzNktVdFFBZzFpUWJpc1R4TTFsUS1mWVFLRXZYNjV5eG5Vby1iTkk1eDNYb0M5WTM0aE1fZDcyZnNyeTJSTjlxb1JlbC1xNnpER0ZnajNZVm04OURncEVMdFZHWkVyTWtXWTlQRlYweFJ0alpxSklKOEgxM3ZUb3ZEb1ZONDdma25KdGFUZA?oc=5",
+          "image": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg",
+          "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%80%E1%85%B3%E1%86%B7%E1%84%8C%E1%85%AE-%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AF-%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD-%E1%84%82%E1%85%A1%E1%84%8B%E1%85%A9%E1%86%AF-%E1%84%80%E1%85%A1%E1%84%82%E1%85%B3%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC-%E1%84%8F%E1%85%B3%E1%84%83%E1%85%A1--here-we-go-soon-%E1%84%86%E1%85%A2%E1%86%AB%E1%84%8E%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5-%E1%84%8B%E1%85%B2%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B5%E1%84%83%E1%85%B3-%E1%84%91%E1%85%A9%E1%84%8E%E1%85%A6%E1%84%90%E1%85%B5%E1%84%82%E1%85%A9-%E1%84%80%E1%85%A1%E1%86%B7%E1%84%83%E1%85%A9%E1%86%A8%E1%84%80%E1%85%AA-%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%8E%E1%85%B5%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%A8-%E1%84%80%E1%85%AE%E1%84%83%E1%85%AE-%E1%84%92%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%B4/blt1eb1a14a8c0f4c04"
+        },
+        {
+          "name": "베스트일레븐",
+          "title": "맨유 부임 전부터 ‘애제자 영입설’ 뜬다! 포체티노, 美 대표팀 듀오와 재회하나…발로건·프리먼 영입 가능성",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTMjN3bmdDaGt5Wlh0cUpqUVRsZk56V0JXRTc4OV9tdjR6RFpnTDNoVmF1VGFqbHRGRHVGZ0NyTjlEeWo3amY2WWNPS0M3QW5TSll6QzV1VjZicmV4QUt5UE1MYkFoRTBJbU5raWd3?oc=5",
+          "image": "https://cdn.besteleven.com/news/photo/202611/314014_244386_371.png",
+          "url": "https://www.besteleven.com/news/articleView.html?idxno=314014"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "엔비디아 CEO 사임에 뉴욕증시 하락",
+          "summary": "엔비디아 CEO 사임과 유가 급등으로 뉴욕증시가 하락했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261113012051072",
+          "original_title": "젠슨 황 퇴진·유가 급등에 뉴욕증시 하락…엔비디아 4.3%↓(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "젠슨 황 퇴진·유가 급등에 뉴욕증시 하락…엔비디아 4.3%↓(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261113012051072",
+              "image": "https://img6.yna.co.kr/photo/etc/gt/2026/11/13/PGT20261113067601009_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "젠슨 황 퇴진·유가 급등에 뉴욕증시 하락‥나스닥 0.4%↓",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YWVBTS005ZDdMM3NMUDBQeWpKNlJra2lCZ0tnMXV4bkVnaHJjVzY3N2tGRHo4Mjh4bW1uNG9EZGlzNmZOUWdzYjRXUC1NVks4akZHaVg3OXViUFlRNHJVcUJxdVg5cUZOSVhwckJfZTBvVnpN0gF0QVVfeXFMUHpxRXRfYTExYzdqd0NVZGFBWFVOdUNqV0lUeUVyUTZIc3ByOU5mMG5MVXdqU1YtSDhJb2xqWEszRGFyWFFPcW9QcHdFRjV6cVp4dkF3SzVKeTQ5VU1hWEFKdElaaks2dTRQNElWZ0RhLV9QcWk?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/13/lyj_261113_3.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6865319_36925.html"
+            },
+            {
+              "name": "뉴시스",
+              "title": "[속보]뉴욕증시, 젠슨황 사임·유가상승에 하락 마감…나스닥 0.4%↓",
+              "link": "https://www.newsis.com/view/NISX20261113_0003866376",
+              "image": "https://img1.newsis.com/2020/12/11/NISI20201211_0000654239_web.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 엔비디아, 젠슨황 사임에 뉴욕증시서 13% 급락 출발",
+              "link": "https://www.mk.co.kr/news/stock/12207212",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/13/news-p.v1.20261112.0f2b0e4b21514c66a81486f8c7b7ee23_R.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "금융지주 회장 연임 문턱 강화",
+          "summary": "주주 75% 동의 조건이 신설돼 금융지주 회장 연임이 어려워졌다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12207590",
+          "original_title": "금융지주 회장 연임 문턱 높여도…10명 중 8명은 가볍게 넘는다",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "금융지주 회장 연임 문턱 높여도…10명 중 8명은 가볍게 넘는다",
+              "link": "https://www.mk.co.kr/news/economy/12207590",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/13/news-p.v1.20261112.b8fdfdb6203143f09d961eb164845a41_R.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "은행지주 회장 연임, 문턱 높여 제동건다",
+              "link": "https://www.donga.com/news/Economy/article/all/20261113/135017912/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135018035.1.jpg"
+            },
+            {
+              "name": "대한민국 정책브리핑",
+              "title": "은행지주 CEO 연임 문턱 높인다…주총 의결요건 단계 강화",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xQWUtSTFnbkZVdHg2MGZ2cjJZVGkwMXZpUWxPUm1HcjFyb1V6bWdIdDJ3XzQ0NHRzX1luUHpkSEdnSzM2NGtLUW9zUXVTVG5hYmY1S1JvSWNjbVhhT2NTdWY4Rl9fUVJScFVSMg?oc=5",
+              "image": "https://www.korea.kr/newsWeb/resources/attaches/2026.11/12/c7ee2647cd736b7a655a84b921e7c90c.jpg",
+              "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975582"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "[지역 유통업계 소식] 롯데백화점 대전점, 겨울 정기세일 돌입…최대 60% 할인",
+          "summary": "",
+          "source": "충청투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iS25IRjFWZ2FlQmdHWHlzcnM0U1R4VzM4MThpZEdsakF4TWVrOTdOLXltSW9udnNjYUtqSEhlb3ROMExXM3Zqd1FNLVUwd0JyNTBHcGZDUFFtM2o3eG9hNTR3bmJqLVRGQldBb0lB?oc=5",
+          "original_title": "[지역 유통업계 소식] 롯데백화점 대전점, 겨울 정기세일 돌입…최대 60% 할인",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "충청투데이",
+              "title": "[지역 유통업계 소식] 롯데백화점 대전점, 겨울 정기세일 돌입…최대 60% 할인",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iS25IRjFWZ2FlQmdHWHlzcnM0U1R4VzM4MThpZEdsakF4TWVrOTdOLXltSW9udnNjYUtqSEhlb3ROMExXM3Zqd1FNLVUwd0JyNTBHcGZDUFFtM2o3eG9hNTR3bmJqLVRGQldBb0lB?oc=5",
+              "image": "https://cdn.cctoday.co.kr/news/photo/202611/2240161_700029_1144.jpg",
+              "url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2240161"
+            },
+            {
+              "name": "디트NEWS24",
+              "title": "롯데백화점 대전점, 겨울 정기 세일로 연말 쇼핑객 맞이",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqbHdsN0lhMXFsRk1TVTE0b1NfYTNKRUJtVmpWZmdZUzFOTFVlbG5ySTd1bTlINUpER1ZoTUdSUzlfMmJySnhIZC1YdTB3VkFmb1Z5RkRFMEgwMzUyRk9BYVhHV3BaQ2w5MFRR?oc=5",
+              "image": "https://cdn.dtnews24.com/news/thumbnail/202611/817129_443347_2027_v150.jpg",
+              "url": "https://www.dtnews24.com/news/articleView.html?idxno=817129"
+            },
+            {
+              "name": "뉴시스",
+              "title": "‘최대 60% 할인’ 롯데 광주점, 13~29일 겨울 정기세일",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhdFRYUnA2cDJPSnY5V3hKamI4NFpTNEpnaTkwOVVUNjZDLXNHaC1IaG03MnpNamNmWFg1UTFheS13SmNLMzdySG1mMkV0TGJFVTB2eWFPMDB3WDRaSXRJM21lQjF6a093UWFIS1ZpWTFoZXVEVnBHM9IBeEFVX3lxTFBhdFRYUnA2cDJPSnY5V3hKamI4NFpTNEpnaTkwOVVUNjZDLXNHaC1IaG03MnpNamNmWFg1UTFheS13SmNLMzdySG1mMkV0TGJFVTB2eWFPMDB3WDRaSXRJM21lQjF6a093UWFIS1ZpWTFoZXVEVnBHMw?oc=5",
+              "image": "https://img1.newsis.com/2020/09/23/NISI20200923_0016707921_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261112_0003865698"
+            },
+            {
+              "name": "충남일보",
+              "title": "롯데백화점 대전점, ‘겨울 정기 세일’ 돌입",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1aXpRZmVYSFd4UW13NzEtMjYzYVd0OU9uaXNqa2lLNGEzNzFGU25VUXUzRl9pdHQzZ3JhVUdiVkNHMlliUEpyVlpwZV9wRnc3Rm10czdyTlNkVmo3ZjRRZWhMd1RlVXFkUzFLdW9ZcDlKbk0?oc=5",
+              "image": "https://cdn.chungnamilbo.co.kr/news/thumbnail/202611/920468_498485_3016_v150.jpg",
+              "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=920468"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "호텔서 K뷰티 만난다…신라스테이, K뷰티·쇼핑 연계 패키지 선봬",
+          "summary": "",
+          "source": "지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmRG5rSHF2OTdzdlppcTEtWlZ5dkgyMVNiZEtQYUtJZ1JoUlVNU042a0FJN0NVeFVFMFoxYllQei1sM3Zmb1gwLWR0azJoLVBWUWMtcTZR?oc=5",
+          "original_title": "호텔서 K뷰티 만난다…신라스테이, K뷰티·쇼핑 연계 패키지 선봬",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "지디넷코리아",
+              "title": "호텔서 K뷰티 만난다…신라스테이, K뷰티·쇼핑 연계 패키지 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmRG5rSHF2OTdzdlppcTEtWlZ5dkgyMVNiZEtQYUtJZ1JoUlVNU042a0FJN0NVeFVFMFoxYllQei1sM3Zmb1gwLWR0azJoLVBWUWMtcTZR?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/11/13/8fa0505700883f6d7270ec04b5e648fa.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261113085147"
+            },
+            {
+              "name": "더팩트",
+              "title": "신라스테이, 방한 외국인 겨냥 '뷰티·쇼핑' 연계 패키지 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01bGFfekxIRFhBaGxwVGR2QjVnbzlfXzlPN1hiaVllQ1h4QUtYdjQ2aC1zMUp1a0dPUEVKVGs2bEFtYnBKdUVqa2hzUVhfbUVEMU5kLXFJS0NlQdIBVEFVX3lxTE9PTGNoYnFXWEp4U3AwS29CMmZHdm1WelVoeTBNRGlFNHNVdUZNS1F1ZTBQTWNQMFdGT0VmemtlYmlEbXRjaVdpODQ4ejB4WE9lc0tfQw?oc=5",
+              "image": "https://img.tf.co.kr/article/home/2026/11/13/202668741794526790.jpg",
+              "url": "https://news.tf.co.kr/read/economy/2388321.htm"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "신라스테이, 객실에 K뷰티 얹었다…외국인 겨냥 패키지 선봬",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OZ0ZNbEg3a2tMMFo4d0o0SEI2RkU4QUxjRk0walVGQmUxbXFYRUZYdnFNNEd2NXFZdnoxUzBlQ05oSmJKeEVpOEUtQ1pVUmtsQmt5T1N0SDRlcFlPUmVONFJuNUJxaGs1VXNOU0o0WGo?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4444555_356540_393_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444555"
+            },
+            {
+              "name": "뉴스1",
+              "title": "신라스테이, 외국인 고객 증가에 K뷰티·쇼핑 결합 패키지 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BdG1WeW55UmF1OTljanc1TFUzOG55NTZaNDJMZTc5bjdkYzJsc2pWazI4OU9WRkVQTnE1RHAxYVp1RVFlY2FGSWttdjZfTWE2UVVTaTl2dGpWN3JZaVRF?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6352747"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "신라스테이, K-뷰티·쇼핑 결합 패키지 선봬…외국인 고객 증가 영향",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnhtWDBWTlFiVGV0XzZfdW1oUkpaSDMwaVZRVnB4VGlXZXM4MXdVMVhPbWRoMk1ZaTRKZlhrY09KWU1aRXVEZG9aOXdRLVVRdWNoWi1jYUZuSGZiU3BDS1NGdm9qcHAyVW1tX3NFMVdpMmlmTFY4QXMweGNNckdsckxrXzRuNzE3ZnBR?oc=5",
+              "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111308291804792a96f092d0c10625224986.jpg",
+              "url": "https://www.g-enews.com/article/Distribution/2026/11/202611130828414054a96f092d0c_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "20대 자궁경부암 검진율 40.8%",
+          "summary": "한국로슈진단이 예방·조기진단을 지원하지만 20대 자궁경부암 검진율은 40.8%이다.",
+          "source": "서울경제TV",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xMFZ5RjFNT1VLaF8ySjYyTmxSdFVfZWg1MjV2U0FJNnIwczV2VzhSYU1td0hhZTNXN1h0YlJNTUtXTHFMMGstUVZ5QjB1RkNaUmg5Z0JwMzdDYTBQNDQ3eGJjSTM?oc=5",
+          "original_title": "한국로슈진단, 예방·조기진단 지원…20대 자궁경부암 검진율 불과 40.8%",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "서울경제TV",
+              "title": "한국로슈진단, 예방·조기진단 지원…20대 자궁경부암 검진율 불과 40.8%",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xMFZ5RjFNT1VLaF8ySjYyTmxSdFVfZWg1MjV2U0FJNnIwczV2VzhSYU1td0hhZTNXN1h0YlJNTUtXTHFMMGstUVZ5QjB1RkNaUmg5Z0JwMzdDYTBQNDQ3eGJjSTM?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/11/12/sentv20261112000118.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611120128"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김민석, '잇단 언행 논란' 최민희 감찰조사 지시",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843993",
+          "original_title": "김민석, '잇단 언행 논란' 최민희 감찰조사 지시",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김민석, '잇단 언행 논란' 최민희 감찰조사 지시",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843993",
+              "image": "https://img.sbs.co.kr/newimg/news/20261113/202240577_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김민석, '李대통령 尹탄핵반대' 발언 논란 최민희 즉시감찰 지시(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261112180351001",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110603560001300_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "최민희 “이 대통령, 윤석열 탄핵 반대” 또 실언 논란…여, 감찰 지시",
+              "link": "https://www.khan.co.kr/article/202611122114015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/12/l_2026111301000399600040681.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "강신철 \"안규백 항의 전화 받은 적 없어…지지하는 말 해줘\"",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843719",
+          "original_title": "강신철 \"안규백 항의 전화 받은 적 없어…지지하는 말 해줘\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "강신철 \"안규백 항의 전화 받은 적 없어…지지하는 말 해줘\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843719",
+              "image": "https://img.sbs.co.kr/newimg/news/20261112/202240439_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "강신철 \"안규백 항의전화 받은 적 없어‥지지하는 말 해줘\"",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTUDRtU21VbzZ1RzAtVmZyT0xxS0VrRHk4WnZ5YlRPVC1tek9hWEVuT3BRRExxQTdhZGc1MHpIM1lVQjkwWk5Ka0l0WFdxRDhIM1VGMGw1NXpWZFhfRjN1MnpBNnp5MkkxN3dKZWpCek03dGJGUVVhatIBeEFVX3lxTE9CLXJBY2xSTGdFNGtCYzhsZVViNHNBY3JKRUlGRDUydklBNi1ncDl1WlFlSjBib1hTUkNzdERSWkRZM2dJWU1GaUhTQUxKWFkzZldXY0Ewc0FkWm44VzhGNWtEYlA4cUpSQy00M2ZhQkhiM3FVWGRSSw?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/12/yh_20261112-22.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6865232_36911.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "강신철 \"안규백 항의전화 받은 적 없어…지지하는 말 해줘\"",
+              "link": "https://www.yna.co.kr/view/AKR20261112172900001",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111206630001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프, 이란 합의 필요 없다고 선언",
+          "summary": "트럼프는 12일 이란과의 합의가 필요 없다고 밝혔다. 부통령은 계속 협상을 주도해왔다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843974",
+          "original_title": "트럼프 \"이란과 합의 필요 없다\"…밴스 주도 협상론서 급격 선회",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"이란과 합의 필요 없다\"…밴스 주도 협상론서 급격 선회",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843974",
+              "image": "https://img.sbs.co.kr/newimg/news/20261113/202240557_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "트럼프 “이란전 합의 필요없다”…종전 주장 밴스 견제",
+              "link": "https://www.donga.com/news/Inter/article/all/20261113/135018366/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/11/135005469.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 \"이란과 합의 필요없다\"…밴스 주도 협상론서 급격 선회(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261113007751071",
+              "image": "https://img3.yna.co.kr/photo/ap/2026/11/10/PAP20261110098001009_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "트럼프 \"이란과 합의 필요 없다\" 급선회…국제유가 급등",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wUDJ1VUhZbktwb2RFci0zQzZ6NmdjZUY5WEFXU2xHbF8zc2d0Wk9oUmduX3VWSUdRMjk5VmRna2JwYzU0S0laeG91QWQ0cUtvTWNuelNCMjh6VU90SlZGY3U1bFFBNE0?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261112/AKR202611130606432xB_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202611130606432xB"
+            }
+          ]
+        },
+        {
+          "headline": "후티 반군, 사우디 송유관 공격 주장",
+          "summary": "예멘 후티 반군이 12일 사우디 동서 송유관과 아람코 시설을 공격했다고 주장했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261113_0003866361",
+          "original_title": "예멘 후티 반군 \"사우디 동서 송유관·아람코 등 공격\" 주장",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "예멘 후티 반군 \"사우디 동서 송유관·아람코 등 공격\" 주장",
+              "link": "https://www.newsis.com/view/NISX20261113_0003866361",
+              "image": "https://img1.newsis.com/2026/09/23/NISI20260923_0001600793_web.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTQ2tuaWFxMXIwQUhPaFpfNG5YSERVaEgyS3BHNUVOVzRjazFKWWhiRWJPcmdfUWZtdFppUmFZQU0tOU5JN0JVSFhkUlRVNHhac2UxckFFcVdDTXhoYWxlcm1wZ1h3SWtWOTFWUEVrV3A1RWtX0gF0QVVfeXFMUFBObjFpZGFEMVgtdk9YVVRib3ByUG5KQ1loaVZncHAzTktsNDJmaFFIR1BXck1BWGFmZVpuT3JZWDF6dUtlVzZKQUQ2VV8xNzMyMWtvTXpheHVrS0xlSEVKR0g3MEZvYzlNQVk0WkhqU1VtWG8?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/13/s261113_0008.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6865299_36925.html"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843935",
+              "image": "https://img.sbs.co.kr/newimg/news/20260916/202222693_1280.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "MS 아웃룩·코파일럿 등 대규모 접속 장애...13만건 이상 신고",
+          "summary": "",
+          "source": "M이코노미뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WV3gxdWlCQldfak5IVHRTNjFKUjdBRWJGaUJONG9DVkNpcDR1c2kzZnlseDdIR2pGT2QtTElzUGNzTXh1THlXeUVYNlVybWo0enJfMmNvandLYjZWTDNHajVNUVdDY28?oc=5",
+          "original_title": "MS 아웃룩·코파일럿 등 대규모 접속 장애...13만건 이상 신고",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "M이코노미뉴스",
+              "title": "MS 아웃룩·코파일럿 등 대규모 접속 장애...13만건 이상 신고",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WV3gxdWlCQldfak5IVHRTNjFKUjdBRWJGaUJONG9DVkNpcDR1c2kzZnlseDdIR2pGT2QtTElzUGNzTXh1THlXeUVYNlVybWo0enJfMmNvandLYjZWTDNHajVNUVdDY28?oc=5",
+              "image": "https://www.m-economynews.com/data/photos/20261146/art_17945235997519_0a901c.jpg",
+              "url": "https://www.m-economynews.com/news/article.html?no=72959"
+            },
+            {
+              "name": "머니투데이",
+              "title": "MS 아웃룩·AI 대규모 접속 장애…\"'인프라 부하' 원인 추정\"",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sU2tzSlJRd3FsQS1fRTJvT0pabWIzLU9OcTRsMFM4OV9FaWxneFRiXzJjZUpEYjdDVzUwcHdQazBObFJIS3Jyc0RqRm5WRmpkdGdBZk4xaDV5QVhCOWdnV0xVM05qRHIy0gFuQVVfeXFMTUw4TGVDSFA4WFRmd1F3Xy1zUzAyZDZSR2dkazluWmFlcmZzbnRZdjRxTm8yODVXSlA3WGRZbU80UGlPZ3B0NDRFUGI1MXFFNnJqcEwza3FCZGpQZW8zN1NoOXc3TVpITVJuNVR2V2c?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=618,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111306034786939_1.jpg",
+              "url": "https://www.mt.co.kr/world/2026/11/13/2026111306034786939"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "MS 아웃룩·코파일럿 등 대규모 장애…이메일 수발신도 지연",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HS3g2MjgyaUxvcVV1cC1OcDNkYXN6ZHNxRllydHhhRjlXTnJRSE5TR0RpM3lKQ1k3MWd0SzU3TFVlZVhvdnNrZ0h6RjJURWhlX3BHNzhFUEljSEnSAWBBVV95cUxOMGN3SVVJWTgyT2ZOcUUydWl4aGxEb05uU1BHYmpqS28tY0RnOG1oSzNEQzNKaW1KdUgzckpfa05YQmY2eEZrVjFyb18tMEtKVVV1a1BfSUx1SENwc3dpd3g?oc=5",
+              "image": "https://img5.yna.co.kr/photo/reuters/2026/11/13/PRU20261113066401009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261113008600091"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "폴2: 데드포인트 개봉 이틀 박스오피스 1위",
+          "summary": "폴2: 데드포인트가 개봉 이틀 만에 박스오피스 1위를 기록했다.",
+          "source": "더팩트",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SSE1oLUhIT05wSDRSMDRYcVZkUjk2Q2lxd294WFF5LXlkQlBZWTUzUFk5cjY4cm5JM2ZQaW1oMmpLNC1HNFdsMk1vX2hxZjZvMkVMMTJEUTg4RURn0gFXQVVfeXFMTncxVkFiaUFFUGthX2NtM21LSW5yLVlKd0xILS1lN1puRFhiTHB4dWFseHNqYmxWOUplMEYxcnRESjBmdTQyYXJDUFpYQmRLYXBtWUJZa2Zz?oc=5",
+          "original_title": "'폴2: 데드포인트', 개봉 이틀 만에 박스오피스 1위 등극",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "더팩트",
+              "title": "'폴2: 데드포인트', 개봉 이틀 만에 박스오피스 1위 등극",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SSE1oLUhIT05wSDRSMDRYcVZkUjk2Q2lxd294WFF5LXlkQlBZWTUzUFk5cjY4cm5JM2ZQaW1oMmpLNC1HNFdsMk1vX2hxZjZvMkVMMTJEUTg4RURn0gFXQVVfeXFMTncxVkFiaUFFUGthX2NtM21LSW5yLVlKd0xILS1lN1puRFhiTHB4dWFseHNqYmxWOUplMEYxcnRESjBmdTQyYXJDUFpYQmRLYXBtWUJZa2Zz?oc=5",
+              "image": "https://img.tf.co.kr/article/home/2026/11/13/202618651794529736.jpg",
+              "url": "https://news.tf.co.kr/read/entertain/2388349.htm"
+            },
+            {
+              "name": "2news.co.kr",
+              "title": "폴2: 데드포인트, 개봉 이틀 만에 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05bjRRZ2Jha1BjV0NLdUdyMXc1b2xYVGw2QTJvMUozbnVtb2VVNGxBanNpVzVtM0hZX2dpeXVEQUVzSlZ1NHpyeG9NeTY3SEN1QWtSLWE0bkdqdXE0MmIzS2pjZkVLdUJx?oc=5",
+              "image": "https://cdn.2news.co.kr/news/photo/202611/mn_32320_20261113082113_1.jpg",
+              "url": "https://www.2news.co.kr/news/articleView.html?idxno=32320"
+            },
+            {
+              "name": "뉴스1",
+              "title": "'폴2: 데드포인트' 개봉 2일 차에 1위 등극…누적 3만 [Nbox]",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PR2xUVG1Ua3lPYlBNd1Q2Umo1UV80TVdyQmFuaG9jcDhvUXQxTDNQWlZFN1duTjZKR1N3ZDZrZUkxOHZ1OTJVNEV6MGVSMWpGYWlkNXFqQQ?oc=5",
+              "url": "https://www.news1.kr/entertain/movie/6352689"
+            },
+            {
+              "name": "마이데일리",
+              "title": "`폴2: 데드포인트` 개봉 2일 만에 1위…2위 `최종면접` [MD박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwOWU5WkpFM1RjdFJ0U24tMTdqRDd6Q21OWWE3SEszbTZGWWc0R2xleV9qN0dzRjhCamZQNko5V1doV3VnMHB0bll1dm9aX2JVbkRnSG94aVpGUVBUc3dFUkhEdjg2dw?oc=5",
+              "image": "https://mydaily.co.kr/photos/2026/11/13/2026111308115636573_l.jpg",
+              "url": "https://www.mydaily.co.kr/page/view/2026111308025242677"
+            },
+            {
+              "name": "www.bntnews.co.kr",
+              "title": "‘폴2 데드포인트’ 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55X3BqTnNlVnowcnlzM2dHYjhGY1JETGNjaUJGcllIM0ZzWGpCZ2RUejFLNGgydjZzRmJIRnUwMXNoZnpwWld3MjZUeHI3aU9kY2tEdWYxSGVhVXY1U2JhLTRCZjg?oc=5",
+              "image": "https://www.bntnews.co.kr/data/bnt/image/2026/11/13/bnt202611130062.jpg",
+              "url": "https://www.bntnews.co.kr/article/view/bnt202611130039"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "이정현 31점으로 소노 역전승",
+          "summary": "소노가 한국가스공사에 1점 차 역전승하고 2연승을 달렸으며 이정현이 31점을 기록했다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008844075",
+          "original_title": "이정현 31득점 원맨쇼…소노 1점차 짜릿한 역전승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이정현 31득점 원맨쇼…소노 1점차 짜릿한 역전승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008844075",
+              "image": "https://img.sbs.co.kr/newimg/news/20261113/202240616_1280.jpg"
+            },
+            {
+              "name": "데일리스포츠한국",
+              "title": "'황태자 이정현 31점 폭발' 고양 소노, 가스공사에 88-87 1점 차 대역전승… 2연승·8위 도약",
+              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CRURBV3YtM0hLZi15c1Q1Z0NvcmM3QVpUYnczSVlZVlR0Nk5LcnlTdXQzc2M0NXplZzRuNmxPQjRlYXR1VEVMWTdRT3JtYlRzNDFRTlZwN0d0NnRGRFpNaGhoUHIwOWZZcjFySjVEUUdMNlBiZDB3eGZ0Y9IBf0FVX3lxTE5sYlNRWjNSN2p6aW1PaktoODVGTnhCS2tFN25hQ0FSWjV3dkRQNktiT1hONDdWTGZHcnRsRlhvc2VWUWVBYnprQzZyaWFzM3pxOGVDMUNhX3ExMjhPVWtyXzJ1RlBoZERBaHNLZk14ZC1fcjJFTmN0NnA4N3ZRVnM?oc=5",
+              "image": "https://cdn.dailysportshankook.co.kr/news/photo/202611/435469_451975_1112.jpg",
+              "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435469"
+            },
+            {
+              "name": "뉴시스",
+              "title": "에이스 이정현 31점 폭발…소노, 가스공사 꺾고 5연패 뒤 2연승",
+              "link": "https://www.newsis.com/view/NISX20261112_0003866283",
+              "image": "https://img1.newsis.com/2026/11/12/NISI20261112_0002290735_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "이정현 31점 몰아친 프로농구 소노, 가스공사에 짜릿한 역전승",
+              "link": "https://www.yna.co.kr/view/AKR20261112181000007",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/12/AKR20261112181000007_01_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "서승재·김원호 1위 복식, 116위 진용·조송현에 패배",
+          "summary": "세계 랭킹 1위 서승재·김원호가 남자 복식에서 116위 진용·조송현에 패배해 구마모토 마스터스 16강에서 탈락했다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843789",
+          "original_title": "세계 1위 서승재·김원호, 세계 116위 진용·조송현에 패해 16강 탈락",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "세계 1위 서승재·김원호, 세계 116위 진용·조송현에 패해 16강 탈락",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843789",
+              "image": "https://img.sbs.co.kr/newimg/news/20261108/202239031_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "배드민턴 남자 복식 세계 1위 서승재-김원호, 116위 진용-조송현에 패배",
+              "link": "https://www.newsis.com/view/NISX20261112_0003866201",
+              "image": "https://img1.newsis.com/2026/09/27/NISI20260927_0021460137_web.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "배드민턴 ‘세계 1위’ 서승재-김원호, 116위 한국 신생 조에 덜미",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5N2F1eGtnVFZLUlQ2b2drUXQyaUNCUmN0Y3FzUmJLVC0xb3pFTHlZUlZoLVU5NnRHMXZjQ3IzclF1Q0MxWXIzV21hVjJqb3ZVVFBFczBUVEsyNjFBclZLT2sxNktNQQ?oc=5",
+              "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8711219"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "배드민턴 '세계 1위' 서승재-김원호, 116위 한국 신생 조에 덜미",
+              "link": "https://www.yna.co.kr/view/AKR20261112173600007",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/09/28/PYH2026092809230001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "켄달 제너, 헤일리 비버가 밤낮없이 즐겨 입는 ‘이 재킷’",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 15,
+      "t_min": 8,
+      "rain_pct": 34,
+      "sky": "흐림",
+      "display": "서울 8~15°C · 흐림 · 강수 34%"
+    },
+    "articles": [
+      {
+        "title": "켄달 제너, 헤일리 비버가 밤낮없이 즐겨 입는 ‘이 재킷’",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/11/12/%ec%bc%84%eb%8b%ac-%ec%a0%9c%eb%84%88-%ed%97%a4%ec%9d%bc%eb%a6%ac-%eb%b9%84%eb%b2%84%ea%b0%80-%eb%b0%a4%eb%82%ae%ec%97%86%ec%9d%b4-%ec%a6%90%ea%b2%a8-%ec%9e%85%eb%8a%94-%ec%9d%b4-%ec%9e%ac%ed%82%b7/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6af57da6d5d77-scaled-1920x1080.jpg?x=1920&y=1475&ver=1.1.63",
+        "url": "https://www.vogue.co.kr/2026/11/12/%EC%BC%84%EB%8B%AC-%EC%A0%9C%EB%84%88-%ED%97%A4%EC%9D%BC%EB%A6%AC-%EB%B9%84%EB%B2%84%EA%B0%80-%EB%B0%A4%EB%82%AE%EC%97%86%EC%9D%B4-%EC%A6%90%EA%B2%A8-%EC%9E%85%EB%8A%94-%EC%9D%B4-%EC%9E%AC%ED%82%B7/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "성찰하지 않는 삶은 살 가치가 없다.",
+    "author": "소크라테스",
+    "work": "플라톤 『변론』"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 빛난다"
+      },
+      {
+        "animal": "소",
+        "text": "친구와의 웃음이 넘친다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 열쇠다"
+      },
+      {
+        "animal": "토끼",
+        "text": "달콤한 계획이 기다려"
+      },
+      {
+        "animal": "용",
+        "text": "열정이 불꽃처럼 번져"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 보람"
+      },
+      {
+        "animal": "말",
+        "text": "마음이 가볍게 흐른다"
+      },
+      {
+        "animal": "양",
+        "text": "조화로운 순간이 찾아"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머가 상황을 밝힌다"
+      },
+      {
+        "animal": "닭",
+        "text": "시작이 완벽히 맞아떨어진다"
+      },
+      {
+        "animal": "개",
+        "text": "충성심이 빛나며 이어진다"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍요로운 기회가 스며든다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
