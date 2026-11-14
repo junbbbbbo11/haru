@@ -1,0 +1,632 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-15",
+  "weekday": "일요일",
+  "vol": 34,
+  "generated_at": "2026-11-15T08:47:00+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5290.53,
+      "change": -52.2,
+      "change_pct": -0.98,
+      "direction": "down",
+      "display": "5,290.53",
+      "change_display": "▼ 0.98%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1336.2,
+      "change": 2.4,
+      "change_pct": 0.18,
+      "direction": "up",
+      "display": "1,336.2원",
+      "change_display": "▲ 0.18%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 88675000.0,
+      "change": -4551000.0,
+      "change_pct": -4.88,
+      "direction": "down",
+      "display": "8,868만원",
+      "change_display": "▼ 4.88%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 16,
+    "t_min": 7,
+    "rain_pct": 24,
+    "sky": "흐림",
+    "display": "서울 7~16°C · 흐림 · 강수 24%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "반도체",
+      "headline": "삼성전자·SK하이닉스 빚투, 위험 신호 4배 초과",
+      "summary": "삼성전자·SK하이닉스가 빚투에 몰려 과거 평균의 4배를 넘어 위험 신호가 나타났다.",
+      "source": "핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9oWjdRelpjNzFFTXBPN3hsMUdhdG1weTFWbkMxVTE1WDVzckFjQWtRSXZhdG5vR3Yza0E0WEZnNWx6dTBwVXItZlZjX016UDRmem1kdWVKaXJmWEtaaFVESXFMY1VJSHVjdGM3X3p4WjlWR05FS0pF0gF3QVVfeXFMT2haN1F6WmM3MUVNcE83eGwxR2F0bXB5MVZuQzFVMTVYNXNyQWNBa1FJdmF0bm9HdjNrQTRYRmc1bHp1MHBVci1mVmNfTXpQNGZ6bWR1ZUppcmZYS1poVURJcUxjVUlIdWN0YzdfenhaOVZHTkVLSkU?oc=5",
+      "original_title": "삼성전자·SK하이닉스에 몰린 빚투…과거 평균의 4배 넘는 위험 신호",
+      "sources": [
+        {
+          "name": "핀포인트뉴스",
+          "title": "삼성전자·SK하이닉스에 몰린 빚투…과거 평균의 4배 넘는 위험 신호",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9oWjdRelpjNzFFTXBPN3hsMUdhdG1weTFWbkMxVTE1WDVzckFjQWtRSXZhdG5vR3Yza0E0WEZnNWx6dTBwVXItZlZjX016UDRmem1kdWVKaXJmWEtaaFVESXFMY1VJSHVjdGM3X3p4WjlWR05FS0pF0gF3QVVfeXFMT2haN1F6WmM3MUVNcE83eGwxR2F0bXB5MVZuQzFVMTVYNXNyQWNBa1FJdmF0bm9HdjNrQTRYRmc1bHp1MHBVci1mVmNfTXpQNGZ6bWR1ZUppcmZYS1poVURJcUxjVUlIdWN0YzdfenhaOVZHTkVLSkU?oc=5",
+          "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=504111"
+        }
+      ]
+    },
+    {
+      "kicker": "드라마",
+      "headline": "드라마 '100일의 거짓말' 시청률 8% 기록",
+      "summary": "드라마 '100일의 거짓말' 11회 시청률 8%를 기록해 동시간대 1위를 차지했다.",
+      "source": "재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9maTYySWRuV1Z0RzNQTFV5QmJ2a3g4UnVydEdnWnNZMWI4Tmk4STFlZktacUY2YXFEYXdDTTE0OVRoWWhOTU93UDdxNA?oc=5",
+      "original_title": "‘100일의 거짓말’ 11회 8% 기록…동시간대 1위 : 연예",
+      "sources": [
+        {
+          "name": "재경일보",
+          "title": "‘100일의 거짓말’ 11회 8% 기록…동시간대 1위 : 연예",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9maTYySWRuV1Z0RzNQTFV5QmJ2a3g4UnVydEdnWnNZMWI4Tmk4STFlZktacUY2YXFEYXdDTTE0OVRoWWhOTU93UDdxNA?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/111/53/1115335.jpg?v=1794699752&width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1094646"
+        },
+        {
+          "name": "머니투데이",
+          "title": "'100일의 거짓말' 박진영, 김유정 밀정 정체 알고도 사랑 시작…시청률 8.0% [종합]",
+          "link": "https://www.mt.co.kr/entertainment/2026/11/15/2026111508157290086",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=552,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111508157290086_1.jpg"
+        },
+        {
+          "name": "스포츠경향",
+          "title": "‘100일의 거짓말’ 진선규, 김유정에 꽂혔다",
+          "link": "https://sports.khan.co.kr/article/202611150813003",
+          "image": "https://images.khan.co.kr/article/2026/11/15/news-p.v1.20261115.70acb3c2e60b41ef9b6d32080b4b93c8_P1.png"
+        },
+        {
+          "name": "매일경제",
+          "title": "김유정♥박진영, 진심 통했지만…‘100일의 거짓말’ 8%로 주춤 [MK★TV시청률]",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HUmpKLUJZQmFScEVkcHpVNjFJOVNYRzF1Ulg3dlRoMndvb05QejFyTGEwNDJJMnRnak9QZUNmakY1YVpnX1FRN0NQN1JnTko0ZGVkY2F3Zw?oc=5",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/15/news-p.v1.20261115.64c79f8b29d7412cbdccece35bc09b17_R.png",
+          "url": "https://www.mk.co.kr/news/entertain/12209073"
+        },
+        {
+          "name": "뉴스엔",
+          "title": "‘닥터X’ 끝났다‥자체 최고 시청률 찍은 ‘100일의 거짓말’ 시대 열리나",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tR1B4TG9NQWpRNGdzSUFPR3BfUjRiWFBkcmVLUlo4b3NHeEdLMERzbkx5NWJJaGNzZmk2Wjl3VHFZM3FvUzBRVnljeU9SR1IwbDhaUG9jVjcwWk1GaVlrWG80WXEyZjFl?oc=5",
+          "url": "https://m.newsen.com/news_view.php?uid=202611150819311910"
+        }
+      ]
+    },
+    {
+      "kicker": "부동산",
+      "headline": "잠실주공5단지, 조합장 해임 기로",
+      "summary": "잠실주공5단지 분양신청 저조로 조합장 해임이 결정될 위기에 있다.",
+      "source": "MTN 머니투데이방송",
+      "link": "https://news.mtn.co.kr/article/2026111415191575156",
+      "original_title": "[단독]잠실주공5단지, 분양신청 저조에 조합장 해임 기로…재건축 ‘삐걱’",
+      "sources": [
+        {
+          "name": "MTN 머니투데이방송",
+          "title": "[단독]잠실주공5단지, 분양신청 저조에 조합장 해임 기로…재건축 ‘삐걱’",
+          "link": "https://news.mtn.co.kr/article/2026111415191575156",
+          "image": "https://files.mtn.co.kr/article-asset/2026/11/14/75c9dc76-e820-4130-8c0e-ad21ac15ae5d.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "엔비디아 실적·앤트로픽 IPO, AI 빅위크 주목",
+          "summary": "엔비디아가 3분기 실적을 발표하고 앤트로픽이 기업공개를 진행했다. 두 사건이 AI 시장에 큰 관심을 불러일으켰다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261115004700009",
+          "original_title": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
+              "link": "https://www.yna.co.kr/view/AKR20261115004700009",
+              "image": "https://img9.yna.co.kr/photo/reuters/2026/11/14/PRU20261114000401009_P4.jpg"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vNU9MWDJPNThrVkpHMFdSRGpBZHdIRzJHb3NEbjdHVlpMQW1seW1VZ0RWYmxpTTJiMF9vcUoxYkoxckM4R3Q3bnl4NlIwZVgxTURyNTlka1JLZl81N29DWXkzcmQ1MWFKbUlpRnZyQy0?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4444787_356836_14_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444787"
+            }
+          ]
+        },
+        {
+          "headline": "반도체 열기에도 소비 회복 지연, 한은 분석",
+          "summary": "한국은행이 반도체 수요가 급등해도 소비 회복이 지연될 가능성을 경고했다. 주가 급락이 영향을 미친다고 분석했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261114030200002",
+          "original_title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
+              "link": "https://www.yna.co.kr/view/AKR20261114030200002",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/08/06/PYH2026080604620005100_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "오감 마케팅, 패션·뷰티 업계 확대",
+          "summary": "버터가 립밤, 만두가 가방으로 전환되는 등 감각적 마케팅이 패션·뷰티업계에 확산되고 있다.",
+          "source": "이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54UmdORElJODFlemZWRFc5OTJvQWhkVzl6T2pYd20xU013OHVxbklHSUFYZldKUDlhX0w2eFgtVHVBcG94V0tQdmVaeVpnV0lxeUpITQ?oc=5",
+          "original_title": "버터는 립밤으로, 만두는 가방으로…패션·뷰티업계 '오감 마케팅' 확산",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "이투데이",
+              "title": "버터는 립밤으로, 만두는 가방으로…패션·뷰티업계 '오감 마케팅' 확산",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54UmdORElJODFlemZWRFc5OTJvQWhkVzl6T2pYd20xU013OHVxbklHSUFYZldKUDlhX0w2eFgtVHVBcG94V0tQdmVaeVpnV0lxeUpITQ?oc=5",
+              "image": "https://img.etoday.co.kr/pto_db/2026/11/20261110164442_2415333_1200_1500.jpg",
+              "url": "https://www.etoday.co.kr/news/view/2646455"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "뉴욕증시 K-ETF 상장, 월스트리트 투자 테마",
+          "summary": "전용 K-ETF가 뉴욕증시에 상장돼 K-뷰티가 월스트리트의 새로운 투자 테마가 되었다.",
+          "source": "SBS Biz",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjZ01xYzBNcG5jSGoxdHhQWHVzOVZaV3d3QVZnN3B0SzhyUWtYWF81ZGQ4NUFlRzVVM0FXb3FlenNlQWg3enQzTmZ1MzRhSWpWUlVLLVE0RjDSAVhBVV95cUxQY2dNcWMwTXBuY0hqMXR4UFh1czlWWld3d0FWZzdwdEs4clFrWFhfNWRkODVBZUc1VTNBV29xZXpzZUFoN3p0M05mdTM0YUlqVlJVSy1RNEYw?oc=5",
+          "original_title": "뉴욕증시에 전용 K-ETF 상장…K뷰티, 월스트리트 새 투자 테마로",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "SBS Biz",
+              "title": "뉴욕증시에 전용 K-ETF 상장…K뷰티, 월스트리트 새 투자 테마로",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjZ01xYzBNcG5jSGoxdHhQWHVzOVZaV3d3QVZnN3B0SzhyUWtYWF81ZGQ4NUFlRzVVM0FXb3FlenNlQWg3enQzTmZ1MzRhSWpWUlVLLVE0RjDSAVhBVV95cUxQY2dNcWMwTXBuY0hqMXR4UFh1czlWWld3d0FWZzdwdEs4clFrWFhfNWRkODVBZUc1VTNBV29xZXpzZUFoN3p0M05mdTM0YUlqVlJVSy1RNEYw?oc=5",
+              "url": "https://biz.sbs.co.kr/amp/article/20000346419"
+            },
+            {
+              "name": "글로벌경제신문",
+              "title": "美자산운용사, 뉴욕증시에 K뷰티 추종 ETF 상장",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oTUlMRjBYd0dPQmNsbkVIV1NVV2pCbFU4SW92WTBocVJVVHQzMnBua3V1UjdQbi1CQnlGNGJuRjFUX04xVTdqaWZqVmN5S1ZDM19ZVFJGUF9fY3BlZDZUSm15T0RqSDVtdmhsSHVnRHLSAXBBVV95cUxPaE1JTEYwWHdHT0JjbG5FSFdTVVdqQmxVOElvdlkwaHFSVVR0MzJwbmt1dVI3UG4tQkJ5RjRibkYxVF9OMVU3amlmalZjeUtWQzNfWVRSRlBfX2NwZWQ2VEpteU9Eakg1bXZobEh1Z0Ry?oc=5",
+              "image": "https://cdn.getnews.co.kr/news/photo/202611/887193_545863_021.jpg",
+              "url": "https://www.getnews.co.kr/news/articleViewAmp.html?idxno=887193"
+            },
+            {
+              "name": "한스경제",
+              "title": "美 뉴욕증시에 K뷰티 ETF 상장…한국 화장품·의료미용 기업 투자",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rV09haDh1eTI3ZkRXQm83R21Kd2NIYW1BcHN2LUtyTGstZFVNekU1MGsyT1pjU0dBeWdCZzhZTm1NWS1tYUFsczJtSnh0aXM2aFdIUEdPdUNHX1U0OGVvLVNTbzVpeWxvMXI1SdIBb0FVX3lxTE9BTHh6Y2ZsLUtyR180ZDlDaWF5dXpLalVhcnJZYmtjcVIxLVZibTVlREo1Y2dnanVLN2tEeDFFLVBnYXREOUJZUjZUZUszb2Rac0wxQUFOSWVJOW1hMkpMTnR3cUJOMXByek90cWc0MA?oc=5",
+              "image": "https://cdn.hansbiz.co.kr/news/thumbnail/202611/883279_909281_152_v150.jpg",
+              "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=883279"
+            },
+            {
+              "name": "KBFD",
+              "title": "美 월가에 첫 K뷰티 전문 ETF 상장… 한국 화장품 기업 25곳 투자",
+              "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBoQXEyV3U0NUNOSXBvUGFIQkFZajJ4NTFRQVZwdWpDODNwc3UwX2trZXkzTTdUYTZPT1pTWG9R0gE-QVVfeXFMUGhBcTJXdTQ1Q05JcG9QYUhCQVlqMng1MVFBVnB1akM4M3BzdTBfa2tleTNNN1RhNk9PWlNYb1E?oc=5",
+              "url": "https://kbfd.com/?p=25910"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "RSV 백신, 영아 입원 75% 감소",
+          "summary": "국내에서 RSV 백신 효과가 입원률을 75% 감소시킨 것으로 확인됐다. 국가 지원 시점이 논의되고 있다.",
+          "source": "조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTERKdUJxMmd5amhHWU5PQ3Fjb1ZOOHQ5aGRabEtDQ2lXazZ6SlpzOVJYeWhOc1dSaGJHYV9Idmw2dXVhZTVXVFV1clY1cWFYUWVQM1VfV2dnNUthYW12cDJIN0oxMHJObkZFYlg2ZkVObjkyYzlVQTZzU1E1eGVZR2dTcw?oc=5",
+          "original_title": "\"영아 입원 75% 줄었다\" 효과 입증된 RSV 백신…국내 국가 지원은 언제?",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "조선일보",
+              "title": "\"영아 입원 75% 줄었다\" 효과 입증된 RSV 백신…국내 국가 지원은 언제?",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTERKdUJxMmd5amhHWU5PQ3Fjb1ZOOHQ5aGRabEtDQ2lXazZ6SlpzOVJYeWhOc1dSaGJHYV9Idmw2dXVhZTVXVFV1clY1cWFYUWVQM1VfV2dnNUthYW12cDJIN0oxMHJObkZFYlg2ZkVObjkyYzlVQTZzU1E1eGVZR2dTcw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/FPT32RFPRZDQ7IBMGZHOYPWQU4.jpg?auth=9ba02593b92eb383ceef41dfd01bc84d0d60e2565408d582c0e1ac0fcd9aca69&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/economy/tech_it/2026/11/14/W6RGB5CRYZCCPPZ2VF5ONMB7QQ/"
+            }
+          ]
+        },
+        {
+          "headline": "땅콩, 매일 섭취 시 뇌 혈류량 4% 증가",
+          "summary": "노년층이 매일 땅콩을 섭취하면 뇌 혈류량이 4% 증가해 뇌 건강에 도움이 될 수 있다.",
+          "source": "라디오코리아",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CTTI1VXJOT2NRYU91U2RyZlJaY2pfOUxVbHFjUG8tNkRiWld6N2JpV0N0YlJ6X3FNcWFOZWRIc18tMmUwS0RLdkE0amxDQndFQW8xeHVUeHhLV3diTjdablJKaTg?oc=5",
+          "original_title": "땅콩 매일 먹었더니 뇌 혈류량 4% 증가…노년층 뇌 건강에 도움?",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "라디오코리아",
+              "title": "땅콩 매일 먹었더니 뇌 혈류량 4% 증가…노년층 뇌 건강에 도움?",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CTTI1VXJOT2NRYU91U2RyZlJaY2pfOUxVbHFjUG8tNkRiWld6N2JpV0N0YlJ6X3FNcWFOZWRIc18tMmUwS0RLdkE0amxDQndFQW8xeHVUeHhLV3diTjdablJKaTg?oc=5",
+              "url": "https://www.radiokorea.com/news/article.php?uid=509625"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "천안 발달장애 아들 학대·구속영장 기각",
+          "summary": "천안에서 중증 발달장애 아들을 학대해 숨지게 한 혐의를 받은 40대 어머니의 구속영장이 기각됐다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611141941001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "천안 ‘발달 장애 학대 치사’ 피의자 구속영장 기각···“증거 수집 상당”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "천안 ‘발달 장애 학대 치사’ 피의자 구속영장 기각···“증거 수집 상당”",
+              "link": "https://www.khan.co.kr/article/202611141941001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/14/news-p.v1.20261114.b218168a551445c295016b2d22af801f_P1.png"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "'발달장애 아들 학대 치사' 혐의 40대 모친 구속영장 기각(종합)",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xLUdRQVlPVGpnWkVjMkxmQlZNejMxMDRVT0g3LUtRRHJwTGZ1dFFDem5oZldlc3dtczJhdm9wSG9HaEVfeDluMG0tdWpKeHhRUlhBRTVTcTJpWDDSAWBBVV95cUxNRWVsUnYyNlB2VzJlYmRlU2xXUHNrTU1aODNlTm9MZTQxOXg1R2Y1SGU1TWZEalFUdDBmcVIySTJqVU1RTnhJSUJqenp3NHQzVGo0ZHFla0lUSzVzZDR6QkM?oc=5",
+              "image": "https://img1.yna.co.kr/photo/cms/2026/11/12/60/PCM20261112000160990_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261114022751063"
+            }
+          ]
+        },
+        {
+          "headline": "고경표, 음주운전 사고·사과",
+          "summary": "배우 고경표가 음주운전 중 청소차를 들이받아 사고를 냈으며, 소속사를 통해 사실을 인정하고 사과했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611141140001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "배우 고경표 음주운전으로 청소차 들이받아…“잘못 인정, 깊이 반성”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "배우 고경표 음주운전으로 청소차 들이받아…“잘못 인정, 깊이 반성”",
+              "link": "https://www.khan.co.kr/article/202611141140001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/14/news-p.v1.20261114.6d5de321b99843f594369fdcd6b91eb6_P1.jpg"
+            },
+            {
+              "name": "OSEN",
+              "title": "[속보] 고경표, 음주운전으로 청소차 들이받아..면허취소 수준",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NandtMXBQZEYtYkE4c2pwOFI2MGlFNmlkNTk2M2R4SzF2TDlGdUZ6STJ3M21NdVlobDBFY1BvdVBhSDNFYU9MVTJ6RC1yMmtPTlJn?oc=5",
+              "image": "https://file.osen.co.kr/article_thumb/2026/11/14/202611140914775792_6af7a97f5e45b_300x.jpg",
+              "url": "http://www.osen.co.kr/article/G1112909823"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "젤렌스키, 돈바스 철군 대가로 나토 보장 제안",
+          "summary": "우크라이나 대통령이 미국과 나토 가입 보장을 대가로 돈바스 지역에서 군대를 철수하도록 제안했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261115_0003868286",
+          "original_title": "젤렌스키 \"美, '나토 가입 대신 돈바스서 철군' 첫 제안\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "젤렌스키 \"美, '나토 가입 대신 돈바스서 철군' 첫 제안\"(종합)",
+              "link": "https://www.newsis.com/view/NISX20261115_0003868286",
+              "image": "https://img1.newsis.com/2026/11/13/NISI20261113_0001743396_web.jpg"
+            },
+            {
+              "name": "VOA 한국어 홈페이지",
+              "title": "젤렌스키, “미국, 우크라이나에 나토 가입 대가로 돈바스 양도안 제안”",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LU1lmU1BjM1UwZkFjWWViNlJBODFoWlRITlZVdDJHZlN2RGljNW9aNWFZVUxIUlpPZk94eUZvYlVtejlwV2R2ejhxX3FFTVB60gFTQVVfeXFMT0ZKV2JyY2RCcFc3Y285NHJ5LW5YLXZseUpGZk1iYWJ3MFVzTFd2NU5wVFpqR1Jqdkd2Rk1NRmxoeDZ2cW5wVTNFRXhOdVBPNVU3NjQ?oc=5",
+              "image": "https://gdb.voanews.com/b3605c71-b2ee-4ca1-9270-c5b34f87592c_cx0_cy5_cw0_w1200_h630.jpg",
+              "url": "https://www.voakorea.com/a/8223723.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "젤렌스키 \"美, '우크라 나토 가입 대가' 돈바스 양도안 질의\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261114045251109",
+              "image": "https://img2.yna.co.kr/photo/reuters/2026/11/13/PRU20261113136301009_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "젤렌스키 \"미국, '우크라 나토 가입 대가' 돈바스 양도안 질의\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846056",
+              "image": "https://img.sbs.co.kr/newimg/news/20261023/202234199_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "미·중·러 정상회담 19일 필리핀서 개최",
+          "summary": "미국, 중국, 러시아 정상이 19일 필리핀에서 정상회담을 개최할 것이라고 확인했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261115_0003868284",
+          "original_title": "크렘린도 \"19일 中서 미·중·러 정상회담 개최\" 확인",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "크렘린도 \"19일 中서 미·중·러 정상회담 개최\" 확인",
+              "link": "https://www.newsis.com/view/NISX20261115_0003868284",
+              "image": "https://img1.newsis.com/2026/10/16/NISI20261016_0002265283_web.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "미국 “19일 중국서 미·중·러 정상회담”…트럼프-김정은 회담은 불발 전망",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VYjhxNE9MMzVIUXJRNWtnQjluUklaVllNRGVLamFIWjJxUkJRZTQ4ODEtVElCYUF3SkxRS1kyeDE0Tld2bW54ODgtZ0w1dmtIYXFsZTJMZDMyVEJ0TW5KQ1NtYVYwU04waHItVU1ROFFkN1U0?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/720/imgdb/original/2026/1114/3217946343832324.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1287322.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美 이어 러도 \"19일 미중러 정상회담 개최\" 확인",
+              "link": "https://www.yna.co.kr/view/AKR20261115000800109",
+              "image": "https://img8.yna.co.kr/photo/cms/2026/05/17/09/PCM20260517000009990_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "19일 미중러 정상회담…\"트럼프-김정은 회담 예정 없어\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846013",
+              "image": "https://img.sbs.co.kr/newimg/news/20261114/202240985_1280.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "과기정통부, MS365 장애 대응 비상대응반 구성",
+          "summary": "",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261114181913",
+          "original_title": "과기정통부, MS365 장애 대응 비상대응반 구성",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "과기정통부, MS365 장애 대응 비상대응반 구성",
+              "link": "https://zdnet.co.kr/view/?no=20261114181913",
+              "image": "https://image.zdnet.co.kr/2023/07/23/4d955be5a83af3b59902abc0ff52d299.jpg"
+            },
+            {
+              "name": "서울경제",
+              "title": "과기정통부, MS 서비스 장애 피해 대응 나서",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TUXVjaTY0X0x6dnpWOUcxbXhYWHJ6TU1PVTQzTHlYQTV3dEpncjgxbUFtdGRGcUxnUjJCYUNqYlJPWktjaHRzUTNZWmxLeldqNHfSAVNBVV95cUxOU1BISUxaLXFIYUVreTZIMmZwM3ZUTmJkdlNYS3dTT2t0RWpkNVk0dE9CeDJvbHFTTlREd1FrdTB4V2pqNFRRQ1laV184VnNsZDVxRQ?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/11/14/news-p.v1.20261008.fd6f9816df0c49bb94d4f17a0e0d4ca3_Z1.png",
+              "url": "https://www.sedaily.com/article/20114341"
+            },
+            {
+              "name": "전자신문",
+              "title": "정부, MS365 장애 비상대응반 구성…MS “근본 문제 해결”",
+              "link": "https://www.etnews.com/20261114000035",
+              "image": "https://img.etnews.com/news/article/2026/11/14/news-p.v1.20261114.c82412a61f934914bbf92359f82af182_P1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "BTS·에스파, MMA2026 첫날 대관",
+          "summary": "방탄소년단이 MMA2026에서 올해의 앨범 등 3관왕을, 에스파가 2관왕을 수상했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261114049700005",
+          "original_title": "BTS 3관왕·에스파 2관왕…'MMA2026' 첫날 나란히 대상",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "BTS 3관왕·에스파 2관왕…'MMA2026' 첫날 나란히 대상",
+              "link": "https://www.yna.co.kr/view/AKR20261114049700005",
+              "image": "https://img1.yna.co.kr/etc/inner/KR/2026/11/14/AKR20261114049700005_01_i_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "방탄소년단, ‘MMA2026’ 첫날 ‘올해의 앨범’ 등 3관왕…에스파 ‘올해의 글로벌-K 아티스트’",
+              "link": "https://www.donga.com/news/Culture/article/all/20261114/135024615/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135024616.1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "선두 달리던 최혜진, LPGA 투어 디 안니카 3R서 2위로 주춤",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261115006700007",
+          "original_title": "선두 달리던 최혜진, LPGA 투어 디 안니카 3R서 2위로 주춤",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "선두 달리던 최혜진, LPGA 투어 디 안니카 3R서 2위로 주춤",
+              "link": "https://www.yna.co.kr/view/AKR20261115006700007",
+              "image": "https://img8.yna.co.kr/photo/ap/2026/11/13/PAP20261113029101009_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "'첫 우승 도전' 최혜진, LPGA 디 안니카 2R도 공동 선두",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845833",
+              "image": "https://img.sbs.co.kr/newimg/news/20261114/202240922_1280.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "최혜진, 디 안니카 2R도 공동 선두… 첫 LPGA 우승 조준",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nTDJ4QW9CaFN2WGlrQXZXZ0xjeXJwc3dPWEtEQmUzNzYyS3Q5YndQaUpaMkdzSGFIbnJ1encyMktJcnpIWUVGNGlLb2lxNGRnNk1qTUhFZnFNRWlzVkEteHVwbTJ5X20yWjZhbzZBclNmZ2l3OWlBS3B6VzZSdw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/AZDKLEEXJNFCXJEJBAHS42VDRA.jpg?auth=88f317c9693f5180501d17c5c1e283eee38895c62635ca7928666a9fc5f81527&width=683&height=358&smart=true",
+              "url": "https://www.chosun.com/sports/golf/2026/11/14/MPLNMZVMABELRIDMPJXKKGEWDA/"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'첫 우승 정조준' 최혜진, LPGA 디안니카 2R도 공동 선두",
+              "link": "https://www.newsis.com/view/NISX20261114_0003867970",
+              "image": "https://img1.newsis.com/2026/11/13/NISI20261113_0001742623_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "요란한 니트",
+    "tagline": "컬러와 디테일이 빛나는 니트 트렌드",
+    "description": "요란한 니트는 화려한 색상과 독특한 패턴이 특징이다. 이번 겨울에는 조용한 럭셔리 대신 눈에 띄는 니트가 주목받고 있다. 디테일로 무장한 니트는 일상에 활력을 부여한다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "네이비 트윌 가디건",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "top",
+        "name": "레드 오버사이즈 스웨터",
+        "color": "레드",
+        "hex": "#FF0000"
+      },
+      {
+        "category": "shoes",
+        "name": "오렌지 부츠",
+        "color": "오렌지",
+        "hex": "#FFA500"
+      },
+      {
+        "category": "bag",
+        "name": "그레이 토트백",
+        "color": "그레이",
+        "hex": "#808080"
+      },
+      {
+        "category": "scarf",
+        "name": "블루 체크 스카프",
+        "color": "블루",
+        "hex": "#0000FF"
+      }
+    ],
+    "tips": [
+      "컬러 블록을 활용해 상하를 매치하면 시각적 포인트가 된다.",
+      "디테일이 돋보이는 니트는 겹쳐 입어도 무게감이 덜하다.",
+      "실내외에서 색다른 액세서리와 함께 조합하면 스타일이 완성된다."
+    ],
+    "weather_tip": "흐리고 비가 오는 날, 가벼운 가디건에 니트 겹쳐 입는다.",
+    "weather": {
+      "city": "서울",
+      "t_max": 16,
+      "t_min": 7,
+      "rain_pct": 24,
+      "sky": "흐림",
+      "display": "서울 7~16°C · 흐림 · 강수 24%"
+    },
+    "articles": [
+      {
+        "title": "이제 기본은 그만, 좀 요란한 니트를 입으세요",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/14/%ec%9d%b4%ec%a0%9c-%ea%b8%b0%eb%b3%b8%ec%9d%80-%ea%b7%b8%eb%a7%8c-%ec%a2%80-%ec%9a%94%eb%9e%80%ed%95%9c-%eb%8b%88%ed%8a%b8%eb%a5%bc-%ec%9e%85%ec%9c%bc%ec%84%b8%ec%9a%94/",
+        "note": "이번 겨울은 조용한 럭셔리 대신 눈에 띄는 디테일이 풍부한 니트웨어가 인기를 끌고 있다.",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6af82a15ada4b-1920x1080.jpg?x=1320&y=976&ver=1.2.09",
+        "url": "https://www.wkorea.com/2026/11/14/%EC%9D%B4%EC%A0%9C-%EA%B8%B0%EB%B3%B8%EC%9D%80-%EA%B7%B8%EB%A7%8C-%EC%A2%80-%EC%9A%94%EB%9E%80%ED%95%9C-%EB%8B%88%ED%8A%B8%EB%A5%BC-%EC%9E%85%EC%9C%BC%EC%84%B8%EC%9A%94/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "제비 한 마리가 봄을 만들지는 않는다.",
+    "author": "아리스토텔레스",
+    "work": "니코마코스 윤리학"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운아이디어가흐른다"
+      },
+      {
+        "animal": "소",
+        "text": "의지의힘으로길을열어"
+      },
+      {
+        "animal": "호랑이",
+        "text": "용감한발걸음이보인다"
+      },
+      {
+        "animal": "토끼",
+        "text": "빠른반응으로기회를잡는다"
+      },
+      {
+        "animal": "용",
+        "text": "창의력이폭발새로운길"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운판단이빛난다"
+      },
+      {
+        "animal": "말",
+        "text": "열정이가득도전이기다린다"
+      },
+      {
+        "animal": "양",
+        "text": "조화로운관계가풍부해진다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머감각으로분위기가밝아진다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한판단으로목표를이룬다"
+      },
+      {
+        "animal": "개",
+        "text": "충성심이빛나는순간이찾아온다"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이가득풍요로운하루를"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
