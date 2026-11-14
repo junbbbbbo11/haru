@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-14",
+  "weekday": "토요일",
+  "vol": 33,
+  "generated_at": "2026-11-14T09:49:54+09:00",
+  "edit_mode": "ai",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5342.73,
+      "change": -32.63,
+      "change_pct": -0.61,
+      "direction": "down",
+      "display": "5,342.73",
+      "change_display": "▼ 0.61%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1333.8,
+      "change": -2.5,
+      "change_pct": -0.19,
+      "direction": "down",
+      "display": "1,333.8원",
+      "change_display": "▼ 0.19%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 93288000.0,
+      "change": 62000.0,
+      "change_pct": 0.07,
+      "direction": "up",
+      "display": "9,329만원",
+      "change_display": "▲ 0.07%"
+    }
+  ],
+  "weather": null,
+  "cover_stories": [
+    {
+      "kicker": "축구",
+      "headline": "아르헨티나, 우루과이 승리 예측",
+      "summary": "최근 경기력과 전적을 보면 아르헨티나가 우루과이를 이길 가능성이 높다. 축구 팬들은 대중적으로 기대를 모으고 있다.",
+      "source": "Vietnam.vn",
+      "link": "https://www.vietnam.vn/ko/nhan-dinh-argentina-vs-uruguay-diem-tua-tu-thanh-tich-doi-dau",
+      "original_title": "아르헨티나 vs 우루과이 예측: 상대 전적에서 우세.",
+      "sources": [
+        {
+          "name": "Vietnam.vn",
+          "title": "아르헨티나 vs 우루과이 예측: 상대 전적에서 우세.",
+          "link": "https://www.vietnam.vn/ko/nhan-dinh-argentina-vs-uruguay-diem-tua-tu-thanh-tich-doi-dau",
+          "image": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/11/14/1794594597909_match_thumb_1647362_a08a475e.jpeg"
+        }
+      ]
+    },
+    {
+      "kicker": "정책",
+      "headline": "특검법 논란, 주류 매체 비판",
+      "summary": "특정 검찰 불법 행위를 밝히자는 목소리와 함께, 주류 매체의 비판이 이어지고 있다. 정치적 논쟁이 심화되고 있다.",
+      "source": "뉴스타파",
+      "link": "https://newstapa.org/article/iKKSJ",
+      "original_title": "검찰 불법 행위 밝히자는데 저주 퍼붓는 주류 매체들",
+      "sources": [
+        {
+          "name": "뉴스타파",
+          "title": "검찰 불법 행위 밝히자는데 저주 퍼붓는 주류 매체들",
+          "link": "https://newstapa.org/article/iKKSJ",
+          "image": "https://d1lawh9lju1xqd.cloudfront.net/2026/11/13170201-B76F-98AB-CD4F-18VKJ3RZ6DHO2YJP9KJS.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "에너지",
+      "headline": "기업, 낮 전기 사용 줄이는 이유",
+      "summary": "기업들이 낮에 전기를 싸게 사도 사용을 최소화하는 이유가 있다. 전기비 절감과 효율성 향상을 위해 낮 시간대 전기 사용을 줄이고 있다.",
+      "source": "매일경제 마켓",
+      "link": "https://stock.mk.co.kr/news/view/1197131",
+      "original_title": "낮에 싸게 팔아도 … 기업들 전기 안쓰는 이유는",
+      "sources": [
+        {
+          "name": "매일경제 마켓",
+          "title": "낮에 싸게 팔아도 … 기업들 전기 안쓰는 이유는",
+          "link": "https://stock.mk.co.kr/news/view/1197131",
+          "image": "https://wimg.mk.co.kr/news/cms/202611/13/20261113_01170112000001_L00.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "우리은행장 정진완 1년 연임",
+          "summary": "정진완 우리은행장은 13일 자회사대표이사후보추천위원회에서 차기 행장 후보로 추천받아 1년 임기를 연임했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/People/article/all/20261113/135023078/2",
+          "original_title": "정진완 우리은행장 1년 연임",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "정진완 우리은행장 1년 연임",
+              "link": "https://www.donga.com/news/People/article/all/20261113/135023078/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/13/135022102.4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "정진완 우리은행장 연임 성공 '1년 더'",
+              "link": "https://www.mk.co.kr/news/economy/12208291",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/14/20261114_01110108000004_S00.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "정진완 우리은행장 임기 1년 연장‥\"수익성 회복 성과\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80NTUtekh1YzFiYXpGVXEyRmt0V203am5VaTBzYkpLb1JqZXRubzhNU3U1X2JkM2FSYUl6UXpWRlJZbG5KRkxhYWtoTEFQRzJ2ZHdQeDhjMElvYWFxX01hcmZ3Z0taSFZUcndLZjluZGI4MEJm0gF0QVVfeXFMTTFLVlF1bWVkSVp1d1ZvLVdDWjh0b0R4Tk5YbkVFT3E4Q2NaSHlUVEVSNWRvc09SZzIwZmxFNEo1OERLZmNwNzRUUFkza1NxY3c5aGtXbW9yd1c3QXMzSmFqaVY1MWtfTVgyVEJnMXZjMWhwNm8?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/13/hm_20261113_17.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6865458_36932.html"
+            }
+          ]
+        },
+        {
+          "headline": "중소벤처기업부 ‘모두의 창업’ 개인정보 유출",
+          "summary": "중소벤처기업부가 주최한 ‘모두의 창업’ 2기에서 5개월 만에 개인정보 유출 사고가 발생해 800여 명의 이름·전화번호·이메일이 유출됐다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261113/135023040/2",
+          "original_title": "중기부 ‘모두의 창업’ 2기 사업도 개인정보 유출",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "중기부 ‘모두의 창업’ 2기 사업도 개인정보 유출",
+              "link": "https://www.donga.com/news/Economy/article/all/20261113/135023040/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/14/135023511.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "중기부 2차 '모두의창업' 개인 정보 유출…1차 유출사고 5개월만(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261113154952030",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/10/20/PYH2026102017390001300_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "[속보] 중기부 “2차 ‘모두의 창업’ 참가자 지원 기업서 개인정보 유출”",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RV0MwNWNsVFhKUnEzb280dzB4bmZmNFRES25kYjN1M3htY0lyRkpRUWZYellEWm9UMkZ1X3RnS0dFVHJrVkR1bDAzYmstUWx1aHgzS3NITm9WUdIBX0FVX3lxTFBPSHRzcmxmalZ3QmJ3SmUzNnRiRjQ0OUp0U1QxUHhWa2hlOUNCQkkzNUVldVphbWR5d2JRLTM5WHY5Mzk3MmF5YlVnV05UVHYzaC1aLTB0RUxqYVRERFNv?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/13/news-p.v1.20261113.f046c46acc734da9a874067ae62f5c90_P1.png",
+              "url": "https://www.khan.co.kr/article/202611131729001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "신세계톰보이, 신진 디자이너 3곳 선정",
+          "summary": "신세계톰보이와 한국콘텐츠진흥원이 2026년 신진 패션 디자이너 지원 사업에서 우수 브랜드 3곳을 선정하고 상금 및 유통 채널 연계를 통해 후속 지원을 약속했다",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=150163",
+          "original_title": "신세계톰보이, 신진 3개 브랜드 성장 지원",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "신세계톰보이, 신진 3개 브랜드 성장 지원",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=150163",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150163_133562_242_v150.jpg"
+            },
+            {
+              "name": "글로벌뉴스통신GNA",
+              "title": "신세계톰보이, 신진 패션 브랜드 3곳 선정",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ucHRnMWQ5eEk1NndLWUhWT2I3ejFXS0VlZ1hsVEFOLV82SWg3WFh2WXQ0MzJwTUNXZ2xKRS1wTWYxT1dqb2p3Q3psT21uUmV6ZTlIeUstUlB1dnF3bjNsd2c0WFVhWFlVN1Y2ZEZGbXY5WVV1?oc=5",
+              "image": "https://cdn.globalnewsagency.kr/news/photo/202611/504664_523430_112.jpg",
+              "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=504664"
+            },
+            {
+              "name": "인사이트코리아",
+              "title": "신세계톰보이, 콘진원과 차세대 K패션 브랜드 육성",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmNWFEQ0huaWx3LXljd2lfTWxlbzZhaGt1U0FQWUF5eWdZTDZCVE16eU9sdlZkUkg3TU44ZEJ6RTBJYW04TVVqZWttTllkeGRldVRaTmhDQ1haQ3ZhcWUyN3Rrci1rbmhkWmRpQ0VkMWNncjVOYjhJ0gF3QVVfeXFMUGY1YURDSG5pbHcteWN3aV9NbGVvNmFoa3VTQVBZQXl5Z1lMNkJUTXp5T2x2VmRSSDdNTjhkQnpFMElhbThNVWpla21OWWR4ZGV1VFpOaENDWFpDdmFxZTI3dGtyLWtuaGRaZGlDRWQxY2dyNU5iOEk?oc=5",
+              "url": "https://www.insightkorea.co.kr/news/articleViewAmp.html?idxno=258852"
+            },
+            {
+              "name": "어패럴뉴스",
+              "title": "신세계톰보이, 신진 디자이너 육성 성과 공유…우수 브랜드 3곳 선정",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94X0ZtZWJtMm9iekVNbHlvaWxKMEUtNFdZR1RkdkFEVVVrX3BlRG5QOTJlVlkwcXJUTzZZWFhpQXZId0lBNmZYUGE3aTBiYkZsZHNsa3E4dnFqNUM1UUdpWGdJLW8zUmYyUVM3c1EySHp4Uzg?oc=5",
+              "url": "https://m.apparelnews.co.kr/news/news_view/?idx=228967?cat=CAT112"
+            }
+          ]
+        },
+        {
+          "headline": "망고매니플리즈, W컨셉 브랜드데이 매출 성과 공개",
+          "summary": "망고매니플리즈가 11월 W컨셉 브랜드데이에서 매출 성과를 공개했다",
+          "source": "내외경제TV",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzdVRPcXFiRGp2a2dnaE5qcWJGYm9qY0xmdDhWYlgzNHRlYjM4a1BKc20xWHJNd3d6eWtFb25ieGVfN0diMzV4ZkdNWHJmSGdzSm9kVmdDbUJqaHhiSjdEZWMxYWNydVZSZzN3?oc=5",
+          "original_title": "망고매니플리즈, W컨셉 브랜드데이 성료…매출 성과 공개",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "내외경제TV",
+              "title": "망고매니플리즈, W컨셉 브랜드데이 성료…매출 성과 공개",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzdVRPcXFiRGp2a2dnaE5qcWJGYm9qY0xmdDhWYlgzNHRlYjM4a1BKc20xWHJNd3d6eWtFb25ieGVfN0diMzV4ZkdNWHJmSGdzSm9kVmdDbUJqaHhiSjdEZWMxYWNydVZSZzN3?oc=5",
+              "image": "https://cdn.nbntv.co.kr/news/photo/202611/4027418_302644_5831.jpg",
+              "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4027418"
+            },
+            {
+              "name": "더퍼블릭",
+              "title": "망고매니플리즈, ‘11월 W컨셉 브랜드데이’ 행사 마무리",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1weXdtd2RDaDd4TFY0TTJwcXBVTjY4b0d1Sm9oR0xOU19aaUM3OGJPVko3bFdhQkNyb3E4LXVaT1QxTTlJZHBOcU5SSGhodzB0TFlrRnJQbTBmb1JjbXFOZlEwbmtxd0JpbjNLMUs1b9IBb0FVX3lxTE1weXdtd2RDaDd4TFY0TTJwcXBVTjY4b0d1Sm9oR0xOU19aaUM3OGJPVko3bFdhQkNyb3E4LXVaT1QxTTlJZHBOcU5SSGhodzB0TFlrRnJQbTBmb1JjbXFOZlEwbmtxd0JpbjNLMUs1bw?oc=5",
+              "url": "https://www.thepublic.kr/news/articleViewAmp.html?idxno=326548"
+            },
+            {
+              "name": "하이뉴스",
+              "title": "여성 패션 브랜드 망고매니플리즈, 11월 W컨셉 브랜드데이 성과 확인",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05WlpUVTJzdU1qeHhpOUthbU8zZVZDM2Rad2FTR056M0RoV291ZEFOc0RDTnVNRkphdXhQQXFWbHhLVWVEa21reDBoS2dyeWpEakRXQVctTExobUt2WTZJa0VjOEdxLWRZcW0tTGlodm1ySXNFVkhB?oc=5",
+              "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611131054240413809284fa285d5916175194.jpg&nmt=48",
+              "url": "https://www.hinews.co.kr/view.php?ud=2026111310534225309284fa285d_48"
+            },
+            {
+              "name": "비욘드포스트",
+              "title": "망고매니플리즈, W컨셉 행사 일 매출 7억 원 달성...해외 확장 본격화",
+              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlekwwUmNQejVOUzVfa3NtUHUzcFZuMXcyTk1SYU14TWVKU2VyaERnOV96UnlYdWtfWW1fa0M0aF9IRzhjdThyeXZiUHYyQThPeDVhWDI4N3FBQmo1WHBIR2ZybVdnOFFlSFEwU1VQS0ZSRGtuMkdBc2N6cw?oc=5",
+              "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611131022040181209aeda6993417521136223.jpg&nmt=30",
+              "url": "https://www.beyondpost.co.kr/view.php?ud=202611131021054469aeda69934_30"
+            },
+            {
+              "name": "m.thepowernews.co.kr",
+              "title": "망고매니플리즈, W컨셉 브랜드데이서 일 매출 7억 원 기록...글로벌 시장 확대 추진",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuVkdhZ3dSTGpuM2E5SFVTWWM3d1UtSTROZGJNaHlxb0dCcWx0T0ZfeVJyU3hfN2g4Z3V2QWpQVExFT0NySkxwM2RTcnlTYmpuNFE1NC1CUmp6QmhFUkY3Z1gyTkNpRWZmTXJiekhPNExHZ3lfUG1FS2pTTnMxQQ?oc=5",
+              "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=202611131020320495409aeda6993417521136223.jpg&nmt=7",
+              "url": "https://www.thepowernews.co.kr/view.php?ud=2026111310194257399aeda69934_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "K-뷰티 전용 ETF 뉴욕증시 상장",
+          "summary": "한국 뷰티 기업을 한데 묶은 ETF가 뉴욕증시에 상장됐다 투자자들은 K-뷰티 산업에 직접 투자할 수 있다",
+          "source": "조세금융신문",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QdXFVdU1xRVlNMWozenJDWEVDMWk4OGF0OHAwVURCVGdtU2tuMm50Q0NQT1R6Wmt1bm8xNG80TDZWTnZlbUNRczRmMTNVWXhhXzgwVno3aDA2d1BEbGpjaw?oc=5",
+          "original_title": "\"K뷰티, 월가의 새 투자 테마로\"…뉴욕증시에 전용 ETF 상장",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "조세금융신문",
+              "title": "\"K뷰티, 월가의 새 투자 테마로\"…뉴욕증시에 전용 ETF 상장",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QdXFVdU1xRVlNMWozenJDWEVDMWk4OGF0OHAwVURCVGdtU2tuMm50Q0NQT1R6Wmt1bm8xNG80TDZWTnZlbUNRczRmMTNVWXhhXzgwVno3aDA2d1BEbGpjaw?oc=5",
+              "image": "https://www.tfmedia.co.kr/data/photos/20261146/art_17946136299247_4e52e4.jpg",
+              "url": "https://tfmedia.co.kr/mobile/article.html?no=208885"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "K-뷰티, 미국 증시 새 투자 테마로…전용 ETF 상장",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtb3V2aWpZZzZDZXkzQ3RPMGlna1U3WmNsaHE2Y25KTjdJa1NjZzhBX1NOQWQ3Y2RSUlpCN29HVW10VGtIMmk2dVY5M0ZCYXFNbkhKSEtsTUdVRzZVVUphNEhMdW5rMm5XTGc1eGRVd1doclBo?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/photo/202611/300872_401353_4615.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=300872"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"K뷰티, 월가 새 투자 테마로\"…뉴욕증시에 전용 ETF 상장",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15R3RJQ0N3SmRqMUcwSTBXSXRNWDlTTmExT01xaGNQcm9oMngtQ2ZSUGxtRWp4cXRoYWQ4V0dRX2ZReG1nYm4wMThIeVpRd2tVNTNmbUhuMFFPd2JHMnJYMNIBYEFVX3lxTE15R3RJQ0N3SmRqMUcwSTBXSXRNWDlTTmExT01xaGNQcm9oMngtQ2ZSUGxtRWp4cXRoYWQ4V0dRX2ZReG1nYm4wMThIeVpRd2tVNTNmbUhuMFFPd2JHMnJYMA?oc=5",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100405700001300_P4.jpg",
+              "url": "https://www.yna.co.kr/amp/view/AKR20261114007500072"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "영암군 월출산에 새 숲속 웰니스 체험시설 조성",
+          "summary": "영암군이 월출산에 숲속 웰니스 체험시설을 조성해 관광객 유치를 모색했다.",
+          "source": "연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaaEhJQTZBbFJmdFRsNHlCQkZmcU5UUnVTZ1BuSjNpLTc1S2RiTFRwV0cwaVBOZUVHeDQ5TlRmcURBdUs4NGhzTVAxN01Ra0g1Ri1lS3lMQUtZOGs?oc=5",
+          "original_title": "영암군, 월출산에 숲속 웰니스 체험시설 조성",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "영암군, 월출산에 숲속 웰니스 체험시설 조성",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaaEhJQTZBbFJmdFRsNHlCQkZmcU5UUnVTZ1BuSjNpLTc1S2RiTFRwV0cwaVBOZUVHeDQ5TlRmcURBdUs4NGhzTVAxN01Ra0g1Ri1lS3lMQUtZOGs?oc=5",
+              "image": "https://img9.yna.co.kr/etc/inner/KR/2026/11/13/AKR20261113132800054_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261113132800054"
+            },
+            {
+              "name": "theleader.co.kr",
+              "title": "영암군, '숲속 웰니스 체험시설' 개장…관광객 유치 모색",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xUmtYUVlwa3FUZDZwXzdGRzdibDBFcktib3cwZTJDajhwZjJsQ3djcFBlU3dqWkV4WmQ2OWx2ZGY2Z09ZbzQwTDVPT0htdE5kLVVleFdIYXlvRkFtOXBJSzJpdzN3STNSUnVPYnV3?oc=5",
+              "image": "https://cdn.theleader.co.kr/news/photo/202611/11514_16567_349.jpg",
+              "url": "https://www.theleader.co.kr/news/articleView.html?idxno=11514"
+            },
+            {
+              "name": "뉴스21 통신",
+              "title": "월출산 자락서 즐기는 짜릿한 숲속 레포츠…영암 ‘숲속 웰니스 체험시설’ 개장",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1aUFDVHpmLURRNnMtR3UtaDdQOU5URHIxMmlWR0JpWW40M1Nmb0hYZExSbEM0NGVBSHMydDg1b19DX0RQOEdSV190LXRYTTA5RFRpNk53?oc=5",
+              "image": "https://www.news21tongsin.co.kr/data/cheditor4/2611/ed0d25aa57052b3d01174cc91ed567a8a68dc408.jpg",
+              "url": "https://www.news21tongsin.co.kr/news/310146"
+            },
+            {
+              "name": "더페어",
+              "title": "영암군, 월출산 품은 ‘영암 숲속 웰니스 체험시설’ 개장",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WUzV6UWp0WThWc3R1LWlQamJjMHZLc2ZkX1p4bFVnZ3BoX080ejRUY3FtU0I2OFYwRENrYXl6UlFrUzFkNmhOTDlwOVlTMmtpMWd4MVFSeEtlZEJjbXpSYUJrbmN6UDZITG9HNS1xTjfSAXRBVV95cUxNWXpEeUMzam9YQmZIYlRBcjV2QWk3b0VFMDRBY0kwSXF1bGh6MHY0Z2hSZWU3WDZlWGVOQk1NTmx0WlBSVUxaQlBnZ251YjJxZHpRdWxwT2tMaFpRX3BLVzQzcTBPRXFmWk5vRW5WR0JfWWhaRQ?oc=5",
+              "image": "https://cdn.thefairnews.co.kr/news/thumbnail/202611/94140_141302_349_v150.jpg",
+              "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94140"
+            },
+            {
+              "name": "KBC광주방송",
+              "title": "월출산 품은 이색놀이터...숲속 '웰니스 체험시설' 운영",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9paWs2S3pnQzExTmZyX1hEeDF3Tmd0LUFESElxa1JwMFk4UXV1YXVIY2tQLXNaYlR3V2FnLVRzUFhwampnYzB3SkZudjNDaFl1dnZFd3FrUk5iY2ZXakVaYQ?oc=5",
+              "image": "https://www.ikbc.co.kr/data/kbc/image/2026/11/13/kbc202611130093.jpg",
+              "url": "https://www.ikbc.co.kr/article/view/kbc202611130051"
+            }
+          ]
+        },
+        {
+          "headline": "GLP-1제제, 심혈관·신장·대사 통합관리에서 역할 확대",
+          "summary": "GLP-1제제의 사용이 심혈관, 신장, 대사 질환 통합관리에서 확대될 전망이다.",
+          "source": "코리아헬스로그",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rbk5CU01FOXdCYXJZYy00YTZfX0xyZGhuUjlEYUI1WWkzM01iNVc5Y0dDTTFod25hTTNOZkp6VU9kcnAzV0s5TlhKNEx2LW1sT2ExSldfSE52T0VWSjFJQ19VZHJlZ09lNkZaM1pTc0NMUdIBdkFVX3lxTE9xMTZwdVFGTk9ubEplMWVoT05WYVZtNlBycjRDcVdHU1dBZ2VoX1daenozeXZoTTY3MFQzc18zUm5wLUVvVEwyV1Q0cjZYNGZfVlJMYTVLdVdMLXlvTFlZMXhYZkZjd25uczNoS0NUZHlQbGg3MEE?oc=5",
+          "original_title": "심혈관·신장·대사 통합관리 시대, GLP-1제제 역할 확대되나",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "코리아헬스로그",
+              "title": "심혈관·신장·대사 통합관리 시대, GLP-1제제 역할 확대되나",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rbk5CU01FOXdCYXJZYy00YTZfX0xyZGhuUjlEYUI1WWkzM01iNVc5Y0dDTTFod25hTTNOZkp6VU9kcnAzV0s5TlhKNEx2LW1sT2ExSldfSE52T0VWSjFJQ19VZHJlZ09lNkZaM1pTc0NMUdIBdkFVX3lxTE9xMTZwdVFGTk9ubEplMWVoT05WYVZtNlBycjRDcVdHU1dBZ2VoX1daenozeXZoTTY3MFQzc18zUm5wLUVvVEwyV1Q0cjZYNGZfVlJMYTVLdVdMLXlvTFlZMXhYZkZjd25uczNoS0NUZHlQbGg3MEE?oc=5",
+              "image": "https://cdn.koreahealthlog.com/news/thumbnail/202611/59946_57406_1231_v150.jpg",
+              "url": "https://www.koreahealthlog.com/news/articleView.html?idxno=59946"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "종합특검 군 철수 시점 논의",
+          "summary": "종합특검팀이 12·3 비상계엄 종료 시점을 계엄 해제와 대통령 탄핵으로 구분해 논의했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261113131900004",
+          "original_title": "피식 웃은 尹 \"군 철수시켰는데 내란 존속?\"…종합특검에 반박",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "피식 웃은 尹 \"군 철수시켰는데 내란 존속?\"…종합특검에 반박",
+              "link": "https://www.yna.co.kr/view/AKR20261113131900004",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/07/27/PYH2026072716740001300_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "피식 웃은 尹 \"계엄 해제됐는데 내란 존속? 이해 어렵다\"‥종합특검 주장 반박",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VMWUyYndNZEZLV3dLeGNGS2NyR0U5dXNJeVcwYUJOUzZYRHNCNnJ0bjlKSVk0dE9FQXpTVWFTcGpUbE9ZakFWWWphWldzY3VHWnRYTWtwNm1lR3hmR2NLUVlpbHF2eDZpaTN3LU1QVnFsVDNxZXNJ0gF3QVVfeXFMUGFESTFSb3ZMampvaE16ckJjWjV1NU9KOHpfSGdqa1ZQZVFJVF93bW03TnF3N2Rhc2xHRzBUblQtZ1cwQTVOU1o1R0c3SVV5dEhkYnhfRUZnMk1fSzZxVElIWVluRVBPOXoyOTdtZnVmQkV5ZkthekU?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/13/sa_20261113_10.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6865499_36918.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "미중러 정상, APEC 회의 3자 회담 진행",
+          "summary": "미중러 정상이 19일 APEC 정상회의를 통해 3자 회담을 진행한다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845761",
+          "original_title": "\"APEC 계기 미중러 정상회담 19일 개최…북한 논의 가능성\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"APEC 계기 미중러 정상회담 19일 개최…북한 논의 가능성\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845761",
+              "image": "https://img.sbs.co.kr/newimg/news/20261019/202232607_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "미중러 정상회담 중국 APEC때 열린다",
+              "link": "https://www.newsis.com/view/NISX20261114_0003867982",
+              "image": "https://img1.newsis.com/2026/10/16/NISI20261016_0002265283_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"APEC 계기 미중러 정상회담 19일 개최…북한 논의 가능성\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261114011551071",
+              "image": "https://img3.yna.co.kr/photo/ap/2026/09/24/PAP20260924268301009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "MS 아웃룩·팀즈 대규모 접속 장애",
+          "summary": "Microsoft의 아웃룩·팀즈 등 업무용 서비스가 대규모 접속 장애를 겪어 국내 기업 업무에 차질이 발생했다.",
+          "source": "머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sU2tzSlJRd3FsQS1fRTJvT0pabWIzLU9OcTRsMFM4OV9FaWxneFRiXzJjZUpEYjdDVzUwcHdQazBObFJIS3Jyc0RqRm5WRmpkdGdBZk4xaDV5QVhCOWdnV0xVM05qRHIy0gFuQVVfeXFMTUw4TGVDSFA4WFRmd1F3Xy1zUzAyZDZSR2dkazluWmFlcmZzbnRZdjRxTm8yODVXSlA3WGRZbU80UGlPZ3B0NDRFUGI1MXFFNnJqcEwza3FCZGpQZW8zN1NoOXc3TVpITVJuNVR2V2c?oc=5",
+          "original_title": "MS 아웃룩·AI 대규모 접속 장애…\"'인프라 부하' 원인 추정\"",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "머니투데이",
+              "title": "MS 아웃룩·AI 대규모 접속 장애…\"'인프라 부하' 원인 추정\"",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sU2tzSlJRd3FsQS1fRTJvT0pabWIzLU9OcTRsMFM4OV9FaWxneFRiXzJjZUpEYjdDVzUwcHdQazBObFJIS3Jyc0RqRm5WRmpkdGdBZk4xaDV5QVhCOWdnV0xVM05qRHIy0gFuQVVfeXFMTUw4TGVDSFA4WFRmd1F3Xy1zUzAyZDZSR2dkazluWmFlcmZzbnRZdjRxTm8yODVXSlA3WGRZbU80UGlPZ3B0NDRFUGI1MXFFNnJqcEwza3FCZGpQZW8zN1NoOXc3TVpITVJuNVR2V2c?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=618,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111306034786939_1.jpg",
+              "url": "https://www.mt.co.kr/world/2026/11/13/2026111306034786939"
+            },
+            {
+              "name": "뉴데일리",
+              "title": "MS 아웃룩·팀즈 등 대규모 접속 장애 … 국내 기업도 업무 마비",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNEp5ZWJhT1cxWmpkWjVxeUM4WnBzc1AwUUp2ZFVDZFdpclNfc0tkeV9mcmtMc2FOYnBiRFUzNVA5QUo4YllJUDNCMG80LV9ITXlFaHI2RjRJdVVFeHNQc1poYlpiQmNTLTBkTEVNbmxiNTFrLWJXX3A2RlR6U0R5YdIBgAFBVV95cUxQNEp5ZWJhT1cxWmpkWjVxeUM4WnBzc1AwUUp2ZFVDZFdpclNfc0tkeV9mcmtMc2FOYnBiRFUzNVA5QUo4YllJUDNCMG80LV9ITXlFaHI2RjRJdVVFeHNQc1poYlpiQmNTLTBkTEVNbmxiNTFrLWJXX3A2RlR6U0R5YQ?oc=5",
+              "image": "https://image.newdaily.co.kr/site/data/img/2026/11/13/2026111300138_0.jpg?u=20261113122336",
+              "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/13/2026111300138.amp.html"
+            },
+            {
+              "name": "엠에스투데이",
+              "title": "MS 아웃룩 등 대규모 장애…AI 업무 연동까지 차질",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56OFAtaFVXeTBuTlZIZXZSenNjRGtvMUVBdTVMeDFNTjFpNW5YYnRyQ09vSGMwOGJJRFQ5bnM1MWxNU3JROXBrLVF6N1lKaTRnVjFXXzhjUTNzZ2JTQTBxcXB3Q25mLWtJX1MzcGRyVnHSAXBBVV95cUxOejhQLWhVV3kwbk5WSGV2UnpzY0RrbzFFQXU1THgxTU4xaTVuWGJ0ckNPb0hjMDhiSURUOW5zNTFsTVNyUTlway1RejdZSmk0Z1YxV184Y1Ezc2diU0EwcXFwd0NuZi1rSV9TM3BkclZx?oc=5",
+              "image": "https://cdn.mstoday.co.kr/news/photo/202611/200467_200580_4544.png",
+              "url": "https://www.mstoday.co.kr/news/articleViewAmp.html?idxno=200467"
+            }
+          ]
+        },
+        {
+          "headline": "미래에셋증권·LSEG AI 자산관리 서비스 강화",
+          "summary": "미래에셋증권이 런던증권거래소그룹과 AI 기반 자산관리 서비스 협약을 체결해 MAPS 고도화를 추진한다.",
+          "source": "시장경제신문",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBadTVhSjhXVFFoeWVKSDRCUnJTRG1qMzFaNmJPSlJoYVJiMXY2WUZpczM1bUpCUVhabzN5WWJOUW9xNURVSjVwdU1HYWJnS3FWSUU2UnBRLXJPV0dNS2RNUW1KY0N2c0RRcXdHNFBfTHc?oc=5",
+          "original_title": "미래에셋증권, LSEG와 손잡고 AI 자산관리 서비스 강화",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "시장경제신문",
+              "title": "미래에셋증권, LSEG와 손잡고 AI 자산관리 서비스 강화",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBadTVhSjhXVFFoeWVKSDRCUnJTRG1qMzFaNmJPSlJoYVJiMXY2WUZpczM1bUpCUVhabzN5WWJOUW9xNURVSjVwdU1HYWJnS3FWSUU2UnBRLXJPV0dNS2RNUW1KY0N2c0RRcXdHNFBfTHc?oc=5",
+              "image": "https://cdn.meconomynews.com/news/photo/202611/203661_207486_5242.jpg",
+              "url": "https://www.meconomynews.com/news/articleView.html?idxno=203661"
+            },
+            {
+              "name": "매일경제",
+              "title": "미래에셋증권, 런던증권거래소그룹과 AI 자산관리 서비스 강화 업무협약",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1wOVVtMC1aaUZUOUQxcURhNnh4cHpNN2VfaWRfZi1UbEhHSUFkckEzVGwxTHRYekN3TEF4MXBVdG9XYlVfSHdfSWNPc0g5Qnp4cEE?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/13/news-p.v1.20261113.0280fc3ca72a4bd5a3e0d54f733267df_R.jpg",
+              "url": "https://www.mk.co.kr/news/stock/12208099"
+            },
+            {
+              "name": "뉴스투데이",
+              "title": "미래에셋증권, LSEG와 AI 자산관리 '맞손'…MAPS 고도화 추진",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fNlNMazhKZWpCNmlENktsSk5VT2RVcGVGOGJ0RkZydG03c3hHNWpseXBXaDk2bzBXcGg5czNVZ3Z6TGswWDdXQk5jLTNSSjBicnJVdUlaaHZqSkhkZ3c?oc=5",
+              "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/13/.cache/512/20261113500227.jpg",
+              "url": "https://www.news2day.co.kr/article/20261113500229"
+            },
+            {
+              "name": "www.ebn.co.kr",
+              "title": "미래에셋증권, 런던증권거래소그룹과 맞손…AI 자산관리 서비스 고도화",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zYjB6dnBsbDAweF9Ic0E1ak1tdzV1dS1vN0d6cEplbjNvX0N0UmZNc3BSSXZyMEQyc0ZPcm9McDFHSjdVWndNNlZOX1BSMHlvQTRnQzNCZnJRbHdfZTl3b0JQT0FiQnN3?oc=5",
+              "image": "https://cdn.ebn.co.kr/news/thumbnail/202611/1731612_767596_2618_v150.jpg",
+              "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1731612"
+            },
+            {
+              "name": "포쓰저널",
+              "title": "미래에셋증권, LSEG와 AI 자산관리 협약..'미래에셋 3.0' 구체화",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DS21jVkN1SUxIbnlBWW50RUNPeGVlVkpNMmlaRk1wVThQNWxya3d6RVhqNTlkMTBFZDA0aXM2allnQVQ5NG5zQXBpN1Y1TDFNYzNCZ2xObEE1dTVMMHpneHpnZmE?oc=5",
+              "image": "https://cdn.4th.kr/news/thumbnail/202611/2121813_224015_1945_v150.jpg",
+              "url": "https://www.4th.kr/news/articleView.html?idxno=2121813"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "경주아트페어 역대 최대 규모 개막",
+          "summary": "경주에서 12일 개막한 2026 경주아트페어는 62개 갤러리가 참여해 역대 최대 규모의 전시를 선보였다.",
+          "source": "스트레이트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBuQ2lxWDlYZ0F0RkdDWDBEdWtyUTNBWVpYVVFLMzBkN29seFZBdTk0emY3SFZ4cW5VTUgwTkdweE1kTWxORGFQZW1ZY0V4RS10cml1Yk44ZG56aHVwRlpUUEJ0T05EU2lrNF9UbXkwY0JDZjN5Zlgw0gF3QVVfeXFMUG5DaXFYOVhnQXRGR0NYMER1a3JRM0FZWlhVUUszMGQ3b2x4VkF1OTR6ZjdIVnhxblVNSDBOR3B4TWRNbE5EYVBlbVljRXhFLXRyaXViTjhkbnpodXBGWlRQQnRPTkRTaWs0X1RteTBjQkNmM3lmWDA?oc=5",
+          "original_title": "경주시, ‘2026 경주아트페어’ 개막… 역대 최대 62개 갤러리 참여",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "스트레이트뉴스",
+              "title": "경주시, ‘2026 경주아트페어’ 개막… 역대 최대 62개 갤러리 참여",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBuQ2lxWDlYZ0F0RkdDWDBEdWtyUTNBWVpYVVFLMzBkN29seFZBdTk0emY3SFZ4cW5VTUgwTkdweE1kTWxORGFQZW1ZY0V4RS10cml1Yk44ZG56aHVwRlpUUEJ0T05EU2lrNF9UbXkwY0JDZjN5Zlgw0gF3QVVfeXFMUG5DaXFYOVhnQXRGR0NYMER1a3JRM0FZWlhVUUszMGQ3b2x4VkF1OTR6ZjdIVnhxblVNSDBOR3B4TWRNbE5EYVBlbVljRXhFLXRyaXViTjhkbnpodXBGWlRQQnRPTkRTaWs0X1RteTBjQkNmM3lmWDA?oc=5",
+              "url": "https://www.straightnews.co.kr/news/articleViewAmp.html?idxno=315296"
+            },
+            {
+              "name": "시사저널",
+              "title": "[경주 24시] 역대 최대 규모 경주아트페어 개막, 153개 부스 운영",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQ1IwbXJfd3NlbUtMMlQtWl9PNTRBTHFlcGJ0WmdMbmg5NlNibms3cXFuUkNnLUFoSlZrb3lScS14Zm1QbkVtRE43RDZhV1AxSG1nX2ROdXdQSXhiWXBTb0E1elVpTkVTWHZPaUF6ZXdpODjSAXNBVV95cUxNYkNSMG1yX3dzZW1LTDJULVpfTzU0QUxxZXBidFpnTG5oOTZTYm5rN3FxblJDZy1BaEpWa295UnEteGZtUG5FbURON0Q2YVdQMUhtZ19kTnV3UEl4YllwU29BNXpVaU5FU1h2T2lBemV3aTg4?oc=5",
+              "url": "https://www.sisajournal.com/news/articleViewAmp.html?idxno=393903"
+            },
+            {
+              "name": "이로운넷",
+              "title": "'2026 경주아트페어' 12일 개막…62개 갤러리 참여 현대미술 작품 전시",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvTmJYcGVKVXdiTzY5Z0tkZDRlYzJWVlV4ZFo2R1cwdVg0bVlBZkd3U1hLdzJHUDVJdFpsajBtblpIVmNiQ053RjVuT2F3NDRNMUxLd0tiNzlDS0dVUVBGV3pPalZTZw?oc=5",
+              "image": "https://cdn.eroun.net/news/thumbnail/202611/95369_153092_4428_v150.jpg",
+              "url": "https://www.eroun.net/news/articleView.html?idxno=95369"
+            },
+            {
+              "name": "인터넷조은뉴스",
+              "title": "경주아트페어 개막…\"역대 최대 62개 갤러리·153개 부스 참여!\"",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43R1lJMXpDTGlHczc2bGdJTEhHNTBQTjNiQU11Rld4WVAtbDhhdVRva0YwUWtJM1J3TEcwMnNyMFRDWVFPb1VFS05qU0hrQjZESEc4UmxPUFJ4Uk10TmhCdWlTdw?oc=5",
+              "image": "https://cdn.egn.kr/news/thumbnail/202611/211182_316440_629_v150.jpg",
+              "url": "https://www.egn.kr/news/articleView.html?idxno=211182"
+            },
+            {
+              "name": "코리아투데이뉴스",
+              "title": "경주시, ‘2026 경주아트페어’ 개막…역대 최대 규모로 열린다",
+              "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5QbW41cWsyVGpjazh3ckktQmVtTFBvVGo0NWtFOUh2eGlUdzBhZXJPaGd5cjZaUlRWYVFMdEJRTFVMSTdYOF9j?oc=5",
+              "image": "https://www.ktnnews.co.kr/data/koreatodaynews_com/mainimages/202611/2026111337534179.jpg",
+              "url": "https://www.ktnnews.co.kr/131131"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "최혜진, LPGA 디안니카 2R 선두",
+          "summary": "최혜진은 미국 LPGA 투어 디안니카에서 2일 연속 공동 선두를 차지했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261114_0003867970",
+          "original_title": "'첫 우승 정조준' 최혜진, LPGA 디안니카 2R도 공동 선두",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'첫 우승 정조준' 최혜진, LPGA 디안니카 2R도 공동 선두",
+              "link": "https://www.newsis.com/view/NISX20261114_0003867970",
+              "image": "https://img1.newsis.com/2026/11/13/NISI20261113_0001742623_web.jpg"
+            },
+            {
+              "name": "글로벌이코노믹",
+              "title": "최혜진, 2R 12언더파 공동선두...LPGA투어 안니카",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS1o4S2tsekFlUzNlZVBQMC1lblRnbVdRRWlrUzFpOFdKVWNhUzlSMDJTRmF4a01uZEdPcDRJaFJLbllUNHk4eXN0X2FJaXBNZGhsR1VDZnViV1A1S3dqNmNoWmIzSlZWZnlIeGU0RXFRTFhEWHMtSm45YUo5SVM2TFlQYnVsYUlKZlhZ?oc=5",
+              "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026111408104205543daecd3dad5581422153.jpg",
+              "url": "https://www.g-enews.com/article/General-News/2026/11/202611140804408213daecd3dad5_1"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "최혜진, 이글로 반등…LPGA 디 안니카 2R도 공동 선두",
+              "link": "https://www.yna.co.kr/view/AKR20261114016500007",
+              "image": "https://img0.yna.co.kr/photo/ap/2026/11/13/PAP20261113031401009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "올드머니룩",
+    "tagline": "세련된 절제와 전통의 조화",
+    "description": "올드머니룩은 절제된 디자인과 고급 소재를 강조한다. 클래식한 코트와 실크 블라우스가 핵심 아이템이며, 정제된 실루엣이 특징이다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "네이비 트위드 코트",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "top",
+        "name": "화이트 실크 블라우스",
+        "color": "화이트",
+        "hex": "#FFFFFF"
+      },
+      {
+        "category": "bottom",
+        "name": "그레이 울 팬츠",
+        "color": "그레이",
+        "hex": "#808080"
+      },
+      {
+        "category": "shoes",
+        "name": "브라운 레더 로퍼",
+        "color": "브라운",
+        "hex": "#A52A2A"
+      },
+      {
+        "category": "bag",
+        "name": "카키 트러커 백",
+        "color": "카키",
+        "hex": "#F0E68C"
+      }
+    ],
+    "tips": [
+      "정제된 실루엣을 강조하려면 어깨 라인이 강조된 코트와 심플한 블라우스를 매치한다",
+      "오프닝을 포인트로 두려면 클래식한 로퍼에 가죽 백을 더한다",
+      "계절에 따라 울 소재를 활용해 따뜻함을 유지한다"
+    ],
+    "weather_tip": "오늘은 맑음, 올드머니룩으로 차분한 분위기를 연출한다",
+    "weather": null,
+    "articles": [
+      {
+        "title": "‘올드머니’가 파텍 필립 찰 때, ‘뉴머니’는 리차드 밀을 산다. 왜?",
+        "name": "GQ Korea",
+        "link": "https://www.gqkorea.co.kr/2026/11/13/%ec%98%ac%eb%93%9c%eb%a8%b8%eb%8b%88%ea%b0%80-%ed%8c%8c%ed%85%8d-%ed%95%84%eb%a6%bd-%ec%b0%b0-%eb%95%8c-%eb%89%b4%eb%a8%b8%eb%8b%88%eb%8a%94-%eb%a6%ac%ec%b0%a8%eb%93%9c-%eb%b0%80%ec%9d%84/",
+        "note": "전통적 부자들이 선택하는 파텍 필립과 같은 절제된 우아함에 비해 신흥 부자들은 리차드 밀 같은 강렬한 외양을 선호한다",
+        "image": "https://www.gqkorea.co.kr/wp_data/gq/2026/11/style_6af5af375947c-1920x1080.jpg",
+        "url": "https://www.gqkorea.co.kr/2026/11/13/%EC%98%AC%EB%93%9C%EB%A8%B8%EB%8B%88%EA%B0%80-%ED%8C%8C%ED%85%8D-%ED%95%84%EB%A6%BD-%EC%B0%B0-%EB%95%8C-%EB%89%B4%EB%A8%B8%EB%8B%88%EB%8A%94-%EB%A6%AC%EC%B0%A8%EB%93%9C-%EB%B0%80%EC%9D%84/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "시작이 일의 가장 중요한 부분이다.",
+    "author": "플라톤",
+    "work": "국가"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "오늘은 새로운 아이디어가 빛난다"
+      },
+      {
+        "animal": "소",
+        "text": "차분히 계획을 세우면 성과가 따라온다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "활력 넘치는 하루, 기분이 최고"
+      },
+      {
+        "animal": "토끼",
+        "text": "따뜻한 소통으로 관계가 깊어진다"
+      },
+      {
+        "animal": "용",
+        "text": "창의력이 폭발, 새로운 프로젝트에 도전"
+      },
+      {
+        "animal": "뱀",
+        "text": "순수한 마음으로 세상을 바라보면"
+      },
+      {
+        "animal": "말",
+        "text": "바람이 부는 길을 따라 자유롭게"
+      },
+      {
+        "animal": "양",
+        "text": "평온한 시간 속에서 재충전이 필요해"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 빛나, 즐거운 하루를"
+      },
+      {
+        "animal": "닭",
+        "text": "작은 일에도 성실함이 빛을 발한다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 깊어지는 순간, 우정이 더 돈독해"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 가득, 풍성한 하루가 찾아온다"
+      }
+    ]
+  },
+  "reading_minutes": 3
+}
