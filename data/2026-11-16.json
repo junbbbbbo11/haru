@@ -1,0 +1,617 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-16",
+  "weekday": "월요일",
+  "vol": 35,
+  "generated_at": "2026-11-16T08:52:57+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5290.53,
+      "change": -52.2,
+      "change_pct": -0.98,
+      "direction": "down",
+      "display": "5,290.53",
+      "change_display": "▼ 0.98%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1335.7,
+      "change": 1.9,
+      "change_pct": 0.14,
+      "direction": "up",
+      "display": "1,335.7원",
+      "change_display": "▲ 0.14%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 89757000.0,
+      "change": 899000.0,
+      "change_pct": 1.01,
+      "direction": "up",
+      "display": "8,976만원",
+      "change_display": "▲ 1.01%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 16,
+    "t_min": 6,
+    "rain_pct": 2,
+    "sky": "흐림",
+    "display": "서울 6~16°C · 흐림 · 강수 2%"
+  },
+  "cover_stories": [
+    {
+      "keyword": "부산 kcc 이지스",
+      "headline": "'어제는 허웅, 오늘은 허훈' 종료 3초 전 동생이 끝냈다... '허씨 형제' 앞세운 KCC 7연패 뒤 5연승",
+      "summary": "",
+      "source": "머니투데이",
+      "link": "https://www.mt.co.kr/sports/2026/11/15/2026111520014730985",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "title": "'어제는 허웅, 오늘은 허훈' 종료 3초 전 동생이 끝냈다... '허씨 형제' 앞세운 KCC 7연패 뒤 5연승",
+          "link": "https://www.mt.co.kr/sports/2026/11/15/2026111520014730985",
+          "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=801,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026111520014730985_1.jpg"
+        }
+      ]
+    },
+    {
+      "keyword": "집",
+      "headline": "‘내 집’ 얻으려다… 지옥 같은 집에 갇혔다",
+      "summary": "",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/culture-life/culture_general/2026/11/17/5W7EFMFS75EN5FZGNPJF4TTILA/",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "‘내 집’ 얻으려다… 지옥 같은 집에 갇혔다",
+          "link": "https://www.chosun.com/culture-life/culture_general/2026/11/17/5W7EFMFS75EN5FZGNPJF4TTILA/",
+          "image": "https://www.chosun.com/resizer/v2/3DXFBHRBZFCMDL5L3LQI2MDZRU.jpg?auth=7e265f0fcbb9e586c566c84dbdb59f87cdcf4a950f624b50afc55890276c35c6&width=999&height=524&smart=true"
+        }
+      ]
+    },
+    {
+      "keyword": "동아일보",
+      "headline": "[천광암 칼럼]돔구장의 역설, 기적의 수출 1조 달러",
+      "summary": "",
+      "source": "동아일보",
+      "link": "https://www.donga.com/news/Opinion/article/all/20261115/135028812/2",
+      "sources": [
+        {
+          "name": "동아일보",
+          "title": "[천광암 칼럼]돔구장의 역설, 기적의 수출 1조 달러",
+          "link": "https://www.donga.com/news/Opinion/article/all/20261115/135028812/2",
+          "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/01/134947217.1.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "반도체 호황에 ICT 수출 역대최대 기록",
+          "summary": "반도체 초호황에 힘입어 10월 ICT 수출이 1년 전의 3배를 넘어 역대 최대를 기록했다. 올해 연간 수출액은 1조 달러를 넘어설 전망이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261115/135027647/2",
+          "original_title": "반도체 계속되는 질주… 10월 ICT 수출 ‘역대 최대’",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "반도체 계속되는 질주… 10월 ICT 수출 ‘역대 최대’",
+              "link": "https://www.donga.com/news/Economy/article/all/20261115/135027647/2"
+            },
+            {
+              "name": "헬로디디",
+              "title": "AI 수요에 ICT 수출 202% 급증···10월 역대 최대",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16TGZ6cWpPMWwwNkVsbER3TVl5WWgxODNiOHpVYTI0Mnp6ZDJZcS01emVJLTV0ZXBhM3VKR0h5Rk9LY0FWanN6bFhJcHhpUlRJZ2ZRTFVuV19yUmR4NDdLUDJaSHhhUUQwdFE?oc=5",
+              "url": "https://www.hellodd.com/news/articleView.html?idxno=113875"
+            }
+          ]
+        },
+        {
+          "headline": "산업장관 석유 최고가격제 연장 불가피",
+          "summary": "산업통상부 장관은 15일 석유 최고가격제 4주간 연장을 결정했고, 이번 연장이 불가피하다고 밝혔다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261115_0003868755",
+          "original_title": "산업장관 \"석유 최고가격제 동결…이번에도 연장 불가피했다\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "산업장관 \"석유 최고가격제 동결…이번에도 연장 불가피했다\"",
+              "link": "https://www.newsis.com/view/NISX20261115_0003868755",
+              "image": "https://img1.newsis.com/2026/11/15/NISI20261115_0002292519_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "산업장관 \"석유 최고가격제 연장은 불가피한 선택\"",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Gb1VJRG1NQ3ZraXZ0emZ3LVhzcGhZSzlydTNOdzlnMi1wc3BrVmpxQnNBekpMa0dMam1hNzhtWDFtMkNBVXFqTHpyTDZvTEVBRWRaQ2l6WE1hN1nSAWBBVV95cUxQbG5xTFNwdnpzLW1XZjZwRE11bmVfdXpGZGprWUN6M09YeDFmZVp4dko5M1U1OGYzdHFoWEl0X082cG02cG1kaTlQWmtWYmdXNUo2MGZVclZZUUYyMExJeFc?oc=5",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/03/16/PYH2026031608970001300_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261115040000003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "가정용 압박 스타킹 시장 2035년 전망",
+          "summary": "가정 내 웰니스와 회복 수요가 성장 견인으로 압박 스타킹 시장이 2035년까지 확대될 전망이다.",
+          "source": "IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQUF3QnFxWnIwdG5TSi1ieUZMSHNURmRNUDYxNmVFdFpmYm56ZXBDSGFoemZGZE5HMzlpVzNJdGlocTF1TWVwYnUzNGVfN3diZHRfVC1jcG03QW1qY1dKSmpod050cmozaEhETUdaWGVUTVZmRFB2UTZpTkpkY0hoR3d0Unc0OEp0Q3h1OGJUZ1lOcEJ6NnJtclliZHp6Rm44SzRFdV8wazhxNG5wZUtIY19OdTdCRHhfMHRwVU9RMWpnTzFrV0tSSlZURQ?oc=5",
+          "original_title": "가정용 압박 스타킹 시장 2035년 전망: 가정 내 웰니스와 회복 수요가 성장 견인",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "IndexBox",
+              "title": "가정용 압박 스타킹 시장 2035년 전망: 가정 내 웰니스와 회복 수요가 성장 견인",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQUF3QnFxWnIwdG5TSi1ieUZMSHNURmRNUDYxNmVFdFpmYm56ZXBDSGFoemZGZE5HMzlpVzNJdGlocTF1TWVwYnUzNGVfN3diZHRfVC1jcG03QW1qY1dKSmpod050cmozaEhETUdaWGVUTVZmRFB2UTZpTkpkY0hoR3d0Unc0OEp0Q3h1OGJUZ1lOcEJ6NnJtclliZHp6Rm44SzRFdV8wazhxNG5wZUtIY19OdTdCRHhfMHRwVU9RMWpnTzFrV0tSSlZURQ?oc=5",
+              "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2-localized/ko/compression-socks-for-home-use-market-forecast-to-2035-driven-by-home-wellness-and-recovery-demand-6b34b086f2341756.webp",
+              "url": "https://www.indexbox.io/ko/blog/compression-socks-for-home-use-market-forecast-to-2035-driven-by-home-wellness-and-recovery-demand/"
+            },
+            {
+              "name": "뉴스 및 통계",
+              "title": "2035년 여성 스포츠 브라 시장 전망: 애슬레저 수요가 성장 견인",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdENZd1pZYVJCbDF2QTVBWV9INDRvVmNHRjdEMEYza0thWWhGQ2xhZVRIaUxja0htLTQ4WktHX29aMHNVTExmQ1lsTzlQcUpFMjhzN25oZE5Cci1FR3NxdXQ0NzZzMEZkcnBJWGthNGpVWF9JLWxqMjYzR1Y0bThDQmFuT0VYT0lJeGZvSnpXV3FGOVVNRUlYU0ZSMi1DemY1Smx6Z2U1QWI1cTN0dHFIX0drVFpJeU1GS0FKMGhBSkVYdw?oc=5",
+              "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2-localized/ko/women-sports-bra-market-forecast-to-2035-driven-by-athleisure-demand-and-replacement-cycles-073ee3bcacdb8206.webp",
+              "url": "https://www.indexbox.io/ko/blog/women-sports-bra-market-forecast-to-2035-driven-by-athleisure-demand-and-replacement-cycles/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "부산시 '2026 가을맞이 B-뷰티 데이' 17일 개막…최대 70% 할인",
+          "summary": "",
+          "source": "뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLNmtIM3YwMHRVN1hMbEFsdTdHamx0RFV2Z0lfTVZzUFlpeS05UEI2dXVNQzI3eFZvU3JHcDR2S3E1MF9tQUp5T0dNTUxtUjlqZFkySm10YVIxWWgt?oc=5",
+          "original_title": "부산시 '2026 가을맞이 B-뷰티 데이' 17일 개막…최대 70% 할인",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "title": "부산시 '2026 가을맞이 B-뷰티 데이' 17일 개막…최대 70% 할인",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLNmtIM3YwMHRVN1hMbEFsdTdHamx0RFV2Z0lfTVZzUFlpeS05UEI2dXVNQzI3eFZvU3JHcDR2S3E1MF9tQUp5T0dNTUxtUjlqZFkySm10YVIxWWgt?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/16/2611160844136320_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261116000162"
+            },
+            {
+              "name": "누리일보",
+              "title": "부산시, '2026 가을맞이 B-뷰티(B-beauty) 데이' 개최",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4M1p2SmFSaUxDcERsdFAxR1RYTjJUQUFiY3ZHcjZ0S3JDUU90eTBXRVNLdzMwWmdTOFFJT2dJbkFpU2JEWVE0WDlpMGVfUmo5NGhPRHdUZ3hPSFk?oc=5",
+              "image": "https://www.nuriilbo.com/data/photos/portnews/202611/20261116071527-82100.jpg",
+              "url": "http://nuriilbo.com/news/article.html?no=942581"
+            },
+            {
+              "name": "경남도민뉴스",
+              "title": "부산시, '2026 가을맞이 B-뷰티(B-beauty) 데이' 개최",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OVjZtVlVuekljaWtoSk5nb2FfSVl5bW40aUUyeHJjQmpaNmt0TDd2cXRodUVCUDZ1MXg4WV9wUmVHS2RTVXhCamdrdTVPRW1BZ1lfQ0VWM2tZTkQ0N01BbDd6OA?oc=5",
+              "image": "https://www.gndnews1.com/data/photos/portnews/202611/20261116071527-82100.jpg",
+              "url": "https://www.gndnews1.com/news/article.html?no=1279430"
+            },
+            {
+              "name": "동행미디어 시대",
+              "title": "[오늘 부산]화장품 최대 70% 할인 'B-뷰티 데이' 17일 개최",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93S2tpRlZRRHVfcFhCRWFOb3ZrMnVHNmg5alpJMndIaTc2OF91cGs4NUQyNDhqbWJnLW9CNW5palVwWGJCcjItZkFpT1Zjc0U2ckt3NmMtSEVXRlA5V1E?oc=5",
+              "image": "https://menu.sidae.com/moneyweek/thumb/2026/11/16/00/2026111607404459385_1.jpg",
+              "url": "https://www.sidae.com/article/2026111607404459385"
+            },
+            {
+              "name": "복지TV부울경방송",
+              "title": "부산 화장품 18개사 참여…최대 70% 할인 ‘B-뷰티 데이’ 17일 개최",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lMGx2ckdNLS1kcjNUN3pocWpzSWRjQmtfUDV6ZUw0dTRxelltb0JjLWZUSURqTFZTblV0aFZyRllGSlFTcEZkS1dBNFZRdWpwcklDcGJmNDJaTHlLcUs2MVJ4VEtLc1VP?oc=5",
+              "image": "https://cdn.wbcb.co.kr/news/thumbnail/202611/107778_140420_2215_v150.jpg",
+              "url": "https://www.wbcb.co.kr/news/articleView.html?idxno=107778"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "RSV 고령층 위협 폐렴으로 악화",
+          "summary": "RSV가 콧물·기침으로 시작해 폐렴으로 악화되며 고령층을 위협한다. 최근 보고서에 따르면 고령층의 사망률이 상승했다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1dUlCTjBGOURwMW9LLUxpTk0xN2lsaExGMnQtczNfbzdtNFFQZFpOWlktY3M1RWdfYVVaSlBkdzhTZHVfT0F5UTB4RGxnM2xoa2EzQzV6aTDSAVRBVV95cUxQdktSay0yVWlTZ3ZoX09oZGtuZ0dzVHFFY1FYRlYwWF9VQWxGamxfX1BJbzBCM3E3YWwzaTVxVWl0TmUtcWVWUmNpVjk0S19DYzktd1U?oc=5",
+          "original_title": "콧물·기침으로 시작해 폐렴으로 악화… 고령층 위협하는 ‘RSV’",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "세계일보",
+              "title": "콧물·기침으로 시작해 폐렴으로 악화… 고령층 위협하는 ‘RSV’",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1dUlCTjBGOURwMW9LLUxpTk0xN2lsaExGMnQtczNfbzdtNFFQZFpOWlktY3M1RWdfYVVaSlBkdzhTZHVfT0F5UTB4RGxnM2xoa2EzQzV6aTDSAVRBVV95cUxQdktSay0yVWlTZ3ZoX09oZGtuZ0dzVHFFY1FYRlYwWF9VQWxGamxfX1BJbzBCM3E3YWwzaTVxVWl0TmUtcWVWUmNpVjk0S19DYzktd1U?oc=5",
+              "image": "https://www.segye.com/content/image/2026/11/15/20261115510253.jpg",
+              "url": "https://www.segye.com/newsView/20261115508399"
+            }
+          ]
+        },
+        {
+          "headline": "입맛 잃은 부모님 폐렴 경고",
+          "summary": "입맛이 사라진 부모님을 대상으로 폐렴 위험을 경고한다. 한파 대비 고령층 호흡기 건강이 비상경보 수준이다.",
+          "source": "한국공공정책신문",
+          "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE0taHlpa3hMRk5hNmU3dWF2cnRLU29ZS1R2WTB5WWg1Q3RwRTYwUGRiUG8zQkNwYWtZcTVVVVkzQlllOXc?oc=5",
+          "original_title": "\"입맛 잃은 부모님, 단순 노화 아닌 침묵의 살인자 '폐렴' 경고\" 역대급 한파 앞둔 고령층 호흡기 건강 비상경보",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "한국공공정책신문",
+              "title": "\"입맛 잃은 부모님, 단순 노화 아닌 침묵의 살인자 '폐렴' 경고\" 역대급 한파 앞둔 고령층 호흡기 건강 비상경보",
+              "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE0taHlpa3hMRk5hNmU3dWF2cnRLU29ZS1R2WTB5WWg1Q3RwRTYwUGRiUG8zQkNwYWtZcTVVVVkzQlllOXc?oc=5",
+              "image": "https://img.ehom.kr/news/2026/11/15/61601d4356e7f838cee980a6860937ad122925_thumb.jpg",
+              "url": "http://knpp.co.kr/news/589183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김민석, 최민희 윤리심판원 이첩 지시",
+          "summary": "김민석 대표가 최민희 최고위원에 대한 감찰 결과를 보고받고 윤리심판원에 이첩을 지시했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Politics/article/all/20261116/135028781/2",
+          "original_title": "김민석, ‘최민희 감찰’ 3일만에 징계 절차… 조사 결과 보고받고 黨윤리심판원에 이첩",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "김민석, ‘최민희 감찰’ 3일만에 징계 절차… 조사 결과 보고받고 黨윤리심판원에 이첩",
+              "link": "https://www.donga.com/news/Politics/article/all/20261116/135028781/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/16/135029267.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김민석, '최민희 발언 논란' 윤리심판원 이첩 지시…징계 수순(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261115044452001",
+              "image": "https://img2.yna.co.kr/photo/cms/2026/11/16/01/PCM20261116000001990_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "김민석, 최민희 감찰 결과 보고 받고 윤리심판원 이첩 지시",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846781",
+              "image": "https://img.sbs.co.kr/newimg/news/20261113/202240832_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "김민석, ’최민희 논란’ 윤리심판원 이첩 지시…징계 착수",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WRUpqSi1TWmVuZ3JpYTZZWUEwZk93OGY1aEZMZUFibGgwMVIxbk91UTd2Sy15bHVTZkxUaHhVU2xDM0VVSzRLODJPU2JoWTg1a3pMMElfR3BKZjNqWUpaeHJSWGJrLU0?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261115/AKR20261115181533AFU_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261115181533AFU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "루비오, 북한 팽창주의 비판",
+          "summary": "미국 국무장관 마코 루비오가 북한이 팽창주의를 추구하지 않으며 정권 생존만 원한다는 입장을 밝혔다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846922",
+          "original_title": "미 국무, 김정은 거론하며 \"정권 생존 원할 뿐, 팽창주의자 아냐\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "미 국무, 김정은 거론하며 \"정권 생존 원할 뿐, 팽창주의자 아냐\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846922",
+              "image": "https://img.sbs.co.kr/newimg/news/20261106/202238711_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "루비오 “김정은은 팽창주의자 아냐, 정권 생존만 원해”…이란과 구분",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZbmN0YTVWQnZwZHBURlA0MFozcHBsTnd4cEpVSktkSlJNWmRUOENJaGtlNnQ0Yk12anIwOWJ2V2dwX1JodERGRG1lQmJWZ0JJRmwyR2E2MGtvUdIBX0FVX3lxTE9PaWQ5dDAwZkx5cEZEb3VlS0pNREhMdHc1NVR6VDNiN1g2ejJrNTUzem00UmVWam5xYnowVEVDaHBXTS1TbUpTM1ZkbHgtQ3hRZUluaHFocHFGZk1nSEUw?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/16/news-p.v1.20261116.ab877691883f49a2b754a8cfd62a55d0_P1.png",
+              "url": "https://www.khan.co.kr/article/202611160751001"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "美국무, 김정은 거론하며 \"정권 생존 원할 뿐 팽창주의자 아냐\"",
+              "link": "https://www.yna.co.kr/view/AKR20261115056900071",
+              "image": "https://img2.yna.co.kr/photo/ap/2026/11/14/PAP20261114090701009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "후티군, 사우디 리야드와 예멘 지역에 대대적 공격",
+          "summary": "예멘 후티군이 사우디 아라비아 리야드와 예멘 정부군 지역에 탄도미사일 공격 등 대대적 공격을 가했다.",
+          "source": "뉴스핌",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BY25iOHZDNWhBY245WXppRDlrY2NVak4zbDcydVJzT0N4ZGdwaC1PVmJUVVNhNDhVVDdXWXI2V1RwT21ROGVvQmRiekhWcmZiMkNWVUJqM29RUkht?oc=5",
+          "original_title": "예멘 후티 반군 \"사우디 공항·석유시설 등 미사일·드론 공격\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴스핌",
+              "title": "예멘 후티 반군 \"사우디 공항·석유시설 등 미사일·드론 공격\"",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BY25iOHZDNWhBY245WXppRDlrY2NVak4zbDcydVJzT0N4ZGdwaC1PVmJUVVNhNDhVVDdXWXI2V1RwT21ROGVvQmRiekhWcmZiMkNWVUJqM29RUkht?oc=5",
+              "image": "https://img.newspim.com/news/2023/10/18/2310181505267310_200_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261116000026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "SK 최태원, AI 플라이휠 구조 제안",
+          "summary": "SK 최태원 회장은 AI 컴퍼니를 재정의하며 AI 서비스와 토큰 이코노미를 연결해 선순환 구조를 만들자고 밝혔다.",
+          "source": "녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XN2RITy1rM0FnTFVzTVJtWm5XVTRTa0FoZE5JbWRfcDNUX2xCelp1aHg0VmM1T0VZMXhXek5DVHlhVFA1bzVrUk9MX0lFdU1EQmRpSGhfSnVTMzlORlp6YnEtQ3lPZmZG?oc=5",
+          "original_title": "최태원, SK 'CEO 세미나'에서 \"AI 컴퍼니 재정의...AI 서비스·토큰 이코노미 연결 AI 플라이휠 구조 만들자\" 주문",
+          "coverage": 16,
+          "sources": [
+            {
+              "name": "녹색경제신문",
+              "title": "최태원, SK 'CEO 세미나'에서 \"AI 컴퍼니 재정의...AI 서비스·토큰 이코노미 연결 AI 플라이휠 구조 만들자\" 주문",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XN2RITy1rM0FnTFVzTVJtWm5XVTRTa0FoZE5JbWRfcDNUX2xCelp1aHg0VmM1T0VZMXhXek5DVHlhVFA1bzVrUk9MX0lFdU1EQmRpSGhfSnVTMzlORlp6YnEtQ3lPZmZG?oc=5",
+              "image": "https://cdn.greened.kr/news/thumbnail/202611/354680_406800_1056_v150.jpg",
+              "url": "https://www.greened.kr/news/articleView.html?idxno=354680"
+            },
+            {
+              "name": "조선일보",
+              "title": "최태원 \"AI 반도체·AI 서비스… 선순환 구조 만들자\"",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY1o0YzRkYjVoYWNucnE0dS1UQkZyNFVfdEdVcWdCZUVabUplSVNlUko1alhEY1pqOW82NG1FTWVzaFpTWUtvajZjOVNwSzdqdmpxanpGX1RodEY5S2V5eUxGbU8tdHhCaTBEcHduckVubGIxZFI4QXdnaDh5Y0ROTUsyZ2VHa2FTTnFibVlRcw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/EDYYPAE6XBAWDE4XAVGPZYLBM4.jpg?auth=8e21bab4ad73fe087553ba6bcea09beab28dad5d933b5748fe9cbc17122d2fdc&width=236&height=123&smart=true",
+              "url": "https://www.chosun.com/economy/industry-company/2026/11/16/6DQ4YZWPXBDUFGJ4LH2WOBDQFE/"
+            },
+            {
+              "name": "비즈트리뷴",
+              "title": "최태원 “AI 사업 간 선순환 구축”… SK, 반도체 넘어 서비스까지 확장",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UWjFmSE5zUHBtYUJaYW5rY2czeDBuQkpDTHpSWm9fdTY2SFF2QXRJTTQxTVRpbEdIbm1PZms4RVluYndXQTJmdHdYMHU3SmRoQkVNWG9LbXUxMU9TYXdqWllYbk9GQzE5ZFo0WXhqZkk?oc=5",
+              "image": "https://www.biztribune.co.kr/news/thumbnail/202611/362539_268673_569_v150.jpg",
+              "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=362539"
+            },
+            {
+              "name": "서울경제",
+              "title": "최태원 “AI 플라이휠 구축…토큰 이코노미 주도권 잡자”",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LQlF4c2plTkR2MjBmckM3THZDQzBlQjZMSkNvejFEcEUzblZpUWRyeUVkN1doX2JkY1JhZGItUi1tNWxOWkJVTTdXTDVTRGhyamfSAVNBVV95cUxQZFpZVTVLVjNCaDR5ZWFnMUp2RVVobE5JN013bjA1aG41bFVCTDdmYnB3MU4zN1ZUZkdrTHRCTmhWbVZJTEFWX1ZQQUE3d1BTbkd0SQ?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/11/15/news-g.v1.20261115.b97b43724d8f41edba7c5fcc2c8a91ca_Z1.jpg",
+              "url": "https://www.sedaily.com/article/20114507"
+            },
+            {
+              "name": "한국경제",
+              "title": "최태원 \"SK, 기존 틀 깨고 AI컴퍼니로 재정의해야\"",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Gb3JVWXVkMUxlWUllMHdxLTF6WEQ3UEwzVTRJSWI2NkN0UzdJazRMakZVWmxITTI0MmlOdTRiT0EtS0JYdWhVdndYT2t2NFVtRHYySU5vS1hIdw?oc=5",
+              "image": "https://img.hankyung.com/photo/202611/AA.46430108.1.jpg",
+              "url": "https://www.hankyung.com/article/2026111574461"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "16세 바이올리니스트 이현정, 롱티보 국제 콩쿠르 3위",
+          "summary": "",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611152015015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news",
+          "original_title": "16세 바이올리니스트 이현정, 롱티보 국제 콩쿠르 3위",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "16세 바이올리니스트 이현정, 롱티보 국제 콩쿠르 3위",
+              "link": "https://www.khan.co.kr/article/202611152015015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news",
+              "image": "https://img.khan.co.kr/news/2026/11/15/l_2026111601000419100043611.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "16세 바이올리니스트 이현정, 롱 티보 국제 콩쿠르 3위",
+              "link": "https://www.yna.co.kr/view/AKR20261115018300005",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/15/AKR20261115018300005_01_i_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "‘만15’세 바이올리니스트 이현정, 롱 티보 국제 콩쿠르 3위",
+              "link": "https://www.donga.com/news/Culture/article/all/20261115/135025093/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135027973.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'만15세' 바이올리니스트 이현정, 롱 티보 국제 콩쿠르 3위",
+              "link": "https://www.newsis.com/view/NISX20261115_0003868390",
+              "image": "https://img1.newsis.com/2026/11/15/NISI20261115_0002292248_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "최혜진, LPGA 10번째 준우승에도 \"또 하나의 경험으로 삼겠다\"",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261116016500007",
+          "original_title": "최혜진, LPGA 10번째 준우승에도 \"또 하나의 경험으로 삼겠다\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "최혜진, LPGA 10번째 준우승에도 \"또 하나의 경험으로 삼겠다\"",
+              "link": "https://www.yna.co.kr/view/AKR20261116016500007",
+              "image": "https://img9.yna.co.kr/photo/etc/gt/2026/11/16/PGT20261116083901009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "최혜진, LPGA 투어 디 안니카 2위…준우승만 10번째(종합)",
+              "link": "https://www.newsis.com/view/NISX20261116_0003868936",
+              "image": "https://img1.newsis.com/2026/11/16/NISI20261116_0001751421_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "최혜진, LPGA 투어 디 안니카 준우승…개인통산 10번째",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008847089",
+              "image": "https://img.sbs.co.kr/newimg/news/20261116/202241216_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "최혜진 또 준우승…LPGA 투어 디 안니카 단독 2위",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qQzk3NHRNRlg1Q09QN01qSGM3a1BkWDFwdHVVbXVCUXpRaS00a3lNTWQ4WTl0T0p1ejU2NFRiWHFJbnQ3VDJvM2JNcGRieWlBaUZBTDNwbXBJMnUzbEUzWklvZ2NuMUJuaGFqbXJVUTNfTzVV0gFmQVVfeXFMTlhoTmxtRVMwSkZoN2FveGJLYnBGcC1GTnlYU2J5cUtBMWtQclM5N1dKV0x5OGxCZ0QzT2pLRHU0WHU1YUlsZktNTXVIN3FDMmgwd3ZxN1Z1UEhDQmhRS2lxeUZQZ09B?oc=5",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/16/135029387.1.jpg",
+              "url": "https://www.donga.com/news/Sports/article/all/20261116/135029386/1"
+            }
+          ]
+        },
+        {
+          "headline": "한국 야구, APBC 결승서 일본에 패배…3회 연속 준우승",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846972",
+          "original_title": "한국 야구, APBC 결승서 일본에 패배…3회 연속 준우승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "한국 야구, APBC 결승서 일본에 패배…3회 연속 준우승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846972",
+              "image": "https://img.sbs.co.kr/newimg/news/20261116/202241165_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "한국, 부끄러운 ‘준우승’…APBC 결승전 일본에 1-5 패",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVXVJUV9kbjFzSnRCRUQyT2w2dHZwTVcySEU3cGwyQUVjWWs3UmZMUC1ET2I1S2xJYzJucXdQRmg3YVplcHYxQkFITG9SdFdfSWRPOUx2QXFOSjBsSVlyWm9HdThab3hyOGVfaFRKQ2UtUjlIR2lVbW1sdmtFNE9jbUFR?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/800/imgdb/original/2026/1115/20261115501994.webp",
+              "url": "https://www.hani.co.kr/arti/international/international_general/1287457.html"
+            },
+            {
+              "name": "뉴시스",
+              "title": "한국 야구, APBC 결승서 일본에 져 3회 연속 준우승…한일전 13연패",
+              "link": "https://www.newsis.com/view/NISX20261115_0003868750",
+              "image": "https://img1.newsis.com/2026/11/15/NISI20261115_0001750775_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "한국 야구, APBC 결승서 일본에 1-5 패배…3회 연속 준우승",
+              "link": "https://www.yna.co.kr/view/AKR20261115054800007",
+              "image": "https://img3.yna.co.kr/photo/ap/2026/11/15/PAP20261115237101009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "새 남친 따라 옷 입는 스타일도 터프해진 다코타 존슨",
+    "tagline": "W Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 16,
+      "t_min": 6,
+      "rain_pct": 2,
+      "sky": "흐림",
+      "display": "서울 6~16°C · 흐림 · 강수 2%"
+    },
+    "articles": [
+      {
+        "title": "새 남친 따라 옷 입는 스타일도 터프해진 다코타 존슨",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/15/%ec%83%88-%eb%82%a8%ec%b9%9c-%eb%94%b0%eb%9d%bc-%ec%98%b7-%ec%9e%85%eb%8a%94-%ec%8a%a4%ed%83%80%ec%9d%bc%eb%8f%84-%ed%84%b0%ed%94%84%ed%95%b4%ec%a7%84-%eb%8b%a4%ec%bd%94%ed%83%80-%ec%a1%b4%ec%8a%a8/",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6af972c0dd5eb-scaled-1920x1080.jpg?x=2048&y=1774&ver=1.2.09",
+        "url": "https://www.wkorea.com/2026/11/15/%EC%83%88-%EB%82%A8%EC%B9%9C-%EB%94%B0%EB%9D%BC-%EC%98%B7-%EC%9E%85%EB%8A%94-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%8F%84-%ED%84%B0%ED%94%84%ED%95%B4%EC%A7%84-%EB%8B%A4%EC%BD%94%ED%83%80-%EC%A1%B4%EC%8A%A8/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "같은 강물에 두 번 발을 담글 수는 없다.",
+    "author": "헤라클레이토스",
+    "work": "단편"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 번쩍"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 편안한 대화가 흐른다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 보상을 가져다줄 것"
+      },
+      {
+        "animal": "토끼",
+        "text": "가벼운 웃음이 일상을 채워"
+      },
+      {
+        "animal": "용",
+        "text": "열정이 빛나는 순간이 찾아"
+      },
+      {
+        "animal": "뱀",
+        "text": "마음이 차분히 흐르는 길"
+      },
+      {
+        "animal": "말",
+        "text": "상호 존중이 에너지를 키워"
+      },
+      {
+        "animal": "양",
+        "text": "조용한 순간에 영감이 싹"
+      },
+      {
+        "animal": "원숭이",
+        "text": "다양한 시도가 즐거움을 더해"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 실현을 돕는다"
+      },
+      {
+        "animal": "개",
+        "text": "친구와의 소통이 따뜻함을"
+      },
+      {
+        "animal": "돼지",
+        "text": "편안한 휴식이 재충전의 열쇠"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
