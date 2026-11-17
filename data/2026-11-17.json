@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-17",
+  "weekday": "화요일",
+  "vol": 36,
+  "generated_at": "2026-11-17T11:51:27+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5021.38,
+      "change": -79.12,
+      "change_pct": -1.55,
+      "direction": "down",
+      "display": "5,021.38",
+      "change_display": "▼ 1.55%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1339.0,
+      "change": 5.7,
+      "change_pct": 0.43,
+      "direction": "up",
+      "display": "1,339.0원",
+      "change_display": "▲ 0.43%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 87992000.0,
+      "change": -537000.0,
+      "change_pct": -0.61,
+      "direction": "down",
+      "display": "8,799만원",
+      "change_display": "▼ 0.61%"
+    }
+  ],
+  "weather": null,
+  "cover_stories": [
+    {
+      "kicker": "AI에너지",
+      "headline": "두산에너빌리티, AI로 발전소 고장 예측",
+      "summary": "두산에너빌리티가 AI를 활용해 발전소 운영·정비를 지원하고 고객사와 기술을 공유해 운영 효율을 높인다.",
+      "source": "전기신문",
+      "link": "https://www.electimes.com/news/articleView.html?idxno=374757",
+      "original_title": "두산에너빌, 발전소 운영·정비에 AI…고객사와 기술 공유",
+      "sources": [
+        {
+          "name": "전기신문",
+          "title": "두산에너빌, 발전소 운영·정비에 AI…고객사와 기술 공유",
+          "link": "https://www.electimes.com/news/articleView.html?idxno=374757",
+          "image": "https://cdn.electimes.com/news/thumbnail/202611/374757_588695_1849_v150.jpg"
+        },
+        {
+          "name": "동아일보",
+          "title": "“AI로 발전설비 고장 사전에 예측한다”…두산에너빌리티, 발전운영기술교류회 개최",
+          "link": "https://www.donga.com/news/Economy/article/all/20261115/135026788/1"
+        }
+      ]
+    },
+    {
+      "kicker": "트롯",
+      "headline": "미스터트롯4, 12월 17일 첫 방송",
+      "summary": "트롯 오디션 미스터트롯4가 12월 17일 첫방송을 진행하며 현역·비현역이 대결하고 양성적 분위기 속에서 경쟁이 치열하다.",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/culture-life/culture_general/2026/11/17/GUGJEOEOZBCWTLDHBJGLBBRFAI/",
+      "original_title": "‘미스터트롯4′ 12월 17일 첫 방송...김중연, 양지원, 박지후, 남궁진 등 티저로 베일 벗어",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "‘미스터트롯4′ 12월 17일 첫 방송...김중연, 양지원, 박지후, 남궁진 등 티저로 베일 벗어",
+          "link": "https://www.chosun.com/culture-life/culture_general/2026/11/17/GUGJEOEOZBCWTLDHBJGLBBRFAI/",
+          "image": "https://www.chosun.com/resizer/v2/AEZ2CKTMWNCPBDTKQVH6DBRNDY.png?auth=c435806b40ac294be3db1bf35b2766b485b4d58043ec30d8598bc5a95a11b04e&width=1200&height=630&focal=965,537"
+        },
+        {
+          "name": "스포츠동아",
+          "title": "‘미스터트롯4’, 현역 vs 비현역 제대로 붙는다…12월 17일 첫 방송",
+          "link": "https://sports.donga.com/ent/article/all/20261117/135036727/1"
+        },
+        {
+          "name": "텐아시아",
+          "title": "트로트 오디션, 또 큰 거 온다…'미스터트롯4' 12월 17일 공개 '현역 VS 비현역'",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Jc1VkRVJlYm8wLVBBdUp2cHJSM1BHSW1XR0FyQV9abGN2VDVRNVVReUQ0bUNxYWVEMkJjWUVEa210NlgxVHlRZkdpYlVMcEZHYVdmMlk5VDBya0k?oc=5",
+          "image": "https://img.tenasia.co.kr/photo/202611/BF.46449883.1.jpg",
+          "url": "https://www.tenasia.co.kr/article/2026111710404"
+        }
+      ]
+    },
+    {
+      "kicker": "전쟁",
+      "headline": "한국서 전쟁, 30일치 비축령 논란",
+      "summary": "한국 내 전쟁 가능성 논란이 돌며 30일치 비축령이 논의되고 전쟁 대비 조치가 강화되고 있다.",
+      "source": "아시아경제",
+      "link": "https://view.asiae.co.kr/article/2026111619334374520",
+      "original_title": "\"한국서 곧 전쟁 난다\"…전 세계 발칵 뒤집은 '30일치 비축령'의 정체",
+      "sources": [
+        {
+          "name": "아시아경제",
+          "title": "\"한국서 곧 전쟁 난다\"…전 세계 발칵 뒤집은 '30일치 비축령'의 정체",
+          "link": "https://view.asiae.co.kr/article/2026111619334374520",
+          "image": "https://cphoto.asiae.co.kr/listimglink/1/2026111618022611191_1794819746.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "국고채 금리 3년물 3.757%",
+          "summary": "국고채 3년물 금리가 장중 3.757% 상승해 시장에 충격을 주었다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261117085100008",
+          "original_title": "국고채 금리 일제히 상승…3년물 장중 연 3.757%",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "국고채 금리 일제히 상승…3년물 장중 연 3.757%",
+              "link": "https://www.yna.co.kr/view/AKR20261117085100008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "올겨울 셀럽은 컬러 스카프로 포인트",
+          "summary": "셀럽들이 겨울 옷에 색다른 포인트를 주기 위해 컬러 스카프를 두르고 있다.",
+          "source": "VOGUE Korea",
+          "link": "https://www.vogue.co.kr/2026/11/16/%ec%98%ac%ea%b2%a8%ec%9a%b8-%ec%98%b7-%ec%9e%98-%ec%9e%85%eb%8a%94-%ec%85%80%eb%9f%bd%eb%93%a4%ec%9d%80-%ec%bb%ac%eb%9f%ac-%ec%8a%a4%ec%b9%b4%ed%94%84%eb%a5%bc-%eb%91%90%eb%a6%85%eb%8b%88/",
+          "original_title": "올겨울, 옷 잘 입는 셀럽들은 ‘컬러 스카프’를 두릅니다",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "VOGUE Korea",
+              "title": "올겨울, 옷 잘 입는 셀럽들은 ‘컬러 스카프’를 두릅니다",
+              "link": "https://www.vogue.co.kr/2026/11/16/%ec%98%ac%ea%b2%a8%ec%9a%b8-%ec%98%b7-%ec%9e%98-%ec%9e%85%eb%8a%94-%ec%85%80%eb%9f%bd%eb%93%a4%ec%9d%80-%ec%bb%ac%eb%9f%ac-%ec%8a%a4%ec%b9%b4%ed%94%84%eb%a5%bc-%eb%91%90%eb%a6%85%eb%8b%88/",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6afac32e9c6b3-scaled-1920x1080.jpg?x=1751&y=1477&ver=1.1.64",
+              "url": "https://www.vogue.co.kr/2026/11/16/%EC%98%AC%EA%B2%A8%EC%9A%B8-%EC%98%B7-%EC%9E%98-%EC%9E%85%EB%8A%94-%EC%85%80%EB%9F%BD%EB%93%A4%EC%9D%80-%EC%BB%AC%EB%9F%AC-%EC%8A%A4%EC%B9%B4%ED%94%84%EB%A5%BC-%EB%91%90%EB%A6%85%EB%8B%88/"
+            },
+            {
+              "name": "Vogue korea",
+              "title": "올겨울, 옷 잘 입는 셀럽들은 ‘컬러 스카프’를 두릅니다",
+              "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOZ0tnY0tXR3hEVmNLRlF3QzVGc295enNKTGFZN2VzTXAydlZQbnpkTUdjRGkwZkhEeHRmelNSb2RCREtZbm5DVUtBcTZYQ1Zpc1RPMVBZNHN5b2ljVWlJQTh3UlpUV1M2RGpyektSVlNoODc0d1NhME9jQ0RaY1NQSjFKWi1KMXI5MU95LWV0c0o2Vl9mVGhOby1jcXM1SkhNYlQ3LUg1WHlRaEdFc3ZNXzBKSEwxSzRBQWJGaTlXMjBJSUNwV2dySkVQdm5SZzkzdnRQcGtjTnhPekh1VlhzdnpMR2NDdTNzSE5KMXhGRVM4NDZLM3UtOXlpbjdkLUlaWmdFb0hzN29DMHNJeFJmNHpkRHJQd25yc184ZlBHOFFienM5WTVXMGNMTE5DSi1hUkdWamcyeVF2cG9MVVpOMWlZOUlHZw?oc=5",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6afac32e9c6b3-scaled-1920x1080.jpg?x=1751&y=1477&ver=1.1.64",
+              "url": "https://www.vogue.co.kr/2026/11/16/%EC%98%AC%EA%B2%A8%EC%9A%B8-%EC%98%B7-%EC%9E%98-%EC%9E%85%EB%8A%94-%EC%85%80%EB%9F%BD%EB%93%A4%EC%9D%80-%EC%BB%AC%EB%9F%AC-%EC%8A%A4%EC%B9%B4%ED%94%84%EB%A5%BC-%EB%91%90%EB%A6%85%EB%8B%88/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "CJ올리브영, K-색조 육성 본격화…홍대 첫 특화 매장 오픈",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100507",
+          "original_title": "CJ올리브영, K-색조 육성 본격화…홍대 첫 특화 매장 오픈",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "CJ올리브영, K-색조 육성 본격화…홍대 첫 특화 매장 오픈",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100507",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100507_72433_4617_v150.jpg"
+            },
+            {
+              "name": "주간한국",
+              "title": "CJ올리브영, 홍대에 색조 특화 매장 연다…K뷰티 영역 확장",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GS2RyTjVMWFowbVUyU3Q4Q2hKUTRDU1FzZGxoOFRQY29rMWEtdEVJeFVPM1ZtUk1aanVSdm1iQlJjZXg1eVotX3BiT0tuaTNwVjI5TWRJeC1ERnBVM3poQnY4ZTNidExQbjN5RkVrVE5fOHNW0gF0QVVfeXFMTkZLZHJONUxYWjBtVTJTdDhDaEpRNENTUXNkbGg4VFBjb2sxYS10RUl4VU8zVm1STVpqdVJ2bWJCUmNleDV5Wi1fcGJPS25pM3BWMjlNZEl4LURGcFUzemhCdjhlM2J0TFBuM3lGRWtUTl84c1Y?oc=5",
+              "url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7194269"
+            },
+            {
+              "name": "스마트경제",
+              "title": "CJ올리브영, 홍대에 첫 색조 특화 매장…K-뷰티 성장축 확대",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04a21RZzE2VHpfVXFFWmdiRDlENmhYUEZyWFBLN0NoZEdMVk9OVjhXX01OZWFYMXJrbVRGT0JNZzZtbXNSTTQ1Wi1FMkVPT3d2WGx2NFYzYkRqYW10Z2JlRnJfbEZCNDBkOUVrejFUelQ?oc=5",
+              "image": "https://cdn.dailysmart.co.kr/news/photo/202611/132645_131930_730.jpg",
+              "url": "https://www.dailysmart.co.kr/news/articleView.html?idxno=132645"
+            },
+            {
+              "name": "재경일보",
+              "title": "올리브영, 홍대에 색조 전문 매장 첫선…K뷰티 새 성장축 겨냥 : 기업·산업",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0Q1daUmhYcFoxSkhPMXFHWjNHNnI3REUwb3NBajl2UV9QcDlWWG11TWFRTnllcFh6QUl1T1RDTUhlbFhhaXpidU9ZRQ?oc=5",
+              "image": "https://images.jkn.co.kr/data/images/full/111/79/1117920.jpg?v=1794878087&width=1200&height=630",
+              "url": "https://news.jkn.co.kr/post/1100629"
+            },
+            {
+              "name": "뉴스1",
+              "title": "CJ올리브영, K-색조 육성한다…'컬러 그라운드 홍대' 오픈",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSXpUWHdjTE1fYXBMWDM4RWVoSFRhRWJUV3FIQ0t4aVJWZDNFTWRzQjd5cEFwS1ZXV1lTTFBoWkhUdUpCZURpM3pFVDZKUzJka0NpaENveXJmV1ZWM21r?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6356341"
+            }
+          ]
+        },
+        {
+          "headline": "화장품협회, 대한화장품협회 80년사 발간",
+          "summary": "",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100498",
+          "original_title": "화장품협회, 대한화장품협회 80년사 발간",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "화장품협회, 대한화장품협회 80년사 발간",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100498",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100498_72424_574_v150.jpg"
+            },
+            {
+              "name": "THE K BEAUTY SCIENCE",
+              "title": "대한화장품협회, K-뷰티 80년사 발간",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaWkFIWjk1eFl6aTNLX3UzdUxDZlBkZk1wb3QycXVTSHBhaDU4NWE4TzFiZWtQQmh6TzZzdjR4QWVzQ0c5djVqdGtJX3VLdkFFQkxkcFJXMjBCejMwVndnRUZnRGpMQzFGOXc?oc=5",
+              "image": "https://cdn.thekbs.co.kr/news/photo/202611/15351_23572_1451.png",
+              "url": "https://www.thekbs.co.kr/news/articleView.html?idxno=15351"
+            },
+            {
+              "name": "코스인코리아닷컴",
+              "title": "대한화장품협회, K-뷰티 80년 성장사 집대성한 ‘화장품 산업 80년사’ 발간",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96UDdDNVVYLUVjNzJhcUdtOWJ6S0NGVktvYjhhY3dwWDBZRF9SNTBvVmZPM2N3SDJCZVNLd0J1ZXgtc1JjMUtjcmJNc3hKMDh2Q2JsWDRkVUMzMDNYRmhaQVFPVQ?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261147/art_1794823894456_9d96ef.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58745"
+            },
+            {
+              "name": "보건신문",
+              "title": "화장품협회, 창립 80주년 맞아 'K-뷰티 80년사' 발간",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05WTZ0SWxfbng5OHQ2dFB3V19odXh1TzE3Y0VmN0I3SXc2dkd1TkU4Q0dmZEpDdFNBUWthcV9vWGhVdkRqZXdWcFU3cmZTbDRKQWgwZnFFQmdXS1dUbDFhb3ktbw?oc=5",
+              "url": "http://www.bokuennews.com/news/article.html?no=287251"
+            },
+            {
+              "name": "뷰티누리",
+              "title": "화장품신문 (Beautynury.com) :: 대한화장품협회, K-뷰티 80년 역사 한 권에",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CT0FkV3ZwQW5zSzdVZEdXUHFmZnVDR3JUVUQyenFWRWdLZTZXbThYYjNxdWd1VkRvaUl2eVU1WkZOUUlIS05wc2N4S2dwYnVjeUhaaTJheU5oMlpwd1NB?oc=5",
+              "url": "https://www.beautynury.com/news/view/112621/cat/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "수면무호흡증, 당뇨병 위험 1.5배 높여",
+          "summary": "코골이 심할 경우 수면무호흡증이 발생하면 당뇨병 위험이 1.5배 증가한다.",
+          "source": "뉴스탭",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91b3A2UFNaRXREM21hc0lUYkRZRXh5eTB4UV95VHc3NmtMaE1zMzNOVFdNcXV2cDZ4clJub0RITTN1V2gzbEVpUnJtSDRJcDNaSW5pbC1fVHNiekFkeGVNX0xwc00wRTY5em1GQg?oc=5",
+          "original_title": "잠잘 때 코골이 심하다면 주의…수면무호흡증, 당뇨병 발생 위험 1.5배 높인다",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴스탭",
+              "title": "잠잘 때 코골이 심하다면 주의…수면무호흡증, 당뇨병 발생 위험 1.5배 높인다",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91b3A2UFNaRXREM21hc0lUYkRZRXh5eTB4UV95VHc3NmtMaE1zMzNOVFdNcXV2cDZ4clJub0RITTN1V2gzbEVpUnJtSDRJcDNaSW5pbC1fVHNiekFkeGVNX0xwc00wRTY5em1GQg?oc=5",
+              "image": "https://cdn.newstap.co.kr/news/photo/202611/337948_448976_5844.jpg",
+              "url": "https://www.newstap.co.kr/news/articleView.html?idxno=337948"
+            }
+          ]
+        },
+        {
+          "headline": "균형 잡힌 식단, 남성 당뇨 위험 44%↓ 여성 27%↓",
+          "summary": "음식 골고루 먹은 결과 남성은 당뇨병 위험이 44%↓, 여성은 27%↓로 감소했다.",
+          "source": "경북도민일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Vb045Zkh5MHBIeVR3c2M3bE5tckZmQlBSV2c5eDBKSmx0N0FmN1R5V2pPYlVxZlRnX3FCYjB6UDhBNWRwTUhZYU1Ja0E0TGNncWFWUVFwX0hLbnpTamFfTG9UQzRTVG5lelE?oc=5",
+          "original_title": "음식 골고루 먹었더니… 당뇨병 위험 남 44%·여 27%↓",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경북도민일보",
+              "title": "음식 골고루 먹었더니… 당뇨병 위험 남 44%·여 27%↓",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Vb045Zkh5MHBIeVR3c2M3bE5tckZmQlBSV2c5eDBKSmx0N0FmN1R5V2pPYlVxZlRnX3FCYjB6UDhBNWRwTUhZYU1Ja0E0TGNncWFWUVFwX0hLbnpTamFfTG9UQzRTVG5lelE?oc=5",
+              "url": "https://www.hidomin.com/news/articleView.html?idxno=729671"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이재명 대통령, 한·아세안 정상회의에서 협력 교범 제시",
+          "summary": "이재명 대통령은 16일 필리핀 마닐라에서 열린 한·아세안 정상회의에서 김대중·주룽지·오부치와 같은 한중일 협력 모델을 배워야 한다고 발언했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849551",
+          "original_title": "이 대통령 \"김대중·주룽지·오부치 한중일 협력, 따라 배워야 할 교범\"",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령 \"김대중·주룽지·오부치 한중일 협력, 따라 배워야 할 교범\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849551",
+              "image": "https://img.sbs.co.kr/newimg/news/20261117/202241653_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령 “김대중·주룽지·오부치 협력, 복합 위기 시대의 교범”…아세안+3 정상회의 참석",
+              "link": "https://www.khan.co.kr/article/202611171025001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/17/news-p.v1.20261117.37a9351cdfcf45ffbc8db938926c1d1d_P1.jpeg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령 \"김대중·주룽지·오부치 한중일 협력, 배워야할 교범\"",
+              "link": "https://www.yna.co.kr/view/AKR20261117035900001",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111708320001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "이스라엘군, 팔레스타인 주민 사진 350만장 아마존에 올렸다…얼굴인식용",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261117_0003871268",
+          "original_title": "이스라엘군, 팔레스타인 주민 사진 350만장 아마존에 올렸다…얼굴인식용",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "이스라엘군, 팔레스타인 주민 사진 350만장 아마존에 올렸다…얼굴인식용",
+              "link": "https://www.newsis.com/view/NISX20261117_0003871268",
+              "image": "https://img1.newsis.com/2023/12/15/NISI20231215_0000719458_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"이스라엘, 아마존 AI에 팔레스타인 이주민 사진 350만장 올려\"",
+              "link": "https://www.yna.co.kr/view/AKR20261117057200009",
+              "image": "https://img5.yna.co.kr/photo/ap/2025/02/12/PAP20250212032001009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "KT알파 쇼핑, 방송 화면 개편 및 AI 실시간 정보 서비스 도입",
+          "summary": "KT알파 쇼핑이 방송 화면을 개편하고 AI 실시간 정보 서비스를 도입했다.",
+          "source": "전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PaDFTNnpFZC1Qd1l2YllRTTZzMTZzczhFQnFfMEt5bjJDcWVYQXpoX3VDRnlVYUc1ZEVfVUQ2TVB5VFNJakthcFZSYUkyZw?oc=5",
+          "original_title": "KT알파 쇼핑, 방송 화면 개편…AI 실시간 정보 서비스 도입",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "전자신문",
+              "title": "KT알파 쇼핑, 방송 화면 개편…AI 실시간 정보 서비스 도입",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PaDFTNnpFZC1Qd1l2YllRTTZzMTZzczhFQnFfMEt5bjJDcWVYQXpoX3VDRnlVYUc1ZEVfVUQ2TVB5VFNJakthcFZSYUkyZw?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/17/news-p.v1.20261117.2404c9b8a97547e5b753f4b3b29da339_P1.png",
+              "url": "https://www.etnews.com/20261117000104"
+            },
+            {
+              "name": "이뉴스투데이",
+              "title": "KT알파 쇼핑, 방송 비주얼 전면 개편···AI 상품정보 서비스 도입",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53Njk3d1pyUWgyX01Lbm5oSmhIQUZUNjVxaE9ucXBiSURBZzQzU1czUGJpSTY0RXpKRHdiRDRSbS1FYXhZaDdoZ0hBYzB6a3FYWml6YVBmOXctWmx2MUpiSW40OVF1ZlJHYlg5RlFfMm3SAXRBVV95cUxPcndHNzM3YnB4OXIwNnpzaWVNNTRTcDhma19XZG5tM3k0aVRVZ0lTQU45VGZpSDVTMlVabWswTzJLUTBwWldlZ2hGN2tKeUZrTW5Ud3MxalJXUlpiaVk2N2FrSmt1YmdWd29UU1oxZUtpbnptdg?oc=5",
+              "image": "https://cdn.enewstoday.co.kr/news/thumbnail/202611/2493314_1340465_051_v150.jpg",
+              "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2493314"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "KT알파 쇼핑, 방송 화면 개편…AI 실시간 정보 서비스 도입",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5UDFBNy01SUJUcW1GbGJ2bXgycTktWWVHZ01LVEkyMzZOcnpwTTcteFpCZmxpMkdLdDZvakMxSmpNVWNLb1BPcGhJanluV2JCVXBUdDU4SnctbEHSAWBBVV95cUxNOHBVVnVZTm5fSWYzdnVDd3VZVy1aSW95Z3NoZENESEl3REYyRDhvbGpjOWdkeEs0R1JyUkVyekRJYWJJMGo1M0tmeVY3SlRIckVhc3ZlbG0tTHBTbFZXdnQ?oc=5",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/17/AKR20261117024600030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261117024600030"
+            },
+            {
+              "name": "뉴스1",
+              "title": "KT알파 쇼핑, 방송화면·AI 서비스 전면 개편…쇼핑 경험 강화",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtXzBqS3Y0SGRpdXFOeWZydEdJWVVjZVB0VFB5MFJPVllsRVluVlNYM19nV2JJbXRQZE5WWnM3UlpjTTJQd2xWYkVZNS0yV0dPd3FfSE9ZVF9Kclk4LXRN?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6356176"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "KT알파 쇼핑, 화면 개편하고 AI 서비스 도입",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hRXlyb1FDTDJjamxDR1hWWER3aWpXQkw3UVp1dDlMWUxuXzViOTdNMEtlVUlQaFFEcTAyNHNvNEIwaUZLU3V5emZUelF2UG1yekxWMjdSd2tDWnpH?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/17/2611170819538750_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261117000073"
+            }
+          ]
+        },
+        {
+          "headline": "카카오, AI 공통 약관 도입으로 기능 선택권 강화",
+          "summary": "카카오는 AI 서비스에 공통 이용약관을 도입하고 사용자가 원하는 기능만 선택할 수 있도록 했다.",
+          "source": "매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfZnFVSHYyQkU1TGJoQkU2TnJ4bnE0UGhqYzZoRVV5S2c0akZ1WEFuTHgtTkVROW5MWDFzSXkyNk1pZUp6dUlOc25qYy04RFZFcG9xLVEzd18zLXpkaWtPeVdTWmY?oc=5",
+          "original_title": "카카오, AI 공통 약관 첫 도입…원하는 기능만 선택",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "매일일보",
+              "title": "카카오, AI 공통 약관 첫 도입…원하는 기능만 선택",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfZnFVSHYyQkU1TGJoQkU2TnJ4bnE0UGhqYzZoRVV5S2c0akZ1WEFuTHgtTkVROW5MWDFzSXkyNk1pZUp6dUlOc25qYy04RFZFcG9xLVEzd18zLXpkaWtPeVdTWmY?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2019311_2019949_1143.png",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2019311"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "카카오, AI 서비스 첫 공통 약관… 원하는 기능만 골라 쓴다",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPelBKNWtyN0dXLTZCcS1pSnNpYVlOOFRGNWtobUYyaXhYLVlWTW9wRUhvNjV1d1UyRHFIemFmT2VXaS02Yy05MndWRklCWm9TVWJocDVRbTNjQzE4dHI1WEFKMzlxRWVIbnVZQlVMU0s1UGlPWUxJd3NIWmEybVptSmJn0gGWAUFVX3lxTFBEMlM1d3RnMVRIVUJoa01ZZjZnVVRLZWdvQVVRYk04LVV2WTZ5Q1ZVV1hGMG05bzRsWXJWQllkV0lpMFhFbXpIYjdnOGlyZGdJaG9Oc0ZrY1JTNzBZRnpOcnk3a2ZOa01vZy13SmF0eU15WmRYQnVTN1R3bThsSUN3ZG1RX2ZoUzNiNjNheW9LVnR2ak5jZw?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/4N2ZV2NNONGW5BFCN3SFS3WBFU.png?auth=1790731f3f3009ff1de07cc8ba44328cfb7ac24ee71840a4beb9e288e03a1380&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/it-science/ict/2026/11/16/YKGTW42IBRFV5DSXKAEI4LQH5A/"
+            },
+            {
+              "name": "중앙이코노미뉴스",
+              "title": "카카오, AI 서비스 공통 이용약관 첫 도입…'카나나' 기능별 선택권 강화",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02b3JyTl8xVTluaFhXNlBfRHc2QllCdTRLU1JVQm5PM01RU2M4TXZEUEM4eXlFX3E0MDFlYjFsYVdnWTNIdFViOGx4MmNFcUREVE5tWkRSbks1WGFVdi1LWHEtOVJMQXlCUG1pMHN5Wjl1UQ?oc=5",
+              "image": "https://cdn.joongangenews.com/news/photo/202611/564185_371888_1845.png",
+              "url": "https://www.joongangenews.com/news/articleView.html?idxno=564185"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "카카오, AI 서비스 공통 약관 첫 마련…내달 16일 시행",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCWU9zbzdQQ2tUZndHa09UTzE5ZWRldlNXLTR5N3NnT0RmZXFYTzJRVUtaVUMtWDhpN3F2Rm10bkJjMUNHN1pHaGV4a3FDa3BFdEFiQzEyem5NVWvSAWBBVV95cUxNb29DcXNlaWt0UHkzYXRwNGhtbVNhdEVvdzM5dXljb21CSUU4eE84T3ZfMTdfTlk2YlppMTU4cEowVUctYkJwU2VZM0NHRTZpYzFuMHVRZ2ZocGVWMlpwTU8?oc=5",
+              "image": "https://img1.yna.co.kr/photo/cms/2023/12/21/23/PCM20231221000323017_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261116111500017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "유네스코 사무총장, 앙코르와트 보수 현장 방문",
+          "summary": "유네스코 사무총장이 앙코르와트 보수·정비 현장을 방문해 한국 협력 사업에 감사를 표했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261117085600005",
+          "original_title": "유네스코 사무총장, 앙코르와트 보수 현장 방문…\"韓 협력 감사\"",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "유네스코 사무총장, 앙코르와트 보수 현장 방문…\"韓 협력 감사\"",
+              "link": "https://www.yna.co.kr/view/AKR20261117085600005",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/17/AKR20261117085600005_01_i_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "유네스코 사무총장 \"앙코르와트 보수, 한국 협력 감사\"",
+              "link": "https://www.newsis.com/view/NISX20261117_0003870943",
+              "image": "https://img1.newsis.com/2026/11/17/NISI20261117_0002293840_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "양의지 두산과 2년 55억 계약 체결",
+          "summary": "두산 베어스 베테랑 포수 양의지가 2027년 자유계약선수 시장에 첫 계약 선수가 됐다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261117055251007",
+          "original_title": "'FA 1호 계약' 양의지, 두산 잔류…2년 최대 55억원(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "'FA 1호 계약' 양의지, 두산 잔류…2년 최대 55억원(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261117055251007",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/17/AKR20261117055251007_02_i_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "양의지, 두산 잔류…2년 최대 55억 원",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849289",
+              "image": "https://img.sbs.co.kr/newimg/news/20261117/202241619_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'옵트아웃 대신 FA' 양의지, 기존 42억원 넘어 두산과 2년 최대 55억원 계약",
+              "link": "https://www.newsis.com/view/NISX20261117_0003870957",
+              "image": "https://img1.newsis.com/2026/11/17/NISI20261117_0002293886_web.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "양의지, 2년 55억원에 두산 안방 지킨다… FA 시장 첫날 오태곤도 SSG 잔류",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ0RNMXh0blpybmVuN3VKM09tRzFaRkZRenlGWHROM3hFVGZyTFdNOExwUmtPLUJQUVhpYm1BMk5NNHlVTDdmNkRkNktfQ0hXc1N1dmlmUmtZN2dtUzdIZHhWYzRabEhuN0pCTzlHcHFPZzY2d1pNSENnTkY3Z25maW5scw?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/EPMC6T6DZJFS5HKVGGYTUBXV6Y.jpg?auth=4ae5b81ffb67857f67fcbffa41372b972d4b5408c4a553f65aa5819e75f46ce1&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/sports/baseball/2026/11/17/KOM5YCFB5ZHIVBO3QD6DQJDXGM/"
+            }
+          ]
+        },
+        {
+          "headline": "오태곤 SSG와 3년 11억 계약 체결",
+          "summary": "SSG 랜더스의 오태곤이 자유계약선수로 3년 11억 원 계약을 맺었다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849292",
+          "original_title": "오태곤, SSG와 FA 계약…3년 최대 11억 원",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "오태곤, SSG와 FA 계약…3년 최대 11억 원",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849292",
+              "image": "https://img.sbs.co.kr/newimg/news/20261117/202241621_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "오태곤, 원소속팀 SSG와 3년 11억 원에 FA 계약",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XdU9kRVEtNHdfNjhjNHFhRk9mN3FkODRsVzJISmtYOGo1THlXd1Fxb3ItbzJMakFGYURwNlE1SjB3OENLajdmWXk3YkRwNEItdlR4LVdNRWhCU0VMVVF6NndiaFhHVDBUQ2U2TV9ob0JxNE11NVHSAXZBVV95cUxNQUx3Wk94b0YweEpVZWVVU1d4SEdrMDRVYkJkeHVtUVJVallPTTQ1WXJLUWQybE5QdUZkNUlicU5wV2VHMmZPRWhpRWhnNXJvREIwTW1RYkFya0FUZHNhWkZOazVfU2xjYjRzajBvc2VTazdoNERn?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/sports/article/__icsFiles/afieldfile/2026/11/17/jh_20261117_14.jpg",
+              "url": "https://imnews.imbc.com/news/2026/sports/article/6866222_36946.html"
+            },
+            {
+              "name": "뉴시스",
+              "title": "FA 오태곤, SSG와 동행 이어간다…3년 총액 11억원 계약",
+              "link": "https://www.newsis.com/view/NISX20261117_0003871026",
+              "image": "https://img1.newsis.com/2026/11/17/NISI20261117_0002293928_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "오태곤, 원소속팀 SSG와 3년 11억원에 FA 계약",
+              "link": "https://www.yna.co.kr/view/AKR20261117055600007",
+              "image": "https://img5.yna.co.kr/etc/inner/KR/2026/11/17/AKR20261117055600007_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "완전 편한데, 거의 모든 신발과 어울리는 만능 바지",
+    "tagline": "ELLE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": null,
+    "articles": [
+      {
+        "title": "완전 편한데, 거의 모든 신발과 어울리는 만능 바지",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1913118",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/11/17/ddec5261-ec59-42d8-a984-84af680b5e5b.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "너 자신을 알라.",
+    "author": "델포이 신전의 격언",
+    "work": ""
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "작은 손에 큰 기회가 쥐다"
+      },
+      {
+        "animal": "소",
+        "text": "소의 힘으로 오늘은 대반전"
+      },
+      {
+        "animal": "호랑이",
+        "text": "호랑이처럼 날카롭게 목표를 맞추다"
+      },
+      {
+        "animal": "토끼",
+        "text": "토끼보다 가볍게 오늘을 뛰어넘다"
+      },
+      {
+        "animal": "용",
+        "text": "용이 되어 불꽃 같은 열정을 담다"
+      },
+      {
+        "animal": "뱀",
+        "text": "뱀처럼 유연하게 상황을 파고들다"
+      },
+      {
+        "animal": "말",
+        "text": "말처럼 빠르게 목표를 향해 달린다"
+      },
+      {
+        "animal": "양",
+        "text": "양의 부드러움으로 사람을 사로잡다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "원숭이처럼 재치 있게 문제를 해결하다"
+      },
+      {
+        "animal": "닭",
+        "text": "닭의 깃발을 들고 새벽을 맞이하다"
+      },
+      {
+        "animal": "개",
+        "text": "개처럼 충성스럽게 목표를 지키다"
+      },
+      {
+        "animal": "돼지",
+        "text": "돼지처럼 풍성한 행운을 끌어당기다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
