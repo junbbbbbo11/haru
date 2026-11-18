@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-18",
+  "weekday": "수요일",
+  "vol": 37,
+  "generated_at": "2026-11-18T11:17:46+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4991.03,
+      "change": -109.47,
+      "change_pct": -2.15,
+      "direction": "down",
+      "display": "4,991.03",
+      "change_display": "▼ 2.15%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1328.8,
+      "change": -6.9,
+      "change_pct": -0.52,
+      "direction": "down",
+      "display": "1,328.8원",
+      "change_display": "▼ 0.52%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 87150000.0,
+      "change": -1191000.0,
+      "change_pct": -1.35,
+      "direction": "down",
+      "display": "8,715만원",
+      "change_display": "▼ 1.35%"
+    }
+  ],
+  "weather": null,
+  "cover_stories": [
+    {
+      "kicker": "음료",
+      "headline": "컴포즈커피, 겨울 '옐로우 홀리데이' 음료 4종 출시",
+      "summary": "컴포즈커피가 겨울을 맞아 '옐로우 홀리데이' 음료 4종을 출시했다. 4가지 색상과 맛을 제공한다.",
+      "source": "뉴스1",
+      "link": "https://www.news1.kr/industry/distribution/6356182",
+      "original_title": "컴포즈커피, 겨울 맞아 '옐로우 홀리데이' 음료 4종 출시",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "title": "컴포즈커피, 겨울 맞아 '옐로우 홀리데이' 음료 4종 출시",
+          "link": "https://www.news1.kr/industry/distribution/6356182"
+        }
+      ]
+    },
+    {
+      "kicker": "연예",
+      "headline": "티파니, 변요한 팔짱 끼고 브이",
+      "summary": "티파니와 변요한이 시상식에서 팔짱을 끼고 브이 사인을 나누며 부부의 애정을 보여주었다. 두 사람은 공개적으로 서로를 지지한다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261117_0003871619",
+      "original_title": "'신혼' 티파니, 변요한 팔짱 끼고 브이…듬직한 남편",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "'신혼' 티파니, 변요한 팔짱 끼고 브이…듬직한 남편",
+          "link": "https://www.newsis.com/view/NISX20261117_0003871619",
+          "image": "https://img1.newsis.com/2026/11/17/NISI20261117_0002294384_web.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "교육",
+      "headline": "제물포고, 70년째 무감독 시험 진행",
+      "summary": "인천 제물포고는 70년째 교사 없이 무감독으로 시험을 진행해 왔다. AI 부정행위가 우려되는 가운데 논란이 지속된다.",
+      "source": "세계일보",
+      "link": "https://www.segye.com/newsView/20261117511075",
+      "original_title": "‘AI 부정행위 비상’ 70년째 교사 없이 무감독 시험 치르는 인천 제물포고",
+      "sources": [
+        {
+          "name": "세계일보",
+          "title": "‘AI 부정행위 비상’ 70년째 교사 없이 무감독 시험 치르는 인천 제물포고",
+          "link": "https://www.segye.com/newsView/20261117511075",
+          "image": "https://www.segye.com/content/image/2026/11/17/20261117511182.jpg"
+        },
+        {
+          "name": "경기일보",
+          "title": "시험 부정행위 논란 속…인천 제물포고 70년째 무감독 시험",
+          "link": "https://www.kyeonggi.com/article/20261117580319",
+          "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/17/.cache/512/20261117580320.jpg"
+        },
+        {
+          "name": "미주중앙일보",
+          "title": "AI 부정행위 비상 속…70년째 ‘무감독 시험’ 실천한 고교 눈길",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFNm5VazE2TzFhOGdiSU1nZk5MRlh1TjVKQWs1RkRuN2dEQXFSNnRRR3ZTUUwyb05RYlNSYWNoVkxtZWJJZ0VEQ1BiUWlia3dkdTAzX1kwbzFUUVBWR3JNNGtR?oc=5",
+          "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/11/18/0373900d-5f71-4c02-aeab-c24c9c8166c4.jpg",
+          "url": "https://www.koreadaily.com/article/20261117070602302"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "엔비디아, 3분기 매출 155조원·예상 초과",
+          "summary": "엔비디아가 3분기 매출 155조원으로 시장 예상치를 상회했다. 이는 젠슨 황 사임 이후 최초의 실적 발표이다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261118_0003872352",
+          "original_title": "젠슨 황 없는 엔비디아, 매출 155조원 '예상치 상회'(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "젠슨 황 없는 엔비디아, 매출 155조원 '예상치 상회'(종합)",
+              "link": "https://www.newsis.com/view/NISX20261118_0003872352",
+              "image": "https://img1.newsis.com/2026/11/13/NISI20261113_0002290835_web.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "젠슨 황 없는 엔비디아 3분기 매출 155조 원‥임시 CEO \"로드맵 순조\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95V19kQi1rN016X0RwTnpMN2pseEdLMXREcHNtakVDQUZuZ3pESmlTVTc1TWduNjBGRHp4cE1PQl9nenk2SmdFQjRKdkhQRzEwU2tSWDVobjhBY0xXXzkxUDZzU2Y3MnZ1NGpSZVFsVWZQYkNN0gF0QVVfeXFMTm9Bb0E3ODFOOUs0RC1aa3dRUkJqWlNSU3gyazl2VXctVi0xdFZvREdvLXlzWnBQdFZWZ2J2dFoyX2FKUTMwZDk4OXQ1N2lzWnlVMTkwbmIydFFyWFE0eVV3TmFtb1owMnNMY01mQ3h2TjJfTVE?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/18/jh_20261118_3.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6866482_36925.html"
+            }
+          ]
+        },
+        {
+          "headline": "IMF, 한국 성장률 3.9% 전망 상향",
+          "summary": "국제통화기금이 한국의 올해 성장률 전망치를 3.9%로 상향 조정했다. 이는 반도체 호조와 AI 수출 호황을 반영한 것이다.",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12211127",
+          "original_title": "[속보] IMF, 올해 한국 성장률 3.9% 전망…반도체 호조에 한달새 0.6%p↑",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "[속보] IMF, 올해 한국 성장률 3.9% 전망…반도체 호조에 한달새 0.6%p↑",
+              "link": "https://www.mk.co.kr/news/economy/12211127",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/17/news-p.v1.20261117.6e73515dd58c41c79cb7aed045857d0b_R.png"
+            },
+            {
+              "name": "YTN",
+              "title": "속보 IMF, 올해 한국 성장률 전망 3.9%로 상향...한 달 만에 0.6%p 높여",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtU3ZFNTdBa3ZBVlRVZ3E3TkNPTzhRU2prZ1M5Mk8wbEw2RmRrZDcwZXFrdlRaa21TMVh4SFdhOVpUYVBXZmQ0N2I5X2Uzam1YVjMzMHBmSUMxcXNUNmc?oc=5",
+              "image": "https://image.ytn.co.kr/general/jpg/2026/1117/202611171400277400_t.jpg",
+              "url": "https://www.ytn.co.kr/_ln/0102_202611171400277400"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "효성티앤씨, ‘리젠 바이오’로 유럽 공략",
+          "summary": "",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=150236",
+          "original_title": "효성티앤씨, ‘리젠 바이오’로 유럽 공략",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "효성티앤씨, ‘리젠 바이오’로 유럽 공략",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=150236",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150236_133676_4347_v150.jpg"
+            },
+            {
+              "name": "어패럴뉴스",
+              "title": "효성티앤씨, '리젠 바이오'로 유럽 바이오 섬유 시장 공략 나선다",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94Vzl3cTF1ZnE2UmNlMVlFbmhReTlTV2hKYlZJNXV4YldpT1F3UGkwbUZfTl9FNEJrdmhXSmx3aWZLZU0tc1I2S28xTGRJQnhFbnVtX1lmemo5YlNnc1J0UUJrcFMtTVYzV3dvNk0yckRmOHlxZUow?oc=5",
+              "url": "http://m.apparelnews.co.kr/news/news_view_amp/?idx=229062?cat=CAT141"
+            },
+            {
+              "name": "중앙이코노미뉴스",
+              "title": "효성티앤씨, 바이오 스판덱스 '리젠 바이오'로 유럽 공략...베트남 일관 생산체제 앞세워",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kdUVLSHhKaGFCZnBiY3ppU3NvREVtaF9BWUtxcW1yaW5mbWlDRm5IS09fcmJnOEFYUEJtN0UtY25wRjVBVUxuUUl3cVhVTnRnUUJDLVVKc3p0NXFWSjhWdGlIQ1ZFZnR5M01LVVlGWXVldw?oc=5",
+              "image": "https://cdn.joongangenews.com/news/photo/202611/564423_372159_1331.jpg",
+              "url": "https://www.joongangenews.com/news/articleView.html?idxno=564423"
+            },
+            {
+              "name": "오피니언뉴스",
+              "title": "효성티앤씨, '바이오 섬유' 앞세워 글로벌 패션 중심 유럽시장 선점 속도",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkVDVBbkwzRVBqMXBLOWY3dVNDRkNNd2plNzNBUm5xTEp6VlYwNW9NZXFPemZiNDdrME1RdzdvSU1RSjR4UERlT1F3VTIwNHpjQUJMZDdEb0dZbjZwTVVvbktNaWwyZ0VnbGtpOFhselpYQQ?oc=5",
+              "image": "https://www.opinionnews.co.kr/news/thumbnail/202611/147159_108807_293_v150.jpg",
+              "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=147159"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "이마트·노브랜드, 1만원 미만 기능성 화장품 확대",
+          "summary": "",
+          "source": "신아일보",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mU29YNVJ0NVZCZVZlWGM3eDAzeGtvZjhXdUtrdzIwak1ESmxTSmI2Y2FMYVRCcjc3eUNkcmI4ZmlNNWZVNGVKbUpKQ0I5SFBKV0NBZU1QdjhzYXgwcjExamcwZ3p4MzVWUUJsc2ZZTTk?oc=5",
+          "original_title": "이마트·노브랜드, 1만원 미만 기능성 화장품 확대",
+          "coverage": 14,
+          "sources": [
+            {
+              "name": "신아일보",
+              "title": "이마트·노브랜드, 1만원 미만 기능성 화장품 확대",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mU29YNVJ0NVZCZVZlWGM3eDAzeGtvZjhXdUtrdzIwak1ESmxTSmI2Y2FMYVRCcjc3eUNkcmI4ZmlNNWZVNGVKbUpKQ0I5SFBKV0NBZU1QdjhzYXgwcjExamcwZ3p4MzVWUUJsc2ZZTTk?oc=5",
+              "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5084682_2082149_5611.jpg",
+              "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5084682"
+            },
+            {
+              "name": "스마트경제",
+              "title": "이마트·노브랜드, 초저가 넘어 기능성 화장품까지…뷰티 시장 공략 가속화",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tQWcxTHQ3dll5MXJJamFhRFk0Z0F4a2IwSi1JZ3FVSmVSVnBFMi12c1hrbl9wMlBrM0E0dmFLYURaa05xb3lZdFVtUUI2SFJMNWdXclFfcGxBWEdEaGlRcWQxUlhyYXhKRUt0dkhTak8?oc=5",
+              "image": "https://cdn.dailysmart.co.kr/news/photo/202611/132715_131999_3317.jpg",
+              "url": "https://www.dailysmart.co.kr/news/articleView.html?idxno=132715"
+            },
+            {
+              "name": "헤럴드경제",
+              "title": "“더마 화장품이 9000원대”…이마트·노브랜드, 초저가 뷰티 공략",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMaXQtSV93MlZBdjdmQ2hQVEE1V2dPM1pXeWpPV3FiZ1lic1RSWFhleGJKbS1VUkpCWEVlYUl0RHNWM0Y0OGdUVWdrVnA1WS1pcFgybDln?oc=5",
+              "image": "https://wimg.heraldcorp.com/news/cms/2026/11/18/news-p.v1.20261118.ad4d1429792741d7bbc77370653e8bc7_P1.jpg",
+              "url": "https://biz.heraldcorp.com/article/10940597"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "노브랜드, 9980원 더마 화장품으로 기능성 뷰티시장 공략",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCTzJZN3dDbHpGQ2x0bnE2dWd2Z1FXSDF5U0FQWjd6bFlvY0ZWRjBhWEhlX2JncW9JWUN4TUt2dEl4bVcwaWt4ZFFndnRBNzMzcUtQRzdsQVlKNzhRZThvZWRzZElNZw?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202611/782619_1195163_2629_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=782619"
+            },
+            {
+              "name": "더퍼블릭",
+              "title": "이마트·노브랜드, 초저가 넘어 기능성 뷰티로…화장품 라인업 확대",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Rb0EtX1VQVW93NEs3Q1BnTWJqNHdGOWpReWNaNXYwVFNSNDVEcWY0Y2ExZnZTMldhYVFRQjE4LU95RG1Gb0JKbXJ6QnFLMVNreUFKbVlHLTNudTdxWjhrYjlHU2xTUjcyWFZuNjdzRdIBb0FVX3lxTE5Rb0EtX1VQVW93NEs3Q1BnTWJqNHdGOWpReWNaNXYwVFNSNDVEcWY0Y2ExZnZTMldhYVFRQjE4LU95RG1Gb0JKbXJ6QnFLMVNreUFKbVlHLTNudTdxWjhrYjlHU2xTUjcyWFZuNjdzRQ?oc=5",
+              "url": "https://www.thepublic.kr/news/articleViewAmp.html?idxno=327182"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "SK인텔릭스, AI 웰니스 로봇 국무총리 표창",
+          "summary": "SK인텔릭스가 개발한 AI 웰니스 로봇이 안전관리 성과를 인정받아 국무총리 표창을 수상했다.",
+          "source": "매일일보",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uZkxYdmd4TkhsZm1RaUM0Vzc2UGlFVi1wc2xfNl85aDhTWTZNOFpoT0YtN010SGlYaEZjNE03ZGNJWWU3WlB3dG9JRVBvalRXWVRYcl82ejZhcHpCZHYyX2RLZ0s?oc=5",
+          "original_title": "SK인텔릭스, AI 웰니스 로봇 안전관리 성과… 국무총리 표창",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "매일일보",
+              "title": "SK인텔릭스, AI 웰니스 로봇 안전관리 성과… 국무총리 표창",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uZkxYdmd4TkhsZm1RaUM0Vzc2UGlFVi1wc2xfNl85aDhTWTZNOFpoT0YtN010SGlYaEZjNE03ZGNJWWU3WlB3dG9JRVBvalRXWVRYcl82ejZhcHpCZHYyX2RLZ0s?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2020004_2020699_1344.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2020004"
+            },
+            {
+              "name": "데일리안",
+              "title": "SK인텔릭스, 웰니스 로봇 안전관리 성과 인정…국무총리 표창",
+              "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQMzdEckV5RXRsWHlqUGxFNmFCcGk4YWtKdE93MGxNbEZmT2JUVnNNMTlHRFhfZDNaM29UVHNIcVpremNPZEk4Z09nX25qdzRJam9sbkoxSTN3NExrdkg2ekQ3WWxtOXdoWmxjbzRiUzZwZkotWm53cXQ1ZndsTEl6aFFBRllqcFVfVEpOR0JoVnBBWnpUZ05IYV8zOWxManFxX2VtSnF0RnF3UDZnekZHNTE3OVJ1VHNxWEctbVkwc1V4d3FLdUtybVlPbnMxY2JLRVhnUmVVTGpDMjB1ekVITkgxQ093c3lsOVdOOHk0U1RTZjlMM2JMZlVSbWxVSGh4Z3FzMGJDVjdpVEh5Y1E?oc=5",
+              "image": "https://cdnimage.dailian.co.kr/news/202611/news_1794962168874_1716492_m_1.jpg",
+              "url": "https://www.dailian.co.kr/news/view/1716492/SK%EC%9D%B8%ED%85%94%EB%A6%AD%EC%8A%A4-%EC%9B%B0%EB%8B%88%EC%8A%A4-%EB%A1%9C%EB%B4%87-%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC-%EC%84%B1-2026"
+            },
+            {
+              "name": "아주경제",
+              "title": "SK인텔릭스, AI 웰니스 로봇 나무엑스 안전성 확보…국무총리 표창",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ySmZjY015VnZ2c1l0VE9SbUZLVFR3S3VhWUJZX01IX29DcXBCUXhUMHdKUzBTME5HMEdfalh5RXZwX0tReDk5TlB1THBCNEYzb0R5aHNhZUXSAVhBVV95cUxPckpmY2NNeVZ2dnNZdFRPUm1GS1RUd0t1YVlCWV9NSF9vQ3FwQlF4VDB3SlMwUzBORzBHX2pYeUV2cF9LUXg5OU5QdUxwQjRGM29EeWhzYWVF?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/11/18/20261118091318989425.jpg",
+              "url": "https://www.ajunews.com/amp/20261118090731112"
+            },
+            {
+              "name": "일요경제",
+              "title": "SK인텔릭스, AI 웰니스 로봇 안전관리 체계 인정…국무총리 표창",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHRjJTOF9FblEtV0t5ZTRZWUVhb2l5S3BmYm40a3EyMEx3VkdSV250ZTFIZDU2QXRsWDgzcS0xOERQMU5pZXZ6c1NuMVZRNWFzR1FkNnNuVHRuVE8wY3VqZFRfSUhzLVN4MzFkeG9n?oc=5",
+              "image": "https://cdn.ilyoeconomy.com/news/thumbnail/202611/77330_72744_3335_v150.jpg",
+              "url": "https://www.ilyoeconomy.com/news/articleView.html?idxno=77330"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이재명, 3번째 한중 정상회담 개최",
+          "summary": "이재명 대통령은 1월 5일 베이징 인민대회당에서 시진핑 주석과 한중 MOU를 체결했다. 두 정상은 악수하며 협력 방안을 논의했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008851393",
+          "original_title": "이 대통령, 오늘 한중정상회담…시진핑과 3번째 만남",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 오늘 한중정상회담…시진핑과 3번째 만남",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008851393",
+              "image": "https://img.sbs.co.kr/newimg/news/20261118/202242011_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "이 대통령, 오늘 한중 정상회담…한반도 평화·안정 협력 논의",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GS0pwWFlRSTJaMGlnaWdlbEM2LU0xTU16UXRqZ2pPSTNfYmFEX0NnQTdZWTQ3U25rb0t3WlFUMHkwWTd4dFc5LVVqblJreldTd05IMVRFcXRVVENaTGFrM3VLWjZ2RVk?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261118/AKR20261118092806Fy6_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261118092806Fy6"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령, 오늘 한중정상회담…시진핑과 세 번째 대좌",
+              "link": "https://www.yna.co.kr/view/AKR20261118045700001",
+              "image": "https://img2.yna.co.kr/photo/yna/YH/2026/01/05/PYH2026010518660001300_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령, 오늘 시진핑 주석과 한·중 정상회담…한반도 평화 등 의견 교환",
+              "link": "https://www.khan.co.kr/article/202611180915001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/18/news-p.v1.20261118.fe5c146a38544eb0a5e3738b1ba1385a_P1.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "러시아, 우크라이나 나토 가입 거부 재확인",
+          "summary": "러시아 외무차관은 우크라이나의 나토 가입을 수용하지 않겠다고 재확인했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261118_0003872539",
+          "original_title": "러 \"우크라 나토 가입 수용 불가\"…美 중재안 사실상 거부",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "러 \"우크라 나토 가입 수용 불가\"…美 중재안 사실상 거부",
+              "link": "https://www.newsis.com/view/NISX20261118_0003872539",
+              "image": "https://img1.newsis.com/2023/03/29/NISI20230329_0000082386_web.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "러 \"우크라 나토 가입 수용 안 할 것\"‥미 제안 사실상 거부",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YNmM3V2d5TUVhSVZzbDRVNzVKRVVtaTFocFJsSmtsdWdKaGMzd0lvU0RIY0xQMTdIajZBNmEzcGVkaHFsSXhpLVdiNDUzOGVueml1Mm1pQWVRcFhNSDFPcm5uR3VNZGQxdmFtbExkYWRYMHhi0gF0QVVfeXFMTVA0V0tTa1BuaTQ0UlM5OXNLTGZKbXVYTWtFWGR3NmR2Tll2ZHAwTkNVX1RDVTRGSmFYTU9LZWJWWXNiRUUyWGxldlVDZUtPbHUxc0J2YzRTRmptaTVpUW14ZEc2cGdqVXRaWHNCY2lGZ3V1bkQ?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/17/hm_20261117_20.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6866380_36925.html"
+            }
+          ]
+        },
+        {
+          "headline": "미국, 호르무즈 섬 공습",
+          "summary": "미국이 호르무즈 해협에 있는 섬을 공습해 혁명수비대 미사일 발사시설을 타격했다.",
+          "source": "동아일보",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wTHpISGxPMy1iZmoxRDd1bU5ZRkptYTUzUzNndHZBWUI5SVdXdjkxOXhYejR2YnE2aHBLM3FoOEQ4cTB4RkhjeGUzWG1qTlRTZTMxdlBQaDZiaFd1azI5UVQ0aFdabXJHSE9Ta0ZHS3JXd1nSAWZBVV95cUxPbllGU1ZLMTVsd3FlOGVCWUloNm5CVlBwMFpnNU40ekQ4VG5hZ1UyMDVCR1cxV3I0TzEyUXJ4Nlg4WTIyb0tEUDZmd3M5Q0k4d1pVNWtmbW8zS2d6LW12aW1nclVIRlE?oc=5",
+          "original_title": "美, 호르무즈 케슘섬 또 공습…“혁명수비대 미사일 발사시설 타격”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "美, 호르무즈 케슘섬 또 공습…“혁명수비대 미사일 발사시설 타격”",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wTHpISGxPMy1iZmoxRDd1bU5ZRkptYTUzUzNndHZBWUI5SVdXdjkxOXhYejR2YnE2aHBLM3FoOEQ4cTB4RkhjeGUzWG1qTlRTZTMxdlBQaDZiaFd1azI5UVQ0aFdabXJHSE9Ta0ZHS3JXd1nSAWZBVV95cUxPbllGU1ZLMTVsd3FlOGVCWUloNm5CVlBwMFpnNU40ekQ4VG5hZ1UyMDVCR1cxV3I0TzEyUXJ4Nlg4WTIyb0tEUDZmd3M5Q0k4d1pVNWtmbW8zS2d6LW12aW1nclVIRlE?oc=5",
+              "url": "https://www.donga.com/news/Inter/article/all/20261118/135043364/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "신한카드, AI로 소상공인 지원",
+          "summary": "신한카드가 카드 소비 데이터를 활용해 소상공인에게 AI 상권 분석 서비스를 제공, 경영 지원을 돕는다. 이 서비스는 상권 현황 파악과 매출 예측에 활용된다.",
+          "source": "한국면세뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QT0lJRXVmSmRlTkpRV3NWTWhza3FXTGhtcjdGNk01eWFkMlRNdWdIdzAzYkx6ZFZUQzNYd1VYTnYwcEdRd1UtVDJEZVMwQndqeEI2Y1NMeXl0SzBFRVFZSHZ0TlY0anQwZ1E?oc=5",
+          "original_title": "신한카드, 카드 소비 데이터로 소상공인 돕는다…AI 상권 분석 협력",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "한국면세뉴스",
+              "title": "신한카드, 카드 소비 데이터로 소상공인 돕는다…AI 상권 분석 협력",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QT0lJRXVmSmRlTkpRV3NWTWhza3FXTGhtcjdGNk01eWFkMlRNdWdIdzAzYkx6ZFZUQzNYd1VYTnYwcEdRd1UtVDJEZVMwQndqeEI2Y1NMeXl0SzBFRVFZSHZ0TlY0anQwZ1E?oc=5",
+              "image": "https://www.kdfnews.com/news/thumbnail/202611/191077_244702_2242_v150.jpg",
+              "url": "https://www.kdfnews.com/news/articleView.html?idxno=191077"
+            },
+            {
+              "name": "프라임경제",
+              "title": "[카드] 신한카드, 소상공인 경영 지원…AI 서비스 협력",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wOFkzckQzQUpxaWI5ZnFoSFZkcklYMWVETEhCaTBNcU5iRUd2djFDemo1aWgtMG1nc2lmTUt6Z0pxMkVzM1hiWV9vQTg3R1pZQkY1Z3N1SFdiQmRfek1QSA?oc=5",
+              "image": "https://www.newsprime.co.kr/data/photos/cdn/20261147/art_755424_1794963048.jpg",
+              "url": "https://www.newsprime.co.kr/news/article/?no=755424"
+            },
+            {
+              "name": "전자신문",
+              "title": "신한카드, AI 서비스로 소상공인 경영 지원…소진공·KCB와 맞손",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IVmhIMWFtUFc2ZEpfQU1KeURDYlNMYnhiTXhRLTBjc3BMb1ZBT3VVTEZOMkZWNkluNFBQdWhGMXZUc3JFTHgxTmpqYnlFQQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/18/news-p.v1.20261118.9184178381f742eda3b6cf5bb6fd5885_P1.jpg",
+              "url": "https://www.etnews.com/20261118000091"
+            },
+            {
+              "name": "충남일보",
+              "title": "소진공-신한카드-KCB, '소상공인 AI 경영지원 서비스 확대 업무협약' 체결",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVcXlJTzZydktTT0NqSDhNRjgtSHdEbVZjNVdGU1JOZmQwSGpMUERWcDJabFJTQ284SFlieWVrZHZOZ1BmcVRYd1dhSExYQXNoeExBcV91ZElHbV9pSDd1cFptUGJmVGRhNkhXWG04cHBhbVU?oc=5",
+              "image": "https://cdn.chungnamilbo.co.kr/news/thumbnail/202611/921401_499435_2843_v150.jpg",
+              "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=921401"
+            },
+            {
+              "name": "기호일보",
+              "title": "소진공, 소상공인 위한 AI 기반 경영지원 서비스 확대 나서",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zVlBkUWJ3VUF4WDh2bjh2dTRLOFB4dGx0YnFUTVFvOHhEdElIek5jZnF1Z040RGFmUHlUS01JdjVzSWwxLVQ2U2RFMkJ6SGo1T3RSRGxab1BQWXcwcUQ0eHQzMHFKbWFKOFRPeFJpdw?oc=5",
+              "image": "https://cdn.kihoilbo.co.kr/news/photo/202611/3041289_586053_1211.jpg",
+              "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041289"
+            }
+          ]
+        },
+        {
+          "headline": "부산 북구, AI 대형폐기물 배출 시범",
+          "summary": "부산 북구가 AI 기반 대형폐기물 배출 서비스 ‘가져가’를 시범 운영한다. 이 서비스는 대형 폐기물 배출을 효율적으로 관리하고 배출 경로를 최적화한다.",
+          "source": "대한경제",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUlM4SXR3M0JyOEpwVDRKcG9xX0p5bmd4SU1RUmhZQllnaTQ4eFg3TEVWOU5ScTQ4YjN6MDktcDdrTFlUckJhb3pFS3NlVWxFSWFHMnN3Q01BU3pJU0V0cFBxSS1FRDdyTDNqRW1tNXptWmM?oc=5",
+          "original_title": "부산 북구, AI 기반 대형폐기물 배출 서비스 시범 운영",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "대한경제",
+              "title": "부산 북구, AI 기반 대형폐기물 배출 서비스 시범 운영",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUlM4SXR3M0JyOEpwVDRKcG9xX0p5bmd4SU1RUmhZQllnaTQ4eFg3TEVWOU5ScTQ4YjN6MDktcDdrTFlUckJhb3pFS3NlVWxFSWFHMnN3Q01BU3pJU0V0cFBxSS1FRDdyTDNqRW1tNXptWmM?oc=5",
+              "image": "https://image.dnews.co.kr/photo/photo/2026/11/17/202611172139382540526-2-706449.jpg",
+              "url": "https://m.dnews.co.kr/m_home/view.jsp?idxno=202611172139382540526"
+            },
+            {
+              "name": "국제뉴스",
+              "title": "부산 북구, AI 대형폐기물 배출 서비스 '가져가' 시범 운영",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVeEU5QmpfdFotTFRQdmdhNUl2M0RWeDlTV2FDbGl5VTMwQ0hUSjd0d25zWS0tSjVmeW83NGtnZDM3c0EyT1pxWmMzam81cEZOLUo4azYzXzctZldkNjlpQXlUbGhERTREbG93Y3JB?oc=5",
+              "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3754912_3937576_195_v150.jpg",
+              "url": "https://www.gukjenews.com/news/articleView.html?idxno=3754912"
+            },
+            {
+              "name": "중부뉴스통신",
+              "title": "부산 북구, 부산 최초 인공지능(AI) 기반 대형폐기물 배출 ‘가져가’ 서비스 시범 운영",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iTGktS29SX3F1QWYweHNiM3c4ODFoaDQ1WlVGcjhBQkxSa0tGbEhXQnFOUl9jZGJic091dWQwWmRsSzdxa0dPOTRqY3JYSEpzalhaYnVpejVDazc2REJiRUhVbGtpcnlOV3RsNFRtYw?oc=5",
+              "image": "https://cdn.jungbunews.com/news/photo/202611/2805773_2808575_4345.jpg",
+              "url": "https://www.jungbunews.com/news/articleView.html?idxno=2805773"
+            },
+            {
+              "name": "브릿지경제",
+              "title": "부산 북구, AI로 대형폐기물 배출 간소화… 12월부터 ‘가져가’ 시범 운영",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zLW1BWmUxcXByVllUeW1NT2pFNkczYUdCMk55Qi1aeDR4NmQ1T0wweXAyNTNkYXZHVW1Ia3hfakJBWkwtYXBoT3ZpbHVLdFdRb3h0TFRmQUNsdw?oc=5",
+              "image": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/11/17/.cache/512/20261117501145.jpg?v=20261118113509",
+              "url": "https://www.viva100.com/article/20261117501154"
+            },
+            {
+              "name": "더뉴스코리아",
+              "title": "부산 북구, 부산 최초 인공지능(AI) 기반 대형폐기물 배출 ‘가져가’ 서비스 시범 운영",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PSzhycmJGRTJnbEc1cGNDUEQ0clk2cVRqcWtkQTh1NFBLLVN5aEh3c3B4bWxSQ3E1TW8tTGV4d0tvVG9VTjZKRmV0X3lHeFNvY2V4VjFVYV9WbDVFVU1nZjE0alpoVzRsb2dHcTVtWFdkckk?oc=5",
+              "image": "https://www.newskorea21.com/data/newskorea21_com/mainimages/202611/20261117170820-75100.jpg",
+              "url": "https://www.newskorea21.com/sub_read.html?uid=2384847&section=sc1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "임영웅 영화 ‘아임 히어로 더 스타디움 2’, 오늘(18일) 개봉…증정 특전 수령 방법?",
+          "summary": "",
+          "source": "톱스타뉴스",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nV2w1S2NzT1Z1VGlTNkVNRkpjc0pOMlZoZ21RT0FXWlVJR24xWTk0bk9iUGhJc3Z4b0x3VHF0OTRJd2MtOEdMcE9WZ2pzU2dWZ3lwalJnLVNabTB5YVVJTUZBSFpRcEVpX0p4Q1hLV2g3UQ?oc=5",
+          "original_title": "임영웅 영화 ‘아임 히어로 더 스타디움 2’, 오늘(18일) 개봉…증정 특전 수령 방법?",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "톱스타뉴스",
+              "title": "임영웅 영화 ‘아임 히어로 더 스타디움 2’, 오늘(18일) 개봉…증정 특전 수령 방법?",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nV2w1S2NzT1Z1VGlTNkVNRkpjc0pOMlZoZ21RT0FXWlVJR24xWTk0bk9iUGhJc3Z4b0x3VHF0OTRJd2MtOEdMcE9WZ2pzU2dWZ3lwalJnLVNabTB5YVVJTUZBSFpRcEVpX0p4Q1hLV2g3UQ?oc=5",
+              "image": "https://cdn.topstarnews.net/news/photo/202611/16279648_2092057_059_crop.jpg",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16279648"
+            },
+            {
+              "name": "스포츠경향",
+              "title": "‘임영웅 영화’ 오늘 개봉, 관람 포인트 셋",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsajk4NmhJYnR6S05qYWRHZ2M3R2VzT2otaTVZMmoweDJDaDhDR0daWmJqYXFvVE4tZWxuWHl4VzJodUFZY3BreFc3c05CdFMwNzVpLXgxMVdtRXlXZDJXTF9VTdIBY0FVX3lxTFBsajk4NmhJYnR6S05qYWRHZ2M3R2VzT2otaTVZMmoweDJDaDhDR0daWmJqYXFvVE4tZWxuWHl4VzJodUFZY3BreFc3c05CdFMwNzVpLXgxMVdtRXlXZDJXTF9VTQ?oc=5",
+              "image": "https://images.khan.co.kr/article/2026/11/18/news-p.v1.20261118.b177e26ab2d9418a969ec6d2b9e6b0b2_P1.png",
+              "url": "https://sports.khan.co.kr/article/202611180829003/amp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "브라질 꺾었던 일본, 모리야스 고별전은 패배",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850787",
+          "original_title": "브라질 꺾었던 일본, 모리야스 고별전은 패배",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "브라질 꺾었던 일본, 모리야스 고별전은 패배",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850787",
+              "image": "https://img.sbs.co.kr/newimg/news/20261118/202241921_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "브라질도 꺾은 일본, '모리야스 고별전'서 파라과이에 1-2 패배",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtMGQzMGstSlRzZE5vODdUNUFWRDVlV2Q2dC1lZ0h1MlhHTVoxR3lKSDBzNzFYdVFiaFZVOHlxeVNoRkQ1cWc3X0twXzJFMEJTTVVFMFBiZmVEZ1XSAWBBVV95cUxPNElHYnVzLS14eEI5cVZIV01OV3RrSDdoUThJMjhlTldOR1VYUFBnNG92Qk5MZEN4b3FFd25tUldVdHpidXRjTThlTm43OGxQN1FhbkRNQ3FUbjBweExtWHI?oc=5",
+              "image": "https://img8.yna.co.kr/photo/etc/epa/2026/11/18/PEP20261118016301009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261118004400007"
+            },
+            {
+              "name": "뉴시스",
+              "title": "브라질 잡았던 일본, '모리야스 고별전'서 파라과이에 덜미",
+              "link": "https://www.newsis.com/view/NISX20261118_0003872309",
+              "image": "https://img1.newsis.com/2026/11/18/NISI20261118_0001757822_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "'강호' 멕시코 몰아붙인 김은중호, 0대0 무승부…공격 활발했지만 결정력 '아쉬움'",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850610",
+          "original_title": "'강호' 멕시코 몰아붙인 김은중호, 0대0 무승부…공격 활발했지만 결정력 '아쉬움'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'강호' 멕시코 몰아붙인 김은중호, 0대0 무승부…공격 활발했지만 결정력 '아쉬움'",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850610",
+              "image": "https://img.sbs.co.kr/newimg/news/20261117/202241887_1280.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "김은중호, '강호' 멕시코와 평가전 무승부",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QdDViMG9RU2NrajE2U3o1a3ZRWlQ4WC1tOFFpZ3diMndZQXVyaU5pbVFZR2lqTXhRbGZGV2Z4bl9ncm5qNlJZdmxfclJreWxUTm1JbE5iX0N6X1lMemc?oc=5",
+              "url": "https://www.ytn.co.kr/_ln/0107_202611172137432275"
+            },
+            {
+              "name": "뉴시스",
+              "title": "김은중호, 평가전서 강호 멕시코와 0-0 무승부",
+              "link": "https://www.newsis.com/view/NISX20261117_0003872220",
+              "image": "https://img1.newsis.com/2026/11/17/NISI20261117_0021536113_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "이맘때 손이 잘 가는 옷은 휘뚜루마뚜루 입기 좋아야 해요",
+    "tagline": "W Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": null,
+    "articles": [
+      {
+        "title": "이맘때 손이 잘 가는 옷은 휘뚜루마뚜루 입기 좋아야 해요",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/18/%ec%9d%b4%eb%a7%98%eb%95%8c-%ec%86%90%ec%9d%b4-%ec%9e%98-%ea%b0%80%eb%8a%94-%ec%98%b7%ec%9d%80-%ed%9c%98%eb%9a%9c%eb%a3%a8%eb%a7%88%eb%9a%9c%eb%a3%a8-%ec%9e%85%ea%b8%b0-%ec%a2%8b%ec%95%84%ec%95%bc/",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6afc0e3c9d4e7-scaled-1920x1080.jpg?x=1920&y=1271&ver=1.2.09",
+        "url": "https://www.wkorea.com/2026/11/18/%EC%9D%B4%EB%A7%98%EB%95%8C-%EC%86%90%EC%9D%B4-%EC%9E%98-%EA%B0%80%EB%8A%94-%EC%98%B7%EC%9D%80-%ED%9C%98%EB%9A%9C%EB%A3%A8%EB%A7%88%EB%9A%9C%EB%A3%A8-%EC%9E%85%EA%B8%B0-%EC%A2%8B%EC%95%84%EC%95%BC/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "인생은 짧고 예술은 길다.",
+    "author": "히포크라테스",
+    "work": "잠언"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 도약한다"
+      },
+      {
+        "animal": "소",
+        "text": "소중한 인연이 풍성해진다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 열매를 맺는다"
+      },
+      {
+        "animal": "토끼",
+        "text": "행복이 꼬리에 걸려 온다"
+      },
+      {
+        "animal": "용",
+        "text": "감성이 폭발하며 빛난다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜가 길을 비추어준다"
+      },
+      {
+        "animal": "말",
+        "text": "새로운 길이 열려 있다"
+      },
+      {
+        "animal": "양",
+        "text": "조화로운 분위기가 흐른다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 피어오른다"
+      },
+      {
+        "animal": "닭",
+        "text": "새벽이 밝아오며 기운이 솟는다"
+      },
+      {
+        "animal": "개",
+        "text": "충성심이 빛을 발한다"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍요가 가득해 온다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
