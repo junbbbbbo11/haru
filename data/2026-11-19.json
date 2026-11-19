@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-19",
+  "weekday": "목요일",
+  "vol": 38,
+  "generated_at": "2026-11-19T10:48:32+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5001.57,
+      "change": 33.09,
+      "change_pct": 0.67,
+      "direction": "up",
+      "display": "5,001.57",
+      "change_display": "▲ 0.67%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1331.7,
+      "change": -1.3,
+      "change_pct": -0.1,
+      "direction": "down",
+      "display": "1,331.7원",
+      "change_display": "▼ 0.10%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 85206000.0,
+      "change": -614000.0,
+      "change_pct": -0.72,
+      "direction": "down",
+      "display": "8,521만원",
+      "change_display": "▼ 0.72%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 5,
+    "t_min": -1,
+    "rain_pct": 0,
+    "sky": "대체로 맑음",
+    "display": "서울 -1~5°C · 대체로 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "넷플릭스",
+      "headline": "넷플릭스 피지컬 시즌2 제작 확정",
+      "summary": "넷플릭스가 피지컬: 아시아 시즌2를 2027년 공개한다. 제작이 확정돼 내년 시청자들을 기다린다.",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/hot-issues/12213293",
+      "original_title": "‘피지컬: 아시아’ 시즌2 제작 확정…2027년 더 강력하게 돌아온다",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "‘피지컬: 아시아’ 시즌2 제작 확정…2027년 더 강력하게 돌아온다",
+          "link": "https://www.mk.co.kr/news/hot-issues/12213293",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/19/news-p.v1.20261119.3330baa4ef95481fb373424cd75db650_R.png"
+        },
+        {
+          "name": "싱글리스트",
+          "title": "'피지컬: 아시아' 시즌2, 내년 공개 확정…장호기 PD \"완전히 다른 세계 설계\"",
+          "link": "https://www.slist.kr/news/articleView.html?idxno=783061",
+          "image": "https://cdn.slist.kr/news/thumbnail/202611/783061_1195728_59_v150.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "수능",
+      "headline": "수능일 주식시장 개장 1시간 늦춤",
+      "summary": "수능일 주식시장은 오전10시 개장해 1시간 늦춰진다. 증시 개장·마감이 지연된다.",
+      "source": "한강타임즈",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VM2Rfbnc0d2FTTWppZjhXNmhya19XOXFRempidE5QbXNPaFgtUDdyTXRQb0Z6eGczNFNUelV3UXZQUVJBdkhwbzdGbFZyd2JYTjZtZHlRTUhreXFiMklFMXBnOW1UZ1FrSUUw?oc=5",
+      "original_title": "수능일 주식시장 개장·마감 1시간 늦춰..오전 10시 시작",
+      "sources": [
+        {
+          "name": "한강타임즈",
+          "title": "수능일 주식시장 개장·마감 1시간 늦춰..오전 10시 시작",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VM2Rfbnc0d2FTTWppZjhXNmhya19XOXFRempidE5QbXNPaFgtUDdyTXRQb0Z6eGczNFNUelV3UXZQUVJBdkhwbzdGbFZyd2JYTjZtZHlRTUhreXFiMklFMXBnOW1UZ1FrSUUw?oc=5",
+          "image": "https://cdn.hg-times.com/news/photo/202611/307151_307883_2947.jpg",
+          "url": "https://www.hg-times.com/news/articleView.html?idxno=307151"
+        }
+      ]
+    },
+    {
+      "kicker": "이혼",
+      "headline": "이혼 악플에 류필립 미나와 투샷 공개",
+      "summary": "류필립이 악플에 이혼을 잘했다며 미나와 투샷을 공개했다. 소셜 미디어에서 논란이 일었다.",
+      "source": "매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qQ21kYWpIWWZBMWVfOU9kUkl2WGRzc0U4U2ZZRTVxS0dsQVJvZWFlZHp5Zmd1aHFtOHctaDdJX3BNOEhOeVRXRTUzUER1bmM2bGQyZzlwd1A?oc=5",
+      "original_title": "“이혼 잘했다” 악플에…류필립 귀국 후 미나와 투샷 공개",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "“이혼 잘했다” 악플에…류필립 귀국 후 미나와 투샷 공개",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qQ21kYWpIWWZBMWVfOU9kUkl2WGRzc0U4U2ZZRTVxS0dsQVJvZWFlZHp5Zmd1aHFtOHctaDdJX3BNOEhOeVRXRTUzUER1bmM2bGQyZzlwd1A?oc=5",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/19/news-p.v1.20261119.03dc1abb799e4f26a167687bd01ecf48_R.png",
+          "url": "https://www.mk.co.kr/news/hot-issues/12213258"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "앤트로픽 공모가 83달러…스페이스X 제치고 역대 최대 IPO(종합2보)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261119010052091",
+          "original_title": "앤트로픽 공모가 83달러…스페이스X 제치고 역대 최대 IPO(종합2보)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "앤트로픽 공모가 83달러…스페이스X 제치고 역대 최대 IPO(종합2보)",
+              "link": "https://www.yna.co.kr/view/AKR20261119010052091",
+              "image": "https://img9.yna.co.kr/photo/reuters/2026/11/19/PRU20261119036101009_P4.jpg"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "앤트로픽 공모가 83달러 확정…스페이스X 제치고 역대 최대 IPO 전망",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSU50bXRPS0lHVW5rUTY5NXpWVm1CWGVCTURfYVdPSmxoZlNhTEZDU25fWFFWamtsRzZYUEt4bHE5dDhVUTRadzluaWdfZ1BBNzhmbHdNU2NhNFN2VmV4WjVtekxLMGNUZ2dacDdHZ0c4Y1BIV0FFMkVZc1BmWXNZVmJB0gGWAUFVX3lxTE9PdWg3dmU5eEo2MklPNWh3UXlkQUlvRWVpNFhPay1UMl9jS3pUU3FjVTE0cWJnVEhiR19xMGVDcm8yVGpZMGxNOTBoS05JcXJjX1ItVElxcTV4eF9TU2R0RE1ENTlXWW04T181RTVxTGVHcWEwVFhXbjBVY1hmYmt0U0xXYlVuZjRWbTBDbkpweXJvSUJlZw?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/KWS5PQLJIBIPXDQP5N35CGJAXU.jpg?auth=d3feb56f9fcbff1ae68cec282e5556a1be80c22ec6d43864359503e0e980d799&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/it-science/ict/2026/11/19/Y5HYLBC7DREU3LPN7VO76XKZ2U/"
+            },
+            {
+              "name": "뉴시스",
+              "title": "앤트로픽, 공모가 주당 83달러 확정…예상보다 약 10달러 높아",
+              "link": "https://www.newsis.com/view/NISX20261119_0003874142",
+              "image": "https://img1.newsis.com/2026/10/27/NISI20261027_0002275574_web.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "美증시 혼조...엔트로픽 역대 최대 IPO되나 [월가월부]",
+              "link": "https://www.mk.co.kr/news/economy/12213167",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/19/news-p.v1.20261119.3ff35f2882ff440b80cfa874fbc46bd2_R.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "공정위, 투썸플레이스 조사 착수…가맹점에 고가물품 강매 의혹",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261119051700002",
+          "original_title": "공정위, 투썸플레이스 조사 착수…가맹점에 고가물품 강매 의혹",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "공정위, 투썸플레이스 조사 착수…가맹점에 고가물품 강매 의혹",
+              "link": "https://www.yna.co.kr/view/AKR20261119051700002",
+              "image": "https://img2.yna.co.kr/photo/cms/2018/07/07/101/C0A8CAE2000001647434982C0000003F_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "공정위, 투썸플레이스 조사…가맹점에 고가 장비 구매 강제 의혹",
+              "link": "https://www.donga.com/news/Economy/article/all/20261119/135052014/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/19/135052015.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "공정위, 투썸플레이스 조사…가맹점에 고가 장비 구매 강제 의혹",
+              "link": "https://www.newsis.com/view/NISX20261119_0003874361",
+              "image": "https://img1.newsis.com/2026/10/28/NISI20261028_0002276296_web.jpg"
+            },
+            {
+              "name": "뉴스1",
+              "title": "공정위, 투썸플레이스 현장조사…가맹점 물품·장비 구매 강제 의혹",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92bkUyRkxrYmNyeUdsT19maC10U1cwWlFzRlkxcU5EY0tZd1NZU0UtT2x1V1Yta2NJY3loRjN0Ymg2d2xBYTZqU0UxTDJYOVE4Z1VzUA?oc=5",
+              "url": "https://www.news1.kr/economy/trend/6358956"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "동대문 도매상 온라인 수주 38억",
+          "summary": "동대문 도매상들이 온라인 수주기획전에서 38억 원 거래액을 올리고, 라이브커머스로 14억 원 매출을 기록했다.",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=150276",
+          "original_title": "동대문 도매상인, 온라인 수주 38억·라방 매출 14억",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "동대문 도매상인, 온라인 수주 38억·라방 매출 14억",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=150276",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150276_133752_4411_v150.jpg"
+            },
+            {
+              "name": "어패럴뉴스",
+              "title": "서울패션허브, 동대문 도매상인 판로 지원…온라인 B2B 거래 38억 기록",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBES2JnOGNNZ2lOUHlTM2lEQ0NXTm8zaFNaRDBHMWc0Y1dEVEI0dHlkOE4tR3h5NWdHRW41ei1ScDNRVGVBcm0wc2M3cVdKTVNNRTRyVm0yeVRIRUtRZXByUlBMSC05SWo4MlZ2SnBqZ25kQnM?oc=5",
+              "url": "https://m.apparelnews.co.kr/news/news_view/?idx=229082?cat=CAT1A0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "한국콜마, AI로 화장품 피부 안전성 예측…한국화학연과 협업",
+          "summary": "한국콜마는 한국화학연과 협업해 AI로 화장품 피부 안전성을 예측, 제품 개발 기간 단축 및 글로벌 경쟁력 강화 계획이다.",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100522",
+          "original_title": "한국콜마, AI로 화장품 피부 안전성 미리 예측…화학연과 맞손",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "한국콜마, AI로 화장품 피부 안전성 미리 예측…화학연과 맞손",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100522",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100522_72449_5342_v150.jpg"
+            },
+            {
+              "name": "잡포스트",
+              "title": "한국콜마, AI로 화장품 안전성 검증...K뷰티 경쟁력 강화",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rOWxnaTNnMmFBRTJrOUNFQTVFOFJ1QkNHS3NOVlY5a3VvWXJJUHZGTFVpdEtoa1FOOExsUC1tZzVnZXhmM25hdHFyMnZtS0xFYzFsS2hVYzlpd1hiNVNjbTljaVJMSE1DNVUzVnB30gFyQVVfeXFMT3FCTXZCbnBBTHF1RXZUdWppWGk1MjYwLXc3bExuWi1oeUJ3U1ExZlNDUzRlNms1SmxDancydmN6TTNiOE9WS2NLVUdEM1JVWTZlUjdMd3R5VnlXY19CQVNjNXhHWl84RER2VjdReWdZNV9R?oc=5",
+              "image": "https://cdn.job-post.co.kr/news/photo/202611/239372_343764_5431.png",
+              "url": "https://www.job-post.co.kr/news/articleView.html?idxno=239372"
+            },
+            {
+              "name": "이코노미트리뷴",
+              "title": "한국콜마, AI로 화장품 안전성까지 예측…K뷰티 기술 경쟁력 강화",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGcFZZdU5LdzR0OHM5UVRydFBqTUlnLXpodkMxVG5UNTBBeGtsclZRamFPUC05NWJ5c0E3VVg5bTZQU0diSW40Z3d4UTlEZWRXUDRodUFWUFViOHZucmNGdzJ4WWd6Ui1yZjNIa3d2SkhMdHpsenZ3?oc=5",
+              "image": "https://cdn.economytribune.co.kr/news/photo/202611/3904461_7362_3041.jpg",
+              "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904461"
+            },
+            {
+              "name": "오늘경제",
+              "title": "한국콜마, AI로 화장품 피부 안전성 미리 예측…화학연과 맞손",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXU0xkcEY4Q3p3Q3Z5NExWVmpGSnJvdEJoTHM3Rm5sRzhQNG4xX0ZJVlI5aHhkNUplMDEtb0VTY3dWUFpidGNNalRPQzdFYjZVN2hPeUdkbmFFZkhCWlNFZjBjdDJ5bktSZWtSS3lzSjJtZmM?oc=5",
+              "image": "https://cdn.startuptoday.co.kr/news/photo/202611/819299_618239_1130.jpg",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=819299"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "부산시, 7개 웰니스 관광지 신규 지정",
+          "summary": "부산시는 2028년까지 30개 웰니스 관광지를 목표로 7개를 신규 지정했다.",
+          "source": "뉴스타운",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PcF9KaU9GTmMxWm9vSHNpcXZtWThTT0I3dDc4ckNxM2pKMGRBXy00eEZwNmkxS0NpUmprbFQzejNwaU5zeUVtQzJSc0VXMy1oZGVWd25Cb0N2aTRlVWpWSEFTZ2haVHRvcDI2Y3hn?oc=5",
+          "original_title": "부산시, 웰니스 관광지 7곳 새로 선정…2028년 30곳 목표",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "뉴스타운",
+              "title": "부산시, 웰니스 관광지 7곳 새로 선정…2028년 30곳 목표",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PcF9KaU9GTmMxWm9vSHNpcXZtWThTT0I3dDc4ckNxM2pKMGRBXy00eEZwNmkxS0NpUmprbFQzejNwaU5zeUVtQzJSc0VXMy1oZGVWd25Cb0N2aTRlVWpWSEFTZ2haVHRvcDI2Y3hn?oc=5",
+              "image": "https://www.newstown.co.kr/news/thumbnail/202611/722503_678914_3757_v150.jpg",
+              "url": "https://www.newstown.co.kr/news/articleView.html?idxno=722503"
+            },
+            {
+              "name": "부산일보",
+              "title": "부산시, 웰니스관광지 7곳 신규 지정… 2028년까지 30곳 지정해 치유관광 도시로",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kT3M2YkFyRGQwbW1xOVRBQVhzRzd1dUFGWGNfOUJBMFloX2tqN1VNS0FhZGVoUDBRZGFQVWdwTVZOQmY3T3hxaE9lc0xmR0djUnc3V25XdGJyMS11clB1UEtndXZNakR6QWwwT0h2aFVJM19x?oc=5",
+              "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/09/22/2026092214121171805_l.jpg",
+              "url": "https://www.busan.com/view/busan/view.php?code=2026111909435989322"
+            },
+            {
+              "name": "국제뉴스",
+              "title": "부산 웰니스 관광지 7곳 추가…\"글로벌 치유관광 도시 도약 속도\"",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UdGxNc184aUozOEpCY2R1M08tc1hSVXpjOFN1LW9mc3NtbTBvTl9OOGUxRVNDcVFGcUV3VlVUZnpsT1lwRnNVa1JaTXlKWktfOHRWOXVJZUZNNWkwQ3hQRVdsVV84YnQ5aEV4bkVn?oc=5",
+              "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3756500_3939528_4314_v150.jpg",
+              "url": "https://www.gukjenews.com/news/articleView.html?idxno=3756500"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "부산시, 웰니스 관광지 7곳 신규 지정…2028년까지 30곳 목표",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1NC1TWDlUTjhtZTlNSTZGWE83UWlKUGNlMTBmbWxtNFJlNjhwcDA1R1EydVBPbU9DUEZSNi1oY3hNX2FZeW1vVTdBakxlY1pqVmlKVTRkMGZlWVFW?oc=5",
+              "image": "https://img.newspim.com/news/2023/07/13/2307130719539320_t1.jpg",
+              "url": "https://www.newspim.com/news/view/20261119000113"
+            },
+            {
+              "name": "더경남뉴스",
+              "title": "부산시, 2026년 신규 웰니스 관광지 7곳 선정···총 24곳으로 치유 관광 기반 확대",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sQkg5MVdYb3l1WWdUYU5KZFlqNEExRzNqWHFsVVhHS2VIVTZwZnhka0VBOEJvLTlfb1ZYS0YzZWIwM25BOFJFaDZfQ0xRdXV2RnlPUg?oc=5",
+              "image": "https://cdn.coenworks.com/Files/273/News/202611/4628_20261119091112036.jpg",
+              "url": "https://thegnnews.com/View.aspx?No=4319754"
+            }
+          ]
+        },
+        {
+          "headline": "29CM, 홈·리빙 구매자 절반이 패션 재구매",
+          "summary": "무신사 플랫폼 29CM는 홈·리빙 제품을 구매한 고객 중 절반이 패션 제품을 재구매했다.",
+          "source": "로이슈",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fM1hubEV5UExhZE5EZk1KSTFtRkZqM1dDQXZNS0pDNk04MHhPbWpDdjdvR3c3SG1nR1lFeTU2TDAydHdVcTh4YmJ4OHJqVXJEY3dLTEtmTnRVb2NBVnllWC1tQktXZVRxTmRMTVhJWnVqQUxDcTVZUmxn?oc=5",
+          "original_title": "29CM, 홈·리빙 구매 고객 절반 패션 재구매…카테고리 연계 확대",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "로이슈",
+              "title": "29CM, 홈·리빙 구매 고객 절반 패션 재구매…카테고리 연계 확대",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fM1hubEV5UExhZE5EZk1KSTFtRkZqM1dDQXZNS0pDNk04MHhPbWpDdjdvR3c3SG1nR1lFeTU2TDAydHdVcTh4YmJ4OHJqVXJEY3dLTEtmTnRVb2NBVnllWC1tQktXZVRxTmRMTVhJWnVqQUxDcTVZUmxn?oc=5",
+              "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261119103311082240204ead079118023320059.jpg&nmt=12",
+              "url": "https://www.lawissue.co.kr/view.php?ud=202611191032566344204ead0791_12"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "무신사 플랫폼 29CM, 홈·리빙 구매 고객 '두 명 중 한 명' 패션 재구매",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FYkQzRjNtUlM2bWw5OE1HY3BkV0lmTmlCbTdnUHNyOXN1enplSndkNU5nQ2hFRVdEMnNweVJIM3BCaU0xWmNvM2xmdFY1VlhoRXFwbjZXRGl6LUtpcTdEUEdadzJMVFJxdUNGQzlVN2lwUV92?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/photo/202611/301885_403657_2434.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=301885"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "29CM \"홈·리빙 구매자 절반이 패션 재구매\"",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43eGVvbWRMbTBVWGNCNC0zZGUwbC1RSmZKMEh5S0lfbms5ekh3MFlGUW14aGtmNXRyWWFxUlB1a1NtdVNDM0o3ZU8zY3hMd0ZXd3BiMURGeTJsUQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/11/16/202611161014084659_e.jpg",
+              "url": "https://www.fnnews.com/news/202611190841506142"
+            },
+            {
+              "name": "무신사",
+              "title": "29CM, 패션·홈 교차 구매로 카테고리 간 시너지 확대… “이구홈 첫 고객 2명 중 1명이 패션 재구매”",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zUFV6M28waHZxckVRbmpnRWJYQThIdVJLRjlDX084bzFjSmxzSGZTOVpsT1o4ZC0ybHdvemw0TnpHcWZGQ2ZxYXd3WVRpa0tkdWJhb1gtcXktV3FaWlkwTA?oc=5",
+              "image": "https://d3a9ls0n8d3jx7.cloudfront.net/object/images/press-releases/acbf4c97-f5db-4291-b261-2fe5a8b5003e.jpg",
+              "url": "https://corp.musinsa.com/newsroom/press/detail/1769"
+            },
+            {
+              "name": "핀포인트뉴스",
+              "title": "홈 첫 구매 뒤 패션까지…29CM, 재구매 고객 50% 교차 구매",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PMGJBQkdEUG1ULW11cTVBVFh1bkZadWtWdmoxdGZJVXBfX09EYTIzTlVEZHdEcHpJVGFhTlV2ZFF3czBkYWlhbUFrUkZuRHJhckJzcmtWeDA5ZDhnbXZlektTaUV5SUtXQk9uNGlhLUtkZHPSAXdBVV95cUxNaGZ4YVZvN3ROSU83d0ZnZndMM0l2UUVPWk82RVRjZFdDQ2w5enUtUjdMSVJHZzNmMjZ2T0VVWnNxZzJVQWoxdHBwR1UtWWR4U1drajltajd5bVp1bXVrNmFxVlYwWUNmeGJCdFBVMlZEeDZBV2Njdw?oc=5",
+              "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/505681_490486_5822_v150.jpg",
+              "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505681"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "민주당, 민주유공자법 추진",
+          "summary": "지난 6일 국회 본회의에서 민주당이 민주유공자 예우를 위한 법안 통과를 추진했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008853144",
+          "original_title": "민주, 오늘 본회의서 민주유공자법 처리 추진…국힘 필버 예고",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "민주, 오늘 본회의서 민주유공자법 처리 추진…국힘 필버 예고",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008853144",
+              "image": "https://img.sbs.co.kr/newimg/news/20261106/202238682_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "민주당, 오늘 본회의서 민주유공자법 처리 추진…국민의힘 필버 예고",
+              "link": "https://www.khan.co.kr/article/202611190731001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/19/rcv.YNA.20261112.PYH2026111209020000100_P1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "與, 오늘 본회의서 민주유공자법 처리 추진…국힘 필버 예고",
+              "link": "https://www.yna.co.kr/view/AKR20261118169400001",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110614890001300_P4.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "與, 민주유공자법 내일 처리 추진…野 \"필리버스터\"",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUUJaMTNDd2NKcjRWb3VtcXVpeW1kbDQ3MnJUejJkOFhwX0RldWtJUWdZOE5ZVDMtUnBZdXhsNC0wQjdDb1BxbEtyOF9CYUtJMGtsRnVHUXJ2Q0hyd0FQMWk2VXFIWDA4VS1rTGtaaFVtdXlMeXd1NWJtcVVHYlllcjNObTNNUQ?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/GE3DGOLEGFTDINBWMUZDSM3EGA.jpg?auth=1c08984e084931038a9adefb582dcf27ba0b355abd662cc4f671e5bddd40471c&width=1200&height=630&smart=true",
+              "url": "https://www.chosun.com/politics/assembly/2026/11/18/X3QA2VCYDVAIFADGGL75BTBXIE/"
+            }
+          ]
+        },
+        {
+          "headline": "이재명 대통령, 조작기소 특검법 재가",
+          "summary": "이재명 대통령이 순방 중 조작기소 특검법을 재가하고 즉시 시행을 선언했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008853143",
+          "original_title": "이 대통령, 순방 중 '조작기소 특검법' 재가…공포돼 즉시 시행",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 순방 중 '조작기소 특검법' 재가…공포돼 즉시 시행",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008853143",
+              "image": "https://img.sbs.co.kr/newimg/news/20261119/202242368_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령, 순방 중 조작기소 특검법 재가…오늘부터 시행",
+              "link": "https://www.khan.co.kr/article/202611190850001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/19/news-p.v1.20261117.a7ff421c84dc47c3adba75dfb66d485c_P1.jpeg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령, 순방 중 조작기소 특검법 재가…공포돼 즉시 시행",
+              "link": "https://www.yna.co.kr/view/AKR20261119025000001",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/18/PYH2026111821740001300_P4.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "[속보] 이 대통령, ’조작기소 특검법’ 재가…19일자 공포 즉시 시행",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tTC00N29JZW9WblB4dVJnam9SbzU5YjdsZ09iRzVQRW96U2QzZnA3YmNWSTlZQVFBQ091ZW9WTVpfa3JHTGVVRjJOUExzb0kyckpLRy0zZUJXanFsU19hR0Z1Qm9YSGs?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261118/AKR20261119073930ZoJ_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261119073930ZoJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "하킴 제프리스, 미국 최초 흑인 하원의장 후보 확정",
+          "summary": "미국 민주당이 18일 하킴 제프리스를 제120대 하원의장 후보로 지명했다. 하원 과반수 확보와 당내 경선 통과로 미국 최초 흑인 하원의장 등극이 사실이다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261119/135051368/1",
+          "original_title": "美민주당 하킴 제프리스 ‘사상 첫 흑인 하원의장’ 사실상 확정",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "美민주당 하킴 제프리스 ‘사상 첫 흑인 하원의장’ 사실상 확정",
+              "link": "https://www.donga.com/news/Inter/article/all/20261119/135051368/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/19/135051369.1.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "미국 첫 흑인 하원의장 눈앞…민주당, 제프리스 후보로 선출",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xay1HS21kX2F3Q0tXRHpwZllEZUFseEhRUUMxSXZKM1ZjN2FxRFZBc3BQRE9Xd2Y1MHNuZ2c4aHM4aHg2d28xZE8tdFVCVWJqRFJRSWhEZjBzV2MwTUtHdmZxeTdjT29aM084cXdqcw?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/801/imgdb/original/2026/1119/20261119500144.webp",
+              "url": "https://www.hani.co.kr/arti/international/america/1288053.html"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "'첫 흑인 하원의장' 사실상 확정…트럼프 일가 정조준",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852847",
+              "image": "https://img.sbs.co.kr/newimg/news/20261119/202242336_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "하킴 제프리스, 美 첫 흑인 하원의장 눈앞…당내 후보 지명(종합)",
+              "link": "https://www.newsis.com/view/NISX20261119_0003874115",
+              "image": "https://img1.newsis.com/2026/11/19/NISI20261119_0001760643_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "성남시, 시민 편의·안전 높일 27개 스마트도시 서비스 확정",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ncng0dzl0YzZLRTRNUFhUQ1I1aDVUeWFxTEdhSk53M09xTDJ1eWUxOEZGbW1DZTZkekxjc1Z2Y3pHVkU5M3d5Zm1IS0drTnNBYnY5WHY3TlFBYTA?oc=5",
+          "original_title": "성남시, 시민 편의·안전 높일 27개 스마트도시 서비스 확정",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "성남시, 시민 편의·안전 높일 27개 스마트도시 서비스 확정",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ncng0dzl0YzZLRTRNUFhUQ1I1aDVUeWFxTEdhSk53M09xTDJ1eWUxOEZGbW1DZTZkekxjc1Z2Y3pHVkU5M3d5Zm1IS0drTnNBYnY5WHY3TlFBYTA?oc=5",
+              "image": "https://img7.yna.co.kr/etc/inner/PR/2026/11/19/RPR20261119001600353_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/RPR20261119001600353"
+            },
+            {
+              "name": "동행미디어 시대",
+              "title": "성남시, AI 재난 예측 등 27개 스마트도시 서비스 추진",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05Uko4TWg4UUdMQy0zSmhXbnBEYTh6dF9YelEwNE1Vc2JsMlRvTHRzZGpnbnlzUEg5S2JhSVlTZ0pxWGY4S1pUN2cxS253cW14bHhiVE9KU2RtYy1ONVE?oc=5",
+              "image": "https://menu.sidae.com/moneyweek/thumb/2026/11/19/00/2026111908455753050_1.jpg",
+              "url": "https://www.sidae.com/article/2026111908455753050"
+            },
+            {
+              "name": "매일일보",
+              "title": "성남시, 스마트도시계획 승인받아 2030년까지 서비스 27개 추진",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PMlUzQVF2MVotMnV4bXRabXJGRnpVdnJVOUFKRF9RVXdKMXhsWUhpVnZDblRpbFRQaHVHTy03R2thTmxwekdvMlpmbktDR1NjczR0RnhCLUJlY2lPd3hiT05oV24?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2020533_2021254_5531.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2020533"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "폭설 개봉 첫날 박스오피스 1위",
+          "summary": "폭설은 개봉 첫날 박스오피스 1위를 차지했고, 임영웅 콘서트 실황 영화가 2위를 기록했다.",
+          "source": "ER 이코노믹리뷰",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jVFNwTzI4N0w1TXJyblJ5ZFZ1bF9ob2xsYU5wRVFTZ0FmVjVkclFtQlI1R1pmUVhoZ2Q2U2JVUTNnOG9kcFhuUnFmNjF5eFVXa3djX0d6cXRIa1c2TExfekxFaVVzemdSY1NvYw?oc=5",
+          "original_title": "‘폭설’ 개봉 첫날 1위…임영웅 콘서트 실황 영화 2위 출발 [11월 18일 영화 박스오피스]",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "ER 이코노믹리뷰",
+              "title": "‘폭설’ 개봉 첫날 1위…임영웅 콘서트 실황 영화 2위 출발 [11월 18일 영화 박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jVFNwTzI4N0w1TXJyblJ5ZFZ1bF9ob2xsYU5wRVFTZ0FmVjVkclFtQlI1R1pmUVhoZ2Q2U2JVUTNnOG9kcFhuUnFmNjF5eFVXa3djX0d6cXRIa1c2TExfekxFaVVzemdSY1NvYw?oc=5",
+              "image": "https://cdn.econovill.com/news/thumbnail/202611/757796_735712_2253_v150.jpg",
+              "url": "https://www.econovill.com/news/articleView.html?idxno=757796"
+            },
+            {
+              "name": "매일경제",
+              "title": "김윤석·구교환 ‘폭설’, 개봉 첫날 1위…임영웅 2위 출발 [MK박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93VFN4dEFZT09keHk3dWx1Q2pMb2dGVFJ3RUU2Q0xsMGFWTUhCUTRHTWlIYnNIYzRLcm9xVEp3M2pDQ25mb2tmTnZnLTN0MnpWR1NR?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/19/news-p.v1.20261119.73f21f2e906f404d86308c9c9bbe9ff3_R.jpg",
+              "url": "https://www.mk.co.kr/news/movies/12213252"
+            },
+            {
+              "name": "일간스포츠",
+              "title": "김윤석·구교환 ‘폭설’, 개봉 첫날 박스오피스 1위…임영웅·헝거게임 제쳤다 [IS차트]",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KUHllRnFEWFAtRUZ5NkFDQ1VvVTA0U3NrTjZuS01fbkx6SlpKYVNHSmhjbzFHTGU0VWV3TU41YTBaenpReXctRjExX3lmZGRQMmMzS09ZS0xpNklxT2RnVmw0dzNxTHZZ?oc=5",
+              "image": "https://isplus.com/data/isp/image/2026/11/16/isp20261116000101.800x.0.jpg",
+              "url": "http://isplus.live.joins.com/article/view/isp202611190029"
+            },
+            {
+              "name": "이데일리",
+              "title": "김윤석·구교환 '폭설', 개봉 동시 박스오피스 1위…임영웅 영화 2위",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUstWFBEV2k5VWFrTUNvdmh2TmRIWS1EcElrTTQ1dHh1M2RSTmF3WXFiYzhBaWgyMXNkd2lXbERSMmhmdXJBZUl0cmdQRVY4b0tFWjdXendkMzB0SzhFdE8wR0tsNHZ3UE1MVXJNejJmOUZDNGJzTTZrQjBCTXRFOQ?oc=5",
+              "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26111900338.jpg",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=01938486645647360&mediaCodeNo=257"
+            },
+            {
+              "name": "마이데일리",
+              "title": "김윤석·구교환 `폭설` 개봉 첫날 1위…임영웅 2위 [MD박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56SGgzc2FwUFphZk1wSW9iUjRfNVFia0RKOW56Q19iVkNsYVkydl9uM2pYWlE1M3BqSXZLVkVtMDJUd3BfSmRWTTFpNTlZUGZUTnpYLTNfdjQtNEw0NndUelpKZXBvQQ?oc=5",
+              "image": "https://img.mydaily.co.kr/photos/2026/10/27/2026102708323949013_x.jpg",
+              "url": "https://www.mydaily.co.kr/page/view/2026111908211086376"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "경주한수원 창단 첫 WK리그 우승",
+          "summary": "경주한수원이 첫 WK리그 챔피언결정전에서 우승했다. 나카지마 선수의 프리킥 골이 결정적이었다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852775",
+          "original_title": "경주한수원, 창단 첫 WK리그 챔프전 우승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "경주한수원, 창단 첫 WK리그 챔프전 우승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852775",
+              "image": "https://img.sbs.co.kr/newimg/news/20261119/202242342_1280.jpg"
+            },
+            {
+              "name": "조선일보",
+              "title": "\"WK리그 원년우승 명장의 귀환\" 박남열 경주한수원 감독 \"8위→3위→챔피언...창단10년만의 첫우승 더 기쁘다\" [현장 일문일답 전문]",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOXNQX0hXOHRzYW5aUTlyNG13ZVlpdnNYSnE3MmJJaDlNMUFsMlZMLXhIY3NNY1VjSExqTEVUeS1falpON1o4ZlFNdjV4OGZPcldkX2xvOXBwdG44UkZqLTlaSy1mNV95bWNLaUZVR3BtR0RKZGRfOWN0UjJOTExDcHEwMA?oc=5",
+              "image": "https://www.chosun.com/resizer/v2/GYZTOMZRGJRDMM3BHA3GIMDBMU.jpg?auth=b9ac9f92213da1272a009839fd5fca2aa56e90ee779754fc4005bc22d1ac5b31&width=700&height=367&smart=true",
+              "url": "https://www.chosun.com/sports/football/2026/11/18/GY2GENJYGQ3TINTFGQ3GMNBWMU/"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "경주한수원, 4전5기 끝 창단 첫 WK리그 우승…'3위팀 새 역사'(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261118184551007",
+              "image": "https://img9.yna.co.kr/etc/inner/KR/2026/11/18/AKR20261118184551007_01_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "전남 선수 폭행, 10경기 출장정지",
+          "summary": "전남 드래곤즈 선수가 후배를 폭행해 출장정지 10경기와 제재금 1천만 원을 부과받았다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261118_0003873560",
+          "original_title": "'후배 폭행' 전 K리그2 전남 선수, 출장정지 10경기·제재금 1000만원",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'후배 폭행' 전 K리그2 전남 선수, 출장정지 10경기·제재금 1000만원",
+              "link": "https://www.newsis.com/view/NISX20261118_0003873560",
+              "image": "https://img1.newsis.com/2022/12/08/NISI20221208_0001149017_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "'후배 폭행' 전 전남 선수, 출장정지 10경기·제재금 1천만 원",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852101",
+              "image": "https://img.sbs.co.kr/newimg/news/20261118/202242110_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "'후배 폭행' 전 K리그2 전남 선수, 10경기 출장정지·제재금 1천만 원",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LallVWVlXMkhwaWQycXY3N2lvNmpIZTY3aHBIaVVtN3VhZDJYMXctdjU3bU9CM0VCZUxBUlJ0M08zdHFOcXd1TlRSNE42ZFIyQjdubDBNWDlxWDhSS0ZfVmpFdzE3WU1jUXExZHMzem5HT1hGRlHSAXZBVV95cUxONEs3WFdEUUx0cUN4NDhYcUlVYUpCbWJqLVQ2bHZ6dGFld0R3VDV5ZDAyaXFnVXdfTjdvR2NVZkJYZ0pqZnNsb3U1aExHRmVBRXJheU5Dck1KSUVpRW5rbWJRVE5oVEtlYnVCQ2lxd3lFeUFka2Jn?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/sports/article/__icsFiles/afieldfile/2026/11/18/hm_20261118_5.jpg",
+              "url": "https://imnews.imbc.com/news/2026/sports/article/6866633_36946.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "'후배 폭행' 프로축구 선수, 출장정지 10경기·제재금 1천만원",
+              "link": "https://www.yna.co.kr/view/AKR20261118132400007",
+              "image": "https://img7.yna.co.kr/photo/cms/2021/08/19/28/PCM20210819000028007_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "퍼 코트",
+    "tagline": "우아함과 실용을 한 번에",
+    "description": "퍼 코트는 부풀린 구조가 몸을 부드럽게 감싸며, 겨울철 체온을 보전한다. 최근 패션 위크에서도 인기를 끌며 실용성과 세련미를 동시에 제공한다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "네이비 퍼 코트",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "top",
+        "name": "크림 니트",
+        "color": "크림",
+        "hex": "#FFFDD0"
+      },
+      {
+        "category": "bottom",
+        "name": "그레이 슬림 팬츠",
+        "color": "그레이",
+        "hex": "#808080"
+      },
+      {
+        "category": "shoes",
+        "name": "브라운 레더 부츠",
+        "color": "브라운",
+        "hex": "#8B4513"
+      },
+      {
+        "category": "bag",
+        "name": "블랙 토트백",
+        "color": "블랙",
+        "hex": "#000000"
+      }
+    ],
+    "tips": [
+      "퍼 코트는 중간 길이로 착용하면 체형을 보정한다.",
+      "크림 니트를 레이어링해 부드러운 색조를 더한다.",
+      "브라운 레더 부츠와 매치하면 따뜻함과 스타일을 동시에 챙긴다."
+    ],
+    "weather_tip": "서울이 맑은 오늘, 퍼 코트에 스카프를 매치하면 따뜻함을 유지한다.",
+    "weather": {
+      "city": "서울",
+      "t_max": 5,
+      "t_min": -1,
+      "rain_pct": 0,
+      "sky": "대체로 맑음",
+      "display": "서울 -1~5°C · 대체로 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "퍼 코트가 이렇게 쿨한 옷이었나요?",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/18/%ed%8d%bc-%ec%bd%94%ed%8a%b8%ea%b0%80-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ec%bf%a8%ed%95%9c-%ec%98%b7%ec%9d%b4%ec%97%88%eb%82%98%ec%9a%94/",
+        "note": "이번 겨울 퍼 코트가 트렌드로 자리 잡아 우아함을 강조하며, 실용성과 스타일을 동시에 제공한다.",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6afd450b93592-scaled-1920x1080.jpg?x=1920&y=1638&ver=1.2.09",
+        "url": "https://www.wkorea.com/2026/11/18/%ED%8D%BC-%EC%BD%94%ED%8A%B8%EA%B0%80-%EC%9D%B4%EB%A0%87%EA%B2%8C-%EC%BF%A8%ED%95%9C-%EC%98%B7%EC%9D%B4%EC%97%88%EB%82%98%EC%9A%94/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "오늘을 붙잡아라. 내일은 최대한 적게 믿고.",
+    "author": "호라티우스",
+    "work": "송가"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "쥐, 작은 기회가 웃음으로 번진다."
+      },
+      {
+        "animal": "소",
+        "text": "소, 오늘은 힘을 모아 새로운 시작을 맞이한다."
+      },
+      {
+        "animal": "호랑이",
+        "text": "호랑이, 용감한 발걸음이 기적을 불러온다."
+      },
+      {
+        "animal": "토끼",
+        "text": "토끼, 부드러운 마음이 새로운 인연을 끌어당긴다."
+      },
+      {
+        "animal": "용",
+        "text": "용, 오늘은 자신감이 무한대로 솟아오른다."
+      },
+      {
+        "animal": "뱀",
+        "text": "뱀, 차분함이 새로운 아이디어를 깨우친다."
+      },
+      {
+        "animal": "말",
+        "text": "말, 자유로운 상상이 오늘을 장식한다."
+      },
+      {
+        "animal": "양",
+        "text": "양, 부드러운 웃음이 주변을 따뜻하게 만든다."
+      },
+      {
+        "animal": "원숭이",
+        "text": "원숭이, 호기심이 오늘을 재미있게 꾸민다."
+      },
+      {
+        "animal": "닭",
+        "text": "닭, 새벽의 열정이 오늘을 빛나게 한다."
+      },
+      {
+        "animal": "개",
+        "text": "개, 충성스러운 마음이 평화를 이끈다."
+      },
+      {
+        "animal": "돼지",
+        "text": "돼지, 풍요로운 웃음이 하루를 채운다."
+      }
+    ]
+  },
+  "reading_minutes": 3
+}
