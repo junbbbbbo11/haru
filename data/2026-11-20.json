@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-20",
+  "weekday": "금요일",
+  "vol": 39,
+  "generated_at": "2026-11-20T10:44:29+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4941.39,
+      "change": -126.05,
+      "change_pct": -2.49,
+      "direction": "down",
+      "display": "4,941.39",
+      "change_display": "▼ 2.49%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1336.2,
+      "change": 5.8,
+      "change_pct": 0.43,
+      "direction": "up",
+      "display": "1,336.2원",
+      "change_display": "▲ 0.43%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 84171000.0,
+      "change": -79000.0,
+      "change_pct": -0.09,
+      "direction": "down",
+      "display": "8,417만원",
+      "change_display": "▼ 0.09%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 1,
+    "t_min": -3,
+    "rain_pct": 0,
+    "sky": "대체로 맑음",
+    "display": "서울 -3~1°C · 대체로 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "논현동",
+      "headline": "유재석 논현동 빌딩 외관 공개",
+      "summary": "유재석이 논현동에 198억 원 규모의 현금 매입 부지에서 신축 건물 완공을 알렸다. 건물 외관이 공개되며 대출이 없다고 전했다.",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/GJSTMMJTG43TEMZUMZTGGNBQGQ/",
+      "original_title": "‘핑계고’ 찍는 그 건물..유재석 ’198억’ 논현동 빌딩 외관 공개됐다 “대출 0원” [Oh!쎈 이슈]",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "‘핑계고’ 찍는 그 건물..유재석 ’198억’ 논현동 빌딩 외관 공개됐다 “대출 0원” [Oh!쎈 이슈]",
+          "link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/GJSTMMJTG43TEMZUMZTGGNBQGQ/",
+          "image": "https://www.chosun.com/resizer/v2/MM4TKMRSGRSDIYZWMQZDOYRXMQ.jpg?auth=40a343cff9b94c45b1a147de9758aab1851b2dc32c3d73407853dfd8b6181aef&width=650&height=341&smart=true"
+        }
+      ]
+    },
+    {
+      "kicker": "교육청",
+      "headline": "경기도교육청 당뇨병 학생 지원사업 선정",
+      "summary": "경기도교육청이 제1형 당뇨병 학생 지원사업을 사회보장제도 사전협의로 전국 최우수 사례로 선정했다.",
+      "source": "컨슈머타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjamE0LWVSZUJCelpSQUhibzBPSTVlejdXZkF3cm5kNERsTlNBV182aHBpUGE2TFJlNGJNTE5xTGxhSkEzRkxjRlczSnVxUmVlTmNzZ0hENVI3MDNUNkZYSlEwa2xXZzE4dFE?oc=5",
+      "original_title": "경기도교육청, '제1형 당뇨병 학생 지원사업' 사회보장제도 사전협의 '전국 최우수 사례' 선정",
+      "sources": [
+        {
+          "name": "컨슈머타임스",
+          "title": "경기도교육청, '제1형 당뇨병 학생 지원사업' 사회보장제도 사전협의 '전국 최우수 사례' 선정",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjamE0LWVSZUJCelpSQUhibzBPSTVlejdXZkF3cm5kNERsTlNBV182aHBpUGE2TFJlNGJNTE5xTGxhSkEzRkxjRlczSnVxUmVlTmNzZ0hENVI3MDNUNkZYSlEwa2xXZzE4dFE?oc=5",
+          "image": "https://www.cstimes.com/news/photo/202611/728693_650377_4813.jpg",
+          "url": "https://www.cstimes.com/news/articleView.html?idxno=728693"
+        }
+      ]
+    },
+    {
+      "kicker": "이의리",
+      "headline": "이의리 다시 약속의 땅으로",
+      "summary": "이의리가 일본 투수와의 차이를 인식하며 다시 약속의 땅으로 돌아왔다. 경기에서의 경험이 인상적이었다.",
+      "source": "SPOTV NEWS",
+      "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020808",
+      "original_title": "이의리, 다시 약속의 땅으로 갔다… 이범호도 기회 준다, 경력 걸린 운명의 오프시즌",
+      "sources": [
+        {
+          "name": "SPOTV NEWS",
+          "title": "이의리, 다시 약속의 땅으로 갔다… 이범호도 기회 준다, 경력 걸린 운명의 오프시즌",
+          "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020808",
+          "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1020808_2044090_5279.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "삼성전자, 전영현·노태문 투톱 유지…메모리·모바일 수장엔 새 얼굴",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261120/135058747/2",
+          "original_title": "삼성전자, 전영현·노태문 투톱 유지…메모리·모바일 수장엔 새 얼굴",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "삼성전자, 전영현·노태문 투톱 유지…메모리·모바일 수장엔 새 얼굴",
+              "link": "https://www.donga.com/news/Economy/article/all/20261120/135058747/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/20/135058748.2.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjVUc0djdaRWhyUGpiRkxCanRkVnBocm1jMWJiQ3pkTzV5MjIzalVfRGQ5TDAwOXZseFBhWTg3c2I4dS1GVGxublc2VlNZbDAydS1aWU9FU2x5dVFsRWRvUENkYXBIWnpzTVl3eGNaVFFVZXNh0gF0QVVfeXFMTVQ4UFZ0Q21SX1RCWjBVNnNpZVM3RjBGWVVSNkMzSVp0V3RJSFZ4Sk9PMTdrUEJlUFZscnNpYzBZOTUzak1YcE15UDF1SjFCTFRlc18zVnllY3FfOC1xVTZQT21RcV8zeldicnkzQ183LUtpemg?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/20/jhp_20261120_7.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6867185_36932.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
+              "link": "https://www.yna.co.kr/view/AKR20261120040100003",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2025/11/21/PYH2025112104380001300_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "이재근 KB금융 차기 회장 사내이사 선임안 가결",
+          "summary": "",
+          "source": "연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yVExUUFZrOEZKZS1KalpvZk9EejhXQ3g3enJQV1ZLR3c5U21sSlhFZzgzaFBULXVsalZfZGRPZzdDREkwUzBDZzlBbkswd282dk5ZYUxZYnZPRmNnMU9GUHplUHBldXVvTW1mZ1BUTk8?oc=5",
+          "original_title": "이재근 KB금융 차기 회장 사내이사 선임안 가결",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합인포맥스",
+              "title": "이재근 KB금융 차기 회장 사내이사 선임안 가결",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yVExUUFZrOEZKZS1KalpvZk9EejhXQ3g3enJQV1ZLR3c5U21sSlhFZzgzaFBULXVsalZfZGRPZzdDREkwUzBDZzlBbkswd282dk5ZYUxZYnZPRmNnMU9GUHplUHBldXVvTW1mZ1BUTk8?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4445711_358158_254_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445711"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "알럭스 블랙프라이데이 2500개 브랜드 참여",
+          "summary": "알럭스가 2500개 브랜드와 33만 여 상품이 참여한 블랙프라이데이를 개최했다",
+          "source": "전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1VGFMeVoyM0VKR0Q3dVJHdTdwRloydW1PSW5PeWJieWgxUlk1d2JBbUFJaVN4aWJubVhQblUtdGtZRUF1X29kb3ZSRWI1dw?oc=5",
+          "original_title": "알럭스, 럭셔리 패션 2500개 브랜드 참여 '블랙 프라이데이' 개최",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "전자신문",
+              "title": "알럭스, 럭셔리 패션 2500개 브랜드 참여 '블랙 프라이데이' 개최",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1VGFMeVoyM0VKR0Q3dVJHdTdwRloydW1PSW5PeWJieWgxUlk1d2JBbUFJaVN4aWJubVhQblUtdGtZRUF1X29kb3ZSRWI1dw?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/20/news-p.v1.20261120.f19ffc86ae054a24abeafc31e4e8cb85_P1.png",
+              "url": "https://www.etnews.com/20261120000102"
+            },
+            {
+              "name": "뉴스1",
+              "title": "알럭스, 패션 블랙프라이데이…2500개 브랜드·33만여 상품 참여",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xUWhMRmlqVS1VWDNnNjVLREJXb0c3VENva09BTVpHU2s1UXhHd1BoU2taamM5cEs1OHlQNjBlb0JkdEtiN01LYnNfMll6SnNHUGVRQ3hSby1WaWU5Mzdv?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6360446"
+            },
+            {
+              "name": "비즈니스포스트",
+              "title": "쿠팡 알럭스 패션 블랙 프라이데이 개최, 2500개 브랜드 33만 개 상품 할인",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51Unh2bkJLX0VKeW9GdFAzOVhaQ1lMZEExTkJqTnNKYWFlSWF4YkdLLXAwRjB4TnRyVVVWeUpPZTJnNVdBcGc3TEZ4WGZxSzNMY05SaV9CWFZ6Rk96ZnA5OUUyZUZxNnhCSm9laW1XVURTVWc?oc=5",
+              "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452471"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "K-뷰티, 1조 달러 수출 기록 달성",
+          "summary": "한국 뷰티 기업이 1조 달러 규모의 수출을 기록하며 글로벌 시장에서 입지를 강화했다",
+          "source": "Queen 이코노미퀸",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uU1BOR3JZOVhtcUhMQzN4eVgwUmxZc2hNLUVEVzNZTVRWY0VfWG1waWs3Rkw5QTJqdE1yUVpNTFk5ZERrbjJabmVvWEZObk1Vdi1sWVFzNFZ1T09IeUdSTnBLWHAxb3Zy?oc=5",
+          "original_title": "K-뷰티가 이끈 중소기업 수출 신기록…'1조 달러 수출' 뒤엔 화장품 있었다",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "Queen 이코노미퀸",
+              "title": "K-뷰티가 이끈 중소기업 수출 신기록…'1조 달러 수출' 뒤엔 화장품 있었다",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uU1BOR3JZOVhtcUhMQzN4eVgwUmxZc2hNLUVEVzNZTVRWY0VfWG1waWs3Rkw5QTJqdE1yUVpNTFk5ZERrbjJabmVvWEZObk1Vdi1sWVFzNFZ1T09IeUdSTnBLWHAxb3Zy?oc=5",
+              "url": "http://www.queen.co.kr/news/articleView.html?idxno=466653"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "SK인텔릭스, AI 웰니스 로봇 '나무엑스' 생산 현장 공개",
+          "summary": "SK인텔릭스가 숭실대 기계공학부에서 AI 웰니스 로봇 ‘나무엑스’ 생산 현장을 공개했다. 실험 단계에서 품질 검증 과정을 시연했다.",
+          "source": "인포스탁데일리",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95RFd1clJ0TEtTOVRDSlVEVXA1ZU51UGJYTkdEa1BHMWRvWWRFaE9YcGtXWEZTMWhBZ2NkTUQ4b1JmU1B1aVJFMTFHWTVVdDVIZmtpc3JZXy1Xb1N4dTBnVlhaOXpaNFkwTThkeTJzUmRNTFJULWc?oc=5",
+          "original_title": "SK인텔릭스, 숭실대 기계공학부에 AI 웰니스 로봇 ‘나무엑스’ 생산 현장 공개",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "인포스탁데일리",
+              "title": "SK인텔릭스, 숭실대 기계공학부에 AI 웰니스 로봇 ‘나무엑스’ 생산 현장 공개",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95RFd1clJ0TEtTOVRDSlVEVXA1ZU51UGJYTkdEa1BHMWRvWWRFaE9YcGtXWEZTMWhBZ2NkTUQ4b1JmU1B1aVJFMTFHWTVVdDVIZmtpc3JZXy1Xb1N4dTBnVlhaOXpaNFkwTThkeTJzUmRNTFJULWc?oc=5",
+              "image": "https://www.infostockdaily.co.kr/news/thumbnail/202611/219023_225510_532_v150.jpg",
+              "url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=219023"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "SK인텔릭스, 숭실대 기계공학부에 AI 웰니스 로봇 '나무엑스' 생산 현장 공개",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93MkFGa3VBWnk2UWlzekJ3bl90M25Rc05ad3NCVGZSbnc0aUpRajZfblZ5aWVIaHZSbUtwcXluQjdtYzhBc2NKeVFGZWlzbTJoQm0wdmR5YURZY1I0?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/20/2611200843234270_430_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261120000150"
+            },
+            {
+              "name": "뉴스드림",
+              "title": "SK인텔릭스, 대학생에 AI 웰니스 로봇 시연·품질 검증 과정 공개",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvdmNSbm9IY2lpTVZRWndQMDN1dF9ZQk5XY29zb1NlS19YaWRBZ2syanBkVUFPRGJJalA3dURQdTNGaVJpT0NQUWo1UGZIQ3ExaEY3d0xLalJXbnNtcVlvRW9MOUdldWFORWR30gFuQVVfeXFMTzRLMWREQkpQWUl0SkM1ZUtiNUxpVFJHMmRzZFVUdC00OXBBV2g5ZGt4M3F4QW1jV3BJX0RhSjEyU2lpWjdwNjk4R3BCTE9Uc0U5VktVdlBsT1dmZnNYRjV6cFlpRzZXYTNEMTducmc?oc=5",
+              "image": "https://cdn.newsdream.kr/news/thumbnail/202611/122612_95714_4319_v150.jpg",
+              "url": "https://www.newsdream.kr/news/articleView.html?idxno=122612"
+            },
+            {
+              "name": "한국아이닷컴",
+              "title": "‘나무엑스’ 출시 1년…SK인텔릭스, 가전 넘어 AI 웰니스로",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80Vm4yTG5jRHQ1THhMSXhVdkpvSUprVXVEVWdKWjBLUXdmeE5OYWZXUk1OX2lEM1Y2LVhRazBfanNna2FJYVAyTEZ2dEExazlIdFB1dXdDWlgtRy01bDBvU1VVajhUQm9hYnJV0gFvQVVfeXFMT1JiSkl6eWtoR3owUUlaM2RJdlJCZmxLUTNsMVA5WDc5T0VNa004NFg4TXR5MXdXemxCWVhQb2FGZHdRQTFiWFdPUUtuclNfMGg1MktjODVEcUtoRkFzRXR1bmw3dm9FZGt1R0FPRGFF?oc=5",
+              "image": "https://cdn.hankooki.com/news/thumbnail/202611/348954_496565_1795122004_v150.jpg",
+              "url": "https://www.hankooki.com/news/articleView.html?idxno=348954"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이 대통령, 아세안·APEC 마치고 귀국",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854666",
+          "original_title": "이 대통령, 아세안·APEC 마치고 귀국",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령, 아세안·APEC 마치고 귀국",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854666",
+              "image": "https://img.sbs.co.kr/newimg/news/20261119/202242620_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "이 대통령, 아세안·APEC 마치고 귀국…국내 현안 산적",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XRnpTVDdqT2NUMjNHRURnemx0d2VhVEcxdVNzUHlkZFNMYkV3Z1FWZnRJeDdNaXlubmRrNFViUElxMUJUdDRzOEg0NUttU1NtOG5vMkNIUnNldWN3OWtHQWtTUDYzUVk?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261119/AKR20261119204311szv_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261119204311szv"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령, 아세안·APEC 마치고 귀국…국내 현안 '산적'",
+              "link": "https://www.yna.co.kr/view/AKR20261119091000001",
+              "image": "https://img0.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111924920001300_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "국힘, 홍대·신촌 일대서 '이재명 탈옥법 폐지 촉구' 도보행진",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261119141700001",
+          "original_title": "국힘, 홍대·신촌 일대서 '이재명 탈옥법 폐지 촉구' 도보행진",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "국힘, 홍대·신촌 일대서 '이재명 탈옥법 폐지 촉구' 도보행진",
+              "link": "https://www.yna.co.kr/view/AKR20261119141700001",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/17/PYH2026111704620001301_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "국힘, 홍대·신촌 일대서 조작기소 특검법 폐지 촉구 도보행진",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Bc253QllyQ3hvQUkxTEdTQmhoU2VkYVZCdlo1dTF0TGM5RUthVVRzSVpnWWxYZkFlbV94NGpWOGREQTZ6VW9HNFJrY2NRanZXQ29rUURodXE4TkM5YkFGRG8tREFNY2pLc2swVGpFOGxxMHlSdkY0QtIBeEFVX3lxTE1iazB2TTF2d3lOMHVmQ29GWUlXdklJWVphUnRQRXJUSnhnSzdhUUJoTldleEFjMFdyS1owVzdsVlB4SXdLMFQ2N3EzaDJFM0V3NVVELTlKRlplRzdxNWtCb1BTalllRXhtSzZORU9JNVVEQ2pMYXhkcQ?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/20/kds_20261120_26.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6867164_36911.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프, 이란 공격 재개 여부 언급",
+          "summary": "미 해군 항공모함 시어도어 루스벨트함에서 트럼프 미국 대통령이 이란 공격 재개를 서두르지 않을 가능성을 시사했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855113",
+          "original_title": "트럼프 \"이란 결정 서두르지 않아…새해 시작 뒤 지켜볼 것\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"이란 결정 서두르지 않아…새해 시작 뒤 지켜볼 것\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855113",
+              "image": "https://img.sbs.co.kr/newimg/news/20260827/202216579_1280.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "트럼프 “이란 추가 공습 서두르지 않아…새해 시작뒤 논의”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261120/135058281/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/15/135028567.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 \"이란 결정 서두르지 않아…새해 시작 뒤 지켜볼 것\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261120008851071",
+              "image": "https://img7.yna.co.kr/photo/reuters/2026/11/17/PRU20261117094901009_P4.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "트럼프 “이란 결정 서두르지 않아···새해 이후 상황 지켜볼 것”",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95UVNPZ084NF93eDNJLTdwdWUzUi05YmRhTUs3QU90WXV4b1dsOFlGbWFqSDd0UXBKdnRETm9GMm16MUI2NkJRcXkzZEVzSXpJOWhoR2hjVFYtd9IBX0FVX3lxTFBoWUtlWlA2MldFeTBYOVpKZExXQ1dVNlJXLTlacmdIUFlRTnlpNFdtNzhDZTJwM2VtVWxvQTV2ajdTbi1MWlNUUzNPZlRvaUN2a09FVHJ5dGxtQ2czVExn?oc=5",
+              "image": "https://img.khan.co.kr/news/2026/11/20/news-p.v1.20261120.34e573175a0c498eb49d79d462162eda_P1.png",
+              "url": "https://www.khan.co.kr/article/202611200734001"
+            },
+            {
+              "name": "뉴시스",
+              "title": "트럼프 \"이란 관련 결정 서두르지 않아…새해 이후 상황 지켜볼 것\"",
+              "link": "https://www.newsis.com/view/NISX20261120_0003875972",
+              "image": "https://img1.newsis.com/2026/11/19/NISI20261119_0001762376_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "트럼프, 김정은 회담 불발 언급",
+          "summary": "미국 대통령 트럼프는 아시아태평양경제협력체 정상회의 기간 북한 국무위원장 김정은과의 회담이 불발됐다고 밝혔다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854855",
+          "original_title": "트럼프 \"김정은과 회담 성사 안 됐지만…언젠가 만날 것\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"김정은과 회담 성사 안 됐지만…언젠가 만날 것\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854855",
+              "image": "https://img.sbs.co.kr/newimg/news/20261118/202241910_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "트럼프 “김정은과 이번엔 못 만났지만…언젠가 만날 것”",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uSkRScmd1NEZTeklGYkg5Q3dKcm1mS2R5dDBmVUdGb2J4VG4wMFB0SU9uWTIxTU94U0pHRTlRdnBKUHh2ME9nR01LckhVS0pZRWQyN1Y4M3VQbW5ycVhNS0VfM3FoX0h2Mi1XWE9jdw?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/1200/800/imgdb/original/2026/1120/20261120500174.webp",
+              "url": "https://www.hani.co.kr/arti/international/america/1288267.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 \"김정은과 회담 성사 안됐지만…언젠가 만날 것\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261120006151071",
+              "image": "https://img8.yna.co.kr/photo/etc/up/2026/11/20/PUP20261120000101009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "앤트로픽, 나스닥 상장 첫날 97.17달러",
+          "summary": "인공지능 기업 앤트로픽이 나스닥에 상장하며 첫날 97.17달러로 마감, 공모가 대비 17% 상승했다.",
+          "source": "블로터",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679211",
+          "original_title": "나스닥 데뷔한 앤트로픽, 공모가 대비 17% 상승 마감",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "블로터",
+              "title": "나스닥 데뷔한 앤트로픽, 공모가 대비 17% 상승 마감",
+              "link": "https://www.bloter.net/news/articleView.html?idxno=679211",
+              "image": "https://cdn.bloter.net/news/thumbnail/202611/679211_294213_36_v150.jpg"
+            },
+            {
+              "name": "ZDNet Korea",
+              "title": "앤트로픽 공모가 대비 17%↑…SKT 지분가치 5조원 추산",
+              "link": "https://zdnet.co.kr/view/?no=20261120093812",
+              "image": "https://image.zdnet.co.kr/2026/11/20/92121dcdc6ab2afe4f195f6a2880e2c4.png"
+            },
+            {
+              "name": "전자신문",
+              "title": "앤트로픽, 상장 첫날 97.17달러로 마감…공모가 대비 17% 상승",
+              "link": "https://www.etnews.com/20261120000001",
+              "image": "https://img.etnews.com/news/article/2026/11/19/news-p.v1.20261119.ff4d7d1a1f5c49f09836fedc3d33d2ae_P1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "[박스오피스] 韓영화 '폭설' 개봉 이틀간 1위",
+          "summary": "",
+          "source": "맥스무비",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zcDZzR0hBbzJSZm5YeldGTWNvdkFzQVBDS2JlXzRyVmlzRUZENERKLTZCZzVPNTk4bmxLbDhqUzBtY3pZbGhkM3ZSRUw3RlNjVFkzVG5sUk5ydjJBYjVJNUdoZnJUMEdrN05B?oc=5",
+          "original_title": "[박스오피스] 韓영화 '폭설' 개봉 이틀간 1위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "맥스무비",
+              "title": "[박스오피스] 韓영화 '폭설' 개봉 이틀간 1위",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zcDZzR0hBbzJSZm5YeldGTWNvdkFzQVBDS2JlXzRyVmlzRUZENERKLTZCZzVPNTk4bmxLbDhqUzBtY3pZbGhkM3ZSRUw3RlNjVFkzVG5sUk5ydjJBYjVJNUdoZnJUMEdrN05B?oc=5",
+              "image": "https://cdn.maxmovie.com/news/photo/202611/503075_44346_3350.jpg",
+              "url": "https://www.maxmovie.com/news/articleView.html?idxno=503075"
+            },
+            {
+              "name": "강릉뉴스",
+              "title": "[오늘의 키워드] 55만 수능·영화 폭설 개봉일 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0SFJwcl9kTlFGMVdsb1BVcWNNYmtONFFOeFgxYUhtNS0ycThVQnFzQmsyWE9qQ1FvN2xvTDg3em0tZDBiWTFrNGNSY1Viank3eEdORHpFODJ1ZWpYUHZnRXpYQjdfa05tdTBGc2FIUQ?oc=5",
+              "image": "https://cdn.gangneungnews.kr/news/photo/202611/70264_70216_428.png",
+              "url": "https://www.gangneungnews.kr/news/articleView.html?idxno=70264"
+            },
+            {
+              "name": "뉴데일리",
+              "title": "김윤석·구교환 '폭설', 개봉 첫날 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYzk2bko1QjBOUFh2NXZPMmxNVXFncUI2N3FUdzktemJkaWpIRU5jSzdVY0lFeDctT3BDTVhLZ3VkanRMZEJ3OVZ3dV9QYlNXRXNmQjlxNDlMS0Q0c1VTMy1GRi1aYkNzbmpuS0pTU3VURUhwNEIwZjRUOGhDM3RqVdIBgAFBVV95cUxNYzk2bko1QjBOUFh2NXZPMmxNVXFncUI2N3FUdzktemJkaWpIRU5jSzdVY0lFeDctT3BDTVhLZ3VkanRMZEJ3OVZ3dV9QYlNXRXNmQjlxNDlMS0Q0c1VTMy1GRi1aYkNzbmpuS0pTU3VURUhwNEIwZjRUOGhDM3RqVQ?oc=5",
+              "image": "https://image.newdaily.co.kr/site/data/img/2026/11/19/2026111950182_0.jpg?u=20261119164859",
+              "url": "https://www.newdaily.co.kr/site/data/html/2026/11/19/2026111950182.amp.html"
+            },
+            {
+              "name": "이투데이",
+              "title": "'폭설', 개봉 첫날 박스오피스 1위…5만8000명 동원",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44YkxrSlNWbEtBbmtIM1VkX1dudXdfc3NKWGxyQ2FBbUl6ZzhRcnZkNUNIa1RpQlQxbk8yRWRtTzdndnRfbE5icmVtUHpsV2JaOFFtMw?oc=5",
+              "image": "https://img.etoday.co.kr/pto_db/2026/11/20261118151337_2419686_1200_1714.jpg",
+              "url": "https://www.etoday.co.kr/news/view/2650332"
+            },
+            {
+              "name": "라온신문",
+              "title": "김윤석·구교환 '폭설', 개봉 첫날 박스오피스 1위...임영웅 영화 2위",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IOHl0YjRTYzMxa3hEUmxWaUxhNWp0cV9kRjFWM1JfMzFDUG9aRU9TcnczQkZfUElVZXhBSmRGY2dxZ0hfenh1dWpESGphNHpQTVdrQmhSWFN3U2dGNFBfZw?oc=5",
+              "image": "https://www.raonnews.com/data/photos/20261147/art_17950533308638_41df6d.jpg",
+              "url": "https://www.raonnews.com/news/article.html?no=62899"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "이강인 AFC 올해의 국제선수상 수상",
+          "summary": "이강인이 AFC 올해의 국제선수상에 선정되어 황인범·우에다를 앞섰다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855083",
+          "original_title": "이강인, AFC 국제선수 최초 2년 연속 수상…황인범·우에다 제쳐",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이강인, AFC 국제선수 최초 2년 연속 수상…황인범·우에다 제쳐",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855083",
+              "image": "https://img.sbs.co.kr/newimg/news/20261120/202242713_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "이강인, 사상 첫 AFC 올해의 국제선수상‥황인범 우에다 제쳐",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DWEZ1UnVoTktvVVNjLV8xT2t3V0daTUNPVDRZZG9nZHM0QmphZWtGa2doNzNtVTV0WFE5OFpQWndoV3RrYXFTRUloc0dzaUVOQjhvQTFjRVRJMGNuRURuOEN4Q2VqNVJad3BieUZtX1ZwZkEzZUHSAXZBVV95cUxNQ2h2Vi1NdnM5WVFSN1pWSnNOb2F0eFhRX0tBcGZnZzhWSXkxYlE2SHRYYkh2TDF3TW1yZHJVNElQTURpYlhrYW5LVUE5WGcyV0ZTSFF5aXhjM0RVNzk5T2VUUG5PN2hreTA4NWIyQ1JPS1dVVk5n?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/sports/article/__icsFiles/afieldfile/2026/11/20/jhp_20261120_2.jpg",
+              "url": "https://imnews.imbc.com/news/2026/sports/article/6867171_36946.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "이강인, AFC 국제선수 최초 2년 연속 수상…황인범·우에다 제쳐",
+              "link": "https://www.yna.co.kr/view/AKR20261120021100007",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/11/18/PYH2026111801080001300_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "이강인, 2회 연속 AFC 올해의 국제선수상 수상",
+              "link": "https://www.newsis.com/view/NISX20261120_0003875988",
+              "image": "https://img1.newsis.com/2026/11/18/NISI20261118_0002294831_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "KT 스기모토 일본 소프트뱅크와 계약 추진",
+          "summary": "KT 스기모토가 8회말 역투를 마치고 일본 소프트뱅크와 계약을 추진한다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854173",
+          "original_title": "'홀드왕' KT 스기모토, 일본 소프트뱅크 이적",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "'홀드왕' KT 스기모토, 일본 소프트뱅크 이적",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854173",
+              "image": "https://img.sbs.co.kr/newimg/news/20261119/202242489_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'홀드왕' KT 스기모토, 일본으로 향한다…소프트뱅크와 계약 추진",
+              "link": "https://www.newsis.com/view/NISX20261119_0003875357",
+              "image": "https://img1.newsis.com/2026/11/04/NISI20261104_0021519574_web.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "프로야구 홀드왕 스기모토 ’일본행’…소프트뱅크서 새로운 도전",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xVTM4eEhfdDFyZlhmLXo0clk0MWg0TDZFTnVCN1dZb1VfZGhXTkJZZmc2YXJVeFRPb1FqNm8tOGxfN25VdWtmMkIxWlVRUUlGQjhCaExQODZINC1fc1FidGI2SDBkMlU?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261119/AKR202611191552492fl_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR202611191552492fl"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "KBO 홀드왕 kt 스기모토, 일본행 선택…소프트뱅크서 새 출발",
+              "link": "https://www.yna.co.kr/view/AKR20261119120800007",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090418020005400_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "12월, 치명적인 홀리데이 컬렉션",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 1,
+      "t_min": -3,
+      "rain_pct": 0,
+      "sky": "대체로 맑음",
+      "display": "서울 -3~1°C · 대체로 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "12월, 치명적인 홀리데이 컬렉션",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/11/20/12%ec%9b%94-%ec%b9%98%eb%aa%85%ec%a0%81%ec%9d%b8-%ed%99%80%eb%a6%ac%eb%8d%b0%ec%9d%b4-%ec%bb%ac%eb%a0%89%ec%85%98/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6afd629bcf2e4-1920x1080.jpg?x=1930&y=1877&ver=1.1.64",
+        "url": "https://www.vogue.co.kr/2026/11/20/12%EC%9B%94-%EC%B9%98%EB%AA%85%EC%A0%81%EC%9D%B8-%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4-%EC%BB%AC%EB%A0%89%EC%85%98/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "삶이 짧은 것이 아니라, 우리가 많은 시간을 허비하는 것이다.",
+    "author": "세네카",
+    "work": "인생의 짧음에 관하여"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 도전으로 이어진다."
+      },
+      {
+        "animal": "소",
+        "text": "배려가 인연을 늘려주는 날."
+      },
+      {
+        "animal": "호랑이",
+        "text": "대담한 발걸음이 목표를 잡는다."
+      },
+      {
+        "animal": "토끼",
+        "text": "하루를 가볍게 넘기면 웃음이 쏟아진다."
+      },
+      {
+        "animal": "용",
+        "text": "열정이 불꽃처럼 번져 나간다."
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 길을 밝혀준다."
+      },
+      {
+        "animal": "말",
+        "text": "빠른 발걸음이 새로운 길을 열어준다."
+      },
+      {
+        "animal": "양",
+        "text": "조용한 순간이 따뜻한 힘을 준다."
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머가 분위기를 밝게 만든다."
+      },
+      {
+        "animal": "닭",
+        "text": "새벽의 시작이 새로운 기회를 열어준다."
+      },
+      {
+        "animal": "개",
+        "text": "친절이 주변을 따뜻하게 감싼다."
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 가득한 하루가 이어진다."
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
