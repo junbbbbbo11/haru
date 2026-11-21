@@ -1,0 +1,705 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-21",
+  "weekday": "토요일",
+  "vol": 40,
+  "generated_at": "2026-11-21T10:15:59+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5137.89,
+      "change": 70.45,
+      "change_pct": 1.39,
+      "direction": "up",
+      "display": "5,137.89",
+      "change_display": "▲ 1.39%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1334.8,
+      "change": 4.4,
+      "change_pct": 0.33,
+      "direction": "up",
+      "display": "1,334.8원",
+      "change_display": "▲ 0.33%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 81254000.0,
+      "change": 120000.0,
+      "change_pct": 0.15,
+      "direction": "up",
+      "display": "8,125만원",
+      "change_display": "▲ 0.15%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 1,
+    "t_min": -4,
+    "rain_pct": 0,
+    "sky": "맑음",
+    "display": "서울 -4~1°C · 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "겨울패딩",
+      "headline": "초강력 엘니뇨, 롱패딩 대신 새 유행템",
+      "summary": "엘니뇨로 인한 초강력 추위 속 롱패딩 대신 새 유행템이 주목받는 현상이다.",
+      "source": "미주중앙일보",
+      "link": "https://www.koreadaily.com/article/20261120130043864",
+      "original_title": "롱패딩 대신 이것 사라?…‘초강력 엘니뇨’가 만든 겨울 유행템",
+      "sources": [
+        {
+          "name": "미주중앙일보",
+          "title": "롱패딩 대신 이것 사라?…‘초강력 엘니뇨’가 만든 겨울 유행템",
+          "link": "https://www.koreadaily.com/article/20261120130043864",
+          "image": "https://www.koreadaily.com/data/photo/thumbnail/2026/11/21/1a25d893-ae7b-417f-84c3-a0354e06143a.jpg"
+        },
+        {
+          "name": "중앙일보",
+          "title": "롱패딩 대신 이것 사라?…‘초강력 엘니뇨’가 만든 겨울 유행템",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GdDBjb2xIZE5GUy03TS1LaUJMSUptOGN0TmQxRFJpNWRwelVGRXdaVDdaY01KejRMeGRhNk5DUXhBTXk0Rk5GM05OR0lkYTZ6ZDJiNDV3?oc=5",
+          "image": "https://pds.joongang.co.kr/news/FbMetaImage/202611/86af0d13-21bf-4575-aecd-1861ef8e287f.jpg",
+          "url": "https://www.joongang.co.kr/article/25480645"
+        }
+      ]
+    },
+    {
+      "kicker": "반도체",
+      "headline": "4년 만에 대중 무역흑자…반도체 제외 적자 확대",
+      "summary": "4년 만에 대중 무역흑자 이후 반도체 제외 시 415억 달러 적자 확대가 예상되는 현상이다.",
+      "source": "서울경제",
+      "link": "https://www.sedaily.com/article/20117193",
+      "original_title": "4년 만에 대중 무역흑자라더니…반도체 빼면 415억 달러 ‘적자’",
+      "sources": [
+        {
+          "name": "서울경제",
+          "title": "4년 만에 대중 무역흑자라더니…반도체 빼면 415억 달러 ‘적자’",
+          "link": "https://www.sedaily.com/article/20117193",
+          "image": "https://wimg.sedaily.com/news/cms/2026/11/21/rcv.YNA.20261117.PYH2026111717430001300_Z1.jpg"
+        },
+        {
+          "name": "연합뉴스",
+          "title": "4년 만에 대중 무역흑자 돌아섰지만…반도체 빼면 적자 확대",
+          "link": "https://www.yna.co.kr/view/AKR20261120164900003",
+          "image": "https://img7.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073103380001300_P4.jpg"
+        },
+        {
+          "name": "산경투데이",
+          "title": "대중 무역흑자 433억달러의 착시…반도체 빼면 415억달러 적자",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yakhxaV9RYWwwQTlZQWZnQWlaWUxHRWY3eGpjeUJmRF9pQW5NYWdvTHdrUmRIOWhNR0VwcFN5bERRMXlJUWJuWTN3Tl9LcVBjckFGelNUOG81aVBlanFUV0FueUF5cjgzWGpzdXFTSmvSAXRBVV95cUxNWFhiWWFycDdlSk5naWU3LVQ1UUtPaWlOWThicDNJT2FyU0JaZXhXUkwwX0cxVklwWlRtUDR3Z3VRdTNVREpiWVF4aWMwUzJBMjFqd2gxMk9TN2wxMC1rVzliMG8yOHM1QkFDdVNzMGVHMXZ3Ng?oc=5",
+          "image": "https://cdn.sankyungtoday.com/news/photo/202611/64375_30305_4947.jpg",
+          "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=64375"
+        }
+      ]
+    },
+    {
+      "kicker": "지스타",
+      "headline": "지스타 2026, 게임산업 변화 전망",
+      "summary": "지스타 2026이 국내 최대 게임쇼로 부상하며 게임산업 변화를 제시하는 현상이다.",
+      "source": "매일경제 마켓",
+      "link": "https://stock.mk.co.kr/news/view/1203323",
+      "original_title": "'지스타 2026'으로 보는 게임산업 변화는?",
+      "sources": [
+        {
+          "name": "매일경제 마켓",
+          "title": "'지스타 2026'으로 보는 게임산업 변화는?",
+          "link": "https://stock.mk.co.kr/news/view/1203323"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "나스닥 5.3% 폭락, 다우·S&P500 조정 진입",
+          "summary": "미국 뉴욕 증시 주요 지수가 20일 일제히 급락했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261121009252072",
+          "original_title": "나스닥, 기술주 매도에 5.3% 폭락…다우·S&P500도 조정 진입(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "나스닥, 기술주 매도에 5.3% 폭락…다우·S&P500도 조정 진입(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261121009252072",
+              "image": "https://img9.yna.co.kr/photo/reuters/2026/11/21/PRU20261121030301009_P4.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "나스닥, 기술주 매도에 5.3% 폭락...다우·S&P 500도 조정 진입",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ESWpkTVk0bWJ3bUZZZEREdTQwOHBUMTA5aWhOOS0xMTgwTmoxOVpRSngzSU9Ub3BueWt4amoxVnl0UFIyb3JaTkpvS01MbFhDYllxeHgtZVl1LXc3M3c?oc=5",
+              "image": "https://image.ytn.co.kr/general/jpg/2026/1121/202611210634008204_t.jpg",
+              "url": "https://www.ytn.co.kr/_ln/0104_202611210634008204"
+            },
+            {
+              "name": "매일경제",
+              "title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
+              "link": "https://www.mk.co.kr/news/stock/12215112",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/21/news-p.v1.20261111.aff9fa5a97c24834b6ee7713ed0f9ab6_R.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "테슬라 자율주행 특례, 서류 부실로 거절",
+          "summary": "국토교통부가 테슬라코리아의 자율주행 특례 신청서가 서류 부실이라 판단해 허용을 거절했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Economy/article/all/20261120/135061788/1",
+          "original_title": "테슬라, 국내서 자율주행 특례 못 받나…국토부 “서류 부실”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "테슬라, 국내서 자율주행 특례 못 받나…국토부 “서류 부실”",
+              "link": "https://www.donga.com/news/Economy/article/all/20261120/135061788/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/20/135061828.1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "국토부, 테슬라 자율주행 특례 신청 퇴짜…\"서류 부실\"",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGZGNVUHBGMlRXR2g2US1fMHhnak0wMlRqUWI4RXcyWWRVdmI3RERBMGRWT2ctT2E4YjVFYnNISWlhZlVOMmhnNjNQaUYzOU9WN2dGZHpiNU9YYlnSAWBBVV95cUxQRlhZbE5RU3BUVVRsSUpGQUlxbmpjaUVWWmFxeElTcC1iNlVUTVNmM3plTmozQjBOdHE4eW1aUlJTQjZpZ3AtdFVrSWw2aWJnWDk2NGlyQzdVcThXcVN5cHk?oc=5",
+              "image": "https://img4.yna.co.kr/photo/reuters/2026/10/29/PRU20261029247401009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261120125200003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "알렉스 블랙프라이데이, 2500개 브랜드 참여",
+          "summary": "알렉스가 주최한 블랙프라이데이 행사에 구찌·셀린느 등 2500개 브랜드가 참여했다.",
+          "source": "지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YSXBZNzJmamFSSU5BQUJ5V1UxZ21iSU1MTmRMR3hiellmTjE0bENLLThwUVZtTmY4a0VtV3dPa1Z2NTZ6RDhZWlAyM3BnM0pTQ0ZaOG1B?oc=5",
+          "original_title": "알럭스, 블랙프라이데이 행사…구찌·셀린느 등 2500개 브랜드 참여",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "지디넷코리아",
+              "title": "알럭스, 블랙프라이데이 행사…구찌·셀린느 등 2500개 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YSXBZNzJmamFSSU5BQUJ5V1UxZ21iSU1MTmRMR3hiellmTjE0bENLLThwUVZtTmY4a0VtV3dPa1Z2NTZ6RDhZWlAyM3BnM0pTQ0ZaOG1B?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/11/20/727a6b58c2075fcd20b6884c339ecfe9.png",
+              "url": "https://zdnet.co.kr/view/?no=20261120183502"
+            },
+            {
+              "name": "현대경제신문",
+              "title": "알럭스, 패션 블랙 프라이데이 개최···2500개 브랜드 참여",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aQU5UTW9FckRRcnpVV0t6ZVRDTWMtNmd6SDlVdzlaZFBKX1hrRmpucDFfWXRNYU4xQUx1N2JiSmtQRFhqYnVlRTkyMUZEYVppUElOalQ2V2o4eWVrbUxXYkdWeXZoVGRH0gFrQVVfeXFMT0F2eFhOZ212a2N5bmM3dlZzbUVRUVY3U2t2YUlyUFduY3hDeVlyVWhIeHlSRlRhQmxZV29Xd09oREJ0c2JXTUY3X3prY2JkNUhpZllUeUhxb2FRY2FoeExjTW9mRFA3cDBhemM?oc=5",
+              "image": "https://cdn.finomy.com/news/thumbnail/202611/267454_261165_5557_v150.jpg",
+              "url": "https://www.finomy.com/news/articleView.html?idxno=267454"
+            },
+            {
+              "name": "중앙이코노미뉴스",
+              "title": "알럭스, 패션 블랙프라이데이 개최…2500개 브랜드 33만개 상품 할인",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xcW9yRjU4Ni10dnZ0X3U4Z3pQSVNIeEVqanpWdWVsdVkxWk81TXhXRFFTV3RqSlVJOFpYRlVWTGkwSWRZblVNZ2JTeVdIQUFoZFpVOHJISDBPMll2M0pnLVhZV2xhRDRTTlFDaUJ2THVSZw?oc=5",
+              "image": "https://cdn.joongangenews.com/news/photo/202611/565478_373302_3039.png",
+              "url": "https://www.joongangenews.com/news/articleView.html?idxno=565478"
+            },
+            {
+              "name": "핀포인트뉴스",
+              "title": "쿠팡 알럭스, 패션 블랙프라이데이…2500개 브랜드 할인",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xVkc5cEtyYlRhT2U4SE5yZEVDd0o2NmktSVFKX1psNWdBUTAtcHhaM05PT1dmNnV3QTlzQVB1a3dRdWlwck9xVDhMbDJEeFlId1poMVBvR2h6WV9BSmNDajJlcWEtUUlPSnhHUU1zT3dUaHPSAXdBVV95cUxNVHVfdFdERklXZEVfRkk4NkNkdWlHY3V3U3hjLW5OOS15bU1ZUlV2UVNHbl9VREd3ZnphOWt0blA5QXNfWFo3RzVJUnZqNnZGMVNKM1dXWWtVcGhkTnpBTjlmOWdFVFNZSm02TzNyMnNuN01pTkVOTQ?oc=5",
+              "image": "https://cdn.pinpointnews.co.kr/news/thumbnail/202611/506396_491163_628_v150.jpg",
+              "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506396"
+            },
+            {
+              "name": "투데이e코노믹",
+              "title": "쿠팡 알럭스, 패션 블랙프라이데이…2500개 브랜드·33만여 상품 선보여",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yMW1ucmN6dlU3cjNtU2lfU0FfcGkyUnRoRTVIekJDV2RvMFRXVEZSYkIyNlAyX2RIcGhTR18wUHNRTWswRXZfTWx4X1NsWVpJMDFGRFJPZ0lncmFCSmY1M2JlTDVJcGM?oc=5",
+              "image": "https://www.todayeconomic.com/data/photos/20261147/art_17951525487686_89cdc0.jpg",
+              "url": "https://www.todayeconomic.com/news/article.html?no=32931"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "디엘스킨, LA에 K뷰티 하우스 개관",
+          "summary": "디엘스킨이 미국 LA에 K-뷰티 하우스를 개관해 중소 화장품 기업의 진출을 지원한다. 한국보건산업진흥원 주관으로 운영된다.",
+          "source": "Chosunbiz",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZE9JWlFfd2w4UWxVTFREYWJwdkxZWDg5RXExYU5LSUZ1bEpPakpEel9PRVZyRUMyRU9fUmIteFQxN2ROdW9MZ0ZwWm9iNnJHUEIwMEtBRGQ4WTYwQ1hIbmgyaUxyeGtBLWlabURjRUUtUVlFSU5aenhxaHBaRTc0dUtMZF82VjVfY2xjVzQyUWE1MUNMRlRwbS1CZklLWUE20gGgAUFVX3lxTE5kT0laUV93bDhRbFVMVERhYnB2TFlYODlFcTFhTktJRnVsSk9qSkR6X09FVnJFQzJFT19SYi14VDE3ZE51b0xnRnBab2I2ckdQQjAwS0FEZDhZNjBDWEhuaDJpTHJ4a0EtaVptRGNFRS1RWUVJTlp6eHFocFpFNzR1S0xkXzZWNV9jbGNXNDJRYTUxQ0xGVHBtLUJmSUtZQTY?oc=5",
+          "original_title": "디엘스킨, 美 LA에 ‘K뷰티 하우스’ 개관…중소 화장품 기업 판로 지원",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "Chosunbiz",
+              "title": "디엘스킨, 美 LA에 ‘K뷰티 하우스’ 개관…중소 화장품 기업 판로 지원",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZE9JWlFfd2w4UWxVTFREYWJwdkxZWDg5RXExYU5LSUZ1bEpPakpEel9PRVZyRUMyRU9fUmIteFQxN2ROdW9MZ0ZwWm9iNnJHUEIwMEtBRGQ4WTYwQ1hIbmgyaUxyeGtBLWlabURjRUUtUVlFSU5aenhxaHBaRTc0dUtMZF82VjVfY2xjVzQyUWE1MUNMRlRwbS1CZklLWUE20gGgAUFVX3lxTE5kT0laUV93bDhRbFVMVERhYnB2TFlYODlFcTFhTktJRnVsSk9qSkR6X09FVnJFQzJFT19SYi14VDE3ZE51b0xnRnBab2I2ckdQQjAwS0FEZDhZNjBDWEhuaDJpTHJ4a0EtaVptRGNFRS1RWUVJTlp6eHFocFpFNzR1S0xkXzZWNV9jbGNXNDJRYTUxQ0xGVHBtLUJmSUtZQTY?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/C4IWXQJLUFC7PKQBDVHRJCYFKM.jpg?auth=92649ac2c65a2c7007be2131c144acaf325b9c0ef2466b1d94267c4bfa404d12&width=750&height=393&smart=true",
+              "url": "https://biz.chosun.com/industry/business_info/2026/11/20/PI2FKQLNLVE2HOI44DUPBM4HS4/?outputType=amp"
+            },
+            {
+              "name": "피앤피뉴스",
+              "title": "LA에 ‘K뷰티 하우스’ 정식 오픈…국내 중소 화장품 기업 美 진출 지원",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4YUlhVTZTRXd1dTJNZGRGbGV2QzgyekZNXy1uLW1HMWdDS2Y2VVBTR0NFN1lycTU5VFVRU2FWdndaSTFZVERWR091MlNRYUVZOHQ5RTY2SG56LTIxMVE?oc=5",
+              "image": "https://www.gosiweek.com/news/data/2026/11/20/p1065589988492767_141_thum.jpg",
+              "url": "https://www.gosiweek.com/article/1065589988492767"
+            },
+            {
+              "name": "한국섬유신문",
+              "title": "K뷰티 하우스, 美 LA 개소…중소 화장품 판로 지원",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9scDBVTEpJdkZTMHZMbUNIZWdSZERLaEVXWTNtdUdBWUNWUHJMVGVNYVJfZEpjS1pOWUVoYXFMNGx4ZDlybTh5RFQ4bC1IcGhBeDJZNE5WRjBrMi04amxuVjl5c3lHX18y?oc=5",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150358_133917_5022_v150.jpg",
+              "url": "https://www.ktnews.com/news/articleView.html?idxno=150358"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "현대백화점그룹, 5억원으로 한부모가족 주거환경 개선",
+          "summary": "현대백화점그룹은 한부모가족 주거환경 개선을 위해 5억원을 지원했다.",
+          "source": "인사이트코리아",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GUG9oWWJ0MHk2TUFFZnZzU3p2R0ZOaVBMMl9BQ0hEcWhWV3NDM3Y1VF9CZVFKcngxMVhXRkhvbXNfak1zb1FJYk9iRFJtc3FJWDZrNGI4V3E2OUZXVmRzSS1QcGVxNmdIb3d2QnpUc1N2ZUNnYjFN0gF3QVVfeXFMTkZQb2hZYnQweTZNQUVmdnNTenZHRk5pUEwyX0FDSERxaFZXc0MzdjVUX0JlUUpyeDExWFdGSG9tc19qTXNvUUliT2JEUm1zcUlYNms0YjhXcTY5RldWZHNJLVBwZXE2Z0hvd3ZCelRzU3ZlQ2diMU0?oc=5",
+          "original_title": "현대백화점그룹, 한부모가족 주거환경 개선에 5억원 지원",
+          "coverage": 15,
+          "sources": [
+            {
+              "name": "인사이트코리아",
+              "title": "현대백화점그룹, 한부모가족 주거환경 개선에 5억원 지원",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GUG9oWWJ0MHk2TUFFZnZzU3p2R0ZOaVBMMl9BQ0hEcWhWV3NDM3Y1VF9CZVFKcngxMVhXRkhvbXNfak1zb1FJYk9iRFJtc3FJWDZrNGI4V3E2OUZXVmRzSS1QcGVxNmdIb3d2QnpUc1N2ZUNnYjFN0gF3QVVfeXFMTkZQb2hZYnQweTZNQUVmdnNTenZHRk5pUEwyX0FDSERxaFZXc0MzdjVUX0JlUUpyeDExWFdGSG9tc19qTXNvUUliT2JEUm1zcUlYNms0YjhXcTY5RldWZHNJLVBwZXE2Z0hvd3ZCelRzU3ZlQ2diMU0?oc=5",
+              "url": "https://www.insightkorea.co.kr/news/articleViewAmp.html?idxno=259433"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "현대백화점그룹, 한부모가족 생활시설 개선에 5년간 5억원 지원",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOTZZUXhOWlFnakczcEdlQUE3d0dLVmJmdDluX1RjM3IyYzdpS3JtSFNfYV9laEJiWmFGdjNoczhvdmY3X3lrMGh2cTFKaHZpdnk0bHRJTlpUQW5fa2hkTDQwRG85OHFqUG1RYm0xaEh5WmVpMTNpT0p2Tmw4dWktNUp1blZLS0dEeEt1UFhpd2did2pxLXBKY1BzdXFQd9IBngFBVV95cUxQOTZZUXhOWlFnakczcEdlQUE3d0dLVmJmdDluX1RjM3IyYzdpS3JtSFNfYV9laEJiWmFGdjNoczhvdmY3X3lrMGh2cTFKaHZpdnk0bHRJTlpUQW5fa2hkTDQwRG85OHFqUG1RYm0xaEh5WmVpMTNpT0p2Tmw4dWktNUp1blZLS0dEeEt1UFhpd2did2pxLXBKY1BzdXFQdw?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/MNSWEMJRMVSTEZJRMJTGKNZXMI.jpg?auth=7046eb836c8aad8171822292a06ed94c3b8d0bd931bf2422cd86d067974a344d&width=1200&height=630&smart=true",
+              "url": "https://biz.chosun.com/distribution/channel/2026/11/20/2TDLUXBNOZCG5NDVQ4YGOKBFWY/?outputType=amp"
+            },
+            {
+              "name": "열린뉴스통신",
+              "title": "\"계열사 인테리어 역량 결합\"…현대백화점그룹, 전남광주 한부모가족 주거 환경 개선",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfa2NUMGkwdFFPdHY4ODEwOEdabzhPclhpRzg0M2RMbV9XdU1XYVpMX2h6WlBUYnowZWZ1bmdTcDRiMU16dWJvSkxGYnhCSTRUTzVxZFBnYXBzTm0tZjRSWWdQdmw?oc=5",
+              "image": "https://cdn.onews.tv/news/thumbnail/202611/292201_354269_3725_v150.jpg",
+              "url": "http://www.onews.tv/news/articleView.html?idxno=292201"
+            },
+            {
+              "name": "스마트경제",
+              "title": "현대백화점그룹, 한부모가족 주거환경 개선…5년간 5억원 지원",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WRzVYQzNycUxEclF3Y2w1UVhZTFhnTVNmQWNURXh4Z2tiazRKRGRwX2tTVDZqd1F4OVVDamowVEdEYjBQRXNORFJheG5zaklNUVZHamprUGFSR0g0U1RMQTNoWWc2eFdDSXJEcjl3WQ?oc=5",
+              "image": "https://cdn.dailysmart.co.kr/news/photo/202611/132914_132192_37.jpg",
+              "url": "http://www.dailysmart.co.kr/news/articleView.html?idxno=132914"
+            },
+            {
+              "name": "뉴시스",
+              "title": "현대백화점, 그룹 역량 모아 한부모가족 보금자리 개선 5억 지원",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oamY5TDJ0RXVKTXpLVHZIeGRWcE5jOWx0c2x2YlNFOHhIWUd3LWZfV19vSnItVGhSZWozTVlTX2lUd09xdkNtN3RSOWxfMDh5MVB2aHhQMTgtQ0d6dE0wZ2VCNld3dVBMZ05HVlNILTQ1NkEyOXRGM9IBeEFVX3lxTE9oamY5TDJ0RXVKTXpLVHZIeGRWcE5jOWx0c2x2YlNFOHhIWUd3LWZfV19vSnItVGhSZWozTVlTX2lUd09xdkNtN3RSOWxfMDh5MVB2aHhQMTgtQ0d6dE0wZ2VCNld3dVBMZ05HVlNILTQ1NkEyOXRGMw?oc=5",
+              "image": "https://img1.newsis.com/2026/11/20/NISI20261120_0002298159_web.jpg",
+              "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261120_0003877163"
+            }
+          ]
+        },
+        {
+          "headline": "콜마비앤에이치, 영국 부츠에 16종 웰니스 제품 공급",
+          "summary": "콜마비앤에이치는 영국 헬스·뷰티 기업 부츠에 16종의 웰니스 제품을 공급했다.",
+          "source": "메가경제",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fYkJkWDd1ZVpJNHVMTEZCVzdVMHlqYXQ2LVJZMnEyUUdzVzRYU2RjLUdEWXZPNWRpLXh4Vi1IczN6T29rdVBDRTM2VEZRTF9ZSmdleExlNXhyQ0tYR3pvdFlRU1lqaHROVXRpOC04SWhNY3N60gFyQVVfeXFMTk9kbnhFandwQkkyMi1CT0kwVkQtOGNrOW1VTDhPXzcwQ0gzRmFIdG9FSE5BMlZoRTF5RFNSS3lWc3lTMDItOWdOYm41Rm5vUDdRdENCVE5mSS1rY0tHNUoxUHRfaTg1UDE1Q2wtVHhURFlR?oc=5",
+          "original_title": "콜마비앤에이치, 英 부츠 돌파…K-웰니스 16종 유럽시장 공급",
+          "coverage": 11,
+          "sources": [
+            {
+              "name": "메가경제",
+              "title": "콜마비앤에이치, 英 부츠 돌파…K-웰니스 16종 유럽시장 공급",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fYkJkWDd1ZVpJNHVMTEZCVzdVMHlqYXQ2LVJZMnEyUUdzVzRYU2RjLUdEWXZPNWRpLXh4Vi1IczN6T29rdVBDRTM2VEZRTF9ZSmdleExlNXhyQ0tYR3pvdFlRU1lqaHROVXRpOC04SWhNY3N60gFyQVVfeXFMTk9kbnhFandwQkkyMi1CT0kwVkQtOGNrOW1VTDhPXzcwQ0gzRmFIdG9FSE5BMlZoRTF5RFNSS3lWc3lTMDItOWdOYm41Rm5vUDdRdENCVE5mSS1rY0tHNUoxUHRfaTg1UDE1Q2wtVHhURFlR?oc=5",
+              "image": "https://megaeconomy.co.kr/news/data/20261120/p1065609204575178_920_thum.jpg",
+              "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065609204575178"
+            },
+            {
+              "name": "메디컬투데이",
+              "title": "콜마비앤에이치, 영국 헬스앤뷰티 '부츠'에 웰니스 제품 16종 공급",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XcGVRbUQ1RWJDdVR4WTd4YTZrVmtDaDhBanB0OUpybWZtZkVCOVZjYzVzLWRsVGdlMkhheGtaOFBnTXExVjZXZzJkNXZTY0JuX1ZOb0E5SEpwX1dnc2REWmQxY1NoMXdLZ1NXaA?oc=5",
+              "image": "https://cdn.mdtoday.co.kr/news/photo/202611/626652_336193_156.jpg",
+              "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=626652"
+            },
+            {
+              "name": "파이낸셜투데이",
+              "title": "콜마비앤에이치, 영국 헬스·뷰티 기업 ‘부츠’에 웰니스 제품 16종 공급",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SM0llckZjUXl1YlJJeXhzRjdWMnlTZF9VRkc5eWUwQ09LZEVzZkpCVlZrN2wtZ1RsQ3Q3SHVsWl9WVEVPQmhQSzZTVXFJV1paYVN5bHhKUXk0ejFncFJjNldVdUMyYnZHWXfSAW5BVV95cUxNUy1hQ3pHUWR2YkpGVGdMaXg5WU9kNVZETGtBcjhmZ3FIZlRGbkZPOEh0WmU3YUtjbVlxYm1hVzhsQ2ZZNnVXem5sc2Eyb2VJTnVnNFF1dzFLWGRsc1IxOTMteVdWY29EdWh4Y0puZw?oc=5",
+              "image": "https://cdn.ftoday.co.kr/news/thumbnail/202611/370215_380477_249_v150.jpg",
+              "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=370215"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "콜마비앤에이치, 영국 부츠에 K-웰니스 16종 출격",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VZEx5SGFSMVZsVnByQXZMeFBndGRsRzdQRl9UTUJrUTRCS1lkQTM3dEtwaUxEMkVYYUdGR1ZhQ1QxUmNkX1JwV0FUamNnQjNfaWhVcnRDOFpweUN0OUgzNWc4LXdENmJ1YzJDTi1RS3hlbVlO?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/photo/202611/302284_404443_1111.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=302284"
+            },
+            {
+              "name": "보건신문",
+              "title": "콜마비앤에이치, 英 부츠에 'K-웰니스' 16종 공급",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVODE1bk1UTlZHQUM4QjFUUkJDUnphMUl0SDVMOVVTM01mdVUxc19BUlpzemE4RDdtY0ExSzdNWGRXam5kcWJNMDJJS3F3ekxFU05GNnpqa0Vvb2xHS2NLTTZnNA?oc=5",
+              "image": "https://www.bokuennews.com/data/photos/cdn/20261147/art_1795157356.jpg",
+              "url": "https://www.bokuennews.com/m/m_article.html?no=287526"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "국힘, 오늘 대구서 '조작기소 특검법' 규탄 집회",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856762",
+          "original_title": "국힘, 오늘 대구서 '조작기소 특검법' 규탄 집회",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "국힘, 오늘 대구서 '조작기소 특검법' 규탄 집회",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856762",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202243010_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "국힘, 오늘 대구에서 ’조작기소특검법’ 규탄 장외집회",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VYklWVnN3TE9tMG94NHdQQ3NyemRyS1pxbmdBVjRvY3dZUFJEUGpCS1lPT1k0WWk1bzhZZlZoRVNQRkpvckJKQkZOSllJaUF1c25kVzJ5Ui1kVXhZR2UxQVhXWmFOTVU?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261120/AKR20261121052032NMP_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261121052032NMP"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "국힘, 오늘 대구서 '조작기소 특검법' 규탄 집회",
+              "link": "https://www.yna.co.kr/view/AKR20261120144500001",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/14/PYH2026111404680005100_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "'성북구 10대 살해' 피의자 아들, 미성년자의제강간 혐의 기소",
+          "summary": "",
+          "source": "MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OS3JfNHVid3V2cG14c2lWOWpkTHhjTi00bVdzNmhQcmFSRnBSTWhJQ2RLcHVaTVFYNEhTd0E0X2hlUVE1YS1MMFhzcTIwWTZHRzd0YVlVeGhqV1ZMVlpxcTZTenBpTmlDX25YSUFrMkNjemFCbExR0gF3QVVfeXFMTXN6Wm0zQWI0MWZaQ0ZZZVJtM3hPRmVsQlhkczluTGRqS2stZDE5b3lZZDBHZEdpOXV6d3FNaG9hb1pFT0ZDcWpXRzVMTG45dDR6QjRoUVJSNjIwVkFRUl9ldTB5dHRDRjI4NHhWeUx1anFKU194bzQ?oc=5",
+          "original_title": "'성북구 10대 살해' 피의자 아들, 미성년자의제강간 혐의 기소",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "MBC 뉴스",
+              "title": "'성북구 10대 살해' 피의자 아들, 미성년자의제강간 혐의 기소",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OS3JfNHVid3V2cG14c2lWOWpkTHhjTi00bVdzNmhQcmFSRnBSTWhJQ2RLcHVaTVFYNEhTd0E0X2hlUVE1YS1MMFhzcTIwWTZHRzd0YVlVeGhqV1ZMVlpxcTZTenBpTmlDX25YSUFrMkNjemFCbExR0gF3QVVfeXFMTXN6Wm0zQWI0MWZaQ0ZZZVJtM3hPRmVsQlhkczluTGRqS2stZDE5b3lZZDBHZEdpOXV6d3FNaG9hb1pFT0ZDcWpXRzVMTG45dDR6QjRoUVJSNjIwVkFRUl9ldTB5dHRDRjI4NHhWeUx1anFKU194bzQ?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/21/jhp_20261121_6.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6867426_36918.html"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "’성북구 10대 살해’ 피의자 아들, 피해자 성범죄 혐의로 기소",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FanhVX0NQWlExclN4UWNRWlBPRFNmSE9tcWxTTEpablZHZVVfanFHcW9NWTRGNU1EX1kyVjFpYmJZRGxWWWN3RkFldEhUSkt5eFJ4eHRuY3pneU04YUJCekhWY3I2S1E?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261120/AKR20261120230604PzB_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261120230604PzB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "미중러 정상회담 북핵 논의",
+          "summary": "미중러 정상회담에서 북한 문제를 논의했다는 트럼프의 발언이 주목된다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856640",
+          "original_title": "트럼프 \"미중러 정상, '한반도' 관련 논의\"…'북핵' 다뤘나",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"미중러 정상, '한반도' 관련 논의\"…'북핵' 다뤘나",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856640",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202242996_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 \"미중러 정상회담서 한반도 위험 대응 논의했다\"",
+              "link": "https://www.yna.co.kr/view/AKR20261121017500071",
+              "image": "https://img8.yna.co.kr/photo/etc/epa/2026/11/21/PEP20261121044001009_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "트럼프 “미중러 3자 회담서 한반도 위험 대응 논의했다”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261121/135064373/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/21/135064374.1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "미래에셋, AWS 기반 AI 검색 서비스 개시",
+          "summary": "미래에셋증권은 AWS 기반 금융상품 지식 AI 검색 서비스를 내년 고객 서비스 확대를 위해 본격 운영했다.",
+          "source": "더트래커",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UQ0pRcGExSTI4ZzdHWGxncnVadDJRQld3OGk5bUU1dnY4UXpDQUFBWWRwa3VZZHdfMkxQNDE4UVU3bW9NdEdNR3NnREk5aDFqS0VfcWxYOXA?oc=5",
+          "original_title": "미래에셋증권, AWS 기반 금융상품 AI 검색 가동…내년 고객 서비스 확대",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "더트래커",
+              "title": "미래에셋증권, AWS 기반 금융상품 AI 검색 가동…내년 고객 서비스 확대",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UQ0pRcGExSTI4ZzdHWGxncnVadDJRQld3OGk5bUU1dnY4UXpDQUFBWWRwa3VZZHdfMkxQNDE4UVU3bW9NdEdNR3NnREk5aDFqS0VfcWxYOXA?oc=5",
+              "image": "https://cdn.coenworks.com/Files/478/News/202611/8519_20261120145531222.jpg",
+              "url": "https://thetracker.co.kr/View.aspx?No=4322379"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "미래에셋증권, AWS 기반 '금융상품 지식 AI 검색' 본격 운영",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WVF92cWdVaVU1T1p1RGNmY3h0ckFrYS1WSHJYZUlDdThzZGxCUEh4LWhhZ1Z0aUprVDFJX3VUbzQxUVZEeUV5NHU1M3VBN3ZLaVlKX0ZId1R2dw?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/11/20/202611201213334617_e.png",
+              "url": "https://www.fnnews.com/news/202611201213146909"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "[게시판] 미래에셋, '금융상품 지식 AI 검색' 서비스 개시",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBud1pBeHNrNnQ1YW5LM1lvQ1I1RmluMUJ1WFlZQXpfd2EwTDkwc3VIS2FlWFJxeHRvYzVYMzRWZTF6Yl9OU255MnJNWXNXUU4tclltTHJ5Ukxnc3PSAWBBVV95cUxOU082TzVmWmVQVW53MTVFQkhqR1dxcDdhdnRlMU1WX2JacFU1OFpxZWQxSjNxamNreXluX3pyVFJ6MjZ3V1JtcFhSRGNfZVRYWGVKd1lIM290R1cyS29yaUw?oc=5",
+              "image": "https://img9.yna.co.kr/etc/inner/KR/2026/11/20/AKR20261120085800008_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261120085800008"
+            },
+            {
+              "name": "리드경제",
+              "title": "미래에셋증권, AI에 질문하면 금융상품 정보 한눈에…내년 고객 서비스 확대",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOMlVPRkt5czllNE1kSHgwTnkyWFVBZmFMM2J1ZDRjWi1ueHhnMW9qeFVPM1J1REV5ZFVrYUkyODZESmxVTjJWem9rem1ZMkNIQ1BPVnlNU0Noa1J4VGUxc2JJQ2RXX2ZSYTNkYTdPTko?oc=5",
+              "image": "https://cdn.leadeconomy.co.kr/news/photo/202611/11403_11445_732.png",
+              "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=11403"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "폭설, 개봉 첫 주말 박스오피스 1위 300만 관객 돌파",
+          "summary": "김윤석·구교환 주연의 영화 '폭설'이 개봉 첫 주말에 박스오피스 1위를 기록하고 300만 관객을 돌파했다.",
+          "source": "재경일보",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5fTXJFSEV4YTcybTdFMUdTMjQ4ZzcyUGlQSlFrVnd6ZGpLYVRJbUo2ZzJHTjRubk5DckR0ZzBRUm05SUYxSlgzTTNvcw?oc=5",
+          "original_title": "김윤석·구교환 ‘폭설’, 개봉 첫 주말 박스오피스 정상…치이카와 300만 돌파 : 문화",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "재경일보",
+              "title": "김윤석·구교환 ‘폭설’, 개봉 첫 주말 박스오피스 정상…치이카와 300만 돌파 : 문화",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5fTXJFSEV4YTcybTdFMUdTMjQ4ZzcyUGlQSlFrVnd6ZGpLYVRJbUo2ZzJHTjRubk5DckR0ZzBRUm05SUYxSlgzTTNvcw?oc=5",
+              "image": "https://images.jkn.co.kr/data/images/full/112/36/1123670.jpg?v=1795221425&width=1200&height=630",
+              "url": "https://news.jkn.co.kr/post/1111744"
+            },
+            {
+              "name": "싱글리스트",
+              "title": "김윤석·구교환 '폭설', 박스오피스 1위 수성…개봉 3일 만에 18만 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RakNhVDRyYTBGUDBaeWZhbTBSZjFTdnZnZnYzMHlrek9NOG1CMHV3elYxZEx4ekVlaVo1MFVYXzZIUmI0b0podmt3VUFnMWxlS2R3dXZWWnpNYzNwZzRTUFVReWg5dw?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202611/783592_1196443_2349_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=783592"
+            },
+            {
+              "name": "ER 이코노믹리뷰",
+              "title": "21일에 '폭설'·'폴2' 20만·'극장판 치이카와' 300만 돌파 [11월 20일 영화 박스오피스]",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xZUNPNWdtbVBTYkNLVFpOREc1cWlWTzU3YU12MUdVdVVxUXZCeUQtUnFZa2haVFhHMHhuUmVoYnJUWl9oT3Q4WTY5RzEyVU9tTzNhM1RwUU9rUUtOVFhsQ1pyT3YyVzlENzlMTg?oc=5",
+              "image": "https://cdn.econovill.com/news/thumbnail/202611/758054_736136_3112_v150.jpg",
+              "url": "https://www.econovill.com/news/articleView.html?idxno=758054"
+            },
+            {
+              "name": "맥스무비",
+              "title": "[박스오피스] 김윤석·구교환 '폭설' 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zcDZzR0hBbzJSZm5YeldGTWNvdkFzQVBDS2JlXzRyVmlzRUZENERKLTZCZzVPNTk4bmxLbDhqUzBtY3pZbGhkM3ZSRUw3RlNjVFkzVG5sUk5ydjJBYjVJNUdoZnJUMEdrN05B?oc=5",
+              "image": "https://cdn.maxmovie.com/news/photo/202611/503075_44346_3350.jpg",
+              "url": "https://www.maxmovie.com/news/articleView.html?idxno=503075"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "김아림, LPGA 시즌 최종전 2R서 홀인원…3타 차 선두 수성",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856775",
+          "original_title": "김아림, LPGA 시즌 최종전 2R서 홀인원…3타 차 선두 수성",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "김아림, LPGA 시즌 최종전 2R서 홀인원…3타 차 선두 수성",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856775",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202243015_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'홀인원' 김아림, LPGA 시즌 최종전 투어 챔피언십 이틀 연속 선두",
+              "link": "https://www.newsis.com/view/NISX20261121_0003877543",
+              "image": "https://img1.newsis.com/2026/11/21/NISI20261121_0001766170_web.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "김아림, LPGA 투어 최종전 2라운드서 홀인원‥3타 차 선두",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2MXpwTWVhaDNHcEZPaFp6NjRDbGRHa3M2a09MWk5Lcl9QU2J0LXhMc01sYk9BNzZFR2o3M05sZ1k4Q2VUd3dyNmd0c2xlTnRZYVdXQTBmSGFDbkZlenNjTk1vMFE5Y3VseENZMzNCazAxVE9CNEHSAXZBVV95cUxQRmRUVGhXaW13bWNBYlk0LW9yMVhaUEpQa3J6eVpUY21JU1pseWpsZEw4clFnMkxBUFN0MjViUWdweHlJUm5yWC1kbEtDTlFVWEpFWUNuZmk5VUZvV2ZRdWIycWpTaTlwSXZNMzlqQ2Q3R3V3T1Bn?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/sports/article/__icsFiles/afieldfile/2026/11/21/jhp_20261121_27.jpg",
+              "url": "https://imnews.imbc.com/news/2026/sports/article/6867444_36946.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김아림, LPGA 투어 시즌 최종전 2R서 홀인원…3타 차 선두 수성",
+              "link": "https://www.yna.co.kr/view/AKR20261121016100007",
+              "image": "https://img4.yna.co.kr/photo/etc/gt/2026/11/21/PGT20261121102001009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "피겨 김서영, 시니어 그랑프리 5차 쇼트 3위…개인 최고점",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856772",
+          "original_title": "피겨 김서영, 시니어 그랑프리 5차 쇼트 3위…개인 최고점",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "피겨 김서영, 시니어 그랑프리 5차 쇼트 3위…개인 최고점",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856772",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202243013_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "피겨 김서영, 5차 그랑프리 쇼트 3위…김유성·이해인도 메달 도전",
+              "link": "https://www.newsis.com/view/NISX20261121_0003877544",
+              "image": "https://img1.newsis.com/2026/11/21/NISI20261121_0002298533_web.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "피겨 김서영, 개인 최고점으로 시니어 그랑프리 5차 쇼트 3위",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vWW9RV1VrUy1zMFZsNEl6Qk9WUktSdVc0anpadUF6NllMcmo0OUpuZ3k5WDZaU2ZnRkExNC10eThOUk1wMnZTajZna2Q1RGtqMk5lb2hRYnRSb3FUVFJ5ZHlFbG0tUldUSGt1TWlTZ0JXdlkyZmfSAXZBVV95cUxPVWNEemFaYnF1Q1BzSFI4dmRvOGdLa0xiMU5hNzVzTEpUMkpBZ09zRkN6Nzlnb1MxVnNLd2FFeEdHdENBcFpIWTZBejljdjdlUi1GRlpjSjVCWVZwTnRheVlnRlJQUTR2NUZ3TE9iLU1lY0VWbFVn?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/sports/article/__icsFiles/afieldfile/2026/11/21/jhp_20261121_29.jpg",
+              "url": "https://imnews.imbc.com/news/2026/sports/article/6867446_36946.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "피겨 김서영, 시니어 그랑프리 5차 쇼트 3위…개인 최고점",
+              "link": "https://www.yna.co.kr/view/AKR20261121000500007",
+              "image": "https://img9.yna.co.kr/photo/yna/YH/2025/02/12/PYH2025021216450001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "겨울 코트가 어두울수록 바지는 눈부셔야 합니다",
+    "tagline": "ELLE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 1,
+      "t_min": -4,
+      "rain_pct": 0,
+      "sky": "맑음",
+      "display": "서울 -4~1°C · 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "겨울 코트가 어두울수록 바지는 눈부셔야 합니다",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1913456",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/11/21/fc9d18db-332e-4cc3-af0e-d5cadcd1c2ee.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "우리는 현실보다 상상 속에서 더 자주 괴로워한다.",
+    "author": "세네카",
+    "work": "루킬리우스에게 보내는 편지"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 흐른다"
+      },
+      {
+        "animal": "소",
+        "text": "사과 한 입, 기분 상승"
+      },
+      {
+        "animal": "호랑이",
+        "text": "활동적 에너지로 계획 완성"
+      },
+      {
+        "animal": "토끼",
+        "text": "부드러운 대화가 흐름"
+      },
+      {
+        "animal": "용",
+        "text": "창의력 폭발, 새로운 시도를"
+      },
+      {
+        "animal": "뱀",
+        "text": "깊은 생각이 길을 열어준다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 발걸음이 즐거움을"
+      },
+      {
+        "animal": "양",
+        "text": "따뜻한 손길이 마음을 채워"
+      },
+      {
+        "animal": "원숭이",
+        "text": "지혜로운 선택이 보상을 안겨"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성공을 이끈다"
+      },
+      {
+        "animal": "개",
+        "text": "친절한 마음이 새로운 인연을"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복한 순간이 풍성하게 찾아"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
