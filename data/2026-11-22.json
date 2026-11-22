@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-22",
+  "weekday": "일요일",
+  "vol": 41,
+  "generated_at": "2026-11-22T09:13:08+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4869.96,
+      "change": -267.93,
+      "change_pct": -5.21,
+      "direction": "down",
+      "display": "4,869.96",
+      "change_display": "▼ 5.21%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1334.8,
+      "change": 4.4,
+      "change_pct": 0.33,
+      "direction": "up",
+      "display": "1,334.8원",
+      "change_display": "▲ 0.33%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 82881000.0,
+      "change": 281000.0,
+      "change_pct": 0.34,
+      "direction": "up",
+      "display": "8,288만원",
+      "change_display": "▲ 0.34%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 4,
+    "t_min": -4,
+    "rain_pct": 0,
+    "sky": "대체로 맑음",
+    "display": "서울 -4~4°C · 대체로 맑음 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "주식",
+      "headline": "삼전닉스 주가 급락 무디스 실적 전망 논란",
+      "summary": "삼전닉스의 주가가 급락하면서 개미 투자자들이 한숨을 쉬었으며, 무디스는 내년 실적 호조를 전망했다.",
+      "source": "데일리25",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90S3piOGFuTUx5RVJYLV9lc0w4VnNxSkRMbU1NMGNEQzRNWW85a3BZc3R6REFEMlV4T2J6UjVMb09fVVVvV0tTdm9DbW1HMWRfa05YazYtaGE4SDVIMndpQVVvVDJONlcxdUdxSA?oc=5",
+      "original_title": "삼전닉스 폭락에 개미들 한숨인데…무디스는 왜 ‘내년 실적 호조’를 전망했나",
+      "sources": [
+        {
+          "name": "데일리25",
+          "title": "삼전닉스 폭락에 개미들 한숨인데…무디스는 왜 ‘내년 실적 호조’를 전망했나",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90S3piOGFuTUx5RVJYLV9lc0w4VnNxSkRMbU1NMGNEQzRNWW85a3BZc3R6REFEMlV4T2J6UjVMb09fVVVvV0tTdm9DbW1HMWRfa05YazYtaGE4SDVIMndpQVVvVDJONlcxdUdxSA?oc=5",
+          "image": "https://cdn.daily25news.com/news/photo/202611/9236_11331_230.jpeg",
+          "url": "https://www.daily25news.com/news/articleView.html?idxno=9236"
+        }
+      ]
+    },
+    {
+      "kicker": "주거",
+      "headline": "부동산 거래 지연, 시장 판단 기준은 어디인가",
+      "summary": "매매와 전세가 모두 막히면서 부동산 시장의 향후 방향을 판단하기 위한 기준이 논의되고 있다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261118_0003873204",
+      "original_title": "\"매매도 전세도 막히면 어디로 가나\"…향후 부동산 시장 판단 기준은",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "\"매매도 전세도 막히면 어디로 가나\"…향후 부동산 시장 판단 기준은",
+          "link": "https://www.newsis.com/view/NISX20261118_0003873204",
+          "image": "https://img1.newsis.com/2026/11/18/NISI20261118_0002295632_web.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "제약",
+      "headline": "알테오젠, 미국 특허심판 14건 전승으로 판매금지 해제",
+      "summary": "알테오젠이 미국에서 14건의 특허심판을 전승하며 독자 판매금지를 해제했다.",
+      "source": "팜이데일리",
+      "link": "https://pharm.edaily.co.kr/News/Read?newsId=02630566645647688",
+      "original_title": "알테오젠, 美 특허심판 14건 전승 이어 獨 판매금지 해제",
+      "sources": [
+        {
+          "name": "팜이데일리",
+          "title": "알테오젠, 美 특허심판 14건 전승 이어 獨 판매금지 해제",
+          "link": "https://pharm.edaily.co.kr/News/Read?newsId=02630566645647688",
+          "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26112000645.jpg"
+        },
+        {
+          "name": "Chosunbiz",
+          "title": "알테오젠 기술 적용 항암제, 獨서 판매금지 가처분 풀려…할로자임 본안소송 예고",
+          "link": "https://biz.chosun.com/science-chosun/bio/2026/11/20/TP4CLPMHPZEPFJOH7G6LJ2KJWU/",
+          "image": "https://biz.chosun.com/resizer/v2/CFKJSV7X35DQJPZQKQDJIWOJFU.png?auth=3cc338585ad29927613064fe5ed0482a3ec35633407c8032228d6b90e0e1ab15&width=573&height=300&smart=true"
+        },
+        {
+          "name": "재경일보",
+          "title": "MSD 美 특허심판 14건 전승…알테오젠 주가 상승 : 한국증시",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtQzczSmJQbG5PNGkyMDNIYTNPV0d6SXhYY1ZVUm5MMTVkVnZHQTdVaUNCZHBNSjRSOFFwUldaSTRZMkFzZUEyUWdqQQ?oc=5",
+          "image": "https://images.jkn.co.kr/data/images/full/112/38/1123849.jpg?width=1200&height=630",
+          "url": "https://news.jkn.co.kr/post/1111928"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "대만, 급락장에 공매도 금지 확대",
+          "summary": "대만 정부가 주식시장 급락에 대응해 직전 거래일 종가 미만 공매도를 금지했다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261121044000083",
+          "original_title": "대만, 잇단 급락장에 \"직전 거래일 종가 미만 공매도 금지\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "대만, 잇단 급락장에 \"직전 거래일 종가 미만 공매도 금지\"",
+              "link": "https://www.yna.co.kr/view/AKR20261121044000083",
+              "image": "https://img9.yna.co.kr/photo/etc/epa/2026/11/06/PEP20261106226701009_P4.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "대만, 잇단 급락장에 “직전 거래일 종가 미만 공매도 금지”",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aV2JJMUdHN29NcGRFWWFoUlVRYTl0bWh2Y0N5YU1iTXplcWU2dHdsOHp4YzEzYktRWXE1VDUwUXZrd25PUWRndDY3SVBEbmhwSEk1emVJeEJVWUE?oc=5",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8719168"
+            }
+          ]
+        },
+        {
+          "headline": "AI 테마 주가 급락, 글로벌 시장 조정",
+          "summary": "AI 테마 주가가 악재에 흔들리며 글로벌 주식시장이 급격히 조정됐다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261121000200008",
+          "original_title": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나",
+              "link": "https://www.yna.co.kr/view/AKR20261121000200008",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112014050001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "구찌 가방 95만원 인하",
+          "summary": "구찌가 95만원에 가방 가격을 인하했다. 명품업계의 가격 인하 트렌드가 이어진다.",
+          "source": "SeattleN",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5BTDNEcW5OYVBEODhsWURhZmNEcFF6a3hKeXB3NUU3ek5CV3lWM3hacXN2WFkxUllzekY2TnJMTjhxS1hRWThaRnVR?oc=5",
+          "original_title": "\"구찌 가방 95만원 내렸다\"…콧대 높던 명품업계 잇단 가격 인하, 왜? > 시애틀 뉴스/핫이슈",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "SeattleN",
+              "title": "\"구찌 가방 95만원 내렸다\"…콧대 높던 명품업계 잇단 가격 인하, 왜? > 시애틀 뉴스/핫이슈",
+              "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5BTDNEcW5OYVBEODhsWURhZmNEcFF6a3hKeXB3NUU3ek5CV3lWM3hacXN2WFkxUllzekY2TnJMTjhxS1hRWThaRnVR?oc=5",
+              "url": "https://www.seattlen.com/hot/70414"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "한국콜마, 공장 확장으로 K뷰티 주문 대응",
+          "summary": "한국콜마가 K뷰티 주문 증가에 대응해 공장을 확장했다.",
+          "source": "쿠키뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50N3l1NWRzWHVVNW5pQVRqaUFuWW96bFdLdzFFcDNtM0RINHcyMzd2cjFDSDh1c3VJdUVwOVNkUVI0MHphUTIweHZiZmptaFRxM2RyajRpZ3dkcU5kMEEtcTF6bw?oc=5",
+          "original_title": "밀려드는 K뷰티 주문에 공장도 커진다…한국콜마, 생산 확대로 승부수",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "쿠키뉴스",
+              "title": "밀려드는 K뷰티 주문에 공장도 커진다…한국콜마, 생산 확대로 승부수",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50N3l1NWRzWHVVNW5pQVRqaUFuWW96bFdLdzFFcDNtM0RINHcyMzd2cjFDSDh1c3VJdUVwOVNkUVI0MHphUTIweHZiZmptaFRxM2RyajRpZ3dkcU5kMEEtcTF6bw?oc=5",
+              "url": "https://www.kukinews.com/article/view/kuk202611060164"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "하루 앉아 사망 위험↑",
+          "summary": "하루 종일 앉아 있으면 심장·암 사망 위험이 상승한다. 운동을 해도 틈틈이 움직여야 한다.",
+          "source": "세계일보",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92d3o0cjR1amMzdjJET2gwRHNTQnJpMmx2bkRwZkpjNUxGMDlnR0J6Yzd4WFN5V044TnUzUnh6N3JUR3BWRUFxMmdDb01lc0FVTmVDLU9iMm7SAVRBVV95cUxNamFjcWdqeGluVHprUUFJTVZmbEt2bU1vN0E3ZTdEZkx6NDJlN2t6RkZ6S3NxRDhMVjhGai1vMTdTVFFZMWdPdGFuZW5SWUFyeU5DQWM?oc=5",
+          "original_title": "하루 종일 앉아 있으면 심장·암 사망 위험↑…운동해도 틈틈이 움직여야",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "세계일보",
+              "title": "하루 종일 앉아 있으면 심장·암 사망 위험↑…운동해도 틈틈이 움직여야",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92d3o0cjR1amMzdjJET2gwRHNTQnJpMmx2bkRwZkpjNUxGMDlnR0J6Yzd4WFN5V044TnUzUnh6N3JUR3BWRUFxMmdDb01lc0FVTmVDLU9iMm7SAVRBVV95cUxNamFjcWdqeGluVHprUUFJTVZmbEt2bU1vN0E3ZTdEZkx6NDJlN2t6RkZ6S3NxRDhMVjhGai1vMTdTVFFZMWdPdGFuZW5SWUFyeU5DQWM?oc=5",
+              "image": "https://www.segye.com/content/image/2026/11/21/20261121503252.jpg",
+              "url": "https://www.segye.com/newsView/20261121503214"
+            }
+          ]
+        },
+        {
+          "headline": "근력운동, 노년 인지기능 개선",
+          "summary": "근력운동이 노년층 인지기능을 개선한다. 일상생활에서 자신감이 향상될 것으로 기대된다.",
+          "source": "메디컬투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sRUttbFloaTZxd3ZYSWQ0MF9kOXhUckI0UVRTSTN1VVN6U3NJRkRLUjVDYUg5QVFvck9GeFV5dnB6RF9mUXUzNEhDcnlEZUk4SjdQQVFaODB1aFlYYnhscDlZc1V0LUdXNWdLXw?oc=5",
+          "original_title": "근력운동, 노년층 인지기능 개선에 도움…일상생활 자신감 향상도 기대",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "메디컬투데이",
+              "title": "근력운동, 노년층 인지기능 개선에 도움…일상생활 자신감 향상도 기대",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sRUttbFloaTZxd3ZYSWQ0MF9kOXhUckI0UVRTSTN1VVN6U3NJRkRLUjVDYUg5QVFvck9GeFV5dnB6RF9mUXUzNEhDcnlEZUk4SjdQQVFaODB1aFlYYnhscDlZc1V0LUdXNWdLXw?oc=5",
+              "image": "https://cdn.mdtoday.co.kr/news/photo/202611/626796_336377_5510.png",
+              "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=626796"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "이재명 대통령, 수능 부정 신고 포상금 최소 1억 원 지시",
+          "summary": "이재명 대통령은 수능 부정행위 신고자에게 최소 1억 원을 보상하겠다고 지시했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857093",
+          "original_title": "이 대통령 \"신고 포상금, 최대 1억 아닌 최소 1억 원\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이 대통령 \"신고 포상금, 최대 1억 아닌 최소 1억 원\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857093",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202243088_1280.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "이 대통령 “수능 부정 신고 포상금, 최대 1억원 아닌 건당 최소 1억원”",
+              "link": "https://www.khan.co.kr/article/202611211551001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/21/news-p.v1.20261121.048dbf63e33d44a8b1d0d61d0b2e1180_P1.jpg"
+            },
+            {
+              "name": "한국경제",
+              "title": "李 대통령 \"수능 부정 신고포상금, 건당 최소 1억 지급할 것\"",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uTlhhNGE3ODFaamRYbkVHTWNfR3N2a1d0N05xb2VnbjJ1MlMzbFdzMmJ4RlNMakMtbnlhUFlEUzh0WXA3RzFSWUtXRmFWSzVUbGZ3X3o0Mktodw?oc=5",
+              "image": "https://img.hankyung.com/photo/202611/01.46501576.1.jpg",
+              "url": "https://www.hankyung.com/article/2026112114257"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "李대통령 \"수능 부정행위 신고포상금 건당 최소 1억…행위자수만큼 가산\"",
+              "link": "https://www.yna.co.kr/view/AKR20261121039400001",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/11/20/PYH2026112011080001300_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "민주당, 조희대 대법원장 탄핵안 12월 3일 발의 공감대 형성",
+          "summary": "민주당은 조희대 대법원장 탄핵안을 12월 3일에 발의할 계획이라고 밝혔다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857099",
+          "original_title": "\"12월 3일 기점 탄핵안 발의\"…\"조희대 지킬 것\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"12월 3일 기점 탄핵안 발의\"…\"조희대 지킬 것\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857099",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202243098_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "조계원 민주 대변인 “조희대 탄핵안, 12·3 기점 발의 공감대”",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04YWRCODlpb3dieENDTTgzMFdfVWlzeEh5azFpNUFkYXl6V1VPVGVGTzlkOWRnNklqYnR0LTVmV3hNUkNFR3B4a0J3aWNkZjA3ZmhlTWRwNlpFYzg1ZXFIT0JjY2Z6bXJuWEp6dHhTNkE5MEVL?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/640/427/imgdb/original/2026/1121/20261121500371.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1288429.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "與 \"조희대 탄핵안, 12·3 '내란 2주기' 기점 발의 컨센서스\"",
+              "link": "https://www.yna.co.kr/view/AKR20261121031900001",
+              "image": "https://img8.yna.co.kr/photo/yna/YH/2026/09/09/PYH2026090918590001300_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "멕시코군, 미국 10대 지명수배자 명단 카르텔 두목 체포",
+          "summary": "멕시코군이 미국 연방수사국 10대 지명수배자 명단에 오른 차포 이시드로를 체포했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857217",
+          "original_title": "멕시코군, 미국 10대 지명수배자 명단 오른 마약 카르텔 두목 검거",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "멕시코군, 미국 10대 지명수배자 명단 오른 마약 카르텔 두목 검거",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857217",
+              "image": "https://img.sbs.co.kr/newimg/news/20261122/202243135_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "멕시코군, 미 '10대 지명수배자' 명단 오른 카르텔 두목 검거",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kUElRRW5yT2ZsdXlrVEwweDQtdHVVREdEZVZNVWtHekRtNFh4SndsNGhzNVNhRlBoaEpsUm1peXVVY1JETUZ6QzJnVERlVlpiZkVDMHNkdFVpS2JVNTNfdTRXelc4MnFqLUhLMUJlWWszVmtR0gF0QVVfeXFMTXVjT2FlaXVYRVdndVIwTUJYVlhqUDIyeW5YcHM5N3ZYRF9LQXc1UDdHX3F4R3p1QTdYQjcyeDAteHlKbDZ3U0d6RG5neDhRd0lnRy0zQmx2eF83QnVaZEpGRHJEcnNrbDdmclc2dmY4a0lNazY?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/22/yj20261121-08.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6867535_36925.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "멕시코군, 美 10대 지명수배자 명단 오른 카르텔 두목 검거(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261122000451087",
+              "image": "https://img1.yna.co.kr/etc/inner/KR/2026/11/22/AKR20261122000451087_01_i_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "이란, 신형 미사일 발사대 공개 후 유조선 3척 피격",
+          "summary": "이란이 호르무즈 해협 주변에서 신형 액체연료 미사일 2발을 발사했고, 유조선 3척이 피격되었다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261122_0003877864",
+          "original_title": "이란, 신형 미사일 발사대 공개…호르무즈 해협 주변서 유조선 3척 피격",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "이란, 신형 미사일 발사대 공개…호르무즈 해협 주변서 유조선 3척 피격",
+              "link": "https://www.newsis.com/view/NISX20261122_0003877864",
+              "image": "https://img1.newsis.com/2021/03/16/NISI20210316_0017252681_web.jpg"
+            },
+            {
+              "name": "VOA 한국어 홈페이지",
+              "title": "호르무즈 해협 주변서 유조선 3척 피격",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xTUhDOEdpR09uUE9falk5QkNrTWpENm5YMTFBLXdQVFR0ZXhSMWZpSWFURnFYZTNLOFhCQ1RkNzljMnNmX1EwTWVzSnBFM2R30gFTQVVfeXFMTXpGUVpQRjhPcG5ndUpHZ2prOTU4TVJ1SThFWFVBMmJ6Q05lUzB5dktILUUxQktxSXZzS3FwVm1aNFE1NmFHdWdndEwwUXZSTkN1d28?oc=5",
+              "image": "https://gdb.voanews.com/a809a40d-01dd-4d43-8984-43c4e850cb08_cx0_cy10_cw0_w1200_h630.jpg",
+              "url": "https://www.voakorea.com/a/8226441.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "손정의 SK하이닉스 1조달러 인수 검토",
+          "summary": "손정의 회장은 SK하이닉스 인수를 검토했고 자금 조달 가능성을 언급했다.",
+          "source": "ZDNet Korea",
+          "link": "https://zdnet.co.kr/view/?no=20261121174004",
+          "original_title": "\"손정의, SK하이닉스 1조 달러에 인수 노렸다\"",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "title": "\"손정의, SK하이닉스 1조 달러에 인수 노렸다\"",
+              "link": "https://zdnet.co.kr/view/?no=20261121174004",
+              "image": "https://image.zdnet.co.kr/2025/02/05/260feed009ad233a3fc322efa545a37e.jpg"
+            },
+            {
+              "name": "지디넷코리아",
+              "title": "\"손정의, SK하이닉스 1조 달러에 인수 노렸다\"",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80WHpUb2xlMXpSSVlNQnhFMmFHVGF5S21aY3ZEQlU2QjB3U3R6N3RVRkR0NjRLeFdBbm9aSmEtNTVsRTdtNXMtUkdXck5zc3VXRExwS2lR?oc=5",
+              "image": "https://image.zdnet.co.kr/2025/02/05/260feed009ad233a3fc322efa545a37e.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261121174004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "극장판 치이카와 300만 관객 돌파",
+          "summary": "극장판 치이카와는 개봉 53일 차에 관객 수 300만명을 돌파했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611211100021/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news",
+          "original_title": "먼작귀 ‘치이카와’ 300만명 돌파…‘토이 스토리 5’ 넘어 애니 흥행 1위",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "먼작귀 ‘치이카와’ 300만명 돌파…‘토이 스토리 5’ 넘어 애니 흥행 1위",
+              "link": "https://www.khan.co.kr/article/202611211100021/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news",
+              "image": "https://img.khan.co.kr/news/2026/11/21/news-p.v1.20261121.d466c84feb0d41458f3f744c6eb0306d_P1.jpg"
+            },
+            {
+              "name": "일간스포츠",
+              "title": "‘극장판 치이카와: 인어 섬의 비밀’, 개봉 53일째 300만 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5NUEzc2hYYlpmT2FDV1REaGQ5U3lKRUpzY3VFcjRXcGc4SkdkYlo0X0RsMDFoTXJBTGJkTTJtLWdlZGlzZFdGcnlSbGxVdzZhOUZvbGRReThjVE0?oc=5",
+              "image": "https://isplus.com/data/isp/image/2026/11/16/isp20261116000229.800x.0.jpg",
+              "url": "https://isplus.com/article/view/isp202611220010"
+            },
+            {
+              "name": "이데일리",
+              "title": "‘치이카와’ 300만 돌파…올해 애니 1위",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUUtoSGZFZGVzTTBmXzd2ZG5NYjRZa2V3cm1qUWEtbGJrTHlOMUhuOTVsbmJLdEFDZmJBTFJJS0hnNm1uTG9JM01QVXBoLTVBcU02VXZfY2JfUnhLeDJKYjczc2hPaFAxOGc3endndkNtZnJxZXN2Y2hmdFZZTUFOYQ?oc=5",
+              "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26112100425.jpg",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=02099206645648016&mediaCodeNo=257"
+            },
+            {
+              "name": "애드뉴스인천",
+              "title": "‘극장판 치이카와’ 300만 관객 돌파…올해 애니메이션 흥행 1위",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrSFZBT0ZxckFIZGp2ZmRkakZhMGxRUU9DdVlfa0ZHczByYS1LVzY1a2VtdUNSUkw0ZHRSaUxUNDdwQWRwSTdOTElqZE5yMnVnSHVrV1ZRMS12aEdvZUxacGplRnoyM3pPbWZz?oc=5",
+              "image": "https://cdn.addnewsin.com/news/photo/202611/63931_18456_542.jpg",
+              "url": "https://www.addnewsin.com/news/articleView.html?idxno=63931"
+            },
+            {
+              "name": "뉴스컬처",
+              "title": "6주 연속 주말 1위 '극장판 치이카와: 인어 섬의 비밀', 300만 돌파 '저력'",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YcTJOUnd1MWd5RWdhZHZpVkN2emIxWkV2bkd6dV9sLUQzMDdZalQwc0ZJSjdPbkdpMlhudVB5T2Z6d2t1OWg2bXVxV1BLdlVtMW93Rk1aRXdOUG15R0lwZnpCa2ZLZw?oc=5",
+              "image": "https://cdn.nc.press/news/photo/202611/631556_871807_3944.jpg",
+              "url": "https://www.nc.press/news/articleView.html?idxno=631556"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "김민선·유현조, LPGA Q시리즈 최종전 3R 공동 10위",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261122009800007",
+          "original_title": "김민선·유현조, LPGA Q시리즈 최종전 3R 공동 10위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "김민선·유현조, LPGA Q시리즈 최종전 3R 공동 10위",
+              "link": "https://www.yna.co.kr/view/AKR20261122009800007",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102503400005400_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "유현조, LPGA Q시리즈 최종전 2R 공동 6위…김민선 공동 21위",
+              "link": "https://www.newsis.com/view/NISX20261121_0003877581",
+              "image": "https://img1.newsis.com/2026/11/06/NISI20261106_0002285467_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "유현조, LPGA 퀄리파잉 시리즈 2R 공동 6위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856776",
+              "image": "https://img.sbs.co.kr/newimg/news/20261121/202243016_1280.jpg"
+            },
+            {
+              "name": "뉴스1",
+              "title": "유현조, LPGA Q시리즈 2R 공동 6위 도약…미국 무대 진출 청신호",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nMXhGbUtZX2J4RUhHLWRoTldGZDV2N2ZuekdWMWJRM2NHVjRPS1F4TFpxeVYxc2VpT3ZjT2t3QnNuSVFjY3ppWHRZTXhIdlhEMGc?oc=5",
+              "url": "https://www.news1.kr/sports/golf/6361526"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "시계 기술 적용한 F1 레이싱 슈트, 월드 챔피언이 입는다",
+    "tagline": "GQ Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 4,
+      "t_min": -4,
+      "rain_pct": 0,
+      "sky": "대체로 맑음",
+      "display": "서울 -4~4°C · 대체로 맑음 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "시계 기술 적용한 F1 레이싱 슈트, 월드 챔피언이 입는다",
+        "name": "GQ Korea",
+        "link": "https://www.gqkorea.co.kr/2026/11/22/%ec%8b%9c%ea%b3%84-%ea%b8%b0%ec%88%a0-%ec%a0%81%ec%9a%a9%ed%95%9c-f1-%eb%a0%88%ec%9d%b4%ec%8b%b1-%ec%8a%88%ed%8a%b8-%ec%9b%94%eb%93%9c-%ec%b1%94%ed%94%bc%ec%96%b8%ec%9d%b4-%ec%9e%85%eb%8a%94%eb%8b%a4/",
+        "image": "https://www.gqkorea.co.kr/wp_data/gq/2026/11/style_6b01e8ff3370e.jpg",
+        "url": "https://www.gqkorea.co.kr/2026/11/22/%EC%8B%9C%EA%B3%84-%EA%B8%B0%EC%88%A0-%EC%A0%81%EC%9A%A9%ED%95%9C-f1-%EB%A0%88%EC%9D%B4%EC%8B%B1-%EC%8A%88%ED%8A%B8-%EC%9B%94%EB%93%9C-%EC%B1%94%ED%94%BC%EC%96%B8%EC%9D%B4-%EC%9E%85%EB%8A%94%EB%8B%A4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "사람을 괴롭히는 것은 일 그 자체가 아니라 그 일에 대한 생각이다.",
+    "author": "에픽테토스",
+    "work": "엥케이리디온"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 번개처럼 떠오른다"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 소화가 잘 돼서 기분이 상쾌해"
+      },
+      {
+        "animal": "호랑이",
+        "text": "호랑이처럼 용감하게 새로운 도전을"
+      },
+      {
+        "animal": "토끼",
+        "text": "토끼의 빠른 발걸음이 오늘의 비밀"
+      },
+      {
+        "animal": "용",
+        "text": "용처럼 강한 의지가 오늘을 이끈다"
+      },
+      {
+        "animal": "뱀",
+        "text": "뱀의 유연함이 문제 해결에 도움된다"
+      },
+      {
+        "animal": "말",
+        "text": "말처럼 자유로운 마음으로 즐겨라"
+      },
+      {
+        "animal": "양",
+        "text": "양의 부드러움이 주변을 따뜻하게 만든다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "원숭이처럼 호기심이 새로운 기회를"
+      },
+      {
+        "animal": "닭",
+        "text": "닭의 정시성으로 오늘 계획이 완벽해"
+      },
+      {
+        "animal": "개",
+        "text": "개처럼 충실한 마음이 동료와 화합을"
+      },
+      {
+        "animal": "돼지",
+        "text": "돼지의 풍요로움이 오늘의 웃음을"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
