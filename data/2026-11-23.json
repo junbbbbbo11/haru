@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-23",
+  "weekday": "월요일",
+  "vol": 42,
+  "generated_at": "2026-11-23T09:40:52+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4726.27,
+      "change": -143.69,
+      "change_pct": -2.95,
+      "direction": "down",
+      "display": "4,726.27",
+      "change_display": "▼ 2.95%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1342.5,
+      "change": 7.7,
+      "change_pct": 0.58,
+      "direction": "up",
+      "display": "1,342.5원",
+      "change_display": "▲ 0.58%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 83340000.0,
+      "change": -220000.0,
+      "change_pct": -0.26,
+      "direction": "down",
+      "display": "8,334만원",
+      "change_display": "▼ 0.26%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 12,
+    "t_min": 1,
+    "rain_pct": 100,
+    "sky": "비",
+    "display": "서울 1~12°C · 비 · 강수 100%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "MLB",
+      "headline": "노시환, 양키스 3루수 후보로 거론",
+      "summary": "노시환이 4년간 116홈런 기록과 강한 어깨를 바탕으로 양키스 3루수 후보로 언급되었다.",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/sports/baseball/2026/11/22/MZQTGODGGQZDIZDDMEZGMYJZMI/",
+      "original_title": "\"4년간 116홈런에 강한 어깨까지\" 양키스 3루수 후보 노시환, 美 현지 매체가 짚은 약점은?",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "\"4년간 116홈런에 강한 어깨까지\" 양키스 3루수 후보 노시환, 美 현지 매체가 짚은 약점은?",
+          "link": "https://www.chosun.com/sports/baseball/2026/11/22/MZQTGODGGQZDIZDDMEZGMYJZMI/",
+          "image": "https://www.chosun.com/resizer/v2/DVQ6KLEGBFCZBD7ZNYNRYVELMU.jpg?auth=3f728c3b4873dad26b4071c9daae3d423ce5141466eaefd4b7eb2213eca636ad&width=530&height=278&smart=true"
+        },
+        {
+          "name": "시사매거진",
+          "title": "노시환, 양키스 3루수 후보로 거론되며 미국 매체가 짚은 약점",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tZ0xYdlJRMm5vTWJVY0ZXVG53VUR2VGRDU0RWR28ta1l2MFZqU0JhempzeXpjbVdod25WNy1yd1Y2Mm9sTDZHd2FjVVhacVFTQzN4OHlveVFaM2VwT3ViWm5IUC1NTTBqNjl1bTc4NjZaZGJ2cWVpR0p6MA?oc=5",
+          "url": "https://www.sisamagazine.co.kr/hot/edcda4c5-10fc-4e7f-b3d9-38acf4ef7876"
+        }
+      ]
+    },
+    {
+      "kicker": "병원비",
+      "headline": "정유라, 병원비 지원 호소",
+      "summary": "정유라가 장애인 된 엄마를 지지하며 병원비 지원을 호소했다.",
+      "source": "경기일보",
+      "link": "https://www.kyeonggi.com/article/20261122580033",
+      "original_title": "정유라 “대통령 지지하다 장애인 된 엄마”…최순실 병원비 지원 호소",
+      "sources": [
+        {
+          "name": "경기일보",
+          "title": "정유라 “대통령 지지하다 장애인 된 엄마”…최순실 병원비 지원 호소",
+          "link": "https://www.kyeonggi.com/article/20261122580033",
+          "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/22/.cache/512/20261122580034.jpg"
+        },
+        {
+          "name": "뉴스1",
+          "title": "\"마지막까지 박 대통령 편, 엄마 외면 말라\"…정유라 병원비 지원 또 호소",
+          "link": "https://www.news1.kr/society/general-society/6361093"
+        },
+        {
+          "name": "이데일리",
+          "title": "정유라 \"보수 대통령 지지하다 장애인 된 우리 엄마\"…병원비 지원 호소",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnI0Ukc3a0lia1FJOGt0UV9ESVpOTEtHRHBhQTVIZlRIWE5ha1hFVkF6VV9hVnhtUkhVOUpJOTE0SG4zSjR4MkotQ1JyYzROcF9tamdvNEV0aGVORmFieVVCS0I1bGE0S2lqN1FKTFNOTFNRa2R3aEhDaGpIMTNwSQ?oc=5",
+          "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26112200326.jpg",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01620326645648344&mediaCodeNo=257"
+        }
+      ]
+    },
+    {
+      "kicker": "증시",
+      "headline": "나스닥 선물 1.3% 상승",
+      "summary": "나스닥 선물은 추수감사절 앞두고 저가 매수에 반등 시도하며 1.3% 상승했다.",
+      "source": "뉴스1",
+      "link": "https://www.news1.kr/world/usa-canada/6362254",
+      "original_title": "나스닥 선물 1.3% 상승…추수감사절 앞두고 저가 매수에 반등 시도",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "title": "나스닥 선물 1.3% 상승…추수감사절 앞두고 저가 매수에 반등 시도",
+          "link": "https://www.news1.kr/world/usa-canada/6362254"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "박종복 전 SC제일은행장, 은행연합회장 후보에 낙점",
+          "summary": "1979년 입행해 46년간 금융권을 이끈 박종복 전 SC제일은행장이 차기 은행연합회장 후보로 낙점했다",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12215843",
+          "original_title": "박종복 차기 은행연합회장 “시대 전환점에서 은행의 새 역할 모색”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "박종복 차기 은행연합회장 “시대 전환점에서 은행의 새 역할 모색”",
+              "link": "https://www.mk.co.kr/news/economy/12215843",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/23/news-p.v1.20261123.734b54ef05c84bac839636a9f8b74782_R.jpg"
+            },
+            {
+              "name": "인베스트조선",
+              "title": "차기 은행연합회장에 박종복 전 SC제일은행장",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54TTdxaHpzNlJLdE5tTmJNNEZLT1h5cGlTeDVWV0YwUWd2bGU4ckJVaWlZWkVZNklLdjc1RDUxTXBnR3VldUdPTy1KVUprYTRYWG4wQWJ6NVNQZENlNG9nNWdYMDBuYjQwQk5OWExBeGNQUQ?oc=5",
+              "image": "https://img.investchosun.com/site/data/thumb_dir/2026/11/23/2026112380013_0_thumb.jpg",
+              "url": "https://www.investchosun.com/m/article.html?contid=2026112380013"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "차기 은행연합회장에 박종복 전 SC제일은행장 내정(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261123021851002",
+              "image": "https://img3.yna.co.kr/etc/inner/KR/2026/11/23/AKR20261123021851002_01_i_P4.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "차기 은행연합회장에 박종복 전 SC제일은행장 내정",
+              "link": "https://www.donga.com/news/Economy/article/all/20261123/135071021/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135071027.1.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "증권시장안정펀드, 18년 만에 가동 준비",
+          "summary": "미국 증시 급락에 따라 국내 증시에서 블랙 먼데이 우려가 커지면서 정부가 증권시장안정펀드를 18년 만에 가동할 준비를 시작했다",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261122044351002",
+          "original_title": "블랙먼데이 우려에 증안펀드 18년만에 가동되나…F4 \"준비 착수\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "블랙먼데이 우려에 증안펀드 18년만에 가동되나…F4 \"준비 착수\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261122044351002",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/11/22/PYH2026112206860001300_P4.jpg"
+            },
+            {
+              "name": "JTBC",
+              "title": "‘블랙먼데이’ 우려 커지자…정부, 증안펀드 즉시 가동 준비",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ubUZFMmlRTjR3blJ3X05OMnowOHJlcTlDRnVpTmJHSld1THp0SkhLbGpULXZnMVptbjc3VzhXZGdtS2FLYWo5MkcwLTNubExUMVRjbQ?oc=5",
+              "image": "https://thumb.jtbc.co.kr/photo/r600x0/news/cms/etc/2026/11/23/20261123080057134001.jpg",
+              "url": "https://news.jtbc.co.kr/article/NB12329296"
+            },
+            {
+              "name": "매일경제",
+              "title": "정부, 증안펀드 즉시가동 준비 돌입",
+              "link": "https://www.mk.co.kr/news/stock/12215738",
+              "image": "https://static.mk.co.kr/facebook_mknews.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "정부·금융당국, 증안펀드 가동 준비 착수…불법 공매도 집중감시",
+              "link": "https://www.newsis.com/view/NISX20261122_0003878308",
+              "image": "https://img1.newsis.com/2026/11/22/NISI20261122_0021541950_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "29CM 이구위크 거래액 1749억 역대 최대",
+          "summary": "29CM가 11일간 1749억 원을 매출해 이구위크 거래액이 역대 최고를 기록한 사실이다.",
+          "source": "데일리안",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56c1lJbWRBV3NLX1dVMW1FV1JseU5ERVN2eVFYckNDa2lKZjRuZ1BvVGpKMFlyTG5jY3JleWUxMmY2alFrYjdXVEg3VFpURURsQ0dkZjM3NA?oc=5",
+          "original_title": "29CM, ‘이구위크’ 거래액 1749억원…역대 최대",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "데일리안",
+              "title": "29CM, ‘이구위크’ 거래액 1749억원…역대 최대",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56c1lJbWRBV3NLX1dVMW1FV1JseU5ERVN2eVFYckNDa2lKZjRuZ1BvVGpKMFlyTG5jY3JleWUxMmY2alFrYjdXVEg3VFpURURsQ0dkZjM3NA?oc=5",
+              "image": "https://cdnimage.dailian.co.kr/news/202611/news_1795389544256_1718211_m_1.jpg",
+              "url": "https://www.dailian.co.kr/news/view/1718211/"
+            },
+            {
+              "name": "뉴시스",
+              "title": "29CM, 이구위크 거래액 1749억 '역대 최대'…하루 248억 신기록",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3anJQNXdkUEY2N3BraElFMHQzeDJoMEZIRHNadHBxa0t6Z0hSQy1zR253aURBYkNfQ3FiM1ExMWs3UXc5UTlIN1M5WmNTV3J0NUhGNlJNZ3ZNTnl5TDY0Vw?oc=5",
+              "image": "https://img1.newsis.com/2026/11/23/NISI20261123_0002299190_web.jpg",
+              "url": "https://www.newsis.com/view/NISX20261123_0003878540"
+            },
+            {
+              "name": "패션비즈",
+              "title": "29CM, 11일간 1749억원 팔았다… ‘이구위크’ 신기록",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NMzJaNlpOM29tU25PUmh1X0phZ1JoMFRRM3RMeVp0MVJ3U0RFM2plTmtWUkxhdVBmcWY3X3pKS05jVHRILVhFbmUzLXptNWox?oc=5",
+              "image": "https://www.fashionbiz.co.kr/images/articleImg/mainImg/1795392405661-[29CM%20%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C]%20%EC%9D%B4%EA%B5%AC%EC%9C%84%ED%81%AC%20%EC%B5%9C%EC%A2%85%20%EC%84%B1%EA%B3%BC%201749%EC%96%B5%20%EB%8F%8C%ED%8C%8C.jpg",
+              "url": "https://fashionbiz.co.kr/article/231264"
+            },
+            {
+              "name": "로이슈",
+              "title": "29CM, 겨울 이구위크 거래액 1749억원…역대 최대 기록",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEUGZjbnJ5SjV2cUVHbldub284STVZcUVJQnQwZEtNVU43VHZFdG5na09XUFRoTWxkbEp3LVF4NzlFVWxUMFpkUHlLN20wVS05V1hsMlhka0tNTVdjVHk4M2FvQXdKSFJTSmZHUnRTRHlWTDBESkpQSDJ3?oc=5",
+              "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20261123085612006720204ead079118023320059.jpg&nmt=12",
+              "url": "https://www.lawissue.co.kr/view.php?ud=202611230855521555204ead0791_12"
+            },
+            {
+              "name": "이데일리",
+              "title": "29CM, 이구위크 거래액 1749억원 ‘역대 최대’",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVN2cHhFWWtyWnlhX01HRWRuNlVtc0MzY0NQU1pHM0xnclR5VGdQZzBvZjF2VGdNdm9QZl81dHRUN2tobGJKMTZGMGZzTTJEUjlkNFhZTEI1VU4yVlBNOUtWbko1cHdyalBWUGt0SEViVlJrZjd3ZnBvR2VMZE45YQ?oc=5",
+              "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26112300222.jpg",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=01498966645648672&mediaCodeNo=257"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "K-뷰티, 브라질 시장 부상",
+          "summary": "브라질이 K-뷰티의 주요 성장 시장이 되었다",
+          "source": "주간신문씨엠엔",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WDhHVG0tc0EwMGF1aXdMY0pfRkh5OV9ra3VTN1R1MWxGMHUxUndnNlFLMlhfZVRYUGtWbUEtLWJZUnk3Q2JLTmV6cE53b0YxZkQ3bm5sTHkzOTFBZ2tmUzdJRW1laDQ3V2Fr?oc=5",
+          "original_title": "K-뷰티 주요 성장 시장으로 ‘브라질’ 부상",
+          "coverage": 1,
+          "sources": [
+            {
+              "name": "주간신문씨엠엔",
+              "title": "K-뷰티 주요 성장 시장으로 ‘브라질’ 부상",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WDhHVG0tc0EwMGF1aXdMY0pfRkh5OV9ra3VTN1R1MWxGMHUxUndnNlFLMlhfZVRYUGtWbUEtLWJZUnk3Q2JLTmV6cE53b0YxZkQ3bm5sTHkzOTFBZ2tmUzdJRW1laDQ3V2Fr?oc=5",
+              "image": "https://www.cmn.co.kr/webupload/ckeditor/images/20261123_091911_0012401_re.jpg",
+              "url": "https://www.cmn.co.kr/sub/news/news_view.asp?news_idx=51656"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "뉴노르딕, 국내 독점 웰니스샷 6종 출시",
+          "summary": "대상웰라이프가 덴마크 브랜드 뉴노르딕을 국내 독점 유통하며 6종의 웰니스샷을 출시했다.",
+          "source": "전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51ZHVWVmZQZi1WQUw3b3pCM2FuVk8yTng5dXRkZm9CdjY4cExmWmdLckxwZGNoT0EzaU5ILWxaYkIwUTFoOUlUaElaa3VmQQ?oc=5",
+          "original_title": "대상웰라이프, 덴마크 '뉴노르딕' 국내 독점 론칭…웰니스샷 6종 출시",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "전자신문",
+              "title": "대상웰라이프, 덴마크 '뉴노르딕' 국내 독점 론칭…웰니스샷 6종 출시",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51ZHVWVmZQZi1WQUw3b3pCM2FuVk8yTng5dXRkZm9CdjY4cExmWmdLckxwZGNoT0EzaU5ILWxaYkIwUTFoOUlUaElaa3VmQQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/23/news-p.v1.20261123.997e1d6c496e4d389d8525d74667d21f_P1.jpg",
+              "url": "https://www.etnews.com/20261123000088"
+            },
+            {
+              "name": "한국면세뉴스",
+              "title": "대상웰라이프, 덴마크 '뉴노르딕' 국내 독점 유통…웰니스샷 6종 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54UGkteHlCWGRPNllsZ3FmRHRqYUR2czYyRl8yWFdValpObzREeV93Ry1PUi1qWEJVQ0RKandVdWEtWjRzeVlNMG5pdGxLN3VlNDNSZmpqZm1NeFM2UzRYOEl2RzNjQXBIcEE?oc=5",
+              "image": "https://www.kdfnews.com/news/thumbnail/202611/191252_245003_1241_v150.jpg",
+              "url": "https://www.kdfnews.com/news/articleView.html?idxno=191252"
+            },
+            {
+              "name": "푸드투데이",
+              "title": "대상웰라이프, 덴마크 ‘뉴노르딕’ 국내 독점 유통…웰니스샷 6종 출시",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wN0xEY3dxU01zUDlQWmRuXzAwQlpydXlhU1gycjMtM19uNWFZSUZwdjVuZlJuMTFuUWhyejByN1dsRGJrbTdxNHJSa3FTOVNsdHdKMDlTMmQ3c1VfQjdhZUpJNEJMZw?oc=5",
+              "image": "https://www.foodtoday.or.kr/data/photos/20261148/art_1795392052123_a0c651.jpg",
+              "url": "https://www.foodtoday.or.kr/news/article.html?no=209957"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "대상웰라이프, 북유럽 웰니스 브랜드 '뉴노르딕' 국내 독점 출시",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xN0hNOXFwcnRha0MzeENDMTFZa2MtOXNoNm5LaHphRlJ0QkVPdzJ6czZvT0NKMlJ3c0M3Y3dxamNudWhBRzIyWUVRZXhHQ09wRGtBT3A5Ulk5ZzDSAWBBVV95cUxOdzhtQzloX21qSTloN0Y1azRrSXVBRnJGTEhVVjBNbTZYTW5LVWh6dDY1QnVMTmFBaDREX0FmQlp5ZFNfNjFqY01nOFh1bzNJTVdJdWZYVU1CeDBKWGdXOW8?oc=5",
+              "image": "https://img7.yna.co.kr/etc/inner/KR/2026/11/23/AKR20261123025500030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261123025500030"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "대상웰라이프, 북유럽 웰니스 '뉴노르딕' 국내 독점 유통",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vM0Jzb1NicjF5VElCSlo3eUxZQzJMNHVoMGRCd2lLRHRjY2pmZ0dRdzdhMklHa0FMd1d1eEpraFJSTmNyWTdIZklrMWhyRmxGdmp2MHlGYm5kVWNx?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/23/2611230834447090_130_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261123000090"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "전국법관대표회의 의장, 대법원장 탄핵 추진 도 넘어선 것",
+          "summary": "전국법관대표회의 의장은 대법원장 탄핵을 도 넘어선 일이라며, 법관의 행동을 요구했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261123023000004",
+          "original_title": "법관대표회의 의장 \"대법원장 탄핵, 도 넘어…'행동' 나서야\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "법관대표회의 의장 \"대법원장 탄핵, 도 넘어…'행동' 나서야\"",
+              "link": "https://www.yna.co.kr/view/AKR20261123023000004",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111921380001300_P4.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "[단독] 전국법관대표회의 의장 “조희대 탄핵소추 땐 법관들 행동 나서야”",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sX3NFc1dKWGl0b3B2dGV3RHVUYkI3YWsyclZ3Y1hDRDg2b3pwZXcwWl9TbzYwSU43RVpJSWMtclZqRHlHNXBSZHQycktpeklzV0tQLXpYN0lkTDZadTFTSktaX2J0aW42RUwyV0oxbHdQQQ?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/800/533/imgdb/original/2026/1122/20261122502015.webp",
+              "url": "https://www.hani.co.kr/arti/society/society_general/1288554.html"
+            }
+          ]
+        },
+        {
+          "headline": "최교진 장관, 수능 AI 부정행위 방지 대책 부족으로 사퇴",
+          "summary": "최교진 교육부 장관은 수능 AI 부정행위 방지 대책 부족으로 사퇴했고, 대통령은 사의 표명을 1시간 이내에 수락해 사실상 경질했다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Society/article/all/20261123/135070392/2",
+          "original_title": "‘수능 대혼란’ 최교진 교육장관 사실상 경질",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "‘수능 대혼란’ 최교진 교육장관 사실상 경질",
+              "link": "https://www.donga.com/news/Society/article/all/20261123/135070392/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135068197.5.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "‘수능 무능 대처’ 최교진 사실상 경질",
+              "link": "https://www.khan.co.kr/article/202611222117005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/22/l_2026112301000637900065501.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "'수능 대혼란' 최교진 장관 사의…\"책임 통감\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857654",
+              "image": "https://img.sbs.co.kr/newimg/news/20261119/202242582_1280.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "美 초대 대통령 조지 워싱턴 머리카락, 4000달러에 낙찰",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261123/135071337/1",
+          "original_title": "美 초대 대통령 조지 워싱턴 머리카락, 4000달러에 낙찰",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "美 초대 대통령 조지 워싱턴 머리카락, 4000달러에 낙찰",
+              "link": "https://www.donga.com/news/Inter/article/all/20261123/135071337/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135071659.1.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "무려 4천 달러에…조지 워싱턴의 머리카락 '한 줌'",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008858308",
+              "image": "https://img.sbs.co.kr/newimg/news/20250209/202037757_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "조지 워싱턴 머리카락 한줌 경매서 4천달러에 낙찰",
+              "link": "https://www.yna.co.kr/view/AKR20261123025100009",
+              "image": "https://img3.yna.co.kr/photo/etc/up/2026/07/02/PUP20260702007101009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "리비아 항구 정박 러 군함 폭발…우크라 드론 공격 추정",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261123/135070735/1",
+          "original_title": "리비아 항구 정박 러 군함 폭발…우크라 드론 공격 추정",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "리비아 항구 정박 러 군함 폭발…우크라 드론 공격 추정",
+              "link": "https://www.donga.com/news/Inter/article/all/20261123/135070735/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135070736.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "리비아 항구 정박 러 군함 폭발…우크라 드론 공격 추정",
+              "link": "https://www.newsis.com/view/NISX20261123_0003878404",
+              "image": "https://img1.newsis.com/2026/11/23/NISI20261123_0001770415_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"리비아 항구 정박 러시아 군함 피격…우크라 드론 공격 추정\"(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261122052851079",
+              "image": "https://img0.yna.co.kr/photo/reuters/2026/11/22/PRU20261122302201009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "중진공, 직원이 개발 AI 서비스 실무 에 적용한다",
+          "summary": "",
+          "source": "서울경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tV2UxbXBGa2dsYTdwZVlvRWd5NEJuS2RQOXl6d21tcjdNdVFoRHF5Ni1zVC1HU0dkaUNtZVo0MlQteHM2Y0YzdmcwbFBySzdfZHfSAVNBVV95cUxNeG1MT1pMajhueXV6ekNQRXJsNThuTW1IX3N5dThPUEs1T0xVT3JVYkZJcUdFeS1CZ2JuZzBIakh0SG0xNlIya3c2aXpNUXljM1Jtcw?oc=5",
+          "original_title": "중진공, 직원이 개발 AI 서비스 실무 에 적용한다",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "서울경제",
+              "title": "중진공, 직원이 개발 AI 서비스 실무 에 적용한다",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tV2UxbXBGa2dsYTdwZVlvRWd5NEJuS2RQOXl6d21tcjdNdVFoRHF5Ni1zVC1HU0dkaUNtZVo0MlQteHM2Y0YzdmcwbFBySzdfZHfSAVNBVV95cUxNeG1MT1pMajhueXV6ekNQRXJsNThuTW1IX3N5dThPUEs1T0xVT3JVYkZJcUdFeS1CZ2JuZzBIakh0SG0xNlIya3c2aXpNUXljM1Jtcw?oc=5",
+              "url": "https://www.sedaily.com/article/20117397"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "중진공 '직원이 만든 AI 서비스' 업무에 도입",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ddl9NMnQyYl9hdWVVaEVnOG51cVE2NHcyNkRwV29KSUQ0N3lUMW1vV254Yl9kOHN3MTZrX1ZxdkxoVUZFUVFGa2tMZ0gyd201ZmdPYlRuVFkxUQ?oc=5",
+              "url": "https://www.fnnews.com/news/202611221816333851"
+            },
+            {
+              "name": "경남뉴스",
+              "title": "중진공, 우수 AI 서비스 현업 도입 추진",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03UjFFMnhuREtjSUFXX0pTRGtoTW1VWmJDdUhsbVQtSGliRlk4c2h5eFJySzFfcTdUSExKSnVCN2drNXBKc2ZjVDU0YjJZay1GMnZneW5xZENwN0pzTWF1VHI1YVBaaWYx?oc=5",
+              "image": "https://cdn.gnnews24.kr/news/thumbnail/202611/35266_61698_5347_v150.jpg",
+              "url": "https://www.gnnews24.kr/news/articleView.html?idxno=35266"
+            },
+            {
+              "name": "매일경제 마켓",
+              "title": "중진공, 직원이 개발한 AI 서비스 실무 적용…업무혁신 강화",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aeTQwRVl0aEE4d1g0SWZpeHF1eG1EeTZRQWVzUnYxNUFvVkJPVXp6eDN5NUx0OWw5dUhHckkxU3VCZUd6TXJNQW81OTBGeUN2WXc?oc=5",
+              "image": "https://stock.mk.co.kr/photos/20261122/PCM20260616000117030_P4.jpg",
+              "url": "https://stock.mk.co.kr/news/view/1203743"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "중진공, 직원이 제안한 우수 AI 서비스 현업 도입",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOdlZZT1haU2Z5UWdCWFZVcC14bUVkcUUwV3FTRG5lWnpkem1LSE9KY1hidGhWd0pHQzNZQzhLd3NnQ3VUM19PcUxFblJhLWV3NWFnOG5IM1BDWVNWeEVkb2ROMnFvc2VEdW45dDhB?oc=5",
+              "image": "https://img.asiatoday.co.kr/file/2026y/11m/22d/2026112201001535400082841.jpg",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261122010008284"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "폭설 개봉 첫 주말 박스오피스 1위",
+          "summary": "김윤석·구교환 주연 영화 '폭설'이 개봉 첫 주말 30만명 관객을 동원해 박스오피스 정상을 차지했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261123038700005",
+          "original_title": "[박스오피스] 김윤석·구교환 '폭설', 개봉 첫 주말 1위",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[박스오피스] 김윤석·구교환 '폭설', 개봉 첫 주말 1위",
+              "link": "https://www.yna.co.kr/view/AKR20261123038700005",
+              "image": "https://img3.yna.co.kr/photo/yna/YH/2026/11/12/PYH2026111218410001300_P4.jpg"
+            },
+            {
+              "name": "스타뉴스",
+              "title": "김윤석X구교환 '폭설', 42만 돌파..개봉 첫 주 박스오피스 1위",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaa0VEYUZWS2k4dHpoOE5kanpSNWpXRVRiRVdmVEMxMTM2RW5XcFp0ZnQ5alUzRlFvcWluRWtBZGNLNlpoVHdNMmpGOHluSFF4SFpJZ0ZtU1RjNVFlWXNDTWJPdlFfSmF1NndYN2dkS05oSmdG?oc=5",
+              "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=1200,h=800,fit=cover,q=high,sharpen=2/21/2026/11/2026112309034595514_1.jpg",
+              "url": "https://www.starnewskorea.com/movie/2026/11/23/2026112309034595514"
+            },
+            {
+              "name": "더팩트",
+              "title": "김윤석·구교환 '폭설', 개봉 첫 주말 1위…42만 명 돌파",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yUXZMdDR6cklvQnA3UXozZm1kdW9HLUwxNXhXX0xWaW51N2lXSlhhS0stZVg4OVJVcE54SVhueVRtWlJiMXpCbHZwUFlXTkMxQVVueHV1cldRZ3lL0gFXQVVfeXFMUGxjSzNJSkFQdFhGVmY0ZFlYTjZ5NjkyaS1RNktod1lDZHcyaXUtODdYZmMtcTg0bHFUSXVFMFh3WWNHNFlVTHhadEw4dnliT3VMaFV1Mzgw?oc=5",
+              "image": "https://img.tf.co.kr/article/home/2026/11/23/202695461795393097.jpg",
+              "url": "https://news.tf.co.kr/read/entertain/2391968.htm"
+            },
+            {
+              "name": "동아일보",
+              "title": "김윤석·구교환 ‘폭설’ 첫 주말 1위…‘치이카와’ 300만명↑",
+              "link": "https://www.donga.com/news/Culture/article/all/20261123/135071311/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/23/135071312.1.jpg"
+            },
+            {
+              "name": "메디컬투데이",
+              "title": "영화 ‘폭설’, 개봉 첫 주말 박스오피스 1위…31만892명 동원",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XdmtKR3VSWFBId1FjSWpNSmdLc3VOWlozUFZja1IxSFBDM3V3UEhKLVAxRzVzUHpJQlhKbmQtWDhBdEtneWVsWnRfd3hmS0xkVFRrVWlRNk53T1ZHdU5jU3libHVMQzRsQkhtUQ?oc=5",
+              "image": "https://cdn.mdtoday.co.kr/news/photo/202611/626934_336594_526.jpg",
+              "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=626934"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "김민선, LPGA Q시리즈 최종전 4R 공동 4위…유현조 19위",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261123_0003878480",
+          "original_title": "김민선, LPGA Q시리즈 최종전 4R 공동 4위…유현조 19위",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "김민선, LPGA Q시리즈 최종전 4R 공동 4위…유현조 19위",
+              "link": "https://www.newsis.com/view/NISX20261123_0003878480",
+              "image": "https://img1.newsis.com/2026/10/25/NISI20261025_0021503253_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "김민선, LPGA Q시리즈 공동 4위 도약…유현조는 공동 19위",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008858151",
+              "image": "https://img.sbs.co.kr/newimg/news/20261123/202243314_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김민선, LPGA Q시리즈 최종전 4R서 공동 4위로 도약",
+              "link": "https://www.yna.co.kr/view/AKR20261123007400007",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/04/19/PYH2026041906680001300_P4.jpg"
+            },
+            {
+              "name": "뉴스1",
+              "title": "김민선7, LPGA Q 시리즈 4라운드 공동 4위 도약",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aN0hZcmFjZ2plSU83Y2tVYWMtOUdZdHkyZDJnN19ueDFzUVQxbmNjLVg1LWFTa3ZVLWViMXEydVdubXFzRWRzLVlUc0JrOENqNkE?oc=5",
+              "url": "https://www.news1.kr/sports/golf/6362189"
+            }
+          ]
+        },
+        {
+          "headline": "노승열, PGA 투어 RSM 클래식 3R서 6타 잃고 공동 63위로 밀려",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008858181",
+          "original_title": "노승열, PGA 투어 RSM 클래식 3R서 6타 잃고 공동 63위로 밀려",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "노승열, PGA 투어 RSM 클래식 3R서 6타 잃고 공동 63위로 밀려",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008858181",
+              "image": "https://img.sbs.co.kr/newimg/news/20261120/202242695_1280.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "[PGA] 노승열, RSM 클래식 3R서 공동 63위 추락…내년 시드 확보 사실상 무산",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0YVFiOUpGdGlOTUtQVnh3dGdadmNBUWpWa1JjamtPRER5dTFjTGhEa0Q5TV83NTZKbFFKVUlibXZwdF9wbURDdDVfWTdUSEtnT0VzemFRNnNpM3d5?oc=5",
+              "image": "https://img.newspim.com/news/2026/11/23/2611230915330450_352_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261123000228"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "노승열, PGA 투어 RSM 클래식 3R서 6타 잃고 하위권으로",
+              "link": "https://www.yna.co.kr/view/AKR20261123008800007",
+              "image": "https://img2.yna.co.kr/photo/etc/gt/2026/11/23/PGT20261123017901009_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "PGA 투어 최종전 RSM 클래식 3R 악천후로 순연",
+              "link": "https://www.newsis.com/view/NISX20261122_0003878009",
+              "image": "https://img1.newsis.com/2026/11/20/NISI20261120_0001763106_web.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "막스마라 2027 리조트 컬렉션, 창립 75주년을 맞아 상하이로 향한 이유",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 12,
+      "t_min": 1,
+      "rain_pct": 100,
+      "sky": "비",
+      "display": "서울 1~12°C · 비 · 강수 100%"
+    },
+    "articles": [
+      {
+        "title": "막스마라 2027 리조트 컬렉션, 창립 75주년을 맞아 상하이로 향한 이유",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1913476",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/11/21/c07aac29-66d1-4335-94bd-fc9b4a46d820.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "우리의 삶은 우리의 생각이 만들어 가는 것이다.",
+    "author": "마르쿠스 아우렐리우스",
+    "work": "명상록"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 떠오르다"
+      },
+      {
+        "animal": "소",
+        "text": "협력으로 큰 성과를 얻는다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 보상을 가져온다"
+      },
+      {
+        "animal": "토끼",
+        "text": "가벼운 마음으로 시작해 보자"
+      },
+      {
+        "animal": "용",
+        "text": "창의적 사고가 빛난다"
+      },
+      {
+        "animal": "뱀",
+        "text": "세심한 계획이 성과를 돕는다"
+      },
+      {
+        "animal": "말",
+        "text": "열정이 목표를 가속화한다"
+      },
+      {
+        "animal": "양",
+        "text": "조화로운 분위기가 흐른다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유연한 태도가 기회를 만든다"
+      },
+      {
+        "animal": "닭",
+        "text": "신중하게 선택하면 좋은 결과"
+      },
+      {
+        "animal": "개",
+        "text": "믿음직한 동반자가 돋보인다"
+      },
+      {
+        "animal": "돼지",
+        "text": "안정과 만족이 충만하다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
