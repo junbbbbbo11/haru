@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-24",
+  "weekday": "화요일",
+  "vol": 43,
+  "generated_at": "2026-11-24T13:55:25+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 5045.43,
+      "change": 336.89,
+      "change_pct": 7.15,
+      "direction": "up",
+      "display": "5,045.43",
+      "change_display": "▲ 7.15%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1342.9,
+      "change": -1.4,
+      "change_pct": -0.11,
+      "direction": "down",
+      "display": "1,342.9원",
+      "change_display": "▼ 0.11%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 82216000.0,
+      "change": -1510000.0,
+      "change_pct": -1.8,
+      "direction": "down",
+      "display": "8,222만원",
+      "change_display": "▼ 1.80%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 5,
+    "t_min": -3,
+    "rain_pct": 0,
+    "sky": "구름 조금",
+    "display": "서울 -3~5°C · 구름 조금 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "K자주포",
+      "headline": "베트남에 K9 자주포 추가 수출",
+      "summary": "베트남에 K-9 자주포가 추가 수출된다. 한국 방위산업이 해외 시장을 확대한다.",
+      "source": "아시아경제",
+      "link": "https://view.asiae.co.kr/article/2026112408492883586",
+      "original_title": "[단독] K-9 자주포 베트남에 추가 수출",
+      "sources": [
+        {
+          "name": "아시아경제",
+          "title": "[단독] K-9 자주포 베트남에 추가 수출",
+          "link": "https://view.asiae.co.kr/article/2026112408492883586",
+          "image": "https://cphoto.asiae.co.kr/listimglink/1/2026083113115898921_1788149517.jpg"
+        },
+        {
+          "name": "나우뉴스",
+          "title": "“일본군, 그냥 한국 K9 자주포 써라”…日 전문가 일침 나온 이유 [밀리터리+]",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8taVFVdlM0QWFEVVkzRnp0SmFWeDhfRmhQV01iN2gzMkpJelZXWHlaQjZMeXBMOG9NZDNRTHNLQ0Iyd0NGUXRrb0ZNaUpXVXJnYnZ3Z2FOQ002SmFIYzFRMC1UYjNiaWFIcGd1SkJyMmU?oc=5",
+          "image": "https://imgnn.seoul.co.kr/img/upload/2026/11/23/SSC_20261123162051.jpg.webp",
+          "url": "https://nownews.seoul.co.kr/news/newsView.php?id=20261123601017"
+        },
+        {
+          "name": "뉴스저널리즘",
+          "title": "한화에어로, 베트남에 'K-9' 자주포 추가 수출 전망",
+          "link": "https://www.ngetnews.com/news/articleView.html?idxno=556249",
+          "image": "https://cdn.ngetnews.com/news/thumbnail/202611/556249_124077_4617_v150.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "삼성임원",
+      "headline": "삼성전자 131명 승진 인사",
+      "summary": "삼성전자가 131명의 임원을 승진 인사했다. HBM·로봇 핵심 인재를 중용한다.",
+      "source": "조선일보",
+      "link": "https://www.chosun.com/economy/tech_it/2026/11/24/23GDZCZG5FCWJMDHVSMS6G77AQ/",
+      "original_title": "삼성전자, 임원 131명 승진 인사…HBM·로봇 핵심 인재 중용",
+      "sources": [
+        {
+          "name": "조선일보",
+          "title": "삼성전자, 임원 131명 승진 인사…HBM·로봇 핵심 인재 중용",
+          "link": "https://www.chosun.com/economy/tech_it/2026/11/24/23GDZCZG5FCWJMDHVSMS6G77AQ/",
+          "image": "https://www.chosun.com/resizer/v2/MQ3DIMRRMRRDENBSGBSDSMRXGU.jpg?auth=11f62539c3d9251cf46abbe851804c366456f9513e7cb7e637ebf568de5ccfb4&width=1200&height=630&smart=true"
+        },
+        {
+          "name": "지디넷코리아",
+          "title": "삼성전자, 임원 131명 승진 인사...HBM4·파운드리 주역 전진 배치",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDaUV2R2JldElybm9mdmwxMGJ1RWYtdlEtZkFzV0lTckpNc1cyRGFBSW9nSnVOZzFSZWVxS2lfQjV6RUxLaTgyRU1kNzgzaFB2UDFaeVBn?oc=5",
+          "image": "https://image.zdnet.co.kr/2024/12/04/46da711bc43044270fa96aa0d03ce6fd.jpg",
+          "url": "https://zdnet.co.kr/view/?no=20261124104420"
+        },
+        {
+          "name": "경기일보",
+          "title": "삼성전자, 2027년 임원인사 131명 승진…반도체 성과주의·AI 인재 중용",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZZ3czaC05NElfOFlUQ2NDYndQZWRGTk90cjhqVFJoS2lvTFdvRWQ5X1ZYTUk1WDBMSk8xTXhFbk00a00tek83OVNlay1hVGhMSWJUZVFkdlEwRkE?oc=5",
+          "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2026/11/24/.cache/512/20261124580085.jpg",
+          "url": "https://www.kyeonggi.com/article/20261124580084"
+        }
+      ]
+    },
+    {
+      "kicker": "스포츠타운",
+      "headline": "대전 서남부종합스포츠타운 시공사 선정",
+      "summary": "대전 서남부종합스포츠타운의 시공사가 계룡컨소로 선정되었다. 대전이 새로운 체육 인프라를 구축한다.",
+      "source": "뉴시스",
+      "link": "https://www.newsis.com/view/NISX20261124_0003880757",
+      "original_title": "대전 서남부종합스포츠타운 시공사에 계룡컨소 선정",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "title": "대전 서남부종합스포츠타운 시공사에 계룡컨소 선정",
+          "link": "https://www.newsis.com/view/NISX20261124_0003880757",
+          "image": "https://img1.newsis.com/2026/11/24/NISI20261124_0002300596_web.jpg"
+        },
+        {
+          "name": "뉴스프리존",
+          "title": "대전 서남부종합스포츠타운 설계 본격화… 계룡건설 적격자 선정",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HVVVuV20xUjV0ZjFaR3BEZ2pnU1gyZFMwa2pBal95VVpZSFBtay1lMmFKclBXUTRHTGZsUm4zMUVpZFFsVnVmV1QyTFQ5enc3b2ZBYUdxTXcwU0VTNFpNYndfNzJ6NXgyaHBvZUlObHB1VjTSAXdBVV95cUxPRGJiVlBIeTZCQWdjZFBvMW1TNjE4c0NKU0JkUGZNYVprVWtpOWUydUxNM01heUo4eXRIQ1gwSEg2S0xPT0ZSR21EcE5kaDBvVDRfX1FLSlVSMjJsWHExTFlqalBPcG9LcmNvcUZFXzRFaS1oZ0ZISQ?oc=5",
+          "image": "https://cdn.newsfreezone.co.kr/news/thumbnail/202611/721011_770621_2519_v150.jpg",
+          "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=721011"
+        },
+        {
+          "name": "연합뉴스",
+          "title": "'대전 새 랜드마크' 서남부종합스포츠타운 실시설계 착수",
+          "link": "https://www.yna.co.kr/view/AKR20261124044400063",
+          "image": "https://img2.yna.co.kr/etc/inner/KR/2026/11/24/AKR20261124044400063_02_i_P4.jpg"
+        },
+        {
+          "name": "연합뉴스TV",
+          "title": "대전서남부스포츠타운 체육시설 건립 속도…설계 적격자에 계룡건설",
+          "link": "https://www.yonhapnewstv.co.kr/news/AKR20261124100820Z7y",
+          "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261124/AKR20261124100820Z7y_02_i.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "엔비디아 CEO 복귀에 아시아 증시가 급등",
+          "summary": "엔비디아 CEO 젠슨 황 복귀 소식에 아시아 증시가 급등했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261124085900009",
+          "original_title": "젠슨황 복귀에 '반도체주 강세' 아시아 증시 급등",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "젠슨황 복귀에 '반도체주 강세' 아시아 증시 급등",
+              "link": "https://www.yna.co.kr/view/AKR20261124085900009",
+              "image": "https://img5.yna.co.kr/photo/etc/up/2026/11/24/PUP20261124005701009_P4.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "젠슨황 복귀에 반도체주 급등…코스피·코스닥 매수 사이드카",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KU2IxWmduRmFGM1pVcEc5aTFfcXFjUmMzVWswaWJmNWVlWlRiOVpfQlNyME54TW5wRzBBdmcwY2c5Njh3NFA1YVlGUjVSSDg1bjZSLUxsazBvazg?oc=5",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8720953"
+            },
+            {
+              "name": "매일경제",
+              "title": "젠슨 황 복귀에 반도체 관련주 줄줄이 급등…삼전·닉스, 7~8% ‘쑥’",
+              "link": "https://www.mk.co.kr/news/stock/12216794",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/24/news-p.v1.20261124.db8d670baac04572ac543eaa999feea8_R.png"
+            }
+          ]
+        },
+        {
+          "headline": "국고채 10년 지표물 3.797% 최저",
+          "summary": "국고채 10년 지표물 거래가 3.797%로 최저 수준으로 내려갔다.",
+          "source": "연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qemNRZXZaZHByOFROZTJOcDZTVDRDMnNwY3JvdGJoSkFOSUtIUGtaLW1lb0RMaVNkNWlIYkhVUnhCbEE1eUpMcFVtMGVmR0JoV1h5b05Fc3dlSWhLUWJrdmR1aXZUV0wtbU9YMnU0LXLSAXRBVV95cUxPTHZxYTdjYWRiUHI0TFJmYW8zTHpjcnlqT0h3dlo4ci1MdmZCSmRmSzQ4N0tsbGVxTUtFdy1QNTNLY0tlemVCUEtmSHlqYWZsZC1rQWduSk5mSHpTaVdXcTlEWkEzYWt4TXJTOGFBdE1tYUlISg?oc=5",
+          "original_title": "국고채 10년 지표물, 장내에서 3.797%에 거래…지난 4월 말 이후 최저",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합인포맥스",
+              "title": "국고채 10년 지표물, 장내에서 3.797%에 거래…지난 4월 말 이후 최저",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qemNRZXZaZHByOFROZTJOcDZTVDRDMnNwY3JvdGJoSkFOSUtIUGtaLW1lb0RMaVNkNWlIYkhVUnhCbEE1eUpMcFVtMGVmR0JoV1h5b05Fc3dlSWhLUWJrdmR1aXZUV0wtbU9YMnU0LXLSAXRBVV95cUxPTHZxYTdjYWRiUHI0TFJmYW8zTHpjcnlqT0h3dlo4ci1MdmZCSmRmSzQ4N0tsbGVxTUtFdy1QNTNLY0tlemVCUEtmSHlqYWZsZC1rQWduSk5mSHpTaVdXcTlEWkEzYWt4TXJTOGFBdE1tYUlISg?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4446261_358920_205_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446261"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "무신사, 상하이시 다국적기업 인증 획득",
+          "summary": "무신사는 상하이시에서 다국적기업 지역본부 인증을 획득했다. 파트너 브랜드 해외 진출을 지원한다는 입장이다.",
+          "source": "무신사",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qLXp4QTh4WEh4R0VEQ3FwTGtHME50SGJBOFgzWmpmelJCM3VMazdFUGNpMmgxZy0tM3hvRWQ2N3FuaF9SS2dLU0xneFlfcjdBWEt1aHQzR0tMM1RSa3VyRg?oc=5",
+          "original_title": "무신사, 中 상하이시 ‘다국적기업 지역본부’ 인증 획득… “파트너 브랜드 해외 진출 지원에 탄력”",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "무신사",
+              "title": "무신사, 中 상하이시 ‘다국적기업 지역본부’ 인증 획득… “파트너 브랜드 해외 진출 지원에 탄력”",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qLXp4QTh4WEh4R0VEQ3FwTGtHME50SGJBOFgzWmpmelJCM3VMazdFUGNpMmgxZy0tM3hvRWQ2N3FuaF9SS2dLU0xneFlfcjdBWEt1aHQzR0tMM1RSa3VyRg?oc=5",
+              "image": "https://d3a9ls0n8d3jx7.cloudfront.net/object/images/press-releases/64ed8107-eae7-43fa-8d6c-3b4b6046116b.jpg",
+              "url": "https://corp.musinsa.com/newsroom/press/detail/1774"
+            },
+            {
+              "name": "머니투데이",
+              "title": "무신사 차이나, 상하이시 '다국적기업 지역본부' 인증",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PNzJ6WTRZQ3VIa2NvQy1yMDBiLXNySnVjemhuWVVMTzRFaUpuejZDTUxhTHA3V3lmb1kzMndNN3ZINTMwV25YOHpmTVRjZ0psTDZMQlROZXdpbWx2QUQ0NGtGN29TQnRYbVRwTHB1Y9IBb0FVX3lxTE1PNzJ6WTRZQ3VIa2NvQy1yMDBiLXNySnVjemhuWVVMTzRFaUpuejZDTUxhTHA3V3lmb1kzMndNN3ZINTMwV25YOHpmTVRjZ0psTDZMQlROZXdpbWx2QUQ0NGtGN29TQnRYbVRwTHB1Yw?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=819,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/11/2026112409515912414_1.jpg",
+              "url": "https://www.mt.co.kr/amp/living/2026/11/24/2026112409515912414"
+            },
+            {
+              "name": "Fashion Insight",
+              "title": "中 정부도 인정한 무신사, 상하이시 ‘다국적기업 인증’ 획득",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSTkxwcHJWM2s1RE04aUpZTHpMUUFXaGNXTVFxcnB2M0V1aEgtOGQwTHNIOVpCNnFZdlRacUlFOXBzNXppekdFMFlnd19EMktwOEhySkNn?oc=5",
+              "image": "https://image.fi.co.kr/ImgData/969/무신사 (2).jpg",
+              "url": "http://www.fi.co.kr/main/view.asp?idx=89232"
+            },
+            {
+              "name": "패션비즈",
+              "title": "무신사, 중국 사업 확대 성과… 상하이시 ‘다국적기업 지역본부’ 인증",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5FdTJKSDU4alNDYVB1LWFBZ2ZSRHBqMHU2MW9FcHp3YWlqSmFyRm1ZYmZEWXJrOG56aXFESnZWa1ByQzBybXVMQUdzeGdmT081?oc=5",
+              "image": "https://www.fashionbiz.co.kr/images/articleImg/mainImg/1795478047834-[%EB%AC%B4%EC%8B%A0%EC%82%AC%20%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C]%EC%A4%91%EA%B5%AD%20%EC%83%81%ED%95%98%EC%9D%B4%EC%97%90%EC%84%9C%20%EC%97%B4%EB%A6%B0%20%E2%80%98%EB%8B%A4%EA%B5%AD%EC%A0%81%EA%B8%B0%EC%97%85%20%EC%A7%80%EC%97%AD%EB%B3%B8%EB%B6%80%20%EC%9D%B8%EC%A6%9D%EC%84%9C%20%EC%88%98%EC%97%AC%EC%8B%9D%E2%80%99%EC%97%90%EC%84%9C%20%EA%B8%B0%EB%85%90%20%EC%B4%AC%EC%98%81%20%EC%A4%91%EC%9D%B8%20%EC%A3%BC%EC%A4%91%EB%B0%8D(%E6%9C%B1%E5%BF%A0%E6%98%8E)%20%EC%83%81%ED%95%98%EC%9D%B4%EC%8B%9C%20%EC%8B%9C%EC%9E%A5(%EC%99%BC%EC%AA%BD)%EA%B3%BC%20%EB%B0%95%EB%8C%80%ED%98%95%20%EB%AC%B4%EC%8B%A0%EC%82%AC%20%EC%B0%A8%EC%9D%B4%EB%82%98%20%EB%B2%95%EC%9D%B8%EC%9E%A5(%EC%98%A4%EB%A5%B8%EC%AA%BD).jpg",
+              "url": "https://fashionbiz.co.kr/article/231297"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "무신사, 상하이 '다국적기업 지역본부' 인증…\"K패션 진출 지원\"",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJa3RSMHJCQThvRVRGb080aE5jdUFZTW90a0xhbGgtanlIcERWem1RbjQxM05LRXM0akNFS2lIQklUcFAzTjB5RlNobnB5VlM1WXRNTHJwR29GT2wwRWUtTdIBYEFVX3lxTFBJa3RSMHJCQThvRVRGb080aE5jdUFZTW90a0xhbGgtanlIcERWem1RbjQxM05LRXM0akNFS2lIQklUcFAzTjB5RlNobnB5VlM1WXRNTHJwR29GT2wwRWUtTQ?oc=5",
+              "image": "https://img6.yna.co.kr/etc/inner/KR/2026/11/24/AKR20261124026100030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/amp/view/AKR20261124026100030"
+            }
+          ]
+        },
+        {
+          "headline": "29CM, 겨울 이구위크 거래액 1749억 원 기록",
+          "summary": "29CM이 겨울 이구위크에서 거래액 1749억 원을 기록했다. 하루 248억 원이 팔린 기록이다.",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=150377",
+          "original_title": "29CM 이구위크, 거래액 1749억 돌파 역대 최대",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "29CM 이구위크, 거래액 1749억 돌파 역대 최대",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=150377",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150377_133962_5522_v150.jpg"
+            },
+            {
+              "name": "비즈트리뷴",
+              "title": "29CM, 겨울 이구위크 거래액 1749억원…“역대 최대 흥행”",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEUS1TWjh4QjhOWndoZVZ0YU91VS0xWHdrQnM1OE5jbWVXc3pURTRBRWtNdmRyRHVsbWhRX25maVhrSlMtTmFPdkFoU1hoMW1YLUljRmNhNThpQjVUZURzUU1ZbUlXc0Q1dmhHWnVZNUg?oc=5",
+              "image": "https://www.biztribune.co.kr/news/thumbnail/202611/362999_269229_1236_v150.jpg",
+              "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=362999"
+            },
+            {
+              "name": "무신사",
+              "title": "29CM, 겨울 이구위크 거래액 1749억 원 역대 최대 흥행… “하루에 248억 원 넘게 팔렸다”",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RNGJjanFwUG1keDdEdmJqNEZpU0c4clIzZTZpV0hUUjlrdkFFb2ZRd3RPTVI0eW5ndlh3U05zeDVUZk5hX2pmOFhHcXlUSG43ZmY4UHB1T3hZeWlkbmZEbg?oc=5",
+              "image": "https://d3a9ls0n8d3jx7.cloudfront.net/object/images/press-releases/c17f51d2-273e-40ab-ab7a-4ff9d7e8292a.jpg",
+              "url": "https://corp.musinsa.com/newsroom/press/detail/1775"
+            },
+            {
+              "name": "SR타임스",
+              "title": "29CM, 겨울 이구위크 거래액 1749억원 '역대 최대'",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53ZV9xZnFqWFBQTVVjT2NzR29VeWdJN3NKV2l6TXlhN00zZzNUal83S3NOX280U0cySjliVmE4aWc4Tm9fWk5OZkRaT21SbXAycVdfRmNYYWUtS19YMmNzbTR3bzVMeFktY09Z0gFrQVVfeXFMTndlX3FmcWpYUFBNVWNPY3NHb1V5Z0k3c0pXaXpNeWE3TTNnM1RqXzdLc05fbzRTRzJKOWJWYThpZzhOb19aTk5mRFpPbVJtcDJxV19GY1hhZS1LX1gyY3NtNHdvNUx4WS1jT1k?oc=5",
+              "url": "http://www.srtimes.kr/news/articleViewAmp.html?idxno=218391"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "29CM, 겨울 이구위크 거래액 1749억 '최대 흥행'",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GUmxMTkUyczI0RnJNcERzakVaLXZEU1lOdzdiRUdHbnVyODlpSDhRVi1NZ3FXWWxza3hxQ3l5RlFjM1kxdU14Vm1tOEJsT1htOEpqR1pNd0FSQQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/03/11/202603111542266069_e.jpg",
+              "url": "https://www.fnnews.com/news/202611231342404636"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "한중 FTA 후속타결에 K-뷰티·여행업 '화색'…중국 재공략 시동",
+          "summary": "",
+          "source": "경북신문",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nd1lWZWVQTm9XXzllWkxaLU56MHVuMTkxQkVubUtOdk90R05GNngxd2FzN3laQkJkMTJ5V0tTakktWGpMYlg0X09oc0x6ZEV5VHRCTUdLbHU?oc=5",
+          "original_title": "한중 FTA 후속타결에 K-뷰티·여행업 '화색'…중국 재공략 시동",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "경북신문",
+              "title": "한중 FTA 후속타결에 K-뷰티·여행업 '화색'…중국 재공략 시동",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nd1lWZWVQTm9XXzllWkxaLU56MHVuMTkxQkVubUtOdk90R05GNngxd2FzN3laQkJkMTJ5V0tTakktWGpMYlg0X09oc0x6ZEV5VHRCTUdLbHU?oc=5",
+              "image": "https://www.kbsm.net/data/newsThumb/1795482297ADD_thumb780.jpg",
+              "url": "https://www.kbsm.net/news/view.php?idx=543025"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "한중 FTA 후속타결…K-뷰티·여행업 현지 공략 시동",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlelZMRnhEcUZ0UnFnUnlfTkVoRWpKREJaT2o5VUo0Z2x5Q0VfUTkzVFcwbFAxMzhyN21OQk1TQ1dSMC1QWTJZYzE2bXJPZDZCd1FIS1VNaE9RYzYxbzNhWWU1N28?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/11/24/sentv20261124000015.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611240018"
+            },
+            {
+              "name": "OBC 뉴스",
+              "title": "한중 FTA 후속타결…K-뷰티·여행업 중국시장 재공략",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JSGRRb3RIeHBBalpzbnVtTU56VVUxNHVZZ1EyTWhSZnNqYlBvWUVxZExGeDlKbHB3Qjl2X3Nta1VQSzZoMVVfdGJCQzkwZW5tRjdDM29XQmpaZ3BwbjZxbjdjUE9XUlBqa1E?oc=5",
+              "image": "https://cdn.theonetv.kr/news/thumbnail/202611/255876_259040_4347_v150.jpg",
+              "url": "https://www.theonetv.kr/news/articleView.html?idxno=255876"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "한중 FTA 후속협상 타결에…K-뷰티·여행업계 중국 재공략한다",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Wb2thUDhfN2NWWFFDcVk4eGJqVzZuNE5ickVpdTBJUXRPa2FjelZ4aGI0ZW00dDE4OHA2cV9ZdGtGVUJZclR2UXFUTUM5b0ZHOFdWem1iTE95cXhSbWRLeTNuOVA2NE0?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261123/AKR20261124081727SAg_03_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261124081727SAg"
+            },
+            {
+              "name": "경북매일",
+              "title": "한중 FTA 후속협상 타결…여행·K뷰티 中 공략",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55d3RNMmtxTDBRNWRlTVBmMVNjSFhsa2hWa2QyUGNBZ2ZOWHRXcUt0azV4S09EWWl0RlR5RWZUU1ZjdmtWcVVFdF9ja05QaXgwQkZvSHJEMHRpdw?oc=5",
+              "image": "https://umq1gm7a8386.edge.naverncp.com/data2/content/image/2026/11/24/.cache/512/20261124500010.jpg",
+              "url": "https://www.kbmaeil.com/article/20261124500012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "혈액 검사, 알츠하이머 진행 속도 예측",
+          "summary": "혈액 검사를 통해 알츠하이머병 진행 속도를 예측하는 연구가 진행 중이다.",
+          "source": "헬스조선",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZMU5GMkcyckI4SDZPTjFWSDhGNWQ3dTJRMXFxdXkzYnRGWlk5TW9RdjZxUnZVWTV5aGJCdzd6cVJYSEJ4T21lbEFSTU43bjhmQ3dMWC0tbWxOMm9GX2E2YVViSkI3R1RxcHVDdEpmYjh2MGZ5MzJ6WS01aTZoazQ?oc=5",
+          "original_title": "혈액 검사로 '알츠하이머병' 진행 속도 예측",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "헬스조선",
+              "title": "혈액 검사로 '알츠하이머병' 진행 속도 예측",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZMU5GMkcyckI4SDZPTjFWSDhGNWQ3dTJRMXFxdXkzYnRGWlk5TW9RdjZxUnZVWTV5aGJCdzd6cVJYSEJ4T21lbEFSTU43bjhmQ3dMWC0tbWxOMm9GX2E2YVViSkI3R1RxcHVDdEpmYjh2MGZ5MzJ6WS01aTZoazQ?oc=5",
+              "image": "https://health.chosun.com/site/data/img_dir/2026/11/23/2026112301791_0.jpg",
+              "url": "https://health.chosun.com/site/data/html_dir/2026/11/23/2026112301795.html"
+            }
+          ]
+        },
+        {
+          "headline": "9시간 이상 잠, 심장병 환자 사망 위험 51%↑",
+          "summary": "9시간 이상 잠을 자는 심장병 환자는 사망 위험이 51% 상승했다는 연구 결과가 발표되었다.",
+          "source": "전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzT1BfbWpBQlVabDM1X3JzeTlRZ3ppNDlYTzc1SlNFano3ekRScHBqWDVPSHVNWEdxaUg0UTBFNEplQ0d3Q2xXYVZmTllLdw?oc=5",
+          "original_title": "“잠 너무 많이 자도 위험 신호?”…9시간 이상 자는 심장병 환자, 사망 위험 51%↑",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "전자신문",
+              "title": "“잠 너무 많이 자도 위험 신호?”…9시간 이상 자는 심장병 환자, 사망 위험 51%↑",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzT1BfbWpBQlVabDM1X3JzeTlRZ3ppNDlYTzc1SlNFano3ekRScHBqWDVPSHVNWEdxaUg0UTBFNEplQ0d3Q2xXYVZmTllLdw?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/23/news-p.v1.20261123.4bc4cdc69ec94aed822f2c312957a9bb_P1.jpg",
+              "url": "https://www.etnews.com/20261123000373"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "중학생이 신세계백화점 폭발물 협박",
+          "summary": "울산 중학생이 신세계백화점에 폭발물 설치를 협박했다. 경찰은 23일 자택을 찾아 조사했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611241335001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "“신세계백화점 폭발물 설치했다” 협박한 범인은 울산 중학생···경찰 조사",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "“신세계백화점 폭발물 설치했다” 협박한 범인은 울산 중학생···경찰 조사",
+              "link": "https://www.khan.co.kr/article/202611241335001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/24/news-p.v1.20261124.441b327cf192420da4cf8195dee5ae76_P1.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "신세계백화점 폭파 협박범은 울산 중학생…경찰에 범행 시인(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261124097151057",
+              "image": "https://img0.yna.co.kr/photo/cms/2023/04/20/99/PCM20230420000099990_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "신세계백화점 폭발물 협박‥경찰, 전국 지점 안전 확인",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BUkFZcWdVT19NeHRReTlCQVJLQllpNG9kNXUtVWpxNUwzWmZDSlpKRUIzQzFGRG9tU3MzU3c2RnFRU01YUmdJZDFqWTZnaS0xYWFjc1hJX2RxeFBkVTZBVERrQW9ac29NR1NpeHJtWGFGZUw2cmUw?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/23/hm_20261123_1.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6867852_36918.html"
+            }
+          ]
+        },
+        {
+          "headline": "전광훈 목사 불법 정치자금 구속영장 신청",
+          "summary": "전광훈 사랑제일교회 목사가 불법 정치자금 혐의로 구속영장을 신청받았다. 경찰은 재판 출석 중이었다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611241047001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "경찰, ‘정치자금법 위반’ 전광훈 목사 구속영장 신청",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "경찰, ‘정치자금법 위반’ 전광훈 목사 구속영장 신청",
+              "link": "https://www.khan.co.kr/article/202611241047001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/24/rcv.YNA.20261021.PYH2026102112220001300_P1.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "경찰, '불법 정치자금 의혹' 전광훈 구속영장 신청",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjTlJnWnhFcFY3LVJ3QnAybUt4T2kzb1BUaUk2SE8tc1VSZUVmbkxWYVFQWEYwOG02RVc0S1J2XzA3bWlwbjZzRFMtVXllWC1qZUJPTHl0TnJzWHZGSHQtMGZ6VnhlcTBpSWR0UDV5ZHNOOWJyY1Jr0gF3QVVfeXFMUEM1UC03QjdJRWhCWUNOSWNsZ3FENnNlVThYVEtScExmd3oxQ1lpMEt2ZVEyaFRKSUxhYnRkYnhtX3hNQWNucmJyYkM5MGl6MFlDcGRKQ2pkTENoRjlxMjlBajRKdnh1azhfV3hqS2NINk1JY3dJd3M?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/24/jh_20261124_6.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6868056_36918.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "러시아 군인 1천명 이상 자살, 우크라 전장",
+          "summary": "쿠르스크 전투 중 러시아 군인 1천명 이상이 자살로 사망한 사실이 영국 가디언에 의해 보도된 사실이다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008860396",
+          "original_title": "\"우크라 전장에서 러시아 군인 1천 명 이상 스스로 생 마감\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "\"우크라 전장에서 러시아 군인 1천 명 이상 스스로 생 마감\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008860396",
+              "image": "https://img.sbs.co.kr/newimg/news/20250201/202035066_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "\"우크라전서 러 군인 1천명 이상 스스로 생 마감\"",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sVFJZUGhybGF0b3dad2h6SzFmQXVqSk45THlxQUxIXzUwS09vdFlqc0tlUUplb1ppQ3BXN3FDVUhuODIzd1dIUVEzaThJMFMtc1I0MG5WSDRWVjN6a1JjMlBrNmx1eE0?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261124/AKR20261124101718heh_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261124101718heh"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "\"우크라 전장서 러 군인 1천명 이상 스스로 생 마감\"",
+              "link": "https://www.yna.co.kr/view/AKR20261124045400009",
+              "image": "https://img3.yna.co.kr/photo/etc/ta/2026/11/23/PTA20261123027701009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "한전, AI '파워북' 공공기관 확산…공공기관 AI 대전환 선도",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iZFVPMjRjVVdzdGUtWUN0VFlqR05sWEE5WFNXeHhKdHFWU2tqZFNid1c0bHdHOFY0TS0yaTJvZWVjWlRydEV3RnU3Q01yTktBNTlycDVSTWItT2tCMjJud9IBeEFVX3lxTFBZbzl6WmxaUW52N3VpbE04cVdmTkhLOFlYemc0cUV2RTBEZTRkUlFPaE1KbHhoRWpYV21aYUlKRmNfdVV2TlI5S3pfZ2o3U2dwVEpqVW5qU2EtQ3VpeEZrSm8zbEN5V1hwdFB2c0V1Y0tsY0hYbDVyVQ?oc=5",
+          "original_title": "한전, AI '파워북' 공공기관 확산…공공기관 AI 대전환 선도",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "한전, AI '파워북' 공공기관 확산…공공기관 AI 대전환 선도",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iZFVPMjRjVVdzdGUtWUN0VFlqR05sWEE5WFNXeHhKdHFWU2tqZFNid1c0bHdHOFY0TS0yaTJvZWVjWlRydEV3RnU3Q01yTktBNTlycDVSTWItT2tCMjJud9IBeEFVX3lxTFBZbzl6WmxaUW52N3VpbE04cVdmTkhLOFlYemc0cUV2RTBEZTRkUlFPaE1KbHhoRWpYV21aYUlKRmNfdVV2TlI5S3pfZ2o3U2dwVEpqVW5qU2EtQ3VpeEZrSm8zbEN5V1hwdFB2c0V1Y0tsY0hYbDVyVQ?oc=5",
+              "image": "https://img1.newsis.com/2026/11/24/NISI20261124_0002300620_web.jpg",
+              "url": "https://www.newsis.com/view/NISX20261124_0003880792"
+            },
+            {
+              "name": "전자신문",
+              "title": "한전 자체 개발 AI '파워북', 전력 공공기관 4곳으로 확산",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fSUlwVzlRY1NVRVVsRFFodWxXMlFpQ2ROMGNzSDRmdEhSUnVXSWRyLXA0S3ZEOE9pY2dkczQyeUJ6UGhpMS1rWFNwSUFFQQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/24/news-p.v1.20261124.1fc38eaa6ff745e7a3b4379b75266a01_P1.jpg",
+              "url": "https://www.etnews.com/20261124000173"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "한전, 자체 개발 AI '파워북' 공공 확산…전력기관 4곳 도입",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0S2ZLMDJhVm96Y2k2UlNWTkVCR1ZnZ0NQZ1JVeE5yS0J6WUM4ejN2VjhxemVDRm9QejJ6ZktQSXhzelhaVzRZZXdKYy0yLWY2WEhlR0V1TU56a2pRRUt1eVRPbzY?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/11/24/sentv20261124000051.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611240057"
+            },
+            {
+              "name": "데일리안",
+              "title": "한전, 자체 개발 AI서비스 '파워북' 공공 확산…공공기관 AX 선도",
+              "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPb0ZpTFl5Tm9VbXc2Q3ZQWDhhSFZtM09OamlBYm5HaTVxajF4d0xCQXdhNEFPaXZZZU9NOUU4Vlg1a0Z6RG1Ob2lvd3JDaXBncFRaS1hfcjRWakNNRE1aOWdVWXlrZnUwUWtxQXVEVXdrSUc5MWdiVVZaRW0yMW5zQXFHN1VqVXc5UFlJWXVvMUs5SmdnU3lMd2xBUDJxQzNpQ0VuNnY3QWdXVEY0SWhTS1VvbWxnNXllcGZoMzFKNkllSFN6VXpQMWJ4Z2hSWkwweS1LQi1EV2t6bUttcGxiZGZZQlN4UFhNZnZORkRza2tGbFpyMTJ0aXl4UHhVSUN6Z3Jv?oc=5",
+              "image": "https://cdnimage.dailian.co.kr/news/202611/news_1795481782626_1718862_m_1.jpg",
+              "url": "https://www.dailian.co.kr/news/view/1718862/%ED%95%9C%EC%A0%84-%EC%9E%90%EC%B2%B4-%EA%B0%9C%EB%B0%9C-AI%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%8C%8C%EC%9B%8C%EB%B6%81-%EA%B3%B5-2026"
+            },
+            {
+              "name": "에너지코리아뉴스",
+              "title": "한전, 자체 개발 AI ‘파워북’ 4개 기관과 공동 활용 협약",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNampjYU5TTWl6c25MMVdJLUhPVnFIdmpfMllHV1lVWkIwQTBoYnRLQlp4VDFzZWtKa2xTalgyaWFNR0NBbDNZV3hYQ1hWZThjbWhRcmhHRWRFMXpyMkpzNWNqaG5reWRVa1VaMEc3SHI?oc=5",
+              "image": "https://cdn.energykorea.co.kr/news/photo/202611/67096_58154_09.jpg",
+              "url": "https://www.energykorea.co.kr/news/articleView.html?idxno=67096"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "경산시 지원 영화 ‘인간 초거대 알고리즘’ 전국 개봉",
+          "summary": "경산시가 지원한 영화 ‘인간 초거대 알고리즘’이 전국에서 동시에 개봉했다.",
+          "source": "LG헬로비전",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZd19WTUpJV0c3T1hXMXMwZU1LUHBrbjVfOGxCZ0pqZjdGaTZCdlhFWDd4N2plNU5UTVFWSXZjVnBhRWJpUTdUV1hBamlwZ2pDS1NuQmJBY3dIc2lMNWF3RG1lbExVRk1sMU9sVzdTUnJCUdIBdkFVX3lxTE1kQmNWR1pRMFZqNDRaTlR5YmZ4RmpNcEFNckdVM1RfelNwVEdyYmNlYW5aOTBXX0lwUWJLbDZ2SnZoNkcxLWU2Zk0waWw2X2w1RHZvWFF1YTNpbEhlRVozRTRoZ1FwZThFd1l5cmVuc3NSRmh6Vmc?oc=5",
+          "original_title": "경산시 지원 영화 '인간 초거대 알고리즘' 개봉",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "LG헬로비전",
+              "title": "경산시 지원 영화 '인간 초거대 알고리즘' 개봉",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZd19WTUpJV0c3T1hXMXMwZU1LUHBrbjVfOGxCZ0pqZjdGaTZCdlhFWDd4N2plNU5UTVFWSXZjVnBhRWJpUTdUV1hBamlwZ2pDS1NuQmJBY3dIc2lMNWF3RG1lbExVRk1sMU9sVzdTUnJCUdIBdkFVX3lxTE1kQmNWR1pRMFZqNDRaTlR5YmZ4RmpNcEFNckdVM1RfelNwVEdyYmNlYW5aOTBXX0lwUWJLbDZ2SnZoNkcxLWU2Zk0waWw2X2w1RHZvWFF1YTNpbEhlRVozRTRoZ1FwZThFd1l5cmVuc3NSRmh6Vmc?oc=5",
+              "image": "https://cdn.news.lghellovision.net/news/thumbnail/202611/563473_206482_047_v150.jpg",
+              "url": "http://news.lghellovision.net/news/articleView.html?idxno=563473"
+            },
+            {
+              "name": "데일리한국",
+              "title": "경산시 지원 영화 '인간 초거대 알고리즘' 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTQzloUzZqVm5uNWZXTmJkVzdOQXNxYjdqY2dfbUQzbkhUdmdHR0Rnb2dkVmhFUnJ3Slh3bW5ZcnFac21vMTZvRHlnMm9DbkVCbVFHc05UQTMyaDlVdFV6Uk8yNmlJYmwzY2QzSGpTTdIBc0FVX3lxTE5yendlakpBT20tVlNPLWN3dDVwcDBMXzh5MjN5azMxeldXcDFyd2Nxc0g2Vy1uUzJGeHZScDRwVUsxWTFEWGpBeGgwWjZLaUxjeUZsQWZzZnR0NzE4WWJ4R0JsNEt0QzRreUxjWGw5QXJqbHM?oc=5",
+              "image": "https://cdn.daily.hankooki.com/news/thumbnail/202611/1428111_1606245_2742_v150.jpg",
+              "url": "https://daily.hankooki.com/news/articleView.html?idxno=1428111"
+            },
+            {
+              "name": "스트레이트뉴스",
+              "title": "경산지역 영화 ‘인간 초거대 알고리즘’ 전국 동시 개봉",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuZHFicU15VVpIWlBVNFRGNjJ1Q293M3RzNTRUU1drNndqOWc1d3A5OGNlSGNiTnBpQ2lFb1NUQlZwRjNJRTdrc3VRTzRJaDRQa3VCWVQzV3lPOVk2QUhpczlyUFl5UFFISDRZUVg2dzloSG_SAXdBVV95cUxON0h1azdJWjU4eGZWZ1FLbjRlZHM1RmVMUE44TEp5SkFuZUhyWGY3TGJsa2s0NXZIY0tTTjI3RUR1X1VGLXFJSzdzaFJtazZSWDlYOU5vUnZISXBOWjBlZl9nZUVxUURZM2R1VEdMMldBVkoySm9pYw?oc=5",
+              "image": "https://cdn.straightnews.co.kr/news/thumbnail/202611/316018_229263_3232_v150.jpg",
+              "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=316018"
+            },
+            {
+              "name": "뷰티경제",
+              "title": "경산시 지원·지역 영화인 제작 ‘인간 초거대 알고리즘’, 25일 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14YzBpdFU0cWRHaE5vcE4zSTM3S28yZW1zN3hPdnRPV2NrYi1qTkRPMkpOOENkc0pLemliMk5QeEJXaEo3SHk2R0wybGhTMWxVT3FBcHdmemdLdjNoSFBuZ095YjhjamkwelE?oc=5",
+              "image": "https://cdn.thebk.co.kr/news/photo/202611/312991_83474_2457.jpg",
+              "url": "https://www.thebk.co.kr/news/articleView.html?idxno=312991"
+            },
+            {
+              "name": "경북일보",
+              "title": "경산서 찍은 ‘인간 초거대 알고리즘’, 25일 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UdS0yTlZHUWV3SnNuTW82U25Dc3ctdnk5Z0tnRWFJdGZXdGdwbS1lRG5fMmhvWnVKem5Cb2JMbmFlUGxJVEVILXRlMEVMdDRmeWFWV2FMejFneXhUQlVTUHhwTDd4QkFvU19zekE5WQ?oc=5",
+              "image": "https://cdn.kyongbuk.co.kr/news/photo/202611/4091826_831766_2647.png",
+              "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091826"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "김민선·유현조·이다연, LPGA 투어 입성 확정…이정은은 조건부 출전",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261124_0003880127",
+          "original_title": "김민선·유현조·이다연, LPGA 투어 입성 확정…이정은은 조건부 출전",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "김민선·유현조·이다연, LPGA 투어 입성 확정…이정은은 조건부 출전",
+              "link": "https://www.newsis.com/view/NISX20261124_0003880127",
+              "image": "https://img1.newsis.com/2026/10/25/NISI20261025_0021503253_web.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "김민선·유현조·이다연, 2027시즌 LPGA 투어 출전권 확보",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YbFRSVGJtcFlSYUdRV3h3c3BFSVMwVzN5RV8yNDlKVVkzdlJDMlliZW9rTWhRbzdxel9QLU9LcDBRSEd5NjZGamI1S0JpSlBaNFFTVDA0WWFITE0?oc=5",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8720696"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "김민선·유현조·이다연, 내년 시즌 LPGA 투어 출전권 확보",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008860037",
+              "image": "https://img.sbs.co.kr/newimg/news/20261124/202243651_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "김민선·유현조·이다연, 2027시즌 LPGA 투어 출전권 확보",
+              "link": "https://www.yna.co.kr/view/AKR20261124011200007",
+              "image": "https://img1.yna.co.kr/photo/yna/YH/2026/10/25/PYH2026102503400005400_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "가장 현실적이면서도 멋스러운 겨울 아우터 스타일링 4",
+    "tagline": "W Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 5,
+      "t_min": -3,
+      "rain_pct": 0,
+      "sky": "구름 조금",
+      "display": "서울 -3~5°C · 구름 조금 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "가장 현실적이면서도 멋스러운 겨울 아우터 스타일링 4",
+        "name": "W Korea",
+        "link": "https://www.wkorea.com/2026/11/24/%ea%b0%80%ec%9e%a5-%ed%98%84%ec%8b%a4%ec%a0%81%ec%9d%b4%eb%a9%b4%ec%84%9c%eb%8f%84-%eb%a9%8b%ec%8a%a4%eb%9f%ac%ec%9a%b4-%ea%b2%a8%ec%9a%b8-%ec%95%84%ec%9a%b0%ed%84%b0-%ec%8a%a4%ed%83%80%ec%9d%bc/",
+        "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6b047304d63ff-scaled-1920x1080.jpg?x=1829&y=1540&ver=1.2.12",
+        "url": "https://www.wkorea.com/2026/11/24/%EA%B0%80%EC%9E%A5-%ED%98%84%EC%8B%A4%EC%A0%81%EC%9D%B4%EB%A9%B4%EC%84%9C%EB%8F%84-%EB%A9%8B%EC%8A%A4%EB%9F%AC%EC%9A%B4-%EA%B2%A8%EC%9A%B8-%EC%95%84%EC%9A%B0%ED%84%B0-%EC%8A%A4%ED%83%80%EC%9D%BC/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "가장 좋은 복수는 그와 같은 사람이 되지 않는 것이다.",
+    "author": "마르쿠스 아우렐리우스",
+    "work": "명상록"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "빠른 발걸음으로 새벽을 맞이한다"
+      },
+      {
+        "animal": "소",
+        "text": "지혜로운 눈빛이 길을 비춘다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "강렬한 에너지로 도약한다"
+      },
+      {
+        "animal": "토끼",
+        "text": "달콤한 웃음으로 하루를 채운다"
+      },
+      {
+        "animal": "용",
+        "text": "불꽃 같은 열정이 솟구친다"
+      },
+      {
+        "animal": "뱀",
+        "text": "우아한 움직임으로 길을 잇는다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 바람에 몸을 맡긴다"
+      },
+      {
+        "animal": "양",
+        "text": "평화로운 마음으로 세상을 감싸"
+      },
+      {
+        "animal": "원숭이",
+        "text": "재치 있는 아이디어가 솟아난다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 타이밍으로 시작한다"
+      },
+      {
+        "animal": "개",
+        "text": "친절한 눈빛이 길을 밝힌다"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍부한 에너지로 즐거움을 나눈다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
