@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-25",
+  "weekday": "수요일",
+  "vol": 44,
+  "generated_at": "2026-11-25T12:28:13+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4704.0,
+      "change": -302.03,
+      "change_pct": -6.03,
+      "direction": "down",
+      "display": "4,704.00",
+      "change_display": "▼ 6.03%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1344.5,
+      "change": 3.5,
+      "change_pct": 0.26,
+      "direction": "up",
+      "display": "1,344.5원",
+      "change_display": "▲ 0.26%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 80840000.0,
+      "change": -601000.0,
+      "change_pct": -0.74,
+      "direction": "down",
+      "display": "8,084만원",
+      "change_display": "▼ 0.74%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 6,
+    "t_min": -4,
+    "rain_pct": 0,
+    "sky": "구름 조금",
+    "display": "서울 -4~6°C · 구름 조금 · 강수 0%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "연금",
+      "headline": "연금 68세 수급개시설 논란",
+      "summary": "국민연금 68세부터 수령이 가능하다는 설이 떠오르며, 정부는 검토 중이라고 밝혔다.",
+      "source": "주간경향",
+      "link": "https://weekly.khan.co.kr/article/202611250802011",
+      "original_title": "‘73년생 66세, 77년생 67세, 81년생 68세’…국민연금 68세 수급개시설 어디서 나왔나",
+      "sources": [
+        {
+          "name": "주간경향",
+          "title": "‘73년생 66세, 77년생 67세, 81년생 68세’…국민연금 68세 수급개시설 어디서 나왔나",
+          "link": "https://weekly.khan.co.kr/article/202611250802011",
+          "image": "https://img.khan.co.kr/weekly/2026/11/25/news-p.v1.20261124.17372f6ceabd4563a2a509d0c11d628f_P1.jpg"
+        }
+      ]
+    },
+    {
+      "kicker": "축구",
+      "headline": "시메오네, 라리가 역대 최다승 기록",
+      "summary": "아틀레티코 마드리드 감독 시메오네가 라리가에서 345승을 달성해 최다승 통산 기록을 갱신했다.",
+      "source": "뉴데일리",
+      "link": "https://www.newdaily.co.kr/site/data/html/2026/11/24/2026112450020.html",
+      "original_title": "시메오네 ATM 감독, 라리가 역대 '최다승' 신기록 … '345승'",
+      "sources": [
+        {
+          "name": "뉴데일리",
+          "title": "시메오네 ATM 감독, 라리가 역대 '최다승' 신기록 … '345승'",
+          "link": "https://www.newdaily.co.kr/site/data/html/2026/11/24/2026112450020.html",
+          "image": "https://image.newdaily.co.kr/site/data/img/2026/11/24/2026112450020_0.jpg?u=20261124074644?u=20261124074644"
+        },
+        {
+          "name": "Goal.com",
+          "title": "[오피셜] '강인아, 네 덕이야!' AT 마드리드 '레전드' 시메오네, 라리가 통산 345승 달성→아라고네스 넘어 역대 최다승 단독 1위 등극",
+          "link": "https://news.google.com/rss/articles/CBMiugtBVV95cUxNdXQ3Z01SV0d0TXQ4U0toQjNjVlkxU1RCMHZMVkRaLWJVam9PNzNHQjVxX2NlRUhLdzV4NFdoV3NWamdjcXdxUWRFZ0ZDSHZYV1V1OTBaaDhoZVkySDdiN0pENlZIdUNMUnI2NXc5TWtJLWtlNFZadk1TRFVGSzdfYTBkdDJEaFhjMGQ4czloOEVrZjZ6YVJwZ3NHR20yaVBoSERXWC1ZaldDdWcwaEJMWTBFcExWTlpYUFhSWVNybnhjVDRKb0RqQTlIWVg5a3dHaU84S3JQNUhjdzR4endpM3N2SERaUm1PZVdyNndhMWl4Z0JmT05OdjY5TEpkcEtWbFNRSkxGT2xVX01sckQzVlFVOUtfUTJSQk9zZEdIMlVLNlJ4c0hDWE5Iejd5WEIxVE51OWN4bTV6ekJYX1FjUFBDdGRRcVNJUzhpSFRuMWw1eUZmdy01UThzREFvdDdRVFJRYXJTYWZVNU5ySkNLN1VxNmlRZUlldXEwVlcwLWRhbXdTRFFxXzV1bXozYlQ0TnJDWF9tbDRBTnFsWVltZkV2Nk4xSXZuTTZIUlJPYjVDSEhxclJzb1I5OFRVRENhMzNqcnVXdlFkeWFIcGN0c2xEMjk0UWpMZkFoLXd0eTBOaklkLWtmTWNSVURVSmctMGxSa05qNFMzLTJ1aWgzakViN25aZ0oxU1pmek84Xy0tVWNYeHZlZHdWZTdJaWZYVE1uSEl6TE5UZG9yRlJTRVFGLWZUaDR1YVB3azVrWmF3b2otMjRKWjhpLU1hQ2dISm9SeG53Wi1vSnZIY0lrWTk5aXdkSFdzU2UzTDZmdjZ4dXlNSTBfc3MzY2o1OFFIWTVUV05OYU16UXprV1JyTXh5N2pqZFlfRlNBTWo2TWxfczNESGZqSHpsczk3TjZ2eUhRYzc5dzFyeDItRVhjSm1aMEdaOGVjZTRFOGRlVVVmT2k2UmVST3E1VHF1ZE1FaXRkSmhSV3hVR2htM0lwREFGbDFvWnI0dDdqcFpMYUZSYkZFMnhBZ3BueFBJc2cxNWNUbGJkNEsxU21WRkJsT3dnYTloSTJvTGxkOVJmSy1YY2ZMZlU5aU5McTc3M2ZNM3pZd3BOOC1zR3ZueHFEaWRvQVdvQ3pIU3E5UGotX290YTcwRFl6MVhVY0tOYzlrdlQyVW84QWVUSFNQaHl5aV96d0o1d0JWVGE1UkoyUzI4TmloTGs4dVdEeWN0aGZqb1FmQW1IN1RFNjMyMU9GY1Z4UUpEZ040Q1EtUkxXb05sZnVqT0ZocTBFd0c5d3NtbGJOelVHUXJCVWRQbTN1d2RoYzJ1SGxwaWRjWkxwdlR5cTJMYnJiOUNuTU53cmI3c0kySktrbldjZXFmR0VvUTZnanZFMnRleVJNUm5oZVRSWFhfX28yZ1h4UFpyR3QxdlJBbmt1ZXFPaHRKeGhBbmI0X08tQk9wOE9UUVNZY0d1U21HSk8wbkFnMF9WNDFBbWFtdzlaa0xxY0pEaUlKakNKODRWNXgzaldjT2J5Ukp6eVNNUDJSeTltRDBid1YxY0NyTHRIMmkyWDVLdUZhaVh6UlFQX1huVVdNWDE4c2NhTUdnQUh5S0VzektrWFNKT1ZVUW9zRlF5ZmJBWGh5cFdRdmV3M0RucDVDSTU0MTB4Q1JBdURVSUVyYlJJUXZrckV0T1B0MUxUSF9sWlJ0cFNZYnNFeHhaQ2FKcmdzU2M5bHZWeTA0NWx6cmNqRlAtSWxkSVRETWVjbjJxMXM4cGJSV1d6aVloN1lDNFZvSXgzWVFHaU1oX0E1Y3JKYVUyUXNYU0t2eFJGa3hzdkhlTmZTZjQzeXFHYWQxRGZhVElUaTVMcFRkV1ppNlQ1MlB0eEtPNTZhMFZnNGg2d2l2OGQtLWphUzZMTXU2UFNsN1dDVWduYV9ObXNKMXhiYXltVGhsSjQzZnNmdw?oc=5",
+          "image": "https://assets.goal.com/images/v3/blt32f270ceb64456fe/crop/MM5DGNRZGU5DEMBXHA5G433XMU5DAORRHEZA====/GettyImages-2299540204%20(1).jpg",
+          "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AF--%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A1-%E1%84%82%E1%85%A6-%E1%84%83%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A3--at-%E1%84%86%E1%85%A1%E1%84%83%E1%85%B3%E1%84%85%E1%85%B5%E1%84%83%E1%85%B3-%E1%84%85%E1%85%A6%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3-%E1%84%89%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%82%E1%85%A6-%E1%84%85%E1%85%A1%E1%84%85%E1%85%B5%E1%84%80%E1%85%A1-%E1%84%90%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%86%AB-345%E1%84%89%E1%85%B3%E1%86%BC-%E1%84%83%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E2%86%92%E1%84%8B%E1%85%A1%E1%84%85%E1%85%A1%E1%84%80%E1%85%A9%E1%84%82%E1%85%A6%E1%84%89%E1%85%B3-%E1%84%82%E1%85%A5%E1%86%B7%E1%84%8B%E1%85%A5-%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%83%E1%85%A2-%E1%84%8E%E1%85%AC%E1%84%83%E1%85%A1%E1%84%89%E1%85%B3%E1%86%BC-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%83%E1%85%A9%E1%86%A8-1%E1%84%8B%E1%85%B1-%E1%84%83%E1%85%B3%E1%86%BC%E1%84%80%E1%85%B3%E1%86%A8/blt3c92e632b17cd9fc"
+        }
+      ]
+    },
+    {
+      "kicker": "신도시",
+      "headline": "3기 신도시 부천대장 청약 경쟁",
+      "summary": "부천시와 계양구 청약에서 부천대장이 129대 1 비율로 우승했으며, 인근 지역은 미달이었다.",
+      "source": "Chosunbiz",
+      "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/25/3EJJHLPSV5FADCQSQEZIPXKGXY/",
+      "original_title": "철도가 가른 3기 신도시 청약… 부천대장 129대 1, 바로 옆 계양은 미달",
+      "sources": [
+        {
+          "name": "Chosunbiz",
+          "title": "철도가 가른 3기 신도시 청약… 부천대장 129대 1, 바로 옆 계양은 미달",
+          "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/25/3EJJHLPSV5FADCQSQEZIPXKGXY/",
+          "image": "https://biz.chosun.com/resizer/v2/EHF2RSTBRNHM7F4MSKC2CPDBYY.jpg?auth=915f6ec7f4647b1aeb683a212ba0f43c78142e9b96a28f9213041131ff4a16e1&width=700&height=367&smart=true"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "한전, 개인정보 유출 고객에 최대 1000만원 피해보상 보험 제공",
+          "summary": "",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12217959",
+          "original_title": "한전, 개인정보 유출 고객에 최대 1000만원 피해보상 보험 제공",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "한전, 개인정보 유출 고객에 최대 1000만원 피해보상 보험 제공",
+              "link": "https://www.mk.co.kr/news/economy/12217959",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/25/news-p.v1.20261103.4a0751d19d7e4ca4b007e2fe6167f188_R.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "한전, 정보 유출 2차 피해 방지‥최대 1천만 원 보상보험 제공",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55OHRqa0llalBIaGVwdm9MeGFnUXFHdHl1TTFZcVhwS0EtVTE0MWNFcG5WUG9DbU9yVVl1ZmNlb2I5T0Y5SXpfOTRkTW9oNXQ1UUJKNVp1b3o3Q2VTMWtYU2YyOUVYcmFDOWNsYXozRE0xbjAz0gF0QVVfeXFMUG52VzRUQTFaeE4tMzdabzlPLWdORWN6cGpnSzBuTDJxZWdsd1FzSjRlcnVGNHM1ejJ6NFZQQUxUUVpObW1xTHM1dXNONlFMT2FBbkxBZ3BzUUJhN1hXWThXd3Fjd3pKZWJnVTRuR3hqMTNrYWY?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/25/jh_20261125_9.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6868392_36932.html"
+            },
+            {
+              "name": "동아일보",
+              "title": "한전, 개인정보 유출 고객에 최대 1000만원 보상보험 무상 제공",
+              "link": "https://www.donga.com/news/Economy/article/all/20261125/135086180/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135086847.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "한전, 개인정보 유출 고객에 보안서비스 무상 제공…금융사기땐 최대 1천만원 보상",
+              "link": "https://www.newsis.com/view/NISX20261125_0003882264",
+              "image": "https://img1.newsis.com/2026/11/23/NISI20261123_0021542887_web.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "삼성E&A, 부사장 3명·상무 6명 승진…현장 성과 중심 인사",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261125_0003882454",
+          "original_title": "삼성E&A, 부사장 3명·상무 6명 승진…현장 성과 중심 인사",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "삼성E&A, 부사장 3명·상무 6명 승진…현장 성과 중심 인사",
+              "link": "https://www.newsis.com/view/NISX20261125_0003882454",
+              "image": "https://img1.newsis.com/2024/09/30/NISI20240930_0001665000_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "삼성중공업 정기 임원인사…부사장 3명·상무 6명 승진",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8ycUc3YWZZVElOSnpBSmRDRFp5bnRCRzMxOHpyUVBhZ1BXc2o2T1pCNFFkQlpsLUNQR01rdl81bG9zLU10X2FnY0pTZGp6b0Mtbk1DRW1qaDJLWVU?oc=5",
+              "image": "https://img4.yna.co.kr/photo/cms/2019/04/23/89/PCM20190423000089990_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261125064600003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "CJ온스타일, ‘힙키즈’ 열풍에 유아동 패션 주문액 95%↑",
+          "summary": "",
+          "source": "남다른디테일",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE54cEdfXzdaRzdHNUl2cUZGb1VYYWsyN183SS1fMHFMNElYX1lWUW9mdmJ3TWZxSWZ2WTJHbk40aWNRUQ?oc=5",
+          "original_title": "CJ온스타일, ‘힙키즈’ 열풍에 유아동 패션 주문액 95%↑",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "남다른디테일",
+              "title": "CJ온스타일, ‘힙키즈’ 열풍에 유아동 패션 주문액 95%↑",
+              "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE54cEdfXzdaRzdHNUl2cUZGb1VYYWsyN183SS1fMHFMNElYX1lWUW9mdmJ3TWZxSWZ2WTJHbk40aWNRUQ?oc=5",
+              "url": "https://namdi.co.kr/?p=30522"
+            },
+            {
+              "name": "쿠키뉴스",
+              "title": "“우리 아이도 힙하게”…CJ온스타일, 유아동 패션 매출 95% 증가",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tMHBTd1VvcEc2WDdHZDRUZWFKaUk4X2dJTTlpY3A3OTRHYUYtbHoydDlaZUNXcUFGLWF4SGFDdHA3MExQZGJ2VWRXamZTOTloQTdENHA3VHM0VkxUbTBFWldVRQ?oc=5",
+              "url": "https://www.kukinews.com/article/view/kuk202611250080"
+            },
+            {
+              "name": "패션비즈",
+              "title": "‘힙키즈’ 열풍에 브랜드 세대교체… CJ온스타일, 유아동 패션 매출 2배↑",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEZXNtSExleHdDYUF6bFI5VVlzM3BHbVFGSWtjeExzcE1WS2ZBQ1FTRk83Z2xDdG1uYjdpcFk0YTZ4YVR1WTJORmVvd2xwa1Vu?oc=5",
+              "image": "https://www.fashionbiz.co.kr/images/articleImg/mainImg/1795567200290-[CJ%EC%98%A8%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C]%20(%EC%99%BC%EC%AA%BD%EB%B6%80%ED%84%B0)%20%ED%9E%88%EB%A1%9C(HIRO),%20%EB%AF%80%EB%AF%80%EB%B8%8C(MAKES%20ME%20BETTER)%20%EB%B8%8C%EB%9E%9C%EB%93%9C%20%ED%99%94%EB%B3%B4.jpg",
+              "url": "https://fashionbiz.co.kr/article/231341"
+            },
+            {
+              "name": "뉴스1",
+              "title": "CJ온스타일, '힙키즈' 열풍에 유아동 패션 매출 95%↑",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhampoZll4X080dVpKTGhaUVc4TGdGTmtsdDU5UEM3YmpCdDJEUFd3aXVZazk0dExqRVAyQWxCVFZyV3YyMElSOHB3aENwUU13ek4tQkU3S2ItYnlBOHZB?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6365115"
+            },
+            {
+              "name": "이투데이",
+              "title": "“귀여운 옷 대신 힙한 옷”…CJ온스타일, 유아동 패션 주문액 95% 급증",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtT0s3WVJZY0JEQnZjQ2ZRZ01hbTJXaHdYVzRyS3YyY2VJbVNxTmQtenY4X0hDWEIyaF9TSEdGb0lZcm54Z0tqa1hTTkl4WnRBQm9rTw?oc=5",
+              "image": "https://img.etoday.co.kr/pto_db/2026/11/20261125093506_2423298_1200_900.jpg",
+              "url": "https://www.etoday.co.kr/news/view/2652628"
+            }
+          ]
+        },
+        {
+          "headline": "신세계라이브쇼핑, 센존 블루라벨 전용 컬렉션 선봬…프리미엄 여성 패션 강화",
+          "summary": "",
+          "source": "뉴시니어",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6SFltcTRXWGx4ZXB2cXdFY05ZT0JtY0FoNnVEd1JtNnJmaVc4OXhsU2tERzZIZ0ZhRDVxXzJucTUyWmNtRllyOC1Rd0c2M09rTnFYcllOOWFKbHlPYTBqMmE5SQ?oc=5",
+          "original_title": "신세계라이브쇼핑, 센존 블루라벨 전용 컬렉션 선봬…프리미엄 여성 패션 강화",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시니어",
+              "title": "신세계라이브쇼핑, 센존 블루라벨 전용 컬렉션 선봬…프리미엄 여성 패션 강화",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6SFltcTRXWGx4ZXB2cXdFY05ZT0JtY0FoNnVEd1JtNnJmaVc4OXhsU2tERzZIZ0ZhRDVxXzJucTUyWmNtRllyOC1Rd0c2M09rTnFYcllOOWFKbHlPYTBqMmE5SQ?oc=5",
+              "image": "https://www.nsenior.co.kr/data/photos/20261148/art_17955732625771_a1de93.jpg",
+              "url": "https://www.nsenior.co.kr/news/article.html?no=139297"
+            },
+            {
+              "name": "신세계그룹 뉴스룸",
+              "title": "신세계라이브쇼핑, 센존 블루라벨 전용 컬렉션 선보여",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTmI1c1R1XzBWMExjblhxbi1yNEZRa3lfZXBBZFhXUkljTmlOZ2tnTl9PczZoNDI0V3pveUxoUll2LVRZYURYd18yU1hURm9rcms0RDhSemtFVnVMSlJwVkF5ZExDVHUxNklsbmY1bFdhbnB5S1N5NkRZaFJkcjRQQmVQYjhSVkVJc2hVU0s4MXNmbmx2?oc=5",
+              "image": "https://images.shinsegaegroupnewsroom.com/wp-content/uploads/2026/11/NR_Press_List01.png",
+              "url": "https://www.shinsegaegroupnewsroom.com/shinsegae-live-shopping-unveils-st-john-collection/"
+            },
+            {
+              "name": "더팩트",
+              "title": "신세계라이브쇼핑, '센존 블루라벨' 기획상품 론칭…프리미엄 여성복 공략",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CRU1mT2lKUzFpZ2luaUlzYVdYcHp0RUpBNEN6ZVNoZEhfSFNyWVhhWlprYl8xcXRrblYyZl8wMzBkVjRjVC1vY19LSWJxcS1XRGxFMtIBVEFVX3lxTE5CRU1mT2lKUzFpZ2luaUlzYVdYcHp0RUpBNEN6ZVNoZEhfSFNyWVhhWlprYl8xcXRrblYyZl8wMzBkVjRjVC1vY19LSWJxcS1XRGxFMg?oc=5",
+              "url": "https://m.tf.co.kr/amp/economy/2392979.htm"
+            },
+            {
+              "name": "뉴시스",
+              "title": "신세계라이브쇼핑, 센존 블루라벨로 프리미엄 패션 강화",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yT1hOQ1N2bHRiVnpTaFBic0djM1IzZnJuRW5FN2VreTItMmpsX0t3WXQwLWZ2eTMyb3pqZWtIMENhV1VzTmRwa1NxYlRnRG5USkNQLS05ZjlvRXJ4VTdkM9IBeEFVX3lxTE9sc1duV3NKU0RUdnZoQzFTb29XT3NvWFBYR0RyTEdXbVROcW5kbXVrVzdJaVF4SUk2LS1SeUM5cWRzQmN5NWxPbTg4Nm1uMGpJeGlVU3pqVGZFTWRtOUNFM2NZQ3FqR2Jtbm1qZENVbllEd1lOekJHSw?oc=5",
+              "image": "https://img1.newsis.com/2026/11/25/NISI20261125_0002301422_web.jpg",
+              "url": "https://www.newsis.com/view/NISX20261125_0003881971"
+            },
+            {
+              "name": "뉴스1",
+              "title": "신세계라이브쇼핑, 센존 블루라벨 전용 컬렉션 출시…프리미엄 패션 강화",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tVk82X2w5azdxajFvWVl1bGlqUFlQZUZjdlV0UGE3T2t4NUlkTGxhRTRPOXpVdFNiY09jc3EzUjNJN0ZublFLUGZCOGZ0cU9BYjBUdGhrUXpZSHBTR0Y0?oc=5",
+              "url": "https://www.news1.kr/industry/distribution/6365033"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "올리브영, K-뷰티 인재 육성 ‘마이 퍼스트 미라클’ 2기 출범",
+          "summary": "올리브영은 2기 ‘마이 퍼스트 미라클’ 프로그램과 수료생 커뮤니티 ‘미라클 클럽’을 25일에 출범시켰다.",
+          "source": "장업신문",
+          "link": "https://www.jangup.com/news/articleView.html?idxno=100585",
+          "original_title": "CJ올리브영, 사회공헌 프로그램 ‘마이 퍼스트 미라클’ 2기 출범",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "장업신문",
+              "title": "CJ올리브영, 사회공헌 프로그램 ‘마이 퍼스트 미라클’ 2기 출범",
+              "link": "https://www.jangup.com/news/articleView.html?idxno=100585",
+              "image": "https://www.jangup.com/news/thumbnail/202611/100585_72519_845_v150.jpg"
+            },
+            {
+              "name": "오늘경제",
+              "title": "CJ올리브영, 사회공헌 프로그램 ‘마이 퍼스트 미라클’ 2기 출범",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ENldaZ19YVDBxbXRLQVpnMXBkWVliZFotQjBiWmVzX3VnRmZ4MkpiZDdYZE96YnR4VEoxVkpMUjVGZEhOa0VuN1hTNnVmMzZrOUpOdHVsdWx5MHRxc0ttdmJtdHFZckZJRUJrYVRBM19UbGc?oc=5",
+              "image": "https://cdn.startuptoday.co.kr/news/photo/202611/820046_618946_1200.jpg",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=820046"
+            },
+            {
+              "name": "문화투데이",
+              "title": "올리브영, K뷰티 인재육성 '마이 퍼스트 미라클' 2기 출범",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByT09NblphRjBhTVJPWlRlYlotYVNOZ2NJMmhUVzhPbjk5cnFWdjVPQ1JpVDdDeE1DanVXVWZMYkZZejNodnlUNHExRllIM25uR2RpYWtZRUF4Qll4TWlOOWhEd182QUxL?oc=5",
+              "image": "https://www.munhwatoday.co.kr/data/photos/20261148/art_17955697103405_0355a7.jpg",
+              "url": "https://www.munhwatoday.co.kr/news/article.html?no=178925"
+            },
+            {
+              "name": "보건신문",
+              "title": "올리브영, K뷰티 인재 육성 프로그램 '마이 퍼스트 미라클' 2기 출범",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wNFJvb3czaEQ2S3NDalhTbFFHcGhkc3ZfOWk4R0hmZkNUcnFqVmJMeDZYV0JGVHJBcDFGazQ3eHdxQUlPNU9oT1J5RVdhcGUtY3pmLTROYVNoSTg4aXRnVWtNd0o?oc=5",
+              "image": "https://www.bokuennews.com/data/photos/cdn/20261148/art_1795571163.jpg",
+              "url": "https://www.bokuennews.com/news/article.html?no=287726"
+            },
+            {
+              "name": "전자신문",
+              "title": "CJ올리브영, K뷰티 인재 육성 '마이 퍼스트 미라클' 2기 출범",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Vakt5Yk1VS1RjMkVOUEc4OVBKUHVQUDUzOFlQdXVmczJZSGpuRm9DUGtZU3pYUnZIZjFZY3hXVkU2NU5td1FNN19YX095UQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/25/news-p.v1.20261125.0e16c829e1d742e6ae5b2a418685b571_P1.jpg",
+              "url": "https://www.etnews.com/20261125000178"
+            }
+          ]
+        },
+        {
+          "headline": "롯데홈쇼핑 ‘이설’, K-뷰티 3개 브랜드 파리 쁘렝땅 입점",
+          "summary": "롯데홈쇼핑 ‘이설’은 3개 K-뷰티 브랜드를 파리 ‘쁘렝땅’ 백화점에 입점시켜 유럽 판로를 개척했다.",
+          "source": "머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hRUZqM1BtOVNEZGctRTNDbkF5MEZOem1xdkIzZ1JSNzJEd3RHWGp0eW40R0tyQ2p1bGd4NlBKRWNOc2NBWnd2b3BzbFZYNk1fMFREd1hyeGx5VFpuN0tWVG1LRUx6LVptVTVxallCRkFHOXFFazlN0gF8QVVfeXFMUGZFeFNuOURSU3JTX2ZIRzZSM3QzVy1DVHZvMHRKMEVCd1huN2M2NUNNQXJraTNpQno4ZGpSbkZmeTVlOGRSTjRKdGdpUDNsbFpIMlZGb1hPX2FEMmJkSE1nNzZ0LVJfTHhETzVQdnlhN3NuQ2pVZ3pTUGRfag?oc=5",
+          "original_title": "롯데홈쇼핑 플랫폼 '이설', K뷰티 판로 지원...파리 쁘렝땅백화점 입점",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "머니투데이",
+              "title": "롯데홈쇼핑 플랫폼 '이설', K뷰티 판로 지원...파리 쁘렝땅백화점 입점",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hRUZqM1BtOVNEZGctRTNDbkF5MEZOem1xdkIzZ1JSNzJEd3RHWGp0eW40R0tyQ2p1bGd4NlBKRWNOc2NBWnd2b3BzbFZYNk1fMFREd1hyeGx5VFpuN0tWVG1LRUx6LVptVTVxallCRkFHOXFFazlN0gF8QVVfeXFMUGZFeFNuOURSU3JTX2ZIRzZSM3QzVy1DVHZvMHRKMEVCd1huN2M2NUNNQXJraTNpQno4ZGpSbkZmeTVlOGRSTjRKdGdpUDNsbFpIMlZGb1hPX2FEMmJkSE1nNzZ0LVJfTHhETzVQdnlhN3NuQ2pVZ3pTUGRfag?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026112510312557419_1.jpg",
+              "url": "https://www.mt.co.kr/index.php/living/2026/11/25/2026112510312557419"
+            },
+            {
+              "name": "서울경제",
+              "title": "롯데홈쇼핑 ‘이설’, K뷰티 3개 브랜드 파리 쁘렝땅 입점",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05dF9ybEVYSXNGcElTeTVLNXhSMjFYT2lrRzl2dWc1eFFFa191R3c0akhnSm1Wbjh4bXJNNWJWYkRUbm5zdUQyaGM1X0p0MUhTd2fSAVNBVV95cUxOTXFLYVN0SXBscXVWek1COHZhYzIyWUl6bEVrWjBmUlhqNlNWenNReGN4Qlg3QmduRjNJbUo5WHRhZWhzSV9aOEQteUctN2FfX3FaUQ?oc=5",
+              "image": "https://wimg.sedaily.com/news/cms/2026/11/25/news-p.v1.20261125.95ac089dce0c489399a71980d02430de_Z1.png",
+              "url": "https://www.sedaily.com/article/20118676"
+            },
+            {
+              "name": "신아일보",
+              "title": "롯데홈쇼핑, 중소 K뷰티 유럽 판로 개척…프랑스 쁘렝땅 입점",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiakhiYnpmWGd1UFVQTHJZV01pWlVvblhYR2ZZUjJsMjlGaTFRLUJtTlA4Y21HYlUzTFlHOFhiZGdnQlV6TTBmNEZtSUdud3ZUN3Y5QU1ZcEdVVmNaUVFJdEE1d3NKS2tzdlZUQS1GeFA?oc=5",
+              "image": "https://cdn.shinailbo.co.kr/news/photo/202611/5087559_2084966_340.png",
+              "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5087559"
+            },
+            {
+              "name": "뉴스투데이",
+              "title": "롯데홈쇼핑 ‘이설’, 파리 백화점 입점 성과…K뷰티 유럽 판로 넓힌다",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XU3NXWmZITk9abVdpZEszSHNhRnV2ZjdNVV9rSXhkQTJ1R0dWLWRVZkE0aVpqdWZTMEdtYTVIS3Y5enFER2czR0diOUkzUUNILW5pYXpwd3k2VFRlWnc?oc=5",
+              "image": "https://cdn.news2day.co.kr/data2/content/image/2026/11/25/.cache/512/20261125500130.png",
+              "url": "https://www.news2day.co.kr/article/20261125500134"
+            },
+            {
+              "name": "전자신문",
+              "title": "롯데홈쇼핑, K뷰티 브랜드 佛 쁘렝땅 백화점 입점",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PYVRiaTlVM0hQM3R6VzRRdFFqc3JRdDV3ZEJLdUQ4N2ZBTFRlbXg0akJTN3lnd2Rza3NfOGxmanNta3VZcTN5a1d1NnJxUQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/25/news-p.v1.20261125.6d7c304b6267425bb4ecc412d542be92_P1.png",
+              "url": "https://www.etnews.com/20261125000131"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "코에 뿌리는 알츠하이머 예방약 실험",
+          "summary": "늙은 쥐를 대상으로 한 실험에서 코에 뿌리는 알츠하이머 예방약이 기억력을 회춘시키는 효과를 보였다.",
+          "source": "뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aOEd0Tkk3UGRjNENlMVo3UlVoejBydy1qSTZ2TC1MejFSSGIxMUFwQzRNUXAtbU1LNmtGZVFzSXVoM0R2V0Vab1lpWHA1OHZhYkFOdWotWW1MSWNC?oc=5",
+          "original_title": "'코에 뿌리는' 알츠하이머 예방약?…늙은 쥐 실험서 기억력 '회춘'",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴스1",
+              "title": "'코에 뿌리는' 알츠하이머 예방약?…늙은 쥐 실험서 기억력 '회춘'",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aOEd0Tkk3UGRjNENlMVo3UlVoejBydy1qSTZ2TC1MejFSSGIxMUFwQzRNUXAtbU1LNmtGZVFzSXVoM0R2V0Vab1lpWHA1OHZhYkFOdWotWW1MSWNC?oc=5",
+              "url": "https://www.news1.kr/world/general-world/6365376"
+            }
+          ]
+        },
+        {
+          "headline": "알츠하이머병 독성 단백질 제거 없이 치료 가능",
+          "summary": "연구에 따르면 알츠하이머병에서 독성 단백질을 제거하지 않아도 치료가 가능하다는 결과가 나왔다.",
+          "source": "후생신보",
+          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80Z2lTUFRxOGIyTkh0bGd0QWZXYm5yZDFqX0tQLU5xT0ZVbVhOclRLQ0wxSmp3T2hWQWpNQWRvOVNDZ0Ry?oc=5",
+          "original_title": "알츠하이머병, 독성 단백질 제거하지 않아도 치료 가능",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "후생신보",
+              "title": "알츠하이머병, 독성 단백질 제거하지 않아도 치료 가능",
+              "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80Z2lTUFRxOGIyTkh0bGd0QWZXYm5yZDFqX0tQLU5xT0ZVbVhOclRLQ0wxSmp3T2hWQWpNQWRvOVNDZ0Ry?oc=5",
+              "image": "https://www.whosaeng.com/data/whosaeng_com/upload/sns_thumbnail.jpg",
+              "url": "http://www.whosaeng.com/175595"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "수능 시험지 보관 연장 현행 1년→5년",
+          "summary": "교육부는 AI 부정행위 사후 조사를 위해 수능 시험지 보관 기간을 1년에서 5년으로 연장할 방안을 추진한다. 2026학년도 시험지 중 8곳에서 보관 중인 것으로 확인된다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Society/article/all/20261125/135086383/1",
+          "original_title": "수능 시험지 보관 1년→5년 연장…“부정행위 끝까지 추적”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "수능 시험지 보관 1년→5년 연장…“부정행위 끝까지 추적”",
+              "link": "https://www.donga.com/news/Society/article/all/20261125/135086383/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135086657.1.jpg"
+            },
+            {
+              "name": "경향신문",
+              "title": "지난해 수능 시험지 233개교에서 이미 폐기···교육부, 보관기간 1년→5년 연장 추진",
+              "link": "https://www.khan.co.kr/article/202611251013001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/25/news-p.v1.20261120.565661d3792a4b8d9025c37f1bd90c04_P1.jpeg"
+            },
+            {
+              "name": "뉴스1",
+              "title": "작년 수능 시험장 5곳 중 1곳 시험지 폐기…교육부, 5년 보관 추진",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqeThTQW13M0N0VlhxVnZMNmZMeU5DN1Mwdk5mclBiUGhBU2g3QmtpWEpvYWRNSVN5T1FyVThSMTh1OTR1MWg5cWFFdFI3dHJIMlZWNlV6YU85QQ?oc=5",
+              "url": "https://www.news1.kr/society/education/6365176"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "트럼프, 김정은과 러브레터 재개 가능성 언급",
+          "summary": "미국 대통령 도널드 트럼프가 뉴욕포스트와의 인터뷰에서 김정은 국무위원장과 친서 교환을 재개할 수 있다고 밝혔다.",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261125/135087133/1",
+          "original_title": "트럼프 “김정은과 러브레터 당장 다시 시작할 수도”",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "트럼프 “김정은과 러브레터 당장 다시 시작할 수도”",
+              "link": "https://www.donga.com/news/Inter/article/all/20261125/135087133/1",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/25/135087141.1.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "트럼프 \"당장이라도 김정은과 '러브레터' 가능…주제는 핵문제\"",
+              "link": "https://www.newsis.com/view/NISX20261125_0003882448",
+              "image": "https://img1.newsis.com/2026/08/24/NISI20260824_0002219008_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "트럼프 \"김정은과 러브레터 당장 다시 시작할 수도 있다\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008862664",
+              "image": "https://img.sbs.co.kr/newimg/news/20260910/202220982_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "트럼프 \"김정은과 러브레터 당장 다시 시작할 수도\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EMWJCZkMtUy1hX0MwOGdvOXRJOTJYLWlzUHJhZ2VlY1hzRnB6allWS0pNdXJ1akVqVmR2WWZYeTZVeGc0Yk12X09vZUJYRXVXZlNGSkRQOG9EWDJ0eHdMdjhFQzBCVkVzRTF5cFdQV3ExemVT0gF0QVVfeXFMUEp4cHBGNFAwYjlJMm1CVlktS0FBVnNwa1dGdU5FN21sUmdsRzFJV3hvSzBqZHRKWW9LXzctbm9mZzhuVkE4aUpiak9EOE9JQTJ3dXhXekhLcFpSZGY1NmY1QWZ5b2k3R2E3bTZXUTJ3aDhTNW0?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/25/joo261125_1.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6868398_36925.html"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "트럼프 \"김정은과 러브레터 당장 다시 시작할 수도\"",
+              "link": "https://www.yna.co.kr/view/AKR20261125069300009",
+              "image": "https://img4.yna.co.kr/photo/reuters/2026/11/17/PRU20261117223801009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "한전, 자체 AI ‘PowerBook’ 공공기관 확산",
+          "summary": "한국전력공사는 자체 개발한 AI 서비스 ‘PowerBook’을 4개 공공기관에 확산했다. 서비스는 전력 수요·공급 예측 등에 활용된다.",
+          "source": "인사이트N파워",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51d1BsbHJwZ1l6X0ZxOWdMTzk4RUpuYUEyYmt0eGRIbS1lVnZLQkd5QTJKeGdZbUV4UHJ1ZmRmM3RPZklTSENFY3FDazVMYzQzTHNUVXJ6bDVQWWVQR2hraGV3eV9sQQ?oc=5",
+          "original_title": "한전, 자체 개발 AI ‘파워북’ 전력 분야 공공기관 확산",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "인사이트N파워",
+              "title": "한전, 자체 개발 AI ‘파워북’ 전력 분야 공공기관 확산",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51d1BsbHJwZ1l6X0ZxOWdMTzk4RUpuYUEyYmt0eGRIbS1lVnZLQkd5QTJKeGdZbUV4UHJ1ZmRmM3RPZklTSENFY3FDazVMYzQzTHNUVXJ6bDVQWWVQR2hraGV3eV9sQQ?oc=5",
+              "image": "https://cdn.inpnews.kr/news/thumbnail/202611/8356_7978_5126_v150.jpg",
+              "url": "https://www.inpnews.kr/news/articleView.html?idxno=8356"
+            },
+            {
+              "name": "시사의창",
+              "title": "한전, 자체 개발 AI 서비스 ‘PowerBook’ 공공기관 확산 나선다",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Wa0F6c21RLWR1WWhGMHFvR0tITFVRVElKZTd0bkgwMVpMOXh4YkhSTGZsSGRDZDdiMUs0b0g3QjVOTkh3eEZRajJlNkVHV2VxUEtqNQ?oc=5",
+              "image": "https://cdn.coenworks.com/Files/331/News/202611/5947_20261125013002780_w.jpg",
+              "url": "https://sisaissue.com/View.aspx?No=4327915"
+            },
+            {
+              "name": "글로벌뉴스통신GNA",
+              "title": "한국전력공사, 자체 개발 AI 서비스 4개 기관에 확산",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xeDREWUw3a1lRdUh0TFk2Wnh4c3ppMjVvTl9LWXRKS043RU1XQWVfcW1uZ1V2VTJvMW42NDFLcVBmdkhtZ0hSb0U0OWdyU2NjLVRSazFSRjJTdWRjaHBDcm04ZksyX0VLRjc0WWtfNFVLMk9v?oc=5",
+              "image": "https://cdn.globalnewsagency.kr/news/photo/202611/506762_525943_4619.jpg",
+              "url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=506762"
+            },
+            {
+              "name": "더쎈뉴스",
+              "title": "한전 AI 서비스 ‘파워북’, 4개 공공기관에 확산",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3VXdDTDl2dXFtZ2tVNG5NZUdVVzhwM2Q5X1RHMzNKeE1FS0lxSU9JRkg1bnJVUzhMY3did2U4cmw3SnZCMktwcmZFdkxiMEM4c0lXdnFrdnR4R1JBY2pUdW5md2F5Ukp1?oc=5",
+              "image": "https://cdn.mhns.co.kr/news/thumbnail/202611/770484_905759_926_v150.jpg",
+              "url": "https://www.mhns.co.kr/news/articleView.html?idxno=770484"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "경북 스크린에 담은 영화 '인간 초거대 알고리즘' 전국 개봉",
+          "summary": "경북 스크린에 담은 영화 '인간 초거대 알고리즘' 25일 전국 개봉을 알렸다.",
+          "source": "대한투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50ZFpTSmxvZ21Jb2hraUd1TzdlVmd3WmZ6azd4b1BYRlliSERLejVnUFYtdjhJaHdmc3V5cHlVY1FUREZSbFEwM05GVW1zNC1YZzFwNXEyWXR6V01fbDBBRHBYaUFnUjY3U2c?oc=5",
+          "original_title": "경북 곳곳 담은 영화, ‘인간 초거대 알고리즘’, 25일 전국 개봉",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "대한투데이",
+              "title": "경북 곳곳 담은 영화, ‘인간 초거대 알고리즘’, 25일 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50ZFpTSmxvZ21Jb2hraUd1TzdlVmd3WmZ6azd4b1BYRlliSERLejVnUFYtdjhJaHdmc3V5cHlVY1FUREZSbFEwM05GVW1zNC1YZzFwNXEyWXR6V01fbDBBRHBYaUFnUjY3U2c?oc=5",
+              "image": "https://cdn.dhtoday.com/news/photo/202611/268195_378886_2045.jpg",
+              "url": "https://www.dhtoday.com/news/articleView.html?idxno=268195"
+            },
+            {
+              "name": "영주시민신문",
+              "title": "영주 부석사 스크린에 담은 영화 ‘인간 초거대 알고리즘’ 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02QWFYY1VKTXdxbGgyeEszZnJEMmpobFJhcW9HYWVLOWRMSkxRY3VTLTdVTFBabi1LNFUzN0p1bnp1QWw3eWF0azZmSU41aVhVN1pmOTlvcnNrUzlVLXlLWlhwS19WV1dm?oc=5",
+              "image": "https://cdn.yjinews.com/news/thumbnail/202611/93424_117278_1237_v150.jpg",
+              "url": "https://www.yjinews.com/news/articleView.html?idxno=93424"
+            },
+            {
+              "name": "이트레블뉴스",
+              "title": "경북 명소 스크린에 담은 영화 인간 초거대 알고리즘, 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9ycnJMYkF5UjhWM0xFTFNJY3V2cDhOcVJqY21TSXZ2ZnJhSHpLVlVfdHNScW96N1IzeEoyMEpB?oc=5",
+              "image": "https://www.momonews.com/data/etravelnews_kr/mainimages/202611/2026112502365435.jpg",
+              "url": "http://momonews.com/82105"
+            },
+            {
+              "name": "웹이코노미",
+              "title": "경북 배경 영화 ‘인간 초거대 알고리즘’ 25일 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xUjVIY2xFbXpVUzU1dUNpRU56blc1cjQyaWVQRlpLbmszTjNnLWRfT0R1UGRWbUJhcVVja2x5U010ajdNaGF1ZFBPTGxoY1BWRWg1S3lDVThNdHQ2ME96T3dDLUljTVZtT0UtTEpWZGFlUQ?oc=5",
+              "image": "https://cdn.webeconomy.co.kr/news/photo/202611/2389600_1200932_5417.jpg",
+              "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2389600"
+            },
+            {
+              "name": "이로운넷",
+              "title": "경북서 촬영한 영화 '인간 초거대 알고리즘', 오는 25일 전국 개봉",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oUWR1MUNfd1ZIUE15VWEzdXFBcWhEamxjd0VvaTQ4SEFMeEI5QW5yaE9ZelpvVDdCNHg2WVpsVlN2eF95dXhtNXdScERDTEVndVJ4RG1vVDlMV3owazJxc1ZlU2I0Zw?oc=5",
+              "image": "https://cdn.eroun.net/news/thumbnail/202611/96437_154311_3746_v150.jpg",
+              "url": "https://www.eroun.net/news/articleView.html?idxno=96437"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "황인범, 친정팀과 맞대결서 1대 0 승리…포르투 챔스 2연승",
+          "summary": "",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008862094",
+          "original_title": "황인범, 친정팀과 맞대결서 1대 0 승리…포르투 챔스 2연승",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "황인범, 친정팀과 맞대결서 1대 0 승리…포르투 챔스 2연승",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008862094",
+              "image": "https://img.sbs.co.kr/newimg/news/20260810/202210748_1280.jpg"
+            },
+            {
+              "name": "연합뉴스TV",
+              "title": "황인범, 친정팀과 맞대결에 교체 출전…포르투, 1-0 승리",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMRnppQlBhdzlVRE5jLUZrOFIyMElYRVBJTm9FNlB2c05kVzZUR1ZOVVBXeGFQa0xWSW83TE9EczZyeFZmZldPckVlYnVQYkpUOHVvMUduWEVyUmlQTm1UejN5eDVNcWc?oc=5",
+              "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261125/AKR20261125090629p0l_01_i.jpg",
+              "url": "https://www.yonhapnewstv.co.kr/news/AKR20261125090629p0l"
+            },
+            {
+              "name": "뉴시스",
+              "title": "황인범, 친정팀 페예노르트전 교체출전…포르투 UCL 2연승",
+              "link": "https://www.newsis.com/view/NISX20261125_0003881863",
+              "image": "https://img1.newsis.com/2026/11/25/NISI20261125_0001775182_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "황인범, 친정팀 페예노르트와 맞대결…포르투 UCL 2연승",
+              "link": "https://www.yna.co.kr/view/AKR20261125015700007",
+              "image": "https://img0.yna.co.kr/photo/reuters/2026/11/25/PRU20261125136901009_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "2027년 모피는 ‘오페라 코트’처럼 입습니다",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 6,
+      "t_min": -4,
+      "rain_pct": 0,
+      "sky": "구름 조금",
+      "display": "서울 -4~6°C · 구름 조금 · 강수 0%"
+    },
+    "articles": [
+      {
+        "title": "2027년 모피는 ‘오페라 코트’처럼 입습니다",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/11/25/2027%eb%85%84-%eb%aa%a8%ed%94%bc%eb%8a%94-%ec%98%a4%ed%8e%98%eb%9d%bc-%ec%bd%94%ed%8a%b8%ec%b2%98%eb%9f%bc-%ec%9e%85%ec%8a%b5%eb%8b%88%eb%8b%a4/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6b0646a079182-1920x1080.jpg?x=1320&y=742&ver=1.1.73",
+        "url": "https://www.vogue.co.kr/2026/11/25/2027%EB%85%84-%EB%AA%A8%ED%94%BC%EB%8A%94-%EC%98%A4%ED%8E%98%EB%9D%BC-%EC%BD%94%ED%8A%B8%EC%B2%98%EB%9F%BC-%EC%9E%85%EC%8A%B5%EB%8B%88%EB%8B%A4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "나는 무엇을 아는가?",
+    "author": "몽테뉴",
+    "work": "수상록"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 시작을 준비하세요"
+      },
+      {
+        "animal": "소",
+        "text": "오늘은 부드러운 대화가 열쇠"
+      },
+      {
+        "animal": "호랑이",
+        "text": "용감한 발걸음이 보상을 가져온다"
+      },
+      {
+        "animal": "토끼",
+        "text": "달콤한 아이디어가 팡팡 터진다"
+      },
+      {
+        "animal": "용",
+        "text": "창의력이 빛나는 순간이 찾아온다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 길을 밝혀준다"
+      },
+      {
+        "animal": "말",
+        "text": "활동이 풍성해질 기회가 있다"
+      },
+      {
+        "animal": "양",
+        "text": "사랑스러운 인연이 다가온다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 상황을 부드럽게 만든다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성공을 이끈다"
+      },
+      {
+        "animal": "개",
+        "text": "정직한 마음이 주변을 따뜻하게 한다"
+      },
+      {
+        "animal": "돼지",
+        "text": "풍요로운 기회가 다가온다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
