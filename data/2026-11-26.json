@@ -1,0 +1,693 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-26",
+  "weekday": "목요일",
+  "vol": 45,
+  "generated_at": "2026-11-26T11:43:59+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4754.15,
+      "change": 56.64,
+      "change_pct": 1.21,
+      "direction": "up",
+      "display": "4,754.15",
+      "change_display": "▲ 1.21%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1339.8,
+      "change": -2.9,
+      "change_pct": -0.21,
+      "direction": "down",
+      "display": "1,339.8원",
+      "change_display": "▼ 0.21%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 82758000.0,
+      "change": 753000.0,
+      "change_pct": 0.92,
+      "direction": "up",
+      "display": "8,276만원",
+      "change_display": "▲ 0.92%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 14,
+    "t_min": 5,
+    "rain_pct": 2,
+    "sky": "흐림",
+    "display": "서울 5~14°C · 흐림 · 강수 2%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "경제",
+      "headline": "한은 기준금리 3.25% 인상",
+      "summary": "한은이 기준금리를 3.25%로 인상해 대출 이자 상승 우려가 제기된다",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12219044",
+      "original_title": "[속보] 한은, 기준금리 연 3.25%로 인상…올해만 세 번째 올려",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "[속보] 한은, 기준금리 연 3.25%로 인상…올해만 세 번째 올려",
+          "link": "https://www.mk.co.kr/news/economy/12219044",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/26/news-p.v1.20261126.74669c9e789643e4b43c9bb7fc5cd9d9_R.jpg"
+        },
+        {
+          "name": "MBC 뉴스",
+          "title": "[속보] 한은, 기준금리 3.25%로 인상‥내년 성장률 전망치도 4.1%로 상향 조정",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PR3NYY3pocEltSjZtY1pGS01JQ0M5Z25Cbnh5aGxMY3c0ajl0ZDlHcjRTRUxDYlplYzVsNFZ4QWllc2hIYzN4NUtkS0NlZlcwbVRjZlZTR3Fsa0tWbjMtWGltTkNKQzZKc2V3UWRIbm5nTTFv0gF0QVVfeXFMT1BSbHpoQ2hIa214MlBta2hoVHNGYnFpamlIX3Jua04wd2thYzdSWUVITFVXNUR5cEhNVl9lSFhQdWZ0NUNDYXVnWVN0b1FsZDZ6aXJuaXhBbzU4WUYyd25UNmdOekYxTXd6Ul84Y3dkUWwwX0Y?oc=5",
+          "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/26/jh_20261126_31.jpg",
+          "url": "https://imnews.imbc.com/news/2026/econo/article/6868715_36932.html"
+        }
+      ]
+    },
+    {
+      "kicker": "교육",
+      "headline": "양산시 2026년 수험생 문화의 날 개최",
+      "summary": "양산시는 2026년 수험생 문화의 날을 개최해 수험생의 휴식과 문화 활동을 지원한다",
+      "source": "양산타임스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXX0pLYUlTOVYtQUphbW13SmpnaDc0a3RjN3UyeWhHWERrVDVpOUpPeVZKNlNuUm50TUZnSndFS0hvWnp6Yi1lMHcyekRJaUk4X0NOR2U4bFlINUpSa2JXV2pwRzE4bXRn?oc=5",
+      "original_title": "양산시, ‘2026년 수험생 문화의 날’ 개최",
+      "sources": [
+        {
+          "name": "양산타임스",
+          "title": "양산시, ‘2026년 수험생 문화의 날’ 개최",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXX0pLYUlTOVYtQUphbW13SmpnaDc0a3RjN3UyeWhHWERrVDVpOUpPeVZKNlNuUm50TUZnSndFS0hvWnp6Yi1lMHcyekRJaUk4X0NOR2U4bFlINUpSa2JXV2pwRzE4bXRn?oc=5",
+          "url": "http://www.ys-times.com/news/articleView.html?idxno=33815"
+        }
+      ]
+    },
+    {
+      "kicker": "연예",
+      "headline": "진우·해티 5년 결혼 후 이혼 발표",
+      "summary": "1010만 구독자 유튜버 진우·해티가 5년 결혼 생활을 마치고 이혼을 발표했다",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/hot-issues/12218897",
+      "original_title": "‘1010만 유튜버’ 진우와 해티, 결혼 5년 만에 이혼 발표…“부부 관계 마무리”",
+      "sources": [
+        {
+          "name": "매일경제",
+          "title": "‘1010만 유튜버’ 진우와 해티, 결혼 5년 만에 이혼 발표…“부부 관계 마무리”",
+          "link": "https://www.mk.co.kr/news/hot-issues/12218897",
+          "image": "https://pimg.mk.co.kr/news/cms/202611/26/news-p.v1.20261126.037cde0c018d446587367f7a478389b9_R.png"
+        },
+        {
+          "name": "뉴시스",
+          "title": "구독자 1010만 국제 부부 유튜버 '진우와 해티', 결혼 4년 만에 파경",
+          "link": "https://www.newsis.com/view/NISX20261126_0003883842",
+          "image": "https://img1.newsis.com/2026/11/26/NISI20261126_0002302727_web.jpg"
+        },
+        {
+          "name": "SPOTV NEWS",
+          "title": "'연봉 63억설' 유튜버 진우와 해티, 돌연 이혼 발표…'천만 구독자' 채널은 진우 손에[이슈S]",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hZEJ0ODRzTzlDUXBFZ0tka3cwZUNDb01uMEhwZmZOcFgwT1NzLVp1cnk4V05JeGxtOWFBYy1Zb2Q2N09Ca0MxUXhESm41OGk3Ulh2VXNqYm1ndmtFYVF0dl8zcENCNnFSbmU4anJiLVE?oc=5",
+          "image": "https://7lgigmttrjuyfehsudec15072.edge.naverncp.com/news/photo/202611/1021982_2046812_2532.png",
+          "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021982"
+        },
+        {
+          "name": "국제뉴스",
+          "title": "국제부부 유튜버 진우·해티 이혼 발표...갈등 빚었던 모습 '재조명'",
+          "link": "https://www.gukjenews.com/news/articleView.html?idxno=3763583",
+          "image": "https://cdn.gukjenews.com/news/thumbnail/202611/3763583_3947766_2215_v150.jpg"
+        },
+        {
+          "name": "스포츠경향",
+          "title": "‘구독자 1010만’ 유튜버 진우·해티, 결혼 4년 만에 파경…채널은 진우에게",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYR29ZcGZFSXFLX1VFeU9CeU55bDRsejlOdXRtTW9hZHhYbHNrdkpaOXNwbGFZSG1tQTdlcWZVN1EzTU5ERDB6WWptLW1mSG9hcVMyZVd6R0cyWkVpblHSAWNBVV95cUxNQnB5ZngydEREZEhTNGdhZzZaVFRCVjIwY0xyR0o4RUVGT2JQR1ZIZU5DRmJGZUxuN1hyWk0zR1FBQy0xNEtneDlMQktudWJqbEVqaVVyS05EdXh5OWMycTZhdjg?oc=5",
+          "image": "https://images.khan.co.kr/article/2026/11/26/news-p.v1.20261126.6150f76214134503b2e737b931261917_P1.png",
+          "url": "https://sports.khan.co.kr/article/202611261137003"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…국내 관련주↑",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261126040700008",
+          "original_title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…국내 관련주↑",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "[특징주] 스페이스X '우주 데이터센터' 위성 승인…국내 관련주↑",
+              "link": "https://www.yna.co.kr/view/AKR20261126040700008",
+              "image": "https://img6.yna.co.kr/photo/etc/up/2026/09/25/PUP20260925035501009_P4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "미 정부, 스페이스X의 우주 데이터센터 승인…‘트럼프 계좌’에 주식 기부도",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OTjVYbzlyNThuei1EcTlLaFMxamUxNEVua1d3d3RYcXFIZmFPSHJuT1pQV3FlNFNuVFZZWkphQ1F0SUJTMWNpajhwYjRRdw?oc=5",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/26/news-p.v1.20261126.3cfd1f7dd1b544858b0b7c43b2661b68_R.png",
+              "url": "https://www.mk.co.kr/news/it/12218877"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "CJ온스타일, 유아동 매출 95%↑",
+          "summary": "CJ온스타일이 유아동 패션 매출이 전년 대비 95% 상승했다고 밝혔다",
+          "source": "지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIMlBXUVFmMEFPNzBZc1FqQzZDZHUwclBJSWJQb0VYVGFvaDNhV21uRVIxdGt4M2VGMXBHc3BUcUVQMzRMclRtcDJycHlMMzVXQjFoUFpn?oc=5",
+          "original_title": "CJ온스타일서 키즈 전문 브랜드 약진",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "지디넷코리아",
+              "title": "CJ온스타일서 키즈 전문 브랜드 약진",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIMlBXUVFmMEFPNzBZc1FqQzZDZHUwclBJSWJQb0VYVGFvaDNhV21uRVIxdGt4M2VGMXBHc3BUcUVQMzRMclRtcDJycHlMMzVXQjFoUFpn?oc=5",
+              "image": "https://image.zdnet.co.kr/2026/11/25/6089f42a2220ca8f7a067a471f7872aa.jpg",
+              "url": "https://zdnet.co.kr/view/?no=20261125175803"
+            },
+            {
+              "name": "직썰",
+              "title": "CJ온스타일, 유아동 패션 매출 95%↑···키즈 전문 브랜드 약진",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqc3VfTW9aTE80bVJlZ2syRDg5QWJObktHZHBqYjFWYnJDek9YM0p4M0czcE5HMHBWZ1FSRGNQQlVialV5Yk1pXzlpaG5Ba0pxeEl0ZU9ETVBZYmNfSHRVcEhNVFZjbC1wUkNvNtIBbEFVX3lxTFBqc3VfTW9aTE80bVJlZ2syRDg5QWJObktHZHBqYjFWYnJDek9YM0p4M0czcE5HMHBWZ1FSRGNQQlVialV5Yk1pXzlpaG5Ba0pxeEl0ZU9ETVBZYmNfSHRVcEhNVFZjbC1wUkNvNg?oc=5",
+              "url": "https://www.ziksir.com/news/articleViewAmp.html?idxno=154712"
+            },
+            {
+              "name": "마일드경제",
+              "title": "CJ온스타일, 유아동 패션 주문액 전년比 95% '껑충'",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuS3ZVN3d5Nk9CcWtoajUyblRoenczZ09CSnA4QTlkQnVDLTBKdlhzcmJ4UVZBV1EzdVJHaE1HU1Q0VkFKZmoxQi15aHl0WklvY3VjdjRsWVBtVXNSSUpzaWxzRVVGeVNzd0Fj?oc=5",
+              "image": "https://cdn.todaymild.com/news/thumbnail/202611/41562_48770_1614_v150.jpg",
+              "url": "https://www.todaymild.com/news/articleView.html?idxno=41562"
+            },
+            {
+              "name": "비즈니스포스트",
+              "title": "CJ온스타일 올해 들어 유아동 패션 매출 95% 증가, 히로·산 포함 전문 브랜드 상위권 진입",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42T3JlbTlxZU1zcFVwcnhFZVMxNFJieWlqVlFqNk1sMXNIb3ZOekxtcFNYVHdranQwVVpHSnJqbGtUbUJaWVZ1aHlLejNQeXRRX1d3Wkplekk3cXlFb2ZmUlF0SVE2b0ttNVFZUThncDJPalU?oc=5",
+              "image": "https://www.businesspost.co.kr/news/photo/202611/20261125170701_260384.png",
+              "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452936"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "대형 브랜드 '힙키즈' 뜬다…CJ온스타일 유아동 패션 주문액 95%↑",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wazVxekdCSUhZNFVBN2Naay1WZkFkdDRRS2cwZllNVlBNLUNpOURkWFg0V1hBazRBRXBwenFOallGSnBuNkgxbUxNQW52djktbXROak9DNFAxUQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/11/25/202611251121156380_e.jpg",
+              "url": "https://www.fnnews.com/news/202611251114296109"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "G마켓, 뷰티 전용관 신설해 K-뷰티 해외 판로 확대",
+          "summary": "G마켓이 내년 초 뷰티 전용관을 신설해 국내외 K-뷰티 제품 판매 채널을 확대한다.",
+          "source": "한국아이닷컴",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83SmV4QmxPZm80THhHZ1RkZzJ6TnRUNVNIUE1BSXFPWjVPenlSWjB6VE4wSFJKQUJ1aTdqSjBCelpjSXQ3dzNISzdPcnh6OUV0UjU5bUtLeko3RVpROE14SndtYU5fdGtoZVNJ0gFvQVVfeXFMTXFfQzdSbkRIem9pQnp6SE1vNWNBTHdvMEJ1cVN6ZEdoTHM2bEpiUWxkanRDajdJVW9Sa19ZR2d6VmFhbUFTb3BQckVIWG5kVndKY2pYNXNrRVVKWEdqZW9VRVNZWElSTmgxSlFKY2Jz?oc=5",
+          "original_title": "G마켓, 뷰티 전문관 띄운다…K뷰티 국내외 판로 확대",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "한국아이닷컴",
+              "title": "G마켓, 뷰티 전문관 띄운다…K뷰티 국내외 판로 확대",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83SmV4QmxPZm80THhHZ1RkZzJ6TnRUNVNIUE1BSXFPWjVPenlSWjB6VE4wSFJKQUJ1aTdqSjBCelpjSXQ3dzNISzdPcnh6OUV0UjU5bUtLeko3RVpROE14SndtYU5fdGtoZVNJ0gFvQVVfeXFMTXFfQzdSbkRIem9pQnp6SE1vNWNBTHdvMEJ1cVN6ZEdoTHM2bEpiUWxkanRDajdJVW9Sa19ZR2d6VmFhbUFTb3BQckVIWG5kVndKY2pYNXNrRVVKWEdqZW9VRVNZWElSTmgxSlFKY2Jz?oc=5",
+              "image": "https://cdn.hankooki.com/news/thumbnail/202611/349426_497402_1795658104_v150.jpg",
+              "url": "https://www.hankooki.com/news/articleView.html?idxno=349426"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "G마켓, 내년 초 뷰티 전용관 신설…K-뷰티 해외 판로 확대",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SOFZZTjBodlJOcXZfQUlDQWJEa2EybWRsSXhweGJoM1hyVkZkTjZHc2N0MlRBa0pLOTBCRHB4R01ZSWViZEYxRzY3cV9VcUQ2QnVOdGJTcFFEdk1LY1hrV9IBYEFVX3lxTE1SOFZZTjBodlJOcXZfQUlDQWJEa2EybWRsSXhweGJoM1hyVkZkTjZHc2N0MlRBa0pLOTBCRHB4R01ZSWViZEYxRzY3cV9VcUQ2QnVOdGJTcFFEdk1LY1hrVw?oc=5",
+              "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126032000030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/amp/view/AKR20261126032000030"
+            },
+            {
+              "name": "물류신문",
+              "title": "G마켓, '뷰티 홈' 신설하고 글로벌 판로 확대…K뷰티 해외 진출 지원",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1SEZCdF9vSnM4Qm1iMEZyamp4ckxrdllucTJNTURjMzloNWJZajRjMDhkS2VSdGU5WWZFaHlwOWo2aTRXUHFTZDNMSTVSN0VsM2R5el9ncU5sT2NFZ3lPR0NCOS1pd01aN1Uw?oc=5",
+              "image": "https://cdn.klnews.co.kr/news/thumbnail/202611/323724_67471_4236_v150.jpg",
+              "url": "https://www.klnews.co.kr/news/articleView.html?idxno=323724"
+            },
+            {
+              "name": "서울경제TV",
+              "title": "G마켓, 내년 1분기 ‘뷰티 전용관’ 신설…K-뷰티 영토 120개국 확장",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSUGRnZV9jT3NsYWwwTl93VVhQTEdWWWoyamxpcTF0QnRHaEpYMU4tODhDblhlY1N5U1BwTnZsVVRZM1Nra2NJbWU2T1V1LWpabHlVUDZiZkFWWjBTcUpxLVNqLVE?oc=5",
+              "image": "https://www.sentv.co.kr/data/sentv/image/2026/11/26/sentv20261126000040.jpg",
+              "url": "https://www.sentv.co.kr/article/view/sentv202611260037"
+            },
+            {
+              "name": "Chosunbiz",
+              "title": "G마켓, 뷰티 전용관 만든다…K뷰티 해외 진출 지원 확대",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYkx0V0xNOFJLemxabVhRMmhybnFVNUNQQzRTczJKc1l1WkRkZW1tbF80VTJnS2VpejIySUNWLVozMkRBaTZ3YXFIWEdZU01ZV01Ta0JuNy15TWkxMkFYLTJWMkpVNzNwT1BvSFpBeWo1eHN4M1V3Q3RNbXNfR3NOYW5pV3pFZlNyU2fSAZ4BQVVfeXFMT1hhYUl3Q0xsaWhKeWtDQVdkSExxZ1ZpcXR1SENQRGRxVDJaOGpfUFRmS1VvLUJ3bWdoQzRCRmRLa2pmc1BOMmNFdGwzZzJWT3lGSkRyc2JONV9CYS1HMjBXM2RZOTJkRzFQRnlheHVyU2tqU1Y1SmdJVEpvQUg2VDVDMUpLdUlXMWFqM0IzOE5peWVPQ2QwRTVBWW5CYkE?oc=5",
+              "image": "https://biz.chosun.com/resizer/v2/ME4DEOBVGQYGINRUMY3GMMJRMI.jpg?auth=cada0de5f033614a1a43462b6b3760f7366482f5047f2748bd81eae235bcf66a&width=1086&height=570&smart=true",
+              "url": "https://biz.chosun.com/distribution/channel/2026/11/26/TMWS7XTFWFGUZPTHCTNCZQ5JAU/"
+            }
+          ]
+        },
+        {
+          "headline": "농식품부, 그린바이오 소재로 K-뷰티 산업화 지원",
+          "summary": "농식품부가 그린바이오 소재를 활용해 K-뷰티 산업화와 소재 사업화를 지원한다.",
+          "source": "THE K BEAUTY SCIENCE",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Fd0N6T1R1WnlSclJ0Z2NwRGN0TW9WUy1LQ2QtODVYMVY0YWVtWUZyaEZOZHc1cDFxVGEwRkFvZXF5Vm9Sa3BHcTQwRWo2bnJxblUtWlFXUml6R0t0bGRNWGNjcHpINllTTUE?oc=5",
+          "original_title": "농식품부, 그린바이오 소재의 K-뷰티 산업화 지원",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "THE K BEAUTY SCIENCE",
+              "title": "농식품부, 그린바이오 소재의 K-뷰티 산업화 지원",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Fd0N6T1R1WnlSclJ0Z2NwRGN0TW9WUy1LQ2QtODVYMVY0YWVtWUZyaEZOZHc1cDFxVGEwRkFvZXF5Vm9Sa3BHcTQwRWo2bnJxblUtWlFXUml6R0t0bGRNWGNjcHpINllTTUE?oc=5",
+              "image": "https://cdn.thekbs.co.kr/news/photo/202611/15423_23802_532.jpeg",
+              "url": "https://www.thekbs.co.kr/news/articleView.html?idxno=15423"
+            },
+            {
+              "name": "서울뉴스통신",
+              "title": "K-뷰티와 그린바이오 산업 협력 강화…국산 화장품 소재 사업화 지원",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iYUN6SFpoR3FrLTRVazQyV1AxYlRfdExJeUltTzQxTWU0NFdPdUhZTFd0dzNXVjA4c0pEVUdXcDBGbFZQeGM0cktaTURvQUxRajZsbXAtaE13ekx1Vy1HUlB6UlozWEotUi1mdw?oc=5",
+              "image": "https://cdn.snakorea.com/news/thumbnail/202611/1067242_1020338_134_v150.jpg",
+              "url": "https://www.snakorea.com/news/articleView.html?idxno=1067242"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "농식품부, K-뷰티·그린바이오 협력 확대…소재 산업화 지원",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MTXZIeVdsTGNLUHptOTVoQmRuR1pmMlBuNDRXTmdYRkZHRUFEaVV4cDFIdzB1a0M0bC1oc19XNFpwc1o0T1pmeTd5MDVoSjZVWTZ4ckwyWE10enPSAWBBVV95cUxQc1UtWF9lWkpzeU0tLV9nRGEyNDhZWF9XYVcyMHFYYmcyZWE4Z1hpczRxa0paSGJndTAtenBaS016VjhFQldQdlh5bGFLenM1T0cxRjhJRDlRV1NkY01WRjE?oc=5",
+              "image": "https://img9.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125149000030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261125149000030"
+            },
+            {
+              "name": "아주경제",
+              "title": "K뷰티에 그린바이오 접목…농식품부, 소재 개발·제품화 지원",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKQWpCdUtlRjh3VFFEU3BfWkNFZkQ4RHlZREp5VW9SMzFSQktXSElJZTBsT1RPbTdFNzI4aXowR3k1X2FjWXJTWnducHQ0TUpPM2NoLTk0cHlod9IBWEFVX3lxTE5lSXdXYlpNb1psZXJKbnQxN0loOHliUXlKaEIwUVJRRXVRVTFCZ0NNLXJ1RVBKMUJqOUdSYlhPa2lKTDlvck0zeFN5anIzM1k4YW5NZ3RRVUE?oc=5",
+              "image": "https://image.ajunews.com/content/image/2026/11/25/20261125085432361281.jpg",
+              "url": "https://www.ajunews.com/view/20261125085322092"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "코지마, 성수 웰니스 마켓 참여",
+          "summary": "코지마가 성수동 웰니스 마켓에 참여해 운동 후 회복 수요를 공략했다",
+          "source": "아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mNXZiLVFPRzJNYlh2RWFCaWF1ZkxQTlVLTHRIOWNPd196WDhGUmxfY2QwdU9OdllJYTE0ZTViejNxOXJxaFdYSVhxY05WdlVIU1o5aXVUU3JzTjdJNXE4LQ?oc=5",
+          "original_title": "코지마, 성수동 웰니스 마켓 참여…코지마존 운영",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "아시아경제",
+              "title": "코지마, 성수동 웰니스 마켓 참여…코지마존 운영",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mNXZiLVFPRzJNYlh2RWFCaWF1ZkxQTlVLTHRIOWNPd196WDhGUmxfY2QwdU9OdllJYTE0ZTViejNxOXJxaFdYSVhxY05WdlVIU1o5aXVUU3JzTjdJNXE4LQ?oc=5",
+              "image": "https://cphoto.asiae.co.kr/listimglink/1/2026112610015124634_1795654911.jpg",
+              "url": "https://www.asiae.co.kr/article/2026112610042843557"
+            },
+            {
+              "name": "디지털데일리",
+              "title": "코지마, `성수 웰니스 마켓` 참여…운동 후 회복 수요 공략",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sWFVjVERPeWhCMlVqUVZMcFBDMTBFbElFcTFieVBSWHVJUVhxcExFbW5vQWp2NThfOVVJNzQ2c1BoVWd6VUswNEFxZVJuVG1FM1pORzZLWk0wb1RiamtLQVFsUU0?oc=5",
+              "image": "https://www.ddaily.co.kr/photos/2026/11/26/2026112609023933868_l.jpg",
+              "url": "https://www.ddaily.co.kr/page/view/2026112609091710098"
+            },
+            {
+              "name": "매일일보",
+              "title": "코지마, ‘성수 웰니스 마켓’ 참여…리커버리 시장 공략",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsNmFxOE93cTI4UnVMNWxqbU1aVkNkazJscFpRVnNMX3VlZnRrdHluXzJ1R3JuMVN4ak9BY3Z2b0tzOEZta3g1TFJrRXBhSkU0M1lSTnhjZnNqUVlFZC15NkNJSFk?oc=5",
+              "image": "https://cdn.m-i.kr/news/photo/202611/2023620_2024451_565.jpg",
+              "url": "https://www.m-i.kr/news/articleView.html?idxno=2023620"
+            },
+            {
+              "name": "뉴스탭",
+              "title": "운동부터 마사지까지… 코지마, ‘성수 웰니스 마켓’서 리커버리 시장 공략",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnY2hnckhNQkhxVWN2MTJ3LTVlUnpoUmgxdkh5aVE2cHRyWk0wUG4tSWZjNFJRS2dSMjNmTzFiaFRxeEtXekRxdzlpRUlRZm1zUkd4Z0JoT0l6eWhYVmdJb3FtZmMzQnRpWVZGZA?oc=5",
+              "image": "https://cdn.newstap.co.kr/news/photo/202611/338462_449841_4511.jpg",
+              "url": "https://www.newstap.co.kr/news/articleView.html?idxno=338462"
+            },
+            {
+              "name": "뉴스1",
+              "title": "코지마, 성수 웰니스 마켓 참여…리커버리 체험 강화",
+              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rWHpEeG5raDR0Ymlua0U2VVFEQkJadFJpbmJPazlLai02ZUFVM0oyZ2ZVZnJPa0U5eG0wR2NXRzhhYWlYTUdRZXNDb29CRTJVaExoNGdkN0tpWEpzOGtCaEpVWDU?oc=5",
+              "url": "https://www.news1.kr/industry/general-industry/6366379"
+            }
+          ]
+        },
+        {
+          "headline": "경북도, 베트남 달랏에서 224만 달러 수출상담",
+          "summary": "경상북도가 베트남 달랏에서 K-푸드·뷰티 수출 상담을 통해 224만 달러를 달성했다",
+          "source": "시사뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kTDJ3a2xDbV9fYUR4VVVXYTZhN2xDeGhFZWhpU1FHYlVrTnBxanR4ZlhwRlVOY0FGaUJ5czYxYVVKa0oyNU5TRHJxOVJNZmlzOVZHZml4Y3U3dXpVamZRdnVjMA?oc=5",
+          "original_title": "경북도, K-푸드·뷰티, 베트남 달랏서 수출상담 224만 달러",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "시사뉴스",
+              "title": "경북도, K-푸드·뷰티, 베트남 달랏서 수출상담 224만 달러",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kTDJ3a2xDbV9fYUR4VVVXYTZhN2xDeGhFZWhpU1FHYlVrTnBxanR4ZlhwRlVOY0FGaUJ5czYxYVVKa0oyNU5TRHJxOVJNZmlzOVZHZml4Y3U3dXpVamZRdnVjMA?oc=5",
+              "image": "https://www.sisa-news.com/data/photos/20261148/art_179565196423_cf2811.jpg",
+              "url": "https://www.sisa-news.com/news/article.html?no=280027"
+            },
+            {
+              "name": "시사경제신문",
+              "title": "경북도, 베트남 웰니스 엑스포서 수출상담 224만 달러…현장 판매 1만 6천 달러",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVX3BOOGNFWUMtcmZXZmdQRVVKNk5JSUo2S1A1eE5rUHJzUzg4NExQUHllaEJONUxyRzNYRnZFdDI3bFJTTUVzTDBKZEd3VEdlS3RCVWtsb1dtbV95RnNJNXJGcXAwMzRE0gFsQVVfeXFMTVJWMzhfN1RvQmN5bllKSHhLLXVoeW0yVGprcXdNNXI2RXB5Zk9zeE4wa2JWNkw2SFM5MWFNTDlvbnJCVnpzRTJiWWRTOU1tYndLMjg2UXY1VUNHV1RZVTg0cVNyMUxpYmcwNm52?oc=5",
+              "image": "https://cdn.sisanews.kr/news/thumbnail/202611/127063_115038_5030_v150.jpg",
+              "url": "http://www.sisanews.kr/news/articleView.html?idxno=127063"
+            },
+            {
+              "name": "폴리뉴스 Polinews",
+              "title": "경북 K-푸드·뷰티, 베트남 시장 공략… '웰니스 엑스포'서 224만 달러 상담 성과",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16RXNLZHpPRzRzcl9wVnFoUTJ2al9LQjhhMFROSGxlUllFZ3c0LU02Q1RzcjJuVmlsbElyRS1jNFVYaUhDTFFNX3BmVW9FSUllNnVXZFpsMjRlc1lCZUltQ25CTU1XR0FzRW9HZkd3?oc=5",
+              "image": "https://cdn.polinews.co.kr/news/photo/202611/749248_574379_612.jpg",
+              "url": "https://www.polinews.co.kr/news/articleView.html?idxno=749248"
+            },
+            {
+              "name": "이로운넷",
+              "title": "경북도, 베트남 웰니스 엑스포서 224만 달러 수출상담 실적 거둬",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WUlczQ2JaajVCbFAzYXhUQWd0RWRvZFFPU3dNQTV6TFZhV05HOWltT2NBVS1hNWNCeEdObTdXd1lOdGo0cTZmWG9kMVF3cVlLNk81M09vVU9aTXZwSkxoMmJ4NU5UQQ?oc=5",
+              "image": "https://cdn.eroun.net/news/thumbnail/202611/96495_154389_4031_v150.jpg",
+              "url": "https://www.eroun.net/news/articleView.html?idxno=96495"
+            },
+            {
+              "name": "영남경제",
+              "title": "경북도, 베트남 ‘2026 웰니스 엑스포’서 224만달러 수출상담 성과",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56WU90ZmwxeVQtREI2RW5UUW52b3BTdmttcFc5V1pXLURKWVk4b0lFN2RKeVFwZVNnSXRBOExnQ3Y0M01iMkV0cTd0UFl2d2JWVFpsZnR2Tk1oU0tTSWRrQXVCeXVDZFk?oc=5",
+              "image": "https://cdn.ynenews.kr/news/thumbnail/202611/85830_80264_2235_v150.jpg",
+              "url": "https://www.ynenews.kr/news/articleView.html?idxno=85830"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "임광현, AI 부정행위 '속도전' 지시",
+          "summary": "임광현 청와대 비서실장이 AI 부정행위 방지 대책을 지시하며 844개 시험에 대한 점검을 진행했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863413",
+          "original_title": "임광현, AI 부정행위 '속도전' 지시…844개 시험 대책 점검",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "임광현, AI 부정행위 '속도전' 지시…844개 시험 대책 점검",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863413",
+              "image": "https://img.sbs.co.kr/newimg/news/20261125/202244209_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "임광현, AI 부정행위 '속도전' 지시‥844개 시험 대책 점검",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WLXRUaGFPMk9jQnJzX1JyWEtVMVlSQ2lnOW05SThfa0lVNDJLMVpfYjdsN25xcnNSdjJXSDk4SEpRZ1lYOEcwZGE5NEhSZ005NU9QTkNVaHhxYlAwemVlUnhkV2lPbEplbHlBaHMzckJNZWF2UHZOXw?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/politics/article/__icsFiles/afieldfile/2026/11/25/jse_20261125_14.jpg",
+              "url": "https://imnews.imbc.com/news/2026/politics/article/6868504_36911.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "이집트 카이로 외곽 도로 유조차 충돌 화재 30명 사망",
+          "summary": "이집트 카이로 외곽 고속도로에서 유조차 충돌로 인한 대형 화재가 발생해 최소 30명이 사망했다. 화재는 도로 양쪽에서 연쇄적으로 번져 큰 피해를 낳았다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863908",
+          "original_title": "이집트 카이로 외곽도로서 유조차 충돌로 대형 화재…최소 30명 사망",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이집트 카이로 외곽도로서 유조차 충돌로 대형 화재…최소 30명 사망",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863908",
+              "image": "https://img.sbs.co.kr/newimg/news/20261126/202244343_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "이집트 카이로 외곽 도로서 유조차 충돌 화재‥최소 30명 사망",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9QamhqM3oycnV0amhGdGVUMGgzQTllN0FPVzRMX05Ja28wcUx4ampPWHZtTENNT29uYTJDd2xSdFRsOE5HaDJ6YXFlQkZjWWNNSHBsTmpIR2NBTU9SZmM4U0ZtdUd0RWlGSllnbkdNMjhUN3o20gF0QVVfeXFMUHhNMXlSb2RmTGlYTV85YTJHQW5obTk4VEQxb2RBVG9IWEh4MGtwMnFLdnJIa2JuVmU4Yk4wX0V0SUxYZUxySXRKOGU4NFp0VFBEOGtJTnl5cEh0MXlmUTVudDRIYncyTjQ2bmF2d2x1SUFYTzU?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/26/lyj_261126_10.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6868719_36925.html"
+            }
+          ]
+        },
+        {
+          "headline": "후티 사우디 정유시설 공격으로 국제유가 급등 브렌트 3.5% 상승",
+          "summary": "후티가 사우디 아라비아의 정유 시설을 공격해 국제유가가 급등했고 브렌트유 가격이 3.5% 상승했다. 이로 인해 석유 수요와 공급에 대한 우려가 커져 전 세계 투자자들의 조심스러운 반응을 이끌었다.",
+          "source": "연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdXdJTmVrRWhFRmdSZm12a0xCUnJldUZ2OGUyOWdBeDZCUHRZZzFWb2M4ZFBRMlAxenpWNmpaOXo4d2xtWV9Ca3l6dGdHdm90WlNtaUY0NGgyR2fSAWBBVV95cUxPajduZS1rLUlLSjJUbkdOMmZzbFRveEhVbGZjWTZMZEM5NW1hZk4tdGJ1SE1nZWFkTllEektqQVRLMER6ak9vNWVYWGFkc1o0RkJIM245cE84U3hqeHFtZDg?oc=5",
+          "original_title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "국제유가, 후티 사우디 정유시설 공격에 급등…브렌트 3.5%↑",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRdXdJTmVrRWhFRmdSZm12a0xCUnJldUZ2OGUyOWdBeDZCUHRZZzFWb2M4ZFBRMlAxenpWNmpaOXo4d2xtWV9Ca3l6dGdHdm90WlNtaUY0NGgyR2fSAWBBVV95cUxPajduZS1rLUlLSjJUbkdOMmZzbFRveEhVbGZjWTZMZEM5NW1hZk4tdGJ1SE1nZWFkTllEektqQVRLMER6ak9vNWVYWGFkc1o0RkJIM245cE84U3hqeHFtZDg?oc=5",
+              "image": "https://img0.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126008300072_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261126008300072"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "삼성SDI, 1.4조 규모 자사주 소각…호실적 이어 주주환원 속도전",
+          "summary": "",
+          "source": "블로터",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=679758",
+          "original_title": "삼성SDI, 1.4조 규모 자사주 소각…호실적 이어 주주환원 속도전",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "블로터",
+              "title": "삼성SDI, 1.4조 규모 자사주 소각…호실적 이어 주주환원 속도전",
+              "link": "https://www.bloter.net/news/articleView.html?idxno=679758",
+              "image": "https://cdn.bloter.net/news/thumbnail/202611/679758_294894_1141_v150.jpg"
+            },
+            {
+              "name": "이데일리",
+              "title": "삼성전기, 11년만에 1.7조 규모 자사주 소각...\"주주환원 강화\"",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOG9QYUZVaVpZZ0x3SjRvdS1VMDVkSlBobUxwQlhfMlJ2TEQ1a1Vkd2JnVkhTWGVRZUhxNVhCQkJCdXZha21yclJXZnhJX1FialhJdkVDc09PMi0yb0lQTUxNaDBsZHNXRXNzRGE5VExFbXE0QzlFdUctWXpnd3QzeQ?oc=5",
+              "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26112501242.jpg",
+              "url": "https://www.edaily.co.kr/News/Read?newsId=03919606645649328&mediaCodeNo=257"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "이제호 전남미술관장, 프랑스 문화공로훈장 수훈",
+          "summary": "이제호 전남미술관장은 프랑스 문화예술공로훈장을 수훈했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261126089800054",
+          "original_title": "이지호 전남미술관장, 프랑스 문화예술공로훈장 오피시에 수훈",
+          "coverage": 2,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "이지호 전남미술관장, 프랑스 문화예술공로훈장 오피시에 수훈",
+              "link": "https://www.yna.co.kr/view/AKR20261126089800054",
+              "image": "https://img6.yna.co.kr/etc/inner/KR/2026/11/26/AKR20261126089800054_01_i_P4.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "이지호 전남미술관장, 프랑스 문화예술공로훈장 '오피시에' 수훈",
+              "link": "https://www.newsis.com/view/NISX20261126_0003883890",
+              "image": "https://img1.newsis.com/2026/11/26/NISI20261126_0002302750_web.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "권순우, 세계 7위 격파해도 데이비스컵 탈락",
+          "summary": "권순우가 세계 7위 플라비오 코볼리를 이기며 분전했으나 한국 대표팀은 데이비스컵 4강 진출에 실패했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261126_0003883795",
+          "original_title": "권순우, 세계 7위 격파에도…한국, 이탈리아에 패해 데이비스컵 탈락",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "권순우, 세계 7위 격파에도…한국, 이탈리아에 패해 데이비스컵 탈락",
+              "link": "https://www.newsis.com/view/NISX20261126_0003883795",
+              "image": "https://img1.newsis.com/2026/11/26/NISI20261126_0001776394_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "권순우 세계 7위 이겼지만…한국, 데이비스컵서 세계 최강 이탈리아에 석패",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008864126",
+              "image": "https://img.sbs.co.kr/newimg/news/20261126/202244417_1280.jpg"
+            },
+            {
+              "name": "중앙일보",
+              "title": "권순우 세계 7위 꺾었지만...한국, 데이비스컵 8강서 이탈리아에 패배",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDcC1JVFJPa1JULWNZY3RZenhTWTNjY3lqREt6RVBmaENVOUFCOVJsdVl5MGsxSVFIUkowa056UmY3eWNpdjRQR0QzMmZWMmdRQnVHTmFR?oc=5",
+              "image": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202611/26/c3c36ef0-819b-4623-ae81-475d42d813c1.jpg",
+              "url": "https://www.joongang.co.kr/article/25482132"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "권순우 세계 7위 이겼지만…한국, 데이비스컵서 이탈리아에 석패",
+              "link": "https://www.yna.co.kr/view/AKR20261126024800007",
+              "image": "https://img3.yna.co.kr/photo/ap/2026/11/26/PAP20261126025401009_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "U-17 월드컵 대표팀, 3전 전승으로 32강 진출",
+          "summary": "한국 U-17 축구 대표팀이 조별리그에서 3전 전승을 기록해 32강에 진출했다.",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863811",
+          "original_title": "한국 U-17 월드컵 대표팀, 조별리그 전승…조 1위로 32강 진출",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "한국 U-17 월드컵 대표팀, 조별리그 전승…조 1위로 32강 진출",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863811",
+              "image": "https://img.sbs.co.kr/newimg/news/20261126/202244335_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "U-17 축구대표팀, 조별리그 전승으로 월드컵 32강행‥에콰도르 3-2 제압",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OdzZvTG9KUldVOEs5c3VNX2lNa3p3ZExWX0l6dTJvcmtnMGVGRjdnRWE2ZjZnQW9DUGVQVVJqRHlHbl9YQTZZd1FWLXpINS1zYVo1dGVFX29LTG83cVU1Sld6WnRmNTJzV3h2VllFcTZJLUlweFHSAXZBVV95cUxQWjB1QXl3QlltcDBwZFg4SjRHLVVKZFkwOXRvZm9IbllmOXNGQnVoNUFoY2E1a3Q4ODBPcUY2Z0Z3RGtZSUk2UGtwVlB0bExoRWZiVlNPZnpiMVZETHFkbGZ3ckNudW16NUR0TUIwQkJUZDlhbVlB?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/sports/article/__icsFiles/afieldfile/2026/11/26/jh_20261126_17.jpg",
+              "url": "https://imnews.imbc.com/news/2026/sports/article/6868667_36946.html"
+            },
+            {
+              "name": "뉴시스",
+              "title": "'김현준호' U-17 대표팀, 에콰도르 꺾고 3전 전승으로 월드컵 32강행",
+              "link": "https://www.newsis.com/view/NISX20261125_0003883583",
+              "image": "https://img1.newsis.com/2026/11/26/NISI20261126_0002302600_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "한국, U-17 월드컵 조별리그 전승 32강행…에콰도르 3-2 제압",
+              "link": "https://www.yna.co.kr/view/AKR20261125187300007",
+              "image": "https://img7.yna.co.kr/etc/inner/KR/2026/11/25/AKR20261125187300007_02_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "모피 재킷에 운동화 신어도 됩니다!",
+    "tagline": "VOGUE Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 14,
+      "t_min": 5,
+      "rain_pct": 2,
+      "sky": "흐림",
+      "display": "서울 5~14°C · 흐림 · 강수 2%"
+    },
+    "articles": [
+      {
+        "title": "모피 재킷에 운동화 신어도 됩니다!",
+        "name": "VOGUE Korea",
+        "link": "https://www.vogue.co.kr/2026/11/26/%eb%aa%a8%ed%94%bc-%ec%9e%ac%ed%82%b7%ec%97%90-%ec%9a%b4%eb%8f%99%ed%99%94-%ec%8b%a0%ec%96%b4%eb%8f%84-%eb%90%a9%eb%8b%88%eb%8b%a4/",
+        "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6aed9ec2a8331-1920x1080.jpg?x=959&y=674&ver=1.1.73",
+        "url": "https://www.vogue.co.kr/2026/11/26/%EB%AA%A8%ED%94%BC-%EC%9E%AC%ED%82%B7%EC%97%90-%EC%9A%B4%EB%8F%99%ED%99%94-%EC%8B%A0%EC%96%B4%EB%8F%84-%EB%90%A9%EB%8B%88%EB%8B%A4/"
+      }
+    ]
+  },
+  "quote": {
+    "text": "인간은 생각하는 갈대다.",
+    "author": "파스칼",
+    "work": "팡세"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 기회가 찾아온다"
+      },
+      {
+        "animal": "소",
+        "text": "친구와의 대화가 빛난다"
+      },
+      {
+        "animal": "호랑이",
+        "text": "도전이 즐거운 모험이 될 것"
+      },
+      {
+        "animal": "토끼",
+        "text": "웃음이 넘치는 하루"
+      },
+      {
+        "animal": "용",
+        "text": "리더십이 빛을 발한다"
+      },
+      {
+        "animal": "뱀",
+        "text": "지혜로운 선택이 보상을 가져온다"
+      },
+      {
+        "animal": "말",
+        "text": "자유로운 발걸음이 길을 열어준다"
+      },
+      {
+        "animal": "양",
+        "text": "창의력이 빛나는 순간"
+      },
+      {
+        "animal": "원숭이",
+        "text": "웃음이 전염되는 순간"
+      },
+      {
+        "animal": "닭",
+        "text": "새로운 시작이 활짝 열린다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 깊어지는 관계가 돋보인다"
+      },
+      {
+        "animal": "돼지",
+        "text": "행복이 가득한 풍성한 하루"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
