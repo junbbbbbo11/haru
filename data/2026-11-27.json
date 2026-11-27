@@ -1,0 +1,749 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-27",
+  "weekday": "금요일",
+  "vol": 46,
+  "generated_at": "2026-11-27T11:44:12+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4825.93,
+      "change": 114.72,
+      "change_pct": 2.44,
+      "direction": "up",
+      "display": "4,825.93",
+      "change_display": "▲ 2.44%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1340.9,
+      "change": -2.1,
+      "change_pct": -0.16,
+      "direction": "down",
+      "display": "1,340.9원",
+      "change_display": "▼ 0.16%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 83326000.0,
+      "change": 1100000.0,
+      "change_pct": 1.34,
+      "direction": "up",
+      "display": "8,333만원",
+      "change_display": "▲ 1.34%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 15,
+    "t_min": 6,
+    "rain_pct": 63,
+    "sky": "구름 조금",
+    "display": "서울 6~15°C · 구름 조금 · 강수 63%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "주가폭락",
+      "headline": "삼성전자 레버리지 15% 폭락 생방송 눈물",
+      "summary": "삼성전자 레버리지 주가가 15% 급락하며 생방송 진행자와 시청자들이 눈물을 보였다. 방송 중 실시간 차트가 변동을 보여 주가 붕괴를 시각화했다.",
+      "source": "이데일리",
+      "link": "https://www.edaily.co.kr/News/Read?newsId=03302966645649656&mediaCodeNo=257",
+      "original_title": "삼성전자 레버리지 15% 폭락…생방송 중 눈물 보인 진행자",
+      "sources": [
+        {
+          "name": "이데일리",
+          "title": "삼성전자 레버리지 15% 폭락…생방송 중 눈물 보인 진행자",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=03302966645649656&mediaCodeNo=257",
+          "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2026/11/PS26112600956.jpg"
+        },
+        {
+          "name": "뉴스1",
+          "title": "\"생방송 전문가도 울었다\"…삼전 레버리지 15% 폭락, 차트 보며 눈물",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtakhvdUd4YTBMOVRWT2lranR1OTBtdWpBWXRkcjRwZl9RRmVZWDJIWi1PaE5hWGtMVkpQMS1JRDB5MXdxbDBNSmQzNVVsTWdqQUkwZGhKNnZSRVpCWnlCOTln?oc=5",
+          "url": "https://www.news1.kr/finance/general-finance/6367814"
+        }
+      ]
+    },
+    {
+      "kicker": "데이터유출",
+      "headline": "한동훈 자료 유출 의혹 압수수색 진행",
+      "summary": "경찰이 한동훈 자료 유출 의혹을 조사하며 법무부·공소청 등에서 압수수색을 실시했다. 수사 본격화에 따라 관련 자료 확보가 진행 중이다.",
+      "source": "MBC 뉴스",
+      "link": "https://imnews.imbc.com/news/2026/society/article/6869010_36918.html",
+      "original_title": "[단독] 경찰, '한동훈 자료 유출' 법무부·공소청 등 압수수색",
+      "sources": [
+        {
+          "name": "MBC 뉴스",
+          "title": "[단독] 경찰, '한동훈 자료 유출' 법무부·공소청 등 압수수색",
+          "link": "https://imnews.imbc.com/news/2026/society/article/6869010_36918.html",
+          "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/27/lyj_261127_3.jpg"
+        },
+        {
+          "name": "JTBC",
+          "title": "경찰, ‘한동훈 수사자료 유출 의혹’ 법무부·공소청 등 압수수색",
+          "link": "https://news.jtbc.co.kr/article/NB12330116",
+          "image": "https://photo.jtbc.co.kr/news/jam_photo/202611/27/d279f4b2-4222-4cdd-9b8b-9c2b752da1ce.jpg"
+        },
+        {
+          "name": "경향신문",
+          "title": "[속보] 경찰, ‘한동훈 자료유출 의혹’ 법무부·공소청 등 압수수색",
+          "link": "https://www.khan.co.kr/article/202611270947011",
+          "image": "https://img.khan.co.kr/news/2026/11/27/news-p.v1.20261030.8a437fc974594eab8f32780fb4367c99_P1.jpeg"
+        },
+        {
+          "name": "BBS불교방송",
+          "title": "경찰, '한동훈 자료유출 의혹' 수사 본격화...법무부 등 압수수색",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KcnBUUVp6MU5zTnV4OEdIcGxCRk5TbG9aSmVDVlVOTldXN1lsUDJ1c2NmcEdZQ0tuOFdoSmZyWVlzRWRtUldzUDUybnpBVkw5NFAtcXIxdmJxNzBibVB0S0xjWEJmLWJ6MTJn?oc=5",
+          "image": "https://cdn.news.bbsi.co.kr/news/thumbnail/202611/4121370_788132_1514_v150.jpg",
+          "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4121370"
+        }
+      ]
+    },
+    {
+      "kicker": "AI출시",
+      "headline": "네이버·카카오, 실행형 AI 에이전트 내달 출시",
+      "summary": "네이버와 카카오는 실행형 AI 에이전트를 내달에 출시할 계획이다. AI가 파일을 읽고 수정하는 기능이 포함돼 사용자 편의성을 높일 것으로 예상된다.",
+      "source": "연합인포맥스",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446918",
+      "original_title": "네이버·카카오, '실행형' AI 에이전트 내달 출시…피클 돌풍 잠재울까",
+      "sources": [
+        {
+          "name": "연합인포맥스",
+          "title": "네이버·카카오, '실행형' AI 에이전트 내달 출시…피클 돌풍 잠재울까",
+          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446918",
+          "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4446918_359818_1811_v150.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "코스닥 5%대 급등, 매수 사이드카 발동",
+          "summary": "코스닥 지수가 27일 5% 이상 급등해 매수 사이드카가 발동된 사실이다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261127058100008",
+          "original_title": "코스닥 상승세 강해져 5%대 급등…매수 사이드카 발동",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "코스닥 상승세 강해져 5%대 급등…매수 사이드카 발동",
+              "link": "https://www.yna.co.kr/view/AKR20261127058100008",
+              "image": "https://img4.yna.co.kr/photo/yna/YH/2026/11/27/PYH2026112702870001300_P4.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "[속보] 코스닥 5%대 급등에 매수 사이드카 발동",
+              "link": "https://www.mk.co.kr/news/stock/12219974",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/27/news-p.v1.20261127.5ca4a5997b6d4c938ff4d8aba551bb4c_R.png"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "[속보] 코스닥 장중 5% 급등‥'매수 사이드카' 발동",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05VlE3MzJxZ0JTdUUtbW5ITXFzdERHc3NkQy1DR0pQSENGUGhGNU80cXlrSWZaVm5MZzdiaVk0Rk9tZ3V3bzZNMXk3dVlmZ2MxUFJzUU5ZVGQ2Tmp5MVRZZmU0RHVqdHRsNmpsclpSdTk4ajVQ0gF0QVVfeXFMUFh2bk13Q0FDU3FRdndkY2wxS2xaamZtanBzWF91alA4QWxybmV5cUEzSlQ0RkZ1aGRqWmg2UzBSSTJRQzdZb2ZLSl92cVIwTUhtWDF1WGRUNmlNeHlBTmtJaUpsVThPY0ZCS3ExczJ5MDNPZ1c?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/econo/article/__icsFiles/afieldfile/2026/11/27/kds_20261127_7.jpg",
+              "url": "https://imnews.imbc.com/news/2026/econo/article/6869030_36932.html"
+            }
+          ]
+        },
+        {
+          "headline": "한은 기준금리 3.25% 인상, 성장률 4.1% 전망",
+          "summary": "한은 기준금리를 3.25%로 인상해 내년 성장률을 4.1%로 전망했다.",
+          "source": "머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMZ2p6M1Z3UG8zZUdySkhLS3MwVHZRYXQ3RWxlVXk1dGE2X3RoUzZ2aTI2Q3lvQmgxSVFEb3lvS1prdDdFSVMxOC1uNFRwOWp0ekhwQWk3VTgtQ0Q5cml0dWlMUjJEazVDTF9R0gFwQVVfeXFMUHRwWlc4cHRISExFLVlYdlMwd21rTmxYZGQwblRWWE40VUpGZ1N3ZjJUb1BPZ0FVbVhBUjdrSU1SdFJzSG1GVDRyS2RoN2lKZzgwT3hEb2x0cjRyNnRMUHZLZmVzOS1SQjhTODdtU19vMQ?oc=5",
+          "original_title": "한은, 기준금리 3.25%로 인상…내년 韓성장률 '4.1%' 파격 전망",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "머니투데이",
+              "title": "한은, 기준금리 3.25%로 인상…내년 韓성장률 '4.1%' 파격 전망",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMZ2p6M1Z3UG8zZUdySkhLS3MwVHZRYXQ3RWxlVXk1dGE2X3RoUzZ2aTI2Q3lvQmgxSVFEb3lvS1prdDdFSVMxOC1uNFRwOWp0ekhwQWk3VTgtQ0Q5cml0dWlMUjJEazVDTF9R0gFwQVVfeXFMUHRwWlc4cHRISExFLVlYdlMwd21rTmxYZGQwblRWWE40VUpGZ1N3ZjJUb1BPZ0FVbVhBUjdrSU1SdFJzSG1GVDRyS2RoN2lKZzgwT3hEb2x0cjRyNnRMUHZLZmVzOS1SQjhTODdtU19vMQ?oc=5",
+              "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/11/2026112609440331836_1.jpg",
+              "url": "https://www.mt.co.kr/economy/2026/11/27/2026112609440331836"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "제주삼다수, '입고 만드는' 브랜드 경험 선보인다…무신사 스탠다드와 협업",
+          "summary": "",
+          "source": "포인트데일리",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1paXpVU3Zyalp5N196QnRDRXdpRklhSnl0Z01KRm10dWo2eEFCSUVnU01Iai1YQWN4OVdERjE4RnFCTlNCR2RxVWlhMGhwS3RPU1RJMlZmQjRtTm5Ibjd2UkxhZHJ2Z3VTZU5qb1BqYzTSAXRBVV95cUxNam1UY1FYLTVURHpaMURPaC0zYjB3Vm1XNXc2YWR6Q2w0VUlFUXRhUDNhVDlJSkFYcy1OWEd3YWQ1MzcxbXV3QjVBMTItLVVUVUU3YXRqdGVIeGg1TjlFTnlHbVFsWGFRN2FZM3hWRl8xRFlfUg?oc=5",
+          "original_title": "제주삼다수, '입고 만드는' 브랜드 경험 선보인다…무신사 스탠다드와 협업",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "포인트데일리",
+              "title": "제주삼다수, '입고 만드는' 브랜드 경험 선보인다…무신사 스탠다드와 협업",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1paXpVU3Zyalp5N196QnRDRXdpRklhSnl0Z01KRm10dWo2eEFCSUVnU01Iai1YQWN4OVdERjE4RnFCTlNCR2RxVWlhMGhwS3RPU1RJMlZmQjRtTm5Ibjd2UkxhZHJ2Z3VTZU5qb1BqYzTSAXRBVV95cUxNam1UY1FYLTVURHpaMURPaC0zYjB3Vm1XNXc2YWR6Q2w0VUlFUXRhUDNhVDlJSkFYcy1OWEd3YWQ1MzcxbXV3QjVBMTItLVVUVUU3YXRqdGVIeGg1TjlFTnlHbVFsWGFRN2FZM3hWRl8xRFlfUg?oc=5",
+              "image": "https://cdn.pointdaily.co.kr/news/thumbnail/202611/327632_324854_4726_v150.jpg",
+              "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=327632"
+            },
+            {
+              "name": "사회적경제뉴스",
+              "title": "제주삼다수, 무신사 스탠다드와 손잡고 ‘입고 만드는’ 브랜드 경험 선보여",
+              "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBFc0F6bEFlLXJ0MVFMcnROeWNfdlZQYno0RFh0eldBOUFpWDFuMXB5MzRUcVVtV1RFSXhFM1pOMA?oc=5",
+              "image": "https://www.senews.kr/data/senews_kr/mainimages/202611/2026112632295814.png?t=1795748344",
+              "url": "http://www.senews.kr/43251"
+            },
+            {
+              "name": "로컬세계",
+              "title": "제주삼다수, 무신사 스탠다드와 손잡고 ‘입고 만드는’ 브랜드 경험 선봬",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TNkRjMkY1bnBhcnpmU2E5VE13Y21uS2NYa2JkU1FrX0lTNFJUNWwtdmpOOHhTNXpTV0RXckJCdlEtLW9qRWowNUN1clVub0lMWWg0X3BMNlVjTVZ6RTd0RNIBWEFVX3lxTFBFSTk3NUFSODVxdW9MRV9sR3lqMGpaMy1FaHhoUHYzZEI0Rl9XbkdqZWptTTBzMXJoZXd5Q3F3ZXk4Tm1vTkROS3poRjdfd2gyWmtfUnJoSHE?oc=5",
+              "image": "https://localsegye.co.kr/news/data/2026/11/26/p1065591762277364_774_thum.JPG",
+              "url": "https://localsegye.co.kr/news/view/1065591762277364"
+            },
+            {
+              "name": "비즈월드",
+              "title": "제주삼다수, 무신사 스탠다드와 고객 위한 '브랜드 경험' 확대",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkZGRTQ1lXMnJ6YlF2WDdSVGl6R2QtWW53T2NHOXJsSVd4TGxVYi1wMHkwNmR3emp5TGNOcmp6akZ3M1pETnpPMEhKWENEaWpEbHRMXzJLTmsxOHhPcWVlanNQVVVLU1BZeXh3?oc=5",
+              "image": "https://cdn.bizwnews.com/news/thumbnail/202611/153299_170874_3248_v150.jpg",
+              "url": "https://www.bizwnews.com/news/articleView.html?idxno=153299"
+            },
+            {
+              "name": "제주뉴스",
+              "title": "제주삼다수, 무신사 스탠다드와 협업…생수 넘어 패션·체험으로 브랜드 확장",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42YlF1QnEyZHdmd2xycjJMSnFvbzItakQ5aktsZGZNMm5FTXdCRkV1OXFUbk9UbmMxU291TlZYVjlmMHZDRDQ3Q1dyeVJwdGozb1JRZ3BwSVNaYU5TclduamVBRTBycEVFdzhZ0gFuQVVfeXFMT3ZGSFJ0VkpvWTdxcU5hSzFSelBGN0ptdnRDUmk5dWxJdUtpMjBQMmoySGpyZlpUeU1KbkVmZDdHNE9QQ3QxQklPdEFQQ3c1ZWFNZjhIc2dsa29FQ3hlOVJXNC1kZmctODlSSTQ3cEE?oc=5",
+              "image": "https://cdn.jejunews.biz/news/thumbnail/202611/107656_80591_5336_v150.jpg",
+              "url": "https://www.jejunews.biz/news/articleView.html?idxno=107656"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "올리브영, K-뷰티 신진 10브랜드 육성",
+          "summary": "올리브영이 국내외 판로 확대를 위해 K-뷰티 신진 브랜드 10곳을 선정해 글로벌 진출을 지원한다.",
+          "source": "중소기업신문",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jWU81WWlJWkwxeS1kQlV3dWRzSkRDU0pLZzFGdjR5Y2hOclJzZG81d1VaSFJFdXk4QUVVSjUzQndKei1DT3N4TzBLRmZkdC05X1oxT3lFZmFhWmczVTlmQzkyT2xvRXc0RHNESWNn?oc=5",
+          "original_title": "올리브영, K뷰티 신진 브랜드 10곳 육성",
+          "coverage": 10,
+          "sources": [
+            {
+              "name": "중소기업신문",
+              "title": "올리브영, K뷰티 신진 브랜드 10곳 육성",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jWU81WWlJWkwxeS1kQlV3dWRzSkRDU0pLZzFGdjR5Y2hOclJzZG81d1VaSFJFdXk4QUVVSjUzQndKei1DT3N4TzBLRmZkdC05X1oxT3lFZmFhWmczVTlmQzkyT2xvRXc0RHNESWNn?oc=5",
+              "image": "https://cdn.smedaily.co.kr/news/thumbnail/202611/366723_301779_1713_v150.jpg",
+              "url": "https://www.smedaily.co.kr/news/articleView.html?idxno=366723"
+            },
+            {
+              "name": "뉴스웍스",
+              "title": "올리브영, K-뷰티 '슈퍼루키' 10곳 키운다…국내외 판로 확대",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ocTdxWFBYZ1A5LTFUeTBRd3pRMm9CUHBVRHVnT2tSR1pUeFpBS1M4cG9iRENKNHRFTVdkSnNnWHNaNHlFcGVWWW1mTGxYaVZsemZxb2ZyaW1JTmtXU1drNUJsWXpCZFBPTVpZSjM4VdIBc0FVX3lxTE1RRUo3dXY5TnI2MVJhTldDQlJOSlRlWjNwNDA1dzFsSEstSUYwTFF6R2ZYSERaZE1DYUNnMTdfMk5oX1F4NHZFZWliaFJNUFFZNkdHOUVoUEhPMHBpQXFIMUZpelR2RkhmcjhjZEZDaFh2YWc?oc=5",
+              "image": "https://cdn.newsworks.co.kr/news/photo/202611/904664_906783_4341.jpg",
+              "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904664"
+            },
+            {
+              "name": "전자신문",
+              "title": "올리브영, K뷰티 신진 브랜드 10곳 선정…글로벌 진출 지원",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00MFJ4dklOTDNGeWJOWXFhMXpzYUNXZEtxQmFBNi1GTGlRSGZfXzd6WjI3ZC1TcllmUUl3UlBIc0dzTUNheGJKbU1pRU5oUQ?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/27/news-p.v1.20261127.9b1d36480e7c4e2db392af6e2eb49d19_P1.jpg",
+              "url": "https://www.etnews.com/20261127000112"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "올리브영, K뷰티 '슈퍼루키' 10곳 키운다…국내외 판로 지원",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OcFgxTVhYV1c0VEVBSjJpeGlGX1kxTmNOMmdOTWs0NUUyUEdPbHYxeTJ3WkFUaHNmRnRoVmlYN0wxWENuMWhfSWlkWU9FSjRWaVNSaTFfVF9JNlnSAWBBVV95cUxNODRXdUFmTmc2QzgwNGxoZWxac0pwT3NsZ1A5dE5hMkk1Z24yX0JSSHp2Tl9JTDlKdUt5WHlFaGNEanVlYUJvX2o0TS1XR2N3d2p0QXF1ZHJyUjBRblZnQlY?oc=5",
+              "image": "https://img4.yna.co.kr/etc/inner/KR/2026/11/27/AKR20261127049800030_01_i_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261127049800030"
+            },
+            {
+              "name": "더트래커",
+              "title": "CJ올리브영, K뷰티 신진 브랜드 10곳 집중 육성…글로벌 판로 확대 지원",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Rc0dTRmp1YXVhQXBHdlQ3aHQ5TUdNNHgyRzZUaU16LVh4aERFX0FDUDJLbDJKVUtDRDdGOWVTdnk4WjE5WTVLVGhFVjFOMHh4ZmhlZjJKVmQ?oc=5",
+              "image": "https://cdn.coenworks.com/Files/478/News/202611/8462_20261127100257264.jpg",
+              "url": "https://thetracker.co.kr/View.aspx?No=4332231"
+            }
+          ]
+        },
+        {
+          "headline": "코스맥스, 월 생산량 1억 개 돌파",
+          "summary": "코스맥스가 화장품 월 생산량을 1억 개를 돌파하며 K-뷰티 공급망 강화에 나서고 있다.",
+          "source": "코스인코리아닷컴",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sWVM4RWszYTRiMWNRanhhRUR0emhEeElqaGc3cUJEMkhGd2dQZENBUHpON3ctNUd6a1lMREpUS1ZEWk1OcHhZWG56MjI5Mm84THl2QTIzVG9LTnJLTHd1MUNoZw?oc=5",
+          "original_title": "코스맥스, 월 생산량 1억 개 돌파 ‘K-뷰티 공급망 강화’ 본격화",
+          "coverage": 8,
+          "sources": [
+            {
+              "name": "코스인코리아닷컴",
+              "title": "코스맥스, 월 생산량 1억 개 돌파 ‘K-뷰티 공급망 강화’ 본격화",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sWVM4RWszYTRiMWNRanhhRUR0emhEeElqaGc3cUJEMkhGd2dQZENBUHpON3ctNUd6a1lMREpUS1ZEWk1OcHhZWG56MjI5Mm84THl2QTIzVG9LTnJLTHd1MUNoZw?oc=5",
+              "image": "https://www.cosinkorea.com/data/photos/20261148/art_17957466948352_3952b5.jpg",
+              "url": "https://www.cosinkorea.com/news/article.html?no=58815"
+            },
+            {
+              "name": "오늘경제",
+              "title": "코스맥스, 화장품 월 생산 1억개 돌파…K-뷰티 공급망 강화",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5WjJMYlA1YUVvbVFQTWxCbWVOd0pxLWotS1JQSktLdVB1dS03RTVveG9xTHBOYTJIVUw0Y0I0SGY1Rm9sc3p1QjhjNGxNcFAzTFNPaERINEpaZDg4MmJSS2FqYWcyWXFCY1JFMGN4ejFvcXM?oc=5",
+              "image": "https://cdn.startuptoday.co.kr/news/photo/202611/820284_619175_1031.jpg",
+              "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=820284"
+            },
+            {
+              "name": "뷰어스",
+              "title": "코스맥스, 월 1억개 생산 시대 열었다…협력사와 K뷰티 공급망 확대",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44MkVuY2hnQVl3czJPWURVNVVUaXJhazF6Tjc4S2JTODRlakFZRUk3MUFkdklvWW1aU0JwRTRPVE9PYnpOYzZjaDhkdDdtaF9OanllRjBpR0s?oc=5",
+              "image": "https://cdn.coenworks.com/Files/30/News/202611/8305_20261127090941261.jpg",
+              "url": "https://theviewers.co.kr/View.aspx?No=4332129"
+            },
+            {
+              "name": "연합뉴스 한민족센터",
+              "title": "'월 1억개 생산' 코스맥스, 협력사와 K뷰티 공급망 강화",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41VGM3NlhwRUNRRzZxa0JEcEw0OURkNUtVaHNVSHFHZktkWHJjZkJiNkkwUVFZYnJYQmhZeXFsUDh1QjBDeFBBckw4cTc4MXNZeGY1SG1mN2NRaWYzelAySnAwUVZvajFDQ2p1ZDZWYXpjNWFr?oc=5",
+              "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1445797"
+            },
+            {
+              "name": "아시아경제",
+              "title": "코스맥스, 월 1억개 생산 시대…K뷰티 수요 대응해 부자재 공급망 강화",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IekFnblMtNEFNdGp2Nmdod2pZYngzSFBqVXYzSFNaMnczYlBCQUR6RVAzR2JFR01PSmk3OWw2Rkp6V3ZadXJBQWVfeHU1dkpqRlpDU3pjTlNOLXVoSVdBYg?oc=5",
+              "image": "https://cphoto.asiae.co.kr/listimglink/1/2026112708241025877_1795735450.jpg",
+              "url": "https://www.asiae.co.kr/article/2026112708252894702"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "SK인텔릭스, ‘나무엑스 A1’ 국제표준 우수사례",
+          "summary": "SK인텔릭스가 개발한 웰니스 로봇 ‘나무엑스 A1’이 국제표준 우수사례로 선정되었다. 해당 로봇은 AI 품질 검증을 거쳐 산업 AI 표준화 포럼상 수상했다",
+          "source": "라이센스뉴스",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzdlFmNmsxYlI1T0hJbmd0bnBUNGtRWXhKWXZRdko5Zm9TdmFkZngtQXNDcmZKa1J2ZWp0c1hmUFg2X25scTN5NWFKbTdZbTJ5SFVLQ2EyT0FuZDJpTWpwS1NUR1hueGh3TmFJ?oc=5",
+          "original_title": "SK인텔릭스, 웰니스 로봇 AI 품질 검증…국제표준 적용",
+          "coverage": 9,
+          "sources": [
+            {
+              "name": "라이센스뉴스",
+              "title": "SK인텔릭스, 웰니스 로봇 AI 품질 검증…국제표준 적용",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzdlFmNmsxYlI1T0hJbmd0bnBUNGtRWXhKWXZRdko5Zm9TdmFkZngtQXNDcmZKa1J2ZWp0c1hmUFg2X25scTN5NWFKbTdZbTJ5SFVLQ2EyT0FuZDJpTWpwS1NUR1hueGh3TmFJ?oc=5",
+              "image": "https://cdn.lcnews.co.kr/news/photo/202611/212112_215865_2015.jpg",
+              "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=212112"
+            },
+            {
+              "name": "비욘드포스트",
+              "title": "SK인텔릭스, 웰니스 로봇 ‘나무엑스 A1’ 국제표준 우수사례 선정",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZV0p0SG5ORTZLM0NQZW5ISkNsRFFHWDg1bWxQa0JQWkVKUDVzeTJ4N0xJUHcyQlFMU0RBZEx3aWNRdHU0WEdRT2ZMUm5kNmJqNTZYcHZTRldINFRSakN0aE1kQ3NUS3FaSGtaU0VFNlhGMDdCc2pKSXB3LWg?oc=5",
+              "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026112615312802066046a9e4dd7f220867377.jpg&nmt=30",
+              "url": "https://www.beyondpost.co.kr/view.php?ud=20261126153056561346a9e4dd7f_30"
+            },
+            {
+              "name": "데이터뉴스",
+              "title": "SK인텔릭스, 웰니스 로봇 '나무엑스'로 산업 AI 표준화 포럼상 수상",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hdnR5RldGczhoZzlGVmJvMlVZVnZZd3d2S0U5SUhQS0lYMmM0bEtuVjFWeDEwTGtLcXNNOFJONU1sOHppQnA3VkM5QzNDN3RYWDF6Ykoxd0daajFtWm1N?oc=5",
+              "image": "https://www.datanews.co.kr/data/photos/cdn/20261148/art_1795673869.jpg",
+              "url": "https://datanews.co.kr/news/article.html?no=147882"
+            },
+            {
+              "name": "아시아투데이",
+              "title": "SK인텔릭스 웰니스 로봇 ‘나무엑스 A1’, AI 국제표준 활용 우수사례 선정",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Mc2RZdGxmeVZzWFYxTzUtUHRCX2l5V0ExWW82dUNFcFRSMklJMEFQdS1JbmRDR3BBanBfY2FJMFNZekNhYW5jSDdCUkc0WTRpSzhyYVJtWVg0SWNXZnBwOFBUeEFnOGlkeTN2dmRB?oc=5",
+              "image": "https://img.asiatoday.co.kr/file/2026y/11m/26d/2026112601001938000103811.jpg",
+              "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261126010010381"
+            },
+            {
+              "name": "전자신문",
+              "title": "SK인텔릭스 웰니스 로봇 '나무엑스', 국제표준 우수사례 선정",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tS3Y4U1ltVl9pdWVXMF9BeEg5czFMWTV0VVFPLW9aRlVvYWFUMkl6MW1LOVRKSTAxS3RKd0JzQWtKeXQyNV92UEJFSHNndw?oc=5",
+              "image": "https://img.etnews.com/news/article/2026/11/26/news-p.v1.20261126.da4f7d955e6347be850dd8a8dc25fa11_P1.jpg",
+              "url": "https://www.etnews.com/20261126000360"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "김대기 전 비서실장, 1심 징역형 집유",
+          "summary": "김대기 전 대통령실 비서실장은 관저 이전 과정에서 예산 불법 전용을 지시해 1심 징역형을 집행유예했다.",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261127066300004",
+          "original_title": "'尹 관저이전 예산전용' 김대기 前비서실장 1심 징역형 집유",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "'尹 관저이전 예산전용' 김대기 前비서실장 1심 징역형 집유",
+              "link": "https://www.yna.co.kr/view/AKR20261127066300004",
+              "image": "https://img9.yna.co.kr/photo/cms/2026/05/19/67/PCM20260519000167990_P4.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "[속보] '윤석열 관저 이전 예산 전용' 김대기 전 비서실장, 1심서 징역형 집행유예",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YbXhKaF90LXczWHJ5a1EyUHU2bjhQT2pLUFBKRWdieGZtTVNwNUZ2ZURjLWJoRkt0NFF3QnlkVldCOVY5UnkydkRaeGpPOTNlbE1fY2NlN205OVpZSEpCRlQ0ZW1PWWR1akZiUml2eHRsRUlCZ2ZF0gF3QVVfeXFMTWRfZFBCMUV1bnd6a2FaVEo2dVNHSmJ1aUxmSDEza2pvSnpjOFE3U1RRUnN4OVhQb194bkNwRGtuTF9vYTJoQmhWTkFMekN0YmhjUFZwRmo2SzhtOHFGVW9wX3U1V0tWajVOUkVIak9CLWFST2QwTDA?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/society/article/__icsFiles/afieldfile/2026/11/27/jhp_20261127_51.jpg",
+              "url": "https://imnews.imbc.com/news/2026/society/article/6869043_36918.html"
+            },
+            {
+              "name": "경향신문",
+              "title": "[속보] 윤석열 정부 ‘관저 이전 예산 전용’ 김대기 1심 징역형 집유…이상민 무죄",
+              "link": "https://www.khan.co.kr/article/202611271048001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/27/news-p.v1.20261127.fbe20f040db24e3d80dc53ad2fe27983_P1.jpeg"
+            }
+          ]
+        },
+        {
+          "headline": "2027 수능 부정행위 70% 급증",
+          "summary": "2027학년도 대학수학능력시험에서 부정행위가 지난해 대비 70% 상승하고 스마트기기 적발이 3.6배 증가했다.",
+          "source": "경향신문",
+          "link": "https://www.khan.co.kr/article/202611271111001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+          "original_title": "올해 수능 부정행위 70% 급증…스마트기기 적발 작년의 3.6배",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "경향신문",
+              "title": "올해 수능 부정행위 70% 급증…스마트기기 적발 작년의 3.6배",
+              "link": "https://www.khan.co.kr/article/202611271111001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+              "image": "https://img.khan.co.kr/news/2026/11/27/news-p.v1.20261119.b0efb91f829747ec9302498307103b35_P1.jpeg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "올 수능 부정행위 474건으로 70% 급증…스마트기기 적발 작년의 3.6배",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4NS0xSWw3TXRra2pJek9zYlN4cDY4TWI4cTN4bkhaQ3Z6RGJsMEc3ZUlGMmI1QVdZUWJsU1NyRmRsdlhtdGkwR1k2bGJSOGZObjg4T1dRUE9lVWs?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/27/20261127_D46EhN.png",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8724312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "사우디 정유시설 공격, 1명 사망",
+          "summary": "사우디아라비아 자잔 정유시설이 적대적 발사체에 공격받아 1명이 사망하고 부상자가 발생했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261127_0003885435",
+          "original_title": "사우디 정유시설 피격으로 1명 사망·여러 명 부상…가동 일시 중단",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "사우디 정유시설 피격으로 1명 사망·여러 명 부상…가동 일시 중단",
+              "link": "https://www.newsis.com/view/NISX20261127_0003885435",
+              "image": "https://img1.newsis.com/2026/03/03/NISI20260303_0001071166_web.jpg"
+            },
+            {
+              "name": "뉴스핌",
+              "title": "[특징주] 사우디 정유시설 피격에 방산·에너지株 '강세'",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96aU5ZN3R5MGZET2RPbFcxQXJCakkzZVJEenBlaHRMYkdCbjNNV3FxOC1zY3hoS0poOFRTaEpsbTcyNTZlRkxIR19NcjE0S2lxYVRDZ1RBLVdPRFFG?oc=5",
+              "image": "https://img.newspim.com/news/2024/09/20/2409200900090970_784_tc.jpg",
+              "url": "https://www.newspim.com/news/view/20261127000274"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "사우디 정유시설 피격으로 1명 사망…가동 일시 중단",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865883",
+              "image": "https://img.sbs.co.kr/newimg/news/20261003/202228313_1280.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "젤렌스키, 러시아 대공습 경보 발령",
+          "summary": "우크라이나 대통령 젤렌스키가 러시아가 수일 내 대규모 공습을 준비 중이라고 경보를 발령했다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261127_0003885680",
+          "original_title": "젤렌스키 \"러시아, 수일 내 대규모 공습 준비…경보에 주의하라\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "젤렌스키 \"러시아, 수일 내 대규모 공습 준비…경보에 주의하라\"",
+              "link": "https://www.newsis.com/view/NISX20261127_0003885680",
+              "image": "https://img1.newsis.com/2026/11/11/NISI20261111_0002288738_web.jpg"
+            },
+            {
+              "name": "동아일보",
+              "title": "젤렌스키 “러시아, 수일 내 대규모 공습 준비…경보에 주의하라”",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tVWVqS3lnUkRmREoxTzBoSTM5WjBaVjRJdERYZmpaRHlNUnhmYVN6aVpSaEFGZDltX1RSeFJsN2VMQkVvQnMtQ2tZMmVrb3NMR3FuZnI4Q2pNRGppemNQanhIUzdiOWhQbW9NMXhLa3Y2NXfSAWZBVV95cUxPV1U0R21oMEhRTDlwRm10YU9DbGZWd1hRTFhlNUpweVlXVGR3Vnc4SUhVSjhwVHl1S2VXNThYRjlTN0Q5czdBTGszU1ZyV2dhcGY0UXZ5THh3aTFUQlJNZE9KcGg4alE?oc=5",
+              "url": "https://www.donga.com/news/Inter/article/all/20261127/135101890/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "메모리 가격 급등에 스마트폰 출하 9% 감소…아이폰 부품주 LG이노텍 주가 탄력받나",
+          "summary": "",
+          "source": "핀포인트뉴스",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1IVVMwVVFZVEtlbklJVTd5d0pSN3VYaUFpaXlKZXB2azhuSEFpYmNFMFhBSlZvd1lnMWE1cEtXRnBoc0lxLTNfenpQZnhPUGEzMVdhRHpjelJ6bm40TXZNc29lZkd5a2NYbTlJNUQ0QWlyb2dIWDRV0gF3QVVfeXFMTUhVUzBVUVlUS2VuSUlVN3l3SlI3dVhpQWlpeUplcHZrOG5IQWliY0UwWEFKVm93WWcxYTVwS1dGcGhzSXEtM196elBmeE9QYTMxV2FEemN6UnpubjRNdk1zb2VmR3lrY1htOUk1RDRBaXJvZ0hYNFU?oc=5",
+          "original_title": "메모리 가격 급등에 스마트폰 출하 9% 감소…아이폰 부품주 LG이노텍 주가 탄력받나",
+          "coverage": 6,
+          "sources": [
+            {
+              "name": "핀포인트뉴스",
+              "title": "메모리 가격 급등에 스마트폰 출하 9% 감소…아이폰 부품주 LG이노텍 주가 탄력받나",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1IVVMwVVFZVEtlbklJVTd5d0pSN3VYaUFpaXlKZXB2azhuSEFpYmNFMFhBSlZvd1lnMWE1cEtXRnBoc0lxLTNfenpQZnhPUGEzMVdhRHpjelJ6bm40TXZNc29lZkd5a2NYbTlJNUQ0QWlyb2dIWDRV0gF3QVVfeXFMTUhVUzBVUVlUS2VuSUlVN3l3SlI3dVhpQWlpeUplcHZrOG5IQWliY0UwWEFKVm93WWcxYTVwS1dGcGhzSXEtM196elBmeE9QYTMxV2FEemN6UnpubjRNdk1zb2VmR3lrY1htOUk1RDRBaXJvZ0hYNFU?oc=5",
+              "url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=508746"
+            },
+            {
+              "name": "YTN",
+              "title": "미 스마트폰 출하량 9% 감소...아이폰 점유율 57%로 확대",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zcGNBYzdIX3h2cEMtNTc1ZFdRY1dTdF9kcWdSQmFOQ3lTLXM2TWZ3S3FwSXVrUUxja0pEdDQ0RngzcF80aEZweFlfTkR1U2d6ODgtX0tmYjl1Tm1Peks0NFVkUS12X1BmWWFSOVVMMFM1czRla3c?oc=5",
+              "image": "https://image.ytn.co.kr/general/jpg/2026/1127/202611270931214951_t.jpg",
+              "url": "https://m.ytn.co.kr/news_view.amp.php?param=0104_202611270931214951"
+            },
+            {
+              "name": "SBS Biz",
+              "title": "메모리 가격 상승에 美 스마트폰 출하량 9% 감소",
+              "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xb0NEN1NDWlR3RnA2cGhHSXVhbEs4ZTFsWGQwMTZncG9TRXNDazJyQ2p4bE94VElKN1cxU1ZHSTJzRDFfaE5aVnJhRV9MRG1CaDVj0gFYQVVfeXFMT2RiU2dYMFFVbURfb1BSUzBfU1hFNHVlbExyRUVnMEgzaVdaR1ljdzF5SWNKUVkyNmRkb2lJQUhXWjJQX2FMMFRvNUNZR19UYXVINTVtc1NIdQ?oc=5",
+              "image": "https://img.biz.sbs.co.kr/upload/2026/11/27/bTU1795738367795-850.jpg",
+              "url": "https://biz.sbs.co.kr/article/20000349259"
+            },
+            {
+              "name": "M이코노미뉴스",
+              "title": "美 3분기 스마트폰 출하량 9% 감소...애플·삼성 점유율 확대",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LeloxWkZwdVhyZVVwQnNGdmR0R1JkcTZ1MHRBZG52emd1aUYydVVid0NITmVZUnFKb0paSVQtOURfZG1iTmFvM0ZKTjhwV05aeU02TVVSZ25tZWJHOWRIampNbU1jU1k?oc=5",
+              "image": "https://www.m-economynews.com/data/photos/20261148/art_17957367337246_da7be3.jpg",
+              "url": "https://www.m-economynews.com/news/article.html?no=73658"
+            },
+            {
+              "name": "중앙이코노미뉴스",
+              "title": "메모리 가격 급등에 美 스마트폰 시장 9% 역성장…삼성전자·애플은 점유율 확대",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBcnRWUHYySmJWaHdXSzJhbzJyZlRKUUZWVUtnV0JLSHNNMmhzMUk1SXc5NFJlQ2kxTVVsNGRlMWZuM1g1V1c5STNGM2JHNUJZRVF2VklLTDJtdkhzTXhMMzlURlJ3eGs2TjVLeUYzUTJVdw?oc=5",
+              "image": "https://cdn.joongangenews.com/news/photo/202611/567049_374960_4213.jpg",
+              "url": "https://www.joongangenews.com/news/articleView.html?idxno=567049"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "CJ ONE, 어벤져스 연말 혜택 풍성",
+          "summary": "CJ올리브네트웍스는 CJ ONE 회원에게 어벤져스: 둠스데이 개봉 앞두고 300명 그린카펫 초청 및 연말 문화 혜택을 제공했다.",
+          "source": "굿데일리",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mV20zNUluczI5a0lPTGhycHc4aWRRT2g5emhBWDZsNWZCQ1BxZ044VXhDQnp4X3B3V0lPRVpnb2E0enhma2NYbkpTMUZYeWNQbWhHOE9qRHc4c2d3aDVRQ1k1MWxlUUJHNWVYMVdGZk5DRDFs?oc=5",
+          "original_title": "CJ올리브네트웍스, '어벤져스: 둠스데이' 연계 CJ ONE 연말 문화 혜택 풍성",
+          "coverage": 7,
+          "sources": [
+            {
+              "name": "굿데일리",
+              "title": "CJ올리브네트웍스, '어벤져스: 둠스데이' 연계 CJ ONE 연말 문화 혜택 풍성",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mV20zNUluczI5a0lPTGhycHc4aWRRT2g5emhBWDZsNWZCQ1BxZ044VXhDQnp4X3B3V0lPRVpnb2E0enhma2NYbkpTMUZYeWNQbWhHOE9qRHc4c2d3aDVRQ1k1MWxlUUJHNWVYMVdGZk5DRDFs?oc=5",
+              "image": "https://cdn.gooddailynews.co.kr/news/photo/202611/300244_300245_1130.jpg",
+              "url": "https://www.gooddailynews.co.kr/news/articleView.html?idxno=300244"
+            },
+            {
+              "name": "파이낸셜뉴스",
+              "title": "CJ올리브네트웍스, '어벤져스: 둠스데이' CJ ONE 연말 혜택",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xT2ZXY0ZJWERKU2lMZHlNaGJSSEF5QUZocE9LSVVZZkF3Wmg1c0gwNHBFOHBJbUNCSEM2VEdNb1duWTdHbjdUdERwX2JFWUVtbGhiVk9QTmU5UQ?oc=5",
+              "image": "https://image.fnnews.com/resource/media/image/2026/11/27/202611270958242228_e.jpg",
+              "url": "https://www.fnnews.com/news/202611270956006853"
+            },
+            {
+              "name": "Korea IT Times",
+              "title": "CJ ONE, ‘어벤져스: 둠스데이’ 개봉 앞두고 회원 300명 그린카펫 초청",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00aFZpa2FUYmxpUGtNdU83NF9YUTRqdkdwT2JoLWtZaERsaXZ0V1FWMmFBQXBHYXpEZWtYanE3aGhkZTkxbzJwamJIQllESktHUmdaZnBtYS1fYWJOOXlEZkdFQS1IV1BodUFjSGZqNUM?oc=5",
+              "image": "https://www.koreaittimes.com/news/thumbnail/202611/159512_109127_4252_v150.jpg",
+              "url": "https://www.koreaittimes.com/news/articleView.html?idxno=159512"
+            },
+            {
+              "name": "CJ 뉴스룸",
+              "title": "CJ올리브네트웍스, 연계 CJ ONE 연말 문화 혜택 풍성",
+              "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNRzRyQ2xWbGJiNjNQcUJpeEstSTdfcF91UURocFdaT2N3bmc3NXgxQmtRTTUtMDkwbm0xVmJtT2NyaFptNXBhRTBsS24zS0J3Y0JoNGdGb1c0OUw2VUFjVTJaelJNOWxVTHl0dTgxRmtvbEJCb0xHSzlUalh2UTVoSXk0XzdxLXhmbzVQMlZhZG95TFR2QWc1LXphUXJ6OUZLR0g5ZGxUT1A4Q0s1SEZWNlVRYWRQdXRNUkxxODUxYnRwMHF2TFplOXR1ekVmSEF3NW8xYnZOaHVCYmk0bldReEtHSlV6a3VKWXNqaHBRNWpyV1J6Mi1PMUNKcnFDbzAwdUxpT3FObWFxb2JuUHh6T0tFS1BPQjlLTFpCak0zVVo1Zm5vd2t3YlFCVFhYd1dM?oc=5",
+              "image": "https://img.cjnews.cj.net/wp-content/uploads/2026/11/%EC%8D%B8%EB%84%A4%EC%9D%BC-CJ-ONE-%EC%96%B4%EB%B2%A4%EC%A0%B8%EC%8A%A4-%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4-%EA%B0%9C%EB%B4%89-%EA%B8%B0%EB%85%90-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EA%B0%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80.png",
+              "url": "https://cjnews.cj.net/cj%EC%98%AC%EB%A6%AC%EB%B8%8C%EB%84%A4%ED%8A%B8%EC%9B%8D%EC%8A%A4-%EC%96%B4%EB%B2%A4%EC%A0%B8%EC%8A%A4-%EB%91%A0%EC%8A%A4%EB%8D%B0%EC%9D%B4-%EC%97%B0%EA%B3%84-cj-one-%EC%97%B0%EB%A7%90/"
+            },
+            {
+              "name": "팝콘뉴스",
+              "title": "CJ올리브네트웍스, '둠스데이' 연계 CJ ONE 연말 문화 혜택 확대",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Fb3ozV29STG9nUTZHTVB4T19RcEtxQjcwMm56QXp1V3JKX2FSMGhGMkl6czdKM19ZVURBMHEwNEZDTWZfRV9Zc2JZUDRwNXBWVDltTHM4T3B5Z2FBYkdNM0piY3JGMzFPY1lWOGFXZ9IBckFVX3lxTE5jR09xVGpPWEg1bkMxMUF3eFVwdUVkeEdBVExERE9kamhoUmNpVWQ3Ny11OWlEb3JVZUEtaVlRclMzdnRJbm5XM25pbzZ6bTlkYk1xSkF2M3dlS1BJOU5oVE5sb01GeU9TWjZXdDQxMkVTZw?oc=5",
+              "image": "https://cdn.popcornnews.net/news/thumbnail/202611/141797_168743_5531_v150.jpg",
+              "url": "https://www.popcornnews.net/news/articleView.html?idxno=141797"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "한국 남자농구, 카타르 완파",
+          "summary": "한국 남자농구 대표팀이 카타르를 74-52로 꺾어 2027 FIBA 월드컵 본선 진출에 한 걸음 다가섰다.",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261127_0003885478",
+          "original_title": "'마줄스호' 농구 대표팀, 카타르 74-52 완파…월드컵 본선행 청신호",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "'마줄스호' 농구 대표팀, 카타르 74-52 완파…월드컵 본선행 청신호",
+              "link": "https://www.newsis.com/view/NISX20261127_0003885478",
+              "image": "https://img1.newsis.com/2026/11/27/NISI20261127_0002303843_web.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "남자농구 대표팀, 카타르 완파…월드컵 본선행 청신호",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866050",
+              "image": "https://img.sbs.co.kr/newimg/news/20261127/202244818_1280.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "잇몸으로 싸운 남자농구, 카타르 완파…월드컵 본선행 청신호",
+              "link": "https://www.yna.co.kr/view/AKR20261127007700007",
+              "image": "https://img7.yna.co.kr/etc/inner/KR/2026/11/27/AKR20261127007700007_01_i_P4.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "ai",
+    "title": "체크",
+    "tagline": "계절을 뒤흔드는 체크 패턴",
+    "description": "체크 패턴은 전통적인 격자 무늬를 현대적으로 재해석한 스타일이다. 최근 여성 패션에서 스커트와 머플러에 많이 활용되며, 다양한 색상과 소재로 변주된다. 체크 아이템은 계절을 넘어 연속적으로 인기를 끌고 있다.",
+    "items": [
+      {
+        "category": "outer",
+        "name": "브라운 체크 재킷",
+        "color": "브라운",
+        "hex": "#8B4513"
+      },
+      {
+        "category": "top",
+        "name": "베이지 체크 블라우스",
+        "color": "베이지",
+        "hex": "#F5F5DC"
+      },
+      {
+        "category": "bottom",
+        "name": "네이비 체크 스커트",
+        "color": "네이비",
+        "hex": "#000080"
+      },
+      {
+        "category": "scarf",
+        "name": "블랙 체크 머플러",
+        "color": "블랙",
+        "hex": "#000000"
+      }
+    ],
+    "tips": [
+      "체크 스커트를 블랙 블레이저와 매치해 정제된 룩을 완성한다.",
+      "블랙 체크 머플러를 레이어링해 겨울 보온과 스타일을 동시에 챙긴다.",
+      "베이지 체크 블라우스를 니트와 조합해 부드러운 캐주얼을 연출한다."
+    ],
+    "weather_tip": "구름이 흐린 날, 체크 스카프를 레이어링해 보온을 챙기세요.",
+    "weather": {
+      "city": "서울",
+      "t_max": 15,
+      "t_min": 6,
+      "rain_pct": 63,
+      "sky": "구름 조금",
+      "display": "서울 6~15°C · 구름 조금 · 강수 63%"
+    },
+    "articles": [
+      {
+        "title": "윈터부터 신예은까지, 요즘 셀럽들이 푹 빠진 체크 머플러는?",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1913853",
+        "note": "체크 패턴이 돋보이는 머플러를 소개하며, 소재와 색상 변화를 강조했다.",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/11/27/24ffd80d-3908-4a27-abd1-f37acffd781f.jpg"
+      },
+      {
+        "title": "올겨울 스커트 취향에 '체크' 표시를 해주세요",
+        "name": "ELLE Korea",
+        "link": "https://www.elle.co.kr/article/1913776",
+        "note": "체크 스커트가 올해 겨울 여성 패션 트렌드에 큰 비중을 차지한다는 점을 다루었다.",
+        "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/11/26/1a7ba498-f710-4046-9168-2613e10b284d.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "나는 생각한다, 그러므로 나는 존재한다.",
+    "author": "데카르트",
+    "work": "방법서설"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "새로운 아이디어가 활짝 피어납니다."
+      },
+      {
+        "animal": "소",
+        "text": "조용한 하루가 당신을 포근하게 감싸요."
+      },
+      {
+        "animal": "호랑이",
+        "text": "열정이 넘치는 순간이 찾아옵니다."
+      },
+      {
+        "animal": "토끼",
+        "text": "따뜻한 웃음이 주변을 밝힙니다."
+      },
+      {
+        "animal": "용",
+        "text": "창의력이 빛나는 날이 될 것입니다."
+      },
+      {
+        "animal": "뱀",
+        "text": "조용히 흐르는 시간 속에서 배움이 쌓입니다."
+      },
+      {
+        "animal": "말",
+        "text": "낭만적인 순간이 당신을 감싸안습니다."
+      },
+      {
+        "animal": "양",
+        "text": "평온한 마음이 주변 사람을 따뜻하게 합니다."
+      },
+      {
+        "animal": "원숭이",
+        "text": "유머 감각이 빛나며 소통이 부드럽게 이어집니다."
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성공으로 이어집니다."
+      },
+      {
+        "animal": "개",
+        "text": "믿음직한 동료와 함께하는 하루가 기대됩니다."
+      },
+      {
+        "animal": "돼지",
+        "text": "부드러운 에너지가 주변에 퍼집니다."
+      }
+    ]
+  },
+  "reading_minutes": 3
+}
