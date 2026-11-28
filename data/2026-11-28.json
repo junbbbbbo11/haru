@@ -1,0 +1,703 @@
+{
+  "schema_version": 1,
+  "title": "하루 한 장",
+  "date": "2026-11-28",
+  "weekday": "토요일",
+  "vol": 47,
+  "generated_at": "2026-11-28T11:33:53+09:00",
+  "edit_mode": "partial",
+  "indicators": [
+    {
+      "id": "kospi",
+      "name": "코스피",
+      "ok": true,
+      "value": 4711.21,
+      "change": 13.7,
+      "change_pct": 0.29,
+      "direction": "up",
+      "display": "4,711.21",
+      "change_display": "▲ 0.29%"
+    },
+    {
+      "id": "usdkrw",
+      "name": "원/달러",
+      "ok": true,
+      "value": 1343.5,
+      "change": 0.6,
+      "change_pct": 0.04,
+      "direction": "up",
+      "display": "1,343.5원",
+      "change_display": "▲ 0.04%"
+    },
+    {
+      "id": "btc",
+      "name": "비트코인",
+      "ok": true,
+      "value": 81470000.0,
+      "change": 230000.0,
+      "change_pct": 0.28,
+      "direction": "up",
+      "display": "8,147만원",
+      "change_display": "▲ 0.28%"
+    }
+  ],
+  "weather": {
+    "city": "서울",
+    "t_max": 8,
+    "t_min": 1,
+    "rain_pct": 2,
+    "sky": "흐림",
+    "display": "서울 1~8°C · 흐림 · 강수 2%"
+  },
+  "cover_stories": [
+    {
+      "kicker": "AI규제",
+      "headline": "식약처, AI 가짜 의사 광고 금지",
+      "summary": "식약처는 AI 가짜 의사 제품 추천 광고를 금지했다.",
+      "source": "덴탈투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QYW5ocVdFZ0FjTkxEeE42eXNNWG5lcXhGU0hicFFsZWotNXpXYnFnMkExc3lscHFzRXVSQjkxV2JxYjJLdEVFSmhBZlZVQVpvQmc5UGpYWF90YlROQXNwcTlJLXI4NFFf?oc=5",
+      "original_title": "식약처, ‘AI 가짜 의사’ 제품 추천 광고 금지",
+      "sources": [
+        {
+          "name": "덴탈투데이",
+          "title": "식약처, ‘AI 가짜 의사’ 제품 추천 광고 금지",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QYW5ocVdFZ0FjTkxEeE42eXNNWG5lcXhGU0hicFFsZWotNXpXYnFnMkExc3lscHFzRXVSQjkxV2JxYjJLdEVFSmhBZlZVQVpvQmc5UGpYWF90YlROQXNwcTlJLXI4NFFf?oc=5",
+          "image": "https://www.dttoday.com/news/thumbnail/202611/97471_105766_2728_v150.jpg",
+          "url": "https://www.dttoday.com/news/articleView.html?idxno=97471"
+        }
+      ]
+    },
+    {
+      "kicker": "U17월드",
+      "headline": "한국 U-17, 월드컵 32강 한일전 승리",
+      "summary": "한국 U-17 축구팀이 월드컵 32강에서 일본과의 한일전에서 승리했다.",
+      "source": "KBS 뉴스",
+      "link": "https://news.kbs.co.kr/news/view.do?ncd=8725111",
+      "original_title": "3전 전승 한국, 3위 턱걸이 일본과 U-17 월드컵축구 32강 한일전",
+      "sources": [
+        {
+          "name": "KBS 뉴스",
+          "title": "3전 전승 한국, 3위 턱걸이 일본과 U-17 월드컵축구 32강 한일전",
+          "link": "https://news.kbs.co.kr/news/view.do?ncd=8725111",
+          "image": "https://news.kbs.co.kr/data/news/2026/11/28/20261128_MNqQZX.jpg",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8725111"
+        },
+        {
+          "name": "머니투데이",
+          "title": "[공식발표] 이럴 수가! '사상 최초 3전 전승' 韓 축구, 월드컵 한일전 확정...U-17 WC 32강서 '2연패 후 기사회생' 일본과 격돌",
+          "link": "https://www.mt.co.kr/sports/2026/11/28/202611280853779680O",
+          "image": "https://menu.mt.co.kr/cdn-cgi/image/w=1200,h=798,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/mobile/osen/data/2026/11/28/202611280853779680_1.jpg"
+        },
+        {
+          "name": "연합뉴스TV",
+          "title": "U-17 월드컵 32강서 한일전 성사…12월 1일 밤 10시 격돌",
+          "link": "https://www.yonhapnewstv.co.kr/news/AKR20261128110648bsB",
+          "image": "https://media.yonhapnewstv.co.kr/article/AKR/20261128/AKR20261128110648bsB_01_i.jpg"
+        },
+        {
+          "name": "인터풋볼",
+          "title": "[오피셜] U-17 월드컵 32강 한일전 성사! '어떻게 이런 일이'....조별리그 3전 전승 역사 쓴 '新 황금세대', 1승 2패 속 간신히 올라온 일본과 대결",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUY29kRy13Q3lTcEN5b0xBTU5ucmVPVWI2WllaR0lkQjVJeW1JWE1ieWtVclhfSy12dUdYaDVBLURDdmJfUFNGeFJkNmxITklHbG1WUTBHTVdUZWZ4T3I3WE5BZVpqOTV1X2FpNnpaOXotVEty?oc=5",
+          "image": "https://cdn.interfootball.co.kr/news/thumbnail/202611/699411_833835_3458_v150.jpg",
+          "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=699411"
+        },
+        {
+          "name": "포포투",
+          "title": "[속보] 한국-중국에 망신당할 뻔한 일본 ‘기사회생’...와일드카드 획득하며 U-17 월드컵 32강 진출 확정!",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rcFFFTFg4X2g3MTR4eFVIR3dRNnVVMnBTYnZzQ21xdDNzakozM2ttejUyWmtGRGxvTTdDdHNVaHJIWDcxeTltQUdFZG0wUTBmdzNROElqeDBJd3lJUHQzYzljdGp2aUVZcGk3blRFY1gzUQ?oc=5",
+          "image": "https://cdn.fourfourtwo.co.kr/news/thumbnail/202611/101411_281558_5225_v150.jpg",
+          "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101411"
+        }
+      ]
+    },
+    {
+      "kicker": "AI금융",
+      "headline": "NH농협은행, AI 컴플라이언스 제품 인증 획득",
+      "summary": "NH농협은행이 AI 기반 컴플라이언스 제품을 인증받아 금융상품 광고를 강화했다.",
+      "source": "전자신문",
+      "link": "https://www.etnews.com/20261127000225",
+      "original_title": "씨지인사이드, NH농협은행 오픈이노베이션 최우수상 수상…금융상품 광고 Compliance AI 선보여",
+      "sources": [
+        {
+          "name": "전자신문",
+          "title": "씨지인사이드, NH농협은행 오픈이노베이션 최우수상 수상…금융상품 광고 Compliance AI 선보여",
+          "link": "https://www.etnews.com/20261127000225",
+          "image": "https://img.etnews.com/news/article/2026/11/27/news-p.v1.20261127.84eb959475084c499e19c937655528ea_P1.jpg"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "economy",
+      "name": "경제·금융",
+      "items": [
+        {
+          "headline": "국민연금 적립금… 석달새 202조 줄어",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Society/article/all/20261127/135106505/2",
+          "original_title": "국민연금 적립금… 석달새 202조 줄어",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "국민연금 적립금… 석달새 202조 줄어",
+              "link": "https://www.donga.com/news/Society/article/all/20261127/135106505/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/28/135106598.1.jpg"
+            },
+            {
+              "name": "매일경제",
+              "title": "3개월만에 202조원 사라진 국민연금 적립금…국내주식 하락률 가장 컸다",
+              "link": "https://www.mk.co.kr/news/economy/12220533",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/27/news-p.v1.20240626.64285c2f62a1404bad73902e0be7f8db_R.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "국민연금 적립금 석 달 만에 202조 원↓…1~3분기 수익률 13%",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZN00yRURyY1lYMGdqUFFYUnVJTGFjcmM2bkxSTnNnR0NCRlBmTTlZQmVxc09Sd0RPeWdUd0xsRnp5a0o1b1gtSWtWT0NTMlo3cFZlODJiTHlDQ3M?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/27/20261127_gHfX00.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8724762"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "국민연금 적립금 석달만에 202조원↓…3분기 수익률 13%",
+              "link": "https://www.yna.co.kr/view/AKR20261127153400530",
+              "image": "https://img7.yna.co.kr/photo/cms/2019/04/23/02/PCM20190423000102990_P4.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+          "summary": "",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/business/12220647",
+          "original_title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "매일경제",
+              "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+              "link": "https://www.mk.co.kr/news/business/12220647",
+              "image": "https://pimg.mk.co.kr/news/cms/202611/28/news-p.v1.20261128.e96c5f4a6ce74cde9357cf9abf61bfe6_R.png"
+            },
+            {
+              "name": "연합인포맥스",
+              "title": "SK하이닉스, 자사주 매수 주문량 35만주→70만주 확대",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kS0pZeDFsUTFiRTRYNWV0WGFkMXpTTEtPQ3hENzVPeUZxRU85X1I1c1F6SzNlZmVVMkhEVkRQWlRJa25jTWV5cjczbDAxNFh4ZXZqOTJYblBWMktQeVJIUDExQzBuVXdwdEtsaFJ4ZHg?oc=5",
+              "image": "https://cdn.news.einfomax.co.kr/news/thumbnail/202611/4447051_360011_404_v150.jpg",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4447051"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "SK하이닉스, 자사주 일일 매수 주문량 2배로…주주가치 제고",
+              "link": "https://www.yna.co.kr/view/AKR20261127165200003",
+              "image": "https://img5.yna.co.kr/photo/yna/YH/2026/10/28/PYH2026102808760006100_P4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "패션",
+      "items": [
+        {
+          "headline": "[현장]2026 한국디자이너패션어워즈, 글로벌 K-패션 주역 한자리에",
+          "summary": "",
+          "source": "한국섬유신문",
+          "link": "http://www.ktnews.com/news/articleView.html?idxno=150504",
+          "original_title": "[현장]2026 한국디자이너패션어워즈, 글로벌 K-패션 주역 한자리에",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "한국섬유신문",
+              "title": "[현장]2026 한국디자이너패션어워즈, 글로벌 K-패션 주역 한자리에",
+              "link": "http://www.ktnews.com/news/articleView.html?idxno=150504",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150504_134220_3937_v150.jpg"
+            },
+            {
+              "name": "패션비즈",
+              "title": "2026 한국디자이너패션어워즈, 임동준·박소영·박준민 등 수상",
+              "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOOXdTQ290WW5YR0lfNVYwLTJ4dEVlWXZzenRGQjBvQXY0UC1SXy12Z3VGX2hMVlhlOUY3ZWRwbXJCREhEQmFlZ2xpSGtodU1z?oc=5",
+              "image": "https://www.fashionbiz.co.kr/images/articleImg/mainImg/1795766918997-S20.jpg",
+              "url": "https://fashionbiz.co.kr/article/231425"
+            },
+            {
+              "name": "노컷뉴스",
+              "title": "2026 한국디자이너패션어워즈, 임동준 최우수디자이너상",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpQ1h5QmlIZlVrYU85blVVWkt6RkNpY3k3MHpRLWxBdFZjRjdzSWQ2ajR5UnpzNlk3dlhnYVI0US01RmY5aV9CTmNqa0hISTlVTXc?oc=5",
+              "image": "https://file2.nocutnews.co.kr/newsroom/image/2026/11/27/202611271640565452_0.jpg",
+              "url": "https://www.nocutnews.co.kr/news/6613869"
+            },
+            {
+              "name": "스포츠한국",
+              "title": "[현장] 한국 패션을 빛낸 얼굴들… ‘2026 한국디자이너패션어워즈’",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzeTdxdVNLOHczYjRVQWlxLWJYNjlSaTBFQ0ZuS1lfUXUtOE5Md1JPRWRsWVpDWHo4QUN0clZGZHRRNkpETXhTUXBQZHZlTjFESmhrd2cxRkdpWU9yQk9NeWpjc1pBd0tsRUM4V2phejXSAXRBVV95cUxPQndrUGVhZU5vSHFkbzNrYW9RdnloZ1lVUU02TW00QkpKUDMxUFlQNnNrMzJUQVJIWm40VkRzd05ielRYRXJZR1ZVM0E0MnJiNUlxazVlZDRsdWZIQ3lQNTlHcHh6T0QxNlNRY1M4TmFpZk5jUw?oc=5",
+              "image": "https://cdn.sports.hankooki.com/news/thumbnail/202611/6944310_1222681_420_v150.jpg",
+              "url": "https://sports.hankooki.com/news/articleView.html?idxno=6944310"
+            }
+          ]
+        },
+        {
+          "headline": "샤넬 홀리데이 팝업을 밝힌 카리나의 메이크업 룩!",
+          "summary": "",
+          "source": "Harper's BAZAAR Korea",
+          "link": "https://www.harpersbazaar.co.kr/article/1913874",
+          "original_title": "샤넬 홀리데이 팝업을 밝힌 카리나의 메이크업 룩!",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "Harper's BAZAAR Korea",
+              "title": "샤넬 홀리데이 팝업을 밝힌 카리나의 메이크업 룩!",
+              "link": "https://www.harpersbazaar.co.kr/article/1913874",
+              "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/11/27/80d3648e-6590-42dc-ae74-d353dedc9d8e.jpg"
+            },
+            {
+              "name": "VOGUE Korea",
+              "title": "눈꽃을 닮은 얼굴, 카리나의 홀리데이 메이크업",
+              "link": "https://www.vogue.co.kr/2026/11/27/%eb%88%88%ea%bd%83%ec%9d%84-%eb%8b%ae%ec%9d%80-%ec%96%bc%ea%b5%b4-%ec%b9%b4%eb%a6%ac%eb%82%98%ec%9d%98-%ed%99%80%eb%a6%ac%eb%8d%b0%ec%9d%b4-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85/",
+              "image": "https://www.vogue.co.kr/wp_data/vogue/2026/11/style_6b078f6ac3b2c-scaled-1920x1080.jpg?x=1450&y=2366&ver=1.1.74",
+              "url": "https://www.vogue.co.kr/2026/11/27/%EB%88%88%EA%BD%83%EC%9D%84-%EB%8B%AE%EC%9D%80-%EC%96%BC%EA%B5%B4-%EC%B9%B4%EB%A6%AC%EB%82%98%EC%9D%98-%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4-%EB%A9%94%EC%9D%B4%ED%81%AC%EC%97%85/"
+            },
+            {
+              "name": "W Korea",
+              "title": "겨울빛으로 물든 카리나의 홀리데이 메이크업",
+              "link": "https://www.wkorea.com/2026/11/27/%ea%b2%a8%ec%9a%b8%eb%b9%9b%ec%9c%bc%eb%a1%9c-%eb%ac%bc%eb%93%a0-%ec%b9%b4%eb%a6%ac%eb%82%98%ec%9d%98-%ed%99%80%eb%a6%ac%eb%8d%b0%ec%9d%b4-%eb%a9%94%ec%9d%b4%ed%81%ac%ec%97%85/",
+              "image": "https://www.wkorea.com/wp_data/w/2026/11/style_6b07c8698ab48-scaled-1920x1080.jpg?x=1440&y=2298&ver=1.2.12",
+              "url": "https://www.wkorea.com/2026/11/27/%EA%B2%A8%EC%9A%B8%EB%B9%9B%EC%9C%BC%EB%A1%9C-%EB%AC%BC%EB%93%A0-%EC%B9%B4%EB%A6%AC%EB%82%98%EC%9D%98-%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4-%EB%A9%94%EC%9D%B4%ED%81%AC%EC%97%85/"
+            },
+            {
+              "name": "ELLE Korea",
+              "title": "샤넬 홀리데이 팝업에서 카리나가 한 메이크업은?",
+              "link": "https://www.elle.co.kr/article/1913815",
+              "image": "https://www.elle.co.kr/resources/online/thumbnail/hf/2026/11/26/033ec2dd-3585-4186-9036-68b32db5e65d.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "items": [
+        {
+          "headline": "CJ올리브영, K-뷰티 10곳 육성",
+          "summary": "CJ올리브영이 국내외 판로 지원으로 10개 K-뷰티 신진 브랜드를 육성한다.",
+          "source": "천지일보",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NYUtVNVktelZzNnlQV2RFR0xTUVVHTEl3cUFzb0xwVG1MOFpvTWpEaXdZMzBsTVktTjU2MmpRSnk3c0tkUUdIQlhYNDl5TG44UE5BYWZFd3VVdF9UYjRWczNZV3VGdWVqeWc?oc=5",
+          "original_title": "CJ올리브영, K-뷰티 신진 브랜드 10곳 육성… 글로벌 판로 확대 지원",
+          "coverage": 4,
+          "sources": [
+            {
+              "name": "천지일보",
+              "title": "CJ올리브영, K-뷰티 신진 브랜드 10곳 육성… 글로벌 판로 확대 지원",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NYUtVNVktelZzNnlQV2RFR0xTUVVHTEl3cUFzb0xwVG1MOFpvTWpEaXdZMzBsTVktTjU2MmpRSnk3c0tkUUdIQlhYNDl5TG44UE5BYWZFd3VVdF9UYjRWczNZV3VGdWVqeWc?oc=5",
+              "image": "https://cdn.newscj.com/news/thumbnail/202611/3452740_3581526_459_v150.jpg",
+              "url": "https://www.newscj.com/news/articleView.html?idxno=3452740"
+            },
+            {
+              "name": "한국섬유신문",
+              "title": "CJ올리브영, K뷰티 10곳 국내외 판로 지원",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6NlhRYlhNcFdVV1JfNkVYdGlGODYtWFFaNEwwcU1YVnlOZTFGQjZnYzZJbDFNMUdnWWVocXNRdnZYSnJRbVkxNjRNZ3d3QmtNY0V6TXRYbFVIeHQtdEJWejJBR1hkZVRS?oc=5",
+              "image": "https://www.ktnews.com/news/thumbnail/202611/150496_134207_1837_v150.jpg",
+              "url": "https://www.ktnews.com/news/articleView.html?idxno=150496"
+            },
+            {
+              "name": "조세일보",
+              "title": "올리브영, 'K-뷰티 유망주' 10곳 키운다…마케팅·유통망 확대 지원",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pTmxKSGZ6SkF1M3N3OS1kc2swS1pRSmFHSzJYbEZqOHNrWW9HeVhTV1BLYzI5aEpVM1hGMU4zeXpjckdpTFhacW81b2JSVUFOTmNoZEdfYzB2Z2ZZMjhiQ29ieXpKMm1zRVpiQlhsdUZmS2tW?oc=5",
+              "image": "https://www.joseilbo.com/gisa_img/17957569801795756980_min0212su.jpg",
+              "url": "https://m.joseilbo.com/news/view.htm?newsid=580619&class2=&class=3"
+            },
+            {
+              "name": "문화투데이",
+              "title": "올리브영, K뷰티 '슈퍼루키' 10곳 키운다",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sWnhvZ2dlOXpQazRlYV8xZDFqV3NmYW1USFNROWNiM2tUOW5zN1ZWNnNsU2k5MndNVlJSRncwcVlRTTExUnZ3UlRrd1FhWmFPQS03WUVLUlVzWk9XSzk2SkxRcU9oS3Jp?oc=5",
+              "image": "https://www.munhwatoday.co.kr/data/photos/20261148/art_17957445867293_e5599d.jpg",
+              "url": "https://www.munhwatoday.co.kr/news/article.html?no=179049"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "name": "라이프스타일",
+      "items": [
+        {
+          "headline": "순천만국가정원서 요가하고 드림호서 차 마시고 … 28일~29일 ‘가든 웰니스 페스타’",
+          "summary": "",
+          "source": "현장뉴스",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6SldPckNjWmxxeFZ0aktNUl9ndGlrUXJQZU01OHYzVFRXMXBDN3hXUjNacUk1dVQ3X01IeUdPUGtDWTJPNlQtck55YUYtRWNfTGN3YU1ZMGFkbm5JdEdBdVk0S05lTGw2V2VPdGtFaTVLMEXSAXNBVV95cUxQekpXT3JDY1pscXhWdGpLTVJfZ3Rpa1FyUGVNNTh2M1RUVzFwQzd4V1IzWnFJNXVUN19NSHlHT1BrQ1kyTzZULXJOeWFGLUVjX0xjd2FNWTBhZG5uSXRHQXVZNEtOZUxsNldlT3RrRWk1SzBF?oc=5",
+          "original_title": "순천만국가정원서 요가하고 드림호서 차 마시고 … 28일~29일 ‘가든 웰니스 페스타’",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "현장뉴스",
+              "title": "순천만국가정원서 요가하고 드림호서 차 마시고 … 28일~29일 ‘가든 웰니스 페스타’",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6SldPckNjWmxxeFZ0aktNUl9ndGlrUXJQZU01OHYzVFRXMXBDN3hXUjNacUk1dVQ3X01IeUdPUGtDWTJPNlQtck55YUYtRWNfTGN3YU1ZMGFkbm5JdEdBdVk0S05lTGw2V2VPdGtFaTVLMEXSAXNBVV95cUxQekpXT3JDY1pscXhWdGpLTVJfZ3Rpa1FyUGVNNTh2M1RUVzFwQzd4V1IzWnFJNXVUN19NSHlHT1BrQ1kyTzZULXJOeWFGLUVjX0xjd2FNWTBhZG5uSXRHQXVZNEtOZUxsNldlT3RrRWk1SzBF?oc=5",
+              "url": "https://www.fieldnews.co.kr/news/articleViewAmp.html?idxno=245379"
+            },
+            {
+              "name": "순천독립신문",
+              "title": "순천만국가정원서 ‘가든 웰니스 페스타’…28~29일 정원에서 쉬고 움직인다",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV29EMDZEOGV2Qmt6SGRfdEV0VWlETzVRdGJpZE1NSFM1d3RJRUdJazUxTHdHeEEzall5a3pmQ0NTQUdRS0Y1ZjFoQ0E1WWZIQzFqekJxaDRITHVwQkQ3VUctREVobF9rV19mdDdZVFQtYVBWYnQ3dVl5dFpvbFNXdDVsUHc2WWM?oc=5",
+              "image": "https://www.sunchon123.com/uploads/2026/11/garden_wellness_photo1_9bb70805c88d.png",
+              "url": "https://www.sunchon123.com/news.php?slug=suncheon-garden-wellness-festa-20261128"
+            },
+            {
+              "name": "시사의창",
+              "title": "순천만국가정원서 몸과 마음 치유한다…‘가든 웰니스 페스타’ 28~29일 개최",
+              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xbDRZMHY5V3VUdnBUOEhOZXJDVktwUXh1dXc5V2NxdUl0V3Y0RElmNFY3NGVRX0tjZ052MlBSYjByOXpJOE9ZeFgzOXBxVnhrLXZucQ?oc=5",
+              "image": "https://cdn.coenworks.com/Files/331/News/202611/7796_20261127170306839_w.jpg",
+              "url": "https://sisaissue.com/View.aspx?No=4333174"
+            },
+            {
+              "name": "비즈월드",
+              "title": "순천만국가정원, 28~29일 ‘가든 웰니스 페스타’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GWktCU0ZzZy01czRyaEFsYzNKNkJ1WDhDaG1SWll2UlNsbkpBeUZUek9INVVOcnRSenhseGFWT0FwS2w5OWFkWGlETlFrcjl5S3pVTXdJYTcweGcwSHlDZGVxUXZ0ZWhTejdB?oc=5",
+              "image": "https://cdn.bizwnews.com/news/thumbnail/202611/153594_171238_124_v150.jpg",
+              "url": "https://www.bizwnews.com/news/articleView.html?idxno=153594"
+            },
+            {
+              "name": "여성종합뉴스",
+              "title": "순천만국가정원, 가을 정원에서 치유의 축제 ‘가든 웰니스 페스타’ 개최",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yNFJJdTRlRjY5UnZIWmJadHlqTmtwcWNTV1dudXo5NU8zWnpLTnA3YWpwSGNKMlJfcFRrT3FpZHFWYzFFZUp6TDgzNkY2ZmdYQlpENEVOVFc1dw?oc=5",
+              "image": "https://womannews.net/wys2/file_attach/2026/11/27/1795747664_11310.jpg",
+              "url": "https://womannews.net/detail.php?number=460324"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domestic",
+      "name": "국내",
+      "items": [
+        {
+          "headline": "법사위, 이용철 청문보고서 與 주도 채택…국힘 표결 불참(종합)",
+          "summary": "",
+          "source": "연합뉴스",
+          "link": "https://www.yna.co.kr/view/AKR20261127130151001",
+          "original_title": "법사위, 이용철 청문보고서 與 주도 채택…국힘 표결 불참(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "title": "법사위, 이용철 청문보고서 與 주도 채택…국힘 표결 불참(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261127130151001",
+              "image": "https://img7.yna.co.kr/photo/yna/YH/2026/11/24/PYH2026112406420001300_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "법사위, 이용철 청문보고서 민주당 주도 채택…국민의힘 표결 불참",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867184",
+              "image": "https://img.sbs.co.kr/newimg/news/20261127/202244929_1280.jpg"
+            },
+            {
+              "name": "한겨레",
+              "title": "이용철 법무장관 후보자 청문보고서 채택…국힘 퇴장",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBacWlYZjJERDgtTGR0TURfTm1DbWYtZlUtUjV0c2h0YWdXUlZqUDRPN2RvY1NEZDlfQnlJOVpBOHY0LVQ0OGd5R2JkMkprRDMxQVJ3Y1hRaUdZOGl2RkRzSkRPUFVqSnJSSUZkOEdkdVlqaGc3?oc=5",
+              "image": "https://flexible.img.hani.co.kr/flexible/normal/640/426/imgdb/original/2026/1127/20261127501971.webp",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1289457.html"
+            }
+          ]
+        },
+        {
+          "headline": "이스라엘軍, 팔레스타인 주민 ‘인간 방패’로 사용 논란",
+          "summary": "",
+          "source": "동아일보",
+          "link": "https://www.donga.com/news/Inter/article/all/20261128/135107233/2",
+          "original_title": "이스라엘軍, 팔레스타인 주민 ‘인간 방패’로 사용 논란",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "동아일보",
+              "title": "이스라엘軍, 팔레스타인 주민 ‘인간 방패’로 사용 논란",
+              "link": "https://www.donga.com/news/Inter/article/all/20261128/135107233/2",
+              "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/28/135107236.3.jpg"
+            },
+            {
+              "name": "KBS 뉴스",
+              "title": "‘팔레스타인 인간방패’ 공영방송 폭로에 이스라엘 ‘발칵’",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYTFlVSmRGeDh5a29BdEFObURqaHNzdE5ISDJoMU9KUFFHcHVKN3k3MndDX2EteXJzNFY1R3FjY2tkNXpDNkFhVm8yR0Z3TXVCNTA0RHJoZE95ZDQ?oc=5",
+              "image": "https://news.kbs.co.kr/data/news/2026/11/28/20261128_Q8X3dj.jpg",
+              "url": "https://news.kbs.co.kr/news/view.do?ncd=8725100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "국제",
+      "items": [
+        {
+          "headline": "러시아 항공유 수출 금지 연장 2027년 3월까지",
+          "summary": "러시아 정부는 항공유 수출 금지 조치를 2027년 3월까지 연장했다 이 조치는 우크라이나 공습에 대응해 설정된 것으로 보인다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867417",
+          "original_title": "러시아, 항공유 수출 금지 내년 3월까지 4개월 연장",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "러시아, 항공유 수출 금지 내년 3월까지 4개월 연장",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867417",
+              "image": "https://img.sbs.co.kr/newimg/news/20240518/201934014_1280.jpg"
+            },
+            {
+              "name": "뉴시스",
+              "title": "러시아, 항공유 수출 금지 내년 3월까지 연장",
+              "link": "https://www.newsis.com/view/NISX20261127_0003886917",
+              "image": "https://img1.newsis.com/2026/05/17/NISI20260517_0001262484_web.jpg"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "러시아, 항공유 수출 금지 4개월 연장…내년 3월까지",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PZVJoNmdiN3NVcEh5QjFaQUk1VDFHT1F1MUk2MWVIWEpNV1F3M2tDbHNBOFMtNDl1WE5uUWhLS2hPYmZIMm91RGVQOUUwNVJEaDRpZElnT21ScUXSAWBBVV95cUxNdzA4VFUyMTZDYnFPTktIRW9fSnhlMkp0czQxR0VkbHZBXy1IVDBWWG5zdHB6MGhIc084M0szSWZUWDhxRTNFZHVnaGh6eWpFQ2JuaS01UEgyZFpTalpCVzU?oc=5",
+              "image": "https://img0.yna.co.kr/photo/reuters/2026/11/18/PRU20261118375601009_P4.jpg",
+              "url": "https://www.yna.co.kr/view/AKR20261127165300099"
+            }
+          ]
+        },
+        {
+          "headline": "이란 혁명수비대, 미국 해상봉쇄 돌파 결의",
+          "summary": "이란 이슬람혁명수비대는 미국의 해상 봉쇄를 돌파하겠다는 결의문을 발표했다 이는 미국과 이란 사이의 긴장을 재확인한 조치다",
+          "source": "SBS 뉴스",
+          "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867458",
+          "original_title": "이란 혁명수비대, 미국 해상봉쇄 돌파 결의…\"공중·해상서 행동\"",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "SBS 뉴스",
+              "title": "이란 혁명수비대, 미국 해상봉쇄 돌파 결의…\"공중·해상서 행동\"",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867458",
+              "image": "https://img.sbs.co.kr/newimg/news/20260619/202194395_1280.jpg"
+            },
+            {
+              "name": "MBC 뉴스",
+              "title": "이란 혁명수비대, 미국 해상봉쇄 돌파 결의‥\"공중·해상서 행동\"",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlczlMbW43MGtNWmVVZ3ptMG5lV2lVTUYxNnhkQW5MOGgyM2xvZ1FHcU1jWEFMSWVsRzN3bGhCc3VNREZYMWN3QmxQa2pmMGhZb2lwNXdHTHNUSUJxYWV5Mkd1UGplcl9aUGhVMjhPLVI3TUlC0gF0QVVfeXFMT1dYWml6TlAxU3pGVEVneFhhLTV5VDFFZ2VsdGxYaDNKWVlwY2RLdnhuNWtCRkN6ckNoY19CcUVDNWtUVUl6NkFpbXRmWnc2cVA4VXVOcmhWS0dCS0RPNS1RVFFER3pHWDBqVFNsOUI3bGxfcWE?oc=5",
+              "image": "https://image.imnews.imbc.com/news/2026/world/article/__icsFiles/afieldfile/2026/11/28/yj20261127-07.jpg",
+              "url": "https://imnews.imbc.com/news/2026/world/article/6869227_36925.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "테크",
+      "items": [
+        {
+          "headline": "[은행가] IBK기업은행, 'IBK AI 실험실' 개소 外",
+          "summary": "",
+          "source": "싱글리스트",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oWFVBa1ZiQzFRWlhiaHhGT19MUkZ4dlJuQzFDc1R0aXROSFF0UkcyM2hUZmtJeGlUNnJaOHdlcHhNV1RNbHlMck14M19EbWNQZEYwZXdrYXBJeTdkZDAwNU1jSl9XZw?oc=5",
+          "original_title": "[은행가] IBK기업은행, 'IBK AI 실험실' 개소 外",
+          "coverage": 12,
+          "sources": [
+            {
+              "name": "싱글리스트",
+              "title": "[은행가] IBK기업은행, 'IBK AI 실험실' 개소 外",
+              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oWFVBa1ZiQzFRWlhiaHhGT19MUkZ4dlJuQzFDc1R0aXROSFF0UkcyM2hUZmtJeGlUNnJaOHdlcHhNV1RNbHlMck14M19EbWNQZEYwZXdrYXBJeTdkZDAwNU1jSl9XZw?oc=5",
+              "image": "https://cdn.slist.kr/news/thumbnail/202611/785533_1199124_652_v150.jpg",
+              "url": "https://www.slist.kr/news/articleView.html?idxno=785533"
+            },
+            {
+              "name": "서울타임즈뉴스",
+              "title": "IBK기업은행, 을지로 본점에 ‘IBK AI 실험실’ 개소",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hM3ladW1XQlRCdTNqUGgwOFVPVl9TMXF5al9mbzRUaVZiNUZfOEYyX0R2VGJ1YUNqN1NZbHVKTklBdk1EZW50MG5lR2hKX0VKdDV0SjY1Qm85UExXQlRUTloxYmYxNHFvclQ4?oc=5",
+              "image": "https://www.seoultimes.news/data/photos/20261148/art_17957633673196_3ed6f6.jpg",
+              "url": "https://www.seoultimes.news/news/article.html?no=2000102819"
+            },
+            {
+              "name": "파이낸셜포스트",
+              "title": "IBK기업은행, 직원이 직접 서비스 개발…'AI 실험실' 개소",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aNk8wcGFZZ2JEUGJkZTBhVmYwT1kyYWN0Q0pXTGY2VnhTbzgzT2ZVRFZ3MmFUXzNnN1FmdTBrY2wtNzlqOEIzRTFUcGRwTjJGMDZKRjRHamxYQzZ4bnlEakhNRE9fd1l0clB5aDcwNjdlaU9y?oc=5",
+              "image": "https://cdn.financialpost.co.kr/news/photo/202611/303745_407080_1616.jpg",
+              "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=303745"
+            },
+            {
+              "name": "CNB뉴스",
+              "title": "기업은행, ‘IBK AI 실험실’ 개소",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zdjZBQmdXR0YxYW1CNEFFeXJCd0hkdFZlbVE2eklobURvdVA5WmxMakVEMzdBUzI3cVVvdGJ4cTdhaTRtRkF3UXV6SmVGd1NqUVlGUzQtN3hsMmpLQjNxRkdra1ZhRUdfR2xV?oc=5",
+              "image": "https://cdn.cnbnews.com/news/photo/202611/1025750_528755_4234.png",
+              "url": "https://www.cnbnews.com/news/articleView.html?idxno=1025750"
+            },
+            {
+              "name": "투어코리아",
+              "title": "\"현장 아이디어, 직접 AI 서비스로\"… 기업은행, 본점에 'IBK AI 실험실' 열어",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DM2FGWkdkbXJwV05pLVRONm1NSzA2LVFpWElFOXFabEVEcXBfc2RfQl84WTlQU3pOd2YzN0xWTlRpUUhKSl9lYkRJQWE2TjlETXZCWE9LRk83N0xYQ2NxeWpoRUJ0SmR1QUpocUJ3?oc=5",
+              "image": "https://cdn.tournews21.com/news/photo/202611/149446_277239_1740.jpg",
+              "url": "https://www.tournews21.com/news/articleView.html?idxno=149446"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "문화",
+      "items": [
+        {
+          "headline": "부산국제아트페어 벡스코서 개막",
+          "summary": "12월 3일 벡스코에서 250명의 작가가 3000여 점을 전시하며 부산국제아트페어가 개막했다.",
+          "source": "재경일보",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1xa296ZVhMREplUmNrbUpEdEw1azhWSFZzbFA0eWFHQlhHMTQyV2lLaWM2NjRrVUpBdmlPOVZlRUxXRzVYcVhzTm4yZw?oc=5",
+          "original_title": "부산국제아트페어 벡스코서 개막…국내외 3000여점 전시 : 문화",
+          "coverage": 3,
+          "sources": [
+            {
+              "name": "재경일보",
+              "title": "부산국제아트페어 벡스코서 개막…국내외 3000여점 전시 : 문화",
+              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1xa296ZVhMREplUmNrbUpEdEw1azhWSFZzbFA0eWFHQlhHMTQyV2lLaWM2NjRrVUpBdmlPOVZlRUxXRzVYcVhzTm4yZw?oc=5",
+              "image": "https://images.jkn.co.kr/data/images/full/113/34/1133455.jpg?v=1795822120&width=1200&height=630",
+              "url": "https://news.jkn.co.kr/post/1129000"
+            },
+            {
+              "name": "펜앤마이크",
+              "title": "부산국제아트페어, 오는 12월 3일 벡스코 개막…작가 250명·작품 3000여 점",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2NkRVU3lDT0xua2xKak91ZkJVdnM0UHlpOEV1U0N6TDJXN0FLZ2dDVkJCZk9lMnlXb1pCSXNxN08xOFJGUWZySU1WY2tsUmdURnlObGJ4aUNsTnpPYkV0c0UyMGhfVGNwTnB30gFvQVVfeXFMTTYwa0VfOTQySXJfSXVwQ2FsVmdfMWEyY1FtbXczYlY2ak9DS2UtcW04Z0VDeUpKd2tFaE9EQmQ0a3hELThoaFlEWTdZNjY0V3gtUHMzc1lGdFVfMGM0YjdVZnNzZ0tsZndaSXRHQ0Jr?oc=5",
+              "image": "https://cdn.pennmike.com/news/thumbnail/202611/132937_179701_254_v150.jpg",
+              "url": "https://www.pennmike.com/news/articleView.html?idxno=132937"
+            },
+            {
+              "name": "비즈한국",
+              "title": "작가와 관객이 직접 만나는 ‘2026 부산국제아트페어’ 12월 3일 벡스코에서 개막",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TN2RTTFhQdlRYbzFUbWZscmtzVmlxbC1ONU8tWnhzXzhjZ2FqUWMyY3RtbHBPT2dVZTZpVXlBVENvUFlxQVh0aXJ6VUdVM2hjd0REMzVBd2pVRkw0XzNCOUtCM01mSkdTZzl3YTRJbEFKY08xVXpQSW5B?oc=5",
+              "image": "https://s.bizhankook.com/attachments_og/2026/11/137399_og_ae7eb02d.jpg",
+              "url": "https://bizhankook.com/articles/busan-international-art-fair-2026.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "스포츠",
+      "items": [
+        {
+          "headline": "MLB 디트로이트, 김하성 1년 계약 공식 발표…\"환영합니다\"(종합)",
+          "summary": "",
+          "source": "뉴시스",
+          "link": "https://www.newsis.com/view/NISX20261128_0003887051",
+          "original_title": "MLB 디트로이트, 김하성 1년 계약 공식 발표…\"환영합니다\"(종합)",
+          "coverage": 5,
+          "sources": [
+            {
+              "name": "뉴시스",
+              "title": "MLB 디트로이트, 김하성 1년 계약 공식 발표…\"환영합니다\"(종합)",
+              "link": "https://www.newsis.com/view/NISX20261128_0003887051",
+              "image": "https://img1.newsis.com/2026/11/28/NISI20261128_0002304878_web.jpg"
+            },
+            {
+              "name": "YTN",
+              "title": "디트로이트, 김하성과 1년 계약 공식 발표",
+              "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NdnRiTTJGSGUxVGdnblk4d3hwOWY2Y25Oc1IwaTVGVGpsNjdwSkJEQkt6OEpiOU9MT2cxampyUXRHU2ViRm9ZaU40M09uU1pveHZ0YTZMcm00OXR1LXc?oc=5",
+              "url": "https://www.ytn.co.kr/_ln/0107_202611281049281444"
+            },
+            {
+              "name": "연합뉴스",
+              "title": "MLB 디트로이트, 김하성과 1년 계약 공식 발표(종합)",
+              "link": "https://www.yna.co.kr/view/AKR20261128020751007",
+              "image": "https://img8.yna.co.kr/etc/inner/KR/2026/11/28/AKR20261128020751007_01_i_P4.jpg"
+            },
+            {
+              "name": "SBS 뉴스",
+              "title": "MLB 디트로이트, 김하성과 연봉 500만 달러 1년 계약 공식 발표",
+              "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867680",
+              "image": "https://img.sbs.co.kr/newimg/news/20261128/202245104_1280.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": {
+    "by": "rule",
+    "title": "옷 잘 입는 사람들의 겨울 레이어드 공식",
+    "tagline": "Harper's BAZAAR Korea 최신 기사",
+    "description": "",
+    "items": [],
+    "tips": [],
+    "weather_tip": "",
+    "weather": {
+      "city": "서울",
+      "t_max": 8,
+      "t_min": 1,
+      "rain_pct": 2,
+      "sky": "흐림",
+      "display": "서울 1~8°C · 흐림 · 강수 2%"
+    },
+    "articles": [
+      {
+        "title": "옷 잘 입는 사람들의 겨울 레이어드 공식",
+        "name": "Harper's BAZAAR Korea",
+        "link": "https://www.harpersbazaar.co.kr/article/1913928",
+        "image": "https://www.harpersbazaar.co.kr/resources/online/thumbnail/hf/2026/11/27/a7eca448-bdd8-4310-a2fa-30558f4cc1cb.jpg"
+      }
+    ]
+  },
+  "quote": {
+    "text": "그래도 우리는 우리의 밭을 가꾸어야 합니다.",
+    "author": "볼테르",
+    "work": "캉디드"
+  },
+  "fortune": {
+    "type": "zodiac",
+    "items": [
+      {
+        "animal": "쥐",
+        "text": "오늘은 작은 기회가 커다란 웃음으로 이어진다"
+      },
+      {
+        "animal": "소",
+        "text": "지금은 마음을 열고 새로운 아이디어를 받아들여라"
+      },
+      {
+        "animal": "호랑이",
+        "text": "당신의 열정이 주변을 밝히는 순간"
+      },
+      {
+        "animal": "토끼",
+        "text": "조용한 대화가 큰 이해를 만들어낸다"
+      },
+      {
+        "animal": "용",
+        "text": "오늘은 리더십이 빛을 발한다"
+      },
+      {
+        "animal": "뱀",
+        "text": "세심한 관찰이 기회를 놓치지 않는다"
+      },
+      {
+        "animal": "말",
+        "text": "당신의 에너지가 팀을 움직인다"
+      },
+      {
+        "animal": "양",
+        "text": "배려가 당신의 매력을 더한다"
+      },
+      {
+        "animal": "원숭이",
+        "text": "유연한 사고가 문제를 해결한다"
+      },
+      {
+        "animal": "닭",
+        "text": "정확한 계획이 성과를 부른다"
+      },
+      {
+        "animal": "개",
+        "text": "신뢰가 당신의 길을 밝힌다"
+      },
+      {
+        "animal": "돼지",
+        "text": "따뜻한 마음이 새로운 인연을 만든다"
+      }
+    ]
+  },
+  "reading_minutes": 2
+}
